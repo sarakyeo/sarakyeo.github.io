@@ -69,7 +69,7 @@ One note-taking system that you might consider trying is the [Cornell system](ht
 An example of my own notes using the Cornell system:
 
 <center>
-<img src="cornell-notes.png"
+<img src="images/cornell-notes.png"
      alt="Cornell system of note-taking example"/>
 </center>
 
