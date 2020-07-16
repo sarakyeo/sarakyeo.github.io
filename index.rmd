@@ -164,7 +164,7 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
   Readings: Wrench Ch. 8 </br>
   Lab: LA.6--Relationships in Data (10 pts)
 
-### Week 7 (05-Oct)
+### Week 7 (5-Oct)
 > Sampling | **Quiz 7** </br>
   Readings: Wrench Ch. 12, ASA pp. 63-68 </br>
   Lab: LA.7--Practice Data Analysis (10 pts)
@@ -182,11 +182,11 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
 ### Week 10 (26-Oct)
 > Data analysis | **Quiz 10**
 
-### Week 11 (02-Nov)
+### Week 11 (2-Nov)
 > Group Project work | **Quiz 11** </br>
   Lab: GP.F--Univariate Graphs (10 pts)
 
-### Week 12 (09-Nov)
+### Week 12 (9-Nov)
 > Group Project work </br>
   Lab: GP.G--Bivariate Graphs (10 pts)
 
