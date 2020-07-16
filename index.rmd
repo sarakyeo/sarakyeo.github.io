@@ -1,5 +1,7 @@
 ---
-title: "COMM 3710-008: Introduction to Quantitative Communication Research"
+title: |
+  | <a name="top"></a>
+  | COMM 3710-008: Introduction to Quantitative Communication Research
 author: |
   | Prof. Sara K. Yeo
   | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
@@ -12,11 +14,6 @@ urlcolor: blue
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<hr>
-<font size = "3">Fall 2020 </br>
-University of Utah </br>
-Prof. Sara K. Yeo </br>
-[sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)</font>
 
 # Course Outline
 This **asynchronous online course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and write research reports. Key topics include:
@@ -29,6 +26,8 @@ This **asynchronous online course** is a basic research methods course for those
 
 I expect you to log into the course regularly (at least 3-5 times per week), complete and submit work in a timely manner, and ask questions.
 
+<a href="#top">Back to top</a>
+
 # Required Text and Readings
 Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
 
@@ -36,6 +35,8 @@ Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On
 * You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
 
 Additional readings will be provided as PDF documents on Canvas.
+
+<a href="#top">Back to top</a>
 
 # Technical Requirements and Computer Software
 To ensure that you have full access to the course, you will need:
@@ -48,6 +49,8 @@ To ensure that you have full access to the course, you will need:
 We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
 
 You will need access to [Canvas](https://utah.instructure.com/) and [Zoom](https://zoom.us/). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701). If you need help with Zoom, visit this [site](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+
+<a href="#top">Back to top</a>
 
 # Course Requirements
 Course grades will be based on the following:
@@ -65,6 +68,8 @@ Course grades will be based on the following:
 
 **Discussion board participation.** Your participation in the [Discussions](https://utah.instructure.com/courses/628882/discussion_topics) on Canvas will be part of your overall course grade. You will be assessed based on the quality and professionalism of your interactions with your peers and instructor(s). Be sure to check the discussions frequently and ask and/or respond to questions as appropriate. You are part of a learning community in this course and are expected to be an active participant in this community.
 
+<a href="#top">Back to top</a>
+
 # Course Grading
 \begin{center}
 \begin{tabular}{ l l l l }
@@ -76,11 +81,15 @@ Course grades will be based on the following:
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php). If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade. You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
+<a href="#top">Back to top</a>
+
 # On Learning Strategies
 One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it. Our goal is “knowledge integration,” connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
 
 1. Make sure you complete the readings, actively drawing out the implications of the texts by connecting them to things you already know, have read in the news, or are learning in other classes.
 2. Actively engage with the content and ask questions about things you do not understand. Respectful discussion is encouraged in all my courses.
+
+<a href="#top">Back to top</a>
 
 # Course Policies
 By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the **minimal standards** to make the classroom a productive learning space for all. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
@@ -103,6 +112,8 @@ In the event of a University-wide emergency which prevents us from meeting face-
 
 Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
+<a href="#top">Back to top</a>
+
 # University Policies
 **COVID-19.** If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
 
@@ -114,6 +125,7 @@ Curriculum accommodations take two forms—scheduling and content accommodations
 
 **Undocumented Student Support Statement.** Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
 
+<a href="#top">Back to top</a>
 
 # Schedule
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
@@ -188,3 +200,5 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
 
 ### Week 15 (30-Nov)
 > Group Project work \newline
+
+<a href="#top">Back to top</a>
