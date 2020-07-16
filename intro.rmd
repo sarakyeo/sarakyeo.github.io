@@ -1,13 +1,12 @@
 ---
-title: "COMM 3710: Introduction"
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Introduction
 output:
-  html_document: default
+  html_document:
+    toc: true
 urlcolor: blue
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # An Introduction to Prof. Yeo
 Welcome back to a new semester and to COMM 3710!
@@ -18,11 +17,15 @@ I'm Prof. Yeo and I'm an Associate Professor in the Department of Communication.
 
 I can also be found on [Twitter](https://twitter.com/sarakyeo) and more information (and my CV) is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you're interested in science communication research, please get in touch ([sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)).
 
+<a href="#top">Back to top</a>
+
 # Some Highlights from the Syllabus
 ## Course Textbook
 Your textbook is available on Canvas through Inclusive Access. It is a great resource and I highly encourage you to use it as we progress through the semester.
 
 Additional readings will be available as PDFs on Canvas.
+
+<a href="#top">Back to top</a>
 
 ## Technology
 1. Ensure that you are familiar with Canvas. Set up your notifications according to your preferences. If you need help with Canvas, review this [page](https://support.tlt.utah.edu/hc/en-us/articles/205654094).
@@ -31,6 +34,8 @@ Additional readings will be available as PDFs on Canvas.
 4. You will also need access to [R](https://www.r-project.org/). More information about R will be provided as the semester progresses.
 5. You will need a webcam and a microphone to participate in drop-in office hours. We will use [Zoom](https://zoom.us/) for virtual office hours.
 6. The U's [Teaching \& Learning Technologies](https://tlt.utah.edu/) recommends that you have the **latest versions of at least two** browsers installed. The preferred web browser is [Google Chrome](https://www.google.com/chrome/browser/desktop/).
+
+<a href="#top">Back to top</a>
 
 # Some Helpful Resources
 ## Canvas Help
@@ -47,3 +52,5 @@ For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Cam
 - Website: [https://it.utah.edu/help/](https://it.utah.edu/help/)
 
 Help is available Monday through Saturday. Please visit the [Campus Help Desk website](https://it.utah.edu/help/) for more information.
+
+<a href="#top">Back to top</a>

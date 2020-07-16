@@ -135,7 +135,7 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
 *Note: LA = individual lab assignment, GP = group project component*
 
 ### Week 1 (24-Aug)
-> Course introduction | **Quiz 1** </br>
+> [Course introduction](https://sarakyeo.github.io/intro.html) | **Quiz 1** </br>
   Readings: syllabus, Pauk Ch. 7, Wrench Ch, 1 </br>
   Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
 
