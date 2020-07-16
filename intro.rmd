@@ -11,7 +11,7 @@ urlcolor: blue
 # An Introduction to Prof. Yeo
 Welcome back to a new semester and to COMM 3710!
 
-I hope you are all well given the circumstances. Because of the coronavirus pandemic, COMM 3710 has moved online and will primarily be asynchronous. For more information on the course, please see the [course syllabus](https://utah.instructure.com/files/59268788/download?download_frd=1).
+I hope you are all well given the circumstances. Because of the coronavirus pandemic, COMM 3710 has moved online and will primarily be asynchronous. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io).
 
 I'm Prof. Yeo and I'm an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
 
