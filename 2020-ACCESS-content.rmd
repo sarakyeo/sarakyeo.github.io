@@ -1,0 +1,25 @@
+---
+title: |
+  | <a name="top"></a>
+  | ACCESS Program
+  | The Science of Science Communication
+  | Summer 2020
+output:
+  html_document:
+    toc: true
+urlcolor: blue
+---
+
+Welcome to the science communication module of your summer ACCESS program! Let's begin by meeting one of your instructors for this module, Dr. Sara Yeo!
+
+# An Introduction to Prof. Yeo
+I hope you are all well given the circumstances. I was looking forward to interacting with you in-person this summer but due to the coronavirus pandemic, the ACCESS program has moved online and will mostly be asynchronous. We will have a chance to get together virtually so you can ask questions (on July 29).
+
+I'm Dr. Yeo and I'm an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, I am working on research about [science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864), which is funded by the [National Science Foundation](https://nsf.gov/).
+
+I can also be found on [Twitter](https://twitter.com/sarakyeo) and more information (and my CV) is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you're interested in science communication research or have any questions (even after this course is completed), please get in touch ([sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)).
+
+And... since you'll probably meet her on Tuesday (she likes to be involved in Zoom calls), meet my cat, Boomz:
+<center><img src="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/images/Boomz1.jpg"/><img src="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/images/Boomz2.jpg"/><img src="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/images/Boomz3.jpg"/><img src="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/images/Boomz4.jpg"/></center>
+
+<a href="#top">Back to top</a>
