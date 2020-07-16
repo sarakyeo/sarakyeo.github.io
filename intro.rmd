@@ -1,0 +1,49 @@
+---
+title: "COMM 3710: Introduction"
+output:
+  html_document: default
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# An Introduction to Prof. Yeo
+Welcome back to a new semester and to COMM 3710!
+
+I hope you are all well given the circumstances. Because of the coronavirus pandemic, COMM 3710 has moved online and will primarily be asynchronous. For more information on the course, please see the [course syllabus](https://utah.instructure.com/files/59268788/download?download_frd=1).
+
+I'm Prof. Yeo and I'm an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
+
+I can also be found on [Twitter](https://twitter.com/sarakyeo) and more information (and my CV) is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you're interested in science communication research, please get in touch ([sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)).
+
+# Some Highlights from the Syllabus
+## Course Textbook
+Your textbook is available on Canvas through Inclusive Access. It is a great resource and I highly encourage you to use it as we progress through the semester.
+
+Additional readings will be available as PDFs on Canvas.
+
+## Technology
+1. Ensure that you are familiar with Canvas. Set up your notifications according to your preferences. If you need help with Canvas, review this [page](https://support.tlt.utah.edu/hc/en-us/articles/205654094).
+2. Check your University email account (unid\@utah.edu) regularly. Ideally, you should check this email account every day. Messages sent to me via Canvas will not receive a response (see syllabus for full email policy).
+3. You will need Microsoft software (Word, Excel, PowerPoint) and Adobe Acrobat.
+4. You will also need access to [R](https://www.r-project.org/). More information about R will be provided as the semester progresses.
+5. You will need a webcam and a microphone to participate in drop-in office hours. We will use [Zoom](https://zoom.us/) for virtual office hours.
+6. The U's [Teaching \& Learning Technologies](https://tlt.utah.edu/) recommends that you have the **latest versions of at least two** browsers installed. The preferred web browser is [Google Chrome](https://www.google.com/chrome/browser/desktop/).
+
+# Some Helpful Resources
+## Canvas Help
+If you need help in Canvas, click the `Help` button in the right sidebar or contact:
+
+- **Phone:** +1 844-527-0328
+- [**Chat** with Canvas Support](https://cases.canvaslms.com/liveagentchat?chattype=student)
+
+## Campus Help Desk
+For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Campus Help Desk:
+
+- Phone: 801-581-4000 (option 1)
+- Email: [helpdesk@utah.edu](mailto:helpdesk@utah.edu)
+- Website: [https://it.utah.edu/help/](https://it.utah.edu/help/)
+
+Help is available Monday through Saturday. Please visit the [Campus Help Desk website](https://it.utah.edu/help/) for more information.

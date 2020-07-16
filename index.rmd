@@ -1,0 +1,188 @@
+---
+title: "COMM 3710-008: Introduction to Quantitative Communication Research"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr>
+<font size = "3">Fall 2020 </br>
+University of Utah </br>
+Prof. Sara K. Yeo </br>
+[sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)</font>
+
+# Course Outline
+This **asynchronous online course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and write research reports. Key topics include:
+
+* Formalizing hypotheses and research questions grounded in theory
+* Testing hypotheses and research questions
+* Conceptual and operational definitions
+* Measurement, sampling, and research design
+* Data analysis in communication research
+
+I expect you to log into the course regularly (at least 3-5 times per week), complete and submit work in a timely manner, and ask questions.
+
+# Required Text and Readings
+Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
+
+* The textbook is available through the Inclusive Access program, which provides you with digital access to the textbook via Canvas at a reduced price. More information on the Inclusive Access program can be found [here](https://www.campusstore.utah.edu/inclusiveaccess/).
+* You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
+
+Additional readings will be provided as PDF documents on Canvas.
+
+# Technical Requirements and Computer Software
+To ensure that you have full access to the course, you will need:
+
+* Reliable access to a computer. Use of a mobile device will not be sufficient to complete this course.
+* Internet access fast enough to stream videos and connect to online meetings.
+* A webcam and microphone for online Zoom meetings.
+* An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
+
+We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
+
+You will need access to [Canvas](https://utah.instructure.com/) and [Zoom](https://zoom.us/). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701). If you need help with Zoom, visit this [site](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+
+# Course Requirements
+Course grades will be based on the following:
+
+* Quizzes (30%)
+* Group project (30%)
+* Individual lab assignments (30%)
+* Discussion board participation (10%)
+
+**Quizzes (100 pts).** Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered but you may drop one quiz**. You have until the end of the week to complete each quiz. There are 11 quizzes, each worth 11 points. You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz—please do not start a quiz unless you are ready to complete it.
+
+**Group Project (100 pts).** You will be randomly assigned to a project group with other students in your lab. As a group and using secondary data, you will explicate a research problem, conduct basic data analysis, and report your research. You will complete group project components in lab throughout the semester. Detailed instructions will be provided in lab and on Canvas. At the end of the semester, your group will share your research with other students in the course.
+
+**Individual Lab Assignments (80 pts).** Information on individual lab assignments will be provided during lab and on Canvas. It is not enough to just attend labs, the quality of your participation matters. High quality participation involves asking questions and making comments that are informed by the readings and lectures, pertinent to subject matter, and respectful of your peers’ views. Engaging in meaningful and substantive class discussion with other students is an important aspect of high-quality participation. Irrelevant remarks and questions that are uninformed by the course readings and materials do not count and may even be detrimental to your grade. **Late assignments will not be accepted**.
+
+**Discussion board participation.** Your participation in the [Discussions](https://utah.instructure.com/courses/628882/discussion_topics) on Canvas will be part of your overall course grade. You will be assessed based on the quality and professionalism of your interactions with your peers and instructor(s). Be sure to check the discussions frequently and ask and/or respond to questions as appropriate. You are part of a learning community in this course and are expected to be an active participant in this community.
+
+# Course Grading
+\begin{center}
+\begin{tabular}{ l l l l }
+ A    94-100 & B    84-86.99 & C    74-76.99 & D    64-66.99 \\
+ A-   90-93.99 & B-  80-83.99 & C-   70-73.99 & D-   60-63.99 \\
+ B+   87-89.99 & C+  77-79.99 & D+  67-69.99 & F   < 59.99 \\
+\end{tabular}
+\end{center}
+
+Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php). If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade. You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
+
+# On Learning Strategies
+One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it. Our goal is “knowledge integration,” connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
+
+1. Make sure you complete the readings, actively drawing out the implications of the texts by connecting them to things you already know, have read in the news, or are learning in other classes.
+2. Actively engage with the content and ask questions about things you do not understand. Respectful discussion is encouraged in all my courses.
+
+# Course Policies
+By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the **minimal standards** to make the classroom a productive learning space for all. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+
+**Use your University email account to contact me; I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response. Additionally, you will not receive a response if you send me a message on Canvas**. If you need to contact me, please send a message from your University of Utah email account to [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu).
+
+When you contact me, I expect you to be professional in your communication. This includes:
+
+* Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
+* Providing your full name, uNID, and class section in the message.
+* Using appropriate salutations (e.g., Dr. or Prof. Yeo).
+* Using paragraphs, not just long blocks of text.
+* Proofreading your writing.
+* Providing a clear description of your problem and all relevant information.
+* Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "best regards," or "thank you."
+
+**Academic misconduct will be punished to the fullest extent possible**. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
+
+Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+# University Policies
+**COVID-19.** If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+
+**The Americans with Disabilities Act.** The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability Services](https://disability.utah.edu/).
+
+**University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.  If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066.  For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776.  To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
+
+**Undocumented Student Support Statement.** Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+
+
+# Schedule
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
+
+Throughout the semester, I will hold drop-in office hours via Zoom. You may drop-in to ask questions but are not required to attend these office hours. To accommodate students' schedules, office hours will be held at various times throughout the semester. Office hours with a Zoom link will be announced on Canvas.
+
+*Note: LA = individual lab assignment, GP = group project component*
+
+### Week 1 (24-Aug)
+> Course introduction | **Quiz 1** \newline
+  Readings: syllabus, Pauk Ch. 7, Wrench Ch, 1 \newline
+  Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
+
+### Week 2 (31-Aug)
+> Overview of the research process; Research ethics | **Quiz 2** \newline
+  Readings: Wrench Ch. 2, 3, Cushing \newline
+  Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
+
+### Week 3 (7-Sep)
+> Concept explication | **Quiz 3** \newline
+  Readings: McLeod et al. \newline
+  Lab: LA.3--Examining Data (10 pts)
+
+### Week 4 (14-Sep)
+> Variables and measurement | **Quiz 4** \newline
+  Readings: Wrench Ch. 6, 7 \newline
+  Lab: LA.4--Working with Data (10 pts)
+
+### Week 5 (21-Sep)
+> Survey research; Experiments | **Quiz 5** \newline
+  Readings: Wrench Ch. 9, 11 \newline
+  Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
+
+### Week 6 (28-Sep)
+> Reliability and validity | **Quiz 6** \newline
+  Readings: Wrench Ch. 8 \newline
+  Lab: LA.6--Relationships in Data (10 pts)
+
+### Week 7 (05-Oct)
+> Sampling | **Quiz 7** \newline
+  Readings: Wrench Ch. 12, ASA pp. 63-68 \newline
+  Lab: LA.7--Practice Data Analysis (10 pts)
+
+### Week 8 (12-Oct)
+> Introduction to statistics; Descriptive statistics | **Quiz 8** \newline
+  Readings: Wrench Ch. 13, 14, Silver, Zukin \newline
+  Lab: LA.8--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
+
+### Week 9 (19-Oct)
+> Inferential statistics | **Quiz 9** \newline
+  Readings: Wrench Ch. 15, 16, 18 \newline
+  Lab: GP.E--Data Management (10 pts)
+
+### Week 10 (26-Oct)
+> Data analysis | **Quiz 10**
+
+### Week 11 (02-Nov)
+> Group Project work | **Quiz 11** \newline
+  Lab: GP.F--Univariate Graphs (10 pts)
+
+### Week 12 (09-Nov)
+> Group Project work \newline
+  Lab: GP.G--Bivariate Graphs (10 pts)
+
+### Week 13 (16-Nov)
+> Group Project work \newline
+  Lab: GP.H--Statistical Tests (15 pts)
+
+### Week 14 (23-Nov)
+> Group Project work \newline
+  Lab: GP.I--Reporting Research (15 pts)
+
+### Week 15 (30-Nov)
+> Group Project work \newline
