@@ -1,9 +1,11 @@
 ---
 title: "COMM 3710-008: Introduction to Quantitative Communication Research"
+author: |
+  | Prof. Sara K. Yeo
+  | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
 output:
-  html_document: default
-  pdf_document: default
-  word_document: default
+  html_document:
+    toc: true
 urlcolor: blue
 ---
 
