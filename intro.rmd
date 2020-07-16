@@ -62,5 +62,21 @@ Help is available Monday through Saturday. Please visit the [Campus Help Desk we
 # Note-taking for Success in College
 I recommend taking notes while you review the content online. This will help you learn and recall material. 
 
+One note-taking system that you might consider trying is the [Cornell system](http://lsc.cornell.edu/study-skills/cornell-note-taking-system/). This system is detailed in the book below:
+
+> Pauk, W., & Owens, R. J. Q. (2013). *How to Study in College* (11 edition). Cengage Learning.
+
+An example of my own notes using the Cornell system:
+
+<center>
+<img src="cornell-notes.png"
+     alt="Cornell system of note-taking example"/>
+</center>
+
+<a href="#top">Back to top</a>
+
 <hr>
+
+# A Brief History of Social Science
+link Vimeo video here
 
