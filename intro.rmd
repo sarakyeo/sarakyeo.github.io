@@ -7,6 +7,10 @@ output:
     toc: true
 urlcolor: blue
 ---
+<center>
+<img src="http://www.phdcomics.com/comics/archive/phd051013s.gif"
+     alt="It's in the syllabus"/>
+</center>
 
 # An Introduction to Prof. Yeo
 Welcome back to a new semester and to COMM 3710!
@@ -54,3 +58,9 @@ For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Cam
 Help is available Monday through Saturday. Please visit the [Campus Help Desk website](https://it.utah.edu/help/) for more information.
 
 <a href="#top">Back to top</a>
+
+# Note-taking for Success in College
+I recommend taking notes while you review the content online. This will help you learn and recall material. 
+
+<hr>
+
