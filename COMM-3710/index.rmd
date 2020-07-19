@@ -2,6 +2,7 @@
 title: |
   | <a name="top"></a>
   | COMM 3710-008: Introduction to Quantitative Communication Research
+pagetitle: "COMM 3710-008"
 author: |
   | Prof. Sara K. Yeo
   | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
