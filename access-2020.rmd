@@ -5,12 +5,14 @@ title: |
   | The Science of Science Communication
   | Summer 2020
 output:
-  html_document:
-    toc: true
+  html_document: 
+    toc: yes
+    theme: default
 urlcolor: blue
 ---
 
-Welcome to the science communication module of your summer ACCESS program! Let's begin by meeting one of your instructors for this module, Dr. Sara Yeo!
+<hr>
+<font size = "4">Welcome to the science communication module of your summer ACCESS program!</font>
 
 # An Introduction to Prof. Yeo
 I hope you are all well given the circumstances. I was looking forward to interacting with you in-person this summer but due to the coronavirus pandemic, the ACCESS program has moved online and will mostly be asynchronous. We will have a chance to get together virtually so you can ask questions (on July 29).
@@ -21,11 +23,75 @@ I can also be found on [Twitter](https://twitter.com/sarakyeo) and more informat
 
 > Next, watch this [video](https://vimeo.com/439070759).
 
+
+# Why Science Communication?
+Think you know why science communication is important? See if you're correct!
+
+> Watch this [video](https://vimeo.com/439097948)!
+
+<a href="#top">Back to top</a>
+
+<hr>
+
+# Examples of Research in Science Communication
+We will look at two broad categories of examples in science communication. Note that these are my projects and do not represent *all* the scholarly literature in science communication.
+
+> **Instructions**: Start a blank Word document for each research example. Name the file `LastName_FirstName.docx` In the documents, respond to the prompts and questions as you work through the content.
+
+
+## Incivility Online
+<font size = "4" color = "blue">Yeo, S. K., Su, L. Y.-F., Scheufele, D. A., Brossard, D., Xenos, M. A., & Corley, E. A. (2019). The effect of comment moderation on perceived bias in science news. *Information, Communication & Society*, *22(1)*, 129–146. [https://doi.org/10.1080/1369118X.2017.1356861](https://doi.org/10.1080/1369118X.2017.1356861)</font>
+
+> **Prompt 1**: Use your access to the Marriott Library to download a PDF of this paper. Take a screenshot and paste it your Word document.
+
+Did you know that 1 in 5 comments online are uncivil? If you're interested in a study quantifying the amount of incivility online, check out [this study by my colleague Dr. Kevin Coe](http://dx.doi.org/10.1111/jcom.12104).
+
+In this study, my colleagues and I wanted to see whether comment moderation might be a potential solution to incivility in comments. We decided to conduct a survey experiment in which we people were exposed to one of four conditions:
+
+| Condition # | Civil/Uncivil? | Moderation? |
+| :---------: | :------------: | :---------: |
+| 1           | Civil          | No          |
+| 2           | Uncivil        | No          |
+| 3           | Civil          | Yes         |
+| 4           | UnCivil        | Yes         |
+
+Examples of the experimental stimulus can be found in the paper (p. 135). 
+
+> **Prompt 2**: Describe how the *moderation* and *no moderation* conditions differed.
+
+We then asked respondents a bunch of survey questions to measure *perceptions of news article bias*, *strength of risk and benefit perceptions*, among other variables.
+
+> **Prompt 3**: List the dependent variable and one independent variable in your Word document.
+
+Using these data, we conducted statistical modeling (ordinary least squares regression modeling) to test our two hypotheses.
+
+> **Prompt 4**: What were the two hypotheses in the study? List H1 and H2 in your Word document.
+
+Now, read the **Discussion** section of the paper. In the first paragraph of the Discussion, you will find the general conclusion of this study.
+
+> **Prompt 5**: In your own words, describe the overall finding and conclusion of this study.
+
+In the Discussion section, it is also common for researchers to list shortcomings, or limitations, of the study and offer some directions for future research.
+
+> **Prompt 6**: Provide one limitation of this study in your Word document.
+
+<a href="#top">Back to top</a>
+
+<hr>
+
+## Humor in Science Communication
+<font size = "4" color = "blue">Yeo, S. K., Anderson, A. A., Becker, A. B., & Cacciatore, M. A. (2020). Scientists as comedians: The effects of humor on perceptions of scientists and scientific messages. *Public Understanding of Science*, *29(4)*, 408–418. [https://doi.org/10.1177/0963662520915359](https://doi.org/10.1177/0963662520915359)</font>
+
+> **Prompt 7**: Use your access to the Marriott Library to download a PDF of this paper. Take a screenshot and paste it your Word document.
+
+This paper is hot off the press!
+
+My collaborators and I just published it earlier this year. It seems intuitive to recommend the use of humor for scientists who are looking to better communicate their research to public audiences. But, surprisingly, there is very little evidence that the use of humor is an effective way to communicate science!
+
+In this study, we set out to test whether humor will have positive outcomes for science communication. Again, we did this by conducting a survey experiment in which we showed students one of two video clips of a scientist doing stand-up comedy.
+
+You can view the entire [video from which the clip was taken here](https://youtu.be/XoRipn3jv-A).
+
 <a href="#top">Back to top</a>
 
 
-# [Why Science Communication?](https://vimeo.com/439097948)
-
-# Examples of Research in Science Communication
-## Incivility Online
-> 
