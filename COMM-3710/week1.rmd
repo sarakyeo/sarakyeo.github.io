@@ -25,6 +25,7 @@ I can also be found on [Twitter](https://twitter.com/sarakyeo) and more informat
 
 <a href="#top">Back to top</a>
 
+
 # Some Highlights from the Syllabus {.tabset .tabset-fade}
 ## Course Textbook
 Your textbook is available on Canvas through Inclusive Access. It is a great resource and I highly encourage you to use it as we progress through the semester.
@@ -42,6 +43,7 @@ Additional readings will be available as PDFs on Canvas.
 6. The U's [Teaching \& Learning Technologies](https://tlt.utah.edu/) recommends that you have the **latest versions of at least two** browsers installed. The preferred web browser is [Google Chrome](https://www.google.com/chrome/browser/desktop/).
 
 <a href="#top">Back to top</a>
+
 
 # Some Helpful Resources {.tabset .tabset-fade}
 ## Canvas Help
@@ -61,8 +63,9 @@ Help is available Monday through Saturday. Please visit the [Campus Help Desk we
 
 <a href="#top">Back to top</a>
 
+
 # Note-taking for Success in College
-I recommend taking notes while you review the content online. This will help you learn and recall material. 
+**I recommend taking notes while you review the content online. This will help you learn and recall material.**
 
 One note-taking system that you might consider trying is the [Cornell system](http://lsc.cornell.edu/study-skills/cornell-note-taking-system/). This system is detailed in the book below:
 
@@ -78,6 +81,51 @@ An example of my own notes using the Cornell system:
 
 <hr>
 
-# A Brief History of Social Science
-link Vimeo video here
+
+# An Introduction to Social Science {.tabset .tabset-fade}
+
+Let's begin by discussing two broad types of sciences: **physical** and **social sciences**.
+
+## Physical vs. Social Sciences
+The **physical sciences** involve studying the objective aspects of nature. Typically, we think of physics, biology, and chemistry when we think of the physical sciences.
+
+The **social sciences**, on the other hand, is the study of how humans live and interact. This includes disciplines such as psychology, communication, and history. The flavor of communication research that we will learn about in this course is a type of social science.
+
+This week, we will begin by examining the history of social sciences and how the field of communication developed.
+
+
+## A (Brief) History of the Social Sciences
+
+Ancient Greek scholars did not make a distinction between the social and physical sciences. In fact, many studied both and considered both physical and social processes as things to be studied scientifically. Here are a few examples:
+
+1. Hippocrates of Cos
+
+Hippocrates was the first scientist (or philospher) to classify his patients according to personality. He was, of course, also a physician--many of us will be familiar with the [Hippocratic oath in medicine](https://www.nlm.nih.gov/hmd/greek/greek_oath.html). Interestingly, the phrase that commonly attributed to this oath, "First, do no harm," is **not** explicitly contained within this text. Instead, there are [modern versions](https://www.pbs.org/wgbh/nova/doctors/oath_modern.html) that some medical schools adopt.
+
+2. Plato
+
+Plato used geometric proofs, a physical science concept, to study the intrinsic state of knowledge, which is a social scientific concept.
+
+3. Aristotle
+
+Aristotle studied poetry and rhetoric with the same scientific rigor and processes with which he studied planetary motion.
+
+<hr>
+
+This lack of division between physical and social sciences stayed intact until the publication of Sir Isaac Newton’s *Philosophiae Naturalis Principia Mathematica* (Mathematical Principles of Natural Philosophy) in 1687. This is considered one of the most important works in the history of science.
+
+- In these volumes, Newton argues that the underlying rule of all physical nature is mathematics.
+
+<center>
+<img src="https://sarakyeo.github.io/images/Newton-1687.png"></img>
+</center>
+
+
+As a result, physical scientists gravitated to and successfully applied Newton's writings. Social scientists, on the other hand, were slower to make their studies more quantitative.
+
+
+
+
+
+
 
