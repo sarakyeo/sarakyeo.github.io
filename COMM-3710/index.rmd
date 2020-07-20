@@ -9,6 +9,7 @@ author: |
 output:
   html_document:
     toc: true
+    toc_float: true
 urlcolor: blue
 ---
 
@@ -128,78 +129,78 @@ Curriculum accommodations take two forms—scheduling and content accommodations
 
 <a href="#top">Back to top</a>
 
-# Schedule
+# Schedule {.tabset .tabset-fade .tabset-pills}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
 Throughout the semester, I will hold drop-in office hours via Zoom. You may drop-in to ask questions but are not required to attend these office hours. To accommodate students' schedules, office hours will be held at various times throughout the semester. Office hours with a Zoom link will be announced on Canvas.
 
 *Note: LA = individual lab assignment, GP = group project component*
 
-### Week 1 (24-Aug)
+## Week 1 (24-Aug)
 > [Course introduction](https://sarakyeo.github.io/COMM-3710/intro.html) | **Quiz 1** </br>
   Readings: syllabus, Pauk Ch. 7, Wrench Ch, 1 </br>
   Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
 
-### Week 2 (31-Aug)
+## Week 2 (31-Aug)
 > Overview of the research process; Research ethics | **Quiz 2** </br>
   Readings: Wrench Ch. 2, 3, Cushing </br>
   Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
 
-### Week 3 (7-Sep)
+## Week 3 (7-Sep)
 > Concept explication | **Quiz 3** </br>
   Readings: McLeod et al. </br>
   Lab: LA.3--Examining Data (10 pts)
 
-### Week 4 (14-Sep)
+## Week 4 (14-Sep)
 > Variables and measurement | **Quiz 4** </br>
   Readings: Wrench Ch. 6, 7 </br>
   Lab: LA.4--Working with Data (10 pts)
 
-### Week 5 (21-Sep)
+## Week 5 (21-Sep)
 > Survey research; Experiments | **Quiz 5** </br>
   Readings: Wrench Ch. 9, 11 </br>
   Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
 
-### Week 6 (28-Sep)
+## Week 6 (28-Sep)
 > Reliability and validity | **Quiz 6** </br>
   Readings: Wrench Ch. 8 </br>
   Lab: LA.6--Relationships in Data (10 pts)
 
-### Week 7 (5-Oct)
+## Week 7 (5-Oct)
 > Sampling | **Quiz 7** </br>
   Readings: Wrench Ch. 12, ASA pp. 63-68 </br>
   Lab: LA.7--Practice Data Analysis (10 pts)
 
-### Week 8 (12-Oct)
+## Week 8 (12-Oct)
 > Introduction to statistics; Descriptive statistics | **Quiz 8** </br>
   Readings: Wrench Ch. 13, 14, Silver, Zukin </br>
   Lab: LA.8--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
 
-### Week 9 (19-Oct)
+## Week 9 (19-Oct)
 > Inferential statistics | **Quiz 9** </br>
   Readings: Wrench Ch. 15, 16, 18 </br>
   Lab: GP.E--Data Management (10 pts)
 
-### Week 10 (26-Oct)
+## Week 10 (26-Oct)
 > Data analysis | **Quiz 10**
 
-### Week 11 (2-Nov)
+## Week 11 (2-Nov)
 > Group Project work | **Quiz 11** </br>
   Lab: GP.F--Univariate Graphs (10 pts)
 
-### Week 12 (9-Nov)
+## Week 12 (9-Nov)
 > Group Project work </br>
   Lab: GP.G--Bivariate Graphs (10 pts)
 
-### Week 13 (16-Nov)
+## Week 13 (16-Nov)
 > Group Project work </br>
   Lab: GP.H--Statistical Tests (15 pts)
 
-### Week 14 (23-Nov)
+## Week 14 (23-Nov)
 > Group Project work </br>
   Lab: GP.I--Reporting Research (15 pts)
 
-### Week 15 (30-Nov)
+## Week 15 (30-Nov)
 > Group Project work </br>
 
 <a href="#top">Back to top</a>
