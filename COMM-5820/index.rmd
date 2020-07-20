@@ -1,0 +1,145 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 5820-001: Science, Media, \& Society
+pagetitle: "COMM 5820-001"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+urlcolor: blue
+---
+
+# Course Outline
+COMM 5820 is a **synchronous online capstone course** at the intersection of science, media, and society. The goal of this course is to provide you with a capstone experience that synthesizes, integrates, and facilitates the application of knowledge and experiences that you have accumulated over the course of your undergraduate career. Thus, this course is project-based; it takes the format of a collaborative research project and will prepare you for life-long learning, future personal, academic, and/or professional pursuits, and your roles as members of your communities.
+
+**COMM 5820 is a synchronous online course held through Canvas and Zoom. We will meet every week during the semester at the scheduled time. A Zoom meeting link will be posted on Canvas each week.**
+
+Our collaborator in COMM 5820 is [Utah FORGE](https://utahforge.com/), a field laboratory sponsored by the [U.S. Department of Energy](https://www.energy.gov/) for researching enhanced geothermal systems technologies to advance the uptake of geothermal resources around the world. Throughout the semester, you will work to conduct research to inform their strategic communication efforts. Future students enrolled in COMM 5820 will build on the work that you have done this semester.
+
+**This semester, our goals are:**
+
+1. To develop a survey instrument to collect data about public opinion, awareness, and knowledge of geothermal energy.
+2. To obtain Institutional Review Board (IRB) approval to conduct survey research about geothermal energy.
+3. To pilot test our survey instrument.
+
+Because this is a capstone course, you will be primarily relying on knowledge you have already accumulated to complete tasks and meet the goals of the course. As a result, there will be relatively few lectures. The majority of this course is devoted to working sessions during which we will apply our knowledge and experience to meet the shared goals of our research collaboration. It is **highly recommended** that you complete a quantitative research methods course (e.g., COMM 3710) before enrolling in COMM 5820.
+
+There is no required textbook for this course. No single textbook or edited volume adequately captures the breadth and depth of the different topics in this course. Any readings relevant to this course will be provided on Canvas.
+
+<a href="#top">Back to top</a>
+
+# Computer Software
+You will need Microsoft Office (Word, Excel, PowerPoint) and may need software for data analysis (e.g., IBM SPSS Statistics, [R](https://www.r-project.org/)) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
+
+You will need access to [Canvas](https://utah.instructure.com/) and [Zoom](https://support.tlt.utah.edu/hc/en-us/sections/360009028151-Zoom). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701). If you need help with Zoom, visit this [site](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+
+<a href="#top">Back to top</a>
+
+# Course Requirements
+In this capstone course, your grade will depend on your ability to display behavior and accomplish tasks as expected in a professional setting. In general, course grades will be based on the following:
+
+* Synchronous class attendance (20%)
+* Participation (20%)
+* Completion of assigned tasks (20%)
+* Weekly notes and reflections (20%)
+* Professionalism (20%)
+
+**Synchronous class attendance.** Class attendance via Zoom is required. If you leave before the scheduled end of class or before I dismiss the class, you will not be recorded as present for that class session. **You are allowed one unexcused absence**. I will consider excused absences on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please email me as soon as possible. Without exception, it is your responsibility to petition for an excused absence.
+
+**Participation.** I will assess your participation throughout the course of the semester. In a research collaboration, tasks will arise that require completion by specific deadlines. Completion of these tasks will progress us toward our overall goals for the semester. I expect you to participate actively in weekly  brainstorming and discussions of how we, as a team, can progress toward these goals.
+
+**Completion of assigned tasks.** Each week, we will meet and brainstorm tasks and activities that must be accomplished to progress toward our goals. We will spend class time working on and completing these tasks. I expect you to complete these tasks as you would in a professional environment.
+
+**Weekly notes and reflections.** You will each take detailed notes during each class session. This serves as a record of our brainstorming, action items, and completed tasks. After our meeting, you will revisit your notes and reflect on them. Write down any ideas that your reflection sparked and/or anything that you think we should discuss as a group the following week. Your notes and reflections can be taken in any way that works for you as long as I am able to follow and understand your submission (via Canvas as a PDF document). **You are allowed to miss one submission of your weekly notes and reflections without an excuse**. Any additional missed submissions will be taken into account when I assign grades.
+
+**Professionalism.** In consultation with our collaborators at Utah FORGE, I will decide your grade partly on the professionalism you display as you strive to meet the other requirements of this course.
+
+<a href="#top">Back to top</a>
+
+# Course Grading
+If you wish to dispute your grade, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.
+
+<a href="#top">Back to top</a>
+
+# On Learning Strategies
+One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. Our goal is “knowledge integration,” connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
+
+1. Immerse yourself in brainstorming assigned tasks and actively draw out the implications of your work by connecting them to things you already know, have read in the news, or are learning in other classes.
+2. Actively engage with the content and ask questions about things you do not understand. Respectful discussion is highly encouraged in all my courses.
+
+<a href="#top">Back to top</a>
+
+# Course Policies
+By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the **minimal standards** to make the classroom a productive learning space for all. Your final grade may be reduced each time you engage in disruptive and/or disrespectful behaviors.
+
+**Use your University email account to contact me; I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally, using appropriate salutations (e.g., Dr. or Prof. Yeo) with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response. Additionally, you will not receive a response if you send me a message on Canvas**. If you need to contact me, please send a message from your University of Utah email account to [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu).
+
+**Academic misconduct will be punished to the fullest extent possible**. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
+
+Curriculum accommodations take two forms—scheduling and content accommodations.  **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+<a href="#top">Back to top</a>
+
+# University Policies
+**COVID-19.** If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+
+**The Americans with Disabilities Act.** The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability Services](https://disability.utah.edu/).
+
+**University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.  If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066.  For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776.  To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
+
+**Undocumented Student Support Statement.** Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+
+<a href="#top">Back to top</a>
+
+# Schedule {.tabset .tabset-fade .tabset-pills}
+Schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
+
+## Week 1 (24-Aug)
+> Course introduction | Meet our collaborators at Utah FORGE
+
+## Week 2 (31-Aug)
+> Concept explication | What concepts do we need to measure?
+
+## Week 3 (7-Sep)
+> Conducting literature reviews of measures | How have the concepts of interest been measured in previous research?
+
+## Week 4 (14-Sep)
+> Conducting literature reviews of public opinion on renewable energy | What do we know about what people know and how they feel about renewable energy?
+
+## Week 5 (21-Sep)
+> Survey instrument development | Developing a codebook
+
+## Week 6 (28-Sep)
+> Survey instrument development | Obtaining feedback from Utah FORGE
+
+## Week 7 (05-Oct)
+> Survey instrument development | Incorporating feedback from Utah FORGE
+
+## Week 8 (12-Oct)
+> Applying for IRB approval
+
+## Week 9 (19-Oct)
+> Programming a survey in Qualtrics
+
+## Week 10 (26-Oct)
+> Pilot testing and revisions
+
+## Week 11 (02-Nov)
+> Pilot testing and revisions
+
+## Week 12 (09-Nov)
+> Pilot testing and revisions
+
+## Week 13 (16-Nov)
+> Fielding an online survey | Sampling
+
+## Week 14 (23-Nov)
+> Conducting preliminary data analysis
+
+## Week 15 (30-Nov)
+> Debriefing | What do the next cohort of students need to know and do to continue this work?
