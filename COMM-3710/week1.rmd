@@ -79,8 +79,6 @@ An example of my own notes using the Cornell system:
 
 <a href="#top">Back to top</a>
 
-<hr>
-
 
 # An Introduction to Social Science
 
@@ -93,8 +91,6 @@ The **social sciences**, on the other hand, is the study of how humans live and 
 This week, we will begin by examining the history of social sciences and how the field of communication developed.
 
 <a href="#top">Back to top</a>
-
-<hr>
 
 
 # A (Brief) History of the Social Sciences {.tabset .tabset-fade}
@@ -113,7 +109,7 @@ Plato used geometric proofs, a physical science concept, to study the intrinsic 
 
 Aristotle studied poetry and rhetoric with the same scientific rigor and processes with which he studied planetary motion.
 
-<hr>
+<br>
 
 This lack of division between physical and social sciences stayed intact until the publication of **Sir Isaac Newton**’s *Philosophiae Naturalis Principia Mathematica* (Mathematical Principles of Natural Philosophy) in 1687. This is considered one of the most important works in the history of science.
 
@@ -156,7 +152,6 @@ Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bull
 
 <a href="#top">Back to top</a>
 
-<hr>
 
 ## Social Science Research During and Post-WWII
 During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the [US Office of War Information](https://en.wikipedia.org/wiki/United_States_Office_of_War_Information). 
@@ -198,21 +193,18 @@ An example of a research question that might be asked in this tradition is "What
 
 **This is the epistemological tradition on which this course is based.**
 
-<hr>
 
 ## Qualitative / Interpretive
 Qualitative researchers believe that to understand human communication, one must explore and appreciate how individuals at the center of specific interactions or communicative acts understands his or her own communication. 
 
 An example of a research question that might be asked in this tradition is "What does it mean to be a member of the LDS church?"
 
-<hr>
 
 ## Rhetorical / Critical
 Rhetorical/Critical scholars believe the central role of research is to examine the interplay between ideology and science.
 
 An example of a research question that might be asked in this tradition is "How are crisis messages steeped in power and priviledge?"
 
-<hr>
 
 # Ordinary vs. Scientific Ways of Knowing {.tabset .tabset-fade}
 
@@ -224,7 +216,6 @@ It is also integral that we articulate and know the distinction between ordinary
 
 <a href="#top">Back to top</a>
 
-<hr>
 
 ## Scientific Ways of Knowing
 As mentioned, the difference between ordinary and scientific ways of knowing has to do with the **process** of generating scientific knowledge. This process relies on 6 steps:
@@ -243,7 +234,6 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 
 <a href="#top">Back to top</a>
 
-<hr>
 
 # The Wheel of Science
 A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
@@ -269,8 +259,6 @@ Check your answers using the video below:
 </center>
 
 <a href="#top">Back to top</a>
-
-<hr>
 
 
 # Defining Research

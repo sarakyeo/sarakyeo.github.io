@@ -27,7 +27,104 @@ The scientific method consists of 7 basic steps:
 
 <a href="#top">Back to top</a>
 
-# The Wheel of Science Revisited
+
+# The Wheel of Science Revisited {.tabset .tabset-fade}
 <center>
 <img src="https://sarakyeo.github.io/images/wheel-of-science.png"/>
 </center>
+
+In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science), we discussed inductive and deductive reasoning. Let's now turn to other terms in the wheel of science. Click on the tabs below to learn about the terms, *theory*, *hypothesis*, *observation*, and *empirical generalization*.
+
+## Theory
+<center>
+<img src="https://sarakyeo.github.io/images/theory.png"/>
+</center>
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/440124116" frameborder="0" allowfullscreen></iframe>
+</center>
+
+**Additional reading for this week**: [Cushing, P.E. (2004). Hypothesis or theory? *American Scientist*, 92(5), 1.](https://utah.instructure.com/courses/628882/modules/items/11900898)
+
+<a href="#top">Back to top</a>
+
+## Hypothesis
+<center>
+<img src="https://sarakyeo.github.io/images/hypothesis.png"/>
+</center>
+
+**Antecedent propositions** can be thought of as `IF` statements.
+
+**Consequent propositions** can be thought of as `THEN` statements.
+
+<br>
+<center>
+<font size="4">IF antecedent is true, THEN consequent is true.</font>
+</center>
+<br>
+
+Once we have antecedent and consequent propositions, we can build an **argument**. The video below explains how propositions and arguments fit into the concept of a **hypothesis** and provides some examples:
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/440126483" frameborder="0" allowfullscreen></iframe>
+</center>
+
+## Observation
+The most concrete concept in our wheel of science is observation. These observations are the actual measurements.
+
+It is important to note that measurement in social science, like in most other sciences, is not exact. It would be difficult to imagine exact measurement of people's attitudes, behaviors, beliefs, and values! In other words, there is always some degree of error in measurement.
+
+<center>
+<img src="https://sarakyeo.github.io/images/observations.png"/>
+</center>
+
+When we consider "empirical" observations, we mean that these observations must be measurable--something that we can sense (or that instruments we use can be sensed).
+
+Our observations should also be as objective as possible, i.e., as unbiased by us (the researchers) or external influences as it is possible to be.
+
+And lastly, observations must be controlled. This guards against **spurious relationships**. A spurious relationship is a coincidental relationship caused by an unobserved variable.
+
+Consider the following example:
+
+Researchers in education are studying students aged 6-12 years old. The researchers measure and track students' shoe size and math skill in the children in the study. They find that there is a positive correlation between shoe size and math skill. In other words, larger shoe sizes are correlated with better math skills, and vice versa. This relationship can be shown as follows:
+
+<center>
+<img src="https://sarakyeo.github.io/images/spurious1.png"/>
+</center>
+<br>
+
+Of course, we know that this relationship is coincidental! As children get older, they tend to get more educated and, as a consequence, their math skills improve. The actual relationship, therefore, is more like:
+
+<center>
+<img src="https://sarakyeo.github.io/images/spurious2.png"/>
+</center>
+<br>
+
+The **spurious relationship** in this example is that between *shoe size* and *math skill*:
+
+<center>
+<img src="https://sarakyeo.github.io/images/spurious3.png"/>
+</center>
+
+<br>
+
+Here are some other examples of spurious relationships--see if you can figure out what the unobserved variable is that affects both variables in the spurious relationship.
+
+- Amount of ice cream sold $\longleftrightarrow$ deaths by drowning
+- Height of daughters $\longleftrightarrow$ height of sons
+- Number of religious places $\longleftrightarrow$ number of homicides
+
+## Empirical Generalization
+**Empirical generalization** is the process of describing phenomena based on our observations. When we make empirical generalizations, we ask ourselves: "How does what is going on in our sample describe what is happening in the real world?"
+
+The process of empirical generalization allows us to refine theory and extend the phenomena that we observe in a sample to the real world.
+
+<br>
+<center>
+<font size="4">sample $\longrightarrow$ real world</font>
+</center>
+<br>
+
+When we engage in empirical generalization, the limitations of our observations are important. As quantitative researchers, we cannot offer explanations for human behavior/attitudes/other phenomena that are beyond the scope of our observations.
+
+Before we discuss some common problems with empirical generalization, we first need to understand units of observation and analysis.
