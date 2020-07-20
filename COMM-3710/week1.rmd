@@ -244,3 +244,48 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 <a href="#top">Back to top</a>
 
 <hr>
+
+# The Wheel of Science
+A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
+
+<iframe width="560" height="315" align="center" src="https://player.vimeo.com/video/440078105" frameborder="0" allowfullscreen></iframe>
+
+<br>
+
+Next, let's practice identifying some inductive and deductive forms of reasoning. **Watch the clip below from Monty Python and the Holy Grail and try to identify the type of reasoning (inductive or deductive) used in various parts** (*Hint*: Both inductive and deductive logic is used at different times in the clip).
+
+![](https://youtu.be/H9PY_3E3h2c)
+
+<br>
+
+Check your answers using the video below:
+
+![](https://player.vimeo.com/video/440080165)
+
+<a href="#top">Back to top</a>
+
+<hr>
+
+
+# Defining Research
+Watch the video below defining "research."
+
+![](https://player.vimeo.com/video/440081616)
+
+## Probabilistic vs. Deterministic Predictions
+
+<center>
+<img src="https://sarakyeo.github.io/images/prob-deter-predictions.png"></img>
+</center>
+
+**Deterministic predictions**
+
+- All data is known (i.e., one can *determine* the outcome).
+- Example: Predicting the amount of money you wiull have in your bank account next year.
+
+**Probabilistic predictions**
+
+- There is an element of chance involved. When we do not have all the data, our predictions will necessarily be probabilistic.
+- Example: Predicting human communication behavior and attitudes.
+
+<a href="#top">Back to top</a>
