@@ -161,10 +161,6 @@ Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bull
 ## Social Science Research During and Post-WWII
 During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the [US Office of War Information](https://en.wikipedia.org/wiki/United_States_Office_of_War_Information). 
 
-<center>
-<img src="https://sarakyeo.github.io/images/OWI.jpg"></img>
-</center>
-
 In 1941, [Paul Lazarsfeld](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/lazarsfeld-paul-f.pdf) and his colleagues at the [Bureau of Applied Social Research at Columbia University](http://www.iserp.columbia.edu/about/iserp-history) published the first review of the discipline of communication. In this review, they identified 4 categories of communication:
 
 1. Who...
@@ -181,3 +177,70 @@ Another important milestone in the history of communication research is the work
 The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
 
 <a href="#top">Back to top</a>
+
+# Epistemologies in Communication Research {.tabset .tabset-fade}
+<center>
+<img src="https://sarakyeo.github.io/images/epistemology.png"></img>
+</center>
+
+In communication research, there are 3 epistemological traditions:
+
+1. social scientific (positivism)
+2. qualitative (interpretive)
+3. rhetorical (critical)
+
+## Social Scientific Perspective / Positivism
+Social scientific researchers rely primarily on quantitative methodologies and believe human communication can be examined through both simple and complex statistical models.
+
+An example of a research question that might be asked in this tradition is "What is the effect of extreme weather on tweets about climate change?"
+
+- Yeo, S. K., Handlos, Z. J., Karambelas, A., Su, L. Y.-F., Rose, K. M., Brossard, D., & Griffin, K. S. (2017). The influence of temperature on topics of Twitter discourse about #climatechange and #globalwarming. *Journal of Science Communication*, *16(5)*, 1–25.
+
+**This is the epistemological tradition on which this course is based.**
+
+<hr>
+
+## Qualitative / Interpretive
+Qualitative researchers believe that to understand human communication, one must explore and appreciate how individuals at the center of specific interactions or communicative acts understands his or her own communication. 
+
+An example of a research question that might be asked in this tradition is "What does it mean to be a member of the LDS church?"
+
+<hr>
+
+## Rhetorical / Critical
+Rhetorical/Critical scholars believe the central role of research is to examine the interplay between ideology and science.
+
+An example of a research question that might be asked in this tradition is "How are crisis messages steeped in power and priviledge?"
+
+<hr>
+
+# Ordinary vs. Scientific Ways of Knowing {.tabset .tabset-fade}
+
+It is also integral that we articulate and know the distinction between ordinary (or common) and scientific ways of knowing. Importantly, the difference between these ways of knowing lies in the **process**.
+
+## Ordinary Ways of Knowing
+1. **Tradition**: This is often determined by culture. It is undeniable that traditions dictate how we interact and communicate with each other.
+2. **Authority**: We also come to know things by relying on experts. For example, we rely on our doctors for health information and on priests for religious teachings.
+
+<a href="#top">Back to top</a>
+
+<hr>
+
+## Scientific Ways of Knowing
+As mentioned, the difference between ordinary and scientific ways of knowing has to do with the **process** of generating scientific knowledge. This process relies on 6 steps:
+
+1. **Conceptualization**: When we rely on scientific ways of knowing, it is important to delineate what is being studied and what is not.
+
+2. **Reading the literature**: Reviewing what has already been done is important. We need to ensure that our scientific knowledge is supported by data-driven evidence, not just opinion.
+
+3. **Careful measurements**: The ability to quantify something allows us to have an objective way of arriving at knowledge.
+
+4. **Collecting samples**: Samples allow us to make predictions about larger populations. For example, in order to make predictions about U.S. adults, researchers often take samples of 1,000 respondents. If the sample is representative of the population, then we can make accurate and valid inferences (more about this in Week 10 when we discuss sampling).
+
+5. **Analyzing data and presenting results**: Because scientific ways of knowing rely on objective data, scientists can spend entire careers learning how to analyze data.
+
+6. **Ethics and politics**: Importantly, researchers and scientists must collect, analyze, and report data in ethical ways, which includes minimizing potential biases.
+
+<a href="#top">Back to top</a>
+
+<hr>
