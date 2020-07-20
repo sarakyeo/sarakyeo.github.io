@@ -6,6 +6,7 @@ pagetitle: "COMM 3710: Week 1"
 output:
   html_document:
     toc: true
+    toc_float: true
 urlcolor: blue
 ---
 <center>
@@ -24,7 +25,7 @@ I can also be found on [Twitter](https://twitter.com/sarakyeo) and more informat
 
 <a href="#top">Back to top</a>
 
-# Some Highlights from the Syllabus
+# Some Highlights from the Syllabus {.tabset .tabset-fade}
 ## Course Textbook
 Your textbook is available on Canvas through Inclusive Access. It is a great resource and I highly encourage you to use it as we progress through the semester.
 
@@ -42,7 +43,7 @@ Additional readings will be available as PDFs on Canvas.
 
 <a href="#top">Back to top</a>
 
-# Some Helpful Resources
+# Some Helpful Resources {.tabset .tabset-fade}
 ## Canvas Help
 If you need help in Canvas, click the `Help` button in the right sidebar or contact:
 
@@ -70,8 +71,7 @@ One note-taking system that you might consider trying is the [Cornell system](ht
 An example of my own notes using the Cornell system:
 
 <center>
-<img src="images/cornell-notes.png"
-     alt="Cornell system of note-taking example"/>
+<img src="https://sarakyeo.github.io/images/cornell-notes.png"></img>
 </center>
 
 <a href="#top">Back to top</a>
