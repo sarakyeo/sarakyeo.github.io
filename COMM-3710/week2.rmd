@@ -43,6 +43,7 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 <center>
 <iframe width="560" height="315" src="https://player.vimeo.com/video/440124116" frameborder="0" allowfullscreen></iframe>
 </center>
+<br>
 
 **Additional reading for this week**: [Cushing, P.E. (2004). Hypothesis or theory? *American Scientist*, 92(5), 1.](https://utah.instructure.com/courses/628882/modules/items/11900898)
 
@@ -68,6 +69,9 @@ Once we have antecedent and consequent propositions, we can build an **argument*
 <center>
 <iframe width="560" height="315" src="https://player.vimeo.com/video/440126483" frameborder="0" allowfullscreen></iframe>
 </center>
+<br>
+
+<a href="#top">Back to top</a>
 
 ## Observation
 The most concrete concept in our wheel of science is observation. These observations are the actual measurements.
@@ -89,21 +93,21 @@ Consider the following example:
 Researchers in education are studying students aged 6-12 years old. The researchers measure and track students' shoe size and math skill in the children in the study. They find that there is a positive correlation between shoe size and math skill. In other words, larger shoe sizes are correlated with better math skills, and vice versa. This relationship can be shown as follows:
 
 <center>
-<img src="https://sarakyeo.github.io/images/spurious1.png"/>
+<img src="https://sarakyeo.github.io/images/spurious1.PNG"/>
 </center>
 <br>
 
 Of course, we know that this relationship is coincidental! As children get older, they tend to get more educated and, as a consequence, their math skills improve. The actual relationship, therefore, is more like:
 
 <center>
-<img src="https://sarakyeo.github.io/images/spurious2.png"/>
+<img src="https://sarakyeo.github.io/images/spurious2.PNG"/>
 </center>
 <br>
 
 The **spurious relationship** in this example is that between *shoe size* and *math skill*:
 
 <center>
-<img src="https://sarakyeo.github.io/images/spurious3.png"/>
+<img src="https://sarakyeo.github.io/images/spurious3.PNG"/>
 </center>
 
 <br>
@@ -113,6 +117,8 @@ Here are some other examples of spurious relationships--see if you can figure ou
 - Amount of ice cream sold $\longleftrightarrow$ deaths by drowning
 - Height of daughters $\longleftrightarrow$ height of sons
 - Number of religious places $\longleftrightarrow$ number of homicides
+
+<a href="#top">Back to top</a>
 
 ## Empirical Generalization
 **Empirical generalization** is the process of describing phenomena based on our observations. When we make empirical generalizations, we ask ourselves: "How does what is going on in our sample describe what is happening in the real world?"
@@ -128,3 +134,46 @@ The process of empirical generalization allows us to refine theory and extend th
 When we engage in empirical generalization, the limitations of our observations are important. As quantitative researchers, we cannot offer explanations for human behavior/attitudes/other phenomena that are beyond the scope of our observations.
 
 Before we discuss some common problems with empirical generalization, we first need to understand units of observation and analysis.
+
+<a href="#top">Back to top</a>
+
+### Units of Analysis
+The units of analysis and observation are the **what or whom being studied**.
+
+**Units of observation** refer to the units in data collection (e.g., individuals).
+
+**Units of analysis** refer to the units used in data analysis (e.g., individuals could be grouped by age or sex). We draw conclusions about a sample or make empirical generalizations from a sample based on our units of analysis.
+
+For example, if I was curious about classes in the Department of Communication at the U, I might collect data from individual students and group them into classes when I analyze the data. The figure below shows how conclusions (called "Sample Statements" in the figure) are related to the units of analysis.
+
+<center>
+<img src="https://sarakyeo.github.io/images/units-of-analysis.PNG"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Common Problems in Empirical Generalizations{.tabset .tabset-fade .tabset-pills}
+
+#### Hasty Generalizations
+As researchers, we should avoid making hasty generalizations. Insufficient evidence is the most common cause of poor generalizations.
+
+<a href="#top">Back to top</a>
+
+#### Ecological Fallacy
+An **ecological fallacy** occurs when researchers make generalizations about individuals based on the groups to which the individuals belong. At its core, this is a problem with the units of analysis and observation.
+
+<u>Example</u>: A researcher observes that cities with large minority populations have higher crime rates than cities with smaller minority populations. The researcher concludes that minorities commit crimes.
+
+This is an example of an ecological fallacy--the researcher has made a generalization about individuals ("Minorities commit crimes") based on group data ("Cities with large minority populations have high crime rates"). The conclusion refers to individuals (minorities) even though the premise is about a unit larger than the individual (cities).
+
+<a href="#top">Back to top</a>
+
+#### Exception Fallacy
+An **exception fallacy** is a generalization about a group based on an individual or a small number of individuals. Exception fallacies are often the bases of a concept with which you might be familiar, stereotypes.
+
+<u>Example</u>: The Green Bay Packers will win the next Super Bowl because their quarterback is Aaron Rodgers.
+
+This statement is an exception fallacy because we are making a generalization about a team (group) based on a single individual. Of course, there are other factors that play roles in whether football teams win.
+
+<a href="#top">Back to top</a>
