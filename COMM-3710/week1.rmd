@@ -82,37 +82,37 @@ An example of my own notes using the Cornell system:
 <hr>
 
 
-# An Introduction to Social Science {.tabset .tabset-fade}
+# An Introduction to Social Science
 
 Let's begin by discussing two broad types of sciences: **physical** and **social sciences**.
 
-## Physical vs. Social Sciences
 The **physical sciences** involve studying the objective aspects of nature. Typically, we think of physics, biology, and chemistry when we think of the physical sciences.
 
 The **social sciences**, on the other hand, is the study of how humans live and interact. This includes disciplines such as psychology, communication, and history. The flavor of communication research that we will learn about in this course is a type of social science.
 
 This week, we will begin by examining the history of social sciences and how the field of communication developed.
 
+<hr>
 
-## A (Brief) History of the Social Sciences
+# A (Brief) History of the Social Sciences {.tabset .tabset-fade}
 
 Ancient Greek scholars did not make a distinction between the social and physical sciences. In fact, many studied both and considered both physical and social processes as things to be studied scientifically. Here are a few examples:
 
-1. Hippocrates of Cos
+1. **Hippocrates of Cos**
 
 Hippocrates was the first scientist (or philospher) to classify his patients according to personality. He was, of course, also a physician--many of us will be familiar with the [Hippocratic oath in medicine](https://www.nlm.nih.gov/hmd/greek/greek_oath.html). Interestingly, the phrase that commonly attributed to this oath, "First, do no harm," is **not** explicitly contained within this text. Instead, there are [modern versions](https://www.pbs.org/wgbh/nova/doctors/oath_modern.html) that some medical schools adopt.
 
-2. Plato
+2. **Plato**
 
 Plato used geometric proofs, a physical science concept, to study the intrinsic state of knowledge, which is a social scientific concept.
 
-3. Aristotle
+3. **Aristotle**
 
 Aristotle studied poetry and rhetoric with the same scientific rigor and processes with which he studied planetary motion.
 
 <hr>
 
-This lack of division between physical and social sciences stayed intact until the publication of Sir Isaac Newton’s *Philosophiae Naturalis Principia Mathematica* (Mathematical Principles of Natural Philosophy) in 1687. This is considered one of the most important works in the history of science.
+This lack of division between physical and social sciences stayed intact until the publication of **Sir Isaac Newton**’s *Philosophiae Naturalis Principia Mathematica* (Mathematical Principles of Natural Philosophy) in 1687. This is considered one of the most important works in the history of science.
 
 - In these volumes, Newton argues that the underlying rule of all physical nature is mathematics.
 
@@ -120,12 +120,40 @@ This lack of division between physical and social sciences stayed intact until t
 <img src="https://sarakyeo.github.io/images/Newton-1687.png"></img>
 </center>
 
-
 As a result, physical scientists gravitated to and successfully applied Newton's writings. Social scientists, on the other hand, were slower to make their studies more quantitative.
 
+**Charles Darwin**'s theory was another point at which we see a divide between the “hard” and social sciences; social scientists were slower than biologists to see how Darwin’s theory applied to social science.
+
+<center>
+<img src="https://sarakyeo.github.io/images/Darwin_origin-of-spp.jpg"></img>
+</center>
+
+In the late 1800's to the early 1900's, quantitative measurements in the physical sciences became the norm.
+
+Then, at the turn of the 20th century, we begin to see a divide among scholars who study humans and the **social scientific** vs. the **humanistic perspectives** emerge.
+
+## Social Sciences Research Post-WWI
+Post-WWI, we begin to see social science research expand and flourish. In 1981, for example, the field of social psychology, i.e., the study of people's attitudes, is established. The focus on social science during this period of time is partly a result of WWI being a time of great social change and people's need to understand this change.
+
+By the 1920s, marketing agencies were surveying consumer behavior, and politicians and media outlets realized that the new techniques being created by social scientists to research humans could examine political preferences. This resulted in new ways of measuring attitudes, many of which we still use today.
+
+For example, the Likert and semantic differential scales were developed during this time.
+<center>
+<img src="https://sarakyeo.github.io/images/Likert.jpg"></img>
+<img src="https://sarakyeo.github.io/images/semantic-diff.jpg"></img>
+</center>
+
+<hr>
+
+## Social Science Research During and Post-WWII
+During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the US Office of War Information. 
+
+<center>
+<img src="https://sarakyeo.github.io/images/OWI.jpg"></img>
+</center>
 
 
 
+<hr> 
 
-
-
+# Social Sciences in Communication
