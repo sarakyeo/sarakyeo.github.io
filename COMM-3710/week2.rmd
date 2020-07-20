@@ -183,10 +183,10 @@ This statement is an exception fallacy because we are making a generalization ab
 
 Some examples of behavioral and social science research involving human subjects that resulted in the need to formalize research ethics:
 
-- [Tuskegee Syphilis Study](https://www.cdc.gov/tuskegee/index.html)
-- [Stanford Prison Experiment](http://www.prisonexp.org/faq/#ethics) (TEDtalk by Philip Zimbardo can be found [here](https://www.youtube.com/watch?v=OsFEV35tWsg))
-- [Milgram experiment on obedience to authority](https://en.wikipedia.org/wiki/Milgram_experiment#Ethics)
-- [Facebook and emotion contagion](https://www.theguardian.com/science/head-quarters/2014/jul/01/facebook-cornell-study-emotional-contagion-ethics-breach)
+- <a href="https://www.cdc.gov/tuskegee/index.html" target="_blank">Tuskeegee Syphilis Study</a>
+- <a href="http://www.prisonexp.org/faq/#ethics" target="_blank">Stanford Prison Experiment</a> (TEDtalk by Philip Zimbardo can be found <a href="https://www.youtube.com/watch?v=OsFEV35tWsg" target="_blank">here</a>)
+- <a href="https://en.wikipedia.org/wiki/Milgram_experiment#Ethics" target="_blank">Milgram experiment on obedience to authority</a>
+- <a href="https://www.theguardian.com/science/head-quarters/2014/jul/01/facebook-cornell-study-emotional-contagion-ethics-breach" target="_blank">Facebook and emotion contagion</a>
 
 ## What are Ethics?
 Research ethics can be defined in terms of **means** and **ends**.

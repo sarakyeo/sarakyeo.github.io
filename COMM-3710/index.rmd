@@ -138,7 +138,7 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
   Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
 
 ## Week 2 (31-Aug)
-> Overview of the research process; Research ethics | **Quiz 2** </br>
+> [Overview of the research process; Research ethics](https://sarakyeo.github.io/COMM-3710/week2.html) | **Quiz 2** </br>
   Readings: Wrench Ch. 2, 3, Cushing </br>
   Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
 
