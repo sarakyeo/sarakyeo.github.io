@@ -75,8 +75,8 @@ The process of empirical analysis is illustrated below (Note that you start from
 <a href="#top">Back to top</a>
 
 
-# Steps in Meaning Analysis {.tabset .tabset-fade}
-As identified in McLeod et al., there are several steps in the process of meaning analysis:
+# Steps in Meaning Analysis {.tabset .tabset-fade .tabset-pills}
+As identified in McLeod et al., there are several steps in the process of meaning analysis, which is often also referred to as **conceptualization**:
 
 1. Identify the concept
 2. Search the literature
@@ -101,16 +101,35 @@ In this step, we use descriptive statistics to examine the properties of operati
 <a href="#top">Back to top</a>
 
 ## Develop a tentative conceptual definition
-Now, we need to identify the essential elements of the concept of interest. What are the dimensions of the concept? There will be many iterations of this step as we revise and refine the conceptual definition--there is a fair amount of trial and error involved in this step.
+Now, we need to identify the essential elements of the concept of interest.  For the purposes of your research, what does this term mean conceptually? What are the lower-order (i.e., less abstract) **dimensions** of the concept? There will be many iterations of this step as we revise and refine the conceptual definition--there is a fair amount of trial and error involved in this step.
 
 <a href="#top">Back to top</a>
 
 ## Define the concept operationally
-As researchers, we want to be able to directly measure concepts. When we develop operational definitions (through the process of operationalization), we need to ask what the observable measures of each concept will be. In other words, what empirical indicators will we use for the dimensions of the concept? 
+As researchers, we want to be able to directly measure concepts. When we develop operational definitions (through the process of operationalization), we need to ask what the observable measures of each concept will be. In other words, what empirical **indicators** will we use for the dimensions of the concept? 
+
+The operational definition should include: the conditions of observation; details of question wording, rating scale, manipulation procedures etc.; and analysis procedures and statistical operations that you might use in data analysis.
 
 <a href="#top">Back to top</a>
 
 ## Gather data
 All the work we have done to come up with conceptual and operational definitions for the concept need to be used in data collection. These data will then be used in the second part of concept explication--empirical analysis.
+
+<a href="#top">Back to top</a>
+
+
+# Concepts, Dimensions, and Indicators
+In [Steps in Meaning Analysis](https://sarakyeo.github.io/COMM-3710/week3.html#Steps_in_Meaning_Analysis), we introduced two new terms, **dimensions** and **indicators**. For clarity, the three terms and their definitions are listed below. The image beneath that shows an example of each.
+
+**Concept**: A term or phrase used to identify an object or subject, or to represent a common characteristic of a class of objects or subjects. Concepts are the building blocks of thought and theory.
+
+**Dimension**: This is a sub-concept. A dimension is a distinguishable component of a more abstract concept.
+
+**Indicator**: Concrete observable behaviors, attitudes, perceptions, etc. indicating a concept or a dimension. It is concrete in that it can be directly or indirectly recorded or measured by some research technique.
+
+<center>
+<img src="https://sarakyeo.github.io/images/concepts-dimensions-indicators.gif"/>
+</center>
+<br>
 
 <a href="#top">Back to top</a>
