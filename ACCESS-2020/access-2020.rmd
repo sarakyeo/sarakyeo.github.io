@@ -4,6 +4,7 @@ title: |
   | ACCESS Program
   | The Science of Science Communication
   | Summer 2020
+pagetitle: "The Science of Science Communication"
 output:
   html_document: 
     toc: yes
