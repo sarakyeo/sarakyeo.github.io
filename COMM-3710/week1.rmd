@@ -92,7 +92,10 @@ The **social sciences**, on the other hand, is the study of how humans live and 
 
 This week, we will begin by examining the history of social sciences and how the field of communication developed.
 
+<a href="#top">Back to top</a>
+
 <hr>
+
 
 # A (Brief) History of the Social Sciences {.tabset .tabset-fade}
 
@@ -137,23 +140,44 @@ Post-WWI, we begin to see social science research expand and flourish. In 1981, 
 
 By the 1920s, marketing agencies were surveying consumer behavior, and politicians and media outlets realized that the new techniques being created by social scientists to research humans could examine political preferences. This resulted in new ways of measuring attitudes, many of which we still use today.
 
-For example, the Likert and semantic differential scales were developed during this time.
+For example, the Likert and semantic differential scales were developed during this time:
+
+Likert, R. (1932). A technique for the measurement of attitudes (Ph.D.). Columbia University, New York, NY. Retrieved from [http://psycnet.apa.org/record/1933-01885-001](http://psycnet.apa.org/record/1933-01885-001)
+
 <center>
 <img src="https://sarakyeo.github.io/images/Likert.jpg"></img>
+</center>
+
+Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bulletin*, *49(3)*, 197–237. [https://doi.org/10.1037/h0055737](https://doi.org/10.1037/h0055737)
+
+<center>
 <img src="https://sarakyeo.github.io/images/semantic-diff.jpg"></img>
 </center>
+
+<a href="#top">Back to top</a>
 
 <hr>
 
 ## Social Science Research During and Post-WWII
-During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the US Office of War Information. 
+During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the [US Office of War Information](https://en.wikipedia.org/wiki/United_States_Office_of_War_Information). 
 
 <center>
 <img src="https://sarakyeo.github.io/images/OWI.jpg"></img>
 </center>
 
+In 1941, [Paul Lazarsfeld](http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/lazarsfeld-paul-f.pdf) and his colleagues at the [Bureau of Applied Social Research at Columbia University](http://www.iserp.columbia.edu/about/iserp-history) published the first review of the discipline of communication. In this review, they identified 4 categories of communication:
 
+1. Who...
+2. said what...
+3. to whom...
+4. and with what effect?
 
-<hr> 
+Another important milestone in the history of communication research is the work of [Carl Hovland](http://www.apadivisions.org/division-1/publications/newsletters/general/2017/06/hovland-profile.aspx)'s group at Yale University. This group examined a wide range of variables shown to influence persuasion including sources credibility, personality traits, and fear appeals.
 
-# Social Sciences in Communication
+<center>
+<img src="https://sarakyeo.github.io/images/Hovland-Weiss.png"></img>
+</center>
+
+The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
+
+<a href="#top">Back to top</a>
