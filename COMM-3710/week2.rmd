@@ -1,0 +1,33 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Overview of the Research Process \& Research Ethics
+pagetitle: "COMM 3710: Week 2"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+urlcolor: blue
+---
+
+# The Scientific Method
+The basic process of conducting research is the same between the physical sciences and social science. This process is derived from the **scientific method** and was first used by a Muslim scholar who lived in modern-day Iraq, Ibn al-Haytham.
+
+Ibn al-Haytham wrote the Book of Optics in which he described the method that eventually became the basis of the modern scientific method. The scientific method was subsequently refined by other scientists, including René Descartes, Isaac Newton, David Hume, and Karl Popper.
+
+The scientific method consists of 7 basic steps:
+
+1. Observation (which often inspires scientists to study a specific topic)
+2. Stating of the scientific problem
+3. Formulating a hypothesis
+4. Testing the hypothesis through observation
+5. Analyzing the data
+6. Interpreting data and forming conclusions
+7. Publishing research
+
+<a href="#top">Back to top</a>
+
+# The Wheel of Science Revisited
+<center>
+<img src="https://sarakyeo.github.io/images/wheel-of-science.png"/>
+</center>

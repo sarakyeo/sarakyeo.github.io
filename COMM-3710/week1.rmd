@@ -120,7 +120,7 @@ This lack of division between physical and social sciences stayed intact until t
 - In these volumes, Newton argues that the underlying rule of all physical nature is mathematics.
 
 <center>
-<img src="https://sarakyeo.github.io/images/Newton-1687.png"></img>
+<img src="https://sarakyeo.github.io/images/Newton-1687.png"/>
 </center>
 
 As a result, physical scientists gravitated to and successfully applied Newton's writings. Social scientists, on the other hand, were slower to make their studies more quantitative.
@@ -128,7 +128,7 @@ As a result, physical scientists gravitated to and successfully applied Newton's
 **Charles Darwin**'s theory was another point at which we see a divide between the “hard” and social sciences; social scientists were slower than biologists to see how Darwin’s theory applied to social science.
 
 <center>
-<img src="https://sarakyeo.github.io/images/Darwin_origin-of-spp.jpg"></img>
+<img src="https://sarakyeo.github.io/images/Darwin_origin-of-spp.jpg"/>
 </center>
 
 In the late 1800's to the early 1900's, quantitative measurements in the physical sciences became the norm.
@@ -145,13 +145,13 @@ For example, the Likert and semantic differential scales were developed during t
 Likert, R. (1932). A technique for the measurement of attitudes (Ph.D.). Columbia University, New York, NY. Retrieved from [http://psycnet.apa.org/record/1933-01885-001](http://psycnet.apa.org/record/1933-01885-001)
 
 <center>
-<img src="https://sarakyeo.github.io/images/Likert.jpg"></img>
+<img src="https://sarakyeo.github.io/images/Likert.jpg"/>
 </center>
 
 Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bulletin*, *49(3)*, 197–237. [https://doi.org/10.1037/h0055737](https://doi.org/10.1037/h0055737)
 
 <center>
-<img src="https://sarakyeo.github.io/images/semantic-diff.jpg"></img>
+<img src="https://sarakyeo.github.io/images/semantic-diff.jpg"/>
 </center>
 
 <a href="#top">Back to top</a>
@@ -171,7 +171,7 @@ In 1941, [Paul Lazarsfeld](http://www.nasonline.org/publications/biographical-me
 Another important milestone in the history of communication research is the work of [Carl Hovland](http://www.apadivisions.org/division-1/publications/newsletters/general/2017/06/hovland-profile.aspx)'s group at Yale University. This group examined a wide range of variables shown to influence persuasion including sources credibility, personality traits, and fear appeals.
 
 <center>
-<img src="https://sarakyeo.github.io/images/Hovland-Weiss.png"></img>
+<img src="https://sarakyeo.github.io/images/Hovland-Weiss.png"/>
 </center>
 
 The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
@@ -180,7 +180,7 @@ The legacy of research conducted by Hovland's group led to future researchers ex
 
 # Epistemologies in Communication Research {.tabset .tabset-fade}
 <center>
-<img src="https://sarakyeo.github.io/images/epistemology.png"></img>
+<img src="https://sarakyeo.github.io/images/epistemology.png"/>
 </center>
 
 In communication research, there are 3 epistemological traditions:
@@ -283,7 +283,7 @@ Watch the video below defining "research."
 ## Probabilistic vs. Deterministic Predictions
 
 <center>
-<img src="https://sarakyeo.github.io/images/prob-deter-predictions.PNG"></img>
+<img src="https://sarakyeo.github.io/images/prob-deter-predictions.PNG"/>
 </center>
 
 **Deterministic predictions**
