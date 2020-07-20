@@ -32,6 +32,7 @@ The scientific method consists of 7 basic steps:
 <center>
 <img src="https://sarakyeo.github.io/images/wheel-of-science.png"/>
 </center>
+<br> 
 
 In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science), we discussed inductive and deductive reasoning. Let's now turn to other terms in the wheel of science. Click on the tabs below to learn about the terms, *theory*, *hypothesis*, *observation*, and *empirical generalization*.
 
