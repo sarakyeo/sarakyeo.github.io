@@ -248,19 +248,25 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 # The Wheel of Science
 A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
 
-<iframe width="560" height="315" align="center" src="https://player.vimeo.com/video/440078105" frameborder="0" allowfullscreen></iframe>
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/440078105" frameborder="0" allowfullscreen></iframe>
+</center>
 
 <br>
 
 Next, let's practice identifying some inductive and deductive forms of reasoning. **Watch the clip below from Monty Python and the Holy Grail and try to identify the type of reasoning (inductive or deductive) used in various parts** (*Hint*: Both inductive and deductive logic is used at different times in the clip).
 
-![](https://youtu.be/H9PY_3E3h2c)
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H9PY_3E3h2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 <br>
 
 Check your answers using the video below:
 
-![](https://player.vimeo.com/video/440080165)
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/440080165" frameborder="0" allowfullscreen></iframe>
+</center>
 
 <a href="#top">Back to top</a>
 
@@ -270,12 +276,14 @@ Check your answers using the video below:
 # Defining Research
 Watch the video below defining "research."
 
-![](https://player.vimeo.com/video/440081616)
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/440081616" frameborder="0" allowfullscreen></iframe>
+</center>
 
 ## Probabilistic vs. Deterministic Predictions
 
 <center>
-<img src="https://sarakyeo.github.io/images/prob-deter-predictions.png"></img>
+<img src="https://sarakyeo.github.io/images/prob-deter-predictions.PNG"></img>
 </center>
 
 **Deterministic predictions**
