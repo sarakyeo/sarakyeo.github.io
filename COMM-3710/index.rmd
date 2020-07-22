@@ -135,66 +135,94 @@ Throughout the semester, I will hold drop-in office hours via Zoom. You may drop
 ## Week 1 (24-Aug)
 > [Course introduction](https://sarakyeo.github.io/COMM-3710/week1.html) | **Quiz 1** </br>
   Readings: syllabus, Pauk Ch. 7, Wrench Ch, 1 </br>
-  Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
+  Lab: Introduction, [LA.1--Installing R and RStudio (10 pts)](https://utah.instructure.com/files/102874430/download?download_frd=1), [GP.A--Ethics in Human Subjects Research (10 pts)](https://utah.instructure.com/files/103857193/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 2 (31-Aug)
 > [Overview of the research process; Research ethics](https://sarakyeo.github.io/COMM-3710/week2.html) | **Quiz 2** </br>
   Readings: Wrench Ch. 2, 3, Cushing </br>
-  Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
+  Lab: [LA.2--Understanding Data (10 pts)](https://utah.instructure.com/files/102874502/download?download_frd=1), [GP.B--Finding a Research Topic (10 pts)](https://utah.instructure.com/files/103857210/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 3 (7-Sep)
 > [Concept explication](https://sarakyeo.github.io/COMM-3710/week3.html) | **Quiz 3** </br>
   Readings: McLeod et al. </br>
-  Lab: LA.3--Examining Data (10 pts)
+  Lab: [LA.3--Examining Data (10 pts)](https://utah.instructure.com/files/102874861/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 4 (14-Sep)
-> Variables and measurement | **Quiz 4** </br>
+> [Variables and measurement](https://sarakyeo.github.io/COMM-3710/week4.html) | **Quiz 4** </br>
   Readings: Wrench Ch. 6, 7 </br>
-  Lab: LA.4--Working with Data (10 pts)
+  Lab: [LA.4--Working with Data (10 pts)](https://utah.instructure.com/files/102875626/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 5 (21-Sep)
-> Survey research; Experiments | **Quiz 5** </br>
+> [Survey research; Experiments](https://sarakyeo.github.io/COMM-3710/week5.html) | **Quiz 5** </br>
   Readings: Wrench Ch. 9, 11 </br>
-  Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
+  Lab: [LA.5--Visualizing Data (10 pts)](https://utah.instructure.com/files/102876680/download?download_frd=1), [GP.C--Literature Review (10 pts)](https://utah.instructure.com/files/103857269/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 6 (28-Sep)
-> Reliability and validity | **Quiz 6** </br>
+> [Reliability and validity](https://sarakyeo.github.io/COMM-3710/week6.html) | **Quiz 6** </br>
   Readings: Wrench Ch. 8 </br>
-  Lab: LA.6--Relationships in Data (10 pts)
+  Lab: [LA.6--Relationships in Data (10 pts)](https://utah.instructure.com/files/102876852/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 7 (5-Oct)
-> Sampling | **Quiz 7** </br>
+> [Sampling](https://sarakyeo.github.io/COMM-3710/week7.html) | **Quiz 7** </br>
   Readings: Wrench Ch. 12, ASA pp. 63-68 </br>
-  Lab: LA.7--Practice Data Analysis (10 pts)
+  Lab: [LA.7--Practice Data Analysis (10 pts)](https://utah.instructure.com/files/102877183/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 8 (12-Oct)
-> Introduction to statistics; Descriptive statistics | **Quiz 8** </br>
+> [Introduction to statistics; Descriptive statistics](https://sarakyeo.github.io/COMM-3710/week8.html) | **Quiz 8** </br>
   Readings: Wrench Ch. 13, 14, Silver, Zukin </br>
-  Lab: LA.8--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
+  Lab: [LA.8--Practice Data Analysis (10 pts)](https://utah.instructure.com/files/102877300/download?download_frd=1), [GP.D--Exploring Data (10 pts)](https://utah.instructure.com/files/103857270/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 9 (19-Oct)
-> Inferential statistics | **Quiz 9** </br>
+> [Inferential statistics](https://sarakyeo.github.io/COMM-3710/week9.html) | **Quiz 9** </br>
   Readings: Wrench Ch. 15, 16, 18 </br>
-  Lab: GP.E--Data Management (10 pts)
+  Lab: [GP.E--Data Management (10 pts)](https://utah.instructure.com/files/103857271/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 10 (26-Oct)
-> Data analysis | **Quiz 10**
+> [Data analysis](https://sarakyeo.github.io/COMM-3710/week10.html) | **Quiz 10**
+
+<a href="#top">Back to top</a>
 
 ## Week 11 (2-Nov)
 > Group Project work | **Quiz 11** </br>
-  Lab: GP.F--Univariate Graphs (10 pts)
+  Lab: [GP.F--Univariate Graphs (10 pts)](https://utah.instructure.com/files/103857272/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 12 (9-Nov)
 > Group Project work </br>
-  Lab: GP.G--Bivariate Graphs (10 pts)
+  Lab: [GP.G--Bivariate Graphs (10 pts)](https://utah.instructure.com/files/103857273/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 13 (16-Nov)
 > Group Project work </br>
-  Lab: GP.H--Statistical Tests (15 pts)
+  Lab: [GP.H--Statistical Tests (15 pts)](https://utah.instructure.com/files/103857267/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 14 (23-Nov)
 > Group Project work </br>
-  Lab: GP.I--Reporting Research (15 pts)
+  Lab: [GP.I--Reporting Research (15 pts)](https://utah.instructure.com/files/103857268/download?download_frd=1)
+
+<a href="#top">Back to top</a>
 
 ## Week 15 (30-Nov)
 > Group Project work </br>
