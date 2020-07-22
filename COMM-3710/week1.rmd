@@ -14,6 +14,7 @@ urlcolor: blue
      alt="It's in the syllabus"/>
 </center>
 
+
 # An Introduction to Prof. Yeo
 Welcome back to a new semester and to COMM 3710!
 

@@ -1,0 +1,134 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Variables and Measurement
+pagetitle: "COMM 3710: Week 4"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+urlcolor: blue
+---
+
+# What is a Variable? {.tabset .tabset-fade}
+A **variable** can be defined as any entity that can take on a variety of different values. Research deals with the measurement, manipulation, and control of variables to test hypotheses and answer research questions.
+
+A **variable** is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
+
+**Concrete variables** are those that are stable or consistent over time. Some examples of this are eye color (e.g., blue, green, brown) and biological sex (male/female).
+
+**Abstract variables** are those that change over time or across situations or contexts. Some examples are attitudes and opinions.
+
+Before discussing relationships and differences between variables, we need to cover aspects of variables and some types of variables that we will encounter in this course.
+
+## Aspects of Variables
+Each variable has its associated aspects. These aspects include **variable attributes** and **variable values**.
+
+**Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
+
+**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., 1 = *brown*, 2 = *blue*, 3 = *green*.
+
+<u>Another example:</u>
+
+- Variable: Journalists' confidence in their own reporting abilities
+- Variable attributes:
+   - `Not at all confident`,
+   - `Slightly confident`,
+   - `Somewhat confident`,
+   - `Moderately confident`,
+   - `Very confident`
+- Variable values:
+   - 1 = `Not at all confident`,
+   - 2 = `Slightly confident`,
+   - 3 = `Somewhat confident`,
+   - 4 = `Moderately confident`,
+   - 5 = `Very confident`
+
+<center>
+<img src="https://sarakyeo.github.io/images/aspects-variables.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Types of Variables
+A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. One way to remember this: The dependent variable depends on the independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
+
+An **independent variable** (IV) is one that affects the outcome/dependent variable. In experiments, the independent variable is one that researchers manipulate or change. The independent variable is also often called the **predictor variable**.
+
+<center>
+<img src="https://sarakyeo.github.io/images/iv-dv.png"/>
+</center>
+<br>
+
+Use the Week 4 Discussion page on Canvas to discuss the answers with your peers.
+
+<a href="#top">Back to top</a>
+
+
+# Understanding Relationships and Differences
+All variables in research enable us to understand two basic phenomena: **relationships** and **differences**. Click on the tabs below to learn about these phenomena.
+
+## Relationships {.tabset .tabset-fade}
+In research, **relationships** refer to connections between variables. Most communication studies are designed with the goal of identifying relationships between variables.
+
+For example, Yeo et al. (2014) studied the relationship between people's *perceptions of risk related to nuclear energy* and *attention to media*.
+
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2014.png"/>
+</center>
+<br>
+
+Relationships typically fall into one of three categories: **positive**, **negative**, or **neutral**. We typically use a number, known as Pearson's correlation coefficient (denoted by *r*) to describe the strength and direction of a relationship. This is an inferential statistic that we can compute (and we will do so in our group projects).
+
+**Pearson's correlation coefficient** ranges between **-1 and 1**.
+
+- The sign of *r* tells us whether the relationship is positive or negative.
+- The magnitude of *r* tells us about the strength of the relationship.
+- A *r*-value of 0.8 is considered a strong, positive relationship, while a *r*-value of -0.8 is considered to be a strong, negative relationship.
+
+### Positive
+Positive relationships exist when an increase in one variable results in an increase in another variable. Note that, in a positive relationship, when one variable decreases, the other also decreases. In other words, the variables move in the same direction.
+
+Let's say $X$ is an independent variable and $Y$ is a dependent variable.
+
+In a positive relationship, when $X$ $\Uparrow$, $Y$ $\Uparrow$. Also, when $X$ $\Downarrow$, $Y$ $\Downarrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
+
+<center>
+<img src="https://sarakyeo.github.io/images/pos-rel.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Negative
+Negative relationships exist when an increase in one variable results in a decrease in another variable.
+
+Again, say $X$ is an independent variable and $Y$ is a dependent variable.
+
+In a negative relationship, when $X$ $\Uparrow$, $Y$ $\Downarrow$. Also, when $X$ $\Downarrow$, $Y$ $\Uparrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
+
+<center>
+<img src="https://sarakyeo.github.io/images/neg-rel.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Neutral
+A **neutral relationship** is on in which the variables are not related. In other words, it is the lack of a relationship and changes in one variable do not result in changes in the other.
+
+Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neutral relationship would look like this:
+
+<center>
+<img src="https://sarakyeo.github.io/images/neu-rel.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+
+## Differences
+
+
+<a href="#top">Back to top</a>
