@@ -9,6 +9,7 @@ output:
     toc_float: true
 urlcolor: blue
 ---
+<a name="var"></a>
 
 # What is a Variable? {.tabset .tabset-fade}
 A **variable** can be defined as any entity that can take on a variety of different values. Research deals with the measurement, manipulation, and control of variables to test hypotheses and answer research questions.
@@ -128,15 +129,142 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 <a href="#top">Back to top</a>
 
 
-## Differences
+## Differences {.tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
 
 ### Differences in Kind
-
+**Differences in kind** occur when different groups do different things. For example, teachers teach students and musicians play music. We wouldn't expect a musician to replace a teacher or a teacher to replace a musician. In research and statistics, differences in kind are not very interesting, except when they are used as grouping variables (e.g., one group of survey participants is female and another is male).
 
 <a href="#top">Back to top</a>
 
-### Differences of Degree
+<hr>
 
+### Differences of Degree
+Researchers are often interested in **differences of degree**. This is when two groups have different degrees of a variable. For example, women tend to be more averse to risk than men. In other words, in general, women tend to perceive more risk than men.
+
+Using statistical tests of difference allows researchers to determine whether there is a statistically significant difference in risk perceptions between women and men.
+
+For a visual depiction of differences in kind, see Figures 6.4 and 6.5 in your textbook.
+
+<a href="#top">Back to top</a>
+
+---
+
+# Measurement
+**Measurement** is the process of systematic observation in which we assign numbers to the things we measure. Measurement is a way for us to observe the "seen" (e.g., eye color, biological sex) and the "unseen" (e.g., attitudes, perceptions). To clarify your understanding about measurement as a *process*, read the section titled **"Defining the Term" in Chapter 6 of your textbook**.
+
+<br>
+
+But why do we assign numbers to things we measure?
+
+In general, we want to be able to quantify information so that...
+1. we can increase our objectivity,
+2. we can conduct statistical tests,
+3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
+
+## Levels of Measurement {.tabset .tabset-fade}
+Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable. Refer to <a href="#var">What is a Variable?</a> to review the definitions of *variable attribute* and *variable value*.
+
+<center>
+<img src="https://sarakyeo.github.io/images/level-of-meas.png"/>
+</center>
+<br>
+
+Quantitative data can be measured as **categorical/discrete** or **continuous** variables. Each of these broad categories has two levels of measurement.
+
+<center>
+<img src="https://sarakyeo.github.io/images/meas01.png"/>
+</center>
+<br>
+
+Click on the tabs below to learn about the four levels of measurement. The figure below summarizes the four levels based on how precise (or how much information contained in each level) they are.
+
+<center>
+<img src="https://sarakyeo.github.io/images/meas02.png"/>
+</center>
+<br>
+
+
+### Nominal
+*Nominal* measures or variables categorize data into **mutually exclusive** categories. There is no logical order to the variable attributes even though we assign values to them. In other words, the variable values have no logical rank-order. Examples include political partisanship (Democrat, Republican, Independent, other, etc.) and eye color (e.g., blue, brown, green, other).
+
+<u>Example</u>: Political partisanship
+Variable values and attributes:
+
+- 1 = `Democrat`
+- 2 = `Republican`
+- 3 = `Other`
+
+Even though we assign values to the attributes, there is no logical order to them, i.e., Democrats are not lower in rank than Republicans who are, in turn, not lower in rank than those who selected "Other."
+
+<br>
+
+There is a special type of nominal measure called a **binary** measure. One example of this is biological sex (male or female). A binary measure only has two categories. As with all nominal variables, sex cannot be rank-ordered--it makes no sense for males to be ranked higher/lower than females. They are simply different in kind, or different categories/groupings.
+
+Nominal data are typically reported as proportions or percentages.
+
+<center>
+<img src="https://sarakyeo.github.io/images/nominal.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Ordinal
+**Ordinal variables** have a logical order to the categories used to represent variable attributes. Again, the categories must be mutually exclusive--a respondent should only "fit" into one category.
+
+Examples of ordinal variables include household income, level of education, military rank, etc.
+
+<u>Example</u>: Household income
+Variable values and attributes
+
+- 1 = `Under $30,000`
+- 2 = `$30,000 to $49,999`
+- 3 = `$50,000 to $74,999`
+- 4 = `$75,000 to $99,999`
+- 5 = `$100,000 or more`
+
+Note that the variable attributes (and values) have a logical rank order but the distance or space between each category is not always the same. This is another important characteristic of ordinal variables: The intervals between each category are not necessarily representative of equal distances or quantities.
+
+Lastly, there is no zero point in an ordinal variable. In other words, there is no absence of household income, level of education, or military rank (at least not they way we are measuring these variables). 
+
+<br>
+
+Here's another example of an ordinal variable:
+<center>
+<img src="https://sarakyeo.github.io/images/ordinal.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Interval
+**Interval variables** categorize variable attributes in a logical order that represents equal distances between each category. Attitudes, risk perceptions, opinions, and behavioral intentions are examples of interval measures, if we assume the distance between each variable attribute to be equal or constant.
+
+<u>Example</u>: Risk perceptions
+Variable attributes
+
+- 1 = `Not at all risky`
+- 2 = `Slightly risky`
+- 3 = `Moderately risky`
+- 4 = `Very risky`
+
+Note that we are assuming the distances between attributes to be equal in this example. If we did not make this assumption, this measure of *risk perception* would be an ordinal variable. There is also no absolute zero point. In other words, there is no *absence* of perception in this scale.
+
+<br>
+
+Another example is temperature:
+<center>
+<img src="https://sarakyeo.github.io/images/ordinal.png"/>
+</center>
+
+Again, $0^\circ C$ is an arbitrarily defined zero-point (freezing).
+
+<a href="#top">Back to top</a>
+
+### Ratio
+**Ratio variables** share all the characteristics of interval variables except that ratio variables have an absolute zero point. In other words, there can be an absence of the variable that is being measured. For example, test scores, number of days one reads a newspaper, and speed are ratio variables.
+
+All these examples have mutually exclusive categories, the distances between variable attributes are equal, and they all have a "real" (or absolute) zero, i.e., absence of a characteristic. 
 
 <a href="#top">Back to top</a>
