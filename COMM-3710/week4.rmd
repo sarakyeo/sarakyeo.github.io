@@ -129,6 +129,14 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 
 
 ## Differences
+Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
+
+### Differences in Kind
+
+
+<a href="#top">Back to top</a>
+
+### Differences of Degree
 
 
 <a href="#top">Back to top</a>
