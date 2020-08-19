@@ -1,0 +1,35 @@
+---
+title: "COMM 3710: R Tutorials"
+pagetitle: "COMM 3710: R Tutorials"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# Getting Familiar with R and RStudio 
+
+## R vs. RStudio:   
+
+> "*The term R doesn’t really refer to a specific application on your computer. Rather, it refers to the underlying statistical language. You can use this language through lots of different applications. When you install R initially, it comes with one application that lets you do this: it’s the R.exe application on a Windows machine, and the R.app application on a Mac. But that’s not the only way to do it. There are lots of different applications that you can use that will let you interact with R. One of those is called Rstudio, and it’s the one I’m going to suggest that you use. Rstudio provides a clean, professional interface to R that I find much nicer to work with than either the Windows or Mac defaults.*"
+
+From Danielle Navarro (http://ccss.djnavarro.net/learning-statistics-with-r/)
+
+## Installing R and RStudio 
+Watch this [introduction](https://www.youtube.com/watch?time_continue=93&v=ZvPFKfNHBNQ&feature=emb_logo) by Andy Field, which covers:  
+
+* The difference between R and RStudio and how they work together  
+* Installing R    
+* Installing RStudio
+
+## What does RStudio look like? 
+Take [this quick tour of RStudio](https://www.youtube.com/watch?time_continue=184&v=HWnanydsBCs&feature=emb_logo) with Andy Field  to get an idea of: 
+
+* The four panes of RStudio and changing their configuration
+* Creating a new R Markdown document (Note: The R Markdown document is just an example here; we will *not* require you to learn [R Markdown](https://rmarkdown.rstudio.com/) in this class.) 
+* Getting help in R
+* Changing the RStudio theme
+
+<a href="#top">Back to top</a>
