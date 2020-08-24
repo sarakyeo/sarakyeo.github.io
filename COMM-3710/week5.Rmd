@@ -10,7 +10,8 @@ output:
     theme: united
 urlcolor: blue
 ---
-<a name="examples"></a>
+
+# Survey Research
 Let's begin by examining some examples of survey questions. As you read these, think about why a respondent might be hesitant to provide an answer to each question. Write down your these thoughts so you can compare your notes with mine. While you can find fault with the response options provided for each survey question, try to focus instead on the wording of the question itself or the way the question is asked.
 
 ---
@@ -59,7 +60,7 @@ Check your answers [here](https://utah.instructure.com/files/105569800/download?
 
 <a href="#top">Back to top</a>
 
-# What is a Survey? {.tabset .tabset-fade}
+## What is a Survey? {.tabset .tabset-fade}
 A **survey** is a social scientific method for gathering quantifiable information about a specific group of people by asking the group members questions about their individual attitudes, values, beliefs, behaviors, knowledge, and perceptions.
 
 A **questionnaire** is a form containing a series of questions and mental measures given to a group of people in an attempt to gain statistical information about the group as part of a survey.
@@ -70,7 +71,7 @@ There are different types of surveys. Two that we will define in this course are
 2. **Longitudinal survey**: A survey that is conducted at multiple time points. The respondents surveyed at these time points can be the same people (panel survey) or different people (trend survey).
 
 
-## Opinion Polling
+### Opinion Polling
 Polling is survey research that we often hear about in media, especially as it related to politics and public affairs. For example, the [Pew Research Center](https://www.pewresearch.org/) conducts polls on a variety of political and public affairs in the United States.
 
 That said, people had some questions about the accuracy of polling following the 2016 election. Read the three articles below. Each highlights some of the contemporary challenges faced by polling.
@@ -82,7 +83,7 @@ That said, people had some questions about the accuracy of polling following the
 <a href="#top">Back to top</a>
 
 
-## When to Use Surveys
+### When to Use Surveys
 According to Buckingham and Saunders (2004), for researchers to decide whether a survey is the appropriate method, they should answer four questions:
 
 1. Do you know what you want to ask?
@@ -101,7 +102,7 @@ Buckingham, A., & Saunders, P. (2004). *The Survey Methods Workbook: From Design
 <a href="#top">Back to top</a>
 
 
-# Questionnaire Construction
+## Questionnaire Construction
 We use a questionnaire because it is a **standardized measurement instrument** that allows us to collect **valid** and **reliable** data.
 
 Although we call it a questionnaire, not all of the "questions" contained within it are true questions. Many questions are in the form of statements that require participants to indicate the degree to which they agree or disagree with the statements. The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html)) and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
@@ -121,47 +122,47 @@ Being mindful of these aspects increases the likelihood that respondents will co
 <a href="#top">Back to top</a>
 
 
-# Strengths and Weaknesses of Survey Research {.tabset .tabset-fade}
+## Strengths and Weaknesses of Survey Research {.tabset .tabset-fade}
 
 > **Survey research is generally strong on reliability but *can* be weak on validity**.
 
-## Strengths
+### Strengths
 1. Surveys allow researchers to make inferences to large groups of people. In other words, surveys allow us to make **generalizations**. Of course, this means that we must first have valid and reliable measures of the concepts of interest in your survey and we must employ probability sampling techniques to obtain a representative sample of the population.
 2. We can often have **large samples** in a survey. It is not uncommon to have sample sizes upwards of 2,000 respondents. If we use probability sampling techniques, this allows us to make more accurate predictions and inferences about the population of interest.
 
 <a href="#top">Back to top</a>
 
-## Weaknesses
+### Weaknesses
 1. Sometimes, conducting survey research can be like trying to fit round pegs into square holes. Because we have standardized questionnaires for every respondent, we might miss some complexities and nuances in people's attitudes, opinions, behaviors, perceptions, etc. However, this can often be overcome through a combination of careful concept explication prior to data collection and sophisticated statistical analyses after data collection.
 2. Another critique of survey research is its **artificiality**. We cannot always use surveys to answer all our research questions. Additionally, if we have a sensitive topic, we may influence respondents' answers by asking survey questions about it. **Artificiality strains the validity of our surveys**; if the situation in which respondents are answering our survey suffers from the problem of artificiality, we may not be able to tell whether the results obtained are accurate reflections of our respondents' views.
 
 <a href="#top">Back to top</a>
 
-# Secondary Analysis {.tabset .tabset-fade}
-The last topic for this week is secondary analysis.
 
+## Secondary Analysis {.tabset .tabset-fade}
 Survey research projects are major undertakings. It can take a year or more to progress from concept explication to data collection. Often, researchers will obtain data that have been collected by other researchers and **re-analyze** them to **address different questions and hypotheses**.
 
 This is known as **secondary analysis** and the data used for such analyses are known as **secondary data**. You will be conducting secondary data analysis for your group project.
 
-## Advantages of Secondary Analysis
+### Advantages of Secondary Analysis
 - cheaper
 - quicker
 - allows researchers to conduct [meta-analyses](https://en.wikipedia.org/wiki/Meta-analysis)
 
 <a href="#top">Back to top</a>
 
-## Disadvantages of Secondary Analysis
+### Disadvantages of Secondary Analysis
 - may be weak on validity
 - data many not exactly fit or be appropriate to the research question
 - measures may not be valid or reliable
 
 <a href="#top">Back to top</a>
 
-# Common Sources of Secondary Data
+
+## Common Sources of Secondary Data
 The data sets listed in the [Modules](https://utah.instructure.com/courses/628882/modules) page are some examples of sources of secondary data. Spend some time on each of the websites listed and explore the data that can be downloaded. Many research questions have been answered using these secondary data.
 
-## Examples of Published Research Using Secondary Data
+### Examples of Published Research Using Secondary Data
 Webster, S. W., & Abramowitz, A. I. (2017). The ideological foundations of affective polarization in the U.S. electorate. *American Politics Research*, 45(4), 621–647. https://doi.org/10.1177/1532673X17703132
 
 Zhao, X. Q. (2009). Media use and global warming perceptions: A snapshot of the reinforcing spirals. *Communication Research*, 36(5), 698–723. https://doi.org/10.1177/0093650209338911
@@ -173,3 +174,217 @@ Tsfati, Y., & Ariely, G. (2014). Individual and contextual correlates of trust i
 Easterlin, R. A., McVey, L. A., Switek, M., Sawangfa, O., & Zweig, J. S. (2010). The happiness–income paradox revisited. *Proceedings of the National Academy of Science*s, 201015962. https://doi.org/10.1073/pnas.1015962107
 
 <a href="#top">Back to top</a>
+
+
+# Experiments
+
+## A Brief History of Experiments
+An experiment occurs when a researcher purposefully manipulates one or more variables in the hope of seeing how this manipulation affects other variables of interest. The emphasis on experimentation began in the 16th and 17th centuries. During this time, we see the emergence of modern science from natural philosophy. Prior to this time period, natural philosophy relied primarily of observation and documentation on-going systems. As experimentation emerged, scientists began to observe systems after causing deliberate change.
+
+Early experimenters realized the importance of control groups. Controls limit extraneous influences that might bias the observations. We will discuss modern experimental designs that control external influences in this module.
+
+## What is an Experiment? {.tabset .tabset-fade}
+Experiments...
+
+- explore the effects of manipulating a variable.
+- involve taking action then observing the consequences of that action.
+- have 3 major components:
+   
+   - independent and dependent variables
+   - pre- and post-testing
+   - experimental and control groups
+
+### Why Conduct Experiments?
+Experiments are useful for **demonstrating causality**. This is the primary advantage of conducting experiments.
+
+When we discussed survey research, we were careful to highlight that relationships between variables were correlation, not causation. Rigorous methodology in experimentation allows researchers to isolate the cause of an effect. This allows for the exploration of whether an independent variable causes a change in a dependent variable.
+
+The bottom line: **Experiments allow us to demonstrate causality**.
+
+<a href="#top">Back to top</a>
+
+### Disadvantages of Experimentation
+Experimentation can be time-consuming. Designing and setting up an experiment is a major undertaking that can be very resource-intensive. Additionally, experiments present subjects with artificial environments, i.e., in order to control every variable and change only one, researchers must subject participants to controlled conditions, which are often unlikely to occur in the real world. This limits researchers' ability to generalize the results of experiments. Indeed, experiments are often more focused on theory testing and building than on external validity.
+
+The bottom line: **The main disadvantage of experiments is the artificiality of the conditions to which subjects are exposed**.
+
+<a href="#top">Back to top</a>
+
+
+## The Logic of Experiments
+
+### Basic Experimental Design
+The most basic experimental design is a **pretest-posttest-control group design with random assignment of participants to each group**. Note that random assignment and random selection are not the same! Random selection refers to selecting subjects at random to a sample. Random assignment refers to assigned subjects in a sample to random groups in an experiment.
+
+<center>
+<img src="https://sarakyeo.github.io/images/basic-experimental-design.png"/>
+</center>
+<br>
+
+In the diagram above, $t_1$ refers to time 1, $t_2$ refers to time 2, $X$ denotes the group in which the stimulus is applied (experimental group), and `obs #` shows where observations of the dependent variable have been recorded. This is the classic and most basic experimental design.
+
+Respondents are randomly assigned to one of two groups, either the experimental or control group. In both groups, pretests are administered (i.e., observations of the dependent variable are recorded at $t_1$, `obs 1` and `obs 2`).
+
+Then, the experimental group is exposed to the stimulus ($X$), which is the manipulation that the researcher thinks will cause a change in the dependent variable. The control group is not exposed to any experimental manipulation.
+
+Following the manipulation, the dependent variable is again measured at $t_2$ (`obs 3` and `obs 4`).
+
+<center>
+<img src="https://sarakyeo.github.io/images/basic-experimental-design_Babbie.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Variations on Experimental Design {.tabset .tabset-fade}
+There are also variations on the basic experimental design. Here are four different types:
+
+#### One-shot Case Study
+In this design, there is only one group--the experimental group. The outcome variable is compared with some external standard or criteria. At time 1, there is no measurement. Then, at time 2, the stimulus (in this example, the stimulus is exercise) is applied. Lastly, at time 3, researchers measure the outcome variable (e.g., fitness).
+
+<center>
+<img src="https://sarakyeo.github.io/images/oneshot-case-study.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+#### One-group Pretest-Posttest Design
+Similar to the one-shot case study, this design has only one group, the experimental group. In this design, the outcome variable (e.g., fitness) is measured prior to application of the experimental manipulation/stimulus, at time 1 (e.g., exercise). The stimulus is applied at time 2, then the outcome variable is again measured at time 3.
+
+<center>
+<img src="https://sarakyeo.github.io/images/onegroup-pre-posttest-design.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+#### Static Group Comparison
+In this design, there are two groups--a control and an experimental group. In neither group are pretest measurements of the outcome variable taken at time 1. However, in the experimental group, subjects are exposed to the experimental stimulus (exercise) at time 2. In the control group, however, subjects are not exposed to the experimental manipulation. Then, at time 3, the outcome variable is measured among subjects in both experimental and control groups.
+
+<center>
+<img src="https://sarakyeo.github.io/images/static-group.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Threats to Internal and External Validity {.tabset .tabset-fade}
+When we design experiments, we must guard against threats to **internal and external validity**. The figure below shows the types of threats to internal and external validity that we will discuss.
+
+<center>
+<img src="https://sarakyeo.github.io/images/threats-int-ext-validity.png"/>
+</center>
+<br>
+
+### Internal Validity
+Internal validity is only relevant to studies that attempt to establish causality. It is the degree to which the results of a study are attributable to the independent variable (in experimental designs, the stimulus is the independent variable of interest) and not to some other rival explanation.
+
+When we think about internal validity, we should ask ourselves:
+
+1. Did the experimental manipulation (and not some external independent variable) have an effect on the dependent variable?
+2. Did stimulus cause a change in the outcome variable?
+
+<a href="#top">Back to top</a>
+
+### External Validity
+This is applicable to many types of research, not only those which attempt to establish causality. External validity is the extent to which the results of a study can be generalized.
+
+With regards to external validity, we should ask:
+
+1. How generalizable are the results of the experiment?
+2. How accurately does this experiment and its results reflect the "real world?"
+
+<a href="#top">Back to top</a>
+
+
+## Threats to Internal Validity {.tabset .tabset-fade}
+
+### History
+This threat to internal validity refers to uncontrolled events that might occur during the time of the study. Such events might affect the individuals who are participating in the study. These events might provide a rival (to the experimental stimulus) explanation for the change in the dependent/outcome variable. When considering history as a threat to the internal validity of experiments, researchers must ask: **Did the experimental manipulation cause the observed change in the dependent variable? Or did some external, uncontrolled event cause the change?**
+
+**Example:** An uncontrolled event, such as the terrorist attacks of September 11 in the U.S. might influence people's perceptions of the President.
+
+<a href="#top">Back to top</a>
+
+### Maturation
+Maturation refers to changes that occur to experimental subjects as a direct consequence of the passage of time, both in the short- and long-term. These changes could influence the measured dependent variable and lead to erroneous inferences. To guard against this threat to internal validity, researchers mush ask: **Did the manipulation or a natural change to the participants cause the observed change in the outcome variable between $t_1$ and $t_2$?**
+
+**Example:** Participants in an experiment may become bored, tired, more educated, or more affluent throughout the course of an experiment. Of course, this is dependent on time scale--the first two examples refer to a relatively short time scale, while the latter two examples refer to longer time scales.
+
+<a href="#top">Back to top</a>
+
+### Testing
+It is possible that the process of testing itself influences the outcome of an experiment. Simply participating in a pretest might change posttest results. This threat is more problematic if there is relatively little time between pre- and posttests.
+
+**Example:** Respondents can learn from the pretest survey, which may influence how they respond to posttest survey questions. They may also experience experimental fatigue between pretest and posttest if the time between $t_1$ and $t_2$ is relatively short.
+<a href="#top">Back to top</a>
+
+### Instrumentation
+This threat refers to changes in the instrument used to measure the outcome/dependent variable between $t_1$ and $t_2$. Changes in how we measure the dependent variable can, of course, influence the outcome variable. Repeated measurements of the same concept using the same instrument should yield the same result under unchanged conditions. This is known as measurement stability. However, changes in measurement may be responsible for changes in attitudes (instead of actual changes in attitudes). In other words, if we change the measurement instrument, we are unable to determine whether changes in the dependent variable are due to actual shifts in attitude or changes in how we measured it.
+
+It is clear that, in order to guard against this particular threat to internal validity, researchers must keep the measurement instrument consistent.
+
+<a href="#top">Back to top</a>
+
+### Selection Bias
+Selection bias results from differential recruitment of research participants to the experimental and control groups. Of course, this threat can be mitigated through **random sampling** and **random assignment** of participants to the experimental and control groups.
+
+<a href="#top">Back to top</a>
+
+### Mortality
+Mortality refers to individuals dropping out selectively from the experimental or control groups. In this case, researchers need to ask: **Was there a systematic decline in numbers of respondents in either the experimental or control group?** Another way to guard against this threat to internal validity is to have a large sample size.
+
+**Example:** In an experiment about general fitness, the experimental group is asked to exercise while the control group watches a movie. In this experiment, there may be more attrition among participants in the experimental condition.
+
+<a href="#top">Back to top</a>
+
+### Regression Toward the Mean
+This potential threat to internal validity occurs when individuals are assigned to experimental and control groups based on their extreme scores on the dependent variable in the pretest. At time 2, scores on the dependent variable that were below average tend to improve while scores that were above the average tend to decline. In other words, extreme scores tend toward the mean. This threat can be overcome by random assignment of participants to the experimental and control groups.
+
+**Example:** A group of researchers are studying the effect of reading instruction on people's reading ability. During the pretest, respondents are rated on reading ability. Then, those with low reading ability are assigned to the experimental group, while those with high reading ability are assigned to the control group. The experimental stimulus is a lesson in reading that is designed to improve reading ability. At $t_2$, a posttest is administered and those in the experimental group score higher on reading ability (compared to their $t_1$ scores), while those in the control group score lower on reading ability (compared to their $t_1$ scores).
+
+<a href="#top">Back to top</a>
+
+
+## Threats to External Validity {.tabset .tabset-fade}
+
+### Sensitization
+Respondents can behave differently when they know they are part of an experiment. This limits researchers' ability to generalize the results of the experiment.
+
+<a href="#top">Back to top</a>
+
+### Artificiality
+We have already discussed that experiments impose relatively artificial environments on respondents. And this clearly limits researchers' ability to make inferences and generalizations.
+
+<a href="#top">Back to top</a>
+
+
+## The Solomon Four-Group Design
+The **Solomon four-group design** expands on the basic experimental design to account for threats to internal validity. To review, the basic experimental design includes a pretest-posttest control group design:
+
+<center>
+<img src="https://sarakyeo.github.io/images/basic-experimental-design.png"/>
+</center>
+<br>
+
+In the basic experimental design, it is possible for pretesting to have an effect on subjects. Since there is no group in which respondents do not get a pretest, researchers cannot tell if pretesting threatens internal validity of the experiment. In other words, because of the lack of a group without a pretest, researchers may be unable to determine whether the effect on the dependent variable is due to the stimulus, X, or is an artifact of pretesting in both experimental and control groups.
+
+To overcome this, the Solomon four-group design **adds** a posttest-only control group design to the basic experimental design.
+
+### An Example of Research Using the Solomon Four-Group Design
+Let's assume that we want to examine how a film about positive contributions of Muslims to U.S. history affects people's prejudice against Muslims. We design an experiment using the Solomon four-group design.
+
+In our experiment, the pre- and posttest measures are identical and designed to assess people's levels of prejudice against Muslims. Assuming that the film decreases people's prejudice against Muslims, we would expect the results shown in the figure below:
+
+<center>
+<img src="https://sarakyeo.github.io/images/solomon-four-group-design.png"/>
+</center>
+<br>
+
+## Some Comments about Generalizability and Validity
+Because of limits on external validity, experimental research tends to privilege theory testing and development. Researchers use experiments to allow them to test and examine causal processes. Therefore, researchers conducting experiments are often more focused on mitigating threats to internal validity. In the case of experimental research, the tension between external and internal validity is clearly apparent. When conducting experiments, since researchers are more concerned about testing causation, most are willing to sacrifice some external validity for greater internal validity.
+
+<a href="#top">Back to top</a>
+
+
