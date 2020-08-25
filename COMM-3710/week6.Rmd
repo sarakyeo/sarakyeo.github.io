@@ -1,0 +1,59 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Reliability and Validity
+pagetitle: "COMM 3710: Week 6"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# What is Reliability and Validity?
+> **Reliability** and **validity** are standards by which we judge success or failure in our measurement of concepts.
+
+**Reliability**
+
+- Reliability is a quality of measurement that refers to consistency. When we assess reliability of a measure, we are asking whether the measure is a consistent indicator of a concept
+
+**Validity**
+
+- Validity is a quality of measurement that refers to confidence in a measure. A measure that is valid accurately reflects the concept it is intended to measure. The concept of validity also extends to...
+
+   1. precision in study design (**internal validity**, which is important in experiments)
+   2. our ability to generalize findings from a sample to a larger population (**external validity**)
+
+Reliability and validity are precision and accuracy, respectively. Using these four terms, describe the dart-thrower in scenarios A, B, and C below. Answers can be found in the video below.
+
+<center>
+<img src="https://sarakyeo.github.io/images/rel-val-01.png"/>
+<br>
+
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451652472" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+
+# Types of Reliability
+
+
+<a href="#top">Back to top</a>
+
+
+# Assessing Inter-Item Reliability
+
+
+<a href="#top">Back to top</a>
+
+
+# Types of External Validity
+
+
+<a href="#top">Back to top</a>
+
+
+# Summary
