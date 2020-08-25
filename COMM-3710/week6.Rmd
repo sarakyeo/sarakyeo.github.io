@@ -38,20 +38,98 @@ Reliability and validity are precision and accuracy, respectively. Using these f
 <a href="#top">Back to top</a>
 
 
-# Types of Reliability
+# Types of Reliability {.tabset .tabset-fade}
+There are four (4) types of reliability:
 
+1. Stability
+2. Reproducibility
+3. Homogeneity
+4. Accuracy
+
+Click on the tabs below to learn more about each type of reliability.
+
+## Stability
+Refers to consistency in measures across time. We can evaluate stability using a test-retest method. By measuring a concept at time 1 ($t_1$) and time 2 ($t_2$), we can compare them to see if they are stable across time.
+
+<center>
+<img src="https://sarakyeo.github.io/images/stability.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Reproducibility
+Refers to consistency between observers. By comparing the results of two different observers who are measuring the same phenomenon using the same measuring device, we can determine whether we have reliability between observers. This reliability between observers is known as **inter-coder reliability**.
+
+<center>
+<img src="https://sarakyeo.github.io/images/reproducibility.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Homogeneity
+Refers to consistency between different measures of a single concept. We often use more than one indicator to measure a concept. Homogeneity refers to the reliability of the indicators of a concept. We assess this using **inter-item reliability**. The next section discusses assessing inter-item reliability in more detail.
+
+<a href="#top">Back to top</a>
+
+## Accuracy
+Refers to the lack of mistakes in measurement. We can increase accuracy of measures by having clear, defined procedures. In addition, observers must have sufficient training, motivation, and concentration.
 
 <a href="#top">Back to top</a>
 
 
 # Assessing Inter-Item Reliability
+Inter-item reliability refers to the correlation of each item/indicator with every other item/indicator used in measurement of a particular concept. To begin, let's first clarify the meaning of a **statistical correlation**.
 
+A **statistical correlation** is a measure of the strength and direction of the relationship between two variables. The three figures below show three different types of relationships (negative, neutral, or positive). See if you can identify the type of relationship in the figure.
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-neu.png"/>
+</center>
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-pos.png"/>
+</center>
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-neg.png"/>
+</center>
+<br>
+
+Check your answers with the [Week 4 lecture on relationships](https://sarakyeo.github.io/COMM-3710/week4.html#Relationships).
+
+<hr>
+
+To assess inter-item reliability, we use one of three ways. The video below explains each of these.
+
+1. Average inter-item correlation
+2. Split-half reliability
+3. Cronbach's alpha ($\alpha$)
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451655609" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
 
 <a href="#top">Back to top</a>
 
 
 # Types of External Validity
+There are three types of validity that we will cover in this course. One can be assessed before data collection, while the remaining two are assessed after data collection.
 
+Before data collection, we can assess:
+
+1. face or content validity
+
+After data collection, we can assess:
+
+2. criterion validity
+3. construct validity
+
+Read Chapter 8 of your textbook and make note of the definitions of these terms.
 
 <a href="#top">Back to top</a>
 
