@@ -135,3 +135,11 @@ Read Chapter 8 of your textbook and make note of the definitions of these terms.
 
 
 # Summary
+Here's a graphical summart of what we have covered on reliability and validity of measures. Remember to post any questions about this week's content in the Discussion.
+
+<center>
+<img src="https://sarakyeo.github.io/images/rel-val-summary.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
