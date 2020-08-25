@@ -33,9 +33,9 @@ If there was a simple answer to this question, it would be "it depends." How lar
 
 Often, a moderate sample size is statistically sufficient. In general, sample size should be large enough to keep your **margin of error between $\pm5\%$**.
 
-## So, What is a Margin of Error?
+## So... What is a Margin of Error?
 
-A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
+> A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
 
 Be sure to read the following for this week: **ASA (pp. 63-68)**
 
@@ -148,3 +148,7 @@ Probability theory is the basis for estimating parameters in a population from a
 In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**. You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://nyti.ms/2dXBlva)).
 
 Read this [report](https://utah.instructure.com/files/105743188/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
+
+Post any questions about this week's content in the Discussion.
+
+<a href="#top">Back to top</a>
