@@ -1,0 +1,132 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Introduction to Statistics; Descriptive Statistics
+pagetitle: "COMM 3710: Week 8"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# Why Statistics?
+Statistics is a way of...
+
+- organizing,
+- describing,
+- and making inferences from data.
+
+Statistics is fundamental to scientific processes. As you grow accustomed and practiced at thinking statistically, you will find yourself interpreting and evaluating claims that people make more analytically and critically.
+
+Sometimes math anxiety can interfere with the goal of conceptual understanding of statistics—this is based on the belief that stats is about numbers and math. But, stats is not solely about math and numbers.
+
+> Statistics is more of a language by which we can communicate empirical evidence.
+
+As we would when learning a new language, we’re going to start by learning some vocabulary.
+
+---
+
+Before we jump into learning some basic statistics this week, let's talk about why statistics might be useful for your future careers.
+
+In today's media environment, data are used in a myriad of ways. We see data-driven reporting on everything from politics ([civic-minded folks, click here](https://projects.fivethirtyeight.com/2020-election-forecast/)) to sports ([baseball fans, click here](http://projects.fivethirtyeight.com/complete-history-of-mlb/#); [basketball fans, click here](http://projects.fivethirtyeight.com/complete-history-of-the-nba/#cavaliers); [football fans, click here](http://fivethirtyeight.com/features/the-nfls-most-run-heavy-and-pass-happy-teams/)). Such data journalism has become prevalent in the online media environment and some familiarity with the statistics and tools used in this area is vital.
+
+However, although most employers would like you to be familiar with basic statistics and statistical tools, they do not expect you will be an expert in data analysis or statistics!
+
+[Read this article and watch the video embedded in it](https://journalistsresource.org/studies/society/news-media/research-chat-new-york-times-sarah-cohen-state-data-journalism-what-reporters-need-know/). It will give you a sense of what data journalism is about. The article is an interview with Sarah Cohen, a reporter from The New York Times, and the video in the article shows her and a faculty member, Susan McGregor, from the Columbia Journalism School, discussing and demystifying data journalism.
+
+<a href="#top">Back to top</a>
+
+
+# The "Central Dogma" of Statistics {.tabset .tabset-fade}
+The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every individual in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
+
+<center>
+<img src="https://sarakyeo.github.io/images/central-dogma-stats.png"/>
+</center>
+<br>
+
+But what exactly is a statistic?
+
+Review the figure above. The central dogma has a population and a sample. And **statistics are associated with samples** while **parameters are associated with populations**.
+
+> We use statistics from a sample to estimate (infer) parameters in a population.
+
+## Parameter
+- number that describes the population (e.g., mean, standard deviation, variance, etc.)
+- parameters are often unknown because we cannot directly examine the entire population of interest!
+
+<a href="#top">Back to top</a>
+
+## Statistic
+- number that can be computed from sample data (e.g., mean, standard deviation, variance, etc.)
+- we use statistics in a sample to estimate parameters in a population!
+- for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
+
+<a href="#top">Back to top</a>
+
+# Categories of Statistics
+In general, there are two types of statistics: **descriptive** and **inferential statistics**. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics. In the next sections, we will discuss these types of statistics in more detail.
+
+<center>
+<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+# Descriptive Statistics: An Example
+
+
+<a href="#top">Back to top</a>
+
+# Types of Descriptive Statistics
+
+
+## Organizing Data
+
+
+## Summarizing Data
+
+### Central Tendency {.tabset .tabset-fade}
+
+#### Mean
+
+
+#### Median
+
+
+### Variability {.tabset .tabset-fade}
+
+
+#### Range
+
+
+#### Interquartile Range (IQR)
+
+
+#### Variance
+
+
+#### Standard Deviation
+
+
+# Graphical Summaries of Data
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451666765" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+
+<center>
+<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
+</center>
+<br>
+
+
+
+<a href="#top">Back to top</a>

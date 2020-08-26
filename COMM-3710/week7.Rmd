@@ -92,6 +92,11 @@ There are two broad categories of sampling strategies:
 - probability sampling
 - nonprobability sampling
 
+<center>
+<img src="https://sarakyeo.github.io/images/sample-design.gif"/>
+</center>
+<br>
+
 ## Nonprobability Sampling
 > **Nonprobability sampling** refers to any sampling technique in which cases are selected to a sample in ways not suggested by probability theory.
 
