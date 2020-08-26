@@ -93,7 +93,7 @@ There are two broad categories of sampling strategies:
 - nonprobability sampling
 
 <center>
-![](https://drive.google.com/file/d/1Yi0_IxY9UpxnuFS99IIfVgpc9QnhHTnO/view?usp=sharing)
+![](https://sarakyeo.github.io/images/sample-design.gif)
 </center>
 
 ## Nonprobability Sampling
