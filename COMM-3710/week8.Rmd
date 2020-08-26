@@ -77,9 +77,39 @@ In general, there are two types of statistics: **descriptive** and **inferential
 <a href="#top">Back to top</a>
 
 # Descriptive Statistics: An Example
+This week, we will discuss descriptive statistics. We will add inferential statistics next week.
 
+Let's begin with an illustration of the utility of descriptive statistics...
+
+The table below shows IQ scores of students in Class A and Class B. Which class is smarter?
+
+| Class A | Class B|
+|:-------:|:------:|
+|   102   |  127   |
+|   128   |  131   |
+|   131   |  96    |
+|   98    |  80    |
+|   140   |  90    |
+|   93    |  120   |
+|   110   |  109   |
+|   115   |  162   |
+|   109   |  103   |
+|   89    |  111   |
+|   106   |  109   |
+|   119   |  87    |
+|   97    |  105   |
+
+Tt is difficult to tell which class is smarter because it is difficult for us to process the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
+
+Below are the average IQ scores of students in Class A and B. Which class is smarter?
+
+$$\bar{X}_{A} = 110.54$$
+$$\bar{X}_{B} = 110.23$$
+
+As it turns out, the students in Class A and B have similar IQs on average!
 
 <a href="#top">Back to top</a>
+
 
 # Types of Descriptive Statistics
 
