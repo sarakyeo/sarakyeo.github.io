@@ -103,8 +103,8 @@ Tt is difficult to tell which class is smarter because it is difficult for us to
 
 Below are the average IQ scores of students in Class A and B. Which class is smarter?
 
-$$\bar{X}_{A} = 110.54$$
-$$\bar{X}_{B} = 110.23$$
+$$\bar{x}_{A} = 110.54$$
+$$\bar{x}_{B} = 110.23$$
 
 As it turns out, the students in Class A and B have similar IQs on average!
 
@@ -112,51 +112,178 @@ As it turns out, the students in Class A and B have similar IQs on average!
 
 
 # Types of Descriptive Statistics
+We can use descriptive statistics to:
 
-
-## Organizing Data
-
-
-## Summarizing Data
-
-### Central Tendency {.tabset .tabset-fade}
-
-#### Mean
-
-
-#### Median
-
-
-### Variability {.tabset .tabset-fade}
-
-
-#### Range
-
-
-#### Interquartile Range (IQR)
-
-
-#### Variance
-
-
-#### Standard Deviation
-
-
-# Graphical Summaries of Data
+1. Organize data
+2. Summarize data
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/451666765" frameborder="0" allowfullscreen></iframe>
+<img src="https://sarakyeo.github.io/images/types-desc-stats.png"/>
+</center>
+<br>
+
+## Organizing Data
+A frequency distribution is a description of the number of times the various attributes of a variable are observed in a sample. This can be show in tables or graphs (histograms, stem-and-leaf plots). Watch the short video below for an explanation of **frequency distribution tables, histograms, and stem-and-leaf plots**.
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451893553" frameborder="0" allowfullscreen></iframe>
 </center>
 <br>
 
 <a href="#top">Back to top</a>
 
+## Summarizing Data
+To summarize data, we often think about **central tendency** and **variability**.
+
+Central tendency refers to the middle values of groups, while variability refers to the spread of the data in the groups.
+
+### Central Tendency {.tabset .tabset-fade}
+
+#### Mean
+The mean ($\bar{x}$) is the "average" of the data points of a variable. In our example of IQ scores in Class A and Class B (above), we calculate the mean by adding all the scores in each class and dividing by the number of students in each class. In mathematical notation, the formula for calculating a mean would be:
 
 <center>
-<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
+<img src="https://sarakyeo.github.io/images/mean.png"/>
 </center>
 <br>
 
+You can think of the mean as a **balance point**.
 
+Imagine each person's score is a 1-lb weight placed at the score's position on a see-saw. Let's say we have a 200-meter long see-saw and the mean is 110 m. And we have 3 people in our sample with scores of 93 m, 106 m, and 131 m.
+
+<center>
+<img src="https://sarakyeo.github.io/images/mean-balance.png"/>
+</center>
+<br>
+
+Because of this, the mean can be badly affected by outliers, which can make the mean a poor measure of central tendency.
+
+For example, the mean of annual income in the U.S. (the point marked by the red triangle in the figure below) is skewed by the very rich among us, e.g., BIll Gates (outliers)!
+
+<center>
+<img src="https://sarakyeo.github.io/images/skewed-mean.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+#### Median
+The median is the second measure of central tendency that we will discuss. The median is the middle value in a ranked set of values. This middle value divides the ranked values into two equal halves.
+
+The median is also known as the **50th percentile**. When the data are ranked, the median (or 50th percentile) is the point at which 50\% of the cases are above and 50\% of the cases are below. Watch the video below for an explanation of how to calculate the median and the relationship between the mean and median.
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451893484" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+### Variability {.tabset .tabset-fade}
+We will look at 4 different measures of the spread (or variability) of data: **range, interquartile range, variance, and standard deviation**.
+
+#### Range
+The range is the spread between the lowest and highest values of a variable.
+
+To calculate the range, we simply subtract the lowest from the highest value of the variable. Using the example of IQ scores of students in Class A and Class B, we can calculate a range for each class.
+
+| Class A | Class B|
+|:-------:|:------:|
+|   102   |  127   |
+|   128   |  131   |
+|   131   |  96    |
+|   98    |  80    |
+|   140   |  90    |
+|   93    |  120   |
+|   110   |  109   |
+|   115   |  162   |
+|   109   |  103   |
+|   89    |  111   |
+|   106   |  109   |
+|   119   |  87    |
+|   97    |  105   |
+
+**Class A**
+$$Range = 140-89 = 51$$
+
+**Class B**
+$$Range = 162-80 = 82$$
+
+<a href="#top">Back to top</a>
+
+#### Interquartile Range (IQR)
+First, let's define quartiles. **Quartiles are values that divide a list of numbers into 4 equal parts**.
+
+In the example below, let's assume we have a sequential list of numbers that ranges from 0 to 100. The first quartile ($Q_1$, which is also called the 25th percentile) is 25. The second quartile ($Q_2$, aka 50th percentile) is 50. $Q_2$ is special--it is also the median! The third quartile ($Q_3$, aka 75th percentile) is 75.
+
+Now that we know what a quartile is, we can define the **interquartile range (IQR)**. This is the distance or range between $Q_3$ and $Q_1$. To calculate this, we use the formula:
+$$IQR = Q_3 - Q_1$$
+
+We use the IQR to define outliers (very high or very low values) in our data. An outlier is any value outside the lower or upper limits. These limits are determined using the following formulae (also shown in the figure below):
+
+Lower limit $= Q1 - 1.5 \times (IQR)$
+
+Upper limit $= Q3 + 1.5 \times (IQR)$
+
+<center>
+<img src="https://sarakyeo.github.io/images/IQR.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+#### Variance
+Variance measures the spread or dispersion of individual cases around the mean in a variable
+
+When the variance is larger, this means that individual cases are farther away from the mean. A smaller variance, on the other hand, means that individual cases are closer to the mean.
+
+<center>
+<img src="https://sarakyeo.github.io/images/variance01.png"/>
+</center>
+<br>
+
+To calculate variance, we use the following formula:
+
+$$Variance = \frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x_2})^2$$
+
+<a href="#top">Back to top</a>
+
+#### Standard Deviation
+The standard deviation is another measure of the spread of data around the mean. However, unlike variance, standard deviation is the average deviation of the cases from the mean.
+
+It is closely related to variance; to calculate standard deviation, we simply take the square root of the variance:
+
+$$SD = \sqrt{\frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x_2})^2}$$
+
+In the video below, we will work through an example step-by-step and calculate its variance and standard deviation.
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/451980713" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+# Graphical Summaries of Data
+Next, let's look at how we can show all the descriptive statistics that we've just learned about in a single graph.
+
+The **box plot** is a very useful figure as it can be used to show almost all descriptive statistics in one figure!
+
+In a box plot, we can show...
+- $Q_1$ and $Q_3$
+- mean ($\bar{x})
+- median ($Q_2$)
+- range
+- outliers
+
+Using the IQ scores example again, here are the data and a corresponding box plot showing the various descriptive statistics.
+
+<center>
+<img src="https://sarakyeo.github.io/images/IQ-data.png"/>
+<br>
+
+<img src="https://sarakyeo.github.io/images/box-plot.png"/>
+</center>
+<br>
 
 <a href="#top">Back to top</a>
