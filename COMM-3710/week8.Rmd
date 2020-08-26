@@ -270,8 +270,9 @@ Next, let's look at how we can show all the descriptive statistics that we've ju
 The **box plot** is a very useful figure as it can be used to show almost all descriptive statistics in one figure!
 
 In a box plot, we can show...
+
 - $Q_1$ and $Q_3$
-- mean ($\bar{x})
+- mean ($\bar{x}$)
 - median ($Q_2$)
 - range
 - outliers
