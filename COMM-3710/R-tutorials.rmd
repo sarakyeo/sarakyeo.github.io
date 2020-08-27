@@ -38,5 +38,6 @@ Take [this quick tour of RStudio](https://www.youtube.com/watch?time_continue=18
 
 # Resources
 - [Learning Statistics with R](https://learningstatisticswithr.com/book/)
+- [Statistical Inference with Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/index.html)
 
 <a href="#top">Back to top</a>
