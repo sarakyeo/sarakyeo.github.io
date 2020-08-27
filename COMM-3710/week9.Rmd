@@ -1,0 +1,71 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Introduction to Statistics; Descriptive Statistics
+pagetitle: "COMM 3710: Week 8"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# Descriptive vs. Inferential Statistics
+
+
+<a href="#top">Back to top</a>
+
+# Inferential Statistics
+We will discuss three common inferential statistical tests:
+
+1. Chi-Square ($\chi^2$) Test of Independence
+2. Independent Samples t-test
+3. Correlation
+
+Important terms:
+
+- **Null hypothesis ($H_0$)**: A prediction that states there is **no relationship** between the variables of interest.
+- **Alternative hypothesis ($H_a$)**: The opposite of $H_0$. This is a prediction that states there **is a relationship** between he variables of interest.
+
+<a href="#top">Back to top</a>
+
+## Steps in Hypothesis Testing
+
+<center>
+<iframe width="560" height="315" src="https://player.vimeo.com/video/452316703" frameborder="0" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+# Errors in Hypothesis Testing {.tabset .tabset-fade}
+
+## Type I Error
+
+
+<a href="#top">Back to top</a>
+
+## Type II Error
+
+
+<a href="#top">Back to top</a>
+
+
+# Chi-Square ($\chi^2$) Test of Independence
+
+
+<a href="#top">Back to top</a>
+
+
+# Independent Samples t-test
+
+
+<a href="#top">Back to top</a>
+
+
+
+# Correlation
+
+
+<a href="#top">Back to top</a>
