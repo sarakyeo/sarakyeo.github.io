@@ -22,9 +22,11 @@ From [Danielle Navarro](http://ccss.djnavarro.net/learning-statistics-with-r/)
 ## Installing R and RStudio 
 Watch this [introduction](https://www.youtube.com/watch?time_continue=93&v=ZvPFKfNHBNQ&feature=emb_logo) by Andy Field, which covers:  
 
-- The difference between R and RStudio and how they work together  
-- Installing R    
-- Installing RStudio
+* The difference between R and RStudio and how they work together  
+* Installing R  
+  * Download and install R by going to https://cloud.r-project.org/
+* Installing RStudio
+  * Download and install RStudio at https://www.rstudio.com/products/rstudio/download/
 
 ## What does RStudio look like? 
 Take [this quick tour of RStudio](https://www.youtube.com/watch?time_continue=184&v=HWnanydsBCs&feature=emb_logo) with Andy Field  to get an idea of: 
@@ -35,6 +37,6 @@ Take [this quick tour of RStudio](https://www.youtube.com/watch?time_continue=18
 - Changing the RStudio theme
 
 # Resources
-- [Learning Statistics with R]()
+- [Learning Statistics with R](https://learningstatisticswithr.com/book/)
 
 <a href="#top">Back to top</a>
