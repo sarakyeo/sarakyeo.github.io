@@ -12,18 +12,27 @@ urlcolor: blue
 ---
 
 # Descriptive vs. Inferential Statistics
+Recall the differences between descriptive and inferential statistics:
 
+<center>
+<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
+</center>
+<br>
+
+This week, we will focus on **inferential statistics**.
 
 <a href="#top">Back to top</a>
 
-# Inferential Statistics
-We will discuss three common inferential statistical tests:
+# Inferential Statistics {.tabset .tabset-fade}
+This week, we will discuss three common inferential statistical tests:
 
-1. Chi-Square ($\chi^2$) Test of Independence
-2. Independent Samples t-test
-3. Correlation
+1. Chi-square ($\chi^2$) test of independence
+2. Independent samples *t*-test
+3. Pearson's correlation (also known simply as a correlation)
 
-Important terms:
+Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing.
+
+## Important Terms
 
 - **Null hypothesis ($H_0$)**: A prediction that states there is **no relationship** between the variables of interest.
 - **Alternative hypothesis ($H_a$)**: The opposite of $H_0$. This is a prediction that states there **is a relationship** between he variables of interest.
@@ -31,6 +40,26 @@ Important terms:
 <a href="#top">Back to top</a>
 
 ## Steps in Hypothesis Testing
+When conducting hypothesis tests, we use the following steps in the order listed:
+
+1. State null ($H_0$) and alternative ($H_a$) hypotheses.
+2. Set the level of significant (also known as alpha ($\alpha$); usually $\alpha = 0.05$).
+3. Calculate the test statistic, which will differ depending on the hypothesis test you use.
+
+| Hypothesis Test | Test Statistic |
+|:---|:---:|
+| Independent samples *t*-test | $t$ |
+| Chi-square test of independence | $\chi^2$ |
+| Pearson's correlation | Pearson's $r$ |
+
+4. Determine $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
+5. Compare $p$-value to $\alpha$.
+   - If $p \leq \alpha$, we **reject** the null hypothesis ($H_0$).
+   - If $p > \alpha$, we **fail to reject** the null hypothesis ($H_0$).
+
+Using hypothesis testing, researchers typically hope to "nullify" their null hypothesis ($H_0$) since we are typically trying to shed more light on relationships between variables.
+
+The video below walks through an example of how to conduct a hypothesis test.
 
 <center>
 <iframe width="560" height="315" src="https://player.vimeo.com/video/452316703" frameborder="0" allowfullscreen></iframe>
@@ -40,6 +69,12 @@ Important terms:
 <a href="#top">Back to top</a>
 
 # Errors in Hypothesis Testing {.tabset .tabset-fade}
+When conducting hypothesis tests, 2 types of errors can occur. These are **Type I** and **Type II errors**. The table below provides an explanation and an easy way to remember the types of errors that can occur during hypothesis testing.
+
+<center>
+<img src="https://sarakyeo.github.io/images/errors-NHST.png"/>
+</center>
+<br>
 
 ## Type I Error
 
