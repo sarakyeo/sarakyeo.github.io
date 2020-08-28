@@ -118,7 +118,7 @@ For some interesting information on how beer created the $t$-test, see "How Beer
 - dependent variable (DV) = interval/ratio variable
 - independent variable (IV) = nominal variable
 
-### Assumptions of the Independent Samples $t$-test
+### Assumptions
 1. Sample is randomly distributed.
 2. The is DV is normally distributed in both levels of the IV, i.e., the dependent variable has a normal distribution in both groups of the independent variable.
 3. Homogeneity of variances. This means that the variances of the dependent variable in one group of the independent variable is the same as that in the other group.
@@ -167,10 +167,20 @@ $$ .05 < p < .10$$
 
 In Step 2, we set $\alpha = .05$. Given this information, decided whether we **reject** or **fail to reject** $H_0$.
 
+Based on your comparison of $p$ and $\alpha$, you should decide that we **fail to reject** $H_0$. Thus, we must conclude that student scores in Class 1 (prof. with short hair) are not statistically different from student scores in Class 2 (prof. with long hair).
+
 <a href="#top">Back to top</a>
 
 ## Effect Size
 It is important to calculate an effect size whenever you are conducting an independent samples t-test. This is because the size of a relationship (or, in this case, the size of the difference) matters as much as statistical significance. To calculate effect size, we use **Cohen's $d$** formula:
+
+$$d = t \sqrt{ \frac{n_1 + n_2}{n_1n_2} }$$
+
+To interpret effect sizes, we generally use the following:
+
+- $0.2 =$ small effect size
+- $0.5 =$ medium effect size
+- $0.8 =$ large effect size
 
 <a href="#top">Back to top</a>
 
@@ -178,13 +188,68 @@ It is important to calculate an effect size whenever you are conducting an indep
 # Correlation {.tabset .tabset-fade}
 
 ## Purpose
+The basic purpose of a correlation is to determine the relationship between two variables. The Pearson's product-moment correlation coefficient ($r$) is a measure of the degree to which two interval/ratio variables are linearly related in a sample.
+
+As you know, there are various types of linear relationships. Below, the graph farthest to the left shows no relationship between the variables, $X$ and $Y$. The middle graph shows a positive relationship and the graph on the right shows a negative relationship.
+
+<center>
+<img src="https://sarakyeo.github.io/images/correlation.png"/>
+</center>
+<br>
+
+### Assumptions
+1. Both variables are interval or ratio variables.
+2. Sample is randomly distributed.
+3. Each respondent in your sample should have a score for both variables.
+4. We assume a linear relationship between the two variables of interest.
+5. We should have a sample size of more than 25, i.e., $N > 25$.
 
 <a href="#top">Back to top</a>
 
 ## Case Study
+Let's assume we have the following research question:
 
-<a href="#top">Back to top</a>
+> **How are communication apprehension (CA) and heart rate change (HR) related?**
 
-## Effect Size
+For background on this research question, see Ch. 18 of your textbook.
+
+### Step 1: Formulate alternative and null hypotheses.
+Our prediction, which forms our alternative hypothesis, is that CA and HR are correlated.
+
+$$H_a: Pearson's \space r \neq 0 $$
+
+Our null hypothesis is the inverse, i.e., there is no relationship between CA and HR.
+
+$$H_0: Pearson's \space r = 0$$
+
+### Step 2: Set the level of significance.
+Again, we set this to $\alpha = .05$.
+
+### Step 3: Calculate the test statistic.
+Assume $x = CA$ and $y = HR$.
+
+To calculate the correlation of these two variables, we use the following formula:
+
+$$r = \frac{N \Sigma xy - (\Sigma x)(\Sigma y)}{\sqrt{ [N \Sigma x^2 - (\Sigma x)^2] [N \Sigma y^2 - (\Sigma y)^2] }}$$
+
+Now, use the data and step-by-step instructions in your textbook (starts on p. 523) to calculate Pearson's $r$.
+
+### Step 4: Determine the $p$-value.
+Use the critical values table to determine the $p$-value that corresponds to the value of $r$ that you calculated.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from examining this correlation between CA and HR are:
+
+$$r = .906$$
+
+$$p \leq .001$$
+
+In Step 2, we set $\alpha = .05$. Given this information and the results above, decided whether we **reject** or **fail to reject** $H_0$.
+
+Since $p \leq \alpha$, we can reject $H_0$. This means that the relationship between communication apprehension and heart rate change is statistically significant. Since $r$ is a positive value, we can say that these variables, CA and HR, are positively correlated.
+
+Remember that correlation $\ne$ causation! Our conclusion simply tells us that CA and HR are correlated, not whether one variable *causes* the other to change.
 
 <a href="#top">Back to top</a>
