@@ -27,7 +27,7 @@ This week, we will focus on **inferential statistics**.
 This week, we will discuss three common inferential statistical tests:
 
 1. Chi-square ($\chi^2$) test of independence
-2. Independent samples *t*-test
+2. Independent samples $t$-test
 3. Pearson's correlation (also known simply as a correlation)
 
 Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing.
@@ -46,13 +46,13 @@ When conducting hypothesis tests, we use the following steps in the order listed
 2. Set the level of significant (also known as alpha ($\alpha$); usually $\alpha = 0.05$).
 3. Calculate the test statistic, which will differ depending on the hypothesis test you use.
 
-| Hypothesis Test | Test Statistic |
-|:---|:---:|
-| Independent samples *t*-test | $t$ |
-| Chi-square test of independence | $\chi^2$ |
-| Pearson's correlation | Pearson's $r$ |
+>| Hypothesis Test | Test Statistic |
+>|:---|:---:|
+>| Independent samples $t$-test | $t$ |
+>| Chi-square test of independence | $\chi^2$ |
+>| Pearson's correlation | Pearson's $r$ |
 
-4. Determine $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
+4. Determine the $p$-value; each hypothesis test you conduct will result in a test statistic and a $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
 5. Compare $p$-value to $\alpha$.
    - If $p \leq \alpha$, we **reject** the null hypothesis ($H_0$).
    - If $p > \alpha$, we **fail to reject** the null hypothesis ($H_0$).
@@ -77,30 +77,114 @@ When conducting hypothesis tests, 2 types of errors can occur. These are **Type 
 <br>
 
 ## Type I Error
+Type I error occurs when the null hypothesis is true and your decision, based on hypothesis testing, is to reject $H_0$.
 
+This is also known as a **false positive** (you are supporting the alternative hypothesis when you should not be).
 
 <a href="#top">Back to top</a>
 
 ## Type II Error
+Type II error occurs when you have a **false negative**.
 
-
-<a href="#top">Back to top</a>
-
-
-# Chi-Square ($\chi^2$) Test of Independence
-
+In this case, you fail to reject $H_0$ when you should.
 
 <a href="#top">Back to top</a>
 
 
-# Independent Samples t-test
+# Chi-Square ($\chi^2$) Test of Independence {.tabset .tabset-fade}
 
+## Purpose
+
+<a href="#top">Back to top</a>
+
+## Case Study
+
+<a href="#top">Back to top</a>
+
+## Effect Size
 
 <a href="#top">Back to top</a>
 
 
+# Independent Samples $t$-test {.tabset .tabset-fade}
+The independent samples $t$-test is also known as a Student's $t$-test, the $t$-test evaluates whether there is a difference between two groups on a continuous dependent variable.
 
-# Correlation
+For some interesting information on how beer created the $t$-test, see "How Beer Created the $t$-Test" in your textbook.
 
+## Purpose
+- compare means
+- of two independent groups (i.e., units in one group cannot also be in the comparison group)
+- requires nominal and ratio/interval variables (review **levels of measurement**, if necessary)
+- dependent variable (DV) = interval/ratio variable
+- independent variable (IV) = nominal variable
+
+### Assumptions of the Independent Samples $t$-test
+1. Sample is randomly distributed.
+2. The is DV is normally distributed in both levels of the IV, i.e., the dependent variable has a normal distribution in both groups of the independent variable.
+3. Homogeneity of variances. This means that the variances of the dependent variable in one group of the independent variable is the same as that in the other group.
+
+<a href="#top">Back to top</a>
+
+## Case Study
+Let's assume we have the following research question:
+
+> **Does a professor's hair length affect student academic performance?**
+
+### Step 1: Formulate alternative and null hypotheses.
+Our alternative hypothesis is that the scores of students enrolled in a course taught by a professor with short hair will be different (i.e., $\neq$) from those of students enrolled in a course taught by a faculty member with long hair.
+
+$$H_a: scores_{short} \neq scores_{long} $$
+
+Our null hypothesis is the inverse.
+
+$$H_0: scores_{short} = scores_{long}$$
+
+### Step 2: Set the level of significance.
+Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
+
+Assume we have the following data:
+
+<center>
+<img src="https://sarakyeo.github.io/images/t-test_data.png"/>
+</center>
+<br>
+
+### Step 3: Calculate the test statistic.
+The formula for calculating a $t$-test is...
+$$t = \frac{(\bar{x}_1-\bar{x}_2)-(\mu_1-\mu_2)}{\sqrt{\left[ \frac{\Sigma x_1^2-\frac{(\Sigma x_1)^2}{n_1}+\Sigma x_2^2-\frac{(\Sigma x_2)^2}{n_2}}{n_1 + n_2 - 2} \right] \left( \frac{1}{n_1}+\frac{1}{n_2} \right)}}$$
+
+Use the step-by-step instructions in your textbook (starts on p. 474) to calculate the test statistic, $t$.
+
+### Step 4: Determine the $p$-value.
+Using the critical value table in your textbook, find the $p$-value that corresponds to your calculated test statistic, $t$.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from conducting a $t$-test with the data provided are:
+$$t = 2.169$$
+$$ .05 < p < .10$$
+
+In Step 2, we set $\alpha = .05$. Given this information, decided whether we **reject** or **fail to reject** $H_0$.
+
+<a href="#top">Back to top</a>
+
+## Effect Size
+It is important to calculate an effect size whenever you are conducting an independent samples t-test. This is because the size of a relationship (or, in this case, the size of the difference) matters as much as statistical significance. To calculate effect size, we use **Cohen's $d$** formula:
+
+<a href="#top">Back to top</a>
+
+
+# Correlation {.tabset .tabset-fade}
+
+## Purpose
+
+<a href="#top">Back to top</a>
+
+## Case Study
+
+<a href="#top">Back to top</a>
+
+## Effect Size
 
 <a href="#top">Back to top</a>
