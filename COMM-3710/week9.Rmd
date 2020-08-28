@@ -1,8 +1,8 @@
 ---
 title: |
   | <a name="top"></a>
-  | COMM 3710: Introduction to Statistics; Descriptive Statistics
-pagetitle: "COMM 3710: Week 8"
+  | COMM 3710: Inferential Statistics
+pagetitle: "COMM 3710: Week 9"
 output:
   html_document:
     toc: true
