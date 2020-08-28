@@ -253,7 +253,7 @@ In this design, there is only one group--the experimental group. The outcome var
 Similar to the one-shot case study, this design has only one group, the experimental group. In this design, the outcome variable (e.g., fitness) is measured prior to application of the experimental manipulation/stimulus, at time 1 (e.g., exercise). The stimulus is applied at time 2, then the outcome variable is again measured at time 3.
 
 <center>
-<img src="https://sarakyeo.github.io/images/onegroup-pre-posttest-design.png"/>
+<img src="https://sarakyeo.github.io/images/onegroup-preposttest-design.png"/>
 </center>
 <br>
 
