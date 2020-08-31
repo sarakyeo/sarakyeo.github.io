@@ -94,10 +94,30 @@ In this case, you fail to reject $H_0$ when you should.
 # Chi-Square ($\chi^2$) Test of Independence {.tabset .tabset-fade}
 
 ## Purpose
+- compare *observed frequencies* to *expected frequencies*
+- observed frequency = number of times participants or respondents fall into a specific category
+- expected frequency = number of times we *expect* participants to fall into a specific category
+- if $freq_{obs} = freq_{exp}$, then $\chi^2 = 0$
+- the greater the difference between $freq_{obs}$ and $freq_{exp}$, the larger the $\chi^2$ statistic
+
+### Assumptions
+1. Variables must be nominal (review levels of measurement, if necessary).
+2. Sample is randomly distributed.
+3. One respondent's presence in a group/category should not affect the likelihood of another respondent's presence in another cell.
+4. For two groups of respondents and two categories (i.e., a 2 $\times$ 2 table), there should be at least 5 respondents in each cell.
 
 <a href="#top">Back to top</a>
 
 ## Case Study
+Let's assume we have the following research question and data:
+
+> **Do female and male students differ in their standing (sophomore, junior, etc.) when they take a public speaking course?**
+
+|   | Pre-college students | First-year students | Sophomores | Juniors | Seniors | N |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Female | 7 | 20 | 9 | 8 | 6 | 50 |
+| Male | 6 | 8 | 10 | 1 | 25 | 50 |
+
 
 <a href="#top">Back to top</a>
 
