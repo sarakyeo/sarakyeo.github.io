@@ -1623,10 +1623,10 @@ COMM 3710: Inferential Statistics</div></h1>
 <h2>Purpose</h2>
 <ul>
 <li>compare <em>observed frequencies</em> to <em>expected frequencies</em></li>
-<li>observed frequency = number of times participants or respondents fall into a specific category</li>
-<li>expected frequency = number of times we <em>expect</em> participants to fall into a specific category</li>
-<li>if <span class="math inline">\(freq_{obs} = freq_{exp}\)</span>, then <span class="math inline">\(\chi^2 = 0\)</span></li>
-<li>the greater the difference between <span class="math inline">\(freq_{obs}\)</span> and <span class="math inline">\(freq_{exp}\)</span>, the larger the <span class="math inline">\(\chi^2\)</span> statistic</li>
+<li>observed frequency (<span class="math inline">\(f_o\)</span>) = number of times participants or respondents fall into a specific category</li>
+<li>expected frequency (<span class="math inline">\(f_e\)</span>) = number of times we <em>expect</em> participants to fall into a specific category</li>
+<li>if <span class="math inline">\(f_{o} = f_{e}\)</span>, then <span class="math inline">\(\chi^2 = 0\)</span></li>
+<li>the greater the difference between <span class="math inline">\(f_{o}\)</span> and <span class="math inline">\(f_{e}\)</span>, the larger the <span class="math inline">\(\chi^2\)</span> statistic</li>
 </ul>
 <div id="assumptions" class="section level3">
 <h3>Assumptions</h3>
@@ -1678,11 +1678,36 @@ COMM 3710: Inferential Statistics</div></h1>
 </tr>
 </tbody>
 </table>
+<p>The <span class="math inline">\(\chi^2\)</span> test evaluates whether the observed proportions of respondents in categories are equal to expected proportions or <strong>hypothesized proportions</strong>. Returning to our research question, in an “ideal” world, there would be little reason to expect that there would be a different proportion of males and females of each standing taking public speaking.</p>
+<p>In other words, of the 50 female and 50 male students in our sample, we would expect 10 pre-college females and 10 pre-college males taking public speaking, 10 first-year females and 10 first-year males taking public speaking, 10 sophomore females and 10 sophomore males taking public speaking, and so on.</p>
+<div id="step-1-formulate-alternative-and-null-hypotheses." class="section level3">
+<h3>Step 1: Formulate alternative and null hypotheses.</h3>
+<p>Recall that if the observed proportions (or frequencies) are very different from the expected proportions (or frequencies), then the value of our test statistic, <span class="math inline">\(\chi^2\)</span>, would be very large. If there are no differences between observed and expected frequencies/proportions, then <span class="math inline">\(\chi^2\)</span> would be 0. Therefore, our null and alternative hypotheses would be:</p>
+<p><span class="math display">\[H_a: \chi^2 \neq 0\]</span></p>
+<p><span class="math display">\[H_0: \chi^2 = 0\]</span></p>
+</div>
+<div id="step-2-set-the-level-of-significance." class="section level3">
+<h3>Step 2: Set the level of significance.</h3>
+<p>Since we usually use <span class="math inline">\(\alpha = 0.05\)</span>, let’s set our significance level to 0.05.</p>
+</div>
+<div id="step-3-calculate-the-test-statistic." class="section level3">
+<h3>Step 3: Calculate the test statistic.</h3>
+<p>To calculate a <span class="math inline">\(\chi^2\)</span> value, we use the formula below:</p>
+<p><span class="math display">\[\chi^2 = \Sigma \frac{(f_o-f_e)^2}{f_e}\]</span> Using the data and formula above, calculate a value of <span class="math inline">\(\chi^2\)</span>. Step-by-step instructions can be found in Chapter 15 of your textbook.</p>
+</div>
+<div id="step-4-determine-the-p-value." class="section level3">
+<h3>Step 4: Determine the <span class="math inline">\(p\)</span>-value.</h3>
+<p>Using the critical value table for a <span class="math inline">\(\chi^2\)</span> test (Fig. 15.6 in your textbook), determine the <span class="math inline">\(p\)</span>-value associated with your calculated <span class="math inline">\(\chi^2\)</span> value.</p>
+</div>
+<div id="step-5-compare-alpha-and-p." class="section level3">
+<h3>Step 5: Compare <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(p\)</span>.</h3>
+<p>First, review <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_a\)</span>.</p>
+<p>Our results from the data provided are: <span class="math display">\[\chi^2 = 22.36\]</span></p>
+<p><span class="math display">\[p &lt; .001 \]</span></p>
+<p>In Step 2, we set <span class="math inline">\(\alpha = .05\)</span>. Given the results, decide whether we <strong>reject</strong> or <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>.</p>
+<p>Based on your comparison of <span class="math inline">\(p\)</span> and <span class="math inline">\(\alpha\)</span>, you should decide that we can <strong>reject</strong> <span class="math inline">\(H_0\)</span>. Thus, we can conclude that female and male students differ in their year in college / standing when they take public speaking.</p>
 <p><a href="#top">Back to top</a></p>
 </div>
-<div id="effect-size" class="section level2">
-<h2>Effect Size</h2>
-<p><a href="#top">Back to top</a></p>
 </div>
 </div>
 <div id="independent-samples-t-test" class="section level1 tabset tabset-fade">
@@ -1714,14 +1739,14 @@ COMM 3710: Inferential Statistics</div></h1>
 <blockquote>
 <p><strong>Does a professor’s hair length affect student academic performance?</strong></p>
 </blockquote>
-<div id="step-1-formulate-alternative-and-null-hypotheses." class="section level3">
+<div id="step-1-formulate-alternative-and-null-hypotheses.-1" class="section level3">
 <h3>Step 1: Formulate alternative and null hypotheses.</h3>
 <p>Our alternative hypothesis is that the scores of students enrolled in a course taught by a professor with short hair will be different (i.e., <span class="math inline">\(\neq\)</span>) from those of students enrolled in a course taught by a faculty member with long hair.</p>
-<p><span class="math display">\[H_a: scores_{short} \neq scores_{long} \]</span></p>
+<p><span class="math display">\[H_a: scores_{short} \neq scores_{long}\]</span></p>
 <p>Our null hypothesis is the inverse.</p>
 <p><span class="math display">\[H_0: scores_{short} = scores_{long}\]</span></p>
 </div>
-<div id="step-2-set-the-level-of-significance." class="section level3">
+<div id="step-2-set-the-level-of-significance.-1" class="section level3">
 <h3>Step 2: Set the level of significance.</h3>
 <p>Since we usually use <span class="math inline">\(\alpha = 0.05\)</span>, let’s set our significance level to 0.05.</p>
 <p>Assume we have the following data:</p>
@@ -1730,25 +1755,25 @@ COMM 3710: Inferential Statistics</div></h1>
 </center>
 <p><br></p>
 </div>
-<div id="step-3-calculate-the-test-statistic." class="section level3">
+<div id="step-3-calculate-the-test-statistic.-1" class="section level3">
 <h3>Step 3: Calculate the test statistic.</h3>
 <p>The formula for calculating a <span class="math inline">\(t\)</span>-test is… <span class="math display">\[t = \frac{(\bar{x}_1-\bar{x}_2)-(\mu_1-\mu_2)}{\sqrt{\left[ \frac{\Sigma x_1^2-\frac{(\Sigma x_1)^2}{n_1}+\Sigma x_2^2-\frac{(\Sigma x_2)^2}{n_2}}{n_1 + n_2 - 2} \right] \left( \frac{1}{n_1}+\frac{1}{n_2} \right)}}\]</span></p>
 <p>Use the step-by-step instructions in your textbook (starts on p. 474) to calculate the test statistic, <span class="math inline">\(t\)</span>.</p>
 </div>
-<div id="step-4-determine-the-p-value." class="section level3">
+<div id="step-4-determine-the-p-value.-1" class="section level3">
 <h3>Step 4: Determine the <span class="math inline">\(p\)</span>-value.</h3>
 <p>Using the critical value table in your textbook, find the <span class="math inline">\(p\)</span>-value that corresponds to your calculated test statistic, <span class="math inline">\(t\)</span>.</p>
 </div>
-<div id="step-5-compare-alpha-and-p." class="section level3">
+<div id="step-5-compare-alpha-and-p.-1" class="section level3">
 <h3>Step 5: Compare <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(p\)</span>.</h3>
 <p>First, review <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_a\)</span>.</p>
 <p>Our results from conducting a <span class="math inline">\(t\)</span>-test with the data provided are: <span class="math display">\[t = 2.169\]</span> <span class="math display">\[ .05 &lt; p &lt; .10\]</span></p>
-<p>In Step 2, we set <span class="math inline">\(\alpha = .05\)</span>. Given this information, decided whether we <strong>reject</strong> or <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>.</p>
+<p>In Step 2, we set <span class="math inline">\(\alpha = .05\)</span>. Given this information, decide whether we <strong>reject</strong> or <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>.</p>
 <p>Based on your comparison of <span class="math inline">\(p\)</span> and <span class="math inline">\(\alpha\)</span>, you should decide that we <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>. Thus, we must conclude that student scores in Class 1 (prof. with short hair) are not statistically different from student scores in Class 2 (prof. with long hair).</p>
 <p><a href="#top">Back to top</a></p>
 </div>
 </div>
-<div id="effect-size-1" class="section level2">
+<div id="effect-size" class="section level2">
 <h2>Effect Size</h2>
 <p>It is important to calculate an effect size whenever you are conducting an independent samples t-test. This is because the size of a relationship (or, in this case, the size of the difference) matters as much as statistical significance. To calculate effect size, we use <strong>Cohen’s <span class="math inline">\(d\)</span></strong> formula:</p>
 <p><span class="math display">\[d = t \sqrt{ \frac{n_1 + n_2}{n_1n_2} }\]</span></p>
@@ -1790,35 +1815,35 @@ COMM 3710: Inferential Statistics</div></h1>
 <p><strong>How are communication apprehension (CA) and heart rate change (HR) related?</strong></p>
 </blockquote>
 <p>For background on this research question, see Ch. 18 of your textbook.</p>
-<div id="step-1-formulate-alternative-and-null-hypotheses.-1" class="section level3">
+<div id="step-1-formulate-alternative-and-null-hypotheses.-2" class="section level3">
 <h3>Step 1: Formulate alternative and null hypotheses.</h3>
 <p>Our prediction, which forms our alternative hypothesis, is that CA and HR are correlated.</p>
 <p><span class="math display">\[H_a: Pearson&#39;s \space r \neq 0 \]</span></p>
 <p>Our null hypothesis is the inverse, i.e., there is no relationship between CA and HR.</p>
 <p><span class="math display">\[H_0: Pearson&#39;s \space r = 0\]</span></p>
 </div>
-<div id="step-2-set-the-level-of-significance.-1" class="section level3">
+<div id="step-2-set-the-level-of-significance.-2" class="section level3">
 <h3>Step 2: Set the level of significance.</h3>
 <p>Again, we set this to <span class="math inline">\(\alpha = .05\)</span>.</p>
 </div>
-<div id="step-3-calculate-the-test-statistic.-1" class="section level3">
+<div id="step-3-calculate-the-test-statistic.-2" class="section level3">
 <h3>Step 3: Calculate the test statistic.</h3>
 <p>Assume <span class="math inline">\(x = CA\)</span> and <span class="math inline">\(y = HR\)</span>.</p>
 <p>To calculate the correlation of these two variables, we use the following formula:</p>
 <p><span class="math display">\[r = \frac{N \Sigma xy - (\Sigma x)(\Sigma y)}{\sqrt{ [N \Sigma x^2 - (\Sigma x)^2] [N \Sigma y^2 - (\Sigma y)^2] }}\]</span></p>
 <p>Now, use the data and step-by-step instructions in your textbook (starts on p. 523) to calculate Pearson’s <span class="math inline">\(r\)</span>.</p>
 </div>
-<div id="step-4-determine-the-p-value.-1" class="section level3">
+<div id="step-4-determine-the-p-value.-2" class="section level3">
 <h3>Step 4: Determine the <span class="math inline">\(p\)</span>-value.</h3>
 <p>Use the critical values table to determine the <span class="math inline">\(p\)</span>-value that corresponds to the value of <span class="math inline">\(r\)</span> that you calculated.</p>
 </div>
-<div id="step-5-compare-alpha-and-p.-1" class="section level3">
+<div id="step-5-compare-alpha-and-p.-2" class="section level3">
 <h3>Step 5: Compare <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(p\)</span>.</h3>
 <p>First, review <span class="math inline">\(H_0\)</span> and <span class="math inline">\(H_a\)</span>.</p>
 <p>Our results from examining this correlation between CA and HR are:</p>
 <p><span class="math display">\[r = .906\]</span></p>
 <p><span class="math display">\[p \leq .001\]</span></p>
-<p>In Step 2, we set <span class="math inline">\(\alpha = .05\)</span>. Given this information and the results above, decided whether we <strong>reject</strong> or <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>.</p>
+<p>In Step 2, we set <span class="math inline">\(\alpha = .05\)</span>. Given this information and the results above, decide whether we <strong>reject</strong> or <strong>fail to reject</strong> <span class="math inline">\(H_0\)</span>.</p>
 <p>Since <span class="math inline">\(p \leq \alpha\)</span>, we can reject <span class="math inline">\(H_0\)</span>. This means that the relationship between communication apprehension and heart rate change is statistically significant. Since <span class="math inline">\(r\)</span> is a positive value, we can say that these variables, CA and HR, are positively correlated.</p>
 <p>Remember that correlation <span class="math inline">\(\ne\)</span> causation! Our conclusion simply tells us that CA and HR are correlated, not whether one variable <em>causes</em> the other to change.</p>
 <p><a href="#top">Back to top</a></p>

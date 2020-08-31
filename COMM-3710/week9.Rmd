@@ -95,10 +95,10 @@ In this case, you fail to reject $H_0$ when you should.
 
 ## Purpose
 - compare *observed frequencies* to *expected frequencies*
-- observed frequency = number of times participants or respondents fall into a specific category
-- expected frequency = number of times we *expect* participants to fall into a specific category
-- if $freq_{obs} = freq_{exp}$, then $\chi^2 = 0$
-- the greater the difference between $freq_{obs}$ and $freq_{exp}$, the larger the $\chi^2$ statistic
+- observed frequency ($f_o$) = number of times participants or respondents fall into a specific category
+- expected frequency ($f_e$) = number of times we *expect* participants to fall into a specific category
+- if $f_{o} = f_{e}$, then $\chi^2 = 0$
+- the greater the difference between $f_{o}$ and $f_{e}$, the larger the $\chi^2$ statistic
 
 ### Assumptions
 1. Variables must be nominal (review levels of measurement, if necessary).
@@ -118,10 +118,40 @@ Let's assume we have the following research question and data:
 | Female | 7 | 20 | 9 | 8 | 6 | 50 |
 | Male | 6 | 8 | 10 | 1 | 25 | 50 |
 
+The $\chi^2$ test evaluates whether the observed proportions of respondents in categories are equal to expected proportions or **hypothesized proportions**. Returning to our research question, in an "ideal" world, there would be little reason to expect that there would be a different proportion of males and females of each standing taking public speaking.
 
-<a href="#top">Back to top</a>
+In other words, of the 50 female and 50 male students in our sample, we would expect 10 pre-college females and 10 pre-college males taking public speaking, 10 first-year females and 10 first-year males taking public speaking, 10 sophomore females and 10 sophomore males taking public speaking, and so on.
 
-## Effect Size
+### Step 1: Formulate alternative and null hypotheses.
+Recall that if the observed proportions (or frequencies) are very different from the expected proportions (or frequencies), then the value of our test statistic, $\chi^2$, would be very large. If there are no differences between observed and expected frequencies/proportions, then $\chi^2$ would be 0. Therefore, our null and alternative hypotheses would be:
+
+$$H_a: \chi^2 \neq 0$$
+
+$$H_0: \chi^2 = 0$$
+
+### Step 2: Set the level of significance.
+Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
+
+### Step 3: Calculate the test statistic.
+To calculate a $\chi^2$ value, we use the formula below:
+
+$$\chi^2 = \Sigma \frac{(f_o-f_e)^2}{f_e}$$
+Using the data and formula above, calculate a value of $\chi^2$. Step-by-step instructions can be found in Chapter 15 of your textbook.
+
+### Step 4: Determine the $p$-value.
+Using the critical value table for a $\chi^2$ test (Fig. 15.6 in your textbook), determine the $p$-value associated with your calculated $\chi^2$ value.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from the data provided are:
+$$\chi^2 = 22.36$$
+
+$$p < .001 $$
+
+In Step 2, we set $\alpha = .05$. Given the results, decide whether we **reject** or **fail to reject** $H_0$.
+
+Based on your comparison of $p$ and $\alpha$, you should decide that we can **reject** $H_0$. Thus, we can conclude that female and male students differ in their year in college / standing when they take public speaking.
 
 <a href="#top">Back to top</a>
 
@@ -153,7 +183,7 @@ Let's assume we have the following research question:
 ### Step 1: Formulate alternative and null hypotheses.
 Our alternative hypothesis is that the scores of students enrolled in a course taught by a professor with short hair will be different (i.e., $\neq$) from those of students enrolled in a course taught by a faculty member with long hair.
 
-$$H_a: scores_{short} \neq scores_{long} $$
+$$H_a: scores_{short} \neq scores_{long}$$
 
 Our null hypothesis is the inverse.
 
@@ -185,7 +215,7 @@ Our results from conducting a $t$-test with the data provided are:
 $$t = 2.169$$
 $$ .05 < p < .10$$
 
-In Step 2, we set $\alpha = .05$. Given this information, decided whether we **reject** or **fail to reject** $H_0$.
+In Step 2, we set $\alpha = .05$. Given this information, decide whether we **reject** or **fail to reject** $H_0$.
 
 Based on your comparison of $p$ and $\alpha$, you should decide that we **fail to reject** $H_0$. Thus, we must conclude that student scores in Class 1 (prof. with short hair) are not statistically different from student scores in Class 2 (prof. with long hair).
 
@@ -266,7 +296,7 @@ $$r = .906$$
 
 $$p \leq .001$$
 
-In Step 2, we set $\alpha = .05$. Given this information and the results above, decided whether we **reject** or **fail to reject** $H_0$.
+In Step 2, we set $\alpha = .05$. Given this information and the results above, decide whether we **reject** or **fail to reject** $H_0$.
 
 Since $p \leq \alpha$, we can reject $H_0$. This means that the relationship between communication apprehension and heart rate change is statistically significant. Since $r$ is a positive value, we can say that these variables, CA and HR, are positively correlated.
 
