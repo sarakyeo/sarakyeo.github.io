@@ -1,0 +1,26 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Data Analysis
+pagetitle: "COMM 3710: Week 10"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# General Steps to Analyze Data
+1. Cleaning raw data
+2. Data reduction and scaling
+3. Creating new composite variables
+4. Hypothesis testing (review Week 9: Inferential Statistics, if necessary)
+   - $\chi^2$ test of independent
+   - $t$-test
+   - Pearson's correlation
+
+At this point in the course, you will have conducted most of these steps in data analysis through your individual lab assignments and even in your group project assignments.
+
+
+<a href="#top">Back to top</a>
