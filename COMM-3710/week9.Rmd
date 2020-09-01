@@ -235,7 +235,7 @@ To interpret effect sizes, we generally use the following:
 <a href="#top">Back to top</a>
 
 
-# One-Way Analysis of Variance (ANOVA)
+# One-Way Analysis of Variance (ANOVA) {.tabset .tabset-fade}
 
 ## Purpose
 The purpose of ANOVA is similar to that of a $t$-test. Recall that a $t$-test allows you to compare a dependent variable (interval or ratio) among two independent groups (i.e., your independent variable is nominal).
@@ -251,7 +251,19 @@ ANOVA allows you to compare a dependent (interval or ratio) variable among **two
 
 <a href="#top">Back to top</a>
 
-## Case Study (HERE)
+## Case Study
+
+### Step 1: Formulate alternative and null hypotheses.
+
+### Step 2: Set the level of significance.
+
+### Step 3: Calculate the test statistic.
+
+### Step 4: Determine the $p$-value.
+
+### Step 5: Compare $\alpha$ and $p$.
+
+<a href="#top">Back to top</a>
 
 
 # Correlation {.tabset .tabset-fade}
