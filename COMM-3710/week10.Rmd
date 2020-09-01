@@ -20,7 +20,13 @@ urlcolor: blue
    - $t$-test
    - Pearson's correlation
 
-At this point in the course, you will have conducted most of these steps in data analysis through your individual lab assignments and even in your group project assignments.
+At this point in the course, you will have conducted most of these steps in data analysis through your individual lab assignments and even in your group project assignments. Review the videos and resources embedded in your lab assignments and group projects.
+
+Other resources for using R and RStudio for data analysis can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR).
+
+<a href="#top">Back to top</a>
+
+# Step 1: Cleaning Raw Data
 
 
 <a href="#top">Back to top</a>
