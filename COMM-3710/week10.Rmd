@@ -12,10 +12,11 @@ urlcolor: blue
 ---
 
 # General Steps to Analyze Data
-1. Cleaning raw data
-2. Data reduction and scaling
-3. Creating new composite variables
-4. Hypothesis testing (review Week 9: Inferential Statistics, if necessary)
+1. Manage data
+   - Frequency distributions
+   - Recoding data
+   - Creating composite or secondary variables
+2. Hypothesis testing (review Week 9: Inferential Statistics, if necessary)
    - $\chi^2$ test of independent
    - $t$-test
    - Pearson's correlation
@@ -26,7 +27,14 @@ Other resources for using R and RStudio for data analysis can be found [here](ht
 
 <a href="#top">Back to top</a>
 
-# Step 1: Cleaning Raw Data
+# Step 1: Managing Data
+To manage your data, you should be able to run frequency distributions, recode any variables, and create composite variables.
 
+Watch the videos below to refresh your memory on conducting the functions in R:
+
+- [Running frequency distributions](https://youtu.be/Dbj_l1PRIjA?t=697)
+- [Recoding data](https://youtu.be/b9Bh3K5bi0I)
+   - [Reverse coding](https://youtu.be/b9Bh3K5bi0I?t=725)
+- [Creating composite or secondary variables](https://youtu.be/b9Bh3K5bi0I?t=994)
 
 <a href="#top">Back to top</a>
