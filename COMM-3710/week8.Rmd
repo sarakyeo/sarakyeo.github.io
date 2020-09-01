@@ -226,7 +226,7 @@ Lower limit $= Q1 - 1.5 \times (IQR)$
 Upper limit $= Q3 + 1.5 \times (IQR)$
 
 <center>
-<img src="https://sarakyeo.github.io/images/IQR.png"/>
+<img src="https://sarakyeo.github.io/images/IQR.PNG"/>
 </center>
 <br>
 
@@ -238,7 +238,7 @@ Variance measures the spread or dispersion of individual cases around the mean i
 When the variance is larger, this means that individual cases are farther away from the mean. A smaller variance, on the other hand, means that individual cases are closer to the mean.
 
 <center>
-<img src="https://sarakyeo.github.io/images/variance01.png"/>
+<img src="https://sarakyeo.github.io/images/variance01.PNG"/>
 </center>
 <br>
 
@@ -283,7 +283,7 @@ Using the IQ scores example again, here are the data and a corresponding box plo
 <img src="https://sarakyeo.github.io/images/IQ-data.png"/>
 <br>
 
-<img src="https://sarakyeo.github.io/images/box-plot.png"/>
+<img src="https://sarakyeo.github.io/images/box-plot.PNG"/>
 </center>
 <br>
 

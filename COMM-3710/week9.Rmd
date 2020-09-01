@@ -72,7 +72,7 @@ The video below walks through an example of how to conduct a hypothesis test.
 When conducting hypothesis tests, 2 types of errors can occur. These are **Type I** and **Type II errors**. The table below provides an explanation and an easy way to remember the types of errors that can occur during hypothesis testing.
 
 <center>
-<img src="https://sarakyeo.github.io/images/errors-NHST.png"/>
+<img src="https://sarakyeo.github.io/images/errors-NHST.PNG"/>
 </center>
 <br>
 
@@ -195,7 +195,7 @@ Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
 Assume we have the following data:
 
 <center>
-<img src="https://sarakyeo.github.io/images/t-test_data.png"/>
+<img src="https://sarakyeo.github.io/images/t-test_data.PNG"/>
 </center>
 <br>
 
@@ -235,6 +235,25 @@ To interpret effect sizes, we generally use the following:
 <a href="#top">Back to top</a>
 
 
+# One-Way Analysis of Variance (ANOVA)
+
+## Purpose
+The purpose of ANOVA is similar to that of a $t$-test. Recall that a $t$-test allows you to compare a dependent variable (interval or ratio) among two independent groups (i.e., your independent variable is nominal).
+
+ANOVA allows you to compare a dependent (interval or ratio) variable among **two or more independent groups**.
+
+### Assumptions
+1. The dependent variable must be an interval or ratio variable (i.e., continuous).
+2. The independent variable must be a nominal variable.
+3. The dependent variable should be normally distributed in each of the levels of the independent variable. In other words, in each category of the independent variable, the values of the dependent variable should be normally distributed.
+4. Homogeneity of variances: In each level of the independent variable, the populations should have equal variances.
+5. The data used in ANOVA should be a random sample from the population.
+
+<a href="#top">Back to top</a>
+
+## Case Study (HERE)
+
+
 # Correlation {.tabset .tabset-fade}
 
 ## Purpose
@@ -243,7 +262,7 @@ The basic purpose of a correlation is to determine the relationship between two 
 As you know, there are various types of linear relationships. Below, the graph farthest to the left shows no relationship between the variables, $X$ and $Y$. The middle graph shows a positive relationship and the graph on the right shows a negative relationship.
 
 <center>
-<img src="https://sarakyeo.github.io/images/correlation.png"/>
+<img src="https://sarakyeo.github.io/images/correlation.PNG"/>
 </center>
 <br>
 
