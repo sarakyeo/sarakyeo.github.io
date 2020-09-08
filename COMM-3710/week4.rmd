@@ -190,6 +190,7 @@ Click on the tabs below to learn about the four levels of measurement. The figur
 *Nominal* measures or variables categorize data into **mutually exclusive** categories. There is no logical order to the variable attributes even though we assign values to them. In other words, the variable values have no logical rank-order. Examples include political partisanship (Democrat, Republican, Independent, other, etc.) and eye color (e.g., blue, brown, green, other).
 
 <u>Example</u>: Political partisanship
+
 Variable values and attributes:
 
 - 1 = `Democrat`
@@ -217,6 +218,7 @@ Nominal data are typically reported as proportions or percentages.
 Examples of ordinal variables include household income, level of education, military rank, etc.
 
 <u>Example</u>: Household income
+
 Variable values and attributes
 
 - 1 = `Under $30,000`
@@ -243,6 +245,7 @@ Here's another example of an ordinal variable:
 **Interval variables** categorize variable attributes in a logical order that represents equal distances between each category. Attitudes, risk perceptions, opinions, and behavioral intentions are examples of interval measures, if we assume the distance between each variable attribute to be equal or constant.
 
 <u>Example</u>: Risk perceptions
+
 Variable attributes
 
 - 1 = `Not at all risky`
