@@ -145,7 +145,7 @@ Researchers are often interested in **differences of degree**. This is when two 
 
 Using statistical tests of difference allows researchers to determine whether there is a statistically significant difference in risk perceptions between women and men.
 
-For a visual depiction of differences in kind, see Figures 6.4 and 6.5 in your textbook.
+For a visual depiction of differences of degree, see Figures 6.4 and 6.5 in your textbook.
 
 <a href="#top">Back to top</a>
 
