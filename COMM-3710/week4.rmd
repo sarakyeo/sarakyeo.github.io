@@ -274,7 +274,7 @@ All these examples have mutually exclusive categories, the distances between var
 The two figures below help visualize the four levels of measurement based on how precise (or how much information contained in each level) they are.
 
 <center>
-<img src="https://yesuncomm.github.io/comm3710_fall2020/images/lom.png"/>
+<img src="https://sarakyeo.github.io/images/lom.png"/>
 </center>
 <br>
 
