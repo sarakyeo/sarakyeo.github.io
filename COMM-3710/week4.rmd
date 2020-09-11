@@ -28,22 +28,22 @@ Each variable has its associated aspects. These aspects include **variable attri
 
 **Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
 
-**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., 1 = *brown*, 2 = *blue*, 3 = *green*.
+**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., 1 = *brown*, 2 = *blue*, 3 = *green*. 
 
 <u>Another example:</u>
 
 - Variable: Journalists' confidence in their own reporting abilities
 - Variable attributes:
-   - `Not at all confident`,
-   - `Slightly confident`,
-   - `Somewhat confident`,
-   - `Moderately confident`,
+   - `Not at all confident`
+   - `Slightly confident`
+   - `Somewhat confident`
+   - `Moderately confident`
    - `Very confident`
 - Variable values:
-   - 1 = `Not at all confident`,
-   - 2 = `Slightly confident`,
-   - 3 = `Somewhat confident`,
-   - 4 = `Moderately confident`,
+   - 1 = `Not at all confident`
+   - 2 = `Slightly confident`
+   - 3 = `Somewhat confident`
+   - 4 = `Moderately confident`
    - 5 = `Very confident`
 
 <center>
@@ -68,7 +68,7 @@ Use the Week 4 Discussion page on Canvas to discuss the answers with your peers.
 <a href="#top">Back to top</a>
 
 
-# Understanding Relationships and Differences
+# Understanding Relationships and Differences {.tabset .tabset-fade}
 All variables in research enable us to understand two basic phenomena: **relationships** and **differences**. Click on the tabs below to learn about these phenomena.
 
 ## Relationships {.tabset .tabset-fade}
@@ -85,12 +85,12 @@ Relationships typically fall into one of three categories: **positive**, **negat
 
 **Pearson's correlation coefficient** ranges between **-1 and 1**.
 
-- The sign of *r* tells us whether the relationship is positive or negative.
-- The magnitude of *r* tells us about the strength of the relationship.
-- A *r*-value of 0.8 is considered a strong, positive relationship, while a *r*-value of -0.8 is considered to be a strong, negative relationship.
+- The **sign** of *r* tells us whether the relationship is positive or negative.
+- The **magnitude** of *r* tells us about the strength of the relationship.
+- For example, a *r*-value of 0.8 is considered a strong, positive relationship, while a *r*-value of -0.8 is considered to be a strong, negative relationship.
 
 ### Positive
-Positive relationships exist when an increase in one variable results in an increase in another variable. Note that, in a positive relationship, when one variable decreases, the other also decreases. In other words, the variables move in the same direction.
+Positive relationships exist when an increase in one variable results in an increase in another variable. Note that, in a positive relationship, when one variable decreases, the other also decreases. In other words, the variables move **in the same direction**.
 
 Let's say $X$ is an independent variable and $Y$ is a dependent variable.
 
@@ -104,7 +104,7 @@ In a positive relationship, when $X$ $\Uparrow$, $Y$ $\Uparrow$. Also, when $X$ 
 <a href="#top">Back to top</a>
 
 ### Negative
-Negative relationships exist when an increase in one variable results in a decrease in another variable.
+Negative relationships exist when an increase in one variable results in a decrease in another variable. In other words, the variables move **in the opposite direction**.
 
 Again, say $X$ is an independent variable and $Y$ is a dependent variable.
 
@@ -133,6 +133,8 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 ## Differences {.tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
 
+<br>
+
 ### Differences in Kind
 **Differences in kind** occur when different groups do different things. For example, teachers teach students and musicians play music. We wouldn't expect a musician to replace a teacher or a teacher to replace a musician. In research and statistics, differences in kind are not very interesting, except when they are used as grouping variables (e.g., one group of survey participants is female and another is male).
 
@@ -141,7 +143,7 @@ Statistics also enables researchers to examine differences. In research, differe
 <hr>
 
 ### Differences of Degree
-Researchers are often interested in **differences of degree**. This is when two groups have different degrees of a variable. For example, women tend to be more averse to risk than men. In other words, in general, women tend to perceive more risk than men.
+Researchers are often interested in **differences of degree**. This is when two groups have different degrees of a variable. For example, women tend to be more averse to risk than men. Or in general, women tend to perceive more risk than men.
 
 Using statistical tests of difference allows researchers to determine whether there is a statistically significant difference in risk perceptions between women and men.
 
@@ -158,9 +160,9 @@ For a visual depiction of differences of degree, see Figures 6.4 and 6.5 in your
 
 But why do we assign numbers to things we measure?
 
-In general, we want to be able to quantify information so that...
-1. we can increase our objectivity,
-2. we can conduct statistical tests,
+In general, we want to be able to quantify information so that...  
+1. we can increase our objectivity;  
+2. we can conduct statistical tests;  
 3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
 
 ## Levels of Measurement {.tabset .tabset-fade}
@@ -178,16 +180,10 @@ Quantitative data can be measured as **categorical/discrete** or **continuous** 
 </center>
 <br>
 
-Click on the tabs below to learn about the four levels of measurement. The figure below summarizes the four levels based on how precise (or how much information contained in each level) they are.
-
-<center>
-<img src="https://sarakyeo.github.io/images/meas02.png"/>
-</center>
-<br>
-
+Click on the tabs below to learn about the four levels of measurement. 
 
 ### Nominal
-*Nominal* measures or variables categorize data into **mutually exclusive** categories. There is no logical order to the variable attributes even though we assign values to them. In other words, the variable values have no logical rank-order. Examples include political partisanship (Democrat, Republican, Independent, other, etc.) and eye color (e.g., blue, brown, green, other).
+**Nominal** measures or variables categorize data into **mutually exclusive** categories. There is no logical order to the variable attributes even though we assign values to them. In other words, the variable values have no logical rank-order. Examples include political partisanship (Democrat, Republican, Independent, other, etc.) and eye color (e.g., blue, brown, green, other).
 
 <u>Example</u>: Political partisanship
 
@@ -195,13 +191,14 @@ Variable values and attributes:
 
 - 1 = `Democrat`
 - 2 = `Republican`
-- 3 = `Other`
+- 3 = `Independent`
+- 4 = `Other`
 
-Even though we assign values to the attributes, there is no logical order to them, i.e., Democrats are not lower in rank than Republicans who are, in turn, not lower in rank than those who selected "Other."
+Even though we assign values to the attributes, there is no logical order to them, i.e., Democrats are not lower in rank than Republicans who are, in turn, not lower in rank than those who selected "Independent" or Other."
 
 <br>
 
-There is a special type of nominal measure called a **binary** measure. One example of this is biological sex (male or female). A binary measure only has two categories. As with all nominal variables, sex cannot be rank-ordered--it makes no sense for males to be ranked higher/lower than females. They are simply different in kind, or different categories/groupings.
+There is a special type of nominal measure called a **binary** measure. One example of this is biological sex (male or female). A binary measure only has two categories. As with all nominal variables, a binary measure cannot be rank-ordered--it makes no sense for males to be ranked higher/lower than females. They are simply different in kind, or different categories/groupings.
 
 Nominal data are typically reported as proportions or percentages.
 
@@ -227,7 +224,7 @@ Variable values and attributes
 - 4 = `$75,000 to $99,999`
 - 5 = `$100,000 or more`
 
-Note that the variable attributes (and values) have a logical rank order but the distance or space between each category is not always the same. This is another important characteristic of ordinal variables: The intervals between each category are not necessarily representative of equal distances or quantities.
+Note that the variable attributes (and values) have a logical rank order. But an important characteristic of ordinal variables is that: The distance or space between each category is not always the same. In other words, the intervals between each category are not necessarily representative of equal distances or quantities.
 
 Lastly, there is no zero point in an ordinal variable. In other words, there is no absence of household income, level of education, or military rank (at least not they way we are measuring these variables). 
 
@@ -253,22 +250,38 @@ Variable attributes
 - 3 = `Moderately risky`
 - 4 = `Very risky`
 
-Note that we are assuming the distances between attributes to be equal in this example. If we did not make this assumption, this measure of *risk perception* would be an ordinal variable. There is also no absolute zero point. In other words, there is no *absence* of perception in this scale.
+Note that we are assuming the distances between attributes to be equal in this example. If we did not make this assumption, this measure of *risk perception* would be an ordinal variable. There is also no absolute zero point. In other words, there is no true *absence* of perception in this scale.
 
 <br>
 
 Another example is temperature:
 <center>
-<img src="https://sarakyeo.github.io/images/ordinal.png"/>
+<img src="https://sarakyeo.github.io/images/interval.png"/>
 </center>
 
-Again, $0^\circ C$ is an arbitrarily defined zero-point (freezing).
+Again, $0^\circ C$ is an arbitrarily defined zero-point, and so is $0^\circ F$. 
 
 <a href="#top">Back to top</a>
 
 ### Ratio
 **Ratio variables** share all the characteristics of interval variables except that ratio variables have an absolute zero point. In other words, there can be an absence of the variable that is being measured. For example, test scores, number of days one reads a newspaper, and speed are ratio variables.
 
-All these examples have mutually exclusive categories, the distances between variable attributes are equal, and they all have a "real" (or absolute) zero, i.e., absence of a characteristic. 
+All these examples have mutually exclusive categories, the distances between variable attributes are equal, and they all have a "real" (or absolute) zero, i.e., true absence of a characteristic. 
+
+
+### Summary
+
+The two figures below help visualize the four levels of measurement based on how precise (or how much information contained in each level) they are.
+
+<center>
+<img src="https://yesuncomm.github.io/comm3710_fall2020/images/lom.png"/>
+</center>
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/meas02.png"/>
+</center>
+<br>
+
 
 <a href="#top">Back to top</a>
