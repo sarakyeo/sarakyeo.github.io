@@ -117,8 +117,8 @@ To assess inter-item reliability, we use one of three ways. The video below expl
 <a href="#top">Back to top</a>
 
 
-# Types of External Validity
-There are three types of validity that we will cover in this course. One can be assessed before data collection, while the remaining two are assessed after data collection.
+# Approaches to Validity
+There are three primary approaches or types of validity that we will cover in this course. One can be assessed before data collection, while the remaining two are assessed after data collection.
 
 Before data collection, we can assess:
 
