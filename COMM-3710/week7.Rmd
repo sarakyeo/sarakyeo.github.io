@@ -105,6 +105,7 @@ There are two broad categories of sampling strategies:
 Purposive sampling is a type of nonprobability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
 
 **Quota sampling**
+
 This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, a recent sample I collected using quota sampling matched demographic characteristics of my sample (age, gender, education) with that 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
 
 **Snowball sampling**
