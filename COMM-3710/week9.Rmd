@@ -285,11 +285,44 @@ Several formulas are used to calculate a one-way ANOVA.
 $$SS_{total} = \Sigma{x^2}-\frac{G}{N}, df_{total} = N-1$$
 $$SS_{between} = \frac{\Sigma{T^2}}{n} - \frac{G^2}{N}, df_{between} = k-1$$
 $$SS_{within} = \Sigma{SS_{inside \space each \space treatment}, df_{within} = N-k}$$
-$$F = \frac{MS_{between}}{MS_{within}} \space where \space each MS = \frac{SS}{df}$$
+$$F = \frac{MS_{between}}{MS_{within}} \space where \space each \space MS = \frac{SS}{df}$$
+Follow the [step-by-step approach in your textbook](https://online.vitalsource.com/#/books/9780190861940/epubcfi/6/50%5B%3Bvnd.vst.idref%3Dc17%5D!/4/2/20/2/2%5Bhead647%5D%400:0) to calculate a test statistic. Remember that your data are different from those in the textbook.
+
+The test statistic that is calculated in an ANOVA is the $F$ value.
+
+$$F = 10.6$$
 
 ### Step 4: Determine the $p$-value.
+Using a table of critical values of the $F$ distribution, find your $p$-value.
+$$p = .006$$
 
 ### Step 5: Compare $\alpha$ and $p$.
+Review your hypotheses. Recall that our results are as follows:
+$$F = 10.6$$
+$$p = .006$$
+In Step 2, we set $\alpha = .05$. Given this information and the results above, decide whether we **reject** or **fail to reject** $H_0$.
+
+Since $p \leq \alpha$, we can reject $H_0$. This means that there is difference in happiness among different puppy therapy doses. What we do not know, however, is which specific groups are different from each other.
+
+This is where *post hoc* tests come in--these are also known as multiple or pairwise comparisons. In other words, using pairwise comparisons, we will not compare happiness among participants in the following pairs of conditions:
+
+- control vs. 15 min
+- control vs. 30 min
+- 15 min vs. 30 min
+
+Of the four most common *post hoc* tests, we will examine one of the more commonly used ones, **Tukey's honestly significant difference (HSD)**. Read about the others in Chapter 17 of your textbook.
+
+We will not worry about calculating this by hand. Instead, you can use the following command in R to conduct a Tukey's *post hoc* test (assuming your dataframe is called `puppies`):
+
+```puppies %>% tukey_hsd(Happiness ~ Dose)```
+
+The $p$-values that result from the pairwise comparisons conducted using Tukey's *post hoc* test are shown below. We see that only the comparison between the control group and the group that received 30 minutes of puppy therapy are different.
+
+| Group 1 | Group 2| $p$ |
+|:---:|:---:|:---:|
+| control | 15 min | 0.516 |
+| control | 30 min | 0.021 |
+| 15 min | 30 min | 0.147 |
 
 <a href="#top">Back to top</a>
 
