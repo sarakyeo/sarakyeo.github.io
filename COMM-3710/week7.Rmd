@@ -106,7 +106,7 @@ Purposive sampling is a type of nonprobability sampling in which you (as the res
 
 **Quota sampling**
 
-This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, a recent sample I collected using quota sampling matched demographic characteristics of my sample (age, gender, education) with that 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
+This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
 
 **Snowball sampling**
 
