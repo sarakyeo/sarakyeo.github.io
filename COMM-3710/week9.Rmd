@@ -24,13 +24,19 @@ This week, we will focus on **inferential statistics**.
 <a href="#top">Back to top</a>
 
 # Inferential Statistics {.tabset .tabset-fade}
-This week, we will discuss three common inferential statistical tests:
+This week, we will discuss four common inferential statistical tests:
 
 1. Chi-square ($\chi^2$) test of independence
 2. Independent samples $t$-test
-3. Pearson's correlation (also known simply as a correlation)
+3. One-way analysis of variance
+4. Pearson's correlation (also known simply as a correlation)
 
-Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing.
+Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing. We also need to know how which hypothesis test to use. The flowchart below can be used to guide your choice of hypothesis test.
+
+<center>
+<img src="https://sarakyeo.github.io/images/LA.6_chart.png"/>
+</center>
+<br>
 
 ## Important Terms
 
