@@ -19,7 +19,7 @@ Sampling is an important aspect of research. In survey research, the quality of 
 - Sampling frame
 - Sampling error
 
-> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate chracteristics of the whole population.
+> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
 
 <a href="#top">Back to top</a>
 
