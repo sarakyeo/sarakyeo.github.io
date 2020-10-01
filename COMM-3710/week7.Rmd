@@ -47,7 +47,7 @@ Typically, margins of error are reported with confidence levels or confidence in
 
 ### An Example
 ```
-Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question as a margin of error of ±3% and a 95% confidence interval.
+Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
 
 Confidence level: We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.
 
