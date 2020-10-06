@@ -265,7 +265,7 @@ To these whether the doses of puppy therapy affect people's happiness, she can u
 The data are shown below:
 
 <center>
-<img src="https://sarakyeo.github.io/images/puppies.PNG"/>
+<img src="https://sarakyeo.github.io/images/puppies.png"/>
 </center>
 <br>
 
