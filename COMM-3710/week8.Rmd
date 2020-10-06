@@ -40,7 +40,7 @@ However, although most employers would like you to be familiar with basic statis
 
 
 # The "Central Dogma" of Statistics {.tabset .tabset-fade}
-The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every individual in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
+The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every unit in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
 
 <center>
 <img src="https://sarakyeo.github.io/images/central-dogma-stats.png"/>
@@ -49,7 +49,7 @@ The figure below illustrates the "central dogma" of statistics. Using statistics
 
 But what exactly is a statistic?
 
-Review the figure above. The central dogma has a population and a sample. And **statistics are associated with samples** while **parameters are associated with populations**.
+Review the figure above. The central dogma has a population and a sample. **Statistics are associated with samples** while **parameters are associated with populations**.
 
 > We use statistics from a sample to estimate (infer) parameters in a population.
 
