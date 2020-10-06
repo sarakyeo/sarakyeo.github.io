@@ -99,7 +99,7 @@ The table below shows IQ scores of students in Class A and Class B. Which class 
 |   119   |  87    |
 |   97    |  105   |
 
-Tt is difficult to tell which class is smarter because it is difficult for us to process the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
+It is difficult to tell which class is smarter because it is difficult for us to process the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
 
 Below are the average IQ scores of students in Class A and B. Which class is smarter?
 
@@ -245,6 +245,7 @@ When the variance is larger, this means that individual cases are farther away f
 To calculate variance, we use the following formula:
 
 $$Variance = \frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x_2})^2$$
+Watch the video under the *Standard Deviation* tab for step-by-step instructions on how to calculate variance and standard deviation.
 
 <a href="#top">Back to top</a>
 
