@@ -244,7 +244,7 @@ When the variance is larger, this means that individual cases are farther away f
 
 To calculate variance, we use the following formula:
 
-$$Variance = \frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x_2})^2$$
+$$Variance = \frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x})^2$$
 Watch the video under the *Standard Deviation* tab for step-by-step instructions on how to calculate variance and standard deviation.
 
 <a href="#top">Back to top</a>
@@ -254,7 +254,7 @@ The standard deviation is another measure of the spread of data around the mean.
 
 It is closely related to variance; to calculate standard deviation, we simply take the square root of the variance:
 
-$$SD = \sqrt{\frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x_2})^2}$$
+$$SD = \sqrt{\frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x})^2}$$
 
 In the video below, we will work through an example step-by-step and calculate its variance and standard deviation.
 
