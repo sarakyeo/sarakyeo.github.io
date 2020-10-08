@@ -226,7 +226,7 @@ Lower limit $= Q1 - 1.5 \times (IQR)$
 Upper limit $= Q3 + 1.5 \times (IQR)$
 
 <center>
-<img src="https://sarakyeo.github.io/images/IQR.PNG"/>
+<img src="https://sarakyeo.github.io/images/IQR.png"/>
 </center>
 <br>
 
