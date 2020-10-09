@@ -10,7 +10,7 @@ output:
     theme: readable
 urlcolor: blue
 ---
-[Sara K. Yeo](https://faculty.utah.edu/~sarakyeo)  Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
+[Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
 M 3:30 - 5 pm | Spring 2021 | Department of Communication | University of Utah
 
 > "One of the beautiful things about science is that it allows us to bumble along, getting it wrong time after time, and feel perfectly fine as long as we learn something each time. No doubt, this can be difficult for students who are accustomed to getting the answers right. No doubt, reasonable levels of confidence and emotional resilience help, but I think scientific education might do more to ease what is a very big transition: from learning what other people once discovered to making your own discoveries. The more comfortable we become with being stupid, the deeper we will wade into the unknown and the more likely we are to make big discoveries." (Schwartz, 2008)
@@ -24,4 +24,245 @@ This course has three main goals:
 2) To familiarize you with data analysis using various software packages (primarily R and IBM SPSS Statistics).
 3) To stimulate ideas for original research and help you conduct data analysis for your own research project.
 
-This seminar is set up as a lab course. I will provide context and some reading materials, but much of the course will be spent analyzing data, trying to make sense of output, and linking data analysis to research questions and hypotheses.
+This seminar is set up as a lab course. I will provide context and some reading materials, but much of the course will be spent analyzing data, trying to make sense of output, and linking data analysis to research questions and hypotheses. We will also have at least two weeks of working labs at the end of the semester for you to analyze your own data.
+
+# Recommended Texts and Required Readings
+For each week, I have compiled a non-exhaustive set of readings. I will post the weekly reading list on Canvas. If PDFs are not available through the Marriott Library resources, the files will be posted on Canvas. You are expected to complete these readings before the start of each meeting. These readings are intended as a point-of-entry into the week's content. They may also be useful if you are trying to compile a reading list for your preliminary examinations.
+
+# Computer Software
+You will need Microsoft Office (Word, Excel, PowerPoint) and software for data analysis (e.g., IBM SPSS Statistics, [R](https://www.r-project.org/)). Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) is recommended.
+
+You will need access to [Canvas](https://utah.instructure.com/) and [Zoom](https://support.tlt.utah.edu/hc/en-us/sections/360009028151-Zoom). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701). If you need help with Zoom, visit this [site](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+
+---
+
+# Course Requirements {.tabset .tabset-fade}
+Your grade in this course will be based on the following:
+
+- Lab assignments (30\%)
+- Discussion leadership (30\%)
+- Final presentation (40\%)
+- Participation
+
+## Lab Assignments
+
+---
+
+## Discussion Leadership
+
+---
+
+## Final Presentation
+
+---
+
+## Participation
+This is a graduate-level seminar and learning occurs through discussion and debate. To this end, your presence at virtual meetings and involvement (both synchronous and asynchronous) are required. To make this fun, you must be prepared to discuss course content. It is not enough to simply attend meetings. You are expected to actively participate in discussion of the readings and critically analyze their contents. There is a significant amount of reading in this course. You are required to complete assigned tasks, on time and with care. Because participation is integral to this course, you are allowed **one unexcused absence without penalty**. Each subsequent absence will affect your final grade. For an absence to be excused, there must be a valid reason and I must be notified in advance. Tardiness will count as unexcused absences. More information on the University attendance policy can be found [here](https://regulations.utah.edu/academics/6-100.php).
+
+---
+
+# Course Grading
+Information on calculating your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator.php/academic-standards/gpa-calculator.php).
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:5px 15px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:5px 15px;word-break:normal;}
+.tg .tg-f9qs{border-color:#ffffff;font-family:Georgia, serif !important;;font-size:15px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-f9qs">A</td>
+    <td class="tg-f9qs">93-100</td>
+    <td class="tg-f9qs">B</td>
+    <td class="tg-f9qs">83-86.99</td>
+    <td class="tg-f9qs">C</td>
+    <td class="tg-f9qs">73-76.99</td>
+    <td class="tg-f9qs">D</td>
+    <td class="tg-f9qs">63-66.99</td>
+  </tr>
+  <tr>
+    <td class="tg-f9qs">A-</td>
+    <td class="tg-f9qs">90-92.99</td>
+    <td class="tg-f9qs">B-</td>
+    <td class="tg-f9qs">80-82.99</td>
+    <td class="tg-f9qs">C-</td>
+    <td class="tg-f9qs">70-72.99</td>
+    <td class="tg-f9qs">D-</td>
+    <td class="tg-f9qs">60-62.99</td>
+  </tr>
+  <tr>
+    <td class="tg-f9qs">B+</td>
+    <td class="tg-f9qs">87-89.99</td>
+    <td class="tg-f9qs">C+</td>
+    <td class="tg-f9qs">77-79.99</td>
+    <td class="tg-f9qs">D+</td>
+    <td class="tg-f9qs">67-69.99</td>
+    <td class="tg-f9qs">E</td>
+    <td class="tg-f9qs">59 and below</td>
+  </tr>
+</tbody>
+</table>
+
+---
+
+# Course Policies {.tabset .tabset-fade}
+## Course Civility
+By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the minimal standards to make the classroom a productive learning space for all. Your final grade may be affected each time you engage in disruptive and/or disrespectful behaviors.
+
+Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course:
+
+- Always address your classmates by name. There is a human being on the other side of the screen who also has struggles, doubts, and bad days.
+- Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
+- Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
+
+---
+
+## Email Policy
+**Use your University email account to contact me; I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all.
+
+Emails should be written clearly and professionally, using appropriate salutations (e.g., Dr. or Prof. Yeo) with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response. Additionally, you will not receive a response if you send me a message on Canvas**.
+
+If you need to contact me, please send a message from your University of Utah email account to [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu).
+
+---
+
+## Academic Misconduct
+**Academic misconduct will be punished to the fullest extent possible**. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+---
+
+## Emergency Plan
+In the event of a University-wide emergency which prevents us from meeting, you should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
+
+---
+
+## Accommodations
+Curriculum accommodations take two forms—scheduling and content accommodations. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+---
+
+# University Policies {.tabset .tabset-fade}
+## COVID-19
+**COVID-19.** If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+
+---
+
+## ADA
+**The Americans with Disabilities Act.** The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability Services](https://disability.utah.edu/).
+
+---
+
+## Safety
+**University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.  If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066.  For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776.  To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
+
+Responsible employees and campus security authorities (CSAs) have different obligations. Responsible employees are defined by Title IX and CSAs are defined under the Clery Act. Though certain people/positions may be both, the concepts and requirements are different. On our campus, responsible employees are required to report any information about possible sexual misconduct or discrimination to the OEO/AA. CSAs are required to report crimes that occurred on campus to campus police.
+
+Responsible employees are university employees, including students in paid leadership positions, who are required to report sexual misconduct to the Office of Equal Opportunity and Affirmative Action per university regulations. Examples of responsible employees include:
+
+- Professors and other faculty
+- Administration and staff (non-mental health)
+- Resident advisors
+- Student employees
+- Campus police or campus security officials
+- Athletic coaches/assistants
+
+Campus security authorities are university employees who have significant responsibility for student and campus activities, including but not limited to student housing, student discipline and campus judicial proceedings and are designated to receive and report criminal incidents to the University of Utah Police Department.
+
+---
+
+## Undocumented Student Support
+**Undocumented Student Support Statement.** Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+
+---
+
+# Schedule {.tabset .tabset-fade}
+## Week 1 (25-Feb)
+> Course introduction
+
+## Week 2 (1-Feb)
+> Scientific approaches, social science, and the stupidity
+
+**Readings:**
+
+- Chalmers, A. F. (2013). Deriving Theories from Facts: Induction. In *What Is This Thing Called Science?* (pp. 38–54). Hackett Publishing Company, Incorporated.
+- Chalmers, A. F. (2013). Introducing Falsificationism. In *What Is This Thing Called Science?* (pp. 55–68). Hackett Publishing Company, Incorporated.
+- Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science, 121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
+
+## Week 3 (8-Feb)
+> From explication to measurement: Empirical social science research
+
+**Readings:**
+
+- Eveland, Jr., W. P. (1997). Interactions and nonlinearity in mass communication: Connecting theory and methodology. *Journalism & Mass Communication Quarterly, 74*(2), 400–416. https://doi.org/10.1177/107769909707400211
+- McLeod, J. M., & Pan, Z. (2005). Concept Explication and Theory Construction. In S. Dunwoody, L. B. Becker, D. M. McLeod, & G. M. Kosicki (Eds.), *The Evolution of Key Mass Communication Concepts* (pp. 13–76). Hampton Press, Inc.
+- Groves, R. M. (2011). Three eras of survey research. *Public Opinion Quarterly, 75*(5), 861–871. https://doi.org/10.1093/poq/nfr057
+
+## Week 4 (15-Feb)
+> Presidents' Day (no class)
+
+## Week 5 (22-Feb)
+> Getting familiar with IBM SPSS Statistics and R
+
+**Readings:**
+
+- IBM. (2020). *IBM SPSS Statistics 26 Brief Guide*.
+- Venables, W. N., Smith, D. M., & the R Core Team. (2018). *An Introduction to R*.
+
+## Week 6 (1-Mar)
+> Data management
+
+**Readings:**
+
+-
+
+## Week 7 (8-Mar)
+> Reliability and validity
+
+**Readings:**
+
+-
+
+## Week 8 (15-Mar)
+> Introduction to regressions
+
+**Readings:**
+
+-
+
+## Week 9 (22-Mar)
+> Interactions in regressions
+
+**Readings:**
+
+-
+
+## Week 10 (29-Mar)
+> Mediation analysis: Introduction to PROCESS
+
+**Readings:**
+
+-
+
+## Week 11 (5-Apr)
+> Moderated mediation with PROCESS
+
+**Readings:**
+
+-
+
+## Week 12 (12-Apr)
+> Working lab
+
+
+## Week 13 (19-Apr)
+> Working lab
+
+
+## Week 14 (26-Apr)
+> Final presentations
