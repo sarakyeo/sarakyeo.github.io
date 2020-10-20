@@ -222,7 +222,7 @@ Campus security authorities are university employees who have significant respon
 ---
 
 # Schedule {.tabset .tabset-fade #Schedule}
-## Week 1 (25-Feb)
+## Week 1 (25-Jan)
 > Course introduction
 
 ## Week 2 (1-Feb)
