@@ -57,6 +57,7 @@ When conducting hypothesis tests, we use the following steps in the order listed
 >| Independent samples $t$-test | $t$ |
 >| Chi-square test of independence | $\chi^2$ |
 >| Pearson's correlation | Pearson's $r$ |
+>| One-way ANOVA | $F$ |
 
 4. Determine the $p$-value; each hypothesis test you conduct will result in a test statistic and a $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
 5. Compare $p$-value to $\alpha$.
