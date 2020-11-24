@@ -104,48 +104,9 @@ For an absence to be excused, there must be a valid reason and I must be notifie
 # Course Grading
 Information on calculating your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator.php/academic-standards/gpa-calculator.php).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 15px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 15px;word-break:normal;}
-.tg .tg-f9qs{border-color:#ffffff;font-family:Georgia, serif !important;;font-size:15px;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<tbody>
-  <tr>
-    <td class="tg-f9qs">A</td>
-    <td class="tg-f9qs">93-100</td>
-    <td class="tg-f9qs">B</td>
-    <td class="tg-f9qs">83-86.99</td>
-    <td class="tg-f9qs">C</td>
-    <td class="tg-f9qs">73-76.99</td>
-    <td class="tg-f9qs">D</td>
-    <td class="tg-f9qs">63-66.99</td>
-  </tr>
-  <tr>
-    <td class="tg-f9qs">A-</td>
-    <td class="tg-f9qs">90-92.99</td>
-    <td class="tg-f9qs">B-</td>
-    <td class="tg-f9qs">80-82.99</td>
-    <td class="tg-f9qs">C-</td>
-    <td class="tg-f9qs">70-72.99</td>
-    <td class="tg-f9qs">D-</td>
-    <td class="tg-f9qs">60-62.99</td>
-  </tr>
-  <tr>
-    <td class="tg-f9qs">B+</td>
-    <td class="tg-f9qs">87-89.99</td>
-    <td class="tg-f9qs">C+</td>
-    <td class="tg-f9qs">77-79.99</td>
-    <td class="tg-f9qs">D+</td>
-    <td class="tg-f9qs">67-69.99</td>
-    <td class="tg-f9qs">E</td>
-    <td class="tg-f9qs">59 and below</td>
-  </tr>
-</tbody>
-</table>
+<center>
+<img src="https://sarakyeo.github.io/images/grading.png"/>
+</center>
 
 ---
 
