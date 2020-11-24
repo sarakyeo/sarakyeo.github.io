@@ -22,12 +22,12 @@ This **asynchronous online course** is a basic research methods course for those
 * Measurement, sampling, and research design
 * Data analysis in communication research
 
-I expect you to log into the course regularly (**at least 3-5 times per week**), complete and submit work in a timely manner, and ask questions if you need help.
+I expect you to log into the course regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help.
 
 # Required Text and Readings
 > Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
 
-* The textbook is available through the Inclusive Access program, which provides you with digital access to the textbook via Canvas at a reduced price. More information on the Inclusive Access program can be found [here](https://www.campusstore.utah.edu/inclusiveaccess/).
+* The textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
 * You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
 
 Additional readings will be provided as PDF documents on Canvas.
@@ -35,14 +35,18 @@ Additional readings will be provided as PDF documents on Canvas.
 # Technical Requirements and Computer Software
 To ensure that you have full access to the course, you will need:
 
-* Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
-* Internet access fast enough to stream videos and connect to online meetings.
-* A working webcam and microphone for online Zoom meetings.
-* An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
+1. Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
+2. Internet access fast enough to stream videos and connect to online meetings.
+3. A working webcam and microphone for online Zoom meetings.
+4. An Internet browser compatible with Canvas.For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
 
-You will need access to [Canvas](https://utah.instructure.com/) and [Zoom](https://zoom.us/). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701). If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+You will need access to [Canvas](https://utah.instructure.com/), [Zoom](https://zoom.us/), and your [University email account](https://www.umail.utah.edu).
+
+* I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
+* You should also be familiar with Zoom. If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+* You should check your University email account regularly
 
 ## Technical Help
 For general help with Canvas, click the "Help" button in Canvas (when on your desktop), or contact them by phone(+1 844-527-032) or live [chat](https://cases.canvaslms.com/liveagentchat?chattype=student). Help is available **24 hours a day, 7 days a week**.
@@ -109,7 +113,7 @@ By enrolling in this course, you agree to (i) respect all members of the course;
 
 In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email.
 
-## Email Policy
+## Email Policy{#email}
 > It is critical that you check your University email account frequently and that you use your University email account to contact me.
 
 **I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
