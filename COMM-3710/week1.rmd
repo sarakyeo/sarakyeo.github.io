@@ -15,11 +15,15 @@ urlcolor: blue
      alt="It's in the syllabus"/>
 </center>
 
-<center>Welcome to a new semester and to COMM 3710 (section 091)!</center>
+<center>
+Welcome to a new semester and to COMM 3710!
 
 COMM 3710-091 is an asynchronous online course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
+</center>
 
-> It is your responsibility to read the syllabus in its entirety and adhere to the course policies and information documented therein. Please revisit the syllabust as many times as necessary during the semester.
+
+> It is your responsibility to read the syllabus in its entirety and adhere to the course policies and information documented therein. Please revisit the syllabus as many times as necessary during the semester.
+
 
 # An Introduction to Professor Yeo
 I'm Prof. Yeo and I'm an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
