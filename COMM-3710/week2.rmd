@@ -26,8 +26,6 @@ The scientific method consists of 7 basic steps:
 6. Interpreting data and forming conclusions
 7. Publishing research
 
-<a href="#top">Back to top</a>
-
 
 # The Wheel of Science Revisited {.tabset .tabset-fade}
 <center>
@@ -43,13 +41,13 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 </center>
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440124116" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O6hyn_N4oj0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
 **Additional reading for this week**: [Cushing, P.E. (2004). Hypothesis or theory? *American Scientist*, 92(5), 1.](https://utah.instructure.com/courses/628882/modules/items/11900898)
 
-<a href="#top">Back to top</a>
+---
 
 ## Hypothesis
 <center>
@@ -69,11 +67,11 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 Once we have antecedent and consequent propositions, we can build an **argument**. The video below explains how propositions and arguments fit into the concept of a **hypothesis** and provides some examples:
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440126483" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjujv5Lb--Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
-<a href="#top">Back to top</a>
+---
 
 ## Observation
 The most concrete concept in our wheel of science is observation. These observations are the actual measurements.
@@ -120,7 +118,7 @@ Here are some other examples of spurious relationships--see if you can figure ou
 - Height of daughters $\longleftrightarrow$ height of sons
 - Number of religious places $\longleftrightarrow$ number of homicides
 
-<a href="#top">Back to top</a>
+---
 
 ## Empirical Generalization
 **Empirical generalization** is the process of describing phenomena based on our observations. When we make empirical generalizations, we ask ourselves: "How does what is going on in our sample describe what is happening in the real world?"
@@ -137,7 +135,6 @@ When we engage in empirical generalization, the limitations of our observations 
 
 Before we discuss some common problems with empirical generalization, we first need to understand units of observation and analysis.
 
-<a href="#top">Back to top</a>
 
 ### Units of Analysis
 The units of analysis and observation are the **what or whom being studied**.
@@ -153,14 +150,13 @@ For example, if I was curious about classes in the Department of Communication a
 </center>
 <br>
 
-<a href="#top">Back to top</a>
 
 ### Common Problems in Empirical Generalizations{.tabset .tabset-fade .tabset-pills}
 
 #### Hasty Generalizations
 As researchers, we should avoid making hasty generalizations. Insufficient evidence is the most common cause of poor generalizations.
 
-<a href="#top">Back to top</a>
+---
 
 #### Ecological Fallacy
 An **ecological fallacy** occurs when researchers make generalizations about individuals based on the groups to which the individuals belong. At its core, this is a problem with the units of analysis and observation.
@@ -169,7 +165,7 @@ An **ecological fallacy** occurs when researchers make generalizations about ind
 
 This is an example of an ecological fallacy--the researcher has made a generalization about individuals ("Minorities commit crimes") based on group data ("Cities with large minority populations have high crime rates"). The conclusion refers to individuals (minorities) even though the premise is about a unit larger than the individual (cities).
 
-<a href="#top">Back to top</a>
+---
 
 #### Exception Fallacy
 An **exception fallacy** is a generalization about a group based on an individual or a small number of individuals. Exception fallacies are often the bases of a concept with which you might be familiar, stereotypes.
@@ -178,7 +174,7 @@ An **exception fallacy** is a generalization about a group based on an individua
 
 This statement is an exception fallacy because we are making a generalization about a team (group) based on a single individual. Of course, there are other factors that play roles in whether football teams win.
 
-<a href="#top">Back to top</a>
+---
 
 
 # Research Ethics
@@ -210,7 +206,6 @@ By defining ethics in terms of whether the means and ends are good (or moral / j
 
 Refer to Ch. 3 of your textbook for full definitions and examples of these ethical categories.
 
-<a href="#top">Back to top</a>
 
 ## The Belmont Report {.tabset .tabset-fade .tabset-pills}
 The Belmont Report is a report that outlines the basic ethical principles for which all human subjects researchers are accountable. The report was completed in 1979 by the National Commission for the Protection of Human Subjects in Biomedical and Behavioral Research.
@@ -235,19 +230,19 @@ Importantly, intervention/interaction refers to any physical procedures, manipul
 ### Respect for Persons
 Researchers often refer to this ethical standard as **informed consent**. This principle recognizes individuals as autonomous (in other words, people make an informed choice about whether we participate in research). However, there are some persons with diminished authority (e.g., children, cognitively impaired persons). Research can be conducted on such persons, but there are additional protections that depend on the risk of harm that the research poses to the individual, as well as the potential benefits of the research.
 
-<a href="#top">Back to top</a>
+---
 
 ### Principle of Beneficence
 The second principle is the need for researchers to guarantee beneficence. This means that researchers should maximize the benefits and minimize potential risks/harms associated with participating in the research.
 
-<a href="#top">Back to top</a>
+---
 
 ### Justice
 The third principle is that of justice. This means that the risks and benefits of the research should be fairly distributed without bias. An example in which the research was not fair is the Tuskegee Syphilis Study. In this case, the research participants did not benefit from participating in the research (there certainly were risks involved in participation!).
 
 This principle also ensures that researchers do not exploit people who may be unfairly coerced into participating (e.g., prisoners, children). One question that researchers can ask to assess whether they are abiding by this principle is: "Are some groups in my sample over-represented because of unfair bias or unfair circumstances?"
 
-<a href="#top">Back to top</a>
+---
 
 ## Institutional Review Board (IRB)
 Any institution that received federal funding for research must establish an **Institutional Review Board (IRB)**. The IRB reviews all research proposals to ensure that they comply with principles laid out in the Belmont Report. Most universities that conduct research will have their own IRB.
@@ -257,7 +252,7 @@ The basic job of an IRB is to ensure researchers protect and inform participants
 Another job of the IRB is to determine and review **anonymity**, **confidentiality**, and **privacy**.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440138517" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/itYy0bDTEoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -273,18 +268,18 @@ As mentioned in the video, there are 3 types of IRB review:
 - There are 6 categories for research exemptions and these can be found on p. 42 of your textbook (be sure to look these up).
 - A lot of communication research falls under Category 2 exemption since we rely on surveys, interviews, and/or observation of public behavior.
 
-<a href="#top">Back to top</a>
+---
 
 #### Expedited review
 - Expedited review is designed for projects that involve no more than minimal risk, do not include intentional deception, do not use vulnerable populations (e.g., children, prisoners), and include appropriate consent procedures.
 - Survey projects that ask people about highly sensitive behaviors (e.g., illegal behavior such as substance abuse) are often reviewed at this level.
 - If the research is highly controversial, beyond minimal risk, or involves challenges to confidentiality, then the IRB will often subject a protocol to full review.
 
-<a href="#top">Back to top</a>
+---
 
 #### Full review
 - This occurs when the chairperson of the IRB believes that a protocol is beyond a minimal risk and that the entire board should make a decision on whether or not to allow this research to be conducted.
 - Any research protocol that falls outside of the exemptions can be cause for full board review.
 - When a protocol must undergo full review, timing of protocol submission can be important as IRBs typically meet once per month at large institutions (e.g., universities) and quarterly for smaller ones.
 
-<a href="#top">Back to top</a>
+---
