@@ -84,12 +84,13 @@ There are 8 individual assignments. Information on individual assignments will b
 - I would urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated.**
 
 
-# Virtual Office Hours <!--fill in information here-->
+# Virtual Office Hours {#officehrs}
 There are two sections of COMM 3710 that are using R this semester, sections 091 (this section) and 090. Even though you are enrolled in COMM 3710-091 (i.e., section 091), you may drop-in to the office hours of the TAs teaching COMM 3710-0XX. Office hours will be held virtually each week.
+<!--fill in information here-->
 
 | Section | Instructor | Day / Time | Zoom Link |
 |:---|:---:|:---:|:---|
-| 091 | Prof. Sara K. Yeo | Tuesdays, 2:00 - 3:00 pm | https://utah.zoom.us/j/91491123002 |
+| 091 | Prof. Sara K. Yeo | DAY, TIME | LINK |
 | 090 | TA Liz Giorgi | DAY, TIME | LINK |
 | 090 | TA Dallin Adams | DAY, TIME | LINK |
 
@@ -99,15 +100,24 @@ There are two sections of COMM 3710 that are using R this semester, sections 091
 <img src="https://sarakyeo.github.io/images/grading.png"/>
 </center>
 
-Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php). If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade. You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
+Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
+
+**If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
+
+You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
 
 # Course Policies {.tabset .tabset-fade}
-By enrolling in this course, you agree to (i) respect all members of the course; (ii) engage with the online content meaningfully; and (iii) meet the requirements of this course. This list represents the **minimal standards** to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+By enrolling in this course, you agree to:
 
-In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email.
+1. respect all members of the course;
+2. engage with the online content meaningfully;
+3. meet the requirements of this course; and
+4. abide by the course policies outlined below.
 
-## Email Policy{#email}
+This list represents the **minimal standards** to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+
+## Email Policy {#email}
 > It is critical that you check your University email account frequently and that you use your University email account to contact me.
 
 **I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
@@ -130,16 +140,23 @@ Communication allows us to engage with others and broaden our perspectives. How 
 - Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
 
 ## Academic Misconduct
-**Academic misconduct will be punished to the fullest extent possible**. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+> Academic misconduct will be punished to the fullest extent possible.
+
+You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
 
 ## Curriculum Accommodations
 Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict.
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
+## Other
+In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
+
 
 # On Learning Strategies
-One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it. Our goal is “knowledge integration,” connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
+One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it.
+
+Our goal is **knowledge integration**, connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
 
 1. Make sure you complete the readings, actively drawing out the implications of the texts by connecting them to things you already know, have read in the news, or are learning in other classes.
 2. Actively engage with the content and ask questions about things you do not understand. Respectful discussion is encouraged in all my courses.
@@ -173,7 +190,7 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 # Schedule {.tabset .tabset-fade}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-Throughout the semester, I will hold drop-in office hours via Zoom. You may drop-in to ask questions but are not required to attend these office hours. Office hours with a Zoom link will be announced on Canvas.
+Throughout the semester, there will be [drop-in office hours via Zoom](#officehrs). You may drop-in to ask questions but are not required to attend these office hours.
 
 *Note: LA = individual lab assignment, GP = group project component*
 
