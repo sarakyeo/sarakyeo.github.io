@@ -94,7 +94,6 @@ There are two sections of COMM 3710 that are using R this semester, sections 091
 | 090 | TA Dallin Adams | DAY, TIME | LINK |
 
 
-
 # Course Grading
 <center>
 <img src="https://sarakyeo.github.io/images/grading.png"/>
