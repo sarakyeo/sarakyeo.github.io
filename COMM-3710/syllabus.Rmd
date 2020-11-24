@@ -80,27 +80,25 @@ There are 8 individual assignments. Information on individual assignments will b
 **At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required up to that point (Week 6).
-- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted, no matter how dire the student’s circumstances or the quality of one’s intentions**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not performing to this standard by this point in the course, it is too late to “catch up.”
+- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not performing to this standard by this point in the course, it is too late to “catch up.”
 - I would urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated.**
 
 
 # Virtual Office Hours <!--fill in information here-->
-There are two sections of COMM 3710 that are using R this semester, sections 091 and 0XX. Even though you are enrolled in COMM 3710-091 (i.e., section 091), you may drop-in to the office hours of the TAs teaching COMM 3710-0XX. Office hours will be held virtually each week.
-\begin{tabular}{ l l l l }
-COMM 3710-091 & Prof. Sara K. Yeo & Tuesdays, 2:00 - 3:00 pm & https://utah.zoom.us/j/91491123002 \\
-COMM 3710-0XX & Liz Giorgi & DAY, TIME & LINK \\
-COMM 3710-0XX & Dallin Adams & DAY, TIME & LINK \\
-\end{tabular}
+There are two sections of COMM 3710 that are using R this semester, sections 091 (this section) and 090. Even though you are enrolled in COMM 3710-091 (i.e., section 091), you may drop-in to the office hours of the TAs teaching COMM 3710-0XX. Office hours will be held virtually each week.
+
+| Section | Instructor | Day / Time | Zoom Link |
+|:---|:---:|:---:|:---|
+| 091 | Prof. Sara K. Yeo | Tuesdays, 2:00 - 3:00 pm | https://utah.zoom.us/j/91491123002 |
+| 090 | TA Liz Giorgi | DAY, TIME | LINK |
+| 090 | TA Dallin Adams | DAY, TIME | LINK |
+
 
 
 # Course Grading
-\begin{center}
-\begin{tabular}{ l l l l }
- A    94-100 & B    84-86.99 & C    74-76.99 & D    64-66.99 \\
- A-   90-93.99 & B-  80-83.99 & C-   70-73.99 & D-   60-63.99 \\
- B+   87-89.99 & C+  77-79.99 & D+  67-69.99 & F   < 59.99 \\
-\end{tabular}
-\end{center}
+<center>
+<img src="https://sarakyeo.github.io/images/grading.png"/>
+</center>
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php). If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade. You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
