@@ -262,7 +262,7 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440078105" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdHKsd595ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <br>
@@ -278,7 +278,7 @@ Next, let's practice identifying some inductive and deductive forms of reasoning
 Check your answers using the video below:
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440080165" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98u0cuQq4l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <a href="#top">Back to top</a>
@@ -288,7 +288,7 @@ Check your answers using the video below:
 Watch the video below defining "research."
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/440081616" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw1lUASglQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ## Probabilistic vs. Deterministic Predictions
