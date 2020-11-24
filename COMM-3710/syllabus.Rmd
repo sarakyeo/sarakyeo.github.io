@@ -10,7 +10,7 @@ output:
     theme: united
 urlcolor: blue
 ---
-[Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
+[Prof. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
 Online | Spring 2021 | Department of Communication | University of Utah
 
 # Course Outline
@@ -32,23 +32,34 @@ I expect you to log into the course regularly (**at least 3-5 times per week**),
 
 Additional readings will be provided as PDF documents on Canvas.
 
-# Technical Requirements and Computer Software
+# Technology Requirements {.tabset .tabset-fade}
 To ensure that you have full access to the course, you will need:
 
 * Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
 * Internet access fast enough to stream videos and connect to online meetings.
 * A working webcam and microphone for online Zoom meetings.
-* An Internet browser compatible with Canvas.For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
+* An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
 
 You will need access to [Canvas](https://utah.instructure.com/), [Zoom](https://zoom.us/), and your [University email account](https://www.umail.utah.edu).
 
-* I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
-* You should also be familiar with Zoom. If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
-* You should check your University email account regularly. Be sure to review the [course email policies](#email) as necessary throughout the semester.
+## Canvas
+I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 
-## Technical Help
+---
+
+## Zoom
+You should be familiar with using Zoom. If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
+
+---
+
+## University Email
+You should check your University email account regularly. Be sure to review the [course email policies](#email) as necessary throughout the semester.
+
+---
+
+# Technology Help
 For general help with Canvas, click the "Help" button in Canvas (when on your desktop), or contact them by phone(+1 844-527-032) or live [chat](https://cases.canvaslms.com/liveagentchat?chattype=student). Help is available **24 hours a day, 7 days a week**.
 
 You can also read the [Canvas Student Guides](https://community.canvaslms.com/docs/DOC-10701-canvas-student-guide-table-of-contents#jive_content_id_Introduction), search for help articles in the [University of Utah Knowledge Base](https://support.tlt.utah.edu/hc/en-us), or contact [classhelp@utah.edu](mailto: classhelp@utah.edu).
@@ -85,8 +96,7 @@ There are 8 individual assignments. Information on individual assignments will b
 
 
 # Virtual Office Hours {#officehrs}
-There are two sections of COMM 3710 that are using R this semester, sections 091 (this section) and 090. Even though you are enrolled in COMM 3710-091 (i.e., section 091), you may drop-in to the office hours of the TAs teaching COMM 3710-0XX. Office hours will be held virtually each week.
-<!--fill in information here-->
+There are two sections of COMM 3710 that are using R this semester, sections 091 (this section) and 090. Even though you are enrolled in COMM 3710-091 (i.e., section 091), you may drop-in to the office hours of the TAs teaching COMM 3710-090. Office hours will be held virtually each week.
 
 | Section | Instructor | Day / Time | Zoom Link |
 |:---|:---:|:---:|:---|
@@ -102,7 +112,7 @@ There are two sections of COMM 3710 that are using R this semester, sections 091
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
-**If you wish to dispute your grade on any assignment, quiz, or exam, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
+**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
 
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
@@ -132,6 +142,8 @@ When you contact me, I expect you to be professional in your communication. This
 * Providing a clear description of your problem and all relevant information.
 * Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
 
+---
+
 ## Course Civility
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course: 
 
@@ -139,19 +151,26 @@ Communication allows us to engage with others and broaden our perspectives. How 
 - Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
 - Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
 
+---
+
 ## Academic Misconduct
 > Academic misconduct will be punished to the fullest extent possible.
 
 You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+---
 
 ## Curriculum Accommodations
 Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict.
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
+---
+
 ## Emergency Plan
 In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
 
+---
 
 # On Learning Strategies
 One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it.
@@ -193,7 +212,7 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 
 ---
 
-# Schedule {.tabset .tabset-fade}
+# Course Schedule {.tabset .tabset-fade}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
 Throughout the semester, there will be [drop-in office hours via Zoom](#officehrs). You may drop-in to ask questions but are not required to attend these office hours.
