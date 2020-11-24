@@ -77,7 +77,7 @@ Additional readings will be available as PDFs on Canvas.
 If you need help in Canvas, click the `Help` button in the right sidebar or contact:
 
 - **Phone:** +1 844-527-0328
-- [**Chat** with Canvas Support](https://cases.canvaslms.com/liveagentchat?chattype=student)
+- [**Chat**](https://cases.canvaslms.com/liveagentchat?chattype=student) with Canvas Support
 
 ## Campus Help Desk
 For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Campus Help Desk:
