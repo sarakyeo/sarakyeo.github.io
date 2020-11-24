@@ -35,10 +35,10 @@ Additional readings will be provided as PDF documents on Canvas.
 # Technical Requirements and Computer Software
 To ensure that you have full access to the course, you will need:
 
-1. Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
-2. Internet access fast enough to stream videos and connect to online meetings.
-3. A working webcam and microphone for online Zoom meetings.
-4. An Internet browser compatible with Canvas.For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
+* Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
+* Internet access fast enough to stream videos and connect to online meetings.
+* A working webcam and microphone for online Zoom meetings.
+* An Internet browser compatible with Canvas.For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
 
@@ -46,7 +46,7 @@ You will need access to [Canvas](https://utah.instructure.com/), [Zoom](https://
 
 * I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 * You should also be familiar with Zoom. If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
-* You should check your University email account regularly
+* You should check your University email account regularly. Be sure to review the [course email policies](#email) as necessary throughout the semester.
 
 ## Technical Help
 For general help with Canvas, click the "Help" button in Canvas (when on your desktop), or contact them by phone(+1 844-527-032) or live [chat](https://cases.canvaslms.com/liveagentchat?chattype=student). Help is available **24 hours a day, 7 days a week**.
@@ -62,24 +62,21 @@ General computer support is available through the Marriott Library Knowledge Com
 # Course Requirements {.tabset .tabset-fade}
 Course grades will be based on the following:
 
-* Quizzes (30%)
-* Group project (30%)
+* Quizzes (35%)
+* Group project (35%)
 * Individual lab assignments (30%)
-* Discussion board participation (10%)
+* Week 6 participation checkpoint
 
 ## Quizzes (100 pts)
 Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered but you may drop one quiz**. You have until the end of the week to complete each quiz. There are 11 quizzes, each worth 11 points. You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz—please do not start a quiz unless you are ready to complete it.
 
 ## Group Project (100 pts)
-You will be randomly assigned to a project group with other students in your lab. As a group and using secondary data, you will explicate a research problem, conduct basic data analysis, and report your research. You will complete group project components in lab throughout the semester. Detailed instructions will be provided in lab and on Canvas. At the end of the semester, your group will share your research with other students in the course.
+You will be randomly assigned to a project group with other students in your lab. As a group and using secondary data, you will explicate a research problem, conduct basic data analysis, and report your research. You will complete group project components in lab throughout the semester. Detailed instructions will be provided on Canvas. At the end of the semester, your group will share your research with other students in the course.
 
-## Individual Lab Assignments (80 pts)
-There are 8 lab assignments. Information on individual lab assignments will be provided on Canvas. **Late assignments will not be accepted**. 
+## Individual Assignments (80 pts)
+There are 8 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments will not be accepted**.
 
-## Discussion Board Participation
-Your participation in the discussions on Canvas will be part of your overall course grade. You will be assessed based on the quality and professionalism of your interactions with your peers and instructor(s). Be sure to check the discussions frequently and ask and/or respond to questions as appropriate. You are part of a learning community in this course and are expected to be an active participant in this community. It is not enough to just log on to Canvas and leave a brief comment, the quality of your participation matters. High quality participation involves asking questions and making comments that are informed by the readings and course content, pertinent to subject matter, and respectful of your peers’ views. Engaging in meaningful and substantive discussion with other students is an important aspect of high-quality participation. **Irrelevant remarks and questions that are uninformed by the course readings and materials do not count and may even be detrimental to your grade**. See note on course civility below.
-
-## Week 6 Participation Checkpoint
+## Week 6 Checkpoint
 **At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required up to that point (Week 6).
