@@ -18,7 +18,7 @@ urlcolor: blue
 <center>
 Welcome to a new semester and to COMM 3710!
 
-COMM 3710-091 is an asynchronous online course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
+COMM 3710 is an asynchronous online course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
 </center>
 
 
