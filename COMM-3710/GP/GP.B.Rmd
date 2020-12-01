@@ -1,9 +1,11 @@
 ---
 title: "GP.B: Finding a Research Topic (10 points)"
+pagetitle: "COMM 3710: GP.B"
 output:
-  pdf_document: default
-  html_document: default
-  word_document: default
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
 urlcolor: blue
 ---
 
@@ -11,12 +13,15 @@ urlcolor: blue
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Instructions
+# Resources
 First, watch these videos in the order listed:
 
 1. https://youtu.be/_8A0zx51BKs (05:49)
 2. https://youtu.be/FduVJ4tDsVo (24.44)
 
+---
+
+# Data
 For the Group Project, we will be using publicly-available data from one of the following sources:
 
 - [COVID Impact Survey](https://www.covid-impact.org/)
@@ -27,118 +32,81 @@ The first step of your project is to pick a data set and find a topic that inter
 
 You will have to narrow down particular parts of the data set you find interesting. Your goal is to brainstorm some possible research questions. One of the simplest research questions that can be asked is whether two concepts are associated. An example is included below, but you cannot use this examples for your project.
 
-\underline{Example}:
+<u>Example:</u>
 In the General Social Survey (GSS), participants were asked about their happiness in marriage (“Very Happy,” “Somewhat Happy,” or “Not Too Happy”) and also about their self-assessment of their own health (“Excellent,” “Good,” “Fair,” or “Poor”). One research question might be: Is there a relationship between health and relationship happiness?
 
 Remember that you can modify your question as we move forward but it will benefit you greatly to spend time now deciding a direction for your project.
 
-## To complete this assignment:
+---
 
-* Explore the data sets (links to these can be found on Canvas). After an initial exploration, pick one of the    data sets.
-* Describe why the data set you chose is interesting to your group.
-* Discuss and write down potential research questions.
-* Copy and paste relevant components of the codebook into your group's personal codebook document. This will help you keep organized in the coming weeks, it is likely you will need to update your group's personal codebook document as your project and research question evolve.
-* Please note you can have as few of two codebook items in your personal codebook or multiple pages of your personal codebook.
+# Instructions
+- Explore the data sets (links to these can be found on Canvas). After an initial exploration, pick one of the    data sets.
 
-Submit GP.B as a PDF document on Canvas. A sample submission is included on the next page.
+- Describe why the data set you chose is interesting to your group.
 
-\newpage
+- Discuss and write down potential research questions.
+
+- Copy and paste relevant components of the codebook into your group's personal codebook document. This will help you keep organized in the coming weeks, it is likely you will need to update your group's personal codebook document as your project and research question evolve.
+
+- Note that you can have as few as two codebook items (or variables) in your personal codebook or multiple pages of your personal codebook.
+
+- **Submit GP.B as a PDF document on Canvas.** A sample submission is included below.
+
+---
 
 # Sample Submission
 After looking through the codebook for the NESARC study (this dataset is not available this semester), I have decided that I am particularly interested in studying family background and depression. Examining mental health and trying to understand contributing factors to depression is something that I explored during my summer internship. While the internship focused on activity level and depression, I was always interested how parental figure’s own depression (either biologically or through interactions) may contribute to their child’s own depression in adulthood.
 
-My personal codebook includes all questions in the NESARC study that give me information about mother and father depression, and some signs of individuals’ own depression:
+My personal codebook includes seven (7) questions from the NESARC study that give me information about mother and father depression^[*Note:* You can have as many items as you would like in your personal codebook. The minimum number of items is two], and some signs of individuals’ own depression:
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4BQ1 & & BLOOD/NATURAL FATHER EVER DEPRESSED? \\
- \hline
- & 4126 & 1. Yes \\
- \hline
- & 32192 & 2. No \\
- \hline
- & 6775 & 9. Unknown \\
-\hline
-\end{tabular}
+| S4BQ1 |       | BLOOD/NATURAL FATHER EVER DEPRESSED? |
+|-------|-------|--------------------------------------|
+|       | 4126  | 1. YES                               |
+|       | 32192 | 2. NO                                |
+|       | 6775  | 9. UNKNOWN                           |
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4BQ2 & & BLOOD/NATURAL MOTHER EVER DEPRESSED? \\
- \hline
- & 7134 & 1. Yes \\
- \hline
- & 31448 & 2. No \\
- \hline
- & 4511 & 9. Unknown \\
-\hline
-\end{tabular}
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4CQ1 & & HAD 2+ YEARS WHEN MOOD WAS LOW, SAD OR DEPRESSED MOST OF THE DAY \\
- \hline
- & 2399 & 1. Yes \\
- \hline
- & 1013 & 2. No \\
- \hline
- & 34 & 9. Unknown \\
-\hline
-\end{tabular}
+| S4BQ2 |       | BLOOD/NATURAL MOTHER EVER DEPRESSED? |
+|-------|-------|--------------------------------------|
+|       | 7134  | 1. YES                               |
+|       | 31448 | 2. NO                                |
+|       | 4511  | 9. UNKNOWN                           |
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4QC3A1 & & OFTEN LOST APPETITE \\
- \hline
- & 1292 & 1. Yes \\
- \hline
- & 1013 & 2. No \\
- \hline
- & 34 & 9. Unknown \\
-\hline
-& 40754 & BL -- never had 2+ years of low mood \\
-\hline
-\end{tabular}
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4QC3A2 & & OFTEN FOUND WANTED TO EAT MORE THAN USUAL \\
- \hline
- & 805 & 1. Yes \\
- \hline
- & 1505 & 2. No \\
- \hline
- & 29 & 9. Unknown \\
-\hline
-& 40754 & BL -- never had 2+ years of low mood \\
-\hline
-\end{tabular}
+| S4CQ1 |      | HAD 2+ YEARS WHEN MOOD WAS LOW, SAD, OR DEPRESSED MOST OF THE DAY |
+|-------|------|-------------------------------------------------------------------|
+|       | 2399 | 1. YES                                                            |
+|       | 1013 | 2. NO                                                             |
+|       | 34   | 9. UNKNOWN                                                        |
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4QC3A4 & & OFTEN HAD TROUBLE SLEEPING \\
- \hline
- & 1613 & 1. Yes \\
- \hline
- & 701 & 2. No \\
- \hline
- & 25 & 9. Unknown \\
-\hline
-& 40754 & BL -- never had 2+ years of low mood \\
-\hline
-\end{tabular}
 
-\begin{tabular}{ |l|l|l| }
-\hline
- S4QC3A4 & & OFTEN SLEPT MORE THAN USUAL \\
- \hline
- & 1177 & 1. Yes \\
- \hline
- & 1134 & 2. No \\
- \hline
- & 29 & 9. Unknown \\
-\hline
-& 40754 & BL -- never had 2+ years of low mood \\
-\hline
-\end{tabular}
+| S4QC3A1 |       | OFTEN LOST APPETITE            |
+|---------|-------|--------------------------------|
+|         | 1292  | 1. YES                         |
+|         | 1013  | 2. NO                          |
+|         | 34    | 9. UNKNOWN                     |
+|         | 40754 | never had 2+ years of low mood |
 
-*Note: You can have as many items as you would like in your personal codebook. The minimum number of items is two.*
+
+| S4QC3A2 |       | OFTEN FOUND WANTED TO EAT MORE THAN USUAL |
+|---------|-------|-------------------------------------------|
+|         | 805   | 1. YES                                    |
+|         | 1505  | 2. NO                                     |
+|         | 29    | 9. UNKNOWN                                |
+|         | 40754 | never had 2+ years of low mood            |
+
+
+| S4QC3A3 |       | OFTEN HAD TROUBLE SLEEPING     |
+|---------|-------|--------------------------------|
+|         | 1613  | 1. YES                         |
+|         | 701   | 2. NO                          |
+|         | 25    | 9. UNKNOWN                     |
+|         | 40754 | never had 2+ years of low mood |
+
+
+| S4QC3A4 |       | OFTEN SLEPT MORE THAN USUAL    |
+|---------|-------|--------------------------------|
+|         | 1177  | 1. YES                         |
+|         | 1134  | 2. NO                          |
+|         | 29    | 9. UNKNOWN                     |
+|         | 40754 | never had 2+ years of low mood |

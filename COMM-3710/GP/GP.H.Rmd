@@ -1,30 +1,36 @@
 ---
 title: "GP.H: Statistical Tests (15 points)"
+pagetitle: "COMM 3710: GP.H"
 output:
-  pdf_document: default
-  html_document: default
-  word_document: default
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
 urlcolor: blue
 ---
 
 # Instructions
 1. First, determine what the appropriate statistical test is for your main two variables of interest. Your options are:
-    * Independent samples *t*-test
-    * Analysis of variance (ANOVA)
-    * Chi-squared test of independence
-    * Pearson's correlation
+   - Independent samples *t*-test
+   - Analysis of variance (ANOVA)
+   - Chi-squared test of independence
+   - Pearson's correlation
       
-    > If you need a reminder of each test, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
+If you need a reminder of each test, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
     
 2. Run the appropriate test. If necessary, use the R resources available to you via Canvas.
-3. Include the syntax used in your submission.
-4. Interpret your findings.
-5. Write up your findings from all your hypothesis tests and submit your assignment as a PDF on Canvas.
+
+3. Interpret your findings.
+
+5. You will submit **two files** for this assignment:
+   - Write up your findings from all your hypothesis tests and submit your assignment as a PDF on Canvas.
+   - Clean up your R code and submit the .R file. This file should be neat and include comments.
 
 You may use  the samples below for guidance in writing statistical findings.
 
+---
 
-# Sample Write-Ups
+# Sample Write-Ups {.tabset .tabset-fade}
 
 ## Independent samples *t*-tests
 An independent samples *t*-test was performed comparing the mean consistency scores of college students and individuals diagnosed with schizophrenia. As predicted, the schizophrenics (M = .76, SD = .20, N = 100) were more illogical than the college students (M = .17, SD = .13, N = 97), *t*(17) = 7.53, *p* < .001, two-tailed.

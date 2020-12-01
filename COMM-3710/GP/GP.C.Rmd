@@ -1,32 +1,41 @@
 ---
 title: "GP.C: Literature Review (10 points)"
+pagetitle: "COMM 3710: GP.C"
 output:
-  pdf_document: default
-  html_document: default
-  word_document: default
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
 urlcolor: blue
 ---
 
-# Instructions
+# Resources
 It is important that you examine the existing literature on your topic or relationship/association of interest. This will allow you to understand what researchers have already studied on your topic.
 
 Your ultimate objective is to go beyond what is already known through your project in this course. In order to achieve this, you must familiarize yourself with what researchers have studied.
 
-Start by watching the following video: https://youtu.be/ZmkUvbX-qlI
+Start by watching this [video](https://youtu.be/ZmkUvbX-qlI).
 
+---
+
+# Instructions 
 The requirement of this assignment is to:
 
 * Describe the association or topic that you have decided to examine and key words you found helpful in your search.
+
 * List at least 5 of the most appropriate references that you have found and read.
-   - To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu). Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
-* Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue.
-* Be brief and use bullet points.
+  <ul><li> To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
+  <li> Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).</ul>
+  
+* Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue. Be brief and use bullet points.
+
 * For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
-* Submit your assignment as a PDF on Canvas.
 
-\newpage
+* **Submit your assignment as a PDF on Canvas.**
 
-#  Sample Submission
+---
+
+# Sample Submission
 Given the association that I have decided to examine, I used such keywords as *nicotine dependence*, *tobacco dependence* and *smoking*. After reading through several titles and abstracts, I noticed that there has been relatively little attention in the research literature to the association between smoking exposure and nicotine dependence. I expanded my literature review a bit to include other substance use that provides relevant background as well.
 
 * Caraballo, R. S., Novak, S. P., & Asman, K. (2009). Linking quantity and frequency profiles of cigarette smoking to the presence of nicotine dependence symptoms among adolescent smokers: Findings from the 2004 National Youth Tobacco Survey. *Nicotine & Tobacco Research*, 11(1), 49-57.
