@@ -1,7 +1,5 @@
 ---
-title: |
-  | <a name="top"></a>
-  | COMM 3710: LA.1
+title: 'LA.1: Installing R and RStudio (10 points)'
 pagetitle: "COMM 3710: LA.1"
 output:
   html_document:
@@ -13,6 +11,8 @@ urlcolor: blue
 
 [R](https://cran.r-project.org/) is the programming language and environment that we will be using for statistical analysis. It is open-source. For more information on R, you can visit the [R Project for Statistical Computing](https://www.r-project.org/). [RStudio](https://rstudio.com/) is the program through which we will be using R. You will need to download and install both R and RStudio.
 
+
+# Instructions
 Follow the instructions below to download and install R and RStudio. You should also watch this [video](https://youtu.be/ZvPFKfNHBNQ) explaining R and RStudio and how to install both pieces of software.
 
 Once you have R and RStudio installed, create a working directory (this can be anywhere on your computer that you choose, you just need to know where it is [e.g., in your Documents folder]) for COMM 3710 and take a screenshot of your working directory. Next, open RStudio and take a screenshot of the program.
@@ -62,8 +62,9 @@ Submit the 2 screenshots in a single PDF document on Canvas. Example screenshots
 * Take a screenshot of your working directory for LA.1.
 
 
-# Sample screenshots<!-- ensure that image files are in the working dir before knitting -->
+# Sample screenshots {.tabset .tabset-fade}
+## RStudio
+![](LA.1_RStudio.png)
 
-![Screenshot of RStudio.](LA.1_RStudio.png)
-
-![Screenshot of a working directory for COMM 3710.](LA.1_workingdir.png)
+## COMM 3710 working directory
+![](LA.1_workingdir.png)
