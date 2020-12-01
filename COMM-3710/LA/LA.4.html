@@ -1571,19 +1571,45 @@ div.tocify {
 <h1>Instructions</h1>
 <p>Before starting this assignment, watch the following video: <a href="https://youtu.be/b9Bh3K5bi0I" class="uri">https://youtu.be/b9Bh3K5bi0I</a>. Additional resources for R can be found <a href="https://rpubs.com/yesun/652965">here</a>.</p>
 <ol style="list-style-type: decimal">
-<li><p>Load in the <a href="https://utah.instructure.com/files/102658359/download?download_frd=1">HELP data set</a> from <a href="https://utah.instructure.com/courses/628882/assignments/7599565">LA.3</a>. <strong>Hint:</strong> The command to read a .csv data file to an object named <code>helpdata</code> in R is <code>helpdata &lt;- read.csv(&quot;HELP.csv&quot;)</code>.</p></li>
-<li><p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called <code>ExtremeMCS</code> and code it as 1 if a patient is at risk based on his/her <code>mcs</code> score and 0 otherwise. <strong>Hint:</strong> One way to create a new variable in the <code>helpdata</code> dataframe is to use the command: <code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code>.</p></li>
-<li><p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not. <strong>Hint:</strong> You can use the same logic from the command in Q2 to create this variable. If you need help with the <code>ifelse</code> command, type <code>?ifelse</code> in the Console window of RStudio.</p></li>
-<li><p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed. <strong>Hint:</strong> See Question 2.</p></li>
-<li><p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables. <strong>Hint:</strong> You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. One way to do this is to transform the data (note that, like most things in R, there are many other ways to do this as well):</p>
-<div class="line-block"><code>helpdata &lt;- transform(helpdata,</code><br />
-                      <code>RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code></div></li>
-<li><p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>. <strong>Hint:</strong> Refer to LA.3 to review creating frequency tables.</p>
+<li><p>Load in the <a href="https://utah.instructure.com/files/102658359/download?download_frd=1">HELP data set</a> from <a href="https://utah.instructure.com/courses/628882/assignments/7599565">LA.3</a>.</p>
+<details>
+<p><summary>Hint</summary></p>
+<p>The command to read a .csv data file to an object named <code>helpdata</code> in R is:</p>
+<pre><code>helpdata &lt;- read.csv(&quot;HELP.csv&quot;)</code></pre>
+</details>
+<p><br></p></li>
+<li><p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called <code>ExtremeMCS</code> and code it as 1 if a patient is at risk based on his/her <code>mcs</code> score and 0 otherwise.</p>
+<details>
+<p><summary>Hint</summary></p>
+<p>One way to create a new variable in the <code>helpdata</code> data frame is to use the following command:</p>
+<pre><code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code></pre>
+</details>
+<p><br></p></li>
+<li><p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.</p>
+<details>
+<p><summary>Hint</summary></p>
+<p>You can use the same logic from the command in Q2 to create this variable. If you need help with the <code>ifelse</code> command, type <code>?ifelse</code> in the Console window of RStudio.</p>
+</details>
+<p><br></p></li>
+<li><p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed. <br></p></li>
+<li><p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.</p>
+<details>
+<p><summary>Hint</summary></p>
+<p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. One way to do this is to transform the data (<em>Note</em>: Like most things in R, there are many other ways to do this):</p>
+<pre><code>helpdata &lt;- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code></pre>
+</details>
+<p><br></p></li>
+<li><p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are thought to be at risk based on their <code>mcs</code> score? <!--91--></li>
 <li>What percentage of patients have experienced suicidal thoughts? <!--28.0%--></li>
 <li>What percentage of patients in the study have fewer than 3 risk factors? <!--94.9%--></li>
-</ol></li>
+</ol>
+<details>
+<p><summary>Hint</summary></p>
+<p>Refer to LA.3 to review creating frequency tables.</p>
+</details>
+<p><br></p></li>
 <li><p>Submit your answers as a PDF document on Canvas.</p></li>
 </ol>
 </div>
