@@ -9,11 +9,14 @@ output:
 urlcolor: blue
 ---
 
+# Resources
+- Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I.
+- Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
+
+---
+
 # Instructions
-
-Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I. Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
-
-1. Load in the [HELP data set](https://utah.instructure.com/files/102658359/download?download_frd=1) from [LA.3](https://utah.instructure.com/courses/628882/assignments/7599565). 
+1. Load in the [HELP data set](https://utah.instructure.com/files/102658359/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). 
 <details>
 <summary>Hint</summary>
 

@@ -1,45 +1,30 @@
 ---
 title: "LA.8: Practice Data Analysis (10 points)"
+pagetitle: "COMM 3710: LA.8"
 output:
-  pdf_document: default
-  html_document: default
-  word_document: default
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
 urlcolor: blue
 ---
 
-```{r setup, include=FALSE}
-# Install packages
-# install.packages("tidyr")
-# install.packages("dplyr")
-# install.packages("ggplot2")
-# install.packages("descr")
-# install.packages("ggpubr")
-# install.packages("rstatix")
-# install.packages("rmarkdown")
-# install.packages("formatR")
-
-# Load packages
-library(tidyr)
-library(dplyr)
-library(ggplot2)
-library(descr)
-library(ggpubr)
-library(rstatix)
-library(rmarkdown)
-library(formatR)
-```
-
-## Overview
+# Resources
 Video resources for data analysis with R:
 
-1. Hypothesis testing: https://youtu.be/08uylSp-CuI
-2. Analysis of variance (ANOVA) in R: https://youtu.be/2uQCUBtqCfM
-3. Chi-square test of independence in R: https://youtu.be/Dnlp9vswwEk
-4. Correlation: https://youtu.be/lf4HfHx2ASs
+1. [Hypothesis testing](https://youtu.be/08uylSp-CuI)
+2. [Analysis of variance (ANOVA)](https://youtu.be/2uQCUBtqCfM)
+3. [Chi-square test of independence](https://youtu.be/Dnlp9vswwEk)
+4. [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-You will use the [Ithaca.csv](https://utah.instructure.com/files/102628202/download?download_frd=1) data set for this assignment. These data were collected by students in a research methods course at Cornell University for teaching purposes.
+Remember that help with R is also available on [this website](https://rpubs.com/yesun/652965).
 
-A data frame with 465 observations on the following variables (Note: 99 = “Don’t know” unless otherwise specified):
+---
+
+# Data
+You will use the [Ithaca.csv](https://utah.instructure.com/files/108105203/download?download_frd=1) data set for this assignment. These data were collected by students in a research methods course at Cornell University for teaching purposes.
+
+A data frame with 465 observations on the following variables^[`99` = “Don’t know” unless otherwise specified]:
 
 *	`tvinat`: Attention to international news (0 = “Little attention,” 10 = “Very close attention”)
 *	`tvnaat`: Attention to national news (0 = “Little attention,” 10 = “Very close attention”)
@@ -52,87 +37,37 @@ A data frame with 465 observations on the following variables (Note: 99 = “Don
 *	`marit`: Marital status (1 = “single,” 2 = “married,” 3 = “divorced/separated,” 4 = “widowed,” 5 = “other,” 9 = “Don’t know/NA”)
 *	`sex`: 1 =  0 = “female,” 1 = “male”
 
-## Instructions
-1. Familiarize yourself with the [Ithaca.csv](https://utah.instructure.com/files/102628202/download?download_frd=1) codebook above. Then, import/load the data set.
-    ```{r, include = FALSE, tidy = TRUE}
-# 1
-ithaca <- read.csv("Ithaca.csv")
-```
+---
 
-2. Conduct data management as necessary on these variables: `tvnaat`, `tvhardat`, `tvsoftat`, `sex`, `marit`. E.g., you might have to remove missing data or recode "Don't know" responses as NA.
-    ```{r, include = FALSE, tidy = TRUE}
-# 2: Managing ordinal variables: Recoding "Don't know" responses as missing data, i.e., "NA."
-freq(ithaca$tvnaat)
-ithaca$ctvnaat <- ithaca$tvnaat
-ithaca$ctvnaat[ithaca$tvnaat == 99] <- NA
-freq(ithaca$ctvnaat)
+# Instructions
+1. Familiarize yourself with the [Ithaca.csv](https://utah.instructure.com/files/108105203/download?download_frd=1) codebook above. Then, import/load the data set.
 
-freq(ithaca$tvhardat)
-ithaca$ctvhardat <- ithaca$tvhardat
-ithaca$ctvhardat[ithaca$tvhardat == 99] <- NA
-freq(ithaca$ctvhardat)
+<br>
 
-freq(ithaca$tvsoftat)
-ithaca$ctvsoftat <- ithaca$tvsoftat
-ithaca$ctvsoftat[ithaca$tvsoftat == 99] <- NA
-freq(ithaca$ctvsoftat)
+2. Conduct data management as necessary on these variables: `tvnaat`, `tvhardat`, `tvsoftat`, `sex`, `marit`. For example, you might have to remove missing data or recode "Don't know" responses as `NA`.
 
-# Recoding nominal variables as factors
-freq(ithaca$sex)
-ithaca$csex <- ithaca$sex
-ithaca$csex[ithaca$sex == 9] <- NA
-ithaca$csex[ithaca$sex == 1] <- "M"
-ithaca$csex[ithaca$sex == 0] <- "F"
-freq(ithaca$csex)
-
-freq(ithaca$marit) # In this case, the values 5 and 9 are not meaningful in this variable
-ithaca$cmarit <- ithaca$marit
-ithaca$cmarit[ithaca$marit == 1] <- "single"
-ithaca$cmarit[ithaca$marit == 2] <- "married"
-ithaca$cmarit[ithaca$marit == 3] <- "divorced/separated"
-ithaca$cmarit[ithaca$marit == 4] <- "widowed"
-ithaca$cmarit[ithaca$marit == 5] <- NA
-ithaca$cmarit[ithaca$marit == 9] <- NA
-freq(ithaca$cmarit)
-```
+<br>
 
 3. Find the mean attention to national TV news for males and females.
-      a. What is the mean attention to national TV news for men and women? <!-- `men: M = 5.181, women: M = 5.176` -->
-    ```{r, include = FALSE, tidy = TRUE}
-# 3
-FMean <- mean(ithaca$ctvnaat[ithaca$csex == "F"], na.rm = TRUE)
-MMean <- mean(ithaca$ctvnaat[ithaca$csex == "M"], na.rm = TRUE)
-FMean
-MMean
-```
+      a. What is the mean attention to national TV news for men and women?
+      
+<br>
 
 4. Implement the appropriate statistical test to determine whether men spend significantly more time watching national TV news compared to women.
-      a. What statistical test did you use? <!-- `Independent samples t-test` -->
-      b. What is the value of the test statistic and the *p*-value? <!-- `t = .016, p = .988` -->
-      c. What conclusions can be drawn? <!-- `Attention to national news on TV is not significantly different between men and women.` -->
-    ```{r, include = FALSE, tidy = TRUE}
-# 4
-res.t <- t.test(ithaca$ctvnaat~ithaca$csex, var.equal = TRUE)
-res.t
-```
+      a. What statistical test did you use?
+      b. What is the value of the test statistic and the *p*-value?
+      c. What conclusions can be drawn?
+
+<br>
 
 5. Implement the appropriate statistical test to determine whether there is a significant linear relationship between attention to national TV news and attention to news about politics and economy.
-      a. What statistical test did you use? <!-- `Pearson's correlation` -->
-      b. What is the value of the test statistic and the *p*-value? <!-- `Pearson's r = .649, p < .001` -->
-      c. What conclusions can be drawn? <!-- `There is a statistically significant positive relationship between the variables.` -->
-    ```{r, include = FALSE, tidy = TRUE}
-# 5
-res.cor <- cor.test(ithaca$ctvnaat, ithaca$ctvhardat, method = "pearson")
-res.cor
-```
+      a. What statistical test did you use?
+      b. What is the value of the test statistic and the *p*-value?
+      c. What conclusions can be drawn?
+
+<br>
 
 6. Implement the appropriate statistical test to determine whether attention to soft news varies significantly depending on marital status.
-      a. What statistical test did you use? <!--`One-way analysis of variance (ANOVA)`-->
-      b. What is the value of the test statistic and the *p*-value? <!-- `F = 5.197, p = .002` -->
-      c. What conclusions can be drawn? <!-- `There is a significant different in attention to soft news by marital status.`-->
-      <!-- d. Are *post hoc* tests necessary? If so, what are the results? Yes. Only significant difference in attention to soft news between single and divorced/separated R; pwc <- ithaca %>% tukey_hsd(ctvsoftat ~ cmarit); pwc-->
-```{r warning=FALSE, include=FALSE, tidy = TRUE}
-# 6
-res.aov <- ithaca %>% anova_test(ctvsoftat ~ cmarit)
-res.aov
-```
+      a. What statistical test did you use?
+      b. What is the value of the test statistic and the *p*-value?
+      c. What conclusions can be drawn?

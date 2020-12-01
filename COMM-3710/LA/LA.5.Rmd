@@ -9,9 +9,13 @@ output:
 urlcolor: blue
 ---
 
+# Resources
 Before beginning this assignment, watch this [video](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R.
 
-Use the [Utilities.csv](https://utah.instructure.com/files/102658354/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables.
+---
+
+# Data
+Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables.
 
 * `month`: month (coded as a number)
 *	`day`: day of month on which bill was calculated
