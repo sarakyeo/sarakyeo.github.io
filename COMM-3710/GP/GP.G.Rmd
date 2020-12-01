@@ -24,8 +24,8 @@ OPTIONAL: Watch this [video](https://youtu.be/IZoCbCQRmUE) about graphing relati
     
 3. Construct a 2nd graph that shows the association between another explanatory variable and your dependent variable. Again, write a few sentences describing what your graph reveals in terms of the relationships among the variables.
 
-4. **Submit two files on Canvas:**
+4. Submit two files on Canvas:
    <ul>
-   <li> A .R file with all commands and comments.
-   <li> A PDF file of the graphs and descriptions. Graphs should contain axes labels, captions, and, if applicable, legends.
+   <li> A **.R file** with all commands and comments.
+   <li> A **PDF file** of the graphs and descriptions. Graphs should contain axes labels, captions, and, if applicable, legends.
    </ul>

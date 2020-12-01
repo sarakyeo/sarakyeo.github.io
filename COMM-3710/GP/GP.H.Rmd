@@ -23,8 +23,8 @@ If you need a reminder of each test, review content from [Week 9](https://saraky
 3. Interpret your findings.
 
 5. You will submit **two files** for this assignment:
-   - Write up your findings from all your hypothesis tests and submit your assignment as a PDF on Canvas.
-   - Clean up your R code and submit the .R file. This file should be neat and include comments.
+   - Write up your findings from all your hypothesis tests and submit your assignment as a **PDF** on Canvas.
+   - Clean up your R code and submit the **.R file**. This file should be neat and include comments.
 
 You may use  the samples below for guidance in writing statistical findings.
 

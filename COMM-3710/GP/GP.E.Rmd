@@ -22,6 +22,6 @@ In this Group Project component, your group will begin to work through how to ma
 
 3. Submit the following on Canvas:
    <ul>
-   <li> A .R file containing all R commands and comments for this assignment.
-   <li> A PDF file with (i) output that displays at least 3 data managed variables as frequency tables; (ii) descriptive statistics for each managed variable; and (iii) a description of the results of your frequency tables in a few sentences.
+   <li> A **.R file** containing all R commands and comments for this assignment.
+   <li> A **PDF file** with (i) output that displays at least 3 data managed variables as frequency tables; (ii) descriptive statistics for each managed variable; and (iii) a description of the results of your frequency tables in a few sentences.
    </ul>
