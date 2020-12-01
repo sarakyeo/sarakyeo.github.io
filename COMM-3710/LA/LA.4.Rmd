@@ -1,85 +1,34 @@
 ---
-title: "LA.4: Working with Data (10 points)"
+title: 'LA.4: Working with Data (10 points)'
+pagetitle: "COMM 3710: LA.4"
 output:
-  pdf_document: default
-  html_document: default
-  word_document: default
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
 urlcolor: blue
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(include = FALSE)
-# Install packages
-# install.packages("tidyr")
-# install.packages("dplyr")
-# install.packages("ggplot2")
-# install.packages("descr")
-# install.packages("ggpubr")
-# install.packages("rstatix")
-# install.packages("rmarkdown")
+# Instructions
 
-# Load packages
-library(tidyverse)
-library(descr)
-library(Hmisc)
-```
-
-## Instructions
-
-Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I. Additional resources can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR).
+Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I. Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
 
 1. Load in the [HELP data set](https://utah.instructure.com/files/102658359/download?download_frd=1) from [LA.3](https://utah.instructure.com/courses/628882/assignments/7599565). **Hint:** The command to read a .csv data file to an object named `helpdata` in R is `helpdata <- read.csv("HELP.csv")`.
-```{r include=FALSE}
-    # 1
-    helpdata <- read.csv("HELP.csv")
-    ```
 
 2. Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called `ExtremeMCS` and code it as 1 if a patient is at risk based on his/her `mcs` score and 0 otherwise. **Hint:** One way to create a new variable in the `helpdata` dataframe is to use the command: `helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)`. 
-    ```{r include = FALSE}
-    # 2
-    helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)
-    ```
 
-3. Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not. **Hint:** One way to create this new variable is to use subsetting:
+3. Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not. **Hint:** You can use the same logic from the command in Q2 to create this variable. If you need help with the `ifelse` command, type `?ifelse` in the Console window of RStudio. 
 
-   | `helpdata$SuicidalThought <- 99`
-   | `helpdata$SuicidalThought[helpdata$g1b == "no"] <- 0`
-   | `helpdata$SuicidalThought[helpdata$g1b == "yes"] <- 1`    
-
-    ``` {r include = FALSE}
-    # 3
-    helpdata$SuicidalThought <- 99
-    helpdata$SuicidalThought[helpdata$g1b == "no"] <- 0
-    helpdata$SuicidalThought[helpdata$g1b == "yes"] <- 1
-    ```
-
-4. Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed. **Hint:** See Question 3.
-    ```{r include = FALSE}
-    # 4
-    helpdata$HomelessStatus <- 99
-    helpdata$HomelessStatus[helpdata$homeless == "housed"] <- 0
-    helpdata$HomelessStatus[helpdata$homeless == "homeless"] <- 1
-    ```
+4. Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed. **Hint:** See Question 2.
 
 5. Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables. **Hint:** You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. One way to do this is to transform the data (note that, like most things in R, there are many other ways to do this as well):
 
    | `helpdata <- transform(helpdata,`
    |                       `RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)`
-    ```{r include = FALSE}
-    # 5
-    helpdata <- transform(helpdata,
-                           RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)
-    ```
 
 6. Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. **Hint:** Refer to LA.3 to review creating frequency tables.
       a. How many patients are thought to be at risk based on their `mcs` score? <!--91-->
       b. What percentage of patients have experienced suicidal thoughts? <!--28.0%-->
       c. What percentage of patients in the study have fewer than 3 risk factors? <!--94.9%-->
-    ```{r include = FALSE}
-      # 6
-      freq(helpdata$ExtremeMCS)
-      freq(helpdata$SuicidalThought)
-      freq(helpdata$RiskTotal)
-    ```
 
 7. Submit your answers as a PDF document on Canvas.
