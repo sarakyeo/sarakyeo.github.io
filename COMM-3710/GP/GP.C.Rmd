@@ -1,0 +1,48 @@
+---
+title: "GP.C: Literature Review (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+It is important that you examine the existing literature on your topic or relationship/association of interest. This will allow you to understand what researchers have already studied on your topic.
+
+Your ultimate objective is to go beyond what is already known through your project in this course. In order to achieve this, you must familiarize yourself with what researchers have studied.
+
+Start by watching the following video: https://youtu.be/ZmkUvbX-qlI
+
+The requirement of this assignment is to:
+
+* Describe the association or topic that you have decided to examine and key words you found helpful in your search.
+* List at least 5 of the most appropriate references that you have found and read.
+   - To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu). Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
+* Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue.
+* Be brief and use bullet points.
+* For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
+* Submit your assignment as a PDF on Canvas.
+
+\newpage
+
+#  Sample Submission
+Given the association that I have decided to examine, I used such keywords as *nicotine dependence*, *tobacco dependence* and *smoking*. After reading through several titles and abstracts, I noticed that there has been relatively little attention in the research literature to the association between smoking exposure and nicotine dependence. I expanded my literature review a bit to include other substance use that provides relevant background as well.
+
+* Caraballo, R. S., Novak, S. P., & Asman, K. (2009). Linking quantity and frequency profiles of cigarette smoking to the presence of nicotine dependence symptoms among adolescent smokers: Findings from the 2004 National Youth Tobacco Survey. *Nicotine & Tobacco Research*, 11(1), 49-57.
+* Chen, K., Kandel, D.,(2002). Relationship between extent of cocaine use and dependence among adolescents and adults in the United States. *Drug & Alcohol Dependence*, 68, 65-85.
+* Chen, K., Kandel, D. B., Davies, M. (1997). Relationships between frequency and quantity of marijuana use and last year proxy dependence among adolescents and adults in the United States. *Drug & Alcohol Dependence*, 46, 53-67.
+* Dierker, L., He, J. P., Kalaydjian, A., Swendsen, J., Degenhardt, L., Glantz, M., Merikangas, K. (2008). The importance of timing of transitions for risk of regular smoking and nicotine dependence. *Annals of Behavioral Medicine*, 36(1), 87-92.
+* Dierker, L. C., Donny, E., Tiffany, S., Colby, S. M., Perrine, N., Clayton, R. R., & Network, T. (2007). The association between cigarette smoking and DSMIV nicotine dependence among first year college students. *Drug and Alcohol Dependence*, 86(2-3), 106-114.
+* Lessov-Schlaggar, C. N., Hops, H., Brigham, J., Hudmon, K. S., Andrews, J. A., Tildesley, E., . . . Swan, G. E. (2008). Adolescent smoking trajectories and nicotine dependence. *Nicotine & Tobacco Research*, 10(2), 341-351.
+* Riggs, N. R., Chou, C. P., Li, C. Y., & Pentz, M. A. (2007). Adolescent to emerging adulthood smoking trajectories: When do smoking trajectories diverge, and do they predict early adulthood nicotine dependence? *Nicotine & Tobacco Research*, 9(11), 1147-1154.
+* Van De Ven, M. O. M., Greenwood, P. A., Engels, R., Olsson, C. A., & Patton, G. C. (2010). Patterns of adolescent smoking and later nicotine dependence in young adults: A 10-year prospective study. *Public Health*, 124(2), 65-70.
+
+Based on my reading of the above articles as well as others, I have noted a few common and interesting themes:
+
+* While it is true that smoking exposure is a necessary requirement for nicotine dependence, frequency and quantity of smoking are markedly imperfect indices for determining an individual’s probability of exhibiting nicotine dependence (this is true for other drugs as well).
+* The association may differ based on ethnicity, age, and gender (although there is little work on this).
+* One of the most potent risk factors consistently implicated in the etiology of smoking behavior and nicotine dependence is depression.
+* I have decided to further focus my question by examining whether the association between nicotine dependence and smoking differs based on whether a person is experiencing depression.
+  +  I am wondering if at low levels of smoking compared to high levels, nicotine dependence is more common among individuals with major depression than those without major depression.
+  + I added relevant depression questions/items/variables to my personal codebook as well as several demographic measures (age, gender, ethnicity, etc.) and any other variables I may wish to consider.

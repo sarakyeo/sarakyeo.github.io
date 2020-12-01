@@ -1,0 +1,22 @@
+---
+title: "GP.F: Univariate Graphs (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+
+If you need a reminder about graphing one variable at a time in R, watch this [video](https://youtu.be/mwLyXHfCPdE).
+
+There are a variety of conventional ways to visualize data---tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to graph your variables one at a time and examine both center and spread.
+
+Include univariate graphs of your two main constructs. These main constructs, or variables, should be managed (from GP.D).
+
+* Each graph should contain clearly labeled x-axes, y-axes, and legends, if applicable.
+
+Write a few sentences describing what your graphs reveal in terms of shape, spread, and center (if variable is quantitative) and most/least frequent categories if variable is categorical.
+
+Submit your assignment as a PDF document on Canvas.

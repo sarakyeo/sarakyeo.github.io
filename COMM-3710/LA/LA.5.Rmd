@@ -1,0 +1,134 @@
+---
+title: "LA.5: Visualizing Data (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Install packages
+# install.packages("tidyr")
+# install.packages("dplyr")
+# install.packages("ggplot2")
+# install.packages("descr")
+# install.packages("ggpubr")
+# install.packages("rstatix")
+# install.packages("rmarkdown")
+# install.packages("formatR")
+
+# Load packages
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(descr)
+library(ggpubr)
+library(rstatix)
+library(rmarkdown)
+library(formatR)
+```
+
+Before beginning this assignment, watch this [video](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R.
+
+Use the [Utilities.csv](https://utah.instructure.com/files/102658354/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables.
+
+* `month`: month (coded as a number)
+*	`day`: day of month on which bill was calculated
+*	`year`: year of bill
+*	`temp`: average temperature (F) for billing period
+*	`kwh`: electricity usage (kwh)
+*	`ccf`: gas usage (ccf)
+*	`thermsPerDay`: a numeric vector
+*	`billingDays`: number of billing days in billing period
+*	`totalbill`: total bill (in dollars)
+*	`gasbill`: average gas bill (in dollars)
+*	`elecbill`: average electric bill (in dollars)
+*	`notes`: notes about the billing period
+*	`donate`: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need
+
+## Instructions
+1. Import the [Utilities.csv](https://utah.instructure.com/files/102658354/download?download_frd=1) data set. Use the codebook to familiarize yourself with the variables. **Hint:** To read the data into a dataframe called `utilites` in R, use the command `utilities <- read.csv("Utilities.csv")`.
+
+    ```{r include = FALSE}
+    # 1
+    utilities <- read.csv("Utilities.csv")
+    ```
+
+2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your submission). **Hint:** This question asks you to create a histogram. One way to do this is to use the command `hist(utilities$totalbill)`.
+      a. Use the histogram you created--what best describes the distribution of customers' total monthly bill? <!--Slightly positively skewed, most total monthly bills are between $100 and $150-->
+      
+```{r include = FALSE}
+    # 2
+    hist(utilities$totalbill)
+    ```
+
+3. Make a graph to display gas bill by month (include the graph in your submission). **Hint:** To make a plot, use the command `plot(utilities$month, utilities$gasbill)`.
+
+    ```{r include = FALSE}
+    # 3
+    plot(utilities$month, utilities$gasbill)
+    ```
+
+4. Make a graph to display electric bill by month (include the graph in your submission). **Hint:** Use the same command in Question 3 with the appropriate variable names to create this plot.
+      a. What month has the highest average gas bill? <!--January-->
+      b. What month has the highest average electric bill? <!--September-->
+      
+    ```{r include = FALSE}
+    # 4
+    plot(utilities$month, utilities$elecbill)
+    ```
+
+5. Make a graph to display the relationship between gas usage and average gas bill (include the graph in your submission). **Hint:** Use the same command in Question 3 with the appropriate variable names to create this plot.
+
+    ```{r include = FALSE}
+    # 5
+    plot(utilities$kwh, utilities$elecbill)
+    
+    ```
+
+6. Make a graph to display the relationship between electricity usage and average electric bill (include the graph in your submission). **Hint:** Use the same command in Question 3 with the appropriate variable names to create this plot.
+      a. Does there appear to be a relationship between gas usage and average gas bill? <!--Yes-->
+      b. Does there appear to be a relationship between electricity usage and average electric bill? <!--Yes-->
+      
+    ```{r include = FALSE}
+    # 6
+    plot(utilities$ccf, utilities$gasbill)
+    ```
+
+7. Make a graph to determine whether there is relationship between season and donation (include the graph in your submission). Start by making a new variable to categorize each bill into `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November. **Hint:** Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` to create the graph.
+
+    ```{r include = FALSE, tidy = TRUE, tidy.opts=list(width.cutoff=80)}
+# 7
+utilities$season <- 99
+utilities$season[utilities$month == 12 | utilities$month == 1 | utilities$month == 2] <- "winter"
+utilities$season[utilities$month == 3 | utilities$month == 4 | utilities$month == 5] <- "spring"
+utilities$season[utilities$month == 6 | utilities$month == 7 | utilities$month == 8] <- "summer"
+utilities$season[utilities$month == 9 | utilities$month == 10 | utilities$month == 11] <- "fall"
+freq(utilities$season)
+    ```
+
+8. Make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. **Hint:** Try the command `utilities$DonorStatus <- ifelse(utilities$donate == "yes", 1, 0)`.
+
+    ```{r include = FALSE}
+# 8
+utilities$DonorStatus <- ifelse(utilities$donate == "yes", 1, 0)
+    ```
+
+9. Make a bar chart to display the proportion of donors by season (include the graph in your submission). Order the seasons from lowest proportion of donors to highest proportion of donors.
+   a. Does there seem to be a relationship between season and donation? **Hint:** The following commands are one way to create a bar chart that is sorted: <!--No-->
+   
+      | `sorted <- reorder(utilities$season, utilities$DonorStatus)`
+      | `counts <- table(utilities$DonorStatus, sorted)`
+      | `barplot(counts)`
+ 
+    ```{r include = FALSE}
+# 9
+sorted <- reorder(utilities$season, utilities$DonorStatus)
+counts <- table(utilities$DonorStatus, sorted)
+barplot(counts)
+    ```
+
+10. Submit your answers as a PDF on Canvas.

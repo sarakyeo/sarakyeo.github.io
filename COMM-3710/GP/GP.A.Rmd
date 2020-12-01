@@ -1,0 +1,46 @@
+---
+title: "GP.A: Ethics in Human Subjects Research (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+There are two parts to this Group Project component:
+1. Group Project Code of Conduct (one submission per group)
+2. CITI Training (one submission per group that contains all group members' certificates of completion)
+
+## Group Project Code of Conduct
+**Communication.** How will your group communicate and meet? What are group members' expectations for communication? Be sure to agree on a method of communication (e.g., email, group text messaging) and clarify expectations for response times (e.g., within 24 hours).
+
+**Meeting times.** Identify days and times during which every group member is available to meet and a preference for meeting format (e.g., remotely, in-person, on campus, off campus).
+
+**Decision-making process.** How will decisions about the project be made? How will you ensure that all group members have the opportunity to express their ideas?	How will decisions ultimately be made (e.g., group vote)?
+
+**Division of labor.** How will you divide work and ensure that everyone contributes equally across the project? How will this division of labor be documented to ensure everyone understands their contributions (e.g., follow-up emails outlining tasks)? When will task division for each group project component occur?	How and when will you determine what tasks need to be done for each group project component? When will individual tasks be due to the group (e.g., two days before deadline, 24 hours before deadline).
+
+**Consequences.** What consequences, if any, will there be for failing to complete assigned tasks? What records will the group keep to document who is responsible for tasks, and whether or not those tasks have been delivered?	Will group members receive a warning? Who is responsible for delivering that warning?	How will the group decide what constitutes acceptable- and unacceptable-quality work? Be sure to have clear consequences for members who do not meet group expectations or fail to deliver on their tasks.
+
+To complete this part of GP.A, submit a signed (by all group members) PDF document detailing your group's Code of Conduct on Canvas.
+
+## CITI Training
+Each group member must complete training on ethical conduct of human subjects research through the Collaborative Institutional Traiing Initiative (CITI) and save their certificate of completion as a PDF.
+
+As a group, you must submit one PDF document containing every group members' CITI training completion certificate.
+
+To complete CITI training, follow the instructions below.
+
+1. Open your browser and navigate to [https://www.citiprogram.org](https://www.citiprogram.org/). Click *Register*.
+2. Enter your university affiliation. Click *Continue to Step 2*.
+3. Fill in your first and last names and your utah.edu email address. Click *Continue to Step 3*.
+4. Create a username and password. Fill in the required fields. When asked to verify your email address, be sure to check your Spam folder for the verification email.
+5. When you are asked "Are you interested in the option of receiving Continuing Education Unit credit for completed CITI Program courses?" Select *No*. Remember to answer the required question at the bottom of the page about participation in research surveys.
+6. Under *Department*, type "Communication." From the dropdown menu of *What is your role in research?* select *Student researcher – Undergraduate*.
+7. Next, select *Group 2: Social/Behavioral Research Investigators and Key Personnel*.
+8. On the next screen, select *I have not previously completed an approved Basic Course*.
+9. On the *Optional Courses* screen, select *Not at this time**.
+10. Click *Finalize registration* to complete your registration. If you do not see the Group 2 course on the next screen, click *University of Utah Courses* to expand the tab. Click on the Group 2 link to start the training.
+11. Complete all 17 modules.
+11. Once you have completed the modules, click “Print Report.” Save the resulting report as a PDF file and turn it in online. An example report can be found [here](https://utah.instructure.com/files/102761449/download?download_frd=1).

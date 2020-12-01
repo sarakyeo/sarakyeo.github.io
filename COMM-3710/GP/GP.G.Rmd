@@ -1,0 +1,20 @@
+---
+title: "GP.G: Bivariate Graphs (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+
+OPTIONAL: Watch this [video](https://youtu.be/IZoCbCQRmUE) about graphing relationships in R.
+
+1. Construct a graph that shows the association between your explanatory/independent and outcome/dependent variables (bivariate graph).
+2. Write a few sentences describing what your graphs reveal.
+    * How do you think the variables are related, if at all?
+    * How does this correspond with your predictions?
+    * Does the graph reveal anything unexpected or interesting about your relationship of interest?
+3. Construct a 2nd graph that shows the association between another explanatory variable and your dependent variable. Again, write a few sentences describing what your graph reveals in terms of the relationships among the variables.
+4. Submit your assignment as a PDF document on Canvas.

@@ -1,0 +1,67 @@
+---
+title: "LA.6: Examining Relationships (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Install packages
+# install.packages("tidyr")
+# install.packages("dplyr")
+# install.packages("ggplot2")
+# install.packages("descr")
+# install.packages("ggpubr")
+# install.packages("rstatix")
+# install.packages("rmarkdown")
+# install.packages("formatR")
+
+# Load packages
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(descr)
+library(ggpubr)
+library(rstatix)
+library(rmarkdown)
+library(formatR)
+```
+
+## Instructions
+
+Before starting this assignment, watch this [video](https://youtu.be/IZoCbCQRmUE). You may also find this [video](https://youtu.be/2uQCUBtqCfM) helpful for this assignment. You can also refer to this site of [R resources and tutorials](https://rpubs.com/yesun/Comm3710_helpwithR).
+
+1. Load the [Utilities.csv](https://utah.instructure.com/files/102658354/download?download_frd=1) data set from [LA.5](https://utah.instructure.com/courses/628882/assignments/7599568) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable.
+    ```{r, include=FALSE, tidy=TRUE, tidy.opts=list(width.cutoff=80)}
+# 1
+utilities <- read.csv("Utilities.csv")
+utilities$season[utilities$month == 12 | utilities$month == 1 | utilities$month == 2] <- "winter"
+utilities$season[utilities$month == 3 | utilities$month == 4 | utilities$month == 5] <- "spring"
+utilities$season[utilities$month == 6 | utilities$month == 7 | utilities$month == 8] <- "summer"
+utilities$season[utilities$month == 9 | utilities$month == 10 | utilities$month == 11] <- "fall"
+freq(utilities$season)
+```
+
+2. Use an appropriate statistical test to determine whether there is a relationship between total bill and season. **Hint:** First, identify whether the independent and dependent variables are categorical or continuous. Then, use this [chart](https://utah.instructure.com/files/107504680/download?download_frd=1) to select a statistical test.
+      a. What statistical test did you use? <!--ANOVA-->
+      b. What is the test statistic and the probability value associated with that test statistic? **Hint:** The test statistics for a $\chi$-squared test, $t$-test, and ANOVA are $\chi^2$, $t$, and $F$, respectively. The probability value is $p$. <!--F(3,113) = 70.8, p < .001-->
+      c. Is there a significant relationship between total bill and season? **Hint:** Check the $p$-value. If $p < 0.05$, then the relationship is significant. <!--Yes-->
+    ```{r, include=FALSE, tidy=TRUE, tidy.opts=list(width.cutoff=80)}
+# 2
+res.aov <- utilities %>% anova_test(totalbill ~ season)
+res.aov
+```
+
+<!-- 3. Apply *post hoc* tests (if appropriate) to determine which seasons vary significantly. -->
+<!--       a. Which seasons, if any, have significantly different mean total bills? <!--All pairwise comparisons are significant except for that between fall and spring-->
+    ```{r, include=FALSE, tidy=TRUE, tidy.opts=list(width.cutoff=80)}
+# 3
+pairwise <- utilities %>% tukey_hsd(totalbill ~ season)
+pairwise
+```
+
+3. Submit your answers as a PDF on Canvas.

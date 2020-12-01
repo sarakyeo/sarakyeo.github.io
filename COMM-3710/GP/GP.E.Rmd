@@ -1,0 +1,23 @@
+---
+title: "GP.E: Data Management (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+In this Group Project component, your group will begin to work through how to make decisions about data management and how to put those decisions into action.
+
+1. Load your data set into R.
+2. Conduct data management on at least 3 variables of interest. Some questions to consider as you work through data management:
+    * Do your variable values make sense?
+    * Are there missing cases that need to be recoded?
+    * Do you need to reverse code or recode your variable in any way?
+3. Create a PDF document that contains the following:
+    * Output that displays at least 3 data managed variables as frequency tables.
+    * Descriptive statistics for each managed variable.
+    * Describe the results of your frequency tables in a few sentences.
+
+Submit your assignment as a PDF document on Canvas.

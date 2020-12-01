@@ -1,0 +1,21 @@
+---
+title: "GP.D: Exploring Data (10 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+If you need a refresher on R, watch this video: https://youtu.be/Dbj_l1PRIjA
+
+1. Download and load your selected data set in R.
+2. Select the variables, and possibly rows, of interest and run frequency distributions of your chosen variables.
+3. Submit a PDF document on Canvas containing the following:
+    * The R script (i.e., commands) that you used for this assignment.
+    * Output that displays three of your variables in frequency tables.
+      + Report descriptive statistics for each variable (e.g., mean, median, standard deviation, proportions).
+      + Describe the results of your frequency tables in a few sentences.
+
+Submit your assignment as a PDF document on Canvas.

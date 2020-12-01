@@ -1,0 +1,39 @@
+---
+title: "GP.H: Statistical Tests (15 points)"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+urlcolor: blue
+---
+
+# Instructions
+1. First, determine what the appropriate statistical test is for your main two variables of interest. Your options are:
+    * Independent samples *t*-test
+    * Analysis of variance (ANOVA)
+    * Chi-squared test of independence
+    * Pearson's correlation
+      
+    > If you need a reminder of each test, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
+    
+2. Run the appropriate test. If necessary, use the R resources available to you via Canvas.
+3. Include the syntax used in your submission.
+4. Interpret your findings.
+5. Write up your findings from all your hypothesis tests and submit your assignment as a PDF on Canvas.
+
+You may use  the samples below for guidance in writing statistical findings.
+
+
+# Sample Write-Ups
+
+## Independent samples *t*-tests
+An independent samples *t*-test was performed comparing the mean consistency scores of college students and individuals diagnosed with schizophrenia. As predicted, the schizophrenics (M = .76, SD = .20, N = 100) were more illogical than the college students (M = .17, SD = .13, N = 97), *t*(17) = 7.53, *p* < .001, two-tailed.
+
+## Analysis of variance (ANOVA)
+When examining the association between current number of cigarettes smoked (quantitative response) and past year nicotine dependence (categorical explanatory), an analysis of variance (ANOVA) revealed that among daily, young adult smokers (my sample), those with nicotine dependence reported smoking significantly more cigarettes per day (M = 14.6, SD = 9.15) compared to those without nicotine dependence (M = 11.4, SD = 7.43), *F*(1, 1313) = 44.68, *p* =.0001.
+
+## Chi-squared test of independence
+When examining the association between lifetime major depression (categorical response) and past year nicotine dependence (categorical explanatory), a chi-square test of independence revealed that among daily, young adults smokers (my sample), those with past year nicotine dependence were more likely to have experienced major depression in their lifetime (36.2%) compared to those without past year nicotine dependence (12.7%), *$\chi$^2^* = 88.60, *p* = 0001.
+
+## Correlation
+Among daily, young adult smokers (my sample), the correlation between number of cigarettes smoked per day (quantitative) and number of nicotine dependence symptoms experienced in the past year (quantitative) was 0.17 (*p* = .0001), suggesting that only 3% (i.e., 0.17^2) of the variance in number of current nicotine dependence symptoms can be explained by number of cigarettes smoked per day.
