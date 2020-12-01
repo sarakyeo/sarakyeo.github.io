@@ -17,7 +17,7 @@ Follow the instructions below to download and install R and RStudio. You should 
 
 Once you have R and RStudio installed, create a working directory (this can be anywhere on your computer that you choose, you just need to know where it is [e.g., in your Documents folder]) for COMM 3710 and take a screenshot of your working directory. Next, open RStudio and take a screenshot of the program.
 
-Submit the 2 screenshots in a single PDF document on Canvas. Example screenshots can be found after the instructions.
+**Submit the 2 screenshots in a single PDF document on Canvas.** Example screenshots can be found after the instructions.
 
 
 # Download and Install R
