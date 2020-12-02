@@ -72,4 +72,6 @@ urlcolor: blue
    </details>
 <br>
 
-7. Submit your answers as a PDF document on Canvas.
+7. Submit the following on Canvas:
+   (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+   (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.

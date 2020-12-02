@@ -1,23 +1,26 @@
 ## LA.3: Examining Data
+## Student Name
 
 ## Load packages
-library(tidyr)
+library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(descr)
-library(ggpubr)
-library(rstatix)
-library(rmarkdown)
 
-## 1
-helpdata <- read.csv("HELP.csv") # load HELP.csv
+## Set working directory
+setwd("./Downloads/COMM-3710")
 
-## 2
-freq(helpdata$female) # freq table for sex
-freq(helpdata$d1) # freq table for d1
+## 1: Load dataset
+hdata <- read.csv("HELP.csv") # load HELP.csv
+        # loaded data of 453 observations of 27 variables
 
-## 3
-datasub <- subset(helpdata, substance == "cocaine" & age >= 40) # subset data
+## 2: Make frequency tables for sex and d1
+freq(hdata$sex) # freq table for sex
+freq(hdata$d1) # freq table for d1
 
-## 4
-freq(datasub$female) # freq table for sex (subset of data)
+## 3: Subset data to incl substance == cocaine and over 40 years old
+hsub <- subset(hdata, substance == "cocaine" & age >= 40) # subset data
+        # contains 27 obs of 27 var
+
+## 4: Make freq table based on subset
+freq(hsub$sex) # freq table for sex (subset of data)

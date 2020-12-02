@@ -20,7 +20,7 @@ Use the [medical records](https://utah.instructure.com/files/109758959/download?
 - Label variables within an Excel spreadsheet.
 - Enter data for each patient in the Excel spreadsheet.
 - List the variable names, labels, types, and, response codes below the data set (i.e. the code book).
-- Submit the excel file (.XLS, .XLSX) on Canvas.
+- **Submit the excel file (.XLS, .XLSX) on Canvas.**
 
 # Sample Submission
 ![Screenshot of sample submission (Excel spreadsheet).](LA.2_sample.png)
