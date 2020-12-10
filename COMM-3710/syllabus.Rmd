@@ -219,78 +219,78 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 
 *Note: LA = individual lab assignment, GP = group project component*
 
-## Week 1 (25-Jan)
+## Week 1 (19-Jan)
 > Course introduction | **Quiz 1**
 
 - Readings: Syllabus, Pauk Ch. 7, Wrench Ch, 1
 - Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
 
-## Week 2 (1-Feb)
+## Week 2 (25-Jan)
 > Overview of the research process; Research ethics | **Quiz 2**
 
 - Readings: Wrench Ch. 2, 3, Cushing
 - Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
 
-## Week 3 (8-Feb)
+## Week 3 (1-Feb)
 > Concept explication | **Quiz 3**
 
 - Readings: McLeod et al.
 - Lab: LA.3--Examining Data (10 pts)
 
-## Week 4 (15-Feb)
+## Week 4 (8-Feb)
 > Variables and measurement | **Quiz 4** 
 
 - Readings: Wrench Ch. 6, 7 
 - Lab: LA.4--Working with Data (10 pts)
 
-## Week 5 (22-Feb)
+## Week 5 (16-Feb)
 > Survey research; Experiments | **Quiz 5** 
   
 - Readings: Wrench Ch. 9, 11 
 - Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
   
-## Week 6 (1-Mar): Participation Checkpoint
+## Week 6 (22-Feb): Participation Checkpoint
 > Reliability and validity | **Quiz 6** 
   
 - Readings: Wrench Ch. 8 
 - Lab: LA.6--Relationships in Data (10 pts)
 
-## Week 7 (8-Mar)
+## Week 7 (1-Mar)
 > Sampling | **Quiz 7** 
 
 - Readings: Wrench Ch. 12, ASA pp. 63-68, AAPOR (2007) 
 - Lab: LA.7--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
 
-## Week 8 (15-Mar)
+## Week 8 (8-Mar)
 > Introduction to statistics; Descriptive statistics | **Quiz 8** 
   
 - Readings: Wrench Ch. 13, 14, Silver, Zukin 
 - Lab: LA.8--Practice Data Analysis (10 pts), GP.E--Data Management (10 pts)
 
-## Week 9 (22-Mar)
+## Week 9 (15-Mar)
 > Inferential statistics | **Quiz 9** 
 
 - Readings: Wrench Ch. 15, 16, 18 
 
-## Week 10 (29-Mar)
+## Week 10 (22-Mar)
 > Data analysis | **Quiz 10** 
 
 - Lab: GP.F--Univariate Graphs (10 pts)
 
-## Week 11 (5-Apr)
+## Week 11 (29-Mar)
 > Group Project work | **Quiz 11** 
 
 - Lab: GP.G--Bivariate Graphs (10 pts)
   
-## Week 12 (12-Apr)
+## Week 12 (6-Apr)
 > Group Project work 
 
 - Lab: GP.H--Statistical Tests (15 pts)
 
-## Week 13 (19-Apr)
+## Week 13 (12-Apr)
 > Group Project work 
 
 - Lab: GP.I--Reporting Research (15 pts)
 
-## Week 14 (26-Apr)
+## Week 14 (19-Apr)
 > Group Project work
