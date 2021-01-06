@@ -96,13 +96,11 @@ There are 8 individual assignments. Information on individual assignments will b
 
 
 # Virtual Office Hours {#officehrs}
-There are three sections of COMM 3710 that are using R this semester, sections 090, 091, and 092. Regardless of the section in which you are enrolled, you may drop-in to any of the office hours. Office hours will be held virtually each week.
+Office hours will be held virtually each week on **Mondays at 10 - 11 am MT**.
 
-| Section | Instructor | Day / Time | Zoom Link |
-|:---|:---:|:---:|:---|
-| 091, 092 | Prof. Sara K. Yeo | DAY, TIME | LINK |
-| 090 | TA Liz Giorgi | DAY, TIME | LINK |
-| 090 | TA Dallin Adams | DAY, TIME | LINK |
+> https://utah.zoom.us/j/92890075427
+>
+> Passcode: 905612
 
 
 # Course Grading
