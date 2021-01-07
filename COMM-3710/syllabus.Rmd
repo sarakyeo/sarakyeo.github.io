@@ -220,7 +220,7 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 ## Week 1 (19-Jan)
 > Course introduction | **Quiz 1**
 
-- Readings: Syllabus, Pauk Ch. 7, Wrench Ch, 1
+- Readings: Syllabus, Borwein \& Bailey, Pauk Ch. 7, Wrench Ch. 1
 - Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
 
 ## Week 2 (25-Jan)
