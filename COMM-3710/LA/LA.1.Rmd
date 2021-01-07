@@ -11,8 +11,9 @@ urlcolor: blue
 
 [R](https://cran.r-project.org/) is the programming language and environment that we will be using for statistical analysis. It is open-source. For more information on R, you can visit the [R Project for Statistical Computing](https://www.r-project.org/). [RStudio](https://rstudio.com/) is the program through which we will be using R. You will need to download and install both R and RStudio.
 
+**This assignment has two (2) parts.**
 
-# Instructions
+# Part I
 Follow the instructions below to download and install R and RStudio. You should also watch this [video](https://youtu.be/ZvPFKfNHBNQ) explaining R and RStudio and how to install both pieces of software.
 
 Once you have R and RStudio installed, create a working directory (this can be anywhere on your computer that you choose, you just need to know where it is [e.g., in your Documents folder]) for COMM 3710 and take a screenshot of your working directory. Next, open RStudio and take a screenshot of the program.
@@ -20,13 +21,13 @@ Once you have R and RStudio installed, create a working directory (this can be a
 **Submit a single PDF document that contains the two (2) screenshots on Canvas.** Example screenshots can be found after the instructions.
 
 
-# Download and Install R
+## Download and Install R
 * Open a web browser and navigate to [https://cran.r-project.org](https://cran.r-project.org/).
 * Download the appropriate file for your operating system (e.g., Mac OS X, Windows, or Linux).
 * Install R by double-clicking on the downloaded file. During installation, select the default settings when prompted.
 
 
-# Download and Install RStudio
+## Download and Install RStudio
 * Open a web browser and navigate to [https://rstudio.com/products/rstudio/download/](https://rstudio.com/products/rstudio/download/).
 * Download the free version of RStudio that corresponds to your operating system (e.g., Mac OS X, Windows, Linux).
 * Install RStudio by double-clicking on the downloaded file.
@@ -36,7 +37,7 @@ Once you have R and RStudio installed, create a working directory (this can be a
 * Take a screenshot of RStudio for LA.1.
 
 
-# Set Preferences in RStudio
+## Set Preferences in RStudio
 * Open RStudio. Click on `Tools` and navigate to `Global Options...`.
 * Uncheck the box next to `Restore .RData into workspace at startup`.
 * Where it says `Save workspace to .RData on exit:`, select `Never`.
@@ -45,7 +46,7 @@ Once you have R and RStudio installed, create a working directory (this can be a
 * Make a habit of *completely* shutting down RStudio when you are done working. This will clear the "Environment," which is a good thing.
 
 
-# Organize Your Working Directory
+## Organize Your Working Directory
 * A working directory is a computer folder that contains all your materials related to a project (e.g., this course).
 * Using a consistent folder structure across your projects will help keep things organized, and will also make it easy to find/file things in the future. This can be especially helpful when you have multiple projects. In general, you may create directories (folders) for **scripts**, **data**, and **documents**.
 * Set up a working directory. Choose a naming convention for your class folder and stick with it. Some recommendations (*Note: While the options below look similar, R is case-sensitive, i.e., the folder names below are not the same!*):
@@ -62,9 +63,22 @@ Once you have R and RStudio installed, create a working directory (this can be a
 * Take a screenshot of your working directory for LA.1.
 
 
-# Sample screenshots {.tabset .tabset-fade}
-## RStudio
+## Sample screenshots {.tabset .tabset-fade}
+### RStudio
 ![](LA.1_RStudio.png)
 
-## COMM 3710 working directory
+### COMM 3710 working directory
 ![](LA.1_workingdir.png)
+
+
+# Part II
+Read the [R help guide](https://rpubs.com/yesun/Comm3710_helpwithR) (especially Sections 2.1 - 2.3). Then, follow these following steps to answer the question.  
+
+1. Create an object that represents the outcome of `2 x 5`, and assign a name of your choice to this object.     
+2. Create a second object that represents the outcome of `45 - 5`, and assign a name of your choice to this object.   
+
+3. Create a third object that represents the *product* of the first two objects, and assign a name of your choice to this object.   
+
+4. Answer the following question: What is the value of the third object?
+
+**Submit the R commands that you used to arrive at your answer to Question 4.  
