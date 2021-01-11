@@ -2,12 +2,14 @@
 title: |
   | <a name="top"></a>
   | COMM 3710: Quantitative Research
-pagetitle: "COMM 3710 Syllabus"
+pagetitle: COMM 3710 Syllabus
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: yes
+    toc_float: yes
     theme: united
+  pdf_document:
+    toc: yes
 urlcolor: blue
 ---
 [Prof. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
