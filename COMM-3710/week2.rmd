@@ -216,6 +216,7 @@ The Belmont Report is a report that outlines the basic ethical principles for wh
 <br>
 
 The three basic principles outlined in the Belmont Report are:
+
 1. Respect for persons
 2. Principle of beneficence
 3. Justice
