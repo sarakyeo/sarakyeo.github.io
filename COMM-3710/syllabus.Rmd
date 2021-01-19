@@ -228,7 +228,7 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 ## Week 2 (25-Jan)
 > Overview of the research process; Research ethics | **Quiz 2**
 
-- Readings: Wrench Ch. 2, 3, Cushing
+- Readings: Wrench Ch. 2, 3, BBC Visual and Data Journalism, Cushing
 - Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
 
 ## Week 3 (1-Feb)
