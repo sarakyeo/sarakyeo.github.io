@@ -27,6 +27,7 @@ For the Group Project, we will be using publicly-available data from one of the 
 - [COVID Impact Survey](https://www.covid-impact.org/)
 - [Health Information National Trends Survey (HINTS)](https://hints.cancer.gov/default.aspx)
 - [National Longitudinal Study of Adolescent to Adult Health (Add Health)](https://addhealth.cpc.unc.edu/)
+- [Cooperative Congressional Election Study (CCES), 2019](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/WOT7O8)
 
 The first step of your project is to pick a data set and find a topic that interests you. It is up to you to decide what topic will spark the most interesting questions for you. What makes a data set interesting to you may be the general topics that are covered or specific questions/topics that are covered within the data set.
 
