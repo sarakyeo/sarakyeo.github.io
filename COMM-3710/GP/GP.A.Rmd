@@ -12,8 +12,8 @@ urlcolor: blue
 # {.tabset .tabset-fade}
 There are two parts to this Group Project component:
 
-1. Group Project Code of Conduct (**one submission per group**)
-2. CITI Training (**one submission per group that contains all group members' certificates of completion**)
+1. Group Project Code of Conduct (**one submission per group**) <!-- Clearly written code that is signed by all group members = 5 pts -->
+2. CITI Training (**one submission per group that contains all group members' certificates of completion**) <!-- Certificates from all group members attached in one pdf  = 1 pts; Certificates showing all group members completed and passed CITI training = 4 pts -->
 
 <br>
 
