@@ -217,7 +217,8 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 
 Throughout the semester, there will be [drop-in office hours via Zoom](#officehrs). You may drop-in to ask questions but are not required to attend these office hours.
 
-*Note: LA = individual lab assignment, GP = group project component. The schedule below does not list due dates of individual lab assignments (LA) and group project components (GP). Due dates for these can be found on Canvas.*
+***Note**: The schedule below does not list due dates of individual lab assignments (LA) and group project components (GP). Due dates for these can be found on Canvas.*
+
 
 ## Week 1 (19-Jan)
 > Course introduction | **Quiz 1**
