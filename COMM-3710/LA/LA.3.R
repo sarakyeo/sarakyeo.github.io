@@ -3,12 +3,10 @@
 
 ## Load packages
 library(tidyverse)
-library(dplyr)
-library(ggplot2)
 library(descr)
 
 ## Set working directory
-setwd("./Downloads/COMM-3710")
+setwd("C:/Users/SaraK/Downloads/sarakyeo.github.io/COMM-3710/LA")
 
 ## 1: Load dataset
 hdata <- read.csv("HELP.csv") # load HELP.csv
