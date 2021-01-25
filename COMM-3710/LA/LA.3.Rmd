@@ -129,9 +129,9 @@ hsub <- filter(hdata, substance == "cocaine" & age >= 40)
 ## Make frequency table
 freq(hsub$sex)
 
-## a. 
+## a. 27 patients meet this criteria.
 
-## b. 
+## b. 20 patients who meet this criteria are male.
 
 ```
 
