@@ -10,7 +10,7 @@ urlcolor: blue
 ---
 
 # Resources
-- Before you begin, watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R.
+- Before you begin, watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R. Keep this link at hand--you will likely have to watch the video and refer to it more than once throughout the assignment and course.
 - Additional resources can be found [here](https://rpubs.com/yesun/652965) and on Canvas.
 
 ---
