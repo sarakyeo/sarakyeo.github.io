@@ -110,6 +110,9 @@ hdata <- read.csv("HELP.csv")
 ---
 
 # Sample Submission {.tabset .tabset-fade}
+
+Note that the screenshots below do not contain the answers to LA.3. Your submission **should** contain answers to the questions in the assignment that are **clearly labeled**.
+
 ## Screenshot of .R file example
 ![Screenshot of sample submission (R file).](LA.3_sample-R-submission.png)
 
