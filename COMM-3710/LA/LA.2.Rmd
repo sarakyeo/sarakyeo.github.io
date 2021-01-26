@@ -14,7 +14,7 @@ Although you will be working with previously collected data, it is important to 
 # Instructions
 Use the [medical records](https://utah.instructure.com/files/109758959/download?download_frd=1) for 5 patients seeking treatment in a hospital emergency room to accomplish the following:
 
-- Select 4 variables recorded on the medical forms (one should be a unique identifier, at least one should be a quantitative variable and at least one should be a categorical variable).
+- Select 4 variables recorded on the medical forms (one should be a unique identifier, at least one should be a quantitative variable and at least one should be a categorical variable). A **quantitative variable** is one that has numerical values with consistent intervals (e.g., weight, temperature). A **categorical variable** is one with names or labels that have no logical order (e.g., eye color, ice cream flavors).
 - Select a brief name (ideally 8 characters or less) for each variable.
 - Determine what range of values is needed for recording each variable (create dummy codes as needed).
 - Label variables within an Excel spreadsheet.
