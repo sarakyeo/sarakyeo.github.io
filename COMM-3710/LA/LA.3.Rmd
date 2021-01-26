@@ -11,7 +11,7 @@ urlcolor: blue
 
 # Resources
 - Before you begin, watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R.
-- Additional resources can be found [here](https://rpubs.com/yesun/652965).
+- Additional resources can be found [here](https://rpubs.com/yesun/652965) and on Canvas.
 
 ---
 
