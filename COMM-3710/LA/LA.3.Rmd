@@ -87,21 +87,6 @@ hdata <- read.csv("HELP.csv")
    
       The package(s) and command(s) necessary to create frequency tables in R can be found in the video linked at the beginning of these instructions.
    </details>
-
-```{r message=FALSE, warning=FALSE, include=FALSE}
-
-## a. How many patients in the study are female?
-freq(hdata$sex) # 107 female patients
-
-## b. How many have never been hospitalized for medical problems?
-freq(hdata$d1) # 92 have never been hospitalized for medical problems
-
-## c. What percentage of patients in the study have been hospitalized fewer than 5 times?
-lessfive <- (92 + 120 + 92 + 36 + 37 + 18) / 453
-lessfive # 87.2%
-
-```
-
 <br>
 
 3. Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old.
@@ -110,42 +95,17 @@ lessfive # 87.2%
    
    The subset argument should be `substance == "cocaine" & age >= 40`
 </details>
-
-```{r message=FALSE, warning=FALSE, include=FALSE}
-
-## Subset data
-hsub <- filter(hdata, substance == "cocaine" & age >= 40)
-
-```
-
 <br>
 
 4. Make a frequency table for sex based on this subset. Include this frequency table in your submission and answer the questions below.
       a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
       b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
 
-```{r message=FALSE, warning=FALSE, include=FALSE}
-
-## Make frequency table
-freq(hsub$sex)
-
-## a. 27 patients meet this criteria.
-
-## b. 20 patients who meet this criteria are male.
-
-```
-
 <br>
 
 5. Submit the following on Canvas. Sample submissions are included below.
    (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands (see example submission).
    (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.
-
-```{r message=FALSE, warning=FALSE, include=FALSE}
-
-
-
-```   
 
 ---
 
