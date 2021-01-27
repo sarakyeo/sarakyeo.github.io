@@ -2,19 +2,19 @@
 
 ## Load packages
 library(tidyr)
-library(dplyr)
-library(ggplot2)
 library(descr)
 library(ggpubr)
 library(rstatix)
 library(rmarkdown)
 library(formatR)
 
-## 1
+## 1: Load Utilities.csv data set
 utilities <- read.csv("Utilities.csv")
 
-## 2
+
+## 2: 
 hist(utilities$totalbill)
+
 
 ## 3
 plot(utilities$month, utilities$gasbill)

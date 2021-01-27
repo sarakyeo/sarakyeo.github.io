@@ -10,17 +10,17 @@ urlcolor: blue
 ---
 
 # Resources
-Before beginning this assignment, watch this [video](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R.
+Before beginning this assignment, watch this [video](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R. As always, keep the video handy for reference as you work through this assignment.
 
 ---
 
 # Data
-Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables.
+Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables:
 
 * `month`: month (coded as a number)
 *	`day`: day of month on which bill was calculated
 *	`year`: year of bill
-*	`temp`: average temperature (F) for billing period
+*	`temp`: average temperature ($^{\circ}$F) for billing period
 *	`kwh`: electricity usage (kwh)
 *	`ccf`: gas usage (ccf)
 *	`thermsPerDay`: a numeric vector
