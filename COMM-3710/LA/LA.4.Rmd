@@ -16,7 +16,7 @@ urlcolor: blue
 ---
 
 # Instructions
-1. Load in the [HELP data set](https://utah.instructure.com/files/102658359/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). 
+1. Load in the [HELP data set](https://utah.instructure.com/files/102658359/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). If necessary, review the codebook (explanation of variables) in [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html).
 <details>
 <summary>Hint</summary>
 

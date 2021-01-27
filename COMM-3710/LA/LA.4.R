@@ -5,10 +5,10 @@ library(tidyverse)
 library(descr)
 library(Hmisc)
 
-## 1
+## 1: Load HELP data set from LA.3
 helpdata <- read.csv("HELP.csv")
 
-## 2
+## 2: 
 helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)
 
 ## 3
