@@ -77,7 +77,7 @@ hdata <- read.csv("HELP.csv")
 
 <br>
 
-2. Make a frequency table for `sex` and `d1`. Include this frequency table in your submission and answer the questions below.
+2. Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
       a. How many patients in the study are female?
       b. How many patients in the study have never been hospitalized for medical problems?
       c. What percentage of patients in the study have been hospitalized fewer than 5 times?
