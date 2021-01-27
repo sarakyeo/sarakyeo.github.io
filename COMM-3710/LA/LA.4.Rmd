@@ -10,7 +10,7 @@ urlcolor: blue
 ---
 
 # Resources
-- Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I.
+- Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I. Once again, keep this link handy as you may need to watch the video several times to complete the assignment.
 - Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
 
 ---
