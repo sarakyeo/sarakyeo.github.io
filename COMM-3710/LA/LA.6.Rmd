@@ -17,7 +17,7 @@ urlcolor: blue
 ---
 
 # Instructions
-1. Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable.
+1. Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable. Show the frequency table for `season` in your PDF submission.
 <br>
 
 2. Use an appropriate statistical test to determine whether there is a relationship between total bill and season. Then, answer the questions below.
