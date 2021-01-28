@@ -24,7 +24,7 @@ urlcolor: blue
 <details>
 <summary>Hint</summary>
 
-   First, identify the level of measurement of the independent and dependent variables. Then, use the chart below to select a statistical test.
+   First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
    <center>
    <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png"
      alt="LA.6 chart"/>
