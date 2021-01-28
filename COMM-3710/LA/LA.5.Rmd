@@ -38,10 +38,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <details>
 <summary>Hint</summary>
 
-   To read the data into a dataframe called `utilites` in R, use the command:
-   ```
-   utilities <- read.csv("Utilities.csv")
-   ```
+   Review LA.3 or LA.4 for the command to read the data into a dataframe.
 </details>
 <br>
 
