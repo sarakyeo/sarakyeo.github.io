@@ -1547,8 +1547,8 @@ div.tocify {
 <li><code>thermsPerDay</code>: a numeric vector</li>
 <li><code>billingDays</code>: number of billing days in billing period</li>
 <li><code>totalbill</code>: total bill (in dollars)</li>
-<li><code>gasbill</code>: average gas bill (in dollars)</li>
-<li><code>elecbill</code>: average electric bill (in dollars)</li>
+<li><code>gasbill</code>: gas bill (in dollars)</li>
+<li><code>elecbill</code>: electric bill (in dollars)</li>
 <li><code>notes</code>: notes about the billing period</li>
 <li><code>donate</code>: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need</li>
 </ul>
@@ -1565,7 +1565,7 @@ div.tocify {
 <p><br></p></li>
 <li><p>Make a graph to display the distribution of customers’ total monthly bill (include the graph in your submission) and answer the following question.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Use the histogram you created–what best describes the distribution of customers’ total monthly bill? <!--Slightly positively skewed, most total monthly bills are between $100 and $150--></p>
+<li><p>Use the histogram you created–Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall? <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150--></p>
 <details>
 <p><summary>Hint</summary></p>
 <p>This question asks you to create a histogram. One way to do this is to use the command:</p>
@@ -1579,46 +1579,54 @@ div.tocify {
 <p>To make a plot, use the command:</p>
 <pre><code>plot(utilities$month, utilities$gasbill)</code></pre>
 </details>
-<p><br></p></li>
-<li><p>Make a graph to display electric bill by month (include the graph in your submission). Answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
-<li>What month has the highest average gas bill?</li>
-<li>What month has the highest average electric bill?</li>
+<li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
+<li>Calculate the average gas bill for the months of January and December. Which is higher?
+<details>
+<summary>Hint</summary> To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). Use the code:<code>jan &lt;- filter(utilities, month == 1</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.
+</details>
+<br></li>
+</ol></li>
+<li><p>Make a graph to display electric bill by month (include the graph in your submission).</p>
+<ol style="list-style-type: lower-alpha">
+<li>Based on your graph, which month do you think has the highest <strong>average</strong> electric bill?</li>
+<li>Calculate the average electric bill for the months of September and December. Which is higher?</li>
 </ol></li>
 </ol>
 <p><br></p>
 <ol start="5" style="list-style-type: decimal">
-<li>Make a graph to display the relationship between gas usage and average gas bill (include the graph in your submission).</li>
+<li>Make a graph to display the relationship between gas usage and gas bill (include the graph in your submission).
+<ol style="list-style-type: lower-alpha">
+<li>Does there appear to be a relationship between gas usage and gas bill? <!--Yes--></li>
+</ol></li>
 </ol>
 <p><br></p>
 <ol start="6" style="list-style-type: decimal">
-<li>Make a graph to display the relationship between electricity usage and average electric bill (include the graph in your submission). Answer the questions below.
+<li>Make a graph to display the relationship between electricity usage and electric bill (include the graph in your submission).
 <ol style="list-style-type: lower-alpha">
-<li>Does there appear to be a relationship between gas usage and average gas bill? <!--Yes--></li>
-<li>Does there appear to be a relationship between electricity usage and average electric bill? <!--Yes--></li>
+<li>Does there appear to be a relationship between electricity usage and electric bill? <!--Yes--></li>
 </ol></li>
 </ol>
 <p><br></p>
 <ol start="7" style="list-style-type: decimal">
-<li><p>Make a graph to determine whether there is relationship between season and donation (include the graph in your submission). Start by making a new variable to categorize each bill into <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
+<li><p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> to create the graph.</p>
+<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> to check that you have created the <code>season</code> variable correctly.</p>
 </details>
 <p><br></p></li>
 <li><p>Make a new variable, <code>DonorStatus</code>. Set <code>DonorStatus</code> equal to 1 if the billee donated money to <em>Operation Fuel</em> and 0 otherwise.</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>Try the command:</p>
-<pre><code>utilities$DonorStatus &lt;- ifelse(utilities$donate == &quot;yes&quot;, 1, 0)</code></pre>
+<p>Review the <code>ifelse</code> command used in LA.4.</p>
 </details>
 <p><br></p></li>
-<li><p>Make a bar chart to display the proportion of donors by season (include the graph in your submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.</p>
+<li><p>Make a bar chart to display the count or proportion of donors by season (include the graph in your submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Does there seem to be a relationship between season and donation?</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>The following commands are one way to create a bar chart that is sorted:</p>
+<p>The following commands are one way to create a bar chart (showing counts) that is sorted (winter, spring, summer, fall):</p>
 <pre><code>sorted &lt;- reorder(utilities$season, utilities$DonorStatus)
 counts &lt;- table(utilities$DonorStatus, sorted)
 barplot(counts)</code></pre>

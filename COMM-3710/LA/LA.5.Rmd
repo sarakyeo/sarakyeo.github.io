@@ -26,8 +26,8 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 *	`thermsPerDay`: a numeric vector
 *	`billingDays`: number of billing days in billing period
 *	`totalbill`: total bill (in dollars)
-*	`gasbill`: average gas bill (in dollars)
-*	`elecbill`: average electric bill (in dollars)
+*	`gasbill`: gas bill (in dollars)
+*	`elecbill`: electric bill (in dollars)
 *	`notes`: notes about the billing period
 *	`donate`: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need
 
@@ -46,7 +46,8 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <br>
 
 2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your submission) and answer the following question.
-   a. Use the histogram you created--what best describes the distribution of customers' total monthly bill? <!--Slightly positively skewed, most total monthly bills are between $100 and $150-->
+   a. Use the histogram you created--Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
+   <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150-->
    <details>
    <summary>Hint</summary>
 
@@ -66,29 +67,35 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
    plot(utilities$month, utilities$gasbill)
    ```
 </details>
+      a. Based on your graph, which month do you think has the highest **average** gas bill?
+      b. Calculate the average gas bill for the months of January and December. Which is higher?
+      <details>
+<summary>Hint</summary>
+      To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`). Use the code:`jan <- filter(utilities, month == 1`. For help with the `filter` function, type `?filter` into your Console window.
+</details>
 <br>
 
-4. Make a graph to display electric bill by month (include the graph in your submission). Answer the following questions.
-      a. What month has the highest average gas bill?
-      b. What month has the highest average electric bill?
-
-<br>
-
-5. Make a graph to display the relationship between gas usage and average gas bill (include the graph in your submission). 
-
-<br>
-
-6. Make a graph to display the relationship between electricity usage and average electric bill (include the graph in your submission). Answer the questions below.
-      a. Does there appear to be a relationship between gas usage and average gas bill? <!--Yes-->
-      b. Does there appear to be a relationship between electricity usage and average electric bill? <!--Yes-->
+4. Make a graph to display electric bill by month (include the graph in your submission).
+      a. Based on your graph, which month do you think has the highest **average** electric bill?
+      b. Calculate the average electric bill for the months of September and December. Which is higher?
 
 <br>
 
-7. Make a graph to determine whether there is relationship between season and donation (include the graph in your submission). Start by making a new variable to categorize each bill into `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
+5. Make a graph to display the relationship between gas usage and gas bill (include the graph in your submission). 
+      a. Does there appear to be a relationship between gas usage and gas bill? <!--Yes-->
+
+<br>
+
+6. Make a graph to display the relationship between electricity usage and electric bill (include the graph in your submission).
+      a. Does there appear to be a relationship between electricity usage and electric bill? <!--Yes-->
+
+<br>
+
+7. Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
 <details>
 <summary>Hint</summary>
 
-   Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` to create the graph.
+   Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` to check that you have created the `season` variable correctly.
 </details>
 <br>
 
@@ -96,19 +103,16 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <details>
 <summary>Hint</summary>
 
-   Try the command:
-   ```
-   utilities$DonorStatus <- ifelse(utilities$donate == "yes", 1, 0)
-   ```
+   Review the `ifelse` command used in LA.4. 
 </details>
 <br>
 
-9. Make a bar chart to display the proportion of donors by season (include the graph in your submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.
+9. Make a bar chart to display the count or proportion of donors by season (include the graph in your submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.
    a. Does there seem to be a relationship between season and donation?
    <details>
    <summary>Hint</summary>
       
-      The following commands are one way to create a bar chart that is sorted:
+      The following commands are one way to create a bar chart (showing counts) that is sorted (winter, spring, summer, fall):
       ```
       sorted <- reorder(utilities$season, utilities$DonorStatus)
       counts <- table(utilities$DonorStatus, sorted)
