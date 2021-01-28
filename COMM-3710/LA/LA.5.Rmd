@@ -34,7 +34,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 ---
 
 ## Instructions
-1. Import the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set. Use the codebook to familiarize yourself with the variables.
+1. Import the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set. Use the codebook above to familiarize yourself with the variables.
 <details>
 <summary>Hint</summary>
 
