@@ -25,7 +25,9 @@ The requirement of this assignment is to:
 
 * List at least 5 of the most appropriate references that you have found and read.
   <ul><li> To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
-  <li> Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).</ul>
+  <li> <img src="https://sarakyeo.github.io/COMM-3710/images/libraryDale4.jpg"/>
+  <li> Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
+  </ul>
   
 * Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue. Be brief and use bullet points.
 
