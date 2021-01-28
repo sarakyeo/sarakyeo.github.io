@@ -41,7 +41,7 @@ urlcolor: blue
       <details>
       <summary>Hint</summary>
       
-         Check the $p$-value. If $p < 0.05$, then the relationship is significant.>
+         Check the $p$-value. If $p < 0.05$, then the relationship is significant.
       </details>
 <br>
 
