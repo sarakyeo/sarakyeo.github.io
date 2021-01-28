@@ -35,14 +35,35 @@ urlcolor: blue
       <details>
       <summary>Hint</summary>
       
-         The test statistics for a $\chi$-squared test, $t$-test, and ANOVA are $\chi^2$, $t$, and $F$, respectively. The probability value is $p$.
-      </details>
+         | Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
+         |-----------------------|-----------------------------------|-----------------------|
+         | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
+         | t-test                | *t*-value                         | $t$                   |
+         | ANOVA                 | *F*-value                         | $F$                   |
+         | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
+         
+         ---
+         
+         The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values.
+         
+         <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chisq.png"
+     alt="LA.6 chi-sq output"/>
+         
+         <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_t-test.png"
+     alt="LA.6 t-test output"/>
+         
+         <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_ANOVA.png"
+     alt="LA.6 ANOVA output"/>
+         
+         <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png"
+     alt="LA.6 cor output"/>
+</details>
       c. Is there a significant relationship between total bill and season?
-      <details>
+<details>
       <summary>Hint</summary>
       
          Check the $p$-value. If $p < 0.05$, then the relationship is significant.
-      </details>
+</details>
 <br>
 
 3. Submit the following on Canvas:
