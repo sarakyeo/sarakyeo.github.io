@@ -46,7 +46,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <br>
 
 2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your submission) and answer the following question.
-   a. Use the histogram you created--Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
+   a. Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
    <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150-->
    <details>
    <summary>Hint</summary>
