@@ -120,5 +120,5 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <br>
 
 10. Submit the following on Canvas:
-   a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
-   b. A **PDF file** containing the answers/figures/tables to each question--clearly label the answers with the question number.
+      a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+      b. A **PDF file** containing the answers/figures/tables to each question--clearly label the answers with the question number.
