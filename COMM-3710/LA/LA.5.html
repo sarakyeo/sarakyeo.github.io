@@ -1582,7 +1582,7 @@ div.tocify {
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
 <li>Calculate the average gas bill for the months of January and December. Which is higher?
 <details>
-<summary>Hint</summary> To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). Use the code:<code>jan &lt;- filter(utilities, month == 1</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.
+<summary>Hint</summary> To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, use the code:<code>jan &lt;- filter(utilities, month == 1)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window. Then, you can use the <code>mean()</code> function to calculate the average gas bill for that month (e.g., <code>mean(jan$gasbill, na.rm = TRUE)</code>).
 </details>
 <br></li>
 </ol></li>

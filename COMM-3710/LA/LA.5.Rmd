@@ -68,7 +68,8 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
       b. Calculate the average gas bill for the months of January and December. Which is higher?
       <details>
 <summary>Hint</summary>
-      To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`). Use the code:`jan <- filter(utilities, month == 1`. For help with the `filter` function, type `?filter` into your Console window.
+      To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`). To do this, use the code:`jan <- filter(utilities, month == 1)`. For help with the `filter` function, type `?filter` into your Console window.
+      Then, you can use the `mean()` function to calculate the average gas bill for that month (e.g., `mean(jan$gasbill, na.rm = TRUE)`).
 </details>
 <br>
 
