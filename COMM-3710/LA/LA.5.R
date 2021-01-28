@@ -77,22 +77,22 @@ utilities %>%
 
 ---
 
-## 5: Graph electricity usage and electric bill
-plot(utilities$kwh, utilities$elecbill)
-
-# or...
-utilities %>% 
-        ggplot(aes(x = kwh, y = elecbill)) + 
-        geom_point()
-
----
-        
-## 6: Graph gas usage and gas bill
-plot(utilities$ccf, utilities$gasbill)
+## 5: Graph gas usage and gas bill
+        plot(utilities$ccf, utilities$gasbill)
 
 # or...
 utilities %>% 
         ggplot(aes(x = ccf, y = gasbill)) + 
+        geom_point()
+
+---
+        
+## 6: Graph electricity usage and electric bill
+        plot(utilities$kwh, utilities$elecbill)
+
+# or...
+utilities %>% 
+        ggplot(aes(x = kwh, y = elecbill)) + 
         geom_point()
 
 ---
