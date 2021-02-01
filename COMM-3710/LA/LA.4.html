@@ -1543,8 +1543,7 @@ div.tocify {
 <li><p>Load in the <a href="https://utah.instructure.com/files/102658359/download?download_frd=1">HELP data set</a> from <a href="https://sarakyeo.github.io/COMM-3710/LA/LA.3.html">LA.3</a>. If necessary, review the codebook (explanation of variables) in <a href="https://sarakyeo.github.io/COMM-3710/LA/LA.3.html">LA.3</a>.</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>The command to read a .csv data file to an object named <code>helpdata</code> in R is:</p>
-<pre><code>helpdata &lt;- read.csv(&quot;HELP.csv&quot;)</code></pre>
+<p>If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.</p>
 </details>
 <p><br></p></li>
 <li><p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called <code>ExtremeMCS</code> and code it as 1 if a patient is at risk based on his/her <code>mcs</code> score and 0 otherwise.</p>
@@ -1552,20 +1551,25 @@ div.tocify {
 <p><summary>Hint</summary></p>
 <p>One way to create a new variable in the <code>helpdata</code> data frame is to use the following command:</p>
 <pre><code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code></pre>
+<p>Figure out what the arguments (the text and numbers within the parentheses) in the <code>ifelse</code> function mean by typing <code>?ifelse</code> into the Console in RStudio and reading the documentation.</p>
 </details>
 <p><br></p></li>
 <li><p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>You can use the same logic from the command in Q2 to create this variable. If you need help with the <code>ifelse</code> command, type <code>?ifelse</code> in the Console window of RStudio.</p>
+<p>You can use the same logic from the command in Q2 to create this variable.</p>
 </details>
 <p><br></p></li>
-<li><p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed. <br></p></li>
+<li><p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.</p></li>
+</ol>
+<p><br></p>
+<ol start="5" style="list-style-type: decimal">
 <li><p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.</p>
 <details>
 <p><summary>Hint</summary></p>
 <p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. One way to do this is to transform the data (<em>Note</em>: Like most things in R, there are many other ways to do this):</p>
 <pre><code>helpdata &lt;- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code></pre>
+<p>For help with <code>transform</code>, type <code>?transform</code> into the Console and read the documentation.</p>
 </details>
 <p><br></p></li>
 <li><p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>.</p>

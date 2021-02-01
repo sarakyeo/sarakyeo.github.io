@@ -20,10 +20,7 @@ urlcolor: blue
 <details>
 <summary>Hint</summary>
 
-   The command to read a .csv data file to an object named `helpdata` in R is:
-   ```
-   helpdata <- read.csv("HELP.csv")
-   ```
+   If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.
 </details>
 <br>
 
@@ -35,6 +32,7 @@ urlcolor: blue
    ```
    helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)
    ```
+   Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
 </details> 
 <br>
 
@@ -42,11 +40,12 @@ urlcolor: blue
 <details>
 <summary>Hint</summary>
 
-   You can use the same logic from the command in Q2 to create this variable. If you need help with the `ifelse` command, type `?ifelse` in the Console window of RStudio.
+   You can use the same logic from the command in Q2 to create this variable.
 </details>
 <br>
 
 4. Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.
+
 <br>
 
 5. Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.
@@ -57,6 +56,7 @@ urlcolor: blue
    ```
    helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)
    ```
+   For help with `transform`, type `?transform` into the Console and read the documentation.
 </details>
 <br>
 
