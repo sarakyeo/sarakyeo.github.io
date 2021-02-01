@@ -10,8 +10,10 @@ urlcolor: blue
 ---
 
 # Resources
-- Before you begin, watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R. Keep this link at hand--you will likely have to watch the video and refer to it more than once throughout the assignment and course.
-- Additional resources can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR) and on Canvas.
+- Before you begin...
+   - make sure you have gone through the R Help Guide (in the R Resources module on Canvas) and practiced it on your computer to understand the fundamental concepts and operations in R.
+   - watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R. Keep this link at hand--you will likely have to watch the video and refer to it more than once throughout the assignment and course.
+- Additional resources can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR) and on Canvas in the R Resources module.
 
 ---
 
