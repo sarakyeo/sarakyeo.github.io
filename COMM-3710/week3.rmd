@@ -76,7 +76,7 @@ The process of empirical analysis is illustrated below (Note that you start from
 <a href="#top">Back to top</a>
 
 
-# Steps in Meaning Analysis {.tabset .tabset-fade .tabset-pills}
+# Steps in Meaning Analysis {.tabset .tabset-fade}
 As identified in McLeod et al., there are several steps in the process of meaning analysis, which is often also referred to as **conceptualization**:
 
 1. Identify the concept
