@@ -17,7 +17,15 @@ Video resources for data analysis with R:
 3. [Chi-square test of independence](https://youtu.be/Dnlp9vswwEk)
 4. [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-Remember that help with R is also available on [this website](https://rpubs.com/yesun/652965).
+Remember that help with R is also available in the [R Help Guide](https://rpubs.com/yesun/Comm3710_helpwithR) and other resources available in the R Resources module on Canvas.
+
+Additionally, you can refer back to hints from previous individual assignments:
+
+- [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html)
+- [LA.4](https://sarakyeo.github.io/COMM-3710/LA/LA.4.html)
+- [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html)
+- [LA.6](https://sarakyeo.github.io/COMM-3710/LA/LA.6.html)
+- [LA.7](https://sarakyeo.github.io/COMM-3710/LA/LA.7.html)
 
 ---
 
@@ -49,7 +57,8 @@ A data frame with 465 observations on the following variables^[`99` = “Don’t
 <br>
 
 3. Find the mean attention to national TV news for males and females.
-      a. What is the mean attention to national TV news for men and women?
+      a. What is the mean attention to national TV news for women?
+      b. What is the mean attention to national TV news for men?
       
 <br>
 
