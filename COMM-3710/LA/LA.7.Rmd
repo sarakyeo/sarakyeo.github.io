@@ -54,7 +54,8 @@ A data frame with 534 observations on the following variables:
 <br>
 
 2. Find the mean wage earned per hour for males and females.
-      a. What is the mean wage earned per hour for males and females? <!--M = $9.99, F = $7.88-->
+      a. What is the mean wage earned per hour for females?
+      b. What is the mean wage earned per hour for males?
 
 <br>
 
