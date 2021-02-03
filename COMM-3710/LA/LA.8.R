@@ -18,6 +18,20 @@ ithaca <- read.csv("Ithaca.csv")
 ## Q2: Data management
 # tvnaat
 freq(ithaca$tvnaat)
+ithaca %<>%
+        mutate(ctvnaat = case_when(
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0,
+                tvnaat == 0 ~ 0))
 
 # or...
 
