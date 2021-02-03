@@ -1574,7 +1574,11 @@ div.tocify {
 </ol>
 <p><br></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Conduct data management as necessary on these variables: <code>tvnaat</code>, <code>tvhardat</code>, <code>tvsoftat</code>, <code>sex</code>, <code>marit</code>. For example, you might have to remove missing data or recode “Don’t know” responses as <code>NA</code>.</li>
+<li>Conduct data management on these variables: <code>tvnaat</code>, <code>tvhardat</code>, <code>tvsoftat</code>, <code>sex</code>, <code>marit</code>.
+<ol style="list-style-type: lower-alpha">
+<li>Recode values of <code>99</code> as <code>NA</code> in <code>tvnaat</code>, <code>tvhardat</code>, and <code>tvsoftat</code>.</li>
+<li>Recode <code>sex</code> and <code>marit</code> as factors.</li>
+</ol></li>
 </ol>
 <p><br></p>
 <ol start="3" style="list-style-type: decimal">

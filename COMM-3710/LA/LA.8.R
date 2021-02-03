@@ -75,35 +75,25 @@ ithaca %<>%
                                   marit == 4 ~ "widowed"))
 
 
-## Q3: 
-## Here, we are asked to find the mean amount of attention men vs.
-## women pay to national TV news.
-
-## Note that from this point on in the assignment, I will only use the
-## managed variables, not the original, raw ones.
-
+## Q3: Mean attention to national TV news among men and women
 FMean <- mean(ithaca$ctvnaat[ithaca$csex == "F"], na.rm = TRUE)
 MMean <- mean(ithaca$ctvnaat[ithaca$csex == "M"], na.rm = TRUE)
 
-## Note that, in the Console, there are no values. This is because
-## I've saved the mean values to two objects, called FMean and MMean
-## Check out the Environment window on the right side of the screen.
-## FMean and MMean (and their values) should be there.
+# or...
 
-## If I need the answers to Q3a, I can either look in the environment
-## or call those objects in R:
-FMean
-MMean
+ithaca %>% 
+        summarise(F = mean(ctvnaat[csex == "F"], na.rm = TRUE),
+                  M = mean(ctvnaat[csex == "M"], na.rm = TRUE))
 
-#------Question 4------
-## Now, we're into hypothesis testing.
 
-## The appropriate test to use here is the independent samples t-test
-## The syntax below conducts the test and saves the results to an
-## object called res.t.
-
+# Q4: Conduct appropriate statistical test
 res.t <- t.test(ithaca$ctvnaat ~ ithaca$csex, var.equal = TRUE)
 res.t
+
+# or...
+
+ithaca %>% 
+        t_test(., ctvnaat ~ csex, var.equal = TRUE)
 
 ## Results from our t-test
 ##
