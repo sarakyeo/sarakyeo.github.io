@@ -5,15 +5,16 @@
 ## COMM 3710 directory that contains Ithaca.csv.
 
 
-#------ Load Packages ------
+#------ Set working directory and load packages and data ------
+setwd("C:/Users/SaraK/Downloads/sarakyeo.github.io/COMM-3710/LA")
+
 library(tidyverse)
+library(magrittr)
 library(descr)
-library(Hmisc)
 library(rstatix)
+library(Hmisc)
 library(psych)
 
-
-#----- Now, load the Ithaca.csv data set ------
 ithaca <- read.csv("Ithaca.csv")
 
 
