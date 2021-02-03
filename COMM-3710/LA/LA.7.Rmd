@@ -41,7 +41,7 @@ A data frame with 534 observations on the following variables:
 *	`south`: a factor with levels NSS
 *	`married`: a factor with levels Married or Single
 *	`exper`: number of years of work experience (inferred from age and educ)
-*	`union`: a factor with levels NotUnion or Union
+*	`union`: a factor with levels Not or Union
 *	`age`: age in years
 *	`sector`: a factor with levels clerical const manag manuf other prof sales service
 *	`satisfaction`: 1 implies participant satisfied with current employment, 0 otherwise
@@ -79,4 +79,6 @@ A data frame with 534 observations on the following variables:
 
 <br>      
 
-6. Submit your answers as a PDF on Canvas.
+6. Submit the following on Canvas.
+      a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+      b. A **PDF file** containing the answers to each question--clearly label the answers with the corresponding question number.
