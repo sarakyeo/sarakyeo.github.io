@@ -80,3 +80,9 @@ A data frame with 465 observations on the following variables^[`99` = “Don’t
       a. What statistical test did you use?
       b. What is the value of the test statistic and the *p*-value?
       c. What conclusions can be drawn?
+
+<br>
+
+7. Submit the following on Canvas.
+      a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+      b. A **PDF file** containing the answers to each question--clearly label the answers with the corresponding question number.
