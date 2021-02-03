@@ -1,6 +1,11 @@
-## LA.8: Practice Data Analysis
+#------ LA.8: Practice Data Analysis ------
+## Sara K. Yeo
 
-## Set working directory and load packages
+## First, be sure to set your working directory to your
+## COMM 3710 directory that contains Ithaca.csv.
+
+
+#------ Set working directory and load packages and data ------
 setwd("C:/Users/SaraK/Downloads/sarakyeo.github.io/COMM-3710/LA")
 
 library(tidyverse)
@@ -10,20 +15,34 @@ library(rstatix)
 library(Hmisc)
 library(psych)
 
-
-## Q1: Load dataset
 ithaca <- read.csv("Ithaca.csv")
 
 
-## Q2: Data management
+#------ Next, examine the variables of interest ------
+## Before doing this, we need to familiarize ourselves with
+## the codebook in the assignment.
+
 # tvnaat
 freq(ithaca$tvnaat)
 
-# or...
+## When we run the command above, we see a frequency distribution
+## as well as a histogram. Checking with the codebook, I see that
+## 0 = "Little Attention" and 10 = "Very close attention."
 
-freq(ithaca$tvnaat)
+## But my frequency distribution (in the Console) shows that I
+## have 8 responses coded as 99.
+
+## This makes little sense! The value 99 has no meaning on my
+## scale. Therefore, I need to manage these data and recode those
+## into missing responses, i.e., NA.
+
 ithaca$ctvnaat <- ithaca$tvnaat
 ithaca$ctvnaat[ithaca$tvnaat == 99] <- NA
+
+## After running the commands above, I need to check that I've
+## managed these data correctly. To do so, I will run a frequency
+## distribution on the ctvnaat variable.
+
 freq(ithaca$ctvnaat)
 
 ## The number of NA's has increased by 8, which tells me that I
