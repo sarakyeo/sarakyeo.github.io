@@ -18,20 +18,9 @@ ithaca <- read.csv("Ithaca.csv")
 ## Q2: Data management
 # tvnaat
 freq(ithaca$tvnaat)
-ithaca %<>%
-        mutate(ctvnaat = case_when(
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0,
-                tvnaat == 0 ~ 0))
+ithaca$ctvnaat <- ithaca$tvnaat
+ithaca %<>% 
+        mutate(ctvnaat = replace(ctvnaat, ctvnaat == 99, NA))
 
 # or...
 
@@ -39,12 +28,6 @@ freq(ithaca$tvnaat)
 ithaca$ctvnaat <- ithaca$tvnaat
 ithaca$ctvnaat[ithaca$tvnaat == 99] <- NA
 freq(ithaca$ctvnaat)
-
-## The number of NA's has increased by 8, which tells me that I
-## have managed these data correctly.
-
-## Next, we repeat this process for the remaining variables of
-## interest, tvhardat and tvsoftat.
 
 # tvhardat
 freq(ithaca$tvhardat)
@@ -58,27 +41,21 @@ ithaca$ctvsoftat <- ithaca$tvsoftat
 ithaca$ctvsoftat[ithaca$tvsoftat == 99] <- NA
 freq(ithaca$ctvsoftat)
 
-## The last two variables that we managed were similar to tvnaat.
-## However, the nominal variables, sex and marital status, are not.
-
-## Let's take a look at managing the sex variable.
+# sex
 freq(ithaca$sex)
-
-## In this case, I see 5 responses that are coded as 9. These don't
-## make much sense on my scale and should probably be recoded as
-## missing. I also want to change this numeric variable to a factor
-## so that I can easily see which category (0 or 1) corresponds to
-## male and female.
-
 ithaca$csex <- ithaca$sex
 ithaca$csex[ithaca$sex == 9] <- NA
 ithaca$csex[ithaca$sex == 1] <- "M"  ## I know that 1 = M from
 ithaca$csex[ithaca$sex == 0] <- "F"  ## the codebook.
 freq(ithaca$csex)
 
-## It looks like I've  managed this variable appropriately.
-## Let's do the same for marital status.
+# or...
 
+ithaca %<>% 
+        mutate(csex = case_when(sex == 1 ~ "M",
+                                sex == 0 ~ "F"))
+
+# marit
 freq(ithaca$marit)
 ithaca$cmarit <- ithaca$marit
 ithaca$cmarit[ithaca$marit == 1] <- "single"
@@ -89,13 +66,16 @@ ithaca$cmarit[ithaca$marit == 5] <- NA
 ithaca$cmarit[ithaca$marit == 9] <- NA
 freq(ithaca$cmarit)
 
-## Again, I've successfully managed this variable. The number of NA's
-## in the variable have increased by (5 + 3) = 8 responses.
+# or...
 
-## Now that the data are managed, we can turn our attention to
-## descriptive and inferential statistics.
+ithaca %<>% 
+        mutate(cmarit = case_when(marit == 1 ~ "single",
+                                  marit == 2 ~ "married",
+                                  marit == 3 ~ "divorced/separate",
+                                  marit == 4 ~ "widowed"))
 
-#------ Question 3 ------
+
+## Q3: 
 ## Here, we are asked to find the mean amount of attention men vs.
 ## women pay to national TV news.
 
