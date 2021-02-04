@@ -88,81 +88,29 @@ ithaca %>%
         t_test(., ctvnaat ~ csex, var.equal = TRUE)
 
 ## Q4a: Independent samples t-test.
-## Q4b: t = .016
-
-## Results from our t-test
-##
-## data:  ithaca$ctvnaat by ithaca$csex
-## t = 0.015647, df = 445, p-value = 0.9875
-## alternative hypothesis: true difference in means is not equal to 0
-## 95 percent confidence interval:
-##  -0.6151090  0.6249821
-## sample estimates:
-##         mean in group F mean in group M
-##                5.181102        5.176166
-
-## We see that the test statistic, t, is .016
-## And the p-value is .988
-## t = .016, p = .988
-
-## By comparing this p-value to alpha (.05), I can interpret this test.
-## Since p is greater than alpha, I fail to reject the null hypothesis,
-## which posits that there is no difference in attention paid to national
-## TV news between men and women.
-
-## Therefore, there is no statistically significant different in the
-## amount of attention women vs. men pay to national news on TV.
+## Q4b: t = .016, p = .988
+## Q4c: There is no significant different in attention in attention paid to national TV news between men and women.
 
 
-#------ Question 5 ------
-## Next, we are asked to test for a linear relationship between tvnaat and
-## tvhardat.
+## Q5: Conduct appropriate statistical test
+cor.test(ithaca$ctvnaat, ithaca$ctvhardat, method = "pearson")
+# or...
+ithaca %>% 
+        cor_test(., ctvnaat, ctvhardat, method = "pearson")
 
-## To do so, I would use Pearson's correlation. The test statistic for
-## this flavor of hypothesis test is Pearson's r and it comes with a p-
-## value.
-
-res.cor <- cor.test(ithaca$ctvnaat, ithaca$ctvhardat, method = "pearson")
-res.cor
-
-## Results from Pearson's product-moment correlation
-##
-## data:  ithaca$ctvnaat and ithaca$ctvhardat
-## t = 17.92, df = 441, p-value < 2.2e-16
-## alternative hypothesis: true correlation is not equal to 0
-## 95 percent confidence interval:
-##  0.5917469 0.6999616
-## sample estimates:
-##        cor
-## 0.6491265
-
-## Our results are:
-## r = .649, p < .001
-
-## Again, compare the p-value to alpha to come to a conclusion
-## about the results of this hypothesis test.
+## Q5a: Pearson's correlation.
+## Q5b: r = .65, p < .05
+## Q5c: There is a significant and positive relationship between the two variables.
 
 
-#------ Question 6 ------
-## In the last question, we are asked to determine whether soft news varies
-## significantly depending on marital status.
-
-## To test this hypothesis, I would use a one-way analysis of variance
-## (ANOVA). The test statistic for an ANOVA is F and it, too, comes with
-## a p-value.
-
+## Q6: Conduct appropriate statistical test
 res.aov <- aov(ctvsoftat ~ cmarit, data = ithaca)
 summary(res.aov)
+# or...
+ithaca %>% 
+        anova_test(., ctvsoftat ~ cmarit, effect.size = "pes")
 
-##              Df Sum Sq Mean Sq F value  Pr(>F)
-## cmarit        3    158   52.53   5.197 0.00156 **
-## Residuals   423   4275   10.11
-## ---
-## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-## 38 observations deleted due to missingness
+## Q6a: Analysis of variance (ANOVA)
+## Q6b: F = 5.197, p < .05
+## Q6c: There is a significant difference in attention to soft news by marital status.
 
-## Our results are:
-## F = 5.197, p = .0016
-
-## As usual, compare the p-value to alpha to draw a conclusion about
-## the results of your one-way ANOVA.
