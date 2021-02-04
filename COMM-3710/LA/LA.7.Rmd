@@ -49,7 +49,7 @@ A data frame with 534 observations on the following variables:
 ---
 
 # Instructions
-1. Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/102627573/download?download_frd=1) in R.
+1. Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/108105224/download?download_frd=1) in R.
 
 <br>
 

@@ -88,7 +88,7 @@ ithaca %>%
         t_test(., ctvnaat ~ csex, var.equal = TRUE)
 
 ## Q4a: Independent samples t-test.
-## Q4b: 
+## Q4b: t = .016
 
 ## Results from our t-test
 ##
