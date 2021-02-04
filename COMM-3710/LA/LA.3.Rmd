@@ -15,6 +15,10 @@ urlcolor: blue
    - watch this [video](https://youtu.be/Dbj_l1PRIjA) on working with R. Keep this link at hand--you will likely have to watch the video and refer to it more than once throughout the assignment and course.
 - Additional resources can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR) and on Canvas in the R Resources module.
 
+> Try to answer/solve these problems using the resources above before resorting to the hints in the assignment. 
+
+> Attempting to figure out R code that gives you the correct result (you can always check your result using the hints) is the best way to learn this material and will have long-term benefit.
+
 ---
 
 # Data

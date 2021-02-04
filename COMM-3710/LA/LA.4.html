@@ -1532,9 +1532,15 @@ div.tocify {
 <div id="resources" class="section level1">
 <h1>Resources</h1>
 <ul>
-<li>Before starting this assignment, watch the following video: <a href="https://youtu.be/b9Bh3K5bi0I" class="uri">https://youtu.be/b9Bh3K5bi0I</a>. Once again, keep this link handy as you may need to watch the video several times to complete the assignment.</li>
+<li>Before starting this assignment, watch this <a href="https://youtu.be/b9Bh3K5bi0I">video</a>. Once again, keep this link handy as you may need to watch the video several times to complete the assignment.</li>
 <li>Additional resources for R can be found <a href="https://rpubs.com/yesun/652965">here</a>.</li>
 </ul>
+<blockquote>
+<p>Try to answer/solve these problems using the resources above before resorting to the hints in the assignment.</p>
+</blockquote>
+<blockquote>
+<p>Attempting to figure out R code that gives you the correct result (you can always check your result using the hints) is the best way to learn this material and will have long-term benefit.</p>
+</blockquote>
 <hr />
 </div>
 <div id="instructions" class="section level1">
@@ -1546,18 +1552,18 @@ div.tocify {
 <p>If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.</p>
 </details>
 <p><br></p></li>
-<li><p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called <code>ExtremeMCS</code> and code it as 1 if a patient is at risk based on his/her <code>mcs</code> score and 0 otherwise.</p>
+<li><p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.</p>
 <details>
-<p><summary>Hint</summary></p>
-<p>One way to create a new variable in the <code>helpdata</code> data frame is to use the following command:</p>
-<pre><code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code></pre>
+<p><summary>Hint</summary> In addition to the method shown in the video, you can create this new variable using the <code>ifelse</code> command.</p>
 <p>Figure out what the arguments (the text and numbers within the parentheses) in the <code>ifelse</code> function mean by typing <code>?ifelse</code> into the Console in RStudio and reading the documentation.</p>
+<details>
+<p><summary>If you need another hint…</summary> Try…<code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code></p>
+</details>
 </details>
 <p><br></p></li>
 <li><p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.</p>
 <details>
-<p><summary>Hint</summary></p>
-<p>You can use the same logic from the command in Q2 to create this variable.</p>
+<p><summary>Hint</summary> You can use the same logic (and command) that you used in Q2 to create this variable.</p>
 </details>
 <p><br></p></li>
 <li><p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.</p></li>
@@ -1566,12 +1572,17 @@ div.tocify {
 <ol start="5" style="list-style-type: decimal">
 <li><p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.</p>
 <details>
-<p><summary>Hint</summary></p>
-<p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. One way to do this is to transform the data (<em>Note</em>: Like most things in R, there are many other ways to do this):</p>
-<pre><code>helpdata &lt;- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code></pre>
-<p>For help with <code>transform</code>, type <code>?transform</code> into the Console and read the documentation.</p>
+<p><summary>Hint</summary> You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. First, try the most straightforward way, which is to use this general formula:</p>
+<pre><code>Dataframe$NewVariable &lt;- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 </code></pre>
+<details>
+<p><summary>For more…</summary> Like most things in R, there are many other ways to do this. One way is to transform the data using the command, <code>transform</code>. Get help with <code>transform</code> by typing <code>?transform</code> into the Console and reading the documentation.</p>
+<details>
+<p><summary>Need help with <code>transform</code>?</summary> Try… <code>helpdata &lt;- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code></p>
 </details>
-<p><br></p></li>
+</details></li>
+</ol>
+<p><br></p>
+<ol start="6" style="list-style-type: decimal">
 <li><p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are thought to be at risk based on their <code>mcs</code> score? <!--91--></li>

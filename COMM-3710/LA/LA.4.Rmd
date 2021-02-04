@@ -10,8 +10,12 @@ urlcolor: blue
 ---
 
 # Resources
-- Before starting this assignment, watch the following video: https://youtu.be/b9Bh3K5bi0I. Once again, keep this link handy as you may need to watch the video several times to complete the assignment.
+- Before starting this assignment, watch this [video](https://youtu.be/b9Bh3K5bi0I). Once again, keep this link handy as you may need to watch the video several times to complete the assignment.
 - Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
+
+> Try to answer/solve these problems using the resources above before resorting to the hints in the assignment. 
+
+> Attempting to figure out R code that gives you the correct result (you can always check your result using the hints) is the best way to learn this material and will have long-term benefit.
 
 ---
 
@@ -24,23 +28,23 @@ urlcolor: blue
 </details>
 <br>
 
-2. Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called `ExtremeMCS` and code it as 1 if a patient is at risk based on his/her `mcs` score and 0 otherwise. 
+2. Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.
 <details>
 <summary>Hint</summary>
-
-   One way to create a new variable in the `helpdata` data frame is to use the following command:
-   ```
-   helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)
-   ```
+   In addition to the method shown in the video, you can create this new variable using the `ifelse` command.
+   
    Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
-</details> 
+      <details>
+      <summary>If you need another hint...</summary>
+      Try...`helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)`
+      </details>
+   </details>
 <br>
 
 3. Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not. 
 <details>
 <summary>Hint</summary>
-
-   You can use the same logic from the command in Q2 to create this variable.
+   You can use the same logic (and command) that you used in Q2 to create this variable.
 </details>
 <br>
 
@@ -51,13 +55,19 @@ urlcolor: blue
 5. Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.
 <details>
 <summary>Hint</summary>
+   You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. First, try the most straightforward way, which is to use this general formula:
+   ```
+   Dataframe$NewVariable <- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 
+   ```
+   <details>
+   <summary>For more...</summary>
+      Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
+         <details>
+         <summary>Need help with `transform`?</summary>
+         Try... `helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)`
+         </details>
+   </details>
 
-   You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. One way to do this is to transform the data (*Note*: Like most things in R, there are many other ways to do this):
-   ```
-   helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)
-   ```
-   For help with `transform`, type `?transform` into the Console and read the documentation.
-</details>
 <br>
 
 6. Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`.
