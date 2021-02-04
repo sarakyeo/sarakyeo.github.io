@@ -18,7 +18,7 @@ urlcolor: blue
 ---
 
 # Data
-For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/102658359/download?download_frd=1). Submit your answers as a PDF document on Canvas.
+For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/108105219/download?download_frd=1). Submit your answers as a PDF document on Canvas.
 
 The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.
 

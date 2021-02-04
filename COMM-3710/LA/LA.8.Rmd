@@ -34,12 +34,12 @@ You will use the [Ithaca.csv](https://utah.instructure.com/files/108105203/downl
 
 A data frame with 465 observations on the following variables^[`99` = “Don’t know” unless otherwise specified]:
 
-*	`tvinat`: Attention to international news (0 = “Little attention,” 10 = “Very close attention”)
-*	`tvnaat`: Attention to national news (0 = “Little attention,” 10 = “Very close attention”)
-*	`tvhardat`: Attention to news about politics and economy (0 = “Little attention,” 10 = “Very close attention”)
-*	`tvsoftat`: Attention to soft news (0 = “Little attention,” 10 = “Very close attention”)
-*	`tvcrat`: Attention to crime dramas (0 = “Little attention,” 10 = “Very close attention”)
-*	`tvcomat`: Attention to ctvomedies (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvinat`: Attention to international TV news (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvnaat`: Attention to national TV news (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvhardat`: Attention to TV news about politics and economy (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvsoftat`: Attention to soft news on TV (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvcrat`: Attention to TV crime dramas (0 = “Little attention,” 10 = “Very close attention”)
+*	`tvcomat`: Attention to TV comedies (0 = “Little attention,” 10 = “Very close attention”)
 *	`educ`: Highest year of school completed
 *	`age`: Age of respondent
 *	`marit`: Marital status (1 = “single,” 2 = “married,” 3 = “divorced/separated,” 4 = “widowed,” 5 = “other,” 9 = “Don’t know/NA”)

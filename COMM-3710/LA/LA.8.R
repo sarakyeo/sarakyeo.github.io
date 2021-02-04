@@ -16,14 +16,14 @@ ithaca <- read.csv("Ithaca.csv")
 
 
 ## Q2: Data management
+
+## Q2a: tvnaat, tvhardat, tvsoftat
 # tvnaat
 freq(ithaca$tvnaat)
 ithaca$ctvnaat <- ithaca$tvnaat
 ithaca %<>% 
         mutate(ctvnaat = replace(ctvnaat, ctvnaat == 99, NA))
-
 # or...
-
 freq(ithaca$tvnaat)
 ithaca$ctvnaat <- ithaca$tvnaat
 ithaca$ctvnaat[ithaca$tvnaat == 99] <- NA
@@ -41,6 +41,7 @@ ithaca$ctvsoftat <- ithaca$tvsoftat
 ithaca$ctvsoftat[ithaca$tvsoftat == 99] <- NA
 freq(ithaca$ctvsoftat)
 
+## Q2b: sex and marit
 # sex
 freq(ithaca$sex)
 ithaca$csex <- ithaca$sex
@@ -48,9 +49,7 @@ ithaca$csex[ithaca$sex == 9] <- NA
 ithaca$csex[ithaca$sex == 1] <- "M"  ## I know that 1 = M from
 ithaca$csex[ithaca$sex == 0] <- "F"  ## the codebook.
 freq(ithaca$csex)
-
 # or...
-
 ithaca %<>% 
         mutate(csex = case_when(sex == 1 ~ "M",
                                 sex == 0 ~ "F"))
@@ -65,9 +64,7 @@ ithaca$cmarit[ithaca$marit == 4] <- "widowed"
 ithaca$cmarit[ithaca$marit == 5] <- NA
 ithaca$cmarit[ithaca$marit == 9] <- NA
 freq(ithaca$cmarit)
-
 # or...
-
 ithaca %<>% 
         mutate(cmarit = case_when(marit == 1 ~ "single",
                                   marit == 2 ~ "married",
@@ -76,24 +73,22 @@ ithaca %<>%
 
 
 ## Q3: Mean attention to national TV news among men and women
-FMean <- mean(ithaca$ctvnaat[ithaca$csex == "F"], na.rm = TRUE)
-MMean <- mean(ithaca$ctvnaat[ithaca$csex == "M"], na.rm = TRUE)
-
+mean(ithaca$ctvnaat[ithaca$csex == "F"], na.rm = TRUE)
+mean(ithaca$ctvnaat[ithaca$csex == "M"], na.rm = TRUE)
 # or...
-
 ithaca %>% 
         summarise(F = mean(ctvnaat[csex == "F"], na.rm = TRUE),
                   M = mean(ctvnaat[csex == "M"], na.rm = TRUE))
 
 
 # Q4: Conduct appropriate statistical test
-res.t <- t.test(ithaca$ctvnaat ~ ithaca$csex, var.equal = TRUE)
-res.t
-
+t.test(ithaca$ctvnaat ~ ithaca$csex, var.equal = TRUE)
 # or...
-
 ithaca %>% 
         t_test(., ctvnaat ~ csex, var.equal = TRUE)
+
+## Q4a: Independent samples t-test.
+## Q4b: 
 
 ## Results from our t-test
 ##
