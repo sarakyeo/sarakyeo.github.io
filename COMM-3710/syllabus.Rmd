@@ -247,7 +247,7 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 ## Week 5 (16-Feb)
 > Survey research; Experiments | **Quiz 5** 
   
-- Readings: Wrench Ch. 9, 11 
+- Readings: Wrench Ch. 9, 11, Bialik, Silver, Zukin
 - Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
   
 ## Week 6 (22-Feb): Participation Checkpoint
@@ -265,7 +265,7 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 ## Week 8 (8-Mar)
 > Introduction to statistics; Descriptive statistics | **Quiz 8** 
   
-- Readings: Wrench Ch. 13, 14, Silver, Zukin 
+- Readings: Wrench Ch. 13, 14
 - Lab: LA.8--Practice Data Analysis (10 pts), GP.E--Data Management (10 pts)
 
 ## Week 9 (15-Mar)
