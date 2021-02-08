@@ -17,11 +17,12 @@ utilities <- read.csv("Utilities.csv")
 ---
 
 ## 2: Graph distribution of customers' total monthly bill
+## Video 06 @ 10:35 for geom_histogram
 ggplot(data = utilities) +
         geom_histogram(aes(x = totalbill)) +
         xlab("Total bill (in dollars)") +
         ylab("Frequency")
-
+# or...
 utilities %>% 
         ggplot(aes(x = totalbill)) +
         geom_histogram() +
@@ -34,9 +35,10 @@ utilities %>%
 ---
 
 ## 3: Graph gas bill by month
+## Video 07 @ 24:05 for scatter plots
 ggplot(data = utilities) + 
         geom_point(aes(x = factor(month), y = gasbill))
-
+# or...
 utilities %>% 
         ggplot(aes(x = factor(month), y = gasbill)) + 
         geom_point()
@@ -49,9 +51,7 @@ mean(jan$gasbill)
 
 dec <- filter(utilities, month == 12)
 mean(dec$gasbill)
-
 # or...
-
 utilities %>% 
         filter(., month == 1) %>% 
         summarise(jan = mean(gasbill)) # $180.38
@@ -76,9 +76,7 @@ sep <- filter(utilities, month == 9)
 mean(sep$elecbill)
 
 mean(dec$elecbill)
-
 # or...
-
 utilities %>% 
         filter(month == 12) %>% 
         summarise(dec = mean(elecbill)) # $87.21
@@ -90,9 +88,6 @@ utilities %>%
 ---
 
 ## 5: Graph gas usage and gas bill
-        plot(utilities$ccf, utilities$gasbill)
-
-# or...
 utilities %>% 
         ggplot(aes(x = ccf, y = gasbill)) + 
         geom_point()
@@ -100,9 +95,6 @@ utilities %>%
 ---
         
 ## 6: Graph electricity usage and electric bill
-        plot(utilities$kwh, utilities$elecbill)
-
-# or...
 utilities %>% 
         ggplot(aes(x = kwh, y = elecbill)) + 
         geom_point()
@@ -115,10 +107,7 @@ utilities$season[utilities$month == 3 | utilities$month == 4 | utilities$month =
 utilities$season[utilities$month == 6 | utilities$month == 7 | utilities$month == 8] <- "summer"
 utilities$season[utilities$month == 9 | utilities$month == 10 | utilities$month == 11] <- "fall"
 freq(utilities$season)
-
 # or...
-
-require(magrittr)
 utilities %<>% 
         rowwise() %>% 
         mutate(season = case_when(month == 12 | month == 1 | month == 2 ~ "winter",
@@ -130,10 +119,7 @@ utilities %<>%
 
 ## 8: Create DonorStatus variable
 utilities$DonorStatus <- ifelse(utilities$donate == "yes", 1, 0)
-
 # or...
-
-require(magrittr)
 freq(utilities$donate)
 utilities %<>%
         rowwise() %>% 
@@ -142,11 +128,13 @@ utilities %<>%
 
 
 ## 9: Make bar chart to display count or proportion of donors by season
+## Video 07 @ 12:45 (note that R command is incorrect; fun.y deprecated)
+
 data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
 data.plot$DonorStatus <- as.character(data.plot$DonorStatus)
 ggplot(data = data.plot) +
         geom_bar(aes(x = season, fill = DonorStatus))
-
+# or...
 utilities %>% 
         ggplot(aes(x = season, fill = factor(DonorStatus))) +
         geom_bar(position = position_fill(reverse = TRUE)) +

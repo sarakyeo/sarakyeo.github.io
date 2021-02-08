@@ -48,13 +48,15 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <br>
 
 2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your submission) and answer the following question.
-   a. Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness or watch Video 06 starting at 14:02)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
-   <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150-->
    <details>
    <summary>Hint</summary>
    
       To create a histogram, watch Video 06. The `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
    </details>
+
+   a. Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness or watch Video 06 starting at 14:02)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
+   <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150-->
+
 <br>
 
 3. Make a scatter plot to display gas bill by month (include the graph in your submission).
