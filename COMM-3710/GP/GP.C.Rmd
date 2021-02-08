@@ -29,10 +29,15 @@ Other resources:
 
 <br> 
 
-2. List at least **5 peer-reviewed journal articles** that your group has found and read.
+2. List at least **5 peer-reviewed journal articles in APA format** that your group has found and read.
       - To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
-      <img src="https://sarakyeo.github.io/images/libraryDale4.jpg" width = "500"/>
+        <details>
+        <summary>Click here for more information</summary>
+              <img src="https://sarakyeo.github.io/images/libraryDale4.jpg" width = "500"/>
+        </details>
       - Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
+      - Help with APA format can be found [here](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html).
+      - You should also read about APA format in the Marriott Library guide to [styles and citation manuals](https://campusguides.lib.utah.edu/style).
 
 <br>
   
