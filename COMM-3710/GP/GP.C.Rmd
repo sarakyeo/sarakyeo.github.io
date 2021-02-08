@@ -14,7 +14,13 @@ It is important that you examine the existing literature on your topic or relati
 
 Your ultimate objective is to go beyond what is already known through your project in this course. In order to achieve this, you must familiarize yourself with what researchers have studied.
 
-Start by watching this [video](https://youtu.be/ZmkUvbX-qlI).
+Start by watching [Video 03 on Literature Reviews](https://youtu.be/ZmkUvbX-qlI).
+
+Other resources:
+- [COMM 3710 research guide from the Marriott Library](https://campusguides.lib.utah.edu/communication/quantitative)
+- [Zotero research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home)
+- [Google Scholar](https://scholar.google.com)
+- [Choosing a citation manager](https://campusguides.lib.utah.edu/citationmanager)
 
 ---
 
@@ -37,7 +43,8 @@ The requirement of this assignment is to:
 <br> 
 
 4. For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
-      - Use this [research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home) to get started with Zotero.
+      - If you want to use Zotero, this [research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home) will help you get started.
+      - If you want to use a different reference manager, start by [choosing a citation manager](https://campusguides.lib.utah.edu/citationmanager).
 
 <br> 
 
