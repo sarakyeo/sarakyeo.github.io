@@ -53,7 +53,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
    <details>
    <summary>Hint</summary>
    
-      To create a histogram, watch Video 06.
+      To create a histogram, watch Video 06. The `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
    </details>
 <br>
 
@@ -61,14 +61,15 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <details>
 <summary>Hint</summary>
    
-   Watch Video 07 to learn how to make a scatter plot.
+   Watch Video 07 to learn how to make a scatter plot. The commands you will use are `ggplot()` and `geom_point()`.
 </details>
       a. Based on your graph, which month do you think has the highest **average** gas bill?
       b. Calculate the average gas bill for the months of January and December. Which is higher?
       <details>
 <summary>Hint</summary>
-      To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`). To do this, use the code:`jan <- filter(utilities, month == 1)`. For help with the `filter` function, type `?filter` into your Console window.
-      Then, you can use the `mean()` function to calculate the average gas bill for that month (e.g., `mean(jan$gasbill, na.rm = TRUE)`).
+      To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`). To do this, create an object that filters the `utilities` dataframe by month. You could, for example, use the code:`jan <- filter(utilities, month == 1)`. For help with the `filter` function, type `?filter` into your Console window.
+      
+         Then, you can use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`.
 </details>
 <br>
 
@@ -92,7 +93,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <details>
 <summary>Hint</summary>
 
-   Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` to check that you have created the `season` variable correctly.
+   Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` from the `descr` package to check that you have created the `season` variable correctly.
 </details>
 <br>
 
@@ -109,12 +110,20 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
    <details>
    <summary>Hint</summary>
       
-      The following commands are one way to create a bar chart (showing counts) that is sorted (winter, spring, summer, fall):
-      ```
-      sorted <- reorder(utilities$season, utilities$DonorStatus)
-      counts <- table(utilities$DonorStatus, sorted)
-      barplot(counts)
-      ```
+      Watch Video 07, which covers creating bar charts with `ggplot2`. You will use the `ggplot()` and `geom_bar()` commands.
+      
+      <details>
+      <summary>Stuck? Click here.</summary>
+      
+         *Note*: The `ggplot2` command shown at 12:45 may be giving you an error. If so, try the code below:
+         
+         ```
+         data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
+         data.plot$DonorStatus <- as.character(data.plot$DonorStatus)
+         ggplot(data = data.plot) +
+               geom_bar(aes(x = season, fill = DonorStatus))
+         ```
+      </details>
 </details>
 <br>
 

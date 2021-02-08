@@ -1572,22 +1572,23 @@ div.tocify {
 <li><p>Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness or watch Video 06 starting at 14:02)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall? <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150--></p>
 <details>
 <p><summary>Hint</summary></p>
-<p>To create a histogram, watch Video 06.</p>
+<p>To create a histogram, watch Video 06. The <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
 </details>
 <p><br></p></li>
 </ol></li>
 <li><p>Make a scatter plot to display gas bill by month (include the graph in your submission).</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>Watch Video 07 to learn how to make a scatter plot.</p>
+<p>Watch Video 07 to learn how to make a scatter plot. The commands you will use are <code>ggplot()</code> and <code>geom_point()</code>.</p>
 </details>
 <ol style="list-style-type: lower-alpha">
-<li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
-<li>Calculate the average gas bill for the months of January and December. Which is higher?
+<li><p>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</p></li>
+<li><p>Calculate the average gas bill for the months of January and December. Which is higher?</p>
 <details>
-<summary>Hint</summary> To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, use the code:<code>jan &lt;- filter(utilities, month == 1)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window. Then, you can use the <code>mean()</code> function to calculate the average gas bill for that month (e.g., <code>mean(jan$gasbill, na.rm = TRUE)</code>).
+<p><summary>Hint</summary> To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, create an object that filters the <code>utilities</code> dataframe by month. You could, for example, use the code:<code>jan &lt;- filter(utilities, month == 1)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.</p>
+<p>Then, you can use the <code>mean()</code> function to calculate the average gas bill for that month. Type <code>?mean</code> into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, <code>na.rm = TRUE</code>.</p>
 </details>
-<br></li>
+<p><br></p></li>
 </ol></li>
 <li><p>Make a graph to display electric bill by month (include the graph in your submission).</p>
 <ol style="list-style-type: lower-alpha">
@@ -1614,7 +1615,7 @@ div.tocify {
 <li><p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> to check that you have created the <code>season</code> variable correctly.</p>
+<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
 </details>
 <p><br></p></li>
 <li><p>Make a new variable, <code>DonorStatus</code>. Set <code>DonorStatus</code> equal to 1 if the billee donated money to <em>Operation Fuel</em> and 0 otherwise.</p>
@@ -1628,10 +1629,15 @@ div.tocify {
 <li><p>Does there seem to be a relationship between season and donation?</p>
 <details>
 <p><summary>Hint</summary></p>
-<p>The following commands are one way to create a bar chart (showing counts) that is sorted (winter, spring, summer, fall):</p>
-<pre><code>sorted &lt;- reorder(utilities$season, utilities$DonorStatus)
-counts &lt;- table(utilities$DonorStatus, sorted)
-barplot(counts)</code></pre>
+<p>Watch Video 07, which covers creating bar charts with <code>ggplot2</code>. You will use the <code>ggplot()</code> and <code>geom_bar()</code> commands.</p>
+<details>
+<p><summary>Stuck? Click here.</summary></p>
+<p><em>Note</em>: The <code>ggplot2</code> command shown at 12:45 may be giving you an error. If so, try the code below:</p>
+<pre><code>data.plot &lt;- na.omit(utilities[ , c(&quot;season&quot;, &quot;DonorStatus&quot;)])
+data.plot$DonorStatus &lt;- as.character(data.plot$DonorStatus)
+ggplot(data = data.plot) +
+      geom_bar(aes(x = season, fill = DonorStatus))</code></pre>
+</details>
 </details>
 <p><br></p></li>
 </ol></li>

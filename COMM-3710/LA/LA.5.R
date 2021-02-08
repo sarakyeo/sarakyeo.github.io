@@ -142,11 +142,10 @@ utilities %<>%
 
 
 ## 9: Make bar chart to display count or proportion of donors by season
-sorted <- reorder(utilities$season, utilities$DonorStatus)
-counts <- table(utilities$DonorStatus, sorted)
-barplot(counts)
-
-# or...
+data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
+data.plot$DonorStatus <- as.character(data.plot$DonorStatus)
+ggplot(data = data.plot) +
+        geom_bar(aes(x = season, fill = DonorStatus))
 
 utilities %>% 
         ggplot(aes(x = season, fill = factor(DonorStatus))) +
