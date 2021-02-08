@@ -21,19 +21,27 @@ Start by watching this [video](https://youtu.be/ZmkUvbX-qlI).
 # Instructions 
 The requirement of this assignment is to:
 
-* Describe the association or topic that you have decided to examine and key words you found helpful in your search.
+1. Describe the association or topic that you have decided to examine and key words you found helpful in your search in more detail than you did in GP.B.
 
-* List at least 5 of the most appropriate references that you have found and read.
-  <ul><li> To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
-  <img src="https://sarakyeo.github.io/images/libraryDale4.jpg" width = "500"/>
-  <li> Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
-  </ul>
+<br> 
+
+2. List at least **5 peer-reviewed journal articles** that your group has found and read.
+      - To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
+      <img src="https://sarakyeo.github.io/images/libraryDale4.jpg" width = "500"/>
+      - Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
+
+<br>
   
-* Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue. Be brief and use bullet points.
+3. Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue. Be brief and use bullet points.
 
-* For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
+<br> 
 
-* **Submit your assignment as a PDF on Canvas.**
+4. For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
+      - Use this [research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home) to get started with Zotero.
+
+<br> 
+
+Submit your assignment as a single PDF (one per group) on Canvas.
 
 ---
 
@@ -56,4 +64,4 @@ Based on my reading of the above articles as well as others, I have noted a few 
 * One of the most potent risk factors consistently implicated in the etiology of smoking behavior and nicotine dependence is depression.
 * I have decided to further focus my question by examining whether the association between nicotine dependence and smoking differs based on whether a person is experiencing depression.
   +  I am wondering if at low levels of smoking compared to high levels, nicotine dependence is more common among individuals with major depression than those without major depression.
-  + I added relevant depression questions/items/variables to my personal codebook as well as several demographic measures (age, gender, ethnicity, etc.) and any other variables I may wish to consider.
+  + I added relevant depression questions/items/variables to my personal codebook as well as several demographic measures (age, gender, ethnicity, etc.) and any other variables I may wish to consider.^[Note that you can do this for your own project, if necessary.]
