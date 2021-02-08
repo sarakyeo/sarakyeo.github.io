@@ -9,8 +9,13 @@ output:
 urlcolor: blue
 ---
 
-# Resources
-Before beginning this assignment, watch this [video](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R. As always, keep the video handy for reference as you work through this assignment.
+# Resources{#resources}
+In this assignment, we will learn how to use the R package, `ggplot2` to create graphs. Before you begin the assignment, watch and familiarize yourself with the following videos. Remember to drop in to virtual office hours if you need help.
+
+- Watch [Video 06](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R. 
+- Watch [Video 07](https://youtu.be/IZoCbCQRmUE) about graphinc relationships in R.
+
+As always, keep the videos handy for reference as you work through this assignment.
 
 ---
 
@@ -43,26 +48,20 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 <br>
 
 2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your submission) and answer the following question.
-   a. Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
+   a. Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness or watch Video 06 starting at 14:02)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
    <!--Slightly positively (right) skewed, most total monthly bills are between $100 and $150-->
    <details>
    <summary>Hint</summary>
-
-      This question asks you to create a histogram. One way to do this is to use the command:
-      ```
-      hist(utilities$totalbill)
-      ```
+   
+      To create a histogram, watch Video 06.
    </details>
 <br>
 
-3. Make a graph to display gas bill by month (include the graph in your submission).
+3. Make a scatter plot to display gas bill by month (include the graph in your submission).
 <details>
 <summary>Hint</summary>
    
-   To make a plot, use the command:
-   ```
-   plot(utilities$month, utilities$gasbill)
-   ```
+   Watch Video 07 to learn how to make a scatter plot.
 </details>
       a. Based on your graph, which month do you think has the highest **average** gas bill?
       b. Calculate the average gas bill for the months of January and December. Which is higher?

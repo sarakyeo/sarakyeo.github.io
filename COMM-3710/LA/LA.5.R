@@ -1,12 +1,15 @@
 ## LA.5
 
-## Load packages
+## Load packages and set working directory
 library(tidyverse)
 library(descr)
 library(ggpubr)
 library(rstatix)
 library(rmarkdown)
 library(formatR)
+library(magrittr)
+
+setwd("C:/Users/SaraK/Downloads/sarakyeo.github.io/COMM-3710/LA")
 
 ## 1: Load Utilities.csv data set
 utilities <- read.csv("Utilities.csv")
@@ -14,16 +17,25 @@ utilities <- read.csv("Utilities.csv")
 ---
 
 ## 2: Graph distribution of customers' total monthly bill
-hist(utilities$totalbill)
+ggplot(data = utilities) +
+        geom_histogram(aes(x = totalbill)) +
+        xlab("Total bill (in dollars)") +
+        ylab("Frequency")
+
+utilities %>% 
+        ggplot(aes(x = totalbill)) +
+        geom_histogram() +
+        xlab("Total bill (in dollars)") +
+        ylab("Frequency")
+
 
 ## 2a: The distribution is slightly skewed to the right. Most of the monthly total bills are between $100 and $150.
 
 ---
 
 ## 3: Graph gas bill by month
-plot(utilities$month, utilities$gasbill)
-
-# or...
+ggplot(data = utilities) + 
+        geom_point(aes(x = factor(month), y = gasbill))
 
 utilities %>% 
         ggplot(aes(x = factor(month), y = gasbill)) + 
