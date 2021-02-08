@@ -47,7 +47,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 </details>
 <br>
 
-2. Make a graph to display the distribution of customers' total monthly bill (include the graph in your PDF submission) and answer the following question.
+2. Make a histogram to display the distribution of customers' total monthly bill (include the graph in your PDF submission) and answer the following question.
    <details>
    <summary>Hint</summary>
    
@@ -77,18 +77,18 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 </details>
 <br>
 
-4. Make a graph to display electric bill by month (include the graph in your PDF submission).
+4. Make a scatter plot to display electric bill by month (include the graph in your PDF submission).
       a. Based on your graph, which month do you think has the highest **average** electric bill?
       b. Calculate the average electric bill for the months of September and December. Which is higher?
 
 <br>
 
-5. Make a graph to display the relationship between gas usage and gas bill (include the graph in your PDF submission). 
+5. Make a scatter plot to display the relationship between gas usage and gas bill (include the graph in your PDF submission). 
       a. Does there appear to be a relationship between gas usage and gas bill? <!--Yes-->
 
 <br>
 
-6. Make a graph to display the relationship between electricity usage and electric bill (include the graph in your PDF submission).
+6. Make a scatter plot to display the relationship between electricity usage and electric bill (include the graph in your PDF submission).
       a. Does there appear to be a relationship between electricity usage and electric bill? <!--Yes-->
 
 <br>
