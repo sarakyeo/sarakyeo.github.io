@@ -29,7 +29,7 @@ Other resources:
 
 <br> 
 
-2. List at least **5 peer-reviewed journal articles in APA format** that your group has found and read.
+2. Include a reference list of at least **5 peer-reviewed journal articles in APA format** that your group has found and read.
       - To find references, start with the resources available through the [Marriott Library](https://lib.utah.edu/). You can also use this [Campus Guide](https://campusguides.lib.utah.edu/communication/quantitative) created by librarian [Dale Larsen](mailto: dale.larsen@utah.edu).
         <details>
         <summary>Click here for more information</summary>
@@ -38,16 +38,13 @@ Other resources:
       - Another useful tool for searching for primary scholarly literature is [Google Scholar](https://scholar.google.com/).
       - Help with APA format can be found [here](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html).
       - You should also read about APA format in the Marriott Library guide to [styles and citation manuals](https://campusguides.lib.utah.edu/style).
+      - If you want to use Zotero, this [research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home) will help you get started.
+      - If you want to use a different reference manager, start by [choosing a citation manager](https://campusguides.lib.utah.edu/citationmanager).
 
 <br>
   
-3. Describe findings and interesting themes that you have uncovered and list a tentative research question or two that you hope to pursue. Be brief and use bullet points.
-
-<br> 
-
-4. For this assignment you must use a citation manager such as [Zotero](https://www.zotero.org/) and include a list of references in your submission.
-      - If you want to use Zotero, this [research guide from the Marriot Library](https://campusguides.lib.utah.edu/zotero/home) will help you get started.
-      - If you want to use a different reference manager, start by [choosing a citation manager](https://campusguides.lib.utah.edu/citationmanager).
+3. Clearly list your research questions or hypotheses (from GP.B) and describe findings and interesting themes in the peer-reviewed journal articles that you have uncovered beneath each research question. Be brief and use bullet points. Be sure to include citations in APA format.
+      - For help getting started with in-text citations, click [here](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/in_text_citations_the_basics.html).
 
 <br> 
 
