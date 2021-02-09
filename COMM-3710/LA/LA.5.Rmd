@@ -127,6 +127,8 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
          ggplot(data = data.plot) +
                geom_bar(aes(x = season, fill = DonorStatus))
          ```
+         
+         Figure out whether these commands allow you to plot counts or proportions of donors by season.
       </details>
 </details>
 <br>
