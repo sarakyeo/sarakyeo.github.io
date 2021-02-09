@@ -132,8 +132,11 @@ utilities %<>%
 
 data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
 data.plot$DonorStatus <- as.character(data.plot$DonorStatus)
-ggplot(data = data.plot) +
-        geom_bar(aes(x = season, fill = DonorStatus))
+ggplot(data = data.plot) + # plots counts, not proportion
+        geom_bar(aes(x = season, fill = DonorStatus)) +
+        labs(x = "",
+             y = "Frequency", fill = "Donor Status") +
+        scale_fill_discrete(labels = c("No", "Yes"))
 # or...
 utilities %>% 
         ggplot(aes(x = season, fill = factor(DonorStatus))) +
@@ -144,6 +147,6 @@ utilities %>%
                                     "fall")) +
         scale_fill_discrete(labels = c("No", "Yes")) +
         scale_y_continuous(expand = c(0,0)) +
-        labs(x = "", y = "Proportion", fill = "Donor Status")
+        labs(x = "", y = "Proportion", fill = "Donor Status") # plots proportions
 
 ## 9a: There does not seem to be a relationship between season and donation.
