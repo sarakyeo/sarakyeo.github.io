@@ -25,7 +25,8 @@ Other resources:
 ---
 
 # Instructions 
-1. Describe the association or topic that you have decided to examine in more detail than you did in GP.B^[Note that you may find that you need to add more questions/variables to your group's personal codebook.] and list key words you found helpful in your search.
+1. Describe the association or topic that you have decided to examine in more detail than you did in GP.B and list key words you found helpful in your search.
+      - Note that you may find that you need to add more questions/variables to your group's personal codebook. Feel free to do so, but do **not** add the questions to your submission for this assignment.
 
 <br> 
 
@@ -55,4 +56,4 @@ Other resources:
 ---
 
 # Sample Submission
-
+A sample submission can be downloaded [here](https://utah.instructure.com/files/113040962/download?download_frd=1).
