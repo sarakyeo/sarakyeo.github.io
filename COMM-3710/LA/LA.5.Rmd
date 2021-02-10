@@ -13,7 +13,7 @@ urlcolor: blue
 In this assignment, we will learn how to use the R package, `ggplot2` to create graphs. Before you begin the assignment, watch and familiarize yourself with the following videos. Remember to drop in to virtual office hours if you need help.
 
 - Watch [Video 06](https://youtu.be/mwLyXHfCPdE) about graphing one variable at a time in R. 
-- Watch [Video 07](https://youtu.be/IZoCbCQRmUE) about graphinc relationships in R.
+- Watch [Video 07](https://youtu.be/IZoCbCQRmUE) about graphing relationships in R.
 
 As always, keep the videos handy for reference as you work through this assignment.
 
