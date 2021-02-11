@@ -24,8 +24,8 @@ freq(hdata$d1) # 92 have never been hospitalized for medical problems
 
 ## 2c. What percentage of patients in the study have been hospitalized fewer
 ##     than 5 times?
-lessfive <- (92 + 120 + 92 + 36 + 37 + 18) / 453
-lessfive # 87.2%
+lessfive <- (92 + 120 + 92 + 36 + 37) / 453
+lessfive # 83.2%
 
 
 ## 3. Subset data to incl substance == cocaine and over 40 years old
