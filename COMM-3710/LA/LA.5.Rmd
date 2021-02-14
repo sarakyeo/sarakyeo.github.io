@@ -93,7 +93,7 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 
 <br>
 
-7. Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
+7. Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November. Include the frequency table for `season` in your PDF submission.
 <details>
 <summary>Hint</summary>
 
@@ -101,36 +101,8 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 </details>
 <br>
 
-8. Make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. 
-<details>
-<summary>Hint</summary>
+**Bonus question.** Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Does there seem to be a relationship between season and donation?
 
-   Review the `ifelse` command used in LA.4. 
-</details>
-<br>
-
-9. Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.
-   a. Does there seem to be a relationship between season and donation?
-   <details>
-   <summary>Hint</summary>
-      
-      Watch Video 07, which covers creating bar charts with `ggplot2`. You will use the `ggplot()` and `geom_bar()` commands.
-      
-      <details>
-      <summary>Stuck? Click here.</summary>
-      
-         *Note*: The `ggplot2` command shown at 12:45 may be giving you an error. If so, try the code below:
-         
-         ```
-         data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
-         data.plot$DonorStatus <- as.character(data.plot$DonorStatus)
-         ggplot(data = data.plot) +
-               geom_bar(aes(x = season, fill = DonorStatus))
-         ```
-         
-         Figure out whether these commands allow you to plot counts or proportions of donors by season.
-      </details>
-</details>
 <br>
 
 Submit the following on Canvas:

@@ -1615,37 +1615,15 @@ div.tocify {
 </ol>
 <p><br></p>
 <ol start="7" style="list-style-type: decimal">
-<li><p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
+<li><p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November. Include the frequency table for <code>season</code> in your PDF submission.</p>
 <details>
 <p><summary>Hint</summary></p>
 <p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
 </details>
 <p><br></p></li>
-<li><p>Make a new variable, <code>DonorStatus</code>. Set <code>DonorStatus</code> equal to 1 if the billee donated money to <em>Operation Fuel</em> and 0 otherwise.</p>
-<details>
-<p><summary>Hint</summary></p>
-<p>Review the <code>ifelse</code> command used in LA.4.</p>
-</details>
-<p><br></p></li>
-<li><p>Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Order the seasons from lowest proportion of donors to highest proportion of donors; answer the question below.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Does there seem to be a relationship between season and donation?</p>
-<details>
-<p><summary>Hint</summary></p>
-<p>Watch Video 07, which covers creating bar charts with <code>ggplot2</code>. You will use the <code>ggplot()</code> and <code>geom_bar()</code> commands.</p>
-<details>
-<p><summary>Stuck? Click here.</summary></p>
-<p><em>Note</em>: The <code>ggplot2</code> command shown at 12:45 may be giving you an error. If so, try the code below:</p>
-<pre><code>data.plot &lt;- na.omit(utilities[ , c(&quot;season&quot;, &quot;DonorStatus&quot;)])
-data.plot$DonorStatus &lt;- as.character(data.plot$DonorStatus)
-ggplot(data = data.plot) +
-      geom_bar(aes(x = season, fill = DonorStatus))</code></pre>
-<p>Figure out whether these commands allow you to plot counts or proportions of donors by season.</p>
-</details>
-</details>
-<p><br></p></li>
-</ol></li>
 </ol>
+<p><strong>Bonus question.</strong> Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Does there seem to be a relationship between season and donation?</p>
+<p><br></p>
 <p>Submit the following on Canvas:</p>
 <ol style="list-style-type: lower-alpha">
 <li>A <strong>.R file</strong> containing the code used to complete this assignment. This document should include comments that explain your commands.</li>

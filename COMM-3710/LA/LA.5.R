@@ -114,20 +114,11 @@ utilities %<>%
                                   month == 3 | month == 4 | month == 5 ~ "spring",
                                   month == 6 | month == 7 | month == 8 ~ "summer",
                                   month == 9 | month == 10 | month == 11 ~ "fall"))
+freq(utilities$season)
 
 ---
 
-## 8: Create DonorStatus variable
-utilities$DonorStatus <- ifelse(utilities$donate == "yes", 1, 0)
-# or...
-freq(utilities$donate)
-utilities %<>%
-        rowwise() %>% 
-        mutate(DonorStatus = case_when(donate == "yes" ~ 1,
-                                       donate == "no" ~ 0))
-
-
-## 9: Make bar chart to display count or proportion of donors by season
+## Bonus question: Make bar chart to display count or proportion of donors by season
 ## Video 07 @ 12:45 (note that R command is incorrect; fun.y deprecated)
 
 data.plot <- na.omit(utilities[ , c("season", "DonorStatus")])
