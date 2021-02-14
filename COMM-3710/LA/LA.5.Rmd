@@ -93,12 +93,13 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 
 <br>
 
-7. Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November. Include the frequency table for `season` in your PDF submission.
-<details>
-<summary>Hint</summary>
+7. Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
+      a. Include the frequency table for `season` in your PDF submission.
+      <details>
+      <summary>Hint</summary>
 
-   Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` from the `descr` package to check that you have created the `season` variable correctly.
-</details>
+         Use the skills you learned in data management (e.g., subsetting) to create a new variable called `season` according to the instructions. Then, use the command `freq(utilities$season)` from the `descr` package to check that you have created the `season` variable correctly.
+      </details>
 <br>
 
 **Bonus question.** Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Does there seem to be a relationship between season and donation?
