@@ -70,9 +70,11 @@ If you are still wondering why we are using R instead of Microsoft Excel for dat
 
 The image below, from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
 
-```{r, fig.cap = "Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)"}
+```{r echo = FALSE, fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)"}
+
 knitr::include_graphics("images/R-vs-RStudio.png")
+
 ```
 
-Throughout this course, you will be using 
+Throughout this course, you will be using R via RStudio. This means that you will need to have **both R and RStudio installed on your computer**.
 
