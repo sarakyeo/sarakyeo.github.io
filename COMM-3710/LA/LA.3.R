@@ -38,5 +38,5 @@ freq(hsub$sex) # freq table for sex (subset of data)
 ## 4a. 27 patients are at least 40 years old and have cocaine listed as his/her
 ##     primary abuse substance.
 
-## 4b. 20 patients are at least 40 years old, have cocaine listed as his/her
+## 4b. 74.07% patients are at least 40 years old, have cocaine listed as his/her
 ##     primary abuse substance, and are male.
