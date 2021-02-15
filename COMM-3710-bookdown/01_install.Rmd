@@ -24,3 +24,21 @@ When you are ready to use R, you will open RStudio. In this course, you will rar
 knitr::include_graphics("images/open-RStudio.png")
 
 ```
+
+---
+
+## I have successfully installed R and RStudio. Now what?
+
+Unlike Excel, which has a point-and-click GUI, R is an [interpreted language](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means that you, the user, must type in commands written in **R code**. In other words, this course will teach you to **code** or **program** using the R language.^[The terms *coding* and *programming* are used interchangeably in this book.]
+
+In COMM 3710, we will learn R by "doing." You are responsible for your own learning--the best way to master R is to [practice deliberately](https://jamesclear.com/beginners-guide-deliberate-practice). 
+
+> "While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance." [@clearBeginnerGuideDeliberate2017]
+
+Throughout the book, `R code` will be distinguished from text by using a different font. Let's start with some basic terms:
+
+- **Console**: This is the pane in RStudio where you enter commands. Pressing Enter after each command runs it, i.e., it tells R to execute the command.
+- **Objects**: Values in R are saved in objects.
+- **Dataframes**: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.
+- **Logical operators**: These are operators in R that represent "and" (`&`) and "or" (`|`).
+- **Functions**: Functions are also known as **commands**. Functions and commands tell R what you want it to do. Functions take the form of `command()` with parentheses (or parents). The parentheses are for **arguments**, which give R specifics about the function you want it to perform.

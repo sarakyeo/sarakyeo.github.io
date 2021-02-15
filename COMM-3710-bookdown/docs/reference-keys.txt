@@ -10,5 +10,7 @@ r-vs.-rstudio
 install
 installing-r
 installing-rstudio
+i-have-successfully-installed-r-and-rstudio.-now-what
 setup
 workflow
+output-bookdowngitbook
