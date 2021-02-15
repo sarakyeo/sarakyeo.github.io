@@ -4,5 +4,6 @@ why-r
 ease-of-use
 replicating-analysis
 visualization
+r-vs.-rstudio
 setup
 workflow

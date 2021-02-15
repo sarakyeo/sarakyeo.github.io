@@ -33,25 +33,27 @@ In this course, you will learn to install and use R for data analysis. In other 
 
 ## Why R?^[Adapted from [R vs. Excel: What's the Difference?](https://www.northeastern.edu/graduate/blog/r-vs-excel/)]
 
-Increasingly, data are used to examine industry trends, generate financial statements and reports, analyze market data, and create visuals to communicate your work. This course will help you become familiar with a powerful data analysis tool, R.
+Increasingly, data are important components of decision-making in businesses. Whether you are looking at industry trends, generating financial statements and reports, analyzing market data, or creating visuals to communicate your work, you will need to know how to analyze data to efficiently, accurately, and professionally to develop reports and effectively communicate your findings. This course will help you become familiar with R, a powerful data analysis tool.
 
-Often, students ask why we use R instead of Microsoft Excel. Before we dive into reasons, let's first examine some differences between them.
+Often, students ask why we use R instead of Microsoft Excel in this course.
+
+Here are some comparisons of R and Excel that highlight the reasons for using R:
 
 ### Ease of Use
 
-There is little doubt that Excel is much easier to use than R. Most of us already know many Excel basics and the learning curve is, undoubtedly, minimal compared to R. This is partly due to the point-and-click nature of Excel, allowing us to make simple charts (albeit with awful color schemes).
+There is little doubt that Excel is much easier to use than R. Most of us already know many Excel basics and the learning curve is minimal compared to R. This is partly due to the point-and-click nature of Excel, allowing us to make simple charts and tables.
 
-R, on the other hand, is a **programming language**. This means that the initial learning curve is steeper than Excel. However, with practice and time, R becomes easier quickly and you will soon realize that R is a powerful tool for analysis.
+R, on the other hand, is a **programming language**. This means that the initial learning curve is, for most, likely to be steeper than that of Excel. However, with practice and time, R becomes easier quickly and you will soon realize that R is a powerful tool for analysis and generating visuals from data.
 
 ### Replicating Analysis
 
 Having to use the point-and-click interface, or the graphical user interface (GUI), is a distinct disadvantage of Excel. Because you cannot import or use scripts, which are a collection of commands, **in Excel, you must rely on memory to replicate your analysis**.
 
-R, on the other hand, is capable of reproducing analyses quickly and with different datasets. The commands for data analysis that you use in R can be saved as a script, which can then be un on multiple datasets. In other words, when we use R for data analysis, we do not have to "reinvent the (data analysis) wheel" as you would with Excel.
+R, on the other hand, is capable of reproducing analyses quickly and with different datasets. The commands for data analysis that you use in R can be saved as a script, which can then be run on multiple datasets. In other words, when we use R for data analysis, we do not have to "reinvent the (data analysis) wheel" as you would with Excel.
 
 ## Visualization
 
-For simple graphics, Excel, with its minimal learning curve, can suffice. However, it is cumbersome to create attractive tables and figures in Excel.
+For simple graphics, Excel (with its minimal learning curve) can suffice. However, it is cumbersome to create attractive and professional-quality tables and figures in Excel.
 
 Visualization is where R excels (HAH, see what I did there!). When datasets begin to get complicated or large, R is better equipped to handle them without making errors and can create impressive and easily customizable visual representations.
 
@@ -60,5 +62,19 @@ Visualization is where R excels (HAH, see what I did there!). When datasets begi
 If you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel:
 
 - [How the BBC Visual and Data Journalism team withs with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
-- [The Reinhart-Rogoff error - or how not to Excel at economics](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646)
+- [The Reinhart-Rogoff error - or How Not to Excel at Economics](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646)
+
+---
+
+## R vs. RStudio
+
+The image below, from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
+
+```{r, fig.cap = "Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)"}
+
+# knitr::include_graphics("images/R-vs-RStudio.png")
+
+```
+
+Throughout this course, you will be using 
 
