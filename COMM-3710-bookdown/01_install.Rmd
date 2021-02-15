@@ -1,5 +1,5 @@
 
-# Installing R and RStudio {#install}
+# Getting Started with R {#start}
 
 Remember that you need both R and RStudio. Follow the instructions below to install both *programs* (also known as *applications*).
 
@@ -22,9 +22,7 @@ When you are ready to use R, you will open RStudio. In this course, you will rar
 > From this point on, when "R" is referenced in the text, you know that you are accessing and using the language through RStudio.
 
 ```{r open-R, echo = FALSE, fig.cap = "Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio).", fig.align = "center"}
-
 knitr::include_graphics("images/open-RStudio.png")
-
 ```
 
 ---
@@ -48,9 +46,7 @@ As you have learned from Andy Field’s video, the RStudio interface consists of
 If you happen to see only three panels, please select *File > New File > R Script*. Your RStudio should like like Figure \@ref(fig:RStudio-panels).
 
 ```{r RStudio-panels, echo = FALSE, fig.cap = "Editor and Console windows in RStudio.", fig.align = "center"}
-
 knitr::include_graphics("images/RStudio-panels.png")
-
 ```
 
 ### Some basic terminology and concepts
@@ -90,9 +86,7 @@ Some examples that we will use in this course include `ggplot2` [@wickhamGgplot2
 Packages in R are like apps on your phone--they extend the functionality of the base technology (Figure \@ref(fig:packages)).
 
 ```{r packages, echo = FALSE, fig.cap = "R packages are to R what apps are to your mobile phone.", fig.align = "center"}
-
 knitr::include_graphics("images/packages.png")
-
 ```
 
 There are two steps to using apps to extend the functionality of your phone:
@@ -103,9 +97,7 @@ There are two steps to using apps to extend the functionality of your phone:
 Similarly, R packages need to be **installed** on your computer and then opened and then **loaded** in R (Figure \@ref(fig:install-load-packages)). Note where quotation marks are used and omitted in the commands.
 
 ```{r install-load-packages, echo = FALSE, fig.cap = "Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console--to run the commands written in the Editor, highlight and click *Run* in the top right corner.", fig.align = "center"}
-
 knitr:: include_graphics("images/install-load-packages.gif")
-
 ```
 
 1) **To install a package**, type `install.packages()` in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the `descr` package, you would use the command `install.packages("descr")`. Like an app, you only need to install a package once.
@@ -181,7 +173,6 @@ The results in your Console panel should look like this:
 Table \@ref(tab:basic-ops) shows some basic arithmetic operations in R. Play around with these functions in R to familiarize yourself with the R interface.
 
 ```{r basic-ops, echo = FALSE}
-
 df <- dplyr::tibble(Operation = c("addition/sum", "subtraction", "multiplication/product", "division", "power/exponent"),
                     Operator = c("+", "-", "*", "/", "^"),
                     Input = c("2 + 2", "9 - 2", "5 * 5", "12 / 3", "5 ^ 2"),
@@ -190,17 +181,46 @@ knitr::kable(
   df, booktabs = TRUE,
   caption = "Operations, operators, and example inputs and outputs in R."
 )
-
 ```
 
 ### Creating objects
 
-R is an [**OOP* or **object-oriented programming**](https://en.wikipedia.org/wiki/Object-oriented_programming) language. 
+R is an [**OOP** or **object-oriented programming**](https://en.wikipedia.org/wiki/Object-oriented_programming) language. 
 
-You can think of an **object** as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the **Environment** (Figure \@ref(fig:environment)), which is the one of the panels in the top right of RStudio.
+You can think of an **object** as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the **Environment** (Figure \@ref(fig:environment)), which is the one of the tabs in the top right panel of RStudio.
 
 ```{r environment, echo = FALSE, fig.cap = "The Environment panel in RStudio.", fig.align = "center"}
-
 knitr::include_graphics("images/environment.png")
+```
 
+We assign information to an object by using the **assignment operator**, `<-`. The generic code for creating an object looks like:
+
+```
+label <- information
+```
+
+Let's say that we want to save the result of `2 * 10` to an object and call it `catpuke`. In the **Editor** window, type and run the following R code:
+
+```
+kittens <- 2 * 10
+```
+
+Notice that the result in the **Console** when you ran this command did not give you the result of `2 * 10`.
+
+```
+> kittens <- 2 * 10
+>
+```
+
+This is because the result is stored as the object, `kittens`, and you have to ask R to display the result by calling the object. In the Editor, type `kittens` and run this command. You should see the result in the Console.
+
+```
+> kittens
+[1] 20
+```
+
+Notice that the object, `kittens`, appeared in the **Environment** when you ran the command, `kittens <- 2 * 10` (Figure \@ref(fig:kittens-env)).
+
+```{r kittens-env, echo = FALSE, fig.align="center", fig.cap="The Environment panel after you run the R code to create the object, `kittens`."}
+knitr::include_graphics("images/kittens-env.png")
 ```

@@ -4,6 +4,7 @@ fig:RStudio-panels
 fig:packages
 fig:install-load-packages
 tab:basic-ops
+fig:environment
 intro
 what-is-r
 why-r
@@ -21,5 +22,8 @@ errors-warnings-and-messages
 tips-for-learning-to-code
 r-packages
 learning-by-doing
+creating-objects
 setup
 workflow
+fig:kittens-env
+start
