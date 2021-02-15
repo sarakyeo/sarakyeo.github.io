@@ -16,7 +16,6 @@ description: "A guide to getting started with R in COMM 3710."
 
 This is a guide for getting started and using R and RStudio in COMM 3710: Introduction to Quantitative Communication Research in the [Department of Communication](https://communication.utah.edu) at the [University of Utah](https://utah.edu).
 
-
 ----
 
 ## What is R?
@@ -61,14 +60,14 @@ Visualization is where R excels (HAH, see what I did there!). When datasets begi
 
 If you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel:
 
-- [How the BBC Visual and Data Journalism team withs with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
+- [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
 - [The Reinhart-Rogoff error - or How Not to Excel at Economics](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646)
 
 ---
 
 ## R vs. RStudio
 
-Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
+Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio [@mcconvilleStatisticalInferenceData2021].
 
 ```{r R-vs-RStudio, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html).", echo = FALSE}
 
@@ -76,5 +75,12 @@ knitr::include_graphics("images/R-vs-RStudio.png")
 
 ```
 
-Throughout this course, you will be using R via RStudio. This means that you will need to have **both R and RStudio installed on your computer**. New users often confuse R and RStudio. The analogy makes it clear that one cannot be functional without the other. Just like the dashboard of a car would not be functional without the engine and vice versa, RStudio and R are not functional without each other.
+Throughout this course, you will be using R via [RStudio](https://www.rstudio.com). This means that you will need to have **both R and RStudio installed on your computer**. New users often confuse R and RStudio. The analogy makes it clear that one cannot be functional without the other. Just like the dashboard of a car would not be functional without the engine and vice versa, RStudio and R are not functional without each other.
+
+Remember that R is a programming language for statistical computing and graphics. RStudio, on the other hand, is an *integrated development environment (IDE)* that provides an interface and adds convenient features. Just like your dashboard has an odometer, navigation system, etc., that makes driving easier, using RStudio’s interface makes statistical computing using R much easier.
+
+Part of this [video](https://youtu.be/ZvPFKfNHBNQ) by Dr. Andy Field also describes the difference between R and RStudio.
+
+
+
 

@@ -6,5 +6,8 @@ ease-of-use
 replicating-analysis
 visualization
 r-vs.-rstudio
+install
+installing-r
+installing-rstudio
 setup
 workflow
