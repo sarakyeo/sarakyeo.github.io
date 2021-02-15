@@ -193,4 +193,14 @@ knitr::kable(
 
 ```
 
+### Creating objects
 
+R is an [**OOP* or **object-oriented programming**](https://en.wikipedia.org/wiki/Object-oriented_programming) language. 
+
+You can think of an **object** as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the **Environment** (Figure \@ref(fig:environment)), which is the one of the panels in the top right of RStudio.
+
+```{r environment, echo = FALSE, fig.cap = "The Environment panel in RStudio.", fig.align = "center"}
+
+knitr::include_graphics("images/environment.png")
+
+```
