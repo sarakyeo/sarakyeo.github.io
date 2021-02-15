@@ -5,6 +5,7 @@ fig:packages
 fig:install-load-packages
 tab:basic-ops
 fig:environment
+fig:kittens-env
 intro
 what-is-r
 why-r
@@ -12,7 +13,7 @@ ease-of-use
 replicating-analysis
 visualization
 r-vs.-rstudio
-install
+start
 installing-r
 installing-rstudio
 how-do-i-use-r
@@ -25,5 +26,3 @@ learning-by-doing
 creating-objects
 setup
 workflow
-fig:kittens-env
-start

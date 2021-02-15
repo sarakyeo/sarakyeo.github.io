@@ -224,3 +224,4 @@ Notice that the object, `kittens`, appeared in the **Environment** when you ran 
 ```{r kittens-env, echo = FALSE, fig.align="center", fig.cap="The Environment panel after you run the R code to create the object, `kittens`."}
 knitr::include_graphics("images/kittens-env.png")
 ```
+
