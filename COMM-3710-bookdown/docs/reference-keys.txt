@@ -1,4 +1,4 @@
-fig:unnamed-chunk-1
+fig:R-vs-RStudio
 intro
 what-is-r
 why-r

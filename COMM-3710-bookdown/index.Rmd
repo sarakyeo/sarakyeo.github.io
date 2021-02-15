@@ -68,13 +68,13 @@ If you are still wondering why we are using R instead of Microsoft Excel for dat
 
 ## R vs. RStudio
 
-The image below, from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
+Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
 
-```{r echo = FALSE, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)."}
+```{r R-vs-RStudio, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html).", echo = FALSE}
 
 knitr::include_graphics("images/R-vs-RStudio.png")
 
 ```
 
-Throughout this course, you will be using R via RStudio. This means that you will need to have **both R and RStudio installed on your computer**.
+Throughout this course, you will be using R via RStudio. This means that you will need to have **both R and RStudio installed on your computer**. New users often confuse R and RStudio. The analogy makes it clear that one cannot be functional without the other. Just like the dashboard of a car would not be functional without the engine and vice versa, RStudio and R are not functional without each other.
 
