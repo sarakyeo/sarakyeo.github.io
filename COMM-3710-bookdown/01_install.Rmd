@@ -1,7 +1,7 @@
 
 # Installing R and RStudio {#install}
 
-Remember that you need both R and RStudio. 
+Remember that you need both R and RStudio. Follow the instructions below to install both *programs* (also known as *applications*).
 
 ## Installing R
 
@@ -15,5 +15,12 @@ On a web browser, navigate to https://cloud.r-project.org/.
 
 On a web browser, go to https://rstudio.com/products/rstudio/download/. Scroll down to **All Installers**. Download and install the version of RStudio that corresponds to your operating system.
 
+---
 
+When you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use "base R." Figure \@ref(fig:open-R) shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer--one does not work without the other.
 
+```{r open-R, echo = FALSE, fig.cap = "Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio).", fig.align = "center"}
+
+knitr::include_graphics("images/open-RStudio.png")
+
+```

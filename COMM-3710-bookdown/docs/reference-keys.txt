@@ -1,4 +1,5 @@
 fig:R-vs-RStudio
+fig:open-R
 intro
 what-is-r
 why-r
