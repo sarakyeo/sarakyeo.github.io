@@ -2,6 +2,7 @@ fig:R-vs-RStudio
 fig:open-R
 fig:packages
 fig:install-load-packages
+fig:RStudio-panels
 intro
 what-is-r
 why-r
