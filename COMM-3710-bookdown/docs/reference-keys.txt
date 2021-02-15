@@ -1,5 +1,6 @@
 fig:R-vs-RStudio
 fig:open-R
+fig:packages
 intro
 what-is-r
 why-r
@@ -10,7 +11,10 @@ r-vs.-rstudio
 install
 installing-r
 installing-rstudio
-i-have-successfully-installed-r-and-rstudio.-now-what
+how-do-i-use-r
+some-basic-terminology-and-concepts
+errors-warnings-and-messages
+tips-for-learning-to-code
+r-packages
 setup
 workflow
-output-bookdowngitbook

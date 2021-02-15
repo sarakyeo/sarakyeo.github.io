@@ -74,7 +74,7 @@
 <li><a href="./">COMM 3710: Getting Started with R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> output: bookdown::gitbook</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-r"><i class="fa fa-check"></i><b>1.1</b> What is R?</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a><ul>
 <li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#ease-of-use"><i class="fa fa-check"></i><b>1.2.1</b> Ease of Use</a></li>
@@ -86,7 +86,12 @@
 <li class="chapter" data-level="2" data-path="install.html"><a href="install.html"><i class="fa fa-check"></i><b>2</b> Installing R and RStudio</a><ul>
 <li class="chapter" data-level="2.1" data-path="install.html"><a href="install.html#installing-r"><i class="fa fa-check"></i><b>2.1</b> Installing R</a></li>
 <li class="chapter" data-level="2.2" data-path="install.html"><a href="install.html#installing-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing RStudio</a></li>
-<li class="chapter" data-level="2.3" data-path="install.html"><a href="install.html#i-have-successfully-installed-r-and-rstudio.-now-what"><i class="fa fa-check"></i><b>2.3</b> I have successfully installed R and RStudio. Now what?</a></li>
+<li class="chapter" data-level="2.3" data-path="install.html"><a href="install.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="install.html"><a href="install.html#some-basic-terminology-and-concepts"><i class="fa fa-check"></i><b>2.3.1</b> Some basic terminology and concepts</a></li>
+<li class="chapter" data-level="2.3.2" data-path="install.html"><a href="install.html#errors-warnings-and-messages"><i class="fa fa-check"></i><b>2.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="2.3.3" data-path="install.html"><a href="install.html#tips-for-learning-to-code"><i class="fa fa-check"></i><b>2.3.3</b> Tips for learning to code</a></li>
+<li class="chapter" data-level="2.3.4" data-path="install.html"><a href="install.html#r-packages"><i class="fa fa-check"></i><b>2.3.4</b> R Packages</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
 <li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a></li>
@@ -127,6 +132,9 @@
 <p>On a web browser, go to <a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a>. Scroll down to <strong>All Installers</strong>. Download and install the version of RStudio that corresponds to your operating system.</p>
 <hr />
 <p>When you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use “base R.” Figure <a href="install.html#fig:open-R">2.1</a> shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer–one does not work without the other.</p>
+<blockquote>
+<p>From this point on, when “R” is referenced in the text, you know that you are accessing and using the language through RStudio.</p>
+</blockquote>
 <div class="figure" style="text-align: center"><span id="fig:open-R"></span>
 <img src="images/open-RStudio.png" alt="Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio)." width="770" />
 <p class="caption">
@@ -135,13 +143,15 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 </div>
 <hr />
 </div>
-<div id="i-have-successfully-installed-r-and-rstudio.-now-what" class="section level2">
-<h2><span class="header-section-number">2.3</span> I have successfully installed R and RStudio. Now what?</h2>
-<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<div id="how-do-i-use-r" class="section level2">
+<h2><span class="header-section-number">2.3</span> How do I use R?</h2>
+<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <p>In COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to <a href="https://jamesclear.com/beginners-guide-deliberate-practice">practice deliberately</a>.</p>
 <blockquote>
 <p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">(Clear <a href="#ref-clearBeginnerGuideDeliberate2017" role="doc-biblioref">2017</a>)</span></p>
 </blockquote>
+<div id="some-basic-terminology-and-concepts" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> Some basic terminology and concepts</h3>
 <p>Throughout the book, <code>R code</code> will be distinguished from text by using a different font. Let’s start with some basic terms:</p>
 <ul>
 <li><strong>Console</strong>: This is the pane in RStudio where you enter commands. Pressing Enter after each command runs it, i.e., it tells R to execute the command.</li>
@@ -150,7 +160,53 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 <li><strong>Logical operators</strong>: These are operators in R that represent “and” (<code>&amp;</code>) and “or” (<code>|</code>).</li>
 <li><strong>Functions</strong>: Functions are also known as <strong>commands</strong>. Functions and commands tell R what you want it to do. Functions take the form of <code>command()</code> with parentheses (or parents). The parentheses are for <strong>arguments</strong>, which give R specifics about the function you want it to perform.</li>
 </ul>
+</div>
+<div id="errors-warnings-and-messages" class="section level3">
+<h3><span class="header-section-number">2.3.2</span> Errors, warnings, and messages</h3>
+<p>R shows errors, warnings, and messages in the Console window. Typically, it does so in <span style="color: red;">red</span> font, which can be intimidating for new users. <strong>DO NOT WORRY–YOU ARE UNLIKELY TO “BREAK” R</strong>.</p>
+<blockquote>
+<p>Always read errors, warnings, or messages carefully; they often provide information that will help you troubleshoot the issue.</p>
+</blockquote>
+</div>
+<div id="tips-for-learning-to-code" class="section level3">
+<h3><span class="header-section-number">2.3.3</span> Tips for learning to code</h3>
+<p>Learning to code can be frustrating at first. Frustrations are understandable and inevitable. But with <a href="https://jamesclear.com/beginners-guide-deliberate-practice">deliberate practice</a>, your coding and programming skills will improve.</p>
+<p>Keep the following tips from McConville et al. <span class="citation">(<a href="#ref-ismayStatisticalInferenceData2021" role="doc-biblioref">2021</a>)</span> in mind as you learn to code in R:</p>
+<ul>
+<li><strong>Computers are not that smart.</strong> You are the brains of the computer–it needs to be told what to do. Instructions must be clear and without ambuguity.</li>
+<li><strong>Copy, paste, tweak.</strong> When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.</li>
+<li><strong>Learning by doing.</strong> The best way to learn coding/programming is by doing. This is why COMM 3710 includes a lab component. Individual lab assignments and group project components afford you the opportunity to learn how to code and use R by completing tasks with a goal in mind.</li>
+<li><strong>Practice, practice, practice.</strong> As with any skill, practice is necessary for improvement. Start on assignments early–anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students <strong>do not</strong> start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses–it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!</li>
+</ul>
+</div>
+<div id="r-packages" class="section level3">
+<h3><span class="header-section-number">2.3.4</span> R Packages</h3>
+<p>There is a worldwide community of R users (e.g., search for #RCatLadies on <a href="https://www.twitter.com">Twitter</a>) who write code and bundle them into packages to extend the functionality of R.</p>
+<p>Some examples that we will use in this course include <code>ggplot2</code> <span class="citation">(Wickham, Navarro, and Pederson <a href="#ref-wickhamGgplot2ElegantGraphics2020" role="doc-biblioref">2020</a>)</span>, <code>descr</code>, and <code>tidyverse</code>.</p>
+<p>Packages in R are like apps on your phone–they extend the functionality of the base technology (Figure <a href="install.html#fig:packages">2.2</a>).</p>
+<div class="figure" style="text-align: center"><span id="fig:packages"></span>
+<img src="images/packages.png" alt="R packages are to R what apps are to your mobile phone." width="700" />
+<p class="caption">
+Figure 2.2: R packages are to R what apps are to your mobile phone.
+</p>
+</div>
+<p>There are two steps to using apps to extend the functionality of your phone:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Install app on your device from app store.</strong> This is typically done only once. An app that has been installed on your phone does not require additional installation.</li>
+<li><strong>Open app from device.</strong> You must open the app every time you wish to use it.</li>
+</ol>
+<p>Similarly, R packages need to be <strong>installed</strong> on your computer and then opened and then <strong>loaded</strong> in R. Note where quotation marks are used and omitted in the commands.</p>
+<ol style="list-style-type: decimal">
+<li><strong>To install a package</strong>, type <code>install.packages()</code> in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the <code>descr</code> package, you would use the command <code>install.packages("descr")</code>. Like an app, you only need to install a package once.</li>
+<li><strong>To use a package</strong>, you must load it. This is like opening an app–it must be done everytime you open a new R session. To load a package, use the command <code>library()</code>. The argument within the parentheses is the name of the package you want to load. For example, to load the <code>descr</code> package, use <code>library(descr)</code>.</li>
+</ol>
+<p>Some <em>common errors related to installing and loading packages,</em> which R displays in <span style="color: red;">red</span> in the Console, are shown below:</p>
+<pre><code>Error in library(descr) : there is no package called ‘descr’</code></pre>
+<p>If you get this error, this means that you have not installed the package.</p>
+<pre><code>Error: could not find function</code></pre>
+<p>This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.</p>
 
+</div>
 </div>
 </div>
 <h3>References</h3>
@@ -158,11 +214,17 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 <div id="ref-clearBeginnerGuideDeliberate2017">
 <p>Clear, James. 2017. “The Beginner’s Guide to Deliberate Practice.” <em>James Clear</em>.</p>
 </div>
+<div id="ref-ismayStatisticalInferenceData2021">
+<p>Ismay, Chester, and Albert Y. Kim. 2021. <em>Statistical Inference via Data Science</em>.</p>
+</div>
+<div id="ref-wickhamGgplot2ElegantGraphics2020">
+<p>Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: Elegant Graphics for Data Analysis</em>. 3rd ed. Use R! New York, NY: Springer-Verlag.</p>
+</div>
 </div>
 <div class="footnotes">
 <hr />
-<ol start="2">
-<li id="fn2"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="install.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<ol start="3">
+<li id="fn3"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="install.html#fnref3" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>

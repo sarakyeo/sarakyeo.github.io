@@ -67,7 +67,7 @@ If you are still wondering why we are using R instead of Microsoft Excel for dat
 
 ## R vs. RStudio
 
-Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio [@mcconvilleStatisticalInferenceData2021].
+Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio [@ismayStatisticalInferenceData2021].
 
 ```{r R-vs-RStudio, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html).", echo = FALSE}
 

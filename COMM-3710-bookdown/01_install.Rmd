@@ -19,6 +19,8 @@ On a web browser, go to https://rstudio.com/products/rstudio/download/. Scroll d
 
 When you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use "base R." Figure \@ref(fig:open-R) shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer--one does not work without the other.
 
+> From this point on, when "R" is referenced in the text, you know that you are accessing and using the language through RStudio.
+
 ```{r open-R, echo = FALSE, fig.cap = "Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio).", fig.align = "center"}
 
 knitr::include_graphics("images/open-RStudio.png")
@@ -27,13 +29,15 @@ knitr::include_graphics("images/open-RStudio.png")
 
 ---
 
-## I have successfully installed R and RStudio. Now what?
+## How do I use R?
 
 Unlike Excel, which has a point-and-click GUI, R is an [interpreted language](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means that you, the user, must type in commands written in **R code**. In other words, this course will teach you to **code** or **program** using the R language.^[The terms *coding* and *programming* are used interchangeably in this book.]
 
 In COMM 3710, we will learn R by "doing." You are responsible for your own learning--the best way to master R is to [practice deliberately](https://jamesclear.com/beginners-guide-deliberate-practice). 
 
 > "While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance." [@clearBeginnerGuideDeliberate2017]
+
+### Some basic terminology and concepts
 
 Throughout the book, `R code` will be distinguished from text by using a different font. Let's start with some basic terms:
 
@@ -42,3 +46,58 @@ Throughout the book, `R code` will be distinguished from text by using a differe
 - **Dataframes**: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.
 - **Logical operators**: These are operators in R that represent "and" (`&`) and "or" (`|`).
 - **Functions**: Functions are also known as **commands**. Functions and commands tell R what you want it to do. Functions take the form of `command()` with parentheses (or parents). The parentheses are for **arguments**, which give R specifics about the function you want it to perform.
+
+### Errors, warnings, and messages
+
+R shows errors, warnings, and messages in the Console window. Typically, it does so in <span style="color: red;">red</span> font, which can be intimidating for new users. **DO NOT WORRY--YOU ARE UNLIKELY TO "BREAK" R**.
+
+> Always read errors, warnings, or messages carefully; they often provide information that will help you troubleshoot the issue.
+
+### Tips for learning to code
+
+Learning to code can be frustrating at first. Frustrations are understandable and inevitable. But with [deliberate practice](https://jamesclear.com/beginners-guide-deliberate-practice), your coding and programming skills will improve.
+
+Keep the following tips from McConville et al. [-@ismayStatisticalInferenceData2021] in mind as you learn to code in R:
+
+- **Computers are not that smart.** You are the brains of the computer--it needs to be told what to do. Instructions must be clear and without ambuguity.
+- **Copy, paste, tweak.** When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.
+- **Learning by doing.** The best way to learn coding/programming is by doing. This is why COMM 3710 includes a lab component. Individual lab assignments and group project components afford you the opportunity to learn how to code and use R by completing tasks with a goal in mind.
+- **Practice, practice, practice.** As with any skill, practice is necessary for improvement. Start on assignments early--anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students **do not** start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses--it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!
+
+### R Packages
+
+There is a worldwide community of R users (e.g., search for #RCatLadies on [Twitter](https://www.twitter.com)) who write code and bundle them into packages to extend the functionality of R. 
+
+Some examples that we will use in this course include `ggplot2` [@wickhamGgplot2ElegantGraphics2020], `descr`, and `tidyverse`.
+
+Packages in R are like apps on your phone--they extend the functionality of the base technology (Figure \@ref(fig:packages)).
+
+```{r packages, echo = FALSE, fig.cap = "R packages are to R what apps are to your mobile phone.", fig.align = "center"}
+
+knitr::include_graphics("images/packages.png")
+
+```
+
+There are two steps to using apps to extend the functionality of your phone:
+
+1) **Install app on your device from app store.** This is typically done only once. An app that has been installed on your phone does not require additional installation.
+2) **Open app from device.** You must open the app every time you wish to use it.  
+
+Similarly, R packages need to be **installed** on your computer and then opened and then **loaded** in R. Note where quotation marks are used and omitted in the commands.
+
+1) **To install a package**, type `install.packages()` in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the `descr` package, you would use the command `install.packages("descr")`. Like an app, you only need to install a package once.
+2) **To use a package**, you must load it. This is like opening an app--it must be done everytime you open a new R session. To load a package, use the command `library()`. The argument within the parentheses is the name of the package you want to load. For example, to load the `descr` package, use `library(descr)`.
+
+Some *common errors related to installing and loading packages,* which R displays in <span style="color: red;">red</span> in the Console, are shown below:
+
+```
+Error in library(descr) : there is no package called ‘descr’
+```
+
+If you get this error, this means that you have not installed the package.
+
+```
+Error: could not find function
+```
+
+This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.
