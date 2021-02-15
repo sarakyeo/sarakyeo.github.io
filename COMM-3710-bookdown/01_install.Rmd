@@ -277,11 +277,68 @@ View(mydata)
 
 After running the commands above, notice that your **Environment** panel now looks like Figure \@ref(fig:cat-env). Your data frame should look like Figure \@ref(fig:dataframe).
 
-```{r cat-env, echo = FALSE, out.width = "80%", fig.cap = "Your Environment panel should look like this once you have run the above code.", fig.align = "center"}
+```{r cat-env, echo=FALSE, out.width="80%", fig.cap="Your Environment panel should look like this once you have run the above code.", fig.align="center"}
 knitr::include_graphics("images/cat-env.png")
 ```
 
-```{r dataframe, echo = FALSE, out.width = "30%", fig.cap = "The data frame you just created.", fig.align = "center"}
+```{r dataframe, echo=FALSE, out.width="30%", fig.cap="The data frame you just created.", fig.align="center"}
 knitr::include_graphics("images/cat-data.png")
 ```
 
+Using the `mydata` data frame, we will calculate the mean number of cats an individual in our data set owns.
+
+```{r, prompt = TRUE}
+mean(mydata$cats)
+```
+
+The `$` allows us to extract a column of data, or a **variable**, from the `mydata` data frame. The use of `$` will be important when working with R throughout this course.
+
+To see how many females vs. males are included in the data frame, use the following command.
+
+```{r, prompt = TRUE}
+table(mydata$gender)
+```
+
+Let's now look at only the number of cats owned by males in our data. This means we need to **subset** the data. To do so, we use square brackets, `[]` combined with logical operators. In this case, we will use the logical operator, `==`, which means "equal to."
+
+```{r, prompt=TRUE}
+mydata$cats[mydata$gender == "male"]
+```
+
+To calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of `mydata`...
+
+```{r, prompt=TRUE}
+Monly <- subset(mydata, gender == "male")
+mean(Monly$cats) ## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.
+```
+
+or we can include the last command as an argument in the `mean()` function.
+
+```{r, prompt=TRUE}
+mean(mydata$cats[mydata$gender == "male"])
+```
+
+### Logical operators
+
+We used one possible logical operator, `==`, in the example above. Other logical operators include:
+
+* `<`: less than
+* `<=`: less than or equal to 
+* `>`: greater than
+* `>=`: greater than or equal to
+* `!=`: not equal to
+* `==`: equal to
+* `&`: and (e.g., `a & b` means "a AND b")
+* `|`: or (e.g., `a | b ` means "a OR b")
+
+We can also use `!` to specify a condition as **not** something. Returning to our example of the mean number of cats males in `mydata` own, we could instead calculate the mean of cats owned by all individuals who are `!= "female"` or "not female."
+
+```{r}
+mean(mydata$cats[mydata$gender != "female"])
+```
+
+Figure \@ref(fig:boolean) is a visual representation of the differences between some logical operators.
+
+```{r boolean, echo=FALSE, fig.cap="Differences between AND, OR, and NOT.", fig.align="center"}
+knitr::include_graphics("https://s3.amazonaws.com/libapps/accounts/7346/images/Boolean-Ven.jpg")
+```

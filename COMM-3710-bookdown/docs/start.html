@@ -159,6 +159,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.4.2" data-path="start.html"><a href="start.html#data-types"><i class="fa fa-check"></i><b>2.4.2</b> Data types</a></li>
 <li class="chapter" data-level="2.4.3" data-path="start.html"><a href="start.html#r-functions"><i class="fa fa-check"></i><b>2.4.3</b> R Functions</a></li>
 <li class="chapter" data-level="2.4.4" data-path="start.html"><a href="start.html#working-with-data-frames"><i class="fa fa-check"></i><b>2.4.4</b> Working with data frames</a></li>
+<li class="chapter" data-level="2.4.5" data-path="start.html"><a href="start.html#logical-operators"><i class="fa fa-check"></i><b>2.4.5</b> Logical operators</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
@@ -437,6 +438,49 @@ Figure 2.7: Your Environment panel should look like this once you have run the a
 <img src="images/cat-data.png" alt="The data frame you just created." width="30%" />
 <p class="caption">
 Figure 2.8: The data frame you just created.
+</p>
+</div>
+<p>Using the <code>mydata</code> data frame, we will calculate the mean number of cats an individual in our data set owns.</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="start.html#cb27-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(mydata<span class="op">$</span>cats)</span></code></pre></div>
+<pre><code>## [1] 2.714286</code></pre>
+<p>The <code>$</code> allows us to extract a column of data, or a <strong>variable</strong>, from the <code>mydata</code> data frame. The use of <code>$</code> will be important when working with R throughout this course.</p>
+<p>To see how many females vs. males are included in the data frame, use the following command.</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="start.html#cb29-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">table</span>(mydata<span class="op">$</span>gender)</span></code></pre></div>
+<pre><code>## 
+## female   male 
+##      4      3</code></pre>
+<p>Let’s now look at only the number of cats owned by males in our data. This means we need to <strong>subset</strong> the data. To do so, we use square brackets, <code>[]</code> combined with logical operators. In this case, we will use the logical operator, <code>==</code>, which means “equal to.”</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="start.html#cb31-1"></a><span class="op">&gt;</span><span class="st"> </span>mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>]</span></code></pre></div>
+<pre><code>## [1] 1 2 5</code></pre>
+<p>To calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of <code>mydata</code>…</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="start.html#cb33-1"></a><span class="op">&gt;</span><span class="st"> </span>Monly &lt;-<span class="st"> </span><span class="kw">subset</span>(mydata, gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>)</span>
+<span id="cb33-2"><a href="start.html#cb33-2"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(Monly<span class="op">$</span>cats) <span class="co">## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.</span></span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+<p>or we can include the last command as an argument in the <code>mean()</code> function.</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="start.html#cb35-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>])</span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+</div>
+<div id="logical-operators" class="section level3">
+<h3><span class="header-section-number">2.4.5</span> Logical operators</h3>
+<p>We used one possible logical operator, <code>==</code>, in the example above. Other logical operators include:</p>
+<ul>
+<li><code>&lt;</code>: less than</li>
+<li><code>&lt;=</code>: less than or equal to</li>
+<li><code>&gt;</code>: greater than</li>
+<li><code>&gt;=</code>: greater than or equal to</li>
+<li><code>!=</code>: not equal to</li>
+<li><code>==</code>: equal to</li>
+<li><code>&amp;</code>: and (e.g., <code>a &amp; b</code> means “a AND b”)</li>
+<li><code>|</code>: or (e.g., <code>a | b</code> means “a OR b”)</li>
+</ul>
+<p>We can also use <code>!</code> to specify a condition as <strong>not</strong> something. Returning to our example of the mean number of cats males in <code>mydata</code> own, we could instead calculate the mean of cats owned by all individuals who are <code>!= "female"</code> or “not female.”</p>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="start.html#cb37-1"></a><span class="kw">mean</span>(mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">!=</span><span class="st"> &quot;female&quot;</span>])</span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+<p>Figure <a href="start.html#fig:boolean">2.9</a> is a visual representation of the differences between some logical operators.</p>
+<div class="figure" style="text-align: center"><span id="fig:boolean"></span>
+<img src="https://s3.amazonaws.com/libapps/accounts/7346/images/Boolean-Ven.jpg" alt="Differences between AND, OR, and NOT."  />
+<p class="caption">
+Figure 2.9: Differences between AND, OR, and NOT.
 </p>
 </div>
 

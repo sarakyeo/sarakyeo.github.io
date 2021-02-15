@@ -8,6 +8,7 @@ fig:environment
 fig:kittens-env
 fig:cat-env
 fig:dataframe
+fig:boolean
 intro
 what-is-r
 why-r
@@ -29,5 +30,6 @@ creating-objects
 data-types
 r-functions
 working-with-data-frames
+logical-operators
 setup
 workflow
