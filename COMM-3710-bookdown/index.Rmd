@@ -51,7 +51,7 @@ Having to use the point-and-click interface, or the graphical user interface (GU
 
 R, on the other hand, is capable of reproducing analyses quickly and with different datasets. The commands for data analysis that you use in R can be saved as a script, which can then be run on multiple datasets. In other words, when we use R for data analysis, we do not have to "reinvent the (data analysis) wheel" as you would with Excel.
 
-## Visualization
+### Visualization
 
 For simple graphics, Excel (with its minimal learning curve) can suffice. However, it is cumbersome to create attractive and professional-quality tables and figures in Excel.
 
@@ -70,7 +70,7 @@ If you are still wondering why we are using R instead of Microsoft Excel for dat
 
 The image below, from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio.
 
-```{r echo = FALSE, fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)"}
+```{r echo = FALSE, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)."}
 
 knitr::include_graphics("images/R-vs-RStudio.png")
 
