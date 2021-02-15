@@ -1,8 +1,8 @@
 fig:R-vs-RStudio
 fig:open-R
+fig:RStudio-panels
 fig:packages
 fig:install-load-packages
-fig:RStudio-panels
 intro
 what-is-r
 why-r
@@ -14,14 +14,11 @@ install
 installing-r
 installing-rstudio
 how-do-i-use-r
+tour
 some-basic-terminology-and-concepts
 errors-warnings-and-messages
 tips-for-learning-to-code
 r-packages
-a-quick-tour-of-rstudio
+learning-by-doing
 setup
 workflow
-output-bookdowngitbook
-tour
-learning-by-doing-try-it-out
-learning-by-doing

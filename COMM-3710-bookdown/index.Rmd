@@ -1,6 +1,8 @@
 --- 
 title: "COMM 3710: Getting Started with R"
-author: "Sara K. Yeo"
+author: |
+        | Prof. Sara K. Yeo
+        | Prof. Ye Sun
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 # output: bookdown::gitbook
