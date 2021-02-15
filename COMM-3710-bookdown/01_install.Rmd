@@ -138,10 +138,11 @@ To start, let's execute a simple command. In the **Editor**, type:
 
 To run this command, which tells R to sum 4 and 8, highlight the command and click the <img src="images/run.png"/> button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).
 
-You will see the result of the command you just ran in the Console window.
+You will see the result of the command you just ran in the **Console** window. Note that the commands in the Console panel are preceded by `>`.
 
 ```
-## [1] 12
+> 4 + 8
+[1] 12
 ```
 
 Note that the `[1]` is produced by R. You can think of this as R telling you that this value, `12`, is the answer to the first question you asked.^[This is not exactly accurate, but it is close enough for now.]
@@ -155,7 +156,8 @@ Next, try:
 When you run this command, R will return the product of these two numbers.
 
 ```
-## [1] 9
+> 3 * 3
+[1] 9
 ```
 
 Although it is good practice to write and execute commands line-by-line when you are first writing a R script, it can  become tedious. To alleviate the tedium, you can run multiple commands at once by selecting all the lines that you want R to execute and using the keyboard shortcuts or the <img src="images/run.png"/> button.
@@ -167,7 +169,7 @@ Type the following two lines in your Editor and try running them together:
 16 / 4
 ```
 
-The results in your Console panel should look like this (note that the commands in the Console panel are preceded by `>`):
+The results in your Console panel should look like this:
 
 ```
 > 12 + 8
