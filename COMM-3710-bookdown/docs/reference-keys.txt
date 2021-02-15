@@ -3,6 +3,7 @@ fig:open-R
 fig:RStudio-panels
 fig:packages
 fig:install-load-packages
+tab:basic-ops
 intro
 what-is-r
 why-r

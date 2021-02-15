@@ -176,4 +176,19 @@ The results in your Console panel should look like this (note that the commands 
 [1] 4
 ```
 
+Table \@ref(tab:basic-ops) shows some basic arithmetic operations in R. Play around with these functions in R to familiarize yourself with the R interface.
+
+```{r basic-ops, echo = FALSE}
+
+df <- dplyr::tibble(Operation = c("addition/sum", "subtraction", "multiplication/product", "division", "power/exponent"),
+                    Operator = c("+", "-", "*", "/", "^"),
+                    Input = c("2 + 2", "9 - 2", "5 * 5", "12 / 3", "5 ^ 2"),
+                    Output = c(4, 7, 25, 4, 25))
+knitr::kable(
+  df, booktabs = TRUE,
+  caption = "Operations, operators, and example inputs and outputs in R."
+)
+
+```
+
 
