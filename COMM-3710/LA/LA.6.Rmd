@@ -10,14 +10,19 @@ urlcolor: blue
 ---
 
 # Resources
-- Before starting this assignment, watch this [video](https://youtu.be/IZoCbCQRmUE).
-- You may also find this [video](https://youtu.be/2uQCUBtqCfM) helpful for this assignment.
-- You can also refer to this site of [R resources and tutorials](https://rpubs.com/yesun/652965).
+|       I need help with...       |                    Link                    |
+|:--------------------------------|:-------------------------------------------|
+| Hypothesis testing              | https://youtu.be/08uylSp-CuI               |
+| Analysis of variance (ANOVA)    | https://youtu.be/2uQCUBtqCfM               |
+| Chi-square test of independence | https://youtu.be/Dnlp9vswwEk               |
+| Independent samples *t*-test    | https://youtu.be/ANMuuq502rE?t=590         |
+| Correlation                     | https://youtu.be/lf4HfHx2ASs               |
+| The basics of R                 | https://rpubs.com/yesun/Comm3710_helpwithR |
 
 ---
 
 # Instructions
-1. Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable. Ensure that the data management code and the frequency table for `season` are included in your submission.
+1. Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable. Ensure that the data management code and the frequency table for `season` are included in your R script and PDF submission, respectively.
 <br>
 
 2. Use an appropriate statistical test to determine whether there is a relationship between total bill and season. Then, answer the questions below.
@@ -66,6 +71,7 @@ urlcolor: blue
 </details>
 <br>
 
-3. Submit the following on Canvas:
+Submit the following on Canvas:
+
    (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
    (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.
