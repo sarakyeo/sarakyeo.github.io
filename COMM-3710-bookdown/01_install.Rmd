@@ -113,3 +113,15 @@ This error means that you likely did not load the package for this R session. Re
 ## A quick tour of RStudio
 
 Watch this [video](https://youtu.be/HWnanydsBCs) by Andy Field to take a quick tour of RStudio. 
+
+As you have learned from Andy Field’s video, the RStudio interface consists of four panels (Figure \@ref(fig:RStudio-panels)).
+
+> Wait! I only see 3 panels...
+
+If you happen to see only three panels, please select *File > New File > R Script*. Your RStudio should like like Figure \@ref(fig:RStudio-panels).
+
+```{r RStudio-panels, echo = FALSE, fig.cap = "Editor and Console windows in RStudio.", fig.align = "center"}
+
+knitr::include_graphics("images/RStudio-panels.png")
+
+```
