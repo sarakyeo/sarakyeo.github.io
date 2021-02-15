@@ -1,0 +1,8 @@
+intro
+what-is-r
+why-r
+ease-of-use
+replicating-analysis
+visualization
+setup
+workflow
