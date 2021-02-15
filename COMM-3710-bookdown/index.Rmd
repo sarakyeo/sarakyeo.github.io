@@ -79,7 +79,7 @@ Throughout this course, you will be using R via [RStudio](https://www.rstudio.co
 
 Remember that R is a programming language for statistical computing and graphics. RStudio, on the other hand, is an *integrated development environment (IDE)* that provides an interface and adds convenient features. Just like your dashboard has an odometer, navigation system, etc., that makes driving easier, using RStudio’s interface makes statistical computing using R much easier.
 
-Part of this [video](https://youtu.be/ZvPFKfNHBNQ) by Dr. Andy Field also describes the difference between R and RStudio.
+Part of this [video](https://youtu.be/ZvPFKfNHBNQ) by Dr. Andy Field also describes the difference between R and RStudio. This video will also show you how to install R and RStudio, which are covered in Chapter \@ref(install).
 
 
 
