@@ -21,3 +21,7 @@ r-packages
 a-quick-tour-of-rstudio
 setup
 workflow
+output-bookdowngitbook
+tour
+learning-by-doing-try-it-out
+learning-by-doing
