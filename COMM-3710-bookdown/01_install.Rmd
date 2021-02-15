@@ -83,7 +83,13 @@ There are two steps to using apps to extend the functionality of your phone:
 1) **Install app on your device from app store.** This is typically done only once. An app that has been installed on your phone does not require additional installation.
 2) **Open app from device.** You must open the app every time you wish to use it.  
 
-Similarly, R packages need to be **installed** on your computer and then opened and then **loaded** in R. Note where quotation marks are used and omitted in the commands.
+Similarly, R packages need to be **installed** on your computer and then opened and then **loaded** in R (Figure \@ref(fig:install-load-packages)). Note where quotation marks are used and omitted in the commands.
+
+```{r install-load-packages, echo = FALSE, fig.cap = "Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console--to run the commands written in the Editor, highlight and click *Run* in the top right corner.", fig.align = "center"}
+
+knitr:: include_graphics("images/install-load-packages.gif")
+
+```
 
 1) **To install a package**, type `install.packages()` in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the `descr` package, you would use the command `install.packages("descr")`. Like an app, you only need to install a package once.
 2) **To use a package**, you must load it. This is like opening an app--it must be done everytime you open a new R session. To load a package, use the command `library()`. The argument within the parentheses is the name of the package you want to load. For example, to load the `descr` package, use `library(descr)`.
@@ -101,3 +107,9 @@ Error: could not find function
 ```
 
 This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.
+
+---
+
+## A quick tour of RStudio
+
+Watch this [video](https://youtu.be/HWnanydsBCs) by Andy Field to take a quick tour of RStudio. 

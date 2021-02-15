@@ -1,6 +1,7 @@
 fig:R-vs-RStudio
 fig:open-R
 fig:packages
+fig:install-load-packages
 intro
 what-is-r
 why-r
@@ -16,5 +17,6 @@ some-basic-terminology-and-concepts
 errors-warnings-and-messages
 tips-for-learning-to-code
 r-packages
+a-quick-tour-of-rstudio
 setup
 workflow

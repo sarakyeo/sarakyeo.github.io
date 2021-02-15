@@ -92,6 +92,7 @@
 <li class="chapter" data-level="2.3.3" data-path="install.html"><a href="install.html#tips-for-learning-to-code"><i class="fa fa-check"></i><b>2.3.3</b> Tips for learning to code</a></li>
 <li class="chapter" data-level="2.3.4" data-path="install.html"><a href="install.html#r-packages"><i class="fa fa-check"></i><b>2.3.4</b> R Packages</a></li>
 </ul></li>
+<li class="chapter" data-level="2.4" data-path="install.html"><a href="install.html#a-quick-tour-of-rstudio"><i class="fa fa-check"></i><b>2.4</b> A quick tour of RStudio</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
 <li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a></li>
@@ -195,7 +196,13 @@ Figure 2.2: R packages are to R what apps are to your mobile phone.
 <li><strong>Install app on your device from app store.</strong> This is typically done only once. An app that has been installed on your phone does not require additional installation.</li>
 <li><strong>Open app from device.</strong> You must open the app every time you wish to use it.</li>
 </ol>
-<p>Similarly, R packages need to be <strong>installed</strong> on your computer and then opened and then <strong>loaded</strong> in R. Note where quotation marks are used and omitted in the commands.</p>
+<p>Similarly, R packages need to be <strong>installed</strong> on your computer and then opened and then <strong>loaded</strong> in R (Figure <a href="install.html#fig:install-load-packages">2.3</a>). Note where quotation marks are used and omitted in the commands.</p>
+<div class="figure" style="text-align: center"><span id="fig:install-load-packages"></span>
+<img src="images/install-load-packages.gif" alt="Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console--to run the commands written in the Editor, highlight and click *Run* in the top right corner."  />
+<p class="caption">
+Figure 2.3: Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console–to run the commands written in the Editor, highlight and click <em>Run</em> in the top right corner.
+</p>
+</div>
 <ol style="list-style-type: decimal">
 <li><strong>To install a package</strong>, type <code>install.packages()</code> in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the <code>descr</code> package, you would use the command <code>install.packages("descr")</code>. Like an app, you only need to install a package once.</li>
 <li><strong>To use a package</strong>, you must load it. This is like opening an app–it must be done everytime you open a new R session. To load a package, use the command <code>library()</code>. The argument within the parentheses is the name of the package you want to load. For example, to load the <code>descr</code> package, use <code>library(descr)</code>.</li>
@@ -205,8 +212,13 @@ Figure 2.2: R packages are to R what apps are to your mobile phone.
 <p>If you get this error, this means that you have not installed the package.</p>
 <pre><code>Error: could not find function</code></pre>
 <p>This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.</p>
-
+<hr />
 </div>
+</div>
+<div id="a-quick-tour-of-rstudio" class="section level2">
+<h2><span class="header-section-number">2.4</span> A quick tour of RStudio</h2>
+<p>Watch this <a href="https://youtu.be/HWnanydsBCs">video</a> by Andy Field to take a quick tour of RStudio.</p>
+
 </div>
 </div>
 <h3>References</h3>
