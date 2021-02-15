@@ -6,6 +6,8 @@ fig:install-load-packages
 tab:basic-ops
 fig:environment
 fig:kittens-env
+fig:cat-env
+fig:dataframe
 intro
 what-is-r
 why-r
@@ -18,11 +20,14 @@ installing-r
 installing-rstudio
 how-do-i-use-r
 tour
-some-basic-terminology-and-concepts
+terms
 errors-warnings-and-messages
 tips-for-learning-to-code
 r-packages
 learning-by-doing
 creating-objects
+data-types
+r-functions
+working-with-data-frames
 setup
 workflow
