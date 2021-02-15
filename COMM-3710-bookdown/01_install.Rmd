@@ -64,7 +64,7 @@ Keep the following tips from McConville et al. [-@ismayStatisticalInferenceData2
 - **Learning by doing.** The best way to learn coding/programming is by doing. This is why COMM 3710 includes a lab component. Individual lab assignments and group project components afford you the opportunity to learn how to code and use R by completing tasks with a goal in mind.
 - **Practice, practice, practice.** As with any skill, practice is necessary for improvement. Start on assignments early--anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students **do not** start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses--it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!
 
-### R Packages
+### R packages
 
 There is a worldwide community of R users (e.g., search for #RCatLadies on [Twitter](https://www.twitter.com)) who write code and bundle them into packages to extend the functionality of R. 
 
