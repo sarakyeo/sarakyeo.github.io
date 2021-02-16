@@ -1,18 +1,18 @@
 # Setting Up R for Assignments {#setup}
 
-## Step 1: Open RStudio
+## Open RStudio
 
 Remember that R is the engine while RStudio is your dashboard. When you head out in a car, you don't start by tinkering with the engine. Instead, you use the car via its dashboard.
 
 Similarly, we will interact and use R through RStudio.
 
-## Step 2: Create a new R script
+## Create a new R script
 
 ```{r new-script, echo = FALSE, fig.cap = "Open a new R script in RStudio.", fig.align = "center"}
 knitr:: include_graphics("images/new-R-script.gif")
 ```
 
-## Step 3: Prepare R script
+## Prepare R script
 
 To prepare your R script, use comments to type any relevant information about the script. Examples of relevant information include your name, your course, the semester during which you are enrolled in this course, the assignment name.
 
@@ -28,7 +28,7 @@ Once you have included information about your script as comments, you should **s
 knitr::include_graphics("images/set-working-dir.gif")
 ```
 
-## Step 4: Install and load packages
+## Install and load packages
 
 Next, you need to install and load the R packages (see \@ref(packages)) you will be using for this R session. Refer to section \@ref(packages) for the commands for installing and loading packages.
 

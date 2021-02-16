@@ -35,9 +35,9 @@ r-functions
 working-with-data-frames
 logical-operators
 setup
-step-1-open-rstudio
-step-2-create-a-new-r-script
-step-3-prepare-r-script
-step-4-install-and-load-packages
+open-rstudio
+create-a-new-r-script
+prepare-r-script
+install-and-load-packages
 saveRscript
 workflow
