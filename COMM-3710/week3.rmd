@@ -139,7 +139,7 @@ In [Steps in Meaning Analysis](https://sarakyeo.github.io/COMM-3710/week3.html#S
 Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/103810206/download?download_frd=1) reading.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QdoHRl4oM-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QdoHRl4oM-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 </center>
 <br>
 
