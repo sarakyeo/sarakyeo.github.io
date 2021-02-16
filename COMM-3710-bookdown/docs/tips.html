@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Tips, Habits, and Workflow | COMM 3710: Getting Started with R</title>
+  <title>Chapter 4 Tips on Working with R | COMM 3710: Getting Started with R</title>
   <meta name="description" content="A guide to getting started with R in COMM 3710." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Tips, Habits, and Workflow | COMM 3710: Getting Started with R" />
+  <meta property="og:title" content="Chapter 4 Tips on Working with R | COMM 3710: Getting Started with R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="openscapes/series" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Tips, Habits, and Workflow | COMM 3710: Getting Started with R" />
+  <meta name="twitter:title" content="Chapter 4 Tips on Working with R | COMM 3710: Getting Started with R" />
   
   <meta name="twitter:description" content="A guide to getting started with R in COMM 3710." />
   
@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="setup.html"/>
-
+<link rel="next" href="references.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,69 @@
 
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <link rel="stylesheet" href="lib/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="lib/css/style.css" type="text/css" />
@@ -112,10 +175,13 @@
 <li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
 <li class="chapter" data-level="3.6" data-path="setup.html"><a href="setup.html#compiling-your-r-script-into-a-pdf"><i class="fa fa-check"></i><b>3.6</b> Compiling your R script into a PDF</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="tips.html"><a href="tips.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a>
+<li class="chapter" data-level="4" data-path="tips.html"><a href="tips.html"><i class="fa fa-check"></i><b>4</b> Tips on Working with R</a>
 <ul>
 <li class="chapter" data-level="4.1" data-path="tips.html"><a href="tips.html#on-labeling-and-naming-objects"><i class="fa fa-check"></i><b>4.1</b> On labeling and naming objects</a></li>
+<li class="chapter" data-level="4.2" data-path="tips.html"><a href="tips.html#on-script-annotation"><i class="fa fa-check"></i><b>4.2</b> On script annotation</a></li>
+<li class="chapter" data-level="4.3" data-path="tips.html"><a href="tips.html#be-patient"><i class="fa fa-check"></i><b>4.3</b> Be patient</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
 
@@ -137,7 +203,7 @@
 
             <section class="normal" id="section-">
 <div id="tips" class="section level1" number="4">
-<h1><span class="header-section-number">Chapter 4</span> Tips, Habits, and Workflow</h1>
+<h1><span class="header-section-number">Chapter 4</span> Tips on Working with R</h1>
 <p>This chapter contains a collection of tips to help you progress on your R learning journey. Remember that there are many ways to achieve a goal using R code and there is a large community of R users who are often willing and able to help with troubleshooting code (e.g., <a href="https://stackoverflow.com/questions/tagged/r">Stack Overflow</a>, <a href="https://community.rstudio.com/">RStudio Community</a>).</p>
 <hr />
 <div id="on-labeling-and-naming-objects" class="section level2" number="4.1">
@@ -151,22 +217,66 @@
 Figure 4.1: All the cats. This image is from Aoshima Island, Japan. Read more about Aoshima Island <a href="https://www.theatlantic.com/photo/2015/03/a-visit-to-aoshima-a-cat-island-in-japan/386647/">here</a>.
 </p>
 </div>
+<ol start="2" style="list-style-type: decimal">
+<li><p><strong>Object names cannot include spaces.</strong> Therefore, <code>my result</code> is not a valid name, but <code>my.result</code> or <code>my_result</code> will work. You can also use numbers in object names.</p></li>
+<li><p><strong>Short, informative labels for objects are best.</strong> Obviously, there is some trade-off between labels that are informative (tend to be long) vs. those that are short (tend not to be specific). Use your own judgment and common sense when naming objects. Read more about R coding style in <a href="https://style.tidyverse.org/">the tidyverse style guide’s Chapters 1 and 2</a>.</p></li>
+</ol>
+<hr />
+</div>
+<div id="on-script-annotation" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> On script annotation</h2>
+<p>When writing R code, you should include explanations to your future self or to other team members (e.g., when conducting data analysis for your group project). These explanations can be included as comments and annotations to your R code in the script.</p>
+<p>Comments in R begin with <code>#</code>. R recognizes text that follows <code>#</code> as comments and ignores that text when running the code. Include annotations wherever possible; your future self and team members will thank you later.</p>
+<p>Below is an example of some code that includes annotations and comments. Note that you can use as many <code>#</code> as you want.</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="tips.html#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Start by defining an object</span></span>
+<span id="cb40-2"><a href="tips.html#cb40-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">+</span><span class="dv">5</span></span>
+<span id="cb40-3"><a href="tips.html#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="tips.html#cb40-4" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> x<span class="sc">+</span><span class="dv">6</span> <span class="co"># adding 2 to x and assigning the result to y for later use</span></span>
+<span id="cb40-5"><a href="tips.html#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-6"><a href="tips.html#cb40-6" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> x<span class="sc">*</span>y <span class="co"># z is the product of x and y</span></span>
+<span id="cb40-7"><a href="tips.html#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="tips.html#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(z) <span class="co"># this function displays the result of z in the Console</span></span>
+<span id="cb40-9"><a href="tips.html#cb40-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-10"><a href="tips.html#cb40-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Next, I want to determine the mean across x, y, and z</span></span>
+<span id="cb40-11"><a href="tips.html#cb40-11" aria-hidden="true" tabindex="-1"></a>xyz <span class="ot">&lt;-</span> <span class="fu">c</span>(x, y, z) <span class="co"># this combines x, y, and z</span></span>
+<span id="cb40-12"><a href="tips.html#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(xyz)</span>
+<span id="cb40-13"><a href="tips.html#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-14"><a href="tips.html#cb40-14" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(xyz) <span class="co"># this line calculates the mean of the object, xyz</span></span>
+<span id="cb40-15"><a href="tips.html#cb40-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-16"><a href="tips.html#cb40-16" aria-hidden="true" tabindex="-1"></a><span class="do">###############################################################################</span></span></code></pre></div>
+<p>When you run this script, R recognizes the commands and ignores the comments. However, the comments and annotations are saved in the R script–and your future self and the rest of your team will be grateful.</p>
+<pre><code>## [1] 112</code></pre>
+<pre><code>## [1]   8  14 112</code></pre>
+<pre><code>## [1] 44.66667</code></pre>
+<hr />
+</div>
+<div id="be-patient" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Be patient<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></h2>
+<blockquote>
+<p>“Whenever you’re learning a new tool, for a long time, you’re going to suck… But the good news is that is typical; that’s something that happens to everyone, and it’s only temporary.” -<em>Hadley Wickham</em></p>
+</blockquote>
+<p>The benefits of learning by doing slowly build and compound over time. This means that one <em>must invest time to learn R by doing</em>. You can expect the learning curve to look something like this:</p>
+<p><img src="series_files/figure-html/mastering-R-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>The following paragraph is an excerpt from Barrett’s <span class="citation">(<a href="references.html#ref-barrettDataScienceAtomic2021" role="doc-biblioref">2021</a>)</span> blog post. The <a href="https://malco.io/2021/01/04/data-science-as-an-atomic-habit/">original post</a> is worth reading and keeping in mind as you take this learning journey of R and, more broadly, data science.</p>
+<blockquote>
+<p>This is the stubbornly quiet path of practice: our abilities lag behind our effort. At the ‘Ugghhhh’ stage, our internal motivation starts to dissolve. Sure, you can make a plot or whatever, but you’re still fighting errors all day. What do you have to show for it at this point? Not that much more, you might feel, than when you started. But our growth is rarely linear: often, it’s explosive, at least at critical moments. We suddenly begin to make connections, which help us build other relationships, and so on. Growth is never infinite, but it’s also rarely as linked to our immediate efforts as we expect.</p>
+</blockquote>
 
 </div>
 </div>
-
-
-
-
-
-
+<div class="footnotes">
+<hr />
+<ol start="6">
+<li id="fn6"><p>Source: <span class="citation"><a href="references.html#ref-barrettDataScienceAtomic2021" role="doc-biblioref">Barrett</a> (<a href="references.html#ref-barrettDataScienceAtomic2021" role="doc-biblioref">2021</a>)</span><a href="tips.html#fnref6" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="setup.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="setup.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -216,6 +326,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

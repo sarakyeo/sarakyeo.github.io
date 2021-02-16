@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>COMM 3710: Getting Started with R</title>
+  <title>References | COMM 3710: Getting Started with R</title>
   <meta name="description" content="A guide to getting started with R in COMM 3710." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="COMM 3710: Getting Started with R" />
+  <meta property="og:title" content="References | COMM 3710: Getting Started with R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="openscapes/series" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="COMM 3710: Getting Started with R" />
+  <meta name="twitter:title" content="References | COMM 3710: Getting Started with R" />
   
   <meta name="twitter:description" content="A guide to getting started with R in COMM 3710." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="tips.html"/>
 
-<link rel="next" href="start.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -202,85 +202,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">COMM 3710: Getting Started with R</h1>
-<p class="author"><em><div class="line-block">Prof. Sara K. Yeo<br />
-Prof. Ye Sun</div></em></p>
-<p class="date"><em>2021-02-16</em></p>
-</div>
-<div id="intro" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<p>This is a guide for getting started and using R and RStudio in COMM 3710: Introduction to Quantitative Communication Research in the <a href="https://communication.utah.edu">Department of Communication</a> at the <a href="https://utah.edu">University of Utah</a>.</p>
-<hr />
-<div id="what-is-r" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> What is R?</h2>
-<blockquote>
-<p>“R is a language and environment for statistical computing and graphics.”<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-</blockquote>
-<p>You can always read more about R by visiting the homepage of the <a href="https://www.r-project.org/">R Project for Statistical Computing</a> but you are probably more interested in the answer to the following question:</p>
-<blockquote>
-<p>What is R in the context of COMM 3710?</p>
-</blockquote>
-<p>In this course, you will learn to install and use R for data analysis. In other words, R is the software that you will use to complete your <strong>individual lab assignments</strong> and the data analysis components of your <strong>group projects</strong>.</p>
-<hr />
-</div>
-<div id="why-r" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Why R?<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h2>
-<p>Increasingly, data are important components of decision-making in businesses. Whether you are looking at industry trends, generating financial statements and reports, analyzing market data, or creating visuals to communicate your work, you will need to know how to analyze data to efficiently, accurately, and professionally to develop reports and effectively communicate your findings. This course will help you become familiar with R, a powerful data analysis tool.</p>
-<p>Often, students ask why we use R instead of Microsoft Excel in this course.</p>
-<p>Here are some comparisons of R and Excel that highlight the reasons for using R:</p>
-<div id="ease-of-use" class="section level3" number="1.2.1">
-<h3><span class="header-section-number">1.2.1</span> Ease of Use</h3>
-<p>There is little doubt that Excel is much easier to use than R. Most of us already know many Excel basics and the learning curve is minimal compared to R. This is partly due to the point-and-click nature of Excel, allowing us to make simple charts and tables.</p>
-<p>R, on the other hand, is a <strong>programming language</strong>. This means that the initial learning curve is, for most, likely to be steeper than that of Excel. However, with practice and time, R becomes easier quickly and you will soon realize that R is a powerful tool for analysis and generating visuals from data.</p>
-</div>
-<div id="replicating-analysis" class="section level3" number="1.2.2">
-<h3><span class="header-section-number">1.2.2</span> Replicating Analysis</h3>
-<p>Having to use the point-and-click interface, or the graphical user interface (GUI), is a distinct disadvantage of Excel. Because you cannot import or use scripts, which are a collection of commands, <strong>in Excel, you must rely on memory to replicate your analysis</strong>.</p>
-<p>R, on the other hand, is capable of reproducing analyses quickly and with different datasets. The commands for data analysis that you use in R can be saved as a script, which can then be run on multiple datasets. In other words, when we use R for data analysis, we do not have to “reinvent the (data analysis) wheel” as you would with Excel.</p>
-</div>
-<div id="visualization" class="section level3" number="1.2.3">
-<h3><span class="header-section-number">1.2.3</span> Visualization</h3>
-<p>For simple graphics, Excel (with its minimal learning curve) can suffice. However, it is cumbersome to create attractive and professional-quality tables and figures in Excel.</p>
-<p>Visualization is where R excels (HAH, see what I did there!). When datasets begin to get complicated or large, R is better equipped to handle them without making errors and can create impressive and easily customizable visual representations.</p>
-<hr />
-<p>If you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel:</p>
-<ul>
-<li><a href="https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535">How the BBC Visual and Data Journalism team works with graphics in R</a></li>
-<li><a href="https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646">The Reinhart-Rogoff error - or How Not to Excel at Economics</a></li>
-</ul>
-<hr />
-</div>
-</div>
-<div id="r-vs.-rstudio" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> R vs. RStudio</h2>
-<p>Figure <a href="index.html#fig:R-vs-RStudio">1.1</a>, from <a href="https://moderndive.com/1-getting-started.html">ModernDive Chapter 1</a> is a good illustration of the distinction between R and RStudio <span class="citation">(<a href="references.html#ref-ismayStatisticalInferenceData2021" role="doc-biblioref">Ismay and Kim 2021</a>)</span>.</p>
-<div class="figure" style="text-align: center"><span id="fig:R-vs-RStudio"></span>
-<img src="images/R-vs-RStudio.png" alt="Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html)." width="815" />
-<p class="caption">
-Figure 1.1: Analogy of the difference between R and RStudio. Source: <a href="https://moderndive.com/1-getting-started.html">ModernDive Chapter 1</a>.
-</p>
-</div>
-<p>Throughout this course, you will be using R via <a href="https://www.rstudio.com">RStudio</a>. This means that you will need to have <strong>both R and RStudio installed on your computer</strong>. New users often confuse R and RStudio. The analogy makes it clear that one cannot be functional without the other. Just like the dashboard of a car would not be functional without the engine and vice versa, RStudio and R are not functional without each other.</p>
-<p>Remember that R is a programming language for statistical computing and graphics. RStudio, on the other hand, is an <em>integrated development environment (IDE)</em> that provides an interface and adds convenient features. Just like your dashboard has an odometer, navigation system, etc., that makes driving easier, using RStudio’s interface makes statistical computing using R much easier.</p>
-<p>Part of this <a href="https://youtu.be/ZvPFKfNHBNQ">video</a> by Andy Field describes the difference between R and RStudio. This video will also show you how to install R and RStudio, which are covered in Chapter <a href="start.html#install">2.1</a>.</p>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
 
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-barrettDataScienceAtomic2021" class="csl-entry">
+Barrett, Malcolm. 2021. <span>“Data Science as an Atomic Habit.”</span> <span>Malcolm Barrett</span>. January 4, 2021. <a href="https://malco.io/2021/01/04/data-science-as-an-atomic-habit/">https://malco.io/2021/01/04/data-science-as-an-atomic-habit/</a>.
+</div>
+<div id="ref-clearBeginnerGuideDeliberate2017" class="csl-entry">
+Clear, James. 2017. <span>“The <span>Beginner</span>’s <span>Guide</span> to <span>Deliberate Practice</span>.”</span> <span>James Clear</span>. January 23, 2017. <a href="https://jamesclear.com/beginners-guide-deliberate-practice">https://jamesclear.com/beginners-guide-deliberate-practice</a>.
+</div>
+<div id="ref-ismayStatisticalInferenceData2021" class="csl-entry">
+Ismay, Chester, and Albert Y. Kim. 2021. <em>Statistical <span>Inference</span> via <span>Data Science</span></em>. <a href="https://moderndive.com/">https://moderndive.com/</a>.
+</div>
+<div id="ref-wickhamGgplot2ElegantGraphics2020" class="csl-entry">
+Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: <span>Elegant Graphics</span> for <span>Data Analysis</span></em>. 3rd ed. Use <span>R</span>! <span>New York, NY</span>: <span>Springer-Verlag</span>. <a href="https://ggplot2-book.org/">https://ggplot2-book.org/</a>.
 </div>
 </div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p><a href="https://www.r-project.org/about.html" class="uri">https://www.r-project.org/about.html</a><a href="index.html#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>Adapted from <a href="https://www.northeastern.edu/graduate/blog/r-vs-excel/">R vs. Excel: What’s the Difference?</a><a href="index.html#fnref2" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
+
+
+
+
+
+
+
+
+
+
+
             </section>
 
           </div>
         </div>
       </div>
+<a href="tips.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="start.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -311,7 +268,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/sarakyeo/COMM-3710-bookdown/edit/master/index.Rmd",
+"link": "https://github.com/sarakyeo/COMM-3710-bookdown/edit/master/04_references.Rmd",
 "text": "Edit"
 },
 "history": {

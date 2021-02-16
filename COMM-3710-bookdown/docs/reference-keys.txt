@@ -13,6 +13,7 @@ fig:new-script
 fig:wd
 fig:fig-save
 fig:compile
+fig:cats
 intro
 what-is-r
 why-r
@@ -27,7 +28,7 @@ how-do-i-use-r
 tour
 terms
 errors-warnings-and-messages
-tips-for-learning-to-code
+learning-tips
 packages
 learning-by-doing
 creating-objects
@@ -43,6 +44,6 @@ install-and-load-packages
 saveRscript
 compiling-your-r-script-into-a-pdf
 tips
-fig:cats
-learning-tips
 on-labeling-and-naming-objects
+on-script-annotation
+be-patient
