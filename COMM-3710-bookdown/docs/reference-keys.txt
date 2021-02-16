@@ -9,6 +9,9 @@ fig:kittens-env
 fig:cat-env
 fig:dataframe
 fig:boolean
+fig:new-script
+fig:wd
+fig:fig-save
 intro
 what-is-r
 why-r
@@ -24,7 +27,7 @@ tour
 terms
 errors-warnings-and-messages
 tips-for-learning-to-code
-r-packages
+packages
 learning-by-doing
 creating-objects
 data-types
@@ -32,4 +35,9 @@ r-functions
 working-with-data-frames
 logical-operators
 setup
+step-1-open-rstudio
+step-2-create-a-new-r-script
+step-3-prepare-r-script
+step-4-install-and-load-packages
+saveRscript
 workflow

@@ -55,6 +55,7 @@ Throughout the book, `R code` will be distinguished from text by using a differe
 
 - **Console**: This is the panel in RStudio where you can view the output or results of your commands. Note that you can also enter commands in the Console panel. Pressing Enter after each command runs it, i.e., it tells R to execute the command.
 - **Editor**: This is the panel in RStudio where you type commands in language that R understands. Think of this as a script containing instructions for R. You can save this script, which makes the work you have done reproducible.
+- **R script**: A script is simply a text file containing a set of commands and comments. The script can be saved and used later to (re-)execute the saved commands. The script can also be edited so you can execute a modified version of the commands.
 - **Objects**: Values in R are saved in objects.
 - **Dataframes**: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.
 - **Logical operators**: These are operators in R that represent "and" (`&`) and "or" (`|`).
@@ -78,7 +79,7 @@ Keep the following tips from McConville et al. [-@ismayStatisticalInferenceData2
 - **Practice, practice, practice.** As with any skill, practice is necessary for improvement. Start on assignments early--anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students **do not** start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses--it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!
 - **R is case-sensitive.** Most coding mistakes are typos. This is exacerbated when the programming language, such as R, is case-sensitive. `Result`, `result`, and `RESULT` are all different in R!
 
-### R packages
+### R packages {#packages}
 
 There is a worldwide community of R users (e.g., search for #RCatLadies on [Twitter](https://www.twitter.com)) who write code and bundle them into packages to extend the functionality of R. 
 
@@ -122,7 +123,7 @@ This error means that you likely did not load the package for this R session. Re
 
 ## Learning by doing
 
-Let's try out some commands. Open RStudio and start a new R script. If you need a reminder, review section \@ref(tour).
+Let's try out some commands. Open RStudio and start a new R script. If you need a reminder of how to start a new R script, review section \@ref(tour). To save your R script, see Section \@ref(saveRscript)
 
 To start, let's execute a simple command. In the **Editor**, type the following command. Note that in this text, commands in R are preceded by `>`.
 ```{r eval = FALSE, prompt=TRUE}

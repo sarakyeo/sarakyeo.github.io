@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-02-15" />
+<meta name="date" content="2021-02-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,6 +32,7 @@
   
 <link rel="prev" href="setup.html"/>
 
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,22 +50,20 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +83,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -135,26 +134,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">COMM 3710: Getting Started with R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-r"><i class="fa fa-check"></i><b>1.1</b> What is R?</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a><ul>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a>
+<ul>
 <li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#ease-of-use"><i class="fa fa-check"></i><b>1.2.1</b> Ease of Use</a></li>
 <li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#replicating-analysis"><i class="fa fa-check"></i><b>1.2.2</b> Replicating Analysis</a></li>
 <li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#visualization"><i class="fa fa-check"></i><b>1.2.3</b> Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#r-vs.-rstudio"><i class="fa fa-check"></i><b>1.3</b> R vs. RStudio</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a><ul>
+<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="start.html"><a href="start.html#installing-r"><i class="fa fa-check"></i><b>2.1</b> Installing R</a></li>
 <li class="chapter" data-level="2.2" data-path="start.html"><a href="start.html#installing-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing RStudio</a></li>
-<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a><ul>
+<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="start.html"><a href="start.html#tour"><i class="fa fa-check"></i><b>2.3.1</b> A quick tour of RStudio</a></li>
 <li class="chapter" data-level="2.3.2" data-path="start.html"><a href="start.html#terms"><i class="fa fa-check"></i><b>2.3.2</b> Some basic terminology and concepts</a></li>
 <li class="chapter" data-level="2.3.3" data-path="start.html"><a href="start.html#errors-warnings-and-messages"><i class="fa fa-check"></i><b>2.3.3</b> Errors, warnings, and messages</a></li>
 <li class="chapter" data-level="2.3.4" data-path="start.html"><a href="start.html#tips-for-learning-to-code"><i class="fa fa-check"></i><b>2.3.4</b> Tips for learning to code</a></li>
-<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#r-packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
+<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a><ul>
+<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a>
+<ul>
 <li class="chapter" data-level="2.4.1" data-path="start.html"><a href="start.html#creating-objects"><i class="fa fa-check"></i><b>2.4.1</b> Creating objects</a></li>
 <li class="chapter" data-level="2.4.2" data-path="start.html"><a href="start.html#data-types"><i class="fa fa-check"></i><b>2.4.2</b> Data types</a></li>
 <li class="chapter" data-level="2.4.3" data-path="start.html"><a href="start.html#r-functions"><i class="fa fa-check"></i><b>2.4.3</b> R Functions</a></li>
@@ -162,7 +166,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.4.5" data-path="start.html"><a href="start.html#logical-operators"><i class="fa fa-check"></i><b>2.4.5</b> Logical operators</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
+<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="setup.html"><a href="setup.html#step-1-open-rstudio"><i class="fa fa-check"></i><b>3.1</b> Step 1: Open RStudio</a></li>
+<li class="chapter" data-level="3.2" data-path="setup.html"><a href="setup.html#step-2-create-a-new-r-script"><i class="fa fa-check"></i><b>3.2</b> Step 2: Create a new R script</a></li>
+<li class="chapter" data-level="3.3" data-path="setup.html"><a href="setup.html#step-3-prepare-r-script"><i class="fa fa-check"></i><b>3.3</b> Step 3: Prepare R script</a></li>
+<li class="chapter" data-level="3.4" data-path="setup.html"><a href="setup.html#step-4-install-and-load-packages"><i class="fa fa-check"></i><b>3.4</b> Step 4: Install and load packages</a></li>
+<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
@@ -184,23 +195,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="workflow" class="section level1">
+<div id="workflow" class="section level1" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Tips, Habits, and Workflow</h1>
-<p>Coming soon:</p>
-<ul>
-<li>Adding chapters</li>
-<li>Citations</li>
-</ul>
 
-<div id="refs" class="references">
-<div>
-<p>Clear, James. 2017. “The Beginner’s Guide to Deliberate Practice.” <em>James Clear</em>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-clearBeginnerGuideDeliberate2017" class="csl-entry">
+Clear, James. 2017. <span>“The <span>Beginner</span>’s <span>Guide</span> to <span>Deliberate Practice</span>.”</span> <em>James Clear</em>.
 </div>
-<div>
-<p>Ismay, Chester, and Albert Y. Kim. 2021. <em>Statistical Inference via Data Science</em>.</p>
+<div id="ref-ismayStatisticalInferenceData2021" class="csl-entry">
+Ismay, Chester, and Albert Y. Kim. 2021. <em>Statistical <span>Inference</span> via <span>Data Science</span></em>.
 </div>
-<div>
-<p>Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: Elegant Graphics for Data Analysis</em>. 3rd ed. Use R! New York, NY: Springer-Verlag.</p>
+<div id="ref-wickhamGgplot2ElegantGraphics2020" class="csl-entry">
+Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: <span>Elegant Graphics</span> for <span>Data Analysis</span></em>. 3rd ed. Use <span>R</span>! <span>New York, NY</span>: <span>Springer-Verlag</span>.
 </div>
 </div>
 </div>

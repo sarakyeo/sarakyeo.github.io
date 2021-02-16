@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-02-15" />
+<meta name="date" content="2021-02-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,6 +32,7 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="setup.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,22 +50,20 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +83,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -135,26 +134,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">COMM 3710: Getting Started with R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-r"><i class="fa fa-check"></i><b>1.1</b> What is R?</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a><ul>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a>
+<ul>
 <li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#ease-of-use"><i class="fa fa-check"></i><b>1.2.1</b> Ease of Use</a></li>
 <li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#replicating-analysis"><i class="fa fa-check"></i><b>1.2.2</b> Replicating Analysis</a></li>
 <li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#visualization"><i class="fa fa-check"></i><b>1.2.3</b> Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#r-vs.-rstudio"><i class="fa fa-check"></i><b>1.3</b> R vs. RStudio</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a><ul>
+<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="start.html"><a href="start.html#installing-r"><i class="fa fa-check"></i><b>2.1</b> Installing R</a></li>
 <li class="chapter" data-level="2.2" data-path="start.html"><a href="start.html#installing-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing RStudio</a></li>
-<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a><ul>
+<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="start.html"><a href="start.html#tour"><i class="fa fa-check"></i><b>2.3.1</b> A quick tour of RStudio</a></li>
 <li class="chapter" data-level="2.3.2" data-path="start.html"><a href="start.html#terms"><i class="fa fa-check"></i><b>2.3.2</b> Some basic terminology and concepts</a></li>
 <li class="chapter" data-level="2.3.3" data-path="start.html"><a href="start.html#errors-warnings-and-messages"><i class="fa fa-check"></i><b>2.3.3</b> Errors, warnings, and messages</a></li>
 <li class="chapter" data-level="2.3.4" data-path="start.html"><a href="start.html#tips-for-learning-to-code"><i class="fa fa-check"></i><b>2.3.4</b> Tips for learning to code</a></li>
-<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#r-packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
+<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a><ul>
+<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a>
+<ul>
 <li class="chapter" data-level="2.4.1" data-path="start.html"><a href="start.html#creating-objects"><i class="fa fa-check"></i><b>2.4.1</b> Creating objects</a></li>
 <li class="chapter" data-level="2.4.2" data-path="start.html"><a href="start.html#data-types"><i class="fa fa-check"></i><b>2.4.2</b> Data types</a></li>
 <li class="chapter" data-level="2.4.3" data-path="start.html"><a href="start.html#r-functions"><i class="fa fa-check"></i><b>2.4.3</b> R Functions</a></li>
@@ -162,7 +166,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.4.5" data-path="start.html"><a href="start.html#logical-operators"><i class="fa fa-check"></i><b>2.4.5</b> Logical operators</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
+<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="setup.html"><a href="setup.html#step-1-open-rstudio"><i class="fa fa-check"></i><b>3.1</b> Step 1: Open RStudio</a></li>
+<li class="chapter" data-level="3.2" data-path="setup.html"><a href="setup.html#step-2-create-a-new-r-script"><i class="fa fa-check"></i><b>3.2</b> Step 2: Create a new R script</a></li>
+<li class="chapter" data-level="3.3" data-path="setup.html"><a href="setup.html#step-3-prepare-r-script"><i class="fa fa-check"></i><b>3.3</b> Step 3: Prepare R script</a></li>
+<li class="chapter" data-level="3.4" data-path="setup.html"><a href="setup.html#step-4-install-and-load-packages"><i class="fa fa-check"></i><b>3.4</b> Step 4: Install and load packages</a></li>
+<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
@@ -184,19 +195,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="start" class="section level1">
+<div id="start" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Getting Started with R</h1>
 <p>Remember that you need both R and RStudio. Follow the instructions below to install both <em>programs</em> (also known as <em>applications</em>).</p>
-<div id="installing-r" class="section level2">
+<div id="installing-r" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Installing R</h2>
 <p>On a web browser, navigate to <a href="https://cloud.r-project.org/" class="uri">https://cloud.r-project.org/</a>.</p>
 <ul>
-<li>If you are a Windows user: Click on “Download R for Windows”, then click on “base”, then click on the Download link.</li>
-<li>If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of February 14, 2021, is R-4.0.3.</li>
+<li>If you are a Windows user: Click on “Download R for Windows,” then click on “base,” then click on the Download link.</li>
+<li>If you are macOS user: Click on “Download R for (Mac) OS X,” then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of February 14, 2021, is R-4.0.3.</li>
 <li>If you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.</li>
 </ul>
 </div>
-<div id="installing-rstudio" class="section level2">
+<div id="installing-rstudio" class="section level2" number="2.2">
 <h2><span class="header-section-number">2.2</span> Installing RStudio</h2>
 <p>On a web browser, go to <a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a>. Scroll down to <strong>All Installers</strong>. Download and install the version of RStudio that corresponds to your operating system.</p>
 <hr />
@@ -212,14 +223,14 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 </div>
 <hr />
 </div>
-<div id="how-do-i-use-r" class="section level2">
+<div id="how-do-i-use-r" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> How do I use R?</h2>
 <p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <p>In COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to <a href="https://jamesclear.com/beginners-guide-deliberate-practice">practice deliberately</a>.</p>
 <blockquote>
-<p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">(Clear <a href="#ref-clearBeginnerGuideDeliberate2017" role="doc-biblioref">2017</a>)</span></p>
+<p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">(<a href="workflow.html#ref-clearBeginnerGuideDeliberate2017" role="doc-biblioref">Clear 2017</a>)</span></p>
 </blockquote>
-<div id="tour" class="section level3">
+<div id="tour" class="section level3" number="2.3.1">
 <h3><span class="header-section-number">2.3.1</span> A quick tour of RStudio</h3>
 <p>Watch this <a href="https://youtu.be/HWnanydsBCs">video</a> by Andy Field to take a quick tour of RStudio.</p>
 <p>As you have learned from Andy Field’s video, the RStudio interface consists of four panels (Figure <a href="start.html#fig:RStudio-panels">2.2</a>).</p>
@@ -234,29 +245,30 @@ Figure 2.2: Editor and Console windows in RStudio.
 </p>
 </div>
 </div>
-<div id="terms" class="section level3">
+<div id="terms" class="section level3" number="2.3.2">
 <h3><span class="header-section-number">2.3.2</span> Some basic terminology and concepts</h3>
 <p>Throughout the book, <code>R code</code> will be distinguished from text by using a different font. Let’s start with some basic terms:</p>
 <ul>
 <li><strong>Console</strong>: This is the panel in RStudio where you can view the output or results of your commands. Note that you can also enter commands in the Console panel. Pressing Enter after each command runs it, i.e., it tells R to execute the command.</li>
 <li><strong>Editor</strong>: This is the panel in RStudio where you type commands in language that R understands. Think of this as a script containing instructions for R. You can save this script, which makes the work you have done reproducible.</li>
+<li><strong>R script</strong>: A script is simply a text file containing a set of commands and comments. The script can be saved and used later to (re-)execute the saved commands. The script can also be edited so you can execute a modified version of the commands.</li>
 <li><strong>Objects</strong>: Values in R are saved in objects.</li>
 <li><strong>Dataframes</strong>: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.</li>
 <li><strong>Logical operators</strong>: These are operators in R that represent “and” (<code>&amp;</code>) and “or” (<code>|</code>).</li>
 <li><strong>Functions</strong>: Functions are also known as <strong>commands</strong>. Functions and commands tell R what you want it to do. Functions take the form of <code>command()</code> with parentheses (or parents). The parentheses are for <strong>arguments</strong>, which give R specifics about the function you want it to perform.</li>
 </ul>
 </div>
-<div id="errors-warnings-and-messages" class="section level3">
+<div id="errors-warnings-and-messages" class="section level3" number="2.3.3">
 <h3><span class="header-section-number">2.3.3</span> Errors, warnings, and messages</h3>
 <p>R shows errors, warnings, and messages in the Console window. Typically, it does so in <span style="color: red;">red</span> font, which can be intimidating for new users. <strong>DO NOT WORRY–YOU ARE UNLIKELY TO “BREAK” R</strong>.</p>
 <blockquote>
 <p>Always read errors, warnings, or messages carefully; they often provide information that will help you troubleshoot the issue.</p>
 </blockquote>
 </div>
-<div id="tips-for-learning-to-code" class="section level3">
+<div id="tips-for-learning-to-code" class="section level3" number="2.3.4">
 <h3><span class="header-section-number">2.3.4</span> Tips for learning to code</h3>
 <p>Learning to code can be frustrating at first. Frustrations are understandable and inevitable. But with <a href="https://jamesclear.com/beginners-guide-deliberate-practice">deliberate practice</a>, your coding and programming skills will improve.</p>
-<p>Keep the following tips from McConville et al. <span class="citation">(<a href="#ref-ismayStatisticalInferenceData2021" role="doc-biblioref">2021</a>)</span> in mind as you learn to code in R:</p>
+<p>Keep the following tips from McConville et al. <span class="citation">(<a href="workflow.html#ref-ismayStatisticalInferenceData2021" role="doc-biblioref">2021</a>)</span> in mind as you learn to code in R:</p>
 <ul>
 <li><strong>Computers are not that smart.</strong> You are the brains of the computer–it needs to be told what to do. Instructions must be clear and without ambuguity.</li>
 <li><strong>Copy, paste, tweak.</strong> When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.</li>
@@ -265,10 +277,10 @@ Figure 2.2: Editor and Console windows in RStudio.
 <li><strong>R is case-sensitive.</strong> Most coding mistakes are typos. This is exacerbated when the programming language, such as R, is case-sensitive. <code>Result</code>, <code>result</code>, and <code>RESULT</code> are all different in R!</li>
 </ul>
 </div>
-<div id="r-packages" class="section level3">
+<div id="packages" class="section level3" number="2.3.5">
 <h3><span class="header-section-number">2.3.5</span> R packages</h3>
 <p>There is a worldwide community of R users (e.g., search for #RCatLadies on <a href="https://www.twitter.com">Twitter</a>) who write code and bundle them into packages to extend the functionality of R.</p>
-<p>Some examples that we will use in this course include <code>ggplot2</code> <span class="citation">(Wickham, Navarro, and Pederson <a href="#ref-wickhamGgplot2ElegantGraphics2020" role="doc-biblioref">2020</a>)</span>, <code>descr</code>, and <code>tidyverse</code>.</p>
+<p>Some examples that we will use in this course include <code>ggplot2</code> <span class="citation">(<a href="workflow.html#ref-wickhamGgplot2ElegantGraphics2020" role="doc-biblioref">Wickham, Navarro, and Pederson 2020</a>)</span>, <code>descr</code>, and <code>tidyverse</code>.</p>
 <p>Packages in R are like apps on your phone–they extend the functionality of the base technology (Figure <a href="start.html#fig:packages">2.3</a>).</p>
 <div class="figure" style="text-align: center"><span id="fig:packages"></span>
 <img src="images/packages.png" alt="R packages are to R what apps are to your mobile phone." width="700" />
@@ -300,23 +312,23 @@ Figure 2.4: Watch this gif to learn how to install and load packages in R. Note 
 <hr />
 </div>
 </div>
-<div id="learning-by-doing" class="section level2">
+<div id="learning-by-doing" class="section level2" number="2.4">
 <h2><span class="header-section-number">2.4</span> Learning by doing</h2>
-<p>Let’s try out some commands. Open RStudio and start a new R script. If you need a reminder, review section <a href="start.html#tour">2.3.1</a>.</p>
+<p>Let’s try out some commands. Open RStudio and start a new R script. If you need a reminder of how to start a new R script, review section <a href="start.html#tour">2.3.1</a>. To save your R script, see Section <a href="setup.html#saveRscript">3.5</a></p>
 <p>To start, let’s execute a simple command. In the <strong>Editor</strong>, type the following command. Note that in this text, commands in R are preceded by <code>&gt;</code>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="start.html#cb3-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">8</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="start.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">4</span> <span class="sc">+</span> <span class="dv">8</span></span></code></pre></div>
 <p>To run this command, which tells R to sum 4 and 8, highlight the command and click the <img src="images/run.png"/> button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).</p>
 <p>You will see the result of the command you just ran in the <strong>Console</strong> window.</p>
 <pre><code>## [1] 12</code></pre>
 <p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>Next, try:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="start.html#cb5-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="dv">3</span> <span class="op">*</span><span class="st"> </span><span class="dv">3</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="start.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">3</span></span></code></pre></div>
 <p>When you run this command, R will return the product of these two numbers.</p>
 <pre><code>## [1] 9</code></pre>
 <p>Although it is good practice to write and execute commands line-by-line when you are first writing a R script, it can become tedious. To alleviate the tedium, you can run multiple commands at once by selecting all the lines that you want R to execute and using the keyboard shortcuts or the <img src="images/run.png"/> button.</p>
 <p>Type the following two lines in your Editor and try running them together:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="start.html#cb7-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="dv">12</span> <span class="op">+</span><span class="st"> </span><span class="dv">8</span></span>
-<span id="cb7-2"><a href="start.html#cb7-2"></a><span class="op">&gt;</span><span class="st"> </span><span class="dv">16</span> <span class="op">/</span><span class="st"> </span><span class="dv">4</span></span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="start.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">12</span> <span class="sc">+</span> <span class="dv">8</span></span>
+<span id="cb7-2"><a href="start.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">16</span> <span class="sc">/</span> <span class="dv">4</span></span></code></pre></div>
 <p>The results in your Console panel should look like this:</p>
 <pre><code>## [1] 20</code></pre>
 <pre><code>## [1] 4</code></pre>
@@ -364,7 +376,7 @@ Figure 2.4: Watch this gif to learn how to install and load packages in R. Note 
 </tr>
 </tbody>
 </table>
-<div id="creating-objects" class="section level3">
+<div id="creating-objects" class="section level3" number="2.4.1">
 <h3><span class="header-section-number">2.4.1</span> Creating objects</h3>
 <p>R is an <a href="https://en.wikipedia.org/wiki/Object-oriented_programming"><strong>OOP</strong> or <strong>object-oriented programming</strong></a> language.</p>
 <p>You can think of an <strong>object</strong> as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the <strong>Environment</strong> (Figure <a href="start.html#fig:environment">2.5</a>), which is the one of the tabs in the top right panel of RStudio.</p>
@@ -377,10 +389,10 @@ Figure 2.5: The Environment panel in RStudio.
 <p>We assign information to an object by using the <strong>assignment operator</strong>, <code>&lt;-</code>. The generic code for creating an object looks like:</p>
 <pre><code>label &lt;- information</code></pre>
 <p>Let’s say that we want to save the result of <code>2 * 10</code> to an object and call it <code>kittens</code>. In the <strong>Editor</strong> window, type and run the following R code:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="start.html#cb11-1"></a><span class="op">&gt;</span><span class="st"> </span>kittens &lt;-<span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span><span class="dv">10</span></span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="start.html#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> kittens <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">*</span> <span class="dv">10</span></span></code></pre></div>
 <p>Notice that the result in the <strong>Console</strong> when you ran this command did not give you the result of <code>2 * 10</code>.</p>
 <p>This is because the result is stored as the object, <code>kittens</code>, and you have to ask R to display the result by calling the object. In the Editor, type <code>kittens</code> and run this command. You should see the result in the Console.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="start.html#cb12-1"></a><span class="op">&gt;</span><span class="st"> </span>kittens</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="start.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> kittens</span></code></pre></div>
 <pre><code>## [1] 20</code></pre>
 <p>Notice that the object, <code>kittens</code>, appeared in the <strong>Environment</strong> when you ran the command, <code>kittens &lt;- 2 * 10</code> (Figure <a href="start.html#fig:kittens-env">2.6</a>).</p>
 <div class="figure" style="text-align: center"><span id="fig:kittens-env"></span>
@@ -390,43 +402,43 @@ Figure 2.6: The Environment panel after you run the R code to create the object,
 </p>
 </div>
 </div>
-<div id="data-types" class="section level3">
+<div id="data-types" class="section level3" number="2.4.2">
 <h3><span class="header-section-number">2.4.2</span> Data types</h3>
 <p>R can store objects with different types of data. Let’s create three objects containing different data types.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="start.html#cb14-1"></a><span class="op">&gt;</span><span class="st"> </span>a &lt;-<span class="st"> </span><span class="fl">19.81</span></span>
-<span id="cb14-2"><a href="start.html#cb14-2"></a><span class="op">&gt;</span><span class="st"> </span>b &lt;-<span class="st"> &quot;Hello, Salt Lake City!&quot;</span></span>
-<span id="cb14-3"><a href="start.html#cb14-3"></a><span class="op">&gt;</span><span class="st"> </span>c &lt;-<span class="st"> </span><span class="ot">TRUE</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="start.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> a <span class="ot">&lt;-</span> <span class="fl">19.81</span></span>
+<span id="cb14-2"><a href="start.html#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> b <span class="ot">&lt;-</span> <span class="st">&quot;Hello, Salt Lake City!&quot;</span></span>
+<span id="cb14-3"><a href="start.html#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> c <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span></code></pre></div>
 <p>To check the type of data contained in objects <code>a</code>, <code>b</code>, and <code>c</code>, use the <code>class()</code> function.</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="start.html#cb15-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">class</span>(a)</span>
-<span id="cb15-2"><a href="start.html#cb15-2"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">class</span>(b)</span>
-<span id="cb15-3"><a href="start.html#cb15-3"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">class</span>(c)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="start.html#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(a)</span>
+<span id="cb15-2"><a href="start.html#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(b)</span>
+<span id="cb15-3"><a href="start.html#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(c)</span></code></pre></div>
 <p>Your Console should show:</p>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
 <pre><code>## [1] &quot;character&quot;</code></pre>
 <pre><code>## [1] &quot;logical&quot;</code></pre>
 <p><code>a</code> is numeric; <code>b</code> is a character string; <code>c</code> is a so-called “logical” data type that is either <code>TRUE</code> or <code>FALSE</code>. These data types can be organized into various data structures. For example, a data frame, such as the data files you will use in your assignments, is one data structure.</p>
 </div>
-<div id="r-functions" class="section level3">
+<div id="r-functions" class="section level3" number="2.4.3">
 <h3><span class="header-section-number">2.4.3</span> R Functions</h3>
 <p>As mentioned in Section <a href="start.html#terms">2.3.2</a>, functions are commands that tell R what you want it to do. Functions take the (generic) form of <code>command()</code> with parentheses (or parents). The parentheses are for <strong>arguments</strong>, which give R specifics about the function you want it to perform.</p>
 <p>For example, the <code>print()</code> function will print the result of the argument or input within the parentheses.</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="start.html#cb19-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">print</span>(<span class="st">&quot;Hello, SLC!&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="start.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="st">&quot;Hello, SLC!&quot;</span>)</span></code></pre></div>
 <pre><code>## [1] &quot;Hello, SLC!&quot;</code></pre>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="start.html#cb21-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">print</span>(<span class="dv">5</span> <span class="op">*</span><span class="st"> </span><span class="dv">10</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="start.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="dv">5</span> <span class="sc">*</span> <span class="dv">10</span>)</span></code></pre></div>
 <pre><code>## [1] 50</code></pre>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="start.html#cb23-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">print</span>(<span class="dv">3</span> <span class="op">&gt;</span><span class="st"> </span><span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="start.html#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="dv">3</span> <span class="sc">&gt;</span> <span class="dv">5</span>)</span></code></pre></div>
 <pre><code>## [1] FALSE</code></pre>
 </div>
-<div id="working-with-data-frames" class="section level3">
+<div id="working-with-data-frames" class="section level3" number="2.4.4">
 <h3><span class="header-section-number">2.4.4</span> Working with data frames</h3>
 <p>Let’s create a data frame to learn how to work with them. In the <strong>Editor</strong> panel, create a data frame by typing the following commands:</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="start.html#cb25-1"></a><span class="op">&gt;</span><span class="st"> </span>id &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">7</span></span>
-<span id="cb25-2"><a href="start.html#cb25-2"></a><span class="op">&gt;</span><span class="st"> </span>cats &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
-<span id="cb25-3"><a href="start.html#cb25-3"></a><span class="op">&gt;</span><span class="st"> </span>gender &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;female&#39;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="start.html#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> id <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">7</span></span>
+<span id="cb25-2"><a href="start.html#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> cats <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb25-3"><a href="start.html#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> gender <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;female&#39;</span>)</span></code></pre></div>
 <p>With the code above, you have created 3 objects, <code>id</code>, <code>cats</code>, and <code>gender</code>, using the <code>concatenate()</code> function, which can be shortened to <code>c()</code>. Assume these data represent 7 individuals who own a varying number of <code>cats</code>. And we have data on each individual’s <code>gender</code>.</p>
 <p>Let’s create a data frame from these individual objects.</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="start.html#cb26-1"></a><span class="op">&gt;</span><span class="st"> </span>mydata &lt;-<span class="st"> </span><span class="kw">data.frame</span>(id, gender, cats)</span>
-<span id="cb26-2"><a href="start.html#cb26-2"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">View</span>(mydata)</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="start.html#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> mydata <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(id, gender, cats)</span>
+<span id="cb26-2"><a href="start.html#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">View</span>(mydata)</span></code></pre></div>
 <p>After running the commands above, notice that your <strong>Environment</strong> panel now looks like Figure <a href="start.html#fig:cat-env">2.7</a>. Your data frame should look like Figure <a href="start.html#fig:dataframe">2.8</a>.</p>
 <div class="figure" style="text-align: center"><span id="fig:cat-env"></span>
 <img src="images/cat-env.png" alt="Your Environment panel should look like this once you have run the above code." width="80%" />
@@ -441,26 +453,26 @@ Figure 2.8: The data frame you just created.
 </p>
 </div>
 <p>Using the <code>mydata</code> data frame, we will calculate the mean number of cats an individual in our data set owns.</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="start.html#cb27-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(mydata<span class="op">$</span>cats)</span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="start.html#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(mydata<span class="sc">$</span>cats)</span></code></pre></div>
 <pre><code>## [1] 2.714286</code></pre>
 <p>The <code>$</code> allows us to extract a column of data, or a <strong>variable</strong>, from the <code>mydata</code> data frame. The use of <code>$</code> will be important when working with R throughout this course.</p>
 <p>To see how many females vs. males are included in the data frame, use the following command.</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="start.html#cb29-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">table</span>(mydata<span class="op">$</span>gender)</span></code></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="start.html#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">table</span>(mydata<span class="sc">$</span>gender)</span></code></pre></div>
 <pre><code>## 
 ## female   male 
 ##      4      3</code></pre>
 <p>Let’s now look at only the number of cats owned by males in our data. This means we need to <strong>subset</strong> the data. To do so, we use square brackets, <code>[]</code> combined with logical operators. In this case, we will use the logical operator, <code>==</code>, which means “equal to.”</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="start.html#cb31-1"></a><span class="op">&gt;</span><span class="st"> </span>mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="start.html#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>]</span></code></pre></div>
 <pre><code>## [1] 1 2 5</code></pre>
 <p>To calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of <code>mydata</code>…</p>
-<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="start.html#cb33-1"></a><span class="op">&gt;</span><span class="st"> </span>Monly &lt;-<span class="st"> </span><span class="kw">subset</span>(mydata, gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>)</span>
-<span id="cb33-2"><a href="start.html#cb33-2"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(Monly<span class="op">$</span>cats) <span class="co">## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.</span></span></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="start.html#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> Monly <span class="ot">&lt;-</span> <span class="fu">subset</span>(mydata, gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>)</span>
+<span id="cb33-2"><a href="start.html#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(Monly<span class="sc">$</span>cats) <span class="do">## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.</span></span></code></pre></div>
 <pre><code>## [1] 2.666667</code></pre>
 <p>or we can include the last command as an argument in the <code>mean()</code> function.</p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="start.html#cb35-1"></a><span class="op">&gt;</span><span class="st"> </span><span class="kw">mean</span>(mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">==</span><span class="st"> &quot;male&quot;</span>])</span></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="start.html#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>])</span></code></pre></div>
 <pre><code>## [1] 2.666667</code></pre>
 </div>
-<div id="logical-operators" class="section level3">
+<div id="logical-operators" class="section level3" number="2.4.5">
 <h3><span class="header-section-number">2.4.5</span> Logical operators</h3>
 <p>We used one possible logical operator, <code>==</code>, in the example above. Other logical operators include:</p>
 <ul>
@@ -474,7 +486,7 @@ Figure 2.8: The data frame you just created.
 <li><code>|</code>: or (e.g., <code>a | b</code> means “a OR b”)</li>
 </ul>
 <p>We can also use <code>!</code> to specify a condition as <strong>not</strong> something. Returning to our example of the mean number of cats males in <code>mydata</code> own, we could instead calculate the mean of cats owned by all individuals who are <code>!= "female"</code> or “not female.”</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="start.html#cb37-1"></a><span class="kw">mean</span>(mydata<span class="op">$</span>cats[mydata<span class="op">$</span>gender <span class="op">!=</span><span class="st"> &quot;female&quot;</span>])</span></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="start.html#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">!=</span> <span class="st">&quot;female&quot;</span>])</span></code></pre></div>
 <pre><code>## [1] 2.666667</code></pre>
 <p>Figure <a href="start.html#fig:boolean">2.9</a> is a visual representation of the differences between some logical operators.</p>
 <div class="figure" style="text-align: center"><span id="fig:boolean"></span>
@@ -485,18 +497,6 @@ Figure 2.9: Differences between AND, OR, and NOT.
 </div>
 
 </div>
-</div>
-</div>
-<h3>References</h3>
-<div id="refs" class="references">
-<div id="ref-clearBeginnerGuideDeliberate2017">
-<p>Clear, James. 2017. “The Beginner’s Guide to Deliberate Practice.” <em>James Clear</em>.</p>
-</div>
-<div id="ref-ismayStatisticalInferenceData2021">
-<p>Ismay, Chester, and Albert Y. Kim. 2021. <em>Statistical Inference via Data Science</em>.</p>
-</div>
-<div id="ref-wickhamGgplot2ElegantGraphics2020">
-<p>Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: Elegant Graphics for Data Analysis</em>. 3rd ed. Use R! New York, NY: Springer-Verlag.</p>
 </div>
 </div>
 <div class="footnotes">
@@ -543,7 +543,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/sarakyeo/COMM-3710-bookdown/edit/master/01_install.Rmd",
+"link": "https://github.com/sarakyeo/COMM-3710-bookdown/edit/master/01_get-started.Rmd",
 "text": "Edit"
 },
 "history": {

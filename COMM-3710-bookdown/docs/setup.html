@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-02-15" />
+<meta name="date" content="2021-02-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,6 +32,7 @@
   
 <link rel="prev" href="start.html"/>
 <link rel="next" href="workflow.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -49,22 +50,20 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +83,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -135,26 +134,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">COMM 3710: Getting Started with R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#what-is-r"><i class="fa fa-check"></i><b>1.1</b> What is R?</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a><ul>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r"><i class="fa fa-check"></i><b>1.2</b> Why R?</a>
+<ul>
 <li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#ease-of-use"><i class="fa fa-check"></i><b>1.2.1</b> Ease of Use</a></li>
 <li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#replicating-analysis"><i class="fa fa-check"></i><b>1.2.2</b> Replicating Analysis</a></li>
 <li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#visualization"><i class="fa fa-check"></i><b>1.2.3</b> Visualization</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#r-vs.-rstudio"><i class="fa fa-check"></i><b>1.3</b> R vs. RStudio</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a><ul>
+<li class="chapter" data-level="2" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>2</b> Getting Started with R</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="start.html"><a href="start.html#installing-r"><i class="fa fa-check"></i><b>2.1</b> Installing R</a></li>
 <li class="chapter" data-level="2.2" data-path="start.html"><a href="start.html#installing-rstudio"><i class="fa fa-check"></i><b>2.2</b> Installing RStudio</a></li>
-<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a><ul>
+<li class="chapter" data-level="2.3" data-path="start.html"><a href="start.html#how-do-i-use-r"><i class="fa fa-check"></i><b>2.3</b> How do I use R?</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="start.html"><a href="start.html#tour"><i class="fa fa-check"></i><b>2.3.1</b> A quick tour of RStudio</a></li>
 <li class="chapter" data-level="2.3.2" data-path="start.html"><a href="start.html#terms"><i class="fa fa-check"></i><b>2.3.2</b> Some basic terminology and concepts</a></li>
 <li class="chapter" data-level="2.3.3" data-path="start.html"><a href="start.html#errors-warnings-and-messages"><i class="fa fa-check"></i><b>2.3.3</b> Errors, warnings, and messages</a></li>
 <li class="chapter" data-level="2.3.4" data-path="start.html"><a href="start.html#tips-for-learning-to-code"><i class="fa fa-check"></i><b>2.3.4</b> Tips for learning to code</a></li>
-<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#r-packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
+<li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a><ul>
+<li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a>
+<ul>
 <li class="chapter" data-level="2.4.1" data-path="start.html"><a href="start.html#creating-objects"><i class="fa fa-check"></i><b>2.4.1</b> Creating objects</a></li>
 <li class="chapter" data-level="2.4.2" data-path="start.html"><a href="start.html#data-types"><i class="fa fa-check"></i><b>2.4.2</b> Data types</a></li>
 <li class="chapter" data-level="2.4.3" data-path="start.html"><a href="start.html#r-functions"><i class="fa fa-check"></i><b>2.4.3</b> R Functions</a></li>
@@ -162,7 +166,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.4.5" data-path="start.html"><a href="start.html#logical-operators"><i class="fa fa-check"></i><b>2.4.5</b> Logical operators</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a></li>
+<li class="chapter" data-level="3" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>3</b> Setting Up R for Assignments</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="setup.html"><a href="setup.html#step-1-open-rstudio"><i class="fa fa-check"></i><b>3.1</b> Step 1: Open RStudio</a></li>
+<li class="chapter" data-level="3.2" data-path="setup.html"><a href="setup.html#step-2-create-a-new-r-script"><i class="fa fa-check"></i><b>3.2</b> Step 2: Create a new R script</a></li>
+<li class="chapter" data-level="3.3" data-path="setup.html"><a href="setup.html#step-3-prepare-r-script"><i class="fa fa-check"></i><b>3.3</b> Step 3: Prepare R script</a></li>
+<li class="chapter" data-level="3.4" data-path="setup.html"><a href="setup.html#step-4-install-and-load-packages"><i class="fa fa-check"></i><b>3.4</b> Step 4: Install and load packages</a></li>
+<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>4</b> Tips, Habits, and Workflow</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
@@ -184,9 +195,54 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="setup" class="section level1">
+<div id="setup" class="section level1" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Setting Up R for Assignments</h1>
+<div id="step-1-open-rstudio" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Step 1: Open RStudio</h2>
+<p>Remember that R is the engine while RStudio is your dashboard. When you head out in a car, you don’t start by tinkering with the engine. Instead, you use the car via its dashboard.</p>
+<p>Similarly, we will interact and use R through RStudio.</p>
+</div>
+<div id="step-2-create-a-new-r-script" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Step 2: Create a new R script</h2>
+<div class="figure" style="text-align: center"><span id="fig:new-script"></span>
+<img src="images/new-R-script.gif" alt="Open a new R script in RStudio."  />
+<p class="caption">
+Figure 3.1: Open a new R script in RStudio.
+</p>
+</div>
+</div>
+<div id="step-3-prepare-r-script" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Step 3: Prepare R script</h2>
+<p>To prepare your R script, use comments to type any relevant information about the script. Examples of relevant information include your name, your course, the semester during which you are enrolled in this course, the assignment name.</p>
+<p>Comments in R are denoted by the hashtag symbol, <code>#</code>.</p>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="setup.html#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="do">## This is a comment.</span></span></code></pre></div>
+<p>Once you have included information about your script as comments, you should <strong>set your working directory</strong> (Figure <a href="setup.html#fig:wd">3.2</a>). You can use the command <code>setwd()</code> to do this or the shortcut keys: Ctrl + Shift + H (Windows/Mac).</p>
+<div class="figure" style="text-align: center"><span id="fig:wd"></span>
+<img src="images/set-working-dir.gif" alt="Set your working directory in RStudio using the function, `setwd()`."  />
+<p class="caption">
+Figure 3.2: Set your working directory in RStudio using the function, <code>setwd()</code>.
+</p>
+</div>
+</div>
+<div id="step-4-install-and-load-packages" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Step 4: Install and load packages</h2>
+<p>Next, you need to install and load the R packages (see <a href="start.html#packages">2.3.5</a>) you will be using for this R session. Refer to section <a href="start.html#packages">2.3.5</a> for the commands for installing and loading packages.</p>
+<hr />
+</div>
+<div id="saveRscript" class="section level2" number="3.5">
+<h2><span class="header-section-number">3.5</span> Saving your R script</h2>
+<p><strong>Be sure to save your work often.</strong></p>
+<p>You are likely familiar with file types like <em>.docx</em> (Word documents), <em>.pdf</em> (PDF documents), and <em>.txt</em> (text files). If you have not worked with R prior to enrolling in this course, you may not have encountered files with the extension <strong>.R</strong>.</p>
+<p>Files with a .R extension are known as <strong>R scripts</strong>. As noted in Section <a href="start.html#tour">2.3.1</a>, a R script is simply a text file containing a set of commands and comments.</p>
+<p>To save your script, click the <img src="images/save.png"/> icon in RStudio (Figure <a href="setup.html#fig:fig-save">3.3</a>).</p>
+<div class="figure" style="text-align: center"><span id="fig:fig-save"></span>
+<img src="images/saving-R-script.gif" alt="Saving your R script in RStudio."  />
+<p class="caption">
+Figure 3.3: Saving your R script in RStudio.
+</p>
+</div>
 
+</div>
 </div>
             </section>
 
