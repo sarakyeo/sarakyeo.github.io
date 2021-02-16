@@ -40,3 +40,5 @@ freq(hsub$sex) # freq table for sex (subset of data)
 
 ## 4b. 74.07% patients are at least 40 years old, have cocaine listed as his/her
 ##     primary abuse substance, and are male.
+
+Note that 'dplyr' and 'ggplot2' are included in the 'tidyverse' package--you only need to load the 'tidyverse' package in addition to 'descr'.
