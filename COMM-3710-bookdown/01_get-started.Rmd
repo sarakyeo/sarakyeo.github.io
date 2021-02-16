@@ -19,8 +19,6 @@ On a web browser, navigate to https://cloud.r-project.org/.
 
 On a web browser, go to https://rstudio.com/products/rstudio/download/. Scroll down to **All Installers**. Download and install the version of RStudio that corresponds to your operating system.
 
----
-
 When you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use "base R." Figure \@ref(fig:open-R) shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer--one does not work without the other.
 
 > From this point on, when "R" is referenced in the text, you know that you are accessing and using the language through RStudio.
