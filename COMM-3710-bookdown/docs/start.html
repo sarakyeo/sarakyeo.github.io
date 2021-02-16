@@ -227,7 +227,7 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 </div>
 <div id="how-do-i-use-r" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> How do I use R?</h2>
-<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <p>In COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to <a href="https://jamesclear.com/beginners-guide-deliberate-practice">practice deliberately</a>.</p>
 <blockquote>
 <p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">(<a href="workflow.html#ref-clearBeginnerGuideDeliberate2017" role="doc-biblioref">Clear 2017</a>)</span></p>
@@ -322,7 +322,7 @@ Figure 2.4: Watch this gif to learn how to install and load packages in R. Note 
 <p>To run this command, which tells R to sum 4 and 8, highlight the command and click the <img src="images/run.png"/> button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).</p>
 <p>You will see the result of the command you just ran in the <strong>Console</strong> window.</p>
 <pre><code>## [1] 12</code></pre>
-<p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>Next, try:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="start.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">3</span></span></code></pre></div>
 <p>When you run this command, R will return the product of these two numbers.</p>
@@ -503,9 +503,9 @@ Figure 2.9: Differences between AND, OR, and NOT.
 </div>
 <div class="footnotes">
 <hr />
-<ol start="2">
-<li id="fn2"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="start.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>This is not exactly accurate, but it is close enough for now.<a href="start.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<ol start="3">
+<li id="fn3"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="start.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>This is not exactly accurate, but it is close enough for now.<a href="start.html#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -564,6 +564,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

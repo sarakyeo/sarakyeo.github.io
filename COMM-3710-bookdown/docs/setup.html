@@ -208,6 +208,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="create-a-new-r-script" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Create a new R script</h2>
+<p>To start a new R script, use the <em>File</em> menu or the shortcut keys Ctrl + Shift + N (Windows) or Cmd + Shift + N (Mac).<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
 <div class="figure" style="text-align: center"><span id="fig:new-script"></span>
 <img src="images/new-R-script.gif" alt="Open a new R script in RStudio."  />
 <p class="caption">
@@ -251,8 +252,25 @@ Figure 3.3: Saving your R script in RStudio.
 </div>
 <div id="compiling-your-r-script-into-a-pdf" class="section level2" number="3.6">
 <h2><span class="header-section-number">3.6</span> Compiling your R script into a PDF</h2>
+<p>Most of your assignments will require you to submit a PDF document in addition to your R script. There are two main ways to create a PDF document for your assignments:</p>
+<ol style="list-style-type: decimal">
+<li>Open a Microsoft Word document and copy and paste the necessary text into that document while you work. Remember to save often. Once you have completed the assignment, save the Word document as a PDF document.</li>
+<li>Have R compile your script into a PDF document. You can do this through the GUI by clicking on <em>File</em> <span class="math inline">\(\rightarrow\)</span> <em>Knit Document</em>. When the dialog box appears, select <em>PDF</em> as the <em>Report output format</em> and click <em>Compile</em> (Figure <a href="setup.html#fig:compile">3.4</a>).</li>
+</ol>
+<div class="figure" style="text-align: center"><span id="fig:compile"></span>
+<img src="images/compile-pdf.gif" alt="Compiling a PDF from your R script in RStudio."  />
+<p class="caption">
+Figure 3.4: Compiling a PDF from your R script in RStudio.
+</p>
+</div>
 
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="5">
+<li id="fn5"><p>Keyboard shortcuts are available under <em>Tools</em> <span class="math inline">\(\rightarrow\)</span> <em>Keyboard Shortcuts Help</em>.<a href="setup.html#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
@@ -310,6 +328,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

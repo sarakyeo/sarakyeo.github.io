@@ -12,6 +12,7 @@ fig:boolean
 fig:new-script
 fig:wd
 fig:fig-save
+fig:compile
 intro
 what-is-r
 why-r
