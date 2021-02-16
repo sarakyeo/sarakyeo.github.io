@@ -1,0 +1,17 @@
+# Tips, Habits, and Workflow {#tips}
+
+This chapter contains a collection of tips to help you progress on your R learning journey. Remember that there are many ways to achieve a goal using R code and there is a large community of R users who are often willing and able to help with troubleshooting code (e.g., [Stack Overflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/)).
+
+---
+
+## On labeling and naming objects
+
+1. **R is case-sensitive**. We covered this in Section \@ref(learning-tips) but it is important enough to repeat. `CATS`, `cats`, `Cats`, `cAts`, and `caTs` are all different objects in R (Figure \@ref(fig:cats))!
+
+```{r cats, echo=FALSE, fig.align='center', fig.cap="All the cats. This image is from Aoshima Island, Japan. Read more about Aoshima Island [here](https://www.theatlantic.com/photo/2015/03/a-visit-to-aoshima-a-cat-island-in-japan/386647/)."}
+knitr::include_graphics("images/aoshima-cats.jpg")
+```
+
+2. **Object names cannot include spaces.** Therefore, `my result` is not a valid name, but `my.result` or `my_result` will work. You can also use numbers in object names.
+
+3. **Short, informative labels for objects are best.** Obviously, there is some trade-off between labels that are informative (tend to be long) vs. those that are short (tend not to be specific). Use your own judgment and common sense when naming objects. Read more about the style guides in [the tidyverse style guide](https://style.tidyverse.org/) and [Google's R style guide](https://google.github.io/styleguide/Rguide.html).
