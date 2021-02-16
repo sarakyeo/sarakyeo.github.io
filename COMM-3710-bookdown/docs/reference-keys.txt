@@ -40,4 +40,5 @@ create-a-new-r-script
 prepare-r-script
 install-and-load-packages
 saveRscript
+compiling-your-r-script-into-a-pdf
 workflow

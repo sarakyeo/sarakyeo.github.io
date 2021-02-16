@@ -1,5 +1,9 @@
 # Setting Up R for Assignments {#setup}
 
+In this course you will use R for individual lab assignments and group project components. This chapter walks you through setting up R in preparation for completing assignments. Although you may have to refer to this chapter the first few times you set up R, you will soon become accustomed to the process and it will be a natural part of your workflow.
+
+---
+
 ## Open RStudio
 
 Remember that R is the engine while RStudio is your dashboard. When you head out in a car, you don't start by tinkering with the engine. Instead, you use the car via its dashboard.
