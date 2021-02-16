@@ -73,7 +73,7 @@ R shows errors, warnings, and messages in the Console window. Typically, it does
 
 Learning to code can be frustrating at first. Frustrations are understandable and inevitable. But with [deliberate practice](https://jamesclear.com/beginners-guide-deliberate-practice), your coding and programming skills will improve.
 
-Keep the following tips from McConville et al. [-@ismayStatisticalInferenceData2021] in mind as you learn to code in R:
+Keep the following tips from Ismay and Kim [-@ismayStatisticalInferenceData2021] in mind as you learn to code in R:
 
 - **Computers are not that smart.** You are the brains of the computer--it needs to be told what to do. Instructions must be clear and without ambuguity.
 - **Copy, paste, tweak.** When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.
