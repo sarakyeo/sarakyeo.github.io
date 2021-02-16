@@ -6,11 +6,15 @@ Remember that R is the engine while RStudio is your dashboard. When you head out
 
 Similarly, we will interact and use R through RStudio.
 
+---
+
 ## Create a new R script
 
 ```{r new-script, echo = FALSE, fig.cap = "Open a new R script in RStudio.", fig.align = "center"}
 knitr:: include_graphics("images/new-R-script.gif")
 ```
+
+---
 
 ## Prepare R script
 
@@ -28,6 +32,8 @@ Once you have included information about your script as comments, you should **s
 knitr::include_graphics("images/set-working-dir.gif")
 ```
 
+---
+
 ## Install and load packages
 
 Next, you need to install and load the R packages (see \@ref(packages)) you will be using for this R session. Refer to section \@ref(packages) for the commands for installing and loading packages.
@@ -42,9 +48,15 @@ You are likely familiar with file types like *.docx* (Word documents), *.pdf* (P
 
 Files with a .R extension are known as **R scripts**. As noted in Section \@ref(tour), a R script is simply a text file containing a set of commands and comments.
 
-To save your script, click the <img src="images/save.png"/> icon in RStudio (Figure \@ref(fig:fig-save)).
+To save your script, click the <img src="images/save.png"/> icon in RStudio or use the *File* menu (Figure \@ref(fig:fig-save)). Give the file a sensible name and click *Save*. The file will be saved as <filename>.R in your working directory.
 
 ```{r fig-save, echo=FALSE, fig.cap="Saving your R script in RStudio.", fig.align='center'}
 knitr::include_graphics("images/saving-R-script.gif")
 ```
+
+---
+
+## Compiling your R script into a PDF
+
+
 
