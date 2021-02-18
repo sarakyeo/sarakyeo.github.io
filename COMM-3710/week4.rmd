@@ -271,6 +271,13 @@ All these examples have mutually exclusive categories, the distances between var
 
 ### Summary
 
+Here's an illustration to help you remember nominal, ordinal, and binary measures (remember that binary measures are a special case of nominal measures).^[Artwork by [Allison Horst](https://twitter.com/allison_horst)]
+
+<center>
+<img src="https://sarakyeo.github.io/images/nominal_ordinal_binary.png"/>
+</center>
+<br>
+
 The figure below helps visualize the four levels of measurement based on how precise (or how much information contained in each level) they are.
 
 <center>
