@@ -95,6 +95,12 @@ ggplot() +
   theme_void(24)
 ```
 
+Expect to ride the R rollercoaster (Figure \@ref(fig:r-coaster)).
+
+```{r r-coaster, echo=FALSE, fig.align='center', fig.cap="The R rollercoaster. Artwork by [Allison Horst](https://twitter.com/allison_horst)."}
+knitr::include_graphics("images/r_rollercoaster.png")
+```
+
 The following paragraph is an excerpt from Barrett's [-@barrettDataScienceAtomic2021] blog post. The [original post](https://malco.io/2021/01/04/data-science-as-an-atomic-habit/) is worth reading and keeping in mind as you take this learning journey of R and, more broadly, data science.
 
 > This is the stubbornly quiet path of practice: our abilities lag behind our effort. At the 'Ugghhhh' stage, our internal motivation starts to dissolve. Sure, you can make a plot or whatever, but you're still fighting errors all day. What do you have to show for it at this point? Not that much more, you might feel, than when you started. But our growth is rarely linear: often, it’s explosive, at least at critical moments. We suddenly begin to make connections, which help us build other relationships, and so on. Growth is never infinite, but it’s also rarely as linked to our immediate efforts as we expect.
