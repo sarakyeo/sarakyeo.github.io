@@ -53,11 +53,8 @@ First, identify whether the independent and dependent variables are quantitative
 The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If $p < 0.05$, then the relationship is significant.
 
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chisq.png" alt="LA.6 chi-sq output"/>
-
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_t-test.png" alt="LA.6 t-test output"/>
-         
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_ANOVA.png" alt="LA.6 ANOVA output"/>
-         
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png" alt="LA.6 cor output"/>
 
 ## Step 3
