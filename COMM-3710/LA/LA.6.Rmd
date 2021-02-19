@@ -23,10 +23,10 @@ urlcolor: blue
 ---
 
 # Instructions
-## Question 1
+## Step 1
 Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable. Ensure that the data management code and the frequency table for `season` are included in your R script and PDF submission, respectively.
 
-## Question 2 {.tabset .tabset-fade .tabset-pills}
+## Step 2 {.tabset .tabset-fade .tabset-pills}
 ### Question
 Use an appropriate statistical test to determine whether there is a relationship between total bill and season. Then, answer the questions below.
 
@@ -60,7 +60,8 @@ The images below identify the test statistics and *p*-values in R output. Be sur
          
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png" alt="LA.6 cor output"/>
 
-## Submit the following on Canvas
+## Step 3
+Submit the following on Canvas:
 
    (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
    (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.
