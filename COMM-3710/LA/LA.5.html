@@ -297,99 +297,99 @@ div.tocify {
 <li><code>donate</code>: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need</li>
 </ul>
 <hr />
-<div id="instructions" class="section level2">
-<h2>Instructions</h2>
-<div id="step-1" class="section level3 tabset tabset-fade tabset-pills">
-<h3 class="tabset tabset-fade tabset-pills">Step 1</h3>
-<div id="question" class="section level4">
-<h4>Question</h4>
+</div>
+<div id="instructions" class="section level1">
+<h1>Instructions</h1>
+<div id="step-1" class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Step 1</h2>
+<div id="question" class="section level3">
+<h3>Question</h3>
 <p>Import the <a href="https://utah.instructure.com/files/108105204/download?download_frd=1">Utilities.csv</a> data set. Use the codebook above to familiarize yourself with the variables.</p>
 </div>
-<div id="hint" class="section level4">
-<h4>Hint</h4>
+<div id="hint" class="section level3">
+<h3>Hint</h3>
 <p>Review LA.3 or LA.4 for the command to read the data into a dataframe.</p>
 </div>
 </div>
-<div id="step-2" class="section level3 tabset tabset-fade tabset-pills">
-<h3 class="tabset tabset-fade tabset-pills">Step 2</h3>
-<div id="question-1" class="section level4">
-<h4>Question</h4>
+<div id="step-2" class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Step 2</h2>
+<div id="question-1" class="section level3">
+<h3>Question</h3>
 <p>Make a histogram to display the distribution of customers’ total monthly bill (include the graph in your PDF submission) and answer the following question.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric (see Wrench Ch. 14: Skewness and Kurtosis for an explanation of skewness or watch Video 06 starting at 14:02)? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?</li>
 </ol>
 </div>
-<div id="hint-1" class="section level4">
-<h4>Hint</h4>
+<div id="hint-1" class="section level3">
+<h3>Hint</h3>
 <p>To create a histogram, watch Video 06. The <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
 <p>In the bottom right <strong>Plot</strong> screen in RStudio, you can <strong>Export</strong> the graph as an image or <strong>Copy</strong> and paste it in your Word document before saving the Word document as a PDF.</p>
 </div>
 </div>
-<div id="step-3" class="section level3 tabset tabset-fade tabset-pills">
-<h3 class="tabset tabset-fade tabset-pills">Step 3</h3>
-<div id="question-2" class="section level4">
-<h4>Question</h4>
+<div id="step-3" class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Step 3</h2>
+<div id="question-2" class="section level3">
+<h3>Question</h3>
 <p>Make a scatter plot to display gas bill by month (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
 <li>Calculate the average gas bill for the months of January and December. Which is higher?</li>
 </ol>
 </div>
-<div id="hint-2" class="section level4">
-<h4>Hint</h4>
+<div id="hint-2" class="section level3">
+<h3>Hint</h3>
 <p>Watch Video 07 to learn how to make a scatter plot. The commands you will use are <code>ggplot()</code> and <code>geom_point()</code>.</p>
 <p>To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, create an object that filters the <code>utilities</code> dataframe by month. You could, for example, use the code:<code>jan &lt;- filter(utilities, month == 1)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.</p>
 <p>Then, you can use the <code>mean()</code> function to calculate the average gas bill for that month. Type <code>?mean</code> into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, <code>na.rm = TRUE</code>.</p>
 </div>
 </div>
-<div id="step-4" class="section level3">
-<h3>Step 4</h3>
+<div id="step-4" class="section level2">
+<h2>Step 4</h2>
 <p>Make a scatter plot to display electric bill by month (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> electric bill?</li>
 <li>Calculate the average electric bill for the months of September and December. Which is higher?</li>
 </ol>
 </div>
-<div id="step-5" class="section level3">
-<h3>Step 5</h3>
+<div id="step-5" class="section level2">
+<h2>Step 5</h2>
 <p>Make a scatter plot to display the relationship between gas usage and gas bill (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Does there appear to be a relationship between gas usage and gas bill? <!--Yes--></li>
 </ol>
 </div>
-<div id="step-6" class="section level3">
-<h3>Step 6</h3>
+<div id="step-6" class="section level2">
+<h2>Step 6</h2>
 <p>Make a scatter plot to display the relationship between electricity usage and electric bill (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Does there appear to be a relationship between electricity usage and electric bill?</li>
 </ol>
 </div>
-<div id="step-7" class="section level3 tabset tabset-fade tabset-pills">
-<h3 class="tabset tabset-fade tabset-pills">Step 7</h3>
-<div id="question-3" class="section level4">
-<h4>Question</h4>
+<div id="step-7" class="section level2 tabset tabset-fade tabset-pills">
+<h2 class="tabset tabset-fade tabset-pills">Step 7</h2>
+<div id="question-3" class="section level3">
+<h3>Question</h3>
 <p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Include the frequency table for <code>season</code> in your PDF submission.</li>
 </ol>
 </div>
-<div id="hint-3" class="section level4">
-<h4>Hint</h4>
+<div id="hint-3" class="section level3">
+<h3>Hint</h3>
 <p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
 </div>
 </div>
-<div id="bonus-question" class="section level3">
-<h3>Bonus Question</h3>
+<div id="bonus-question" class="section level2">
+<h2>Bonus Question</h2>
 <p>Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Does there seem to be a relationship between season and donation?</p>
 </div>
-<div id="step-8" class="section level3">
-<h3>Step 8</h3>
+<div id="step-8" class="section level2">
+<h2>Step 8</h2>
 <p>Submit the following on Canvas:</p>
 <ol style="list-style-type: lower-alpha">
 <li>A <strong>.R file</strong> containing the code used to complete this assignment. This document should include comments that explain your commands.</li>
 <li>A <strong>PDF file</strong> containing the answers/figures/tables to each question–clearly label the answers with the question number.</li>
 </ol>
-</div>
 </div>
 </div>
 
