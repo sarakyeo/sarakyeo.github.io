@@ -37,9 +37,9 @@ Use an appropriate statistical test to determine whether there is a relationship
 ### Hints
 #### Selecting a statistical test
 First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
-   <center>
-   <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png" alt="LA.6 chart"/>
-   </center>
+<center>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png" alt="LA.6 chart"/>
+</center>
 
 ---
 #### Test statistics and *p*-values

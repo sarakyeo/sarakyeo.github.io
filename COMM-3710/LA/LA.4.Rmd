@@ -20,68 +20,68 @@ urlcolor: blue
 ---
 
 # Instructions
-1. Load in the [HELP data set](https://utah.instructure.com/files/108105219/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). If necessary, review the codebook (explanation of variables) in [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html).
-<details>
-<summary>Hint</summary>
+## Step 1 {.tabset .tabset-fade .tabset-pills}
+### Question
+Load in the [HELP data set](https://utah.instructure.com/files/108105219/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). If necessary, review the codebook (explanation of variables) in [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html).
 
-   If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.
-</details>
-<br>
+### Hint
+If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.
 
-2. Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called `ExtremeMCS` and code it as 1 if a patient is at risk based on his/her mcs score and 0 otherwise.
-<details>
-<summary>Hint</summary>
-   In addition to the method shown in the video, you can create this new variable using the `ifelse` command.
+## Step 2 {.tabset .tabset-fade .tabset-pills}
+### Question
+Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called `ExtremeMCS` and code it as 1 if a patient is at risk based on his/her mcs score and 0 otherwise.
+
+### Hint
+In addition to the method shown in the video, you can create this new variable using the `ifelse` command.
    
-   Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
-      <details>
-      <summary>If you need another hint...</summary>
-      Try...`helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)`
-      </details>
-   </details>
-<br>
+Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
 
-3. Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not. 
 <details>
-<summary>Hint</summary>
-   You can use the same logic (and command) that you used in Q2 to create this variable.
+<summary>If you need another hint...</summary>
+Try...`helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)`
 </details>
-<br>
 
-4. Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.
+## Step 3 {.tabset .tabset-fade .tabset-pills}
+### Question
+Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.
 
-<br>
+### Hint
+You can use the same logic (and command) that you used in Q2 to create this variable.
 
-5. Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.
-<details>
-<summary>Hint</summary>
-   You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. First, try the most straightforward way, which is to use this general formula:
+## Step 4 {.tabset .tabset-fade .tabset-pills}
+### Question
+Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.
+
+## Step 5 {.tabset .tabset-fade .tabset-pills}
+### Question
+Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.
+
+### Hint
+You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. First, try the most straightforward way, which is to use this general formula:
    ```
    Dataframe$NewVariable <- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 
    ```
-   <details>
-   <summary>For more...</summary>
-      Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
-         <details>
-         <summary>Need help with `transform`?</summary>
-         Try... `helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)`
-         </details>
-   </details>
 
-<br>
+Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
 
-6. Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`.
-      a. How many patients are thought to be at risk based on their `mcs` score? <!--91-->
-      b. What percentage of patients have experienced suicidal thoughts? <!--28.0%-->
-      c. What percentage of patients in the study have fewer than 3 risk factors? <!--94.9%-->
+<details>
+<summary>Need help with `transform`?</summary>
+Try... `helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)`
+</details>
 
-   <details>
-   <summary>Hint</summary>
+## Step 6 {.tabset .tabset-fade .tabset-pills}
+### Question
+Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`.
 
-      Refer to LA.3 to review creating frequency tables.
-   </details>
-<br>
+a. How many patients are thought to be at risk based on their `mcs` score?
+b. What percentage of patients have experienced suicidal thoughts?
+c. What percentage of patients in the study have fewer than 3 risk factors? 
 
-7. Submit the following on Canvas:
-   (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
-   (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.
+### Hint
+Refer to LA.3 to review creating frequency tables.
+
+## Step 7 {.tabset .tabset-fade .tabset-pills}
+Submit the following on Canvas:
+
+a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+b. A **PDF file** containing the answers to each question--clearly label the answers with the question number.
