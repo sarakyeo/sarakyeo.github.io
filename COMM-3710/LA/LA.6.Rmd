@@ -22,9 +22,31 @@ urlcolor: blue
 
 ---
 
+# Data
+Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables:
+
+* `month`: month (coded as a number)
+*	`day`: day of month on which bill was calculated
+*	`year`: year of bill
+*	`temp`: average temperature ($^{\circ}$F) for billing period
+*	`kwh`: electricity usage (kwh)
+*	`ccf`: gas usage (ccf)
+*	`thermsPerDay`: a numeric vector
+*	`billingDays`: number of billing days in billing period
+*	`totalbill`: total bill (in dollars)
+*	`gasbill`: gas bill (in dollars)
+*	`elecbill`: electric bill (in dollars)
+*	`notes`: notes about the billing period
+*	`donate`: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need
+
+---
+
 # Instructions
 ## Step 1
-Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) and re-familiarize yourself with the variables. Apply your data management code from the previous assignment that created the `season` variable. Ensure that the data management code and the frequency table for `season` are included in your R script and PDF submission, respectively.
+Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set and re-familiarize yourself with the variables. Apply your data management code from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) to create the `season` variable.
+
+   a. Include the data management code that you used to create `season` in your R file.
+   b. Include the frequency table for `season` in your PDF submission.
 
 ## Step 2 {.tabset .tabset-fade .tabset-pills}
 ### Question
