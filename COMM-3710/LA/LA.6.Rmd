@@ -17,8 +17,7 @@ urlcolor: blue
 | Chi-square test of independence | https://youtu.be/Dnlp9vswwEk               |
 | Independent samples *t*-test    | https://youtu.be/ANMuuq502rE?t=590         |
 | Correlation                     | https://youtu.be/lf4HfHx2ASs               |
-| The basics of R                 | https://rpubs.com/yesun/Comm3710_helpwithR |
-| Selecting a statistical test    | https://bit.ly/3qFZubM                     |
+| Getting started with R          | http://bit.ly/3qFJYMQ                      |
 
 ---
 
@@ -59,6 +58,9 @@ Use an appropriate statistical test to determine whether there is a relationship
 ### Hints
 #### Selecting a statistical test
 First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
+
+*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
+
 <center>
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png" alt="LA.6 chart"/>
 </center>
