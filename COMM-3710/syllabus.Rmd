@@ -100,7 +100,7 @@ There are 8 individual assignments. Information on individual assignments will b
 # Virtual Office Hours {#officehrs}
 ~~Office hours will be held virtually each week on **Tuesdays at 9 - 10 am MT**.~~
 
-I will no longer be holding virtual drop-in office hours as they were not well attended. Instead, you can use the Slack channel for our course to ask questions about individual assignments, group projects, and lecture content.
+I will no longer be holding virtual drop-in office hours as they were not well attended. Instead, you can use the Slack workspace for our course to ask questions about individual assignments, group projects, and lecture content.
 
 Your interactions on Slack must adhere to the [course civility policy](#policies). Please be sure to review this before using the platform. I will get to your questions as soon as possible, but please do not expect me to be online 24/7. As always, I encourage you to start on assignments and weekly content early to ensure you can ask questions and receive answers in a timely manner.
 
