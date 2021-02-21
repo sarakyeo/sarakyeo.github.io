@@ -98,11 +98,11 @@ There are 8 individual assignments. Information on individual assignments will b
 
 
 # Virtual Office Hours {#officehrs}
-Office hours will be held virtually each week on **Tuesdays at 9 - 10 am MT**.
+~~Office hours will be held virtually each week on **Tuesdays at 9 - 10 am MT**.~~
 
-> https://utah.zoom.us/j/96113272523
->
-> Passcode: 055913
+I will no longer be holding virtual drop-in office hours as they were not well attended. Instead, you can use the Slack channel for our course to ask questions about individual assignments, group projects, and lecture content.
+
+Your interactions on Slack must adhere to the [course civility policy](#civility). Please be sure to review this before using the platform. I will get to your questions as soon as possible, but please do not expect me to be online 24/7. As always, I encourage you to start on assignments and weekly content early to ensure you can ask questions and receive answers in a timely manner.
 
 
 # Course Grading
@@ -144,7 +144,7 @@ When you contact me, I expect you to be professional in your communication. This
 
 ---
 
-## Course Civility
+## Course Civility {#civility}
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course: 
 
 - Always address your classmates by name. There is a human being on the other side of the screen who also has struggles, doubts, and bad days.
