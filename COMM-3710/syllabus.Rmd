@@ -57,7 +57,7 @@ You should be familiar with using Zoom. If you need help with Zoom, check out th
 ---
 
 ## University Email
-You should check your University email account regularly. Be sure to review the [course email policies](#email) as necessary throughout the semester.
+You should check your University email account regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
 
 ---
 
@@ -102,7 +102,7 @@ There are 8 individual assignments. Information on individual assignments will b
 
 I will no longer be holding virtual drop-in office hours as they were not well attended. Instead, you can use the Slack channel for our course to ask questions about individual assignments, group projects, and lecture content.
 
-Your interactions on Slack must adhere to the [course civility policy](#civility). Please be sure to review this before using the platform. I will get to your questions as soon as possible, but please do not expect me to be online 24/7. As always, I encourage you to start on assignments and weekly content early to ensure you can ask questions and receive answers in a timely manner.
+Your interactions on Slack must adhere to the [course civility policy](#policies). Please be sure to review this before using the platform. I will get to your questions as soon as possible, but please do not expect me to be online 24/7. As always, I encourage you to start on assignments and weekly content early to ensure you can ask questions and receive answers in a timely manner.
 
 
 # Course Grading
@@ -117,7 +117,7 @@ Information on the grade points assigned to letter grades and how to calculate y
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
 
-# Course Policies {.tabset .tabset-fade}
+# Course Policies {.tabset .tabset-fade #policies}
 By enrolling in this course, you agree to:
 
 1. respect all members of the course;
@@ -127,7 +127,7 @@ By enrolling in this course, you agree to:
 
 This list represents the **minimal standards** to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
 
-## Email Policy {#email}
+## Email Policy
 > It is critical that you check your University email account frequently and that you use your University email account to contact me.
 
 **I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
@@ -144,7 +144,7 @@ When you contact me, I expect you to be professional in your communication. This
 
 ---
 
-## Course Civility {#civility}
+## Course Civility
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course: 
 
 - Always address your classmates by name. There is a human being on the other side of the screen who also has struggles, doubts, and bad days.
