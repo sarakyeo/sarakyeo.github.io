@@ -308,7 +308,7 @@ div.tocify {
 </div>
 <div id="hint" class="section level3">
 <h3>Hint</h3>
-<p>Review LA.3 or LA.4 for the command to read the data into a dataframe.</p>
+<p>Review LA.3 or LA.4 for the command to read the data into a data frame.</p>
 </div>
 </div>
 <div id="step-2" class="section level2 tabset tabset-fade tabset-pills">
@@ -322,7 +322,7 @@ div.tocify {
 </div>
 <div id="hint-1" class="section level3">
 <h3>Hint</h3>
-<p>To create a histogram, watch Video 06. The <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
+<p>To create a histogram, first watch Video 06. We will use the package, <code>ggplot2</code>. The <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
 <p>In the bottom right <strong>Plot</strong> screen in RStudio, you can <strong>Export</strong> the graph as an image or <strong>Copy</strong> and paste it in your Word document before saving the Word document as a PDF.</p>
 </div>
 </div>
@@ -339,8 +339,9 @@ div.tocify {
 <div id="hint-2" class="section level3">
 <h3>Hint</h3>
 <p>Watch Video 07 to learn how to make a scatter plot. The commands you will use are <code>ggplot()</code> and <code>geom_point()</code>.</p>
-<p>To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, create an object that filters the <code>utilities</code> dataframe by month. You could, for example, use the code:<code>jan &lt;- filter(utilities, month == 1)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.</p>
-<p>Then, you can use the <code>mean()</code> function to calculate the average gas bill for that month. Type <code>?mean</code> into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, <code>na.rm = TRUE</code>.</p>
+<p>To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, create an object that filters the <code>utilities</code> data frame by month.</p>
+<p>For example, if I wanted to filter the data to contain only observations from September, I would use the code:<code>sep &lt;- filter(utilities, month == 9)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.</p>
+<p>Then, use the <code>mean()</code> function to calculate the average gas bill for that month. Type <code>?mean</code> into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, <code>na.rm = TRUE</code>.</p>
 </div>
 </div>
 <div id="step-4" class="section level2">
@@ -376,15 +377,15 @@ div.tocify {
 </div>
 <div id="hint-3" class="section level3">
 <h3>Hint</h3>
-<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the command <code>freq(utilities$season)</code> from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
+<p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the <code>freq()</code> command from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
 </div>
 </div>
 <div id="bonus-question" class="section level2">
 <h2>Bonus Question</h2>
 <p>Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission). Does there seem to be a relationship between season and donation?</p>
 </div>
-<div id="step-8" class="section level2">
-<h2>Step 8</h2>
+<div id="submission" class="section level2">
+<h2>Submission</h2>
 <p>Submit the following on Canvas:</p>
 <ol style="list-style-type: lower-alpha">
 <li>A <strong>.R file</strong> containing the code used to complete this assignment. This document should include comments that explain your commands.</li>
