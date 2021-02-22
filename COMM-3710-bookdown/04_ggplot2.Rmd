@@ -1,4 +1,4 @@
-# Plotting with `ggplot2` {#ggplot2}
+# Graphing with `ggplot2` {#ggplot2}
 
 This chapter covers the basics of plotting with the package, `ggplot2`. This package is contained within a collection of R packages designed for data science known as the [tidyverse](https://www.tidyverse.org/).
 
