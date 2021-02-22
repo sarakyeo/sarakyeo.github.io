@@ -71,7 +71,7 @@ Try... `helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought
 
 ## Step 6 {.tabset .tabset-fade .tabset-pills}
 ### Question
-Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`.
+Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Include these tables in your PDF submission.
 
 a. How many patients are thought to be at risk based on their `mcs` score?
 b. What percentage of patients have experienced suicidal thoughts?
