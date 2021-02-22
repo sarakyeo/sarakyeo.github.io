@@ -97,64 +97,73 @@ write.csv(quiz, file = "quiz.csv")
 
 ---
 
-## An illustration
+## Learning by doing
 
-Let's create a graph with a fake data set ["quiz.csv"](http://yesuncomm.github.io/comm3710/files/quiz.csv). It contains the grades for Quiz 1 and Quiz 2 for 120 students (Data are simulated -- not real!). There are three variables: `id` (student id), `quiz1` (Grade for Quiz 1), and `quiz2` (grade for Quiz 2). 
+Let's create a graph with a fake data set ["quiz.csv"](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv). It contains simulated data for Quiz 1 and 2 scores of 120 students. There data set contains three variables: 
+
+- `id`: Student ID
+- `quiz1`: Quiz 1 scores
+- `quiz2`: Quiz 2 scores
 
 First, make sure you set the working directory correctly on your computer and load the packages. 
 
-Download this [data set](http://yesuncomm.github.io/comm3710/files/quiz.csv) and read it into your R. I'll just call this data frame `quiz`. 
-
-```{r}
+Download this [data set](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv) and read it into R.
+```{r prompt=TRUE}
 quiz <- read.csv("quiz.csv")
 ```
 
-I'm interested in seeing the distribution of grades for Quiz 1, which calls for a histogram.  
+### Histograms
+Let us examine the distribution of grades for Quiz 1 using a histogram.  
 
-To better understand what work R is doing step by step, you can run these lines one at a time and look at what happens in your RStudio "Plots" panel after each step. 
-
-`ggplot(data = quiz)`   
-`ggplot(data = quiz, aes(x = quiz1))`  
-`ggplot(data = quiz, aes(x = quiz1)) + geom_histogram()`   
-
-
-The complete command should be: 
-```{r}
+To better understand what R is doing step-by-step, run these lines one at a time and see what happens in the **Plots** panel in RStudio. 
+```{r eval=FALSE, prompt=TRUE}
+# 1: Try this command first
+ggplot(data = quiz)
+# 2: Then try this one
+ggplot(data = quiz, aes(x = quiz1))
+# 3: And, finally, try this
 ggplot(data = quiz, aes(x = quiz1)) +
   geom_histogram()
 ```
-  
-  
-You can do the same for Quiz 2 grades: 
-```{r}
+
+As the exercise shows, the complete command is the third one. 
+```{r prompt=TRUE}
+ggplot(data = quiz, aes(x = quiz1)) +
+  geom_histogram()
+```
+
+To do the same for Quiz 2 grades, simply change the x-axis specification in `aes()`.
+```{r prompt=TRUE}
 ggplot(data = quiz, aes(x = quiz2)) +
   geom_histogram()
 ```
-  
-What if we want to see whether there is a relationship between Quiz 1 and Quiz 2 scores? As you could imagine, these two should be positively correlated -- meaning that as one goes up, the other should also go up in general. We use a **scatterplot** to depict the relationship between two quantitative variables. 
 
-```{r}
+### Scatter plots
+
+What if we want to examine whether there is a relationship between Quiz 1 and Quiz 2 scores? You might hypothesize that the scores on Quizzes 1 and 2 should be positively correlated.
+
+To examine this graphically, we can use a **scatter plot**, which depicts the relationship between two quantitative variables. In this case, we use `geom_point()` to tell R that we want a graph with points.
+
+```{r prompt=TRUE}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
   geom_point() 
 ```
 
+### Adding axes labels and plot titles
 
-Now I'm getting more ambitious -- let's label the two axes and add a title!
+No graph is complete without axis labels and a title. We can add axis labels and a plot title with the `labs()` layer. Again, it is important to add this layer by using the `+` sign.
 
-```{r}
+```{r prompt=TRUE}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
   geom_point() + 
   labs(x = 'Quiz 1 Grades', 
        y = 'Quiz 2 Grades',
-       title = 'The Relationship b/t Quiz 1 and Quiz 2 Grades in COMM 3710')
+       title = 'Relationship between Quiz 1 and Quiz 2 grades in COMM 3710')
 ```
 
 ---
 
 ## Additional resources for graphing
 
-This guide includes only the basics of graphing with `ggplot2`. If you have questions that are not covered in this guide, the [R Graphics Cookbook](https://r-graphics.org/index.html) is a practical guide that provides recipes for quickly 
-
-++
-generating high-quality graphs.
+This guide includes only the basics of graphing with `ggplot2`. If you have questions that are not covered in this guide, the [R Graphics Cookbook](https://r-graphics.org/index.html) is a practical guide that provides recipes for quickly generating high-quality graphs.
 

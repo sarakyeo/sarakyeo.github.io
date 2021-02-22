@@ -49,7 +49,13 @@ on-labeling-and-naming-objects
 on-script-annotation
 be-patient
 ggplot2
-basics
-an-illustration
 ggplot2-basics
+step-1.-specify-data-frame
+step-2.-specify-x--and-y-axes
+step-3.-add-geom
+important-considerations
+learning-by-doing-1
+histograms
+scatter-plots
+adding-axes-labels-and-plot-titles
 additional-resources-for-graphing
