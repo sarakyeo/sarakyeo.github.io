@@ -17,9 +17,10 @@ Before starting this assignment, review the following videos, if necessary:
 3. [Chi-square test of independence](https://youtu.be/Dnlp9vswwEk)
 4. [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-Remember that help with R is also available in the [R Help Guide](https://rpubs.com/yesun/Comm3710_helpwithR) and other resources available in the R Resources module on Canvas.
+Remember that help with R is also available in the [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html) book and
+other resources available in the R Resources module on Canvas.
 
-Additionally, you can refer back to hints from previous individual assignments:
+Additionally, you can refer back to hints from previous assignments:
 
 - [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html)
 - [LA.4](https://sarakyeo.github.io/COMM-3710/LA/LA.4.html)
@@ -29,7 +30,12 @@ Additionally, you can refer back to hints from previous individual assignments:
 ---
 
 # Data
-[Data for this assignment comes from the 1985 Current Population Survey (CPS)](https://utah.instructure.com/files/108105224/download?download_frd=1). The CPS is used to supplement census information between census years. These data consist of a random sample of persons from the survey, with information on wages and other characteristics of the workers, including sex, number of years of education, years of work experience, occupational status, region of residence and union membership.
+[Data for this assignment comes from the 1985 Current Population Survey (CPS)](https://utah.instructure.com/files/108105224/download?download_frd=1).
+The CPS is used to supplement census information between census years. These
+data consist of a random sample of persons from the survey, with information
+on wages and other characteristics of the workers, including sex, number of
+years of education, years of work experience, occupational status, region of
+residence and union membership.
 
 A data frame with 534 observations on the following variables:
 
@@ -43,8 +49,10 @@ A data frame with 534 observations on the following variables:
 *	`exper`: number of years of work experience (inferred from age and educ)
 *	`union`: a factor with levels Not or Union
 *	`age`: age in years
-*	`sector`: a factor with levels clerical const manag manuf other prof sales service
-*	`satisfaction`: 1 implies participant satisfied with current employment, 0 otherwise
+*	`sector`: a factor with levels clerical const manag manuf other prof sales
+service
+*	`satisfaction`: 1 implies participant satisfied with current employment, 0
+otherwise
 
 ---
 
