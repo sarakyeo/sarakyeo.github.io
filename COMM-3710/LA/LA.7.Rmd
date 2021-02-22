@@ -49,37 +49,51 @@ A data frame with 534 observations on the following variables:
 ---
 
 # Instructions
-1. Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/108105224/download?download_frd=1) in R.
 
-<br>
+## Step 1
+Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/108105224/download?download_frd=1) in R.
 
-2. Find the mean wage earned per hour for males and females.
-      a. What is the mean wage earned per hour for females?
-      b. What is the mean wage earned per hour for males?
+## Step 2
+Find the mean wage earned per hour for males and females.
 
-<br>
+a. What is the mean wage earned per hour for females?
+b. What is the mean wage earned per hour for males?
+ 
+## Step 3
+Implement the appropriate statistical test to determine whether males have
+significantly higher wages earned per hour than females. Use the chart from
+[LA.6](https://sarakyeo.github.io/COMM-3710/LA/LA.6.html) to guide your choice
+of statistical test.
 
-3. Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females. Use the chart from [LA.6](https://sarakyeo.github.io/COMM-3710/LA/LA.6.html) to guide your choice of statistical test.
-      a. What statistical test did you use? <!--Independent samples t-test-->
-      b. What is the value of the test statistic? <!--t = -4.84, p < .001-->
-      c. What conclusions can be drawn? <!--There is a statistically significant difference in mean wage per hour between men and women-->
+a. What statistical test did you use? <!--Independent samples t-test-->
+b. What is the value of the test statistic? <!--t = -4.84, p < .001-->
+c. What conclusions can be drawn? <!--There is a statistically significant
+difference in mean wage per hour between men and women-->
 
-<br>
+## Step 4
+Implement the appropriate statistical test to determine whether there is a
+significant linear relationship between wages earned per hour and number of
+years of work experience.
 
-4. Implement the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour and number of years of work experience.
-      a. What statistical test did you use? <!--Pearson's correlation-->
-      b. What is the value of the test statistic? <!--Pearson's r = .09, p = .044-->
-      c. What conclusions can be drawn? <!-- There is a statistically significant relationship between the variables that is weak and positive-->
+a. What statistical test did you use? <!--Pearson's correlation-->
+b. What is the value of the test statistic? <!--Pearson's r = .09, p = .044-->
+c. What conclusions can be drawn? <!-- There is a statistically significant
+relationship between the variables that is weak and positive-->
 
-<br>
+## Step 5
+Implement the appropriate statistical test to determine whether job
+satisfaction varies significantly among the different job sectors.
 
-5. Implement the appropriate statistical test to determine whether job satisfaction varies significantly among the different job sectors.
-      a. What statistical test did you use? <!--Chi-squared test-->
-      b. What is the value of the test statistic? <!--X-squared = 3.65, df = 7, p = .82-->
-      c. What conclusions can be drawn? <!--Job satisfaction and job sector are not related-->
+a. What statistical test did you use? <!--Chi-squared test-->
+b. What is the value of the test statistic? <!--X-squared = 3.65, df = 7,
+p = .82-->
+c. What conclusions can be drawn? <!--Job satisfaction and job sector are not
+related-->
 
-<br>      
+## Step 6
+Submit the following on Canvas.
 
-6. Submit the following on Canvas.
-      a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
-      b. A **PDF file** containing the answers to each question--clearly label the answers with the corresponding question number.
+a. A **.R file** containing the annotated code used to complete this
+assignment. This document should include comments that explain your commands.
+b. A **PDF file** containing the answers to each question--clearly label the
+answers with the corresponding question number.
