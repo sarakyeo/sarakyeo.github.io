@@ -305,12 +305,6 @@ div.tocify {
 <h3>Hint</h3>
 <p>In addition to the method shown in the video, you can create this new variable using the <code>ifelse</code> command.</p>
 <p>Figure out what the arguments (the text and numbers within the parentheses) in the <code>ifelse</code> function mean by typing <code>?ifelse</code> into the Console in RStudio and reading the documentation.</p>
-<details>
-<summary>
-If you need another hint…
-</summary>
-Try…<code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code>
-</details>
 </div>
 </div>
 <div id="step-3" class="section level2 tabset tabset-fade tabset-pills">
@@ -341,12 +335,6 @@ Try…<code>helpdata$ExtremeMCS &lt;- ifelse(helpdata$mcs &lt; 20, 1, 0)</code>
 <h3>Hint</h3>
 <p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. First, try the most straightforward way, which is to use this general formula: <code>Dataframe$NewVariable &lt;- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3</code></p>
 <p>Like most things in R, there are many other ways to do this. One way is to transform the data using the command, <code>transform</code>. Get help with <code>transform</code> by typing <code>?transform</code> into the Console and reading the documentation.</p>
-<details>
-<summary>
-Need help with <code>transform</code>?
-</summary>
-Try… <code>helpdata &lt;- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)</code>
-</details>
 </div>
 </div>
 <div id="step-6" class="section level2 tabset tabset-fade tabset-pills">

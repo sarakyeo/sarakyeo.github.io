@@ -36,11 +36,6 @@ In addition to the method shown in the video, you can create this new variable u
    
 Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
 
-<details>
-<summary>If you need another hint...</summary>
-Try...`helpdata$ExtremeMCS <- ifelse(helpdata$mcs < 20, 1, 0)`
-</details>
-
 ## Step 3 {.tabset .tabset-fade .tabset-pills}
 ### Question
 Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.
@@ -63,11 +58,6 @@ You want to create a new variable called `RiskTotal`, which is the sum of `Extre
    ```
 
 Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
-
-<details>
-<summary>Need help with `transform`?</summary>
-Try... `helpdata <- transform(helpdata, RiskTotal = ExtremeMCS + SuicidalThought + HomelessStatus)`
-</details>
 
 ## Step 6 {.tabset .tabset-fade .tabset-pills}
 ### Question
