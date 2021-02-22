@@ -48,3 +48,8 @@ tips
 on-labeling-and-naming-objects
 on-script-annotation
 be-patient
+ggplot2
+basics
+an-illustration
+ggplot2-basics
+additional-resources-for-graphing
