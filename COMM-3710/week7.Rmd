@@ -46,13 +46,11 @@ Typically, margins of error are reported with confidence levels or confidence in
 **Confidence interval** = the range of values within which a population parameter is estimated (using a sample) to lie.
 
 ### An Example
-```
-Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
-
-Confidence level: We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.
-
-Confidence interval: The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.
-```
+> Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
+> 
+> **Confidence level**: We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.
+> 
+> **Confidence interval**: The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.
 
 The above logic can also be used to determine your sample size. Once you know how much error you can tolerate, you can calculate the number of cases required in a sample.
 
