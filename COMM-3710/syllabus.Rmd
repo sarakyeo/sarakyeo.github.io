@@ -260,18 +260,19 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 > Sampling | **Quiz 7** 
 
 - Readings: Wrench Ch. 12, ASA pp. 63-68, AAPOR (2007) 
-- Lab: LA.7--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
+- Lab: LA.7--Practice Data Analysis (10 pts)
 
 ## Week 8 (8-Mar)
 > Introduction to statistics; Descriptive statistics | **Quiz 8** 
   
 - Readings: Wrench Ch. 13, 14
-- Lab: LA.8--Practice Data Analysis (10 pts), GP.E--Data Management (10 pts)
+- Lab: LA.8--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
 
 ## Week 9 (15-Mar)
 > Inferential statistics | **Quiz 9** 
 
 - Readings: Wrench Ch. 15, 16, 18 
+- Lab: GP.E--Data Management (10 pts)
 
 ## Week 10 (22-Mar)
 > Data analysis | **Quiz 10** 
