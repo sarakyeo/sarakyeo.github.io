@@ -77,7 +77,7 @@ Sample size adheres to the **law of diminishing returns**. This means that once 
 The video below explains why sampling matters, but it is not only about sampling. As we have learned, other factors, such as question wording and order are also important to the generalizations, inferences, or predictions that can be made using survey data.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/451666765" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZzPmzEejWs" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
