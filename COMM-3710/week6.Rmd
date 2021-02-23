@@ -31,7 +31,7 @@ Reliability and validity are precision and accuracy, respectively. Using these f
 <img src="https://sarakyeo.github.io/images/rel-val-01.png"/>
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RgDfNMND0GA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RgDfNMND0GA" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
 <a href="#top">Back to top</a>
@@ -109,7 +109,7 @@ To assess inter-item reliability, we use one of three ways. The video below expl
 3. Cronbach's alpha ($\alpha$)
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1HObEfdRT3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1HObEfdRT3s" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
