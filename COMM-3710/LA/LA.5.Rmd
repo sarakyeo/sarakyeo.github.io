@@ -147,8 +147,16 @@ new variable called `season` according to the instructions. Then, use the
 
 ## Bonus Question
 Make a bar chart to display the count or proportion of donors by season
-(include the graph in your PDF submission). Does there seem to be a
-relationship between season and donation?
+(include the graph in your PDF submission). 
+
+First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the
+billee donated money to *Operation Fuel* and 0 otherwise. Check that you have
+created the `DonorStatus` variable correctly. Include frequency tables for both
+`donate` and `DonorStatus` in your PDF submission.
+
+Then, use `ggplot()` to create your graph.
+
+Does there seem to be a relationship between season and donation?
 
 ## Submission
 Submit the following on Canvas:
