@@ -10,9 +10,9 @@ urlcolor: blue
 ---
 
 # Resources
-- If you need a refresher on working with descriptives in R, watch this [video](https://youtu.be/Dbj_l1PRIjA).  
-- To revisit the introduction to hypothesis, see [Week 2's lecture](https://yesuncomm.github.io/comm3710/week2.html).  
-- On independent and dependent variables, revisit [Week 4's lecture](https://yesuncomm.github.io/comm3710/week4.html).  
+- If you need a refresher on working with descriptive statistics in R, watch this [video](https://youtu.be/Dbj_l1PRIjA).  
+- To revisit the definition of hypothesis, see [Week 2's lecture](https://sarakyeo.github.io/COMM-3710/week2.html).  
+- On independent and dependent variables, revisit [Week 4's lecture](https://sarakyeo.github.io/COMM-3710/week4.html).  
 
 ---
 
