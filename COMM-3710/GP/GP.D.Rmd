@@ -10,18 +10,151 @@ urlcolor: blue
 ---
 
 # Resources
-If you need a refresher on R, watch this [video](https://youtu.be/Dbj_l1PRIjA).
+- If you need a refresher on working with descriptives in R, watch this [video](https://youtu.be/Dbj_l1PRIjA).  
+- To revisit the introduction to hypothesis, see [Week 2's lecture](https://yesuncomm.github.io/comm3710/week2.html).  
+- On independent and dependent variables, revisit [Week 4's lecture](https://yesuncomm.github.io/comm3710/week4.html).  
 
 ---
 
 # Instructions
-1. Download and load your selected data set in R.
 
-2. Select the variables, and possibly rows, of interest and run frequency distributions of your chosen variables.
+## Part I. 
 
-3. Submit the following on Canvas:
+### Step 1: Listing Hypotheses and Research Questions {.tabset .tabset-fade .tabset-pills} 
+
+#### Question 1
+
+List **three to four** hypotheses and/or research questions (RQ) that you'd **most** like to focus on in your group project. In the PDF file, list them as:   
+
+* H1:
+* H2:
+* ... 
+* RQ1:
+* RQ2:
+* ...
+
+#### Hint 
+
+A hypothesis is a statement that makes a prediction about a relationship or a difference between two variables (Revisit the introduction to hypothesis in [Week 2's lecture](https://yesuncomm.github.io/comm3710/week2.html)). We state a hypothesis when the existing literature provides adequate rationales for us to arrive at this prediction. When there is not enough pre-existing knowledge to make a prediction, we formulate a research question instead. 
+
+For example, you are interested in the relationship between the amount of time spent on social media and one's self-esteem. You have a data set that includes these following variables, among others: 1) the participant's Facebook use (specifically, the hours per day on FB, the number of days per week on FB, the amount of attention to FB content), 2) the participant's score on a self-esteem scale, and 3) the participant's nationality. After reviewing the previous literature, you find that most theoretical arguments and existing empirical evidence suggest that the more time one spends on social media, the lower self-esteem they have. Therefore, you propose the following hypothesis:
+
+H1: There is a negative relationship between one's Facebook use and self-esteem. 
+
+Given the data set, you are also interested to see whether there is a difference between American and Japanese users in Facebook use and in self-esteem. However, there does not seem to be much literature yet that compares Americans and Japanese in these domains and you do not feel confident about making a prediction -- that is, you do not know whether there will be a difference, or in which direction the difference may go. In this case, you can propose these two research questions:
+
+RQ1: Do American and Japanese participants differ in the exposure to Facebook per week?  
+RQ2: Do American and Japanese participants differ in self-esteem? 
+
+There is no absolutely right or wrong answer as to whether you should formulate a hypothesis or an RQ. It depends on whether your literature review provides adequate rationales for making a prediction (i.e, a hypothesis) or not (in which case you propose an RQ). Both hypotheses and RQs are treated the same in empirical analyses (at least for what you do in our class). Note that each RQ or hypothesis should include two clearly identified variables: one independent variable and one dependent variable (Revisit [Week 4's lecture](https://yesuncomm.github.io/comm3710/week4.html) if necessary). 
+
+
+### Step 2: Identifying Independent and Dependent Variables {.tabset .tabset-fade .tabset-pills} 
+
+#### Question 2
+
+For each of the questions listed above, identify the independent variable (IV) and the dependent variable (DV) in the table below. Include this table in the PDF file. 
+
+|  Hypo/RQ* | IV | DV |
+|---|:--------|---------|
+| H1  |    |                     |    
+| H2  |    |                     |    
+| RQ1 |    |                     |    
+| RQ2 |    |                     |    
+| | | 
+*Note: You may have a different mix of hypotheses and RQs depending on your project (e.g., all hypotheses, or all RQs, or 3 hypotheses and 1 RQ, etc.)
+
+#### Hint
+
+To continue with the example on Facebook use, the table for this question will look this: 
+
+| Hypo/RQ | IV | DV | 
+|:-----:|:----:|:---------------------:|
+| H1  | Facebook use | Self-esteem  |
+| RQ1 | Nationality (American vs. Japanese) | Facebook use |
+| RQ2 | Nationality (American vs. Japanese) | Self-esteem |
+| | | 
+
+
+**An important point about IVs and DVs:** 
+
+Independent and dependent variables are specific to your hypothesis or RQ. For example, in H1, Facebook use is an IV, as we theorize that more time on Facebook leads to lower self-esteem (IV causes DV). But in RQ1, the same variable of Facebook use is the DV, as we are interested in whether it varies with the participant's nationality (DV varies with IV). 
+
+To push your thinking a bit further-- For H1, someone else could have a different theory: People with lower self-esteem will then spend more time on Facebook. In this case, the IV will be self-esteem, which causes variations in the time spent on Facebook per week. In our current correlation test, we will not be able to determine which theory is correct. But in your work, it is still important to identify the IVs and DVs of your hypotheses based on your own theorizing.  
+
+---
+
+## Part II: Examining the Variables 
+
+Next, we move to the data set you have chosen for your group project. We will gradually dive into data treatment and analysis to examine your research questions and hypotheses. In this assignment, we start with some simple steps. 
+
+### Step 3 {.tabset .tabset-fade .tabset-pills} 
+
+#### Question 3  
+
+a. In the PDF file, provide the name of the data set your group has chosen;
+b. Download and load your selected data set in R. 
+
+#### Hint
+
+Read the data into R as you did for the previous LA assignments. 
+
+### Step 4 {.tabset .tabset-fade .tabset-pills} 
+
+#### Question 4
+
+a. Based on your answers to Question 2, identify the relevant measures in the data set that can represent each of your IVs and DVs. In the PDF file, list the variable names of the potentially relevant measures as recorded in the data set. There can be more than one measure for each IV or DV. See "Hint" for more information.  
+
+
+b. Examine the identified variables by running frequency and looking up at their values. Summarize them in a table in the following format and include it in the PDF file. Make sure you include the commands in the .R script file.   
+
+
+| Variable name | Type (quantitative vs. categorical) | Range or Categories | 
+|:-----:|:----:|:---------------------:|
+| var1  | quantitative | 0 - 99  |
+| var2 | categorical | "yes" vs. "no" |
+| var3 | ... | ...|
+| ... | ... | ...|
+| | | 
+
+c. Inspect your results and briefly answer these questions: Are all the values in a normal range? Are there special values/categories that have caught your attention, and you are unsure how they may affect your future analyses?
+
+#### Hint
+
+a. For example, there are three questions relevant to "Facebook use": 1) the number of hours per day spent on facebook, 2) the number of days per week the participant checks Facebook, and 3) and the amount of attention the participant pays to the Facebook content (on a 5-point scale). In the data, these questions are recorded under the variable names `FBhours`, `FBdays`, and `FBattention` respectively. 
+
+  For "nationality", let's say there are also two relevant questions: Citizenship (of which country one is a legal citizen, `citizen`), and residence (in which country the participants lives in the past 5 years, `residence`). Both questions are potentially relevant measures of the general idea of "nationality". 
+
+  For self-esteem, there is only one measure `esteem` (a 5-point scale).
+
+  In the PDF file, for this question, I will write:
+
+  - To measure Facebook use, our group may use `FBhours`, `FBdays`, or `FBattention`.
+  - To measure nationality, we may use `citizen` or `residence`.
+  - To measure self-esteem, we will use `esteem`. 
+
+b. You can run `freq()`, `head()` and/or `tail()`, `str()` or `class()` or `typeof()`, to inspect your identified variables.   
+
+An example table: 
+
+| Variable name | Type (quantitative vs. categorical) | Range or Categories | 
+|-----|----|---------------------|
+| `FBhours` | quantitative | 0 - 15  |
+| `FBdays` | quantitative | 0 - 7 |
+| `FBattention` | quantitative  | 1 - 5|
+| `citizen` | categorical | "American" vs. "Japanese" |
+| `residence` | categorical | "US" vs. "Japan" |
+| `esteem` | quantitative  | 1 - 5|
+| | | 
+
+
+c. Provide as much insight as you can -- there is no right or wrong answer, but it will help you better understand your data and inform your future work on this data set. 
+
+### 
+
+
+**Submit the following on Canvas:**
     <ul><li> A **.R file** containing all R commands that you used for this assignment. This file should include comments that you make in your R code.
-    <li> A **PDF document** that includes output that displays at least three of your variables in frequency tables.
-      <ul><li> Describe the results of your frequency tables in a few sentences. This description should include appropriate descriptive statistics.</ul>
-    </ul>
+    <li> A **PDF document** that includes the required answers and frequency tables. </ul>
+
 
