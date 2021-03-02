@@ -42,7 +42,14 @@ Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?do
 
 # Instructions
 ## Step 1
-Load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set and re-familiarize yourself with the variables. Apply your data management code from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) to create the `season` variable.
+Load the following packages in R:
+
+- `magrittr`
+- `tidyverse`
+- `descr`
+- `rstatix`
+
+Then, load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set and re-familiarize yourself with the variables. Apply your data management code from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) to create the `season` variable.
 
    a. Include the data management code that you used to create `season` in your R file.
    b. Include the frequency table for `season` in your PDF submission.
