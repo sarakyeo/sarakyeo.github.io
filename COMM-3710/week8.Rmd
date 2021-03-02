@@ -126,7 +126,7 @@ We can use descriptive statistics to:
 A frequency distribution is a description of the number of times the various attributes of a variable are observed in a sample. This can be show in tables or graphs (histograms, stem-and-leaf plots). Watch the short video below for an explanation of **frequency distribution tables, histograms, and stem-and-leaf plots**.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/451893553" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BxA3o3fF2Jo" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -173,7 +173,7 @@ The median is the second measure of central tendency that we will discuss. The m
 The median is also known as the **50th percentile**. When the data are ranked, the median (or 50th percentile) is the point at which 50\% of the cases are above and 50\% of the cases are below. Watch the video below for an explanation of how to calculate the median and the relationship between the mean and median.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/451893484" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S_Yb3t5TtCE" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -259,7 +259,7 @@ $$SD = \sqrt{\frac{1}{n-1}\sum^{n}_{i = 1}(x_i - \bar{x})^2}$$
 In the video below, we will work through an example step-by-step and calculate its variance and standard deviation.
 
 <center>
-<iframe width="560" height="315" src="https://player.vimeo.com/video/451980713" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WPwAH7Pfpco" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
