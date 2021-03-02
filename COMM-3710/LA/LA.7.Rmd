@@ -20,6 +20,14 @@ Before starting this assignment, review the following videos, if necessary:
 Remember that help with R is also available in the [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html) book and
 other resources available in the R Resources module on Canvas.
 
+You may find the following R packages useful as you work through this assignment:
+
+- `magrittr`
+- `tidyverse`
+- `descr`
+- `rstatix`
+- `Hmisc`
+
 Additionally, you can refer back to hints from previous assignments:
 
 - [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html)

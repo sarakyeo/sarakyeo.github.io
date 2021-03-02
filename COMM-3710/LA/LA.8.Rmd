@@ -19,6 +19,14 @@ Video resources for data analysis with R:
 
 Remember that help with R is also available in the [R Help Guide](https://rpubs.com/yesun/Comm3710_helpwithR) and other resources available in the R Resources module on Canvas.
 
+You may find the following R packages useful as you work through this assignment:
+
+- `magrittr`
+- `tidyverse`
+- `descr`
+- `rstatix`
+- `Hmisc`
+
 Additionally, you can refer back to hints from previous individual assignments:
 
 - [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html)
