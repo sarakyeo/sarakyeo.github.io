@@ -24,7 +24,7 @@ This is a guide for getting started and using R and RStudio in COMM 3710: Introd
 
 > "R is a language and environment for statistical computing and graphics."^[https://www.r-project.org/about.html]
 
-You can always read more about R by visiting the homepage of the [R Project for Statistical Computing](https://www.r-project.org/) but you are probably more interested in the answer to the following question:
+R is a free software environment for computing and graphics from [CRAN](https://cloud.r-project.org/), the Comprehensive R Archinve Network. You can always read more about R by visiting the homepage of the [R Project for Statistical Computing](https://www.r-project.org/) but you are probably more interested in the answer to the following question:
 
 > What is R in the context of COMM 3710? 
 
