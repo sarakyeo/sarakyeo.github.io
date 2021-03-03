@@ -34,11 +34,11 @@ In this course, you will learn to install and use R for data analysis. In other 
 
 ## Why R?^[Adapted from [R vs. Excel: What's the Difference?](https://www.northeastern.edu/graduate/blog/r-vs-excel/)]
 
-Increasingly, data are important components of decision-making in businesses. Whether you are looking at industry trends, generating financial statements and reports, analyzing market data, or creating visuals to communicate your work, you will need to know how to analyze data to efficiently, accurately, and professionally to develop reports and effectively communicate your findings. This course will help you become familiar with R, a powerful data analysis tool.
+Increasingly, data are important components of decision-making. Whether you are looking at industry trends, generating financial statements and reports, analyzing market data, or creating visuals to communicate your work, you will need to know how to analyze data to efficiently, accurately, and professionally to develop reports and effectively communicate your findings. 
 
-Often, students ask why we use R instead of Microsoft Excel in this course.
+R is a tool that can help you do all this and more. This course will help you become familiar with this powerful data analysis tool. Often, students ask why we use R instead of Microsoft Excel in this course.
 
-Here are some comparisons of R and Excel that highlight the reasons for using R:
+Here are some reasons for using R over Excel:
 
 ### Ease of Use
 
