@@ -9,32 +9,81 @@ output:
 urlcolor: blue
 ---
 
+```{r setup, include=FALSE}
+library(tidyverse)
+library(descr)
+hdata <- read.csv("HELP.csv")
+knitr::opts_chunk$set(echo = FALSE)
+```
+
 # Resources
-- Before starting this assignment, watch this [video](https://youtu.be/b9Bh3K5bi0I). Once again, keep this link handy as you may need to watch the video several times to complete the assignment.
-- Additional resources for R can be found [here](https://rpubs.com/yesun/652965).
 
-> Try to answer/solve these problems using the resources above before resorting to the hints in the assignment. 
+- [Video 05: Data Management](https://youtu.be/b9Bh3K5bi0I)
+- [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html)
 
-> Attempting to figure out R code that gives you the correct result is the best way to learn this material and will have long-term benefit.
+---
+
+# Data
+
+For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/108105219/download?download_frd=1). Submit your answers as a PDF document on Canvas.
+
+The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.
+
+The data set contains 453 observations on the following variables:
+
+* `age`: Subject age at baseline (in years)
+* `anysub`: Use of any substance post-detox (a factor with levels no yes)
+* `cesd`: Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)
+* `d1`: lifetime number of hospitalizations for medical problems (measured at baseline)
+* `daysanysub`: time (in days) to first use of any substance post-detox
+* `dayslink`: time (in days) to linkage to primary care
+* `drugrisk`: Risk Assessment Battery drug risk scale at baseline
+* `e2b`: number of times in past 6 months entered a detox program (measured at baseline)
+* `female`: 0 for male, 1 for female
+* `sex`: a factor with levels male female
+* `g1b`: experienced serious thoughts of suicide in last 30 days (measured at baseline; a factor with levels no yes)
+* `homeless`: housing status: a factor with levels housed homeless
+* `i1`: average number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
+* `i2`: maximum number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
+* `id`: subject identifier
+* `indtot`: Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)
+* `linkstatus`: post-detox linkage to primary care (0 = no, 1 = yes)
+* `link`: post-detox linkage to primary care: no yes
+* `mcs`: SF-36 Mental Component Score (measured at baseline, lower scores indicate worse status)
+* `pcs`: SF-36 Physical Component Score (measured at baseline, lower scores indicate worse status)
+* `pss_fr`: perceived social support by friends (measured at baseline, higher scores indicate more support)
+* `racegrp`: race/ethnicity: levels black hispanic other white
+* `satreat`: any BSAS substance abuse treatment at baseline (no yes)
+* `sexrisk`: Risk Assessment Battery sex risk score (measured at baseline)
+* `substance`: primary substance of abuse (alcohol cocaine heroin)
+* `treat`: randomized to HELP clinic (no yes)
 
 ---
 
 # Instructions
+
 ## Step 1 {.tabset .tabset-fade .tabset-pills}
 ### Question
-Load in the [HELP data set](https://utah.instructure.com/files/108105219/download?download_frd=1) from [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html). If necessary, review the codebook (explanation of variables) in [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html).
+Load in the [HELP data set](https://utah.instructure.com/files/108105219/download?download_frd=1) that we used in [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html).
 
-### Hint
-If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.
 
 ## Step 2 {.tabset .tabset-fade .tabset-pills}
 ### Question
-Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called `ExtremeMCS` and code it as 1 if a patient is at risk based on his/her mcs score and 0 otherwise.
+Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.
+
+Make a new variable called `ExtremeMCS` and code it as `1` if a patient is at risk based on his/her mcs score and `0` otherwise.
 
 ### Hint
 In addition to the method shown in the video, you can create this new variable using the `ifelse` command.
    
 Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
+
+The code below creates a new variable based on `alcohol` in the HELP data set, which has been read into a data frame called `hdata`.
+
+```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
+freq(hdata$racegrp)
+```
+
 
 ## Step 3 {.tabset .tabset-fade .tabset-pills}
 ### Question
@@ -43,9 +92,10 @@ Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indica
 ### Hint
 You can use the same logic (and command) that you used in Q2 to create this variable.
 
+
 ## Step 4 {.tabset .tabset-fade .tabset-pills}
-### Question
 Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.
+
 
 ## Step 5 {.tabset .tabset-fade .tabset-pills}
 ### Question
@@ -59,6 +109,7 @@ You want to create a new variable called `RiskTotal`, which is the sum of `Extre
 
 Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
 
+
 ## Step 6 {.tabset .tabset-fade .tabset-pills}
 ### Question
 Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Include these tables in your PDF submission.
@@ -70,8 +121,9 @@ c. What percentage of patients in the study have fewer than 3 risk factors?
 ### Hint
 Refer to LA.3 to review creating frequency tables.
 
-## Step 7 {.tabset .tabset-fade .tabset-pills}
-Submit the following on Canvas:
 
-a. A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
-b. A **PDF file** containing the answers to each question--clearly label the answers with the question number.
+## Submission {.tabset .tabset-fade .tabset-pills}
+Submit a **.R file** containing the following on Canvas:
+
+- R code/commands used to complete this assignment. Your R script should include annotations that explain your thought process as you work through the assignment.
+- Clearly labeled answers to questions as comments/annotations in the R script.
