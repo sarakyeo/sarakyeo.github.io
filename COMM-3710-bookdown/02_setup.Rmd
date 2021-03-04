@@ -17,7 +17,7 @@ Similarly, we will interact and use R through RStudio.
 To start a new R script, use the *File* menu or the shortcut keys Ctrl + Shift + N (Windows) or Cmd + Shift + N (Mac).^[Keyboard shortcuts are available under *Tools* $\rightarrow$ *Keyboard Shortcuts Help*.]
 
 ```{r new-script, echo = FALSE, fig.cap = "Open a new R script in RStudio.", fig.align = "center"}
-knitr:: include_graphics("images/new-R-script.gif")
+knitr::include_graphics("images/new-R-script.gif")
 ```
 
 ---
