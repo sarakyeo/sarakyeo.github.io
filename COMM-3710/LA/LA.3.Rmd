@@ -54,7 +54,7 @@ The data set contains 453 observations on the following variables:
 
 # Instructions
 
-## Step 1 {.tabset .tabset-fade}
+## Step 1 {.tabset .tabset-fade .tabset-pills}
 ### Question
 1. Load in the [HELP.csv data set](https://utah.instructure.com/files/108105219/download?download_frd=1)<!--change link for each section-->, which can be found on Canvas.
 
@@ -62,7 +62,7 @@ The data set contains 453 observations on the following variables:
 To load/read data into R, see [Chapter 3](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#assignment-r-script-checklist) of the book, COMM 3710: Getting Started with R.
 
 
-## Step 2 {.tabset .tabset-fade}
+## Step 2 {.tabset .tabset-fade .tabset-pills}
 ### Question
 Install the `descr` and `tidyverse` packages in R. Then, load the packages.
 
@@ -81,7 +81,7 @@ Read the documentation for `freq()` by typing `?freq` in the Console.
 
 You might find the [section on working with data frames](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames) helpful.
 
-## Step 3 {.tabset .tabset-fade}
+## Step 3 {.tabset .tabset-fade .tabset-pills}
 ### Question
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
 
@@ -93,19 +93,19 @@ To subset the data, you will use the `filter()` function from the `dplyr` packag
 Read the documentation for the `filter()` function by typing `?dplyr::filter` in the Console. Be sure to check out the examples in the documentation.
 
 
-## Step 4 {.tabset .tabset-fade}
-### Question
+## Step 4 
 Make a frequency table for `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
 b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
 
 
-## Step 5 {.tabset .tabset-fade}
+## Step 5
 Submit a **.R file** containing the following on Canvas:
 
 - R code/commands used to complete this assignment. Your R script should include annotations that explain your thought process as you work through the assignment.
 - Clearly labeled answers to questions as comments/annotations in the R script.
 
 Sample submission:
+
 ![](LA.3_sample-R-submission.png)
