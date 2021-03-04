@@ -1,6 +1,6 @@
 ---
 title: 'LA.3: Examining Data (10 points)'
-pagetitle: "COMM 3710: LA.3..."
+pagetitle: "COMM 3710: LA.3"
 output:
   html_document:
     toc: true
