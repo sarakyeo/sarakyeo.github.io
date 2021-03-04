@@ -1,21 +1,22 @@
 ---
-title: "LA.3: Examining Data (10 points)"
+title: 'LA.4: Working with Data (10 points)'
+pagetitle: "COMM 3710: LA.4"
 output:
-  learnr::tutorial:
-    allow_skip: true
-    theme: "united"
-runtime: shiny_prerendered
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}
-library(learnr)
 library(tidyverse)
 library(descr)
 hdata <- read.csv("HELP.csv")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Resources
+# Resources
 
 - [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs)
 - [COMM 3710 Slack workspace]() (see Canvas for instructions on how to join)
@@ -23,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ---
 
-## Data
+# Data
 
 For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/108105219/download?download_frd=1). Submit your answers as a PDF document on Canvas.
 
@@ -60,22 +61,22 @@ The data set contains 453 observations on the following variables:
 
 ---
 
-## Instructions
+# Instructions
 
-### Step 1 {.tabset .tabset-fade .tabset-pills}
+## Step 1 {.tabset .tabset-fade .tabset-pills}
 
-#### Question
+### Question
 
 Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?download_frd=1) data set into R. This data set is saved as a .csv file.
 
-#### Hint
+### Hint
 
 To load/read data into R, see [Chapter 3](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#assignment-r-script-checklist) of the book, COMM 3710: Getting Started with R.
 
 
-### Step 2 {.tabset .tabset-fade .tabset-pills}
+## Step 2 {.tabset .tabset-fade .tabset-pills}
 
-#### Question
+### Question
 
 Install the `descr` and `tidyverse` packages in R. Then, load the packages.
 
@@ -85,7 +86,7 @@ a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?
 c. What percentage of patients in the study have been hospitalized fewer than 5 times?
 
-#### Hint
+### Hint
 
 To install and load packages, see this [section of the COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#packages) book.
 
@@ -95,32 +96,32 @@ Read the documentation for `freq()` by typing `?freq` in the Console.
 
 You might find the [section on working with data frames](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames) helpful.
 
-**Try it out:** Run the code below to see a frequency distribution for the variable `anysub` in the HELP data set, which has been read into a data frame called `hdata`. Change the argument within the `freq()` function to see the frequency distribution of the variable, `racegrp`.
+The code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
 
-```{r freq, exercise=TRUE}
-freq(hdata$anysub)
+```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
+freq(hdata$racegrp)
 ```
 
 
-### Step 3 {.tabset .tabset-fade .tabset-pills}
-#### Question
+## Step 3 {.tabset .tabset-fade .tabset-pills}
+### Question
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
 
 a. How many patients are between the ages of 40 and 45?
 
-#### Hint
+### Hint
 To subset the data, you will use the `filter()` function from the `dplyr` package that is part of the `tidyverse`. Be sure you have installed and loaded the `tidyverse` package.
 
 Read the documentation for the `filter()` function by typing `?dplyr::filter` in the Console. Be sure to check out the examples in the documentation.
 
-**Try it out:** The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
+The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
 
-```{r filter, exercise=TRUE}
+```{r filter, eval=TRUE, echo=TRUE, prompt=TRUE}
 subdata <- filter(hdata, homeless == "housed")
 freq(subdata$homeless)
 ```
 
-### Step 4 
+## Step 4 
 Make a frequency table for `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
@@ -136,6 +137,6 @@ Submit a **.R file** containing the following on Canvas:
 Sample submission:
 
 ```{r sample, echo=FALSE, out.width="80%", fig.align='center'}
-knitr::include_graphics("images/LA.3_sample-R-submission.png")
+knitr::include_graphics("LA.3_sample-R-submission.png")
 ```
 
