@@ -1,0 +1,126 @@
+---
+title: "LA.3: Examining Data (10 points)"
+output:
+  learnr::tutorial:
+    progressive: true
+    allow_skip: true
+    theme: "united"
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(tidyverse)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Resources
+- [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs)
+- [Slack workspace]()
+
+---
+
+# Data
+For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/108105219/download?download_frd=1). Submit your answers as a PDF document on Canvas.
+
+The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.
+
+The data set contains 453 observations on the following variables:
+
+* `age`: Subject age at baseline (in years)
+* `anysub`: Use of any substance post-detox (a factor with levels no yes)
+* `cesd`: Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)
+* `d1`: lifetime number of hospitalizations for medical problems (measured at baseline)
+* `daysanysub`: time (in days) to first use of any substance post-detox
+* `dayslink`: time (in days) to linkage to primary care
+* `drugrisk`: Risk Assessment Battery drug risk scale at baseline
+* `e2b`: number of times in past 6 months entered a detox program (measured at baseline)
+* `female`: 0 for male, 1 for female
+* `sex`: a factor with levels male female
+* `g1b`: experienced serious thoughts of suicide in last 30 days (measured at baseline; a factor with levels no yes)
+* `homeless`: housing status: a factor with levels housed homeless
+* `i1`: average number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
+* `i2`: maximum number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
+* `id`: subject identifier
+* `indtot`: Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)
+* `linkstatus`: post-detox linkage to primary care (0 = no, 1 = yes)
+* `link`: post-detox linkage to primary care: no yes
+* `mcs`: SF-36 Mental Component Score (measured at baseline, lower scores indicate worse status)
+* `pcs`: SF-36 Physical Component Score (measured at baseline, lower scores indicate worse status)
+* `pss_fr`: perceived social support by friends (measured at baseline, higher scores indicate more support)
+* `racegrp`: race/ethnicity: levels black hispanic other white
+* `satreat`: any BSAS substance abuse treatment at baseline (no yes)
+* `sexrisk`: Risk Assessment Battery sex risk score (measured at baseline)
+* `substance`: primary substance of abuse (alcohol cocaine heroin)
+* `treat`: randomized to HELP clinic (no yes)
+
+---
+
+# Instructions
+
+## Step 1 {.tabset .tabset-fade}
+
+### Question
+Load/Read the [HELP]() data set into R. This data set is saved as a .csv file.
+
+Write the R code required to add two plus two:
+
+```{r two-plus-two, exercise=TRUE}
+
+```
+
+### Hint
+
+
+
+### Exercise with Code
+
+*Here's an exercise with some prepopulated code as well as `exercise.lines = 5` to provide a bit more initial room to work.*
+
+Now write a function that adds any two numbers and then call it:
+
+```{r add-function, exercise=TRUE, exercise.lines = 5}
+add <- function() {
+  
+}
+```
+
+## Topic 2
+
+### Exercise with Hint
+
+*Here's an exercise where the chunk is pre-evaulated via the `exercise.eval` option (so the user can see the default output we'd like them to customize). We also add a "hint" to the correct solution via the chunk immediate below labeled `print-limit-hint`.*
+
+Modify the following code to limit the number of rows printed to 5:
+
+```{r print-limit, exercise=TRUE, exercise.eval=TRUE}
+mtcars
+```
+
+```{r print-limit-hint}
+head(mtcars)
+```
+
+### Quiz
+
+*You can include any number of single or multiple choice questions as a quiz. Use the `question` function to define a question and the `quiz` function for grouping multiple questions together.*
+
+Some questions to verify that you understand the purposes of various base and recommended R packages:
+
+```{r quiz}
+quiz(
+  question("Which package contains functions for installing other R packages?",
+    answer("base"),
+    answer("tools"),
+    answer("utils", correct = TRUE),
+    answer("codetools")
+  ),
+  question("Which of the R packages listed below are used to create plots?",
+    answer("lattice", correct = TRUE),
+    answer("tools"),
+    answer("stats"),
+    answer("grid", correct = TRUE)
+  )
+)
+```
+

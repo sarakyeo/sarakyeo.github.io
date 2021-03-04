@@ -42,7 +42,32 @@ knitr::include_graphics("images/set-working-dir.gif")
 
 ## Install and load packages
 
-Next, you need to install and load the R packages (see \@ref(packages)) you will be using for this R session. Refer to section \@ref(packages) for the commands for installing and loading packages.
+Next, you need to install and load the R packages (see \@ref(packages)) you will be using for this R session. Refer to section \@ref(packages) for more information about installing vs. loading packages.
+
+Remember that you only need to install packages once but you need to load packages each time you open R.
+
+The functions to install and load packages are `install.packages()` and `library()`, respectively.
+
+```{r package-cmd, echo=TRUE, eval=FALSE, prompt=TRUE}
+## Install the tidyverse package
+install.packages("tidyverse")
+
+## Load the tidyverse package (after installing)
+library(tidyverse)
+```
+
+---
+
+## Set working directory and read/load data into R
+
+Once you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory.
+
+You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the `setwd()` function.
+
+```{r setwd, echo=TRUE, eval=FALSE, prompt=TRUE}
+## Set the working directory to c:/Users/SaraK/COMM-3710
+setwd("c:/Users/SaraK/COMM-3710")
+```
 
 ---
 
@@ -73,3 +98,15 @@ Most of your assignments will require you to submit a PDF document in addition t
 knitr::include_graphics("images/compile-pdf.gif")
 ```
 
+---
+
+## Assignment R script checklist
+
+Be sure you have *at least* the following components in your R script. This list is **not** comprehensive. It represents the minimal requirements for your R script.
+
+- Full name and student ID \#
+- Assignment name/number (e.g., LA.1)
+- Annotations explaining your R code
+- R command to set working directory
+- R command to install (if necessary) and load packages
+- R commands necessary for completion of your assignment

@@ -173,8 +173,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="setup.html"><a href="setup.html#create-a-new-r-script"><i class="fa fa-check"></i><b>3.2</b> Create a new R script</a></li>
 <li class="chapter" data-level="3.3" data-path="setup.html"><a href="setup.html#prepare-r-script"><i class="fa fa-check"></i><b>3.3</b> Prepare R script</a></li>
 <li class="chapter" data-level="3.4" data-path="setup.html"><a href="setup.html#install-and-load-packages"><i class="fa fa-check"></i><b>3.4</b> Install and load packages</a></li>
-<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
-<li class="chapter" data-level="3.6" data-path="setup.html"><a href="setup.html#compiling-your-r-script-into-a-pdf"><i class="fa fa-check"></i><b>3.6</b> Compiling your R script into a PDF</a></li>
+<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#set-working-directory-and-readload-data-into-r"><i class="fa fa-check"></i><b>3.5</b> Set working directory and read/load data into R</a></li>
+<li class="chapter" data-level="3.6" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.6</b> Saving your R script</a></li>
+<li class="chapter" data-level="3.7" data-path="setup.html"><a href="setup.html#compiling-your-r-script-into-a-pdf"><i class="fa fa-check"></i><b>3.7</b> Compiling your R script into a PDF</a></li>
+<li class="chapter" data-level="3.8" data-path="setup.html"><a href="setup.html#assignment-r-script-checklist"><i class="fa fa-check"></i><b>3.8</b> Assignment R script checklist</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="tips.html"><a href="tips.html"><i class="fa fa-check"></i><b>4</b> Tips on Working with R</a>
 <ul>
@@ -257,11 +259,26 @@ Figure 3.2: Set your working directory in RStudio using the function, <code>setw
 </div>
 <div id="install-and-load-packages" class="section level2" number="3.4">
 <h2><span class="header-section-number">3.4</span> Install and load packages</h2>
-<p>Next, you need to install and load the R packages (see <a href="start.html#packages">2.3.5</a>) you will be using for this R session. Refer to section <a href="start.html#packages">2.3.5</a> for the commands for installing and loading packages.</p>
+<p>Next, you need to install and load the R packages (see <a href="start.html#packages">2.3.5</a>) you will be using for this R session. Refer to section <a href="start.html#packages">2.3.5</a> for more information about installing vs. loading packages.</p>
+<p>Remember that you only need to install packages once but you need to load packages each time you open R.</p>
+<p>The functions to install and load packages are <code>install.packages()</code> and <code>library()</code>, respectively.</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="setup.html#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="do">## Install the tidyverse package</span></span>
+<span id="cb40-2"><a href="setup.html#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">install.packages</span>(<span class="st">&quot;tidyverse&quot;</span>)</span>
+<span id="cb40-3"><a href="setup.html#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> </span>
+<span id="cb40-4"><a href="setup.html#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="do">## Load the tidyverse package (after installing)</span></span>
+<span id="cb40-5"><a href="setup.html#cb40-5" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">library</span>(tidyverse)</span></code></pre></div>
 <hr />
 </div>
-<div id="saveRscript" class="section level2" number="3.5">
-<h2><span class="header-section-number">3.5</span> Saving your R script</h2>
+<div id="set-working-directory-and-readload-data-into-r" class="section level2" number="3.5">
+<h2><span class="header-section-number">3.5</span> Set working directory and read/load data into R</h2>
+<p>Once you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory.</p>
+<p>You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the <code>setwd()</code> function.</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="setup.html#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="do">## Set the working directory to c:/Users/SaraK/COMM-3710</span></span>
+<span id="cb41-2"><a href="setup.html#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">setwd</span>(<span class="st">&quot;c:/Users/SaraK/COMM-3710&quot;</span>)</span></code></pre></div>
+<hr />
+</div>
+<div id="saveRscript" class="section level2" number="3.6">
+<h2><span class="header-section-number">3.6</span> Saving your R script</h2>
 <p><strong>Be sure to save your work often.</strong></p>
 <p>You are likely familiar with file types like <em>.docx</em> (Word documents), <em>.pdf</em> (PDF documents), and <em>.txt</em> (text files). If you have not worked with R prior to enrolling in this course, you may not have encountered files with the extension <strong>.R</strong>.</p>
 <p>Files with a .R extension are known as <strong>R scripts</strong>. As noted in Section <a href="start.html#tour">2.3.1</a>, a R script is simply a text file containing a set of commands and comments.</p>
@@ -274,8 +291,8 @@ Figure 3.3: Saving your R script in RStudio.
 </div>
 <hr />
 </div>
-<div id="compiling-your-r-script-into-a-pdf" class="section level2" number="3.6">
-<h2><span class="header-section-number">3.6</span> Compiling your R script into a PDF</h2>
+<div id="compiling-your-r-script-into-a-pdf" class="section level2" number="3.7">
+<h2><span class="header-section-number">3.7</span> Compiling your R script into a PDF</h2>
 <p>Most of your assignments will require you to submit a PDF document in addition to your R script. There are two main ways to create a PDF document for your assignments:</p>
 <ol style="list-style-type: decimal">
 <li>Open a Microsoft Word document and copy and paste the necessary text into that document while you work. Remember to save often. Once you have completed the assignment, save the Word document as a PDF document.</li>
@@ -287,6 +304,19 @@ Figure 3.3: Saving your R script in RStudio.
 Figure 3.4: Compiling a PDF from your R script in RStudio.
 </p>
 </div>
+<hr />
+</div>
+<div id="assignment-r-script-checklist" class="section level2" number="3.8">
+<h2><span class="header-section-number">3.8</span> Assignment R script checklist</h2>
+<p>Be sure you have <em>at least</em> the following components in your R script. This list is <strong>not</strong> comprehensive. It represents the minimal requirements for your R script.</p>
+<ul>
+<li>Full name and student ID #</li>
+<li>Assignment name/number (e.g., LA.1)</li>
+<li>Annotations explaining your R code</li>
+<li>R command to set working directory</li>
+<li>R command to install (if necessary) and load packages</li>
+<li>R commands necessary for completion of your assignment</li>
+</ul>
 
 </div>
 </div>

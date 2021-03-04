@@ -173,8 +173,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="3.2" data-path="setup.html"><a href="setup.html#create-a-new-r-script"><i class="fa fa-check"></i><b>3.2</b> Create a new R script</a></li>
 <li class="chapter" data-level="3.3" data-path="setup.html"><a href="setup.html#prepare-r-script"><i class="fa fa-check"></i><b>3.3</b> Prepare R script</a></li>
 <li class="chapter" data-level="3.4" data-path="setup.html"><a href="setup.html#install-and-load-packages"><i class="fa fa-check"></i><b>3.4</b> Install and load packages</a></li>
-<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.5</b> Saving your R script</a></li>
-<li class="chapter" data-level="3.6" data-path="setup.html"><a href="setup.html#compiling-your-r-script-into-a-pdf"><i class="fa fa-check"></i><b>3.6</b> Compiling your R script into a PDF</a></li>
+<li class="chapter" data-level="3.5" data-path="setup.html"><a href="setup.html#set-working-directory-and-readload-data-into-r"><i class="fa fa-check"></i><b>3.5</b> Set working directory and read/load data into R</a></li>
+<li class="chapter" data-level="3.6" data-path="setup.html"><a href="setup.html#saveRscript"><i class="fa fa-check"></i><b>3.6</b> Saving your R script</a></li>
+<li class="chapter" data-level="3.7" data-path="setup.html"><a href="setup.html#compiling-your-r-script-into-a-pdf"><i class="fa fa-check"></i><b>3.7</b> Compiling your R script into a PDF</a></li>
+<li class="chapter" data-level="3.8" data-path="setup.html"><a href="setup.html#assignment-r-script-checklist"><i class="fa fa-check"></i><b>3.8</b> Assignment R script checklist</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="tips.html"><a href="tips.html"><i class="fa fa-check"></i><b>4</b> Tips on Working with R</a>
 <ul>
@@ -246,22 +248,22 @@ Figure 4.1: All the cats. This image is from Aoshima Island, Japan. Read more ab
 <p>When writing R code, you should include explanations to your future self or to other team members (e.g., when conducting data analysis for your group project). These explanations can be included as comments and annotations to your R code in the script.</p>
 <p>Comments in R begin with <code>#</code>. R recognizes text that follows <code>#</code> as comments and ignores that text when running the code. Include annotations wherever possible; your future self and team members will thank you later.</p>
 <p>Below is an example of some code that includes annotations and comments. Note that you can use as many <code>#</code> as you want.</p>
-<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="tips.html#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Start by defining an object</span></span>
-<span id="cb40-2"><a href="tips.html#cb40-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">+</span><span class="dv">5</span></span>
-<span id="cb40-3"><a href="tips.html#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-4"><a href="tips.html#cb40-4" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> x<span class="sc">+</span><span class="dv">6</span> <span class="co"># adding 2 to x and assigning the result to y for later use</span></span>
-<span id="cb40-5"><a href="tips.html#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-6"><a href="tips.html#cb40-6" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> x<span class="sc">*</span>y <span class="co"># z is the product of x and y</span></span>
-<span id="cb40-7"><a href="tips.html#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-8"><a href="tips.html#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(z) <span class="co"># this function displays the result of z in the Console</span></span>
-<span id="cb40-9"><a href="tips.html#cb40-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-10"><a href="tips.html#cb40-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Next, I want to determine the mean across x, y, and z</span></span>
-<span id="cb40-11"><a href="tips.html#cb40-11" aria-hidden="true" tabindex="-1"></a>xyz <span class="ot">&lt;-</span> <span class="fu">c</span>(x, y, z) <span class="co"># this combines x, y, and z</span></span>
-<span id="cb40-12"><a href="tips.html#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(xyz)</span>
-<span id="cb40-13"><a href="tips.html#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-14"><a href="tips.html#cb40-14" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(xyz) <span class="co"># this line calculates the mean of the object, xyz</span></span>
-<span id="cb40-15"><a href="tips.html#cb40-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-16"><a href="tips.html#cb40-16" aria-hidden="true" tabindex="-1"></a><span class="do">###############################################################################</span></span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="tips.html#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Start by defining an object</span></span>
+<span id="cb42-2"><a href="tips.html#cb42-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">+</span><span class="dv">5</span></span>
+<span id="cb42-3"><a href="tips.html#cb42-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-4"><a href="tips.html#cb42-4" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> x<span class="sc">+</span><span class="dv">6</span> <span class="co"># adding 2 to x and assigning the result to y for later use</span></span>
+<span id="cb42-5"><a href="tips.html#cb42-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-6"><a href="tips.html#cb42-6" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> x<span class="sc">*</span>y <span class="co"># z is the product of x and y</span></span>
+<span id="cb42-7"><a href="tips.html#cb42-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-8"><a href="tips.html#cb42-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(z) <span class="co"># this function displays the result of z in the Console</span></span>
+<span id="cb42-9"><a href="tips.html#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="tips.html#cb42-10" aria-hidden="true" tabindex="-1"></a><span class="do">## Next, I want to determine the mean across x, y, and z</span></span>
+<span id="cb42-11"><a href="tips.html#cb42-11" aria-hidden="true" tabindex="-1"></a>xyz <span class="ot">&lt;-</span> <span class="fu">c</span>(x, y, z) <span class="co"># this combines x, y, and z</span></span>
+<span id="cb42-12"><a href="tips.html#cb42-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(xyz)</span>
+<span id="cb42-13"><a href="tips.html#cb42-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-14"><a href="tips.html#cb42-14" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(xyz) <span class="co"># this line calculates the mean of the object, xyz</span></span>
+<span id="cb42-15"><a href="tips.html#cb42-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-16"><a href="tips.html#cb42-16" aria-hidden="true" tabindex="-1"></a><span class="do">###############################################################################</span></span></code></pre></div>
 <p>When you run this script, R recognizes the commands and ignores the comments. However, the comments and annotations are saved in the R script–and your future self and the rest of your team will be grateful.</p>
 <pre><code>## [1] 112</code></pre>
 <pre><code>## [1]   8  14 112</code></pre>

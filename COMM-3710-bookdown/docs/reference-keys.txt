@@ -42,8 +42,10 @@ open-rstudio
 create-a-new-r-script
 prepare-r-script
 install-and-load-packages
+set-working-directory-and-readload-data-into-r
 saveRscript
 compiling-your-r-script-into-a-pdf
+assignment-r-script-checklist
 tips
 on-labeling-and-naming-objects
 on-script-annotation
