@@ -78,23 +78,20 @@ In addition to the method shown in the video, you can create this new variable u
    
 Figure out what the arguments (the text and numbers within the parentheses) in the `ifelse` function mean by typing `?ifelse` into the Console in RStudio and reading the documentation.
 
-The code below creates a new variable based on `alcohol` in the HELP data set, which has been read into a data frame called `hdata`.
+The code below creates a new variable called `alcohol` based on the existing variable, `substance`, in the HELP data set, which has been read into a data frame called `hdata`. It recodes the `substance` variable into a new variable that assigns `1` to any patient whose primary substance of abuse is alcohol and `0` to patients whose primary substance of abuse is cocaine or heroine. 
 
-```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
-freq(hdata$racegrp)
+```{r recode, eval=TRUE, echo=TRUE, prompt=TRUE}
+hdata$alcohol <- ifelse(hdata$substance == "alcohol", 1, 0)
+freq(hdata$alcohol)
 ```
 
 
 ## Step 3 {.tabset .tabset-fade .tabset-pills}
-### Question
-Make a new variable `SuicidalThought` based on the variable `g1b`. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.
-
-### Hint
-You can use the same logic (and command) that you used in Q2 to create this variable.
+Make a new variable `SuicidalThought` based on the variable `g1b`. Have `1` indicate a patient has had suicidal thoughts and a `1` indicate they have not.
 
 
 ## Step 4 {.tabset .tabset-fade .tabset-pills}
-Make a new variable `HomelessStatus` based on the variable `homeless`. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.
+Make a new variable `HomelessStatus` based on the variable `homeless`. Have `1` indicate that a patient is homeless and `0` indicate that they are housed.
 
 
 ## Step 5 {.tabset .tabset-fade .tabset-pills}
@@ -103,16 +100,17 @@ Suppose we want to assess the overall risk a patient has to return to the detoxi
 
 ### Hint
 You want to create a new variable called `RiskTotal`, which is the sum of `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus`. First, try the most straightforward way, which is to use this general formula:
-   ```
-   Dataframe$NewVariable <- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 
-   ```
+
+```
+Dataframe$NewVariable <- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 
+```
 
 Like most things in R, there are many other ways to do this. One way is to transform the data using the command, `transform`. Get help with `transform` by typing `?transform` into the Console and reading the documentation.
 
 
 ## Step 6 {.tabset .tabset-fade .tabset-pills}
 ### Question
-Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Include these tables in your PDF submission.
+Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Answer the following questions.
 
 a. How many patients are thought to be at risk based on their `mcs` score?
 b. What percentage of patients have experienced suicidal thoughts?

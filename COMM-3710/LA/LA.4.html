@@ -252,70 +252,105 @@ div.tocify {
 </ul>
 <hr />
 </div>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<p>For this assignment, you will be working with the <a href="https://utah.instructure.com/files/108105219/download?download_frd=1">Health Evaluation and Linkage to Primary Care (HELP) data set</a>. Submit your answers as a PDF document on Canvas.</p>
+<p>The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.</p>
+<p>The data set contains 453 observations on the following variables:</p>
+<ul>
+<li><code>age</code>: Subject age at baseline (in years)</li>
+<li><code>anysub</code>: Use of any substance post-detox (a factor with levels no yes)</li>
+<li><code>cesd</code>: Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)</li>
+<li><code>d1</code>: lifetime number of hospitalizations for medical problems (measured at baseline)</li>
+<li><code>daysanysub</code>: time (in days) to first use of any substance post-detox</li>
+<li><code>dayslink</code>: time (in days) to linkage to primary care</li>
+<li><code>drugrisk</code>: Risk Assessment Battery drug risk scale at baseline</li>
+<li><code>e2b</code>: number of times in past 6 months entered a detox program (measured at baseline)</li>
+<li><code>female</code>: 0 for male, 1 for female</li>
+<li><code>sex</code>: a factor with levels male female</li>
+<li><code>g1b</code>: experienced serious thoughts of suicide in last 30 days (measured at baseline; a factor with levels no yes)</li>
+<li><code>homeless</code>: housing status: a factor with levels housed homeless</li>
+<li><code>i1</code>: average number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)</li>
+<li><code>i2</code>: maximum number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)</li>
+<li><code>id</code>: subject identifier</li>
+<li><code>indtot</code>: Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)</li>
+<li><code>linkstatus</code>: post-detox linkage to primary care (0 = no, 1 = yes)</li>
+<li><code>link</code>: post-detox linkage to primary care: no yes</li>
+<li><code>mcs</code>: SF-36 Mental Component Score (measured at baseline, lower scores indicate worse status)</li>
+<li><code>pcs</code>: SF-36 Physical Component Score (measured at baseline, lower scores indicate worse status)</li>
+<li><code>pss_fr</code>: perceived social support by friends (measured at baseline, higher scores indicate more support)</li>
+<li><code>racegrp</code>: race/ethnicity: levels black hispanic other white</li>
+<li><code>satreat</code>: any BSAS substance abuse treatment at baseline (no yes)</li>
+<li><code>sexrisk</code>: Risk Assessment Battery sex risk score (measured at baseline)</li>
+<li><code>substance</code>: primary substance of abuse (alcohol cocaine heroin)</li>
+<li><code>treat</code>: randomized to HELP clinic (no yes)</li>
+</ul>
+<hr />
+</div>
 <div id="instructions" class="section level1">
 <h1>Instructions</h1>
 <div id="step-1" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 1</h2>
 <div id="question" class="section level3">
 <h3>Question</h3>
-<p>Load in the <a href="https://utah.instructure.com/files/108105219/download?download_frd=1">HELP data set</a> from <a href="https://sarakyeo.github.io/COMM-3710/LA/LA.3.html">LA.3</a>. If necessary, review the codebook (explanation of variables) in <a href="https://sarakyeo.github.io/COMM-3710/LA/LA.3.html">LA.3</a>.</p>
-</div>
-<div id="hint" class="section level3">
-<h3>Hint</h3>
-<p>If necessary, review how you loaded the data in LA.3. Remember that you can name this object anything you like.</p>
+<p>Load in the <a href="https://utah.instructure.com/files/108105219/download?download_frd=1">HELP data set</a> that we used in <a href="https://sarakyeo.github.io/COMM-3710/LA/LA.3.html">LA.3</a>.</p>
 </div>
 </div>
 <div id="step-2" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 2</h2>
 <div id="question-1" class="section level3">
 <h3>Question</h3>
-<p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months. Make a new variable called <code>ExtremeMCS</code> and code it as 1 if a patient is at risk based on his/her mcs score and 0 otherwise.</p>
+<p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.</p>
+<p>Make a new variable called <code>ExtremeMCS</code> and code it as <code>1</code> if a patient is at risk based on his/her mcs score and <code>0</code> otherwise.</p>
 </div>
-<div id="hint-1" class="section level3">
+<div id="hint" class="section level3">
 <h3>Hint</h3>
 <p>In addition to the method shown in the video, you can create this new variable using the <code>ifelse</code> command.</p>
 <p>Figure out what the arguments (the text and numbers within the parentheses) in the <code>ifelse</code> function mean by typing <code>?ifelse</code> into the Console in RStudio and reading the documentation.</p>
+<p>The code below creates a new variable called <code>alcohol</code> based on the existing variable, <code>substance</code>, in the HELP data set, which has been read into a data frame called <code>hdata</code>. It recodes the <code>substance</code> variable into a new variable that assigns <code>1</code> to any patient whose primary substance of abuse is alcohol and <code>0</code> to patients whose primary substance of abuse is cocaine or heroine.</p>
+<pre class="r"><code>&gt; hdata$alcohol &lt;- ifelse(hdata$substance == &quot;alcohol&quot;, 1, 0)
+&gt; freq(hdata$alcohol)</code></pre>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABUAAAAPACAMAAADDuCPrAAAAtFBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZrY6AAA6OgA6Ojo6ZmY6ZpA6ZrY6kNtmAABmOgBmOjpmZmZmZpBmkJBmkLZmkNtmtttmtv+QOgCQZgCQZjqQkLaQtraQttuQtv+Q2/+2ZgC2Zjq2kGa2kLa2tpC2tra2ttu227a229u22/+2//++vr7bkDrbkGbbtmbbtpDbtrbb27bb29vb2//b////tmb/25D/27b/29v//7b//9v///9wMOOSAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAgAElEQVR4nO3dfXcb1bXAYTkNMZBCUJsLlAsXJ0W5CTfkxeCkyN//e13JbvDbaTJ7h0nmnP08/2BrRSN1dfu3NJqZM6tTAFJWH/sNAPRKQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIElAAZIEFCBJQAGSBBQgSUABkgQUIGmUgK4Yy8ceKJhijEH92H/t/Ok+9kjBFGMM6mr1f4xEQOnDGIMqoIMRUPowxqAK6GAElD6MMagCOhgBpQ9jDKqADkZA6cMYgyqggxFQ+jDGoAroYASUPowxqAI6GAGlD2MMqoAORkDpwxiDKqCDEVD6MMagCuhgBJQ+jDGoAjoYAaUPYwyqgA5GQOnDGIMqoIMRUPowxqAK6GAElD6MMagCOhgBpQ9jDKqADkZA6cMYgyqggxFQ+jDGoAroYASUPowxqAI6GAGlD2MMqoAORkDpwxiDKqCDEVD6MMagCuhgBJQ+jDGoAjoYAaUPYwyqgA5GQOnDGIMqoIMRUPowxqAK6GAElD6MMagCOhgBpQ9jDKqADkZA6cMYgyqggxFQ+jD7oG6PX2w2m0fHv835IgI6GAGlD/MO6svvVhfuPp7tdQR0MAJKH+Yc1Nf3Vlfd/nGmVxLQwQgofZhxUE8O99H8bH3u0/0vB9/M81ICOhgBpQ/zDervX+6C+cOlB57vgnrr51leS0AHI6D0Yb5BfXojl/ukfjHLawnoYASUPsw2qNtvV6vrO+wnq9UnsxyNF9DBCCh9mG1Qdx83b+yvtx77UwjoYASUPggoCySg9GHOXfiD62ct2YVnGgGlD/MN6tGNWu6/Fr0zy2sJ6GAElD7MN6ivDncFfXLpgde7ft74UPrnENDBCCh9mHFQn56dOr/+frP30/mZ9POcxSSgoxFQ+jDnoD47vHYp58HXM72SgA5GQOnDrIO6fXg5oQf3Z1uRSUAHI6D0Ye5B3b7cPFyv1/c3j+dcz05AByOg9GGMQRXQwQgofRhjUAV0MAJKHz7MoG5fbB79OuP2BXQwAkof5hvUfx2/Sebz84WVD/7qIBLTCCh9mP9a+O2Di+PwM62nLKCjEVD6MH9Aj/bl/Hy9/mqfUCvSM4WA0ofZA3qyy+b5vvv+Uk4r0jOFgNKH2QN6dLGAyH4xESvSM4GA0oe5A3plYXrL2TGNgNKHuQN6ZQ3lty+ovLpp6osJ6GAElD4sO6BT352ADkZA6cMH+A70Yg3QV4exo0gCWpWA0odZA7ov58mlA0fR70AFtCoBpQ9zBnTnL39//I8/PoKG7wsvoFUJKH2YOaDnzvbbt78cRs8DFdCqBJQ+zDio25cPvzq8COi+qMFbIgloVQJKH+ZfUHlX0TcBvf3knf/+CgGtSkDpw4cb1O0/g/kU0LoElD4selAFtCoBpQ+LHlQBrUpA6cOiB1VAqxJQ+jDzbY2/+uzz/744df7tl3LeJKBVCSh9mHNQfzm8dj94AWUaAaUPMw7q0z9OpH9z/aaAMo2A0of5BvXV7vPn7R+Ojx/s/3ueTQFlGgGlD/MN6tM3nzxf33tTUAFlGgGlD7MN6qWl6Pc/nrVUQJlGQOnD/HflPD0v6J1TAWUqAaUPHySgbxayE1CmEVD68GECuj+idPCjgDKRgNKHD/Ed6N7JanXriYAyjYDSh1mPwt+5+uut/xVQJhFQ+jDveaB3f734/ehibeWpBLQqAaUPM1+JdLmXDwSUiQSUPsw5qM+u3cX4WfSmSAJalYDSh3lXY3r+tyt3Md4+OBRQJhBQ+rDoQRXQqgSUPix6UAW0KgGlD4seVAGtSkDpw6IHVUCrElD6sOhBFdCqBJQ+LHpQBbQqAaUPix5UAa1KQOnDogdVQKsSUPqw6EEV0KoElD4selAFtCoBpQ+LHlQBrUpA6cOiB1VAqxJQ+rDoQRXQqgSUPix6UAW0KgGlD4seVAGtSkDpw6IHVUCrElD6sOhBFdCqBJQ+LHpQBbQqAaUPix5UAa1KQOnDogdVQKsSUPqw6EEV0KoElD4selAFtCoBpQ+LHlQBrUpA6cOiB1VAqxJQ+rDoQRXQqgSUPix6UAW0KgGlD4seVAGtSkDpw6IHVUCrElD6sOhBFdCqBJQ+LHpQBbQqAaUPix5UAa1KQOnDogdVQKsSUPqw6EEV0KoElD4selAFtCoBpQ+LHlQBrUpA6cOiB1VAqxJQ+rDoQRXQqgSUPix6UAW0KgGlD4seVAGtSkDpw6IHVUCrElD6sOhBFdCqBJQ+LHpQBbQqAaUPix5UAa1KQOnDogdVQKsSUPqw6EEV0KoElD4selAFtCoBpQ+LHlQBrUpA6cOiB1VAqxJQ+rDoQRXQqgSUPix6UAW0KgGlD4seVAGtSkDpw6IHVUCrElD6sOhBFdCqBJQ+LHpQBbQqAaUPix5UAa1KQOnDogdVQKsSUPow+6Buj19sNptHx78lniugVQkofZh3UF9+t7pw93H06QJalYDShzkH9fW91VW3f4xtQECrElD6MOOgnhzuo/nZ+tyn+18OvgltQUCrElD6MN+g/v7lLpg/XHrg+S6ot36ObEJAqxJQ+jDfoD69kct9Ur+IbEJAqxJQ+jDboG6/Xa2u77CfrFafRI7GC2hVAkofZhvU3cfNG/vrrcfeRkCrElD6IKAskIDShzl34Q+un7VkF55pBJQ+zDeoRzdquf9a9E5kEwJalYDSh/kG9dXhrqBPLj3wetfPGx9K30pAqxJQ+jDjoD49O3V+/f1m76fzM+lDZzEJaFkCSh/mHNRnh9cu5Tz4OrYBAa1KQOnDrIO6fXg5oQf3oysyCWhVAkof5h7U7cvNw/V6fX/zOLGenYBWJaD0YdGDKqBVCSh9WPSgCmhVAkofrEjPAgkofbAiPQskoPTBivQskIDSByvSs0ACSh+sSM8CCSh9sCI9CySg9MGK9CyQgNKHBS2ovGqY+GICOhgBpQ8CygIJKH2wIj0LJKD0wYr0LJCA0gcr0rNAAkofrEjPAgkofbAiPQskoPTBivQskIDSByvSs0ACSh8WPagCWpWA0odFD6qAViWg9GHRgyqgVQkofZj5INJXn33+3xdffr79Us6bBLQqAaUPcw7qL4fXjr4LKNMIKH2Y+0T6M28u6RRQphFQ+jDvpZy3fzg+frD/73k2BZRpBJQ+zLoi/fknz/295c4LKqBMI6D04UOsSL//8aylAso0AkofPsiCym/WsRNQphFQ+vBhVqT/9+3kBJRpBJQ+fKBberw63C8FKqBMI6D04UPdlfNktbr1RECZRkDpw6xH4e9c/fXW/wookwgofZj3PNC7v178fnR2Tr2AMoGA0oeZr0S63MsHAspEAkofZr6lx5Ve7m/xIaBMIKD0Yd7VmJ7/7co69NsHhwLKBAJKHxY9qAJalYDSh0UPqoBWJaD0YdGDKqBVCSh9WPSgCmhVAkofFj2oAlqVgNKHRQ+qgFYloPRh0YMqoFUJKH1Y9KAKaFUCSh8WPagCWpWA0odFD6qAViWg9GHRgyqgVQkofVj0oApoVQJKHxY9qAJalYDSh0UPqoBWJaD0YdGDKqBVCSh9WPSgCmhVAkofFj2oAlqVgNKHRQ+qgFYloPRh0YMqoFUJKH1Y9KAKaFUCSh8WPagCWpWA0odFD6qAViWg9GHRgyqgVQkofVj0oApoVTMHdMVgZh2Xt47SR3vlCQS0qln/Ij72Hzt/vhnH5R3D9NFeeQIBrWrmgH7s/3n8uQS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACRg7o9vjFZrN5dPxb4rkCWpWAEjBsQF9+t7pw93H06QJalYASMGhAX99bXXX7x9gGBLQqASVgzICeHO6j+dn63Kf7Xw6+CW1BQKsSUAKGDOjvX+6C+cOlB57vgnrr58gmBLQqASVgyIA+vZHLfVK/iGxCQKsSUAJGDOj229Xq+g77yWr1SeRovIBWJaAEjBjQ3cfNG/vrrcfeRkCrElACBLRNQKsSUAJGDOhuF/7g+llLduGZRkAJGDGgp0c3arn/WvROZBMCWpWAEjBkQF8d7gr65NIDr3f9vPGh9K0EtCoBJWDIgO7PY9oVc/39Zu+n8zPpQ2cxCWhZAkrAmAE9fXZ47VLOg69jGxDQqgSUgEEDerp9eDmhB/ejKzIJaFUCSsCoAd3Zvtw8XK/X9zePE+vZCWhVAkrAwAF9LwJalYASIKBtAlqVgBIwfEC3LzaPfo0/TUCrElAChgzov47fJPP5+cLKB391EIlpBJSAEQP6x3Xv2wcXx+Fj6ykLaFkCSsDQAT3al/Pz9fqrfUKtSM8UAkrAyAE92WXzfN99fymnFemZQkAJGDmgRxcLiOwXE7EiPRMIKAEDB/TKwvSWs2MaASVg4IBeWUP57Qsqrxomvpg/icEIKAECevZWBJR/E1ACBg7o6dGlNUBfHbqlB1MIKAGjBnRfzpNLB458B8o0AkrAoAHd+cvfH//jj4+g7gvPRAJKwLgBPXe237795dB5oEwjoASMGND9UqAPvzq8COi+qLFbIgloWQJKwJgBPXNW0TcBvf3knf/+CgGtSkAJGDigF7b/DOZTQOsSUAJKBDRBQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAIEtE1AqxJQAgS0TUCrElACBLRNQKsSUAJGDOjlSzlX167qnPzmBLQoASVAQP/DmxPQogSUgBEDevr6noCSJKAEDBnQ+D3kbhDQqgSUgDEDevWGchkCWpWAEjBoQN9xD6R3E9CqBJSAUQN65X4eCQJalYASMGxAdzvx7/MRVECrElAChg3o6av1+n/yzxbQqgSUgHED+n4EtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElQEDbBLQqASVAQNsEtCoBJUBA2wS0KgElYOSAbo9fbDabR8e/JZ4roFUJKAHDBvTld6sLdx9Hny6gVQkoAYMG9PW91VW3f4xtQECrElACxgzoyeE+mp+tz326/+Xgm9AWBLQqASVgyID+/uUumD9ceuD5Lqi3fo5sQkCrElAChgzo0xu53Cf1i8gmBLQqASVgxIBuv12tru+wn6xWn0SOxgtoVQJKwIgB3X3cvLG/3nrsbQS0KgElQEDbBLQqASVgxIDuduEPrp+1ZBeeaQSUgBEDenp0o5b7r0XvRDYhoFUJKAFDBvTV4a6gTy498HrXzxsfSt9KQKsSUAKGDOj+PKZdMdffb/Z+Oj+TPnQWk4CWJaAEjBnQ02eH1y7lPPg6tgEBrUpACRg0oKfbh5cTenA/uiKTgFYloASMGtCd7cvNw/V6fX/zOLGenYBWJaAEDBzQ9yKgVQkoAQLaJqBVCSgBIwfUivTECSgBwwbUivSkCCgBgwbUivQkCSgBYwbUivRkCSgBQwbUivSkCSgBQwbUivSkCSgBIwbUivTkCSgBIwY0vqDyqmHii/mTGIyAEiCgZ29FQPk3ASVgxIBakZ48ASVgxIBakZ48ASVgyIBakZ40ASVgyIBakZ40ASVgzIBakZ4sASVg0IBakZ4kASVg1ICeWpGeFAElYOCAvhcBrUpACRDQNgGtSkAJENA2Aa1KQAkQ0DYBrUpACRDQNgGtSkAJENA2Aa1KQAkQ0DYBrUpACRgxoPvl5xtC9/QQ0KoElAAB/Q9vTkCLElACRgzozZsaCyhTCSgBQwb0bPnP2OpL1wloVQJKwJgBbd5XLkRAqxJQAgYN6DvugfRuAlqVgBIwakD3N0F6n514Aa1KQAkYNqC7nfj3+QgqoFUJKAHDBvT01Xr9P/lnC2hVAkrAuAF9PwJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIgoG0CWpWAEiCgbQJalYASIKBtAlqVgBIwckC3xy82m82j498SzxXQqgSUgGED+vK71YW7j6NPF9CqBJSAQQP6+t7qqts/xjYgoFUJKAFjBvTkcB/Nz9bnPt3/cvBNaAsCWpWAEjBkQH//chfMHy498HwX1Fs/RzYhoFUJKAFDBvTpjVzuk/pFZBMCWpWAEjBiQLffrlbXd9hPVqtPIkfjBbQqASVgxIDuPm7e2F9vPfY2AlqVgBIgoG0CWpWAEjBiQHe78AfXz1qyC880AkrAiAE9PbpRy/3XoncimxDQqgSUgCED+upwV9Anlx54vevnjQ+lbyWgVQkoAUMGdH8e066Y6+83ez+dn0kfOotJQMsSUALGDOjps8Nrl3IefB3bgIBWJaAEDBrQ0+3Dywk9uB9dkUlAqxJQAkYN6M725ebher2+v3mcWM9OQKsSUAIGDmjAqmHyUz/2/4X8qQSUAAHdE1DeEFAChg/o9sXm0a/xpwloVQJKwJAB/dfxm2Q+P19Y+eCvDiIxjYASMGJA/7juffvg4jh8bD1lAS1LQAkYOqBH+3J+vl5/tU+oFemZQkAJGDmgJ7tsnu+77y/ltCI9UwgoASMH9OhiAZH9YiJWpGcCASVg4IBeWZjecnZMI6AEDBzQK2soW1CZaQSUAAFtE9CqBJSAgQN6enRpDdBXhwLKFAJKwKgB3Zfz5NKBI9+BMo2AEjBoQHf+8vfH//jjI6j7wjORgBIwbkDPne23b385dB4o0wgoASMGdL8U6MOvDi8Cui9q7JZIAlqWgBIwZkDPnFX0TUBvP3nnv79CQKsSUAIGDuiF7T+D+RTQugSUgBIBTRDQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElAABbRPQqgSUAAFtE9CqBJQAAW0T0KoElICRA7o9frHZbB4d/5Z4roBWJaAEDBvQl9+tLtx9HH26gFYloAQMGtDX91ZX3f4xtgEBrUpACRgzoCeH+2h+tj736f6Xg29CWxDQqgSUgCED+vuXu2D+cOmB57ug3vo5sgkBrUpACRgyoE9v5HKf1C8imxDQqgSUgBEDuv12tbq+w36yWn0SORovoFUJKAEjBnT3cfPG/nrrsUtvpWHii7WeStfSg2daKppxXN4xTHNtWEB5H+nBMy0VzTgu7ximuTa824U/uH7WUnQXHmDJ5kv30Y1a7r8WvTPb6wF8YPMF9NXhrqBPLj3wetfPGx9KAbo145cHT/ffTRysv9/s/XR+Jn3oLCaARZvz29dnh9e+6T34esZXA/jAZj18tX14OaEH9x1AAkYy9/H/7cvNw/V6fX/zWD2BwSx6QWWAJRNQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgS0H68/u5wtTq4++Rjvw968fuXt37+2O9hcALajWe7fO4d/NfHfif0YfvtSkBnJqC9OFn94ZuP/V7owfZoJaBzE9BO/P7lanV7t/f+8p6/CqbYff40KrMT0E48Xa0++W3/w/7v4ouP/W5YvOdn3/gI6MwEtA+7bB78eP7jq8N/pxT+k9e7HZXV3XsCOjcB7cNuD/5NNS+1FNp2OywHXzuIND8B7cPJanXnzc9HDiPxDk8P/vqbo/AfgID24eTSF59PBZR3+Nd+d0VA5yegfbgczRNHkZhCQOcnoH0QUMIEdH4C2gcBJUxA5yegfRBQwgR0fgLaBwElTEDnJ6B9cBSeMAGdn4D2wXmghAno/AS0D65EIkxA5yegfXAtPGECOj8B7YTVmIgS0PkJaCfO1gN9bD1QphPQ+QloL6xIT5CAzk9Au/GLeyIRIqDzE9B+uCsnIQI6PwEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBbmy+G8AAAFNSURBVEgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCAJAEFSBJQgCQBBUgSUIAkAQVIElCApP8H8TJWB7qKGVMAAAAASUVORK5CYII=" width="672" /></p>
+<pre><code>## hdata$alcohol 
+##       Frequency Percent
+## 0           276   60.93
+## 1           177   39.07
+## Total       453  100.00</code></pre>
 </div>
 </div>
 <div id="step-3" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 3</h2>
-<div id="question-2" class="section level3">
-<h3>Question</h3>
-<p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have 1 indicate a patient has had suicidal thoughts and a 0 indicate they have not.</p>
-</div>
-<div id="hint-2" class="section level3">
-<h3>Hint</h3>
-<p>You can use the same logic (and command) that you used in Q2 to create this variable.</p>
-</div>
+<p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have <code>1</code> indicate a patient has had suicidal thoughts and a <code>1</code> indicate they have not.</p>
 </div>
 <div id="step-4" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 4</h2>
-<p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have 1 indicate that a patient is homeless and 0 indicate that they are housed.</p>
+<p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have <code>1</code> indicate that a patient is homeless and <code>0</code> indicate that they are housed.</p>
 </div>
 <div id="step-5" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 5</h2>
-<div id="question-3" class="section level3">
+<div id="question-2" class="section level3">
 <h3>Question</h3>
 <p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.</p>
 </div>
-<div id="hint-3" class="section level3">
+<div id="hint-1" class="section level3">
 <h3>Hint</h3>
-<p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. First, try the most straightforward way, which is to use this general formula: <code>Dataframe$NewVariable &lt;- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3</code></p>
+<p>You want to create a new variable called <code>RiskTotal</code>, which is the sum of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code>. First, try the most straightforward way, which is to use this general formula:</p>
+<pre><code>Dataframe$NewVariable &lt;- Dataframe$Var1 + Dataframe$Var2 + Dataframe$Var3 </code></pre>
 <p>Like most things in R, there are many other ways to do this. One way is to transform the data using the command, <code>transform</code>. Get help with <code>transform</code> by typing <code>?transform</code> into the Console and reading the documentation.</p>
 </div>
 </div>
 <div id="step-6" class="section level2 tabset tabset-fade tabset-pills">
 <h2 class="tabset tabset-fade tabset-pills">Step 6</h2>
-<div id="question-4" class="section level3">
+<div id="question-3" class="section level3">
 <h3>Question</h3>
-<p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>. Include these tables in your PDF submission.</p>
+<p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>. Answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are thought to be at risk based on their <code>mcs</code> score?</li>
 <li>What percentage of patients have experienced suicidal thoughts?</li>
 <li>What percentage of patients in the study have fewer than 3 risk factors?</li>
 </ol>
 </div>
-<div id="hint-4" class="section level3">
+<div id="hint-2" class="section level3">
 <h3>Hint</h3>
 <p>Refer to LA.3 to review creating frequency tables.</p>
 </div>
