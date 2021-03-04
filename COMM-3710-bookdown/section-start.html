@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Get Started with R</title>
+  <meta name="description" content="Get Started with R" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Get Started with R" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Get Started with R" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="lib/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="lib/css/style.css" type="text/css" />
+<link rel="stylesheet" href="lib/css/lesson.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">COMM 3710: Getting Started with R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path=""><a href="#section-start"><i class="fa fa-check"></i><b>1</b> Getting Started with R</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path=""><a href="#section-install"><i class="fa fa-check"></i><b>1.1</b> Installing R</a></li>
+<li class="chapter" data-level="1.2" data-path=""><a href="#section-installing-rstudio"><i class="fa fa-check"></i><b>1.2</b> Installing RStudio</a></li>
+<li class="chapter" data-level="1.3" data-path=""><a href="#section-how-do-i-use-r"><i class="fa fa-check"></i><b>1.3</b> How do I use R?</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path=""><a href="#section-tour"><i class="fa fa-check"></i><b>1.3.1</b> A quick tour of RStudio</a></li>
+<li class="chapter" data-level="1.3.2" data-path=""><a href="#section-terms"><i class="fa fa-check"></i><b>1.3.2</b> Some basic terminology and concepts</a></li>
+<li class="chapter" data-level="1.3.3" data-path=""><a href="#section-errors-warnings-and-messages"><i class="fa fa-check"></i><b>1.3.3</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="1.3.4" data-path=""><a href="#section-learning-tips"><i class="fa fa-check"></i><b>1.3.4</b> Tips for learning to code</a></li>
+<li class="chapter" data-level="1.3.5" data-path=""><a href="#section-packages"><i class="fa fa-check"></i><b>1.3.5</b> R packages</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path=""><a href="#section-learning-by-doing"><i class="fa fa-check"></i><b>1.4</b> Learning by doing</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path=""><a href="#section-creating-objects"><i class="fa fa-check"></i><b>1.4.1</b> Creating objects</a></li>
+<li class="chapter" data-level="1.4.2" data-path=""><a href="#section-data-types"><i class="fa fa-check"></i><b>1.4.2</b> Data types</a></li>
+<li class="chapter" data-level="1.4.3" data-path=""><a href="#section-r-functions"><i class="fa fa-check"></i><b>1.4.3</b> R Functions</a></li>
+<li class="chapter" data-level="1.4.4" data-path=""><a href="#section-working-with-data-frames"><i class="fa fa-check"></i><b>1.4.4</b> Working with data frames</a></li>
+<li class="chapter" data-level="1.4.5" data-path=""><a href="#section-logical-operators"><i class="fa fa-check"></i><b>1.4.5</b> Logical operators</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Get Started with R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="section-header">
+<h1 class="title">Get Started with R</h1>
+</div>
+<div id="section-start" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Getting Started with R</h1>
+<p>Remember that you need both R and RStudio. Follow the instructions below to install both <em>programs</em> (also known as <em>applications</em>).</p>
+<hr />
+<div id="section-install" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Installing R</h2>
+<p>On a web browser, navigate to <a href="https://cloud.r-project.org/" class="uri">https://cloud.r-project.org/</a>.</p>
+<ul>
+<li>If you are a Windows user: Click on “Download R for Windows”, then click on “base”, then click on the Download link.</li>
+<li>If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of February 14, 2021, is R-4.0.3.</li>
+<li>If you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.</li>
+</ul>
+<hr />
+</div>
+<div id="section-installing-rstudio" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Installing RStudio</h2>
+<p>On a web browser, go to <a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a>. Scroll down to <strong>All Installers</strong>. Download and install the version of RStudio that corresponds to your operating system. Update RStudio as necessary.</p>
+<p>When you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use “base R.” Figure <a href="#fig:open-R">1.1</a> shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer–one does not work without the other.</p>
+<blockquote>
+<p>From this point on, when “R” is referenced in the text, you know that you are accessing and using the language through RStudio.</p>
+</blockquote>
+<div class="figure" style="text-align: center"><span id="fig:open-R"></span>
+<img src="images/open-RStudio.png" alt="Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio)." width="770" />
+<p class="caption">
+Figure 1.1: Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: <a href="https://moderndive.com/1-getting-started.html#r-rstudio">ModernDive</a>.
+</p>
+</div>
+<hr />
+</div>
+<div id="section-how-do-i-use-r" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> How do I use R?</h2>
+<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#section-fn1" class="footnote-ref" id="section-fnref1"><sup>1</sup></a></p>
+<p>In COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to <a href="https://jamesclear.com/beginners-guide-deliberate-practice">practice deliberately</a>.</p>
+<blockquote>
+<p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">[@clearBeginnerGuideDeliberate2017]</span></p>
+</blockquote>
+<div id="section-tour" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> A quick tour of RStudio</h3>
+<p>Watch this <a href="https://youtu.be/HWnanydsBCs">video</a> by Andy Field to take a quick tour of RStudio.</p>
+<p>As you have learned from Andy Field’s video, the RStudio interface consists of four panels (Figure <a href="#fig:RStudio-panels">1.2</a>).</p>
+<blockquote>
+<p>Wait! I only see 3 panels…</p>
+</blockquote>
+<p>If you happen to see only three panels, please select <strong>File &gt; New File &gt; R Script</strong>. Your RStudio should like like Figure <a href="#fig:RStudio-panels">1.2</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:RStudio-panels"></span>
+<img src="images/RStudio-panels.png" alt="Editor and Console windows in RStudio." width="640" />
+<p class="caption">
+Figure 1.2: Editor and Console windows in RStudio.
+</p>
+</div>
+</div>
+<div id="section-terms" class="section level3" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> Some basic terminology and concepts</h3>
+<p>Throughout the book, <code>R code</code> will be distinguished from text by using a different font. Let’s start with some basic terms:</p>
+<ul>
+<li><strong>Console</strong>: This is the panel in RStudio where you can view the output or results of your commands. Note that you can also enter commands in the Console panel. Pressing Enter after each command runs it, i.e., it tells R to execute the command.</li>
+<li><strong>Editor</strong>: This is the panel in RStudio where you type commands in language that R understands. Think of this as a script containing instructions for R. You can save this script, which makes the work you have done reproducible.</li>
+<li><strong>R script</strong>: A script is simply a text file containing a set of commands and comments. The script can be saved and used later to (re-)execute the saved commands. The script can also be edited so you can execute a modified version of the commands.</li>
+<li><strong>Objects</strong>: Values in R are saved in objects.</li>
+<li><strong>Dataframes</strong>: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.</li>
+<li><strong>Logical operators</strong>: These are operators in R that represent “and” (<code>&amp;</code>) and “or” (<code>|</code>).</li>
+<li><strong>Functions</strong>: Functions are also known as <strong>commands</strong>. Functions and commands tell R what you want it to do. Functions take the form of <code>command()</code> with parentheses (or parents). The parentheses are for <strong>arguments</strong>, which give R specifics about the function you want it to perform.</li>
+</ul>
+</div>
+<div id="section-errors-warnings-and-messages" class="section level3" number="1.3.3">
+<h3><span class="header-section-number">1.3.3</span> Errors, warnings, and messages</h3>
+<p>R shows errors, warnings, and messages in the Console window. Typically, it does so in <span style="color: red;">red</span> font, which can be intimidating for new users. <strong>DO NOT WORRY–YOU ARE UNLIKELY TO “BREAK” R</strong>.</p>
+<blockquote>
+<p>Always read errors, warnings, or messages carefully; they often provide information that will help you troubleshoot the issue.</p>
+</blockquote>
+</div>
+<div id="section-learning-tips" class="section level3" number="1.3.4">
+<h3><span class="header-section-number">1.3.4</span> Tips for learning to code</h3>
+<p>Learning to code can be frustrating at first. Frustrations are understandable and inevitable. But with <a href="https://jamesclear.com/beginners-guide-deliberate-practice">deliberate practice</a>, your coding and programming skills will improve.</p>
+<p>Keep the following tips from Ismay and Kim <span class="citation">[-@ismayStatisticalInferenceData2021]</span> in mind as you learn to code in R:</p>
+<ul>
+<li><strong>Computers are not that smart.</strong> You are the brains of the computer–it needs to be told what to do. Instructions must be clear and without ambuguity.</li>
+<li><strong>Copy, paste, tweak.</strong> When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.</li>
+<li><strong>Learning by doing.</strong> The best way to learn coding/programming is by doing. This is why COMM 3710 includes a lab component. Individual lab assignments and group project components afford you the opportunity to learn how to code and use R by completing tasks with a goal in mind.</li>
+<li><strong>Practice, practice, practice.</strong> As with any skill, practice is necessary for improvement. Start on assignments early–anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students <strong>do not</strong> start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses–it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!</li>
+<li><strong>R is case-sensitive.</strong> Most coding mistakes are typos. This is exacerbated when the programming language, such as R, is case-sensitive. <code>Result</code>, <code>result</code>, and <code>RESULT</code> are all different in R!</li>
+</ul>
+</div>
+<div id="section-packages" class="section level3" number="1.3.5">
+<h3><span class="header-section-number">1.3.5</span> R packages</h3>
+<p>There is a worldwide community of R users (e.g., search for #RCatLadies on <a href="https://www.twitter.com">Twitter</a>) who write code and bundle them into packages to extend the functionality of R.</p>
+<p>Some examples that we will use in this course include <code>ggplot2</code> <span class="citation">[@wickhamGgplot2ElegantGraphics2020]</span>, <code>descr</code>, and <code>tidyverse</code>.</p>
+<p>Packages in R are like apps on your phone–they extend the functionality of the base technology (Figure <a href="#fig:packages">1.3</a>).</p>
+<div class="figure" style="text-align: center"><span id="fig:packages"></span>
+<img src="images/packages.png" alt="R packages are to R what apps are to your mobile phone." width="700" />
+<p class="caption">
+Figure 1.3: R packages are to R what apps are to your mobile phone.
+</p>
+</div>
+<p>There are two steps to using apps to extend the functionality of your phone:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Install app on your device from app store.</strong> This is typically done only once. An app that has been installed on your phone does not require additional installation.</li>
+<li><strong>Open app from device.</strong> You must open the app every time you wish to use it.</li>
+</ol>
+<p>Similarly, R packages need to be <strong>installed</strong> on your computer and then opened and then <strong>loaded</strong> in R (Figure <a href="#fig:install-load-packages">1.4</a>). Note where quotation marks are used and omitted in the commands.</p>
+<div class="figure" style="text-align: center"><span id="fig:install-load-packages"></span>
+<img src="images/install-load-packages.gif" alt="Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console--to run the commands written in the Editor, highlight and click *Run* in the top right corner."  />
+<p class="caption">
+Figure 1.4: Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console–to run the commands written in the Editor, highlight and click <em>Run</em> in the top right corner.
+</p>
+</div>
+<ol style="list-style-type: decimal">
+<li><strong>To install a package</strong>, type <code>install.packages()</code> in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the <code>descr</code> package, you would use the command <code>install.packages("descr")</code>. Like an app, you only need to install a package once.</li>
+<li><strong>To use a package</strong>, you must load it. This is like opening an app–it must be done everytime you open a new R session. To load a package, use the command <code>library()</code>. The argument within the parentheses is the name of the package you want to load. For example, to load the <code>descr</code> package, use <code>library(descr)</code>.</li>
+</ol>
+<p>Some <em>common errors related to installing and loading packages,</em> which R displays in <span style="color: red;">red</span> in the Console, are shown below:</p>
+<pre><code>Error in library(descr) : there is no package called ‘descr’</code></pre>
+<p>If you get this error, this means that you have not installed the package.</p>
+<pre><code>Error: could not find function</code></pre>
+<p>This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.</p>
+<hr />
+</div>
+</div>
+<div id="section-learning-by-doing" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Learning by doing</h2>
+<p>Let’s try out some commands. Open RStudio and start a new R script. If you need a reminder of how to start a new R script, review section <a href="#section-tour">1.3.1</a>. To save your R script, see Section <a href="#section-saveRscript"><strong>??</strong></a></p>
+<p>To start, let’s execute a simple command. In the <strong>Editor</strong>, type the following command. Note that in this text, commands in R are preceded by <code>&gt;</code>.</p>
+<div class="sourceCode" id="section-cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb6-1"><a href="#section-cb6-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">4</span> <span class="sc">+</span> <span class="dv">8</span></span></code></pre></div>
+<p>To run this command, which tells R to sum 4 and 8, highlight the command and click the <img src="images/run.png"/> button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).</p>
+<p>You will see the result of the command you just ran in the <strong>Console</strong> window.</p>
+<pre><code>## [1] 12</code></pre>
+<p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#section-fn2" class="footnote-ref" id="section-fnref2"><sup>2</sup></a></p>
+<p>Next, try:</p>
+<div class="sourceCode" id="section-cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb8-1"><a href="#section-cb8-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">3</span></span></code></pre></div>
+<p>When you run this command, R will return the product of these two numbers.</p>
+<pre><code>## [1] 9</code></pre>
+<p>Although it is good practice to write and execute commands line-by-line when you are first writing a R script, it can become tedious. To alleviate the tedium, you can run multiple commands at once by selecting all the lines that you want R to execute and using the keyboard shortcuts or the <img src="images/run.png"/> button.</p>
+<p>Type the following two lines in your Editor and try running them together:</p>
+<div class="sourceCode" id="section-cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb10-1"><a href="#section-cb10-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">12</span> <span class="sc">+</span> <span class="dv">8</span></span>
+<span id="section-cb10-2"><a href="#section-cb10-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="dv">16</span> <span class="sc">/</span> <span class="dv">4</span></span></code></pre></div>
+<p>The results in your Console panel should look like this:</p>
+<pre><code>## [1] 20</code></pre>
+<pre><code>## [1] 4</code></pre>
+<p>Table <a href="#tab:basic-ops">1.1</a> shows some basic arithmetic operations in R. Play around with these functions in R to familiarize yourself with the R interface.</p>
+<table>
+<caption><span id="tab:basic-ops">Table 1.1: </span>Operations, operators, and example inputs and outputs in R.</caption>
+<thead>
+<tr class="header">
+<th align="left">Operation</th>
+<th align="left">Operator</th>
+<th align="left">Input</th>
+<th align="right">Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">addition/sum</td>
+<td align="left">+</td>
+<td align="left">2 + 2</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">subtraction</td>
+<td align="left">-</td>
+<td align="left">9 - 2</td>
+<td align="right">7</td>
+</tr>
+<tr class="odd">
+<td align="left">multiplication/product</td>
+<td align="left">*</td>
+<td align="left">5 * 5</td>
+<td align="right">25</td>
+</tr>
+<tr class="even">
+<td align="left">division</td>
+<td align="left">/</td>
+<td align="left">12 / 3</td>
+<td align="right">4</td>
+</tr>
+<tr class="odd">
+<td align="left">power/exponent</td>
+<td align="left">^</td>
+<td align="left">5 ^ 2</td>
+<td align="right">25</td>
+</tr>
+</tbody>
+</table>
+<div id="section-creating-objects" class="section level3" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Creating objects</h3>
+<p>R is an <a href="https://en.wikipedia.org/wiki/Object-oriented_programming"><strong>OOP</strong> or <strong>object-oriented programming</strong></a> language.</p>
+<p>You can think of an <strong>object</strong> as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the <strong>Environment</strong> (Figure <a href="#fig:environment">1.5</a>), which is the one of the tabs in the top right panel of RStudio.</p>
+<div class="figure" style="text-align: center"><span id="fig:environment"></span>
+<img src="images/environment.png" alt="The Environment panel in RStudio." width="640" />
+<p class="caption">
+Figure 1.5: The Environment panel in RStudio.
+</p>
+</div>
+<p>We assign information to an object by using the <strong>assignment operator</strong>, <code>&lt;-</code>. The generic code for creating an object looks like:</p>
+<pre><code>label &lt;- information</code></pre>
+<p>Let’s say that we want to save the result of <code>2 * 10</code> to an object and call it <code>kittens</code>. In the <strong>Editor</strong> window, type and run the following R code:</p>
+<div class="sourceCode" id="section-cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb14-1"><a href="#section-cb14-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> kittens <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">*</span> <span class="dv">10</span></span></code></pre></div>
+<p>Notice that the result in the <strong>Console</strong> when you ran this command did not give you the result of <code>2 * 10</code>.</p>
+<p>This is because the result is stored as the object, <code>kittens</code>, and you have to ask R to display the result by calling the object. In the Editor, type <code>kittens</code> and run this command. You should see the result in the Console.</p>
+<div class="sourceCode" id="section-cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb15-1"><a href="#section-cb15-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> kittens</span></code></pre></div>
+<pre><code>## [1] 20</code></pre>
+<p>Notice that the object, <code>kittens</code>, appeared in the <strong>Environment</strong> when you ran the command, <code>kittens &lt;- 2 * 10</code> (Figure <a href="#fig:kittens-env">1.6</a>).</p>
+<div class="figure" style="text-align: center"><span id="fig:kittens-env"></span>
+<img src="images/kittens-env.png" alt="The Environment panel after you run the R code to create the object, `kittens`." width="80%" />
+<p class="caption">
+Figure 1.6: The Environment panel after you run the R code to create the object, <code>kittens</code>.
+</p>
+</div>
+</div>
+<div id="section-data-types" class="section level3" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Data types</h3>
+<p>R can store objects with different types of data. Let’s create three objects containing different data types.</p>
+<div class="sourceCode" id="section-cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb17-1"><a href="#section-cb17-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> a <span class="ot">&lt;-</span> <span class="fl">19.81</span></span>
+<span id="section-cb17-2"><a href="#section-cb17-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> b <span class="ot">&lt;-</span> <span class="st">&quot;Hello, Salt Lake City!&quot;</span></span>
+<span id="section-cb17-3"><a href="#section-cb17-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> c <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span></code></pre></div>
+<p>To check the type of data contained in objects <code>a</code>, <code>b</code>, and <code>c</code>, use the <code>class()</code> function.</p>
+<div class="sourceCode" id="section-cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb18-1"><a href="#section-cb18-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(a)</span>
+<span id="section-cb18-2"><a href="#section-cb18-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(b)</span>
+<span id="section-cb18-3"><a href="#section-cb18-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">class</span>(c)</span></code></pre></div>
+<p>Your Console should show:</p>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<p><code>a</code> is numeric; <code>b</code> is a character string; <code>c</code> is a so-called “logical” data type that is either <code>TRUE</code> or <code>FALSE</code>. These data types can be organized into various data structures. For example, a data frame, such as the data files you will use in your assignments, is one data structure.</p>
+</div>
+<div id="section-r-functions" class="section level3" number="1.4.3">
+<h3><span class="header-section-number">1.4.3</span> R Functions</h3>
+<p>As mentioned in Section <a href="#section-terms">1.3.2</a>, functions are commands that tell R what you want it to do. Functions take the (generic) form of <code>command()</code> with parentheses (or parents). The parentheses are for <strong>arguments</strong>, which give R specifics about the function you want it to perform.</p>
+<p>For example, the <code>print()</code> function will print the result of the argument or input within the parentheses.</p>
+<div class="sourceCode" id="section-cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb22-1"><a href="#section-cb22-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="st">&quot;Hello, SLC!&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;Hello, SLC!&quot;</code></pre>
+<div class="sourceCode" id="section-cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb24-1"><a href="#section-cb24-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="dv">5</span> <span class="sc">*</span> <span class="dv">10</span>)</span></code></pre></div>
+<pre><code>## [1] 50</code></pre>
+<div class="sourceCode" id="section-cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb26-1"><a href="#section-cb26-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">print</span>(<span class="dv">3</span> <span class="sc">&gt;</span> <span class="dv">5</span>)</span></code></pre></div>
+<pre><code>## [1] FALSE</code></pre>
+</div>
+<div id="section-working-with-data-frames" class="section level3" number="1.4.4">
+<h3><span class="header-section-number">1.4.4</span> Working with data frames</h3>
+<p>Let’s create a data frame to learn how to work with them. In the <strong>Editor</strong> panel, create a data frame by typing the following commands:</p>
+<div class="sourceCode" id="section-cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb28-1"><a href="#section-cb28-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> id <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">7</span></span>
+<span id="section-cb28-2"><a href="#section-cb28-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> cats <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="section-cb28-3"><a href="#section-cb28-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> gender <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;male&#39;</span>, <span class="st">&#39;female&#39;</span>, <span class="st">&#39;female&#39;</span>)</span></code></pre></div>
+<p>With the code above, you have created 3 objects, <code>id</code>, <code>cats</code>, and <code>gender</code>, using the <code>concatenate()</code> function, which can be shortened to <code>c()</code>. Assume these data represent 7 individuals who own a varying number of <code>cats</code>. And we have data on each individual’s <code>gender</code>.</p>
+<p>Let’s create a data frame from these individual objects.</p>
+<div class="sourceCode" id="section-cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb29-1"><a href="#section-cb29-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> mydata <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(id, gender, cats)</span>
+<span id="section-cb29-2"><a href="#section-cb29-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">View</span>(mydata)</span></code></pre></div>
+<p>After running the commands above, notice that your <strong>Environment</strong> panel now looks like Figure <a href="#fig:cat-env">1.7</a>. Your data frame should look like Figure <a href="#fig:dataframe">1.8</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:cat-env"></span>
+<img src="images/cat-env.png" alt="Your Environment panel should look like this once you have run the above code." width="80%" />
+<p class="caption">
+Figure 1.7: Your Environment panel should look like this once you have run the above code.
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:dataframe"></span>
+<img src="images/cat-data.png" alt="The data frame you just created." width="30%" />
+<p class="caption">
+Figure 1.8: The data frame you just created.
+</p>
+</div>
+<p>Using the <code>mydata</code> data frame, we will calculate the mean number of cats an individual in our data set owns.</p>
+<div class="sourceCode" id="section-cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb30-1"><a href="#section-cb30-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(mydata<span class="sc">$</span>cats)</span></code></pre></div>
+<pre><code>## [1] 2.714286</code></pre>
+<p>The <code>$</code> allows us to extract a column of data, or a <strong>variable</strong>, from the <code>mydata</code> data frame. The use of <code>$</code> will be important when working with R throughout this course.</p>
+<p>To see how many females vs. males are included in the data frame, use the following command.</p>
+<div class="sourceCode" id="section-cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb32-1"><a href="#section-cb32-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">table</span>(mydata<span class="sc">$</span>gender)</span></code></pre></div>
+<pre><code>## 
+## female   male 
+##      4      3</code></pre>
+<p>Let’s now look at only the number of cats owned by males in our data. This means we need to <strong>subset</strong> the data. To do so, we use square brackets, <code>[]</code> combined with logical operators. In this case, we will use the logical operator, <code>==</code>, which means “equal to.”</p>
+<div class="sourceCode" id="section-cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb34-1"><a href="#section-cb34-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>]</span></code></pre></div>
+<pre><code>## [1] 1 2 5</code></pre>
+<p>To calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of <code>mydata</code>…</p>
+<div class="sourceCode" id="section-cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb36-1"><a href="#section-cb36-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> Monly <span class="ot">&lt;-</span> <span class="fu">subset</span>(mydata, gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>)</span>
+<span id="section-cb36-2"><a href="#section-cb36-2" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(Monly<span class="sc">$</span>cats) <span class="do">## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.</span></span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+<p>or we can include the last command as an argument in the <code>mean()</code> function.</p>
+<div class="sourceCode" id="section-cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb38-1"><a href="#section-cb38-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="fu">mean</span>(mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">==</span> <span class="st">&quot;male&quot;</span>])</span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+</div>
+<div id="section-logical-operators" class="section level3" number="1.4.5">
+<h3><span class="header-section-number">1.4.5</span> Logical operators</h3>
+<p>We used one possible logical operator, <code>==</code>, in the example above. Other logical operators include:</p>
+<ul>
+<li><code>&lt;</code>: less than</li>
+<li><code>&lt;=</code>: less than or equal to</li>
+<li><code>&gt;</code>: greater than</li>
+<li><code>&gt;=</code>: greater than or equal to</li>
+<li><code>!=</code>: not equal to</li>
+<li><code>==</code>: equal to</li>
+<li><code>&amp;</code>: and (e.g., <code>a &amp; b</code> means “a AND b”)</li>
+<li><code>|</code>: or (e.g., <code>a | b</code> means “a OR b”)</li>
+</ul>
+<p>We can also use <code>!</code> to specify a condition as <strong>not</strong> something. Returning to our example of the mean number of cats males in <code>mydata</code> own, we could instead calculate the mean of cats owned by all individuals who are <code>!= "female"</code> or “not female.”</p>
+<div class="sourceCode" id="section-cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="section-cb40-1"><a href="#section-cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">!=</span> <span class="st">&quot;female&quot;</span>])</span></code></pre></div>
+<pre><code>## [1] 2.666667</code></pre>
+<p>Figure <a href="#fig:boolean">1.9</a> is a visual representation of the differences between some logical operators.</p>
+<div class="figure" style="text-align: center"><span id="fig:boolean"></span>
+<img src="https://s3.amazonaws.com/libapps/accounts/7346/images/Boolean-Ven.jpg" alt="Differences between AND, OR, and NOT."  />
+<p class="caption">
+Figure 1.9: Differences between AND, OR, and NOT.
+</p>
+</div>
+
+<script type="application/shiny-prerendered" data-context="server-start">
+library(tidyverse)
+library(learnr)
+library(ggplot2)
+</script>
+
+
+<script type="application/shiny-prerendered" data-context="server">
+learnr:::register_http_handlers(session, metadata = NULL)
+</script>
+
+
+<script type="application/shiny-prerendered" data-context="server">
+session$onSessionEnded(function() {
+        learnr:::session_stop_event(session)
+      })
+</script>
+
+<!--html_preserve-->
+<script type="application/shiny-prerendered" data-context="dependencies">
+{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["header-attrs"]},{"type":"character","attributes":{},"value":["2.7"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/pandoc"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["header-attrs.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["2.7"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["2.2.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["resources/jquery"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["bookdown"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.21"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["gitbook"]},{"type":"character","attributes":{},"value":["2.6.7"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["resources/gitbook"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["js/app.min.js","js/lunr.js","js/clipboard.min.js","js/plugin-search.js","js/plugin-sharing.js","js/plugin-fontsettings.js","js/plugin-bookdown.js","js/jquery.highlight.js","js/plugin-clipboard.js"]},{"type":"character","attributes":{},"value":["css/style.css","css/plugin-table.css","css/plugin-bookdown.css","css/plugin-highlight.css","css/plugin-search.css","css/plugin-fontsettings.css","css/plugin-clipboard.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["bookdown"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.21"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["jquery"]},{"type":"character","attributes":{},"value":["1.11.3"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/jquery"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["jquery.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["2.7"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["font-awesome"]},{"type":"character","attributes":{},"value":["5.1.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["rmd/h/fontawesome"]}]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["css/all.css","css/v4-shims.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["rmarkdown"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["2.7"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["bootbox"]},{"type":"character","attributes":{},"value":["4.4.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/bootbox"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["bootbox.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.10.1"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["idb-keyvalue"]},{"type":"character","attributes":{},"value":["3.2.0"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/idb-keyval"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["idb-keyval-iife-compat.min.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["0.10.1"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial"]},{"type":"character","attributes":{},"value":["0.10.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial.js"]},{"type":"character","attributes":{},"value":["tutorial.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.10.1"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-autocompletion"]},{"type":"character","attributes":{},"value":["0.10.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-autocompletion.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.10.1"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["tutorial-diagnostics"]},{"type":"character","attributes":{},"value":["0.10.1"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["lib/tutorial"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["tutorial-diagnostics.js"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["learnr"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["0.10.1"]}]}]}
+</script>
+<!--/html_preserve-->
+<!--html_preserve-->
+<script type="application/shiny-prerendered" data-context="execution_dependencies">
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages","version"]},"class":{"type":"character","attributes":{},"value":["data.frame"]},"row.names":{"type":"integer","attributes":{},"value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83]}},"value":[{"type":"character","attributes":{},"value":["assertthat","backports","base","bookdown","broom","bslib","cellranger","cli","colorspace","compiler","crayon","datasets","DBI","dbplyr","digest","dplyr","ellipsis","evaluate","fansi","fastmap","forcats","fs","generics","ggplot2","glue","graphics","grDevices","grid","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","jquerylib","jsonlite","knitr","later","learnr","lifecycle","lubridate","magrittr","markdown","methods","mime","modelr","munsell","pillar","pkgconfig","png","promises","purrr","R6","Rcpp","readr","readxl","reprex","rlang","rmarkdown","rprojroot","rstudioapi","rvest","sass","scales","shiny","stats","stringi","stringr","tibble","tidyr","tidyselect","tidyverse","tools","utf8","utils","vctrs","withr","xfun","xml2","xtable","yaml"]},{"type":"character","attributes":{},"value":["0.2.1","1.2.1","4.0.4","0.21","0.7.5","0.2.4","1.1.0","2.3.1","2.0-0","4.0.4","1.4.1","4.0.4","1.1.1","2.1.0","0.6.27","1.0.4","0.3.1","0.14","0.4.2","1.1.0","0.5.1","1.5.0","0.1.0","3.3.3","1.4.2","4.0.4","4.0.4","4.0.4","0.3.0","2.3.1","0.8","1.0.0","0.5.1.1","1.5.3","1.5.5","1.4.2","0.1.3","1.7.2","1.31","1.1.0.1","0.10.1","1.0.0","1.7.10","2.0.1","1.1","4.0.4","0.10","0.1.8","0.5.0","1.5.0","2.0.3","0.1-7","1.2.0.1","0.3.4","2.5.0","1.0.6","1.4.0","1.3.1","1.0.0","0.4.10","2.7","2.0.2","0.13","0.3.6","0.3.1","1.1.1","1.6.0","4.0.4","1.5.3","1.4.0","3.1.0","1.1.3","1.1.0","1.3.0","4.0.4","1.1.4","4.0.4","0.3.6","2.4.1","0.20","1.3.2","1.8-4","2.2.1"]}]}]}
+</script>
+<!--/html_preserve-->
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="section-fn1"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="#section-fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="section-fn2"><p>This is not exactly accurate, but it is close enough for now.<a href="#section-fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/sarakyeo/COMM-3710-bookdown/edit/master/%s",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": false
+});
+});
+</script>
+
+</body>
+
+</html>

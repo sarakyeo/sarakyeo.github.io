@@ -1,4 +1,3 @@
-
 # Getting Started with R {#start}
 
 Remember that you need both R and RStudio. Follow the instructions below to install both *programs* (also known as *applications*).
@@ -45,7 +44,7 @@ As you have learned from Andy Field’s video, the RStudio interface consists of
 
 > Wait! I only see 3 panels...
 
-If you happen to see only three panels, please select *File > New File > R Script*. Your RStudio should like like Figure \@ref(fig:RStudio-panels).
+If you happen to see only three panels, please select **File > New File > R Script**. Your RStudio should like like Figure \@ref(fig:RStudio-panels).
 
 ```{r RStudio-panels, echo = FALSE, fig.cap = "Editor and Console windows in RStudio.", fig.align = "center"}
 knitr::include_graphics("images/RStudio-panels.png")
