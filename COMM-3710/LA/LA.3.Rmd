@@ -135,7 +135,7 @@ Submit a **.R file** containing the following on Canvas:
 
 Sample submission:
 
-```{r sample, echo=FALSE}
-knitr::include_graphics("LA.3_sample-R-submission.png")
+```{r sample, echo=FALSE, out.width="80%", fig.align='center'}
+knitr::include_graphics("images/LA.3_sample-R-submission.png")
 ```
 
