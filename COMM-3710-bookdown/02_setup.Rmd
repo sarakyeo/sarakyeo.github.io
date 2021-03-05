@@ -67,7 +67,13 @@ You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use 
 ```{r setwd, echo=TRUE, eval=FALSE, prompt=TRUE}
 ## Set the working directory to c:/Users/SaraK/COMM-3710
 setwd("c:/Users/SaraK/COMM-3710")
+
+## Read data from dataset.csv file into R (note the file name of your dataset
+## might be different)
+dataframe_name <- read.csv("dataset.csv")
 ```
+
+You can replace `dataframe_name` with a name of your choice.
 
 ---
 

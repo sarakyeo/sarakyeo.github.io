@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-03-03" />
+<meta name="date" content="2021-03-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -274,7 +274,12 @@ Figure 3.2: Set your working directory in RStudio using the function, <code>setw
 <p>Once you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory.</p>
 <p>You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the <code>setwd()</code> function.</p>
 <div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="setup.html#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> <span class="do">## Set the working directory to c:/Users/SaraK/COMM-3710</span></span>
-<span id="cb41-2"><a href="setup.html#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">setwd</span>(<span class="st">&quot;c:/Users/SaraK/COMM-3710&quot;</span>)</span></code></pre></div>
+<span id="cb41-2"><a href="setup.html#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="fu">setwd</span>(<span class="st">&quot;c:/Users/SaraK/COMM-3710&quot;</span>)</span>
+<span id="cb41-3"><a href="setup.html#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="sc">&gt;</span> </span>
+<span id="cb41-4"><a href="setup.html#cb41-4" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="do">## Read data from dataset.csv file into R (note the file name of your dataset</span></span>
+<span id="cb41-5"><a href="setup.html#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> <span class="do">## might be different)</span></span>
+<span id="cb41-6"><a href="setup.html#cb41-6" aria-hidden="true" tabindex="-1"></a><span class="er">&gt;</span> dataframe_name <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;dataset.csv&quot;</span>)</span></code></pre></div>
+<p>You can replace <code>dataframe_name</code> with a name of your choice.</p>
 <hr />
 </div>
 <div id="saveRscript" class="section level2" number="3.6">
