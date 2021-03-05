@@ -71,7 +71,7 @@ Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?downl
 
 ### Hint
 
-To load/read data into R, see [Chapter 3](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#assignment-r-script-checklist) of the book, COMM 3710: Getting Started with R.
+To load/read data into R, see [Chapter 3](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html) of the book, COMM 3710: Getting Started with R.
 
 
 ## Step 2 {.tabset .tabset-fade .tabset-pills}
