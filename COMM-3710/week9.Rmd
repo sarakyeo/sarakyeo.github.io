@@ -69,7 +69,7 @@ Using hypothesis testing, researchers typically hope to "nullify" their null hyp
 The video below walks through an example of how to conduct a hypothesis test.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RlR9PgDAYkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RlR9PgDAYkA" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
