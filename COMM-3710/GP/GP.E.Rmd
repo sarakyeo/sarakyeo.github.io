@@ -9,19 +9,160 @@ output:
 urlcolor: blue
 ---
 
+# Resources
+- If you need a refresher on working with descriptive statistics in R, watch this [video](https://youtu.be/Dbj_l1PRIjA).
+- To revisit the introduction to hypothesis, see [Week 2's lecture](https://sarakyeo.github.io/COMM-3710/week2.html).  
+- On independent and dependent variables, revisit [Week 4's lecture](https://sarakyeo.github.io/COMM-3710/week4.html).  
+- [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html)
 
-In this Group Project component, your group will begin to work through how to make decisions about data management and how to put those decisions into action.
+---
 
-1. Load your data set into R.
+# Instructions
+This assignment builds on [GP.D](https://sarakyeo.github.io/COMM-3710/GP/GP.D.html). As a group, you will work through how to make decisions about data management and how to put those decisions into action in R.
 
-2. Conduct data management on at least 3 variables of interest. Some questions to consider as you work through data management:
-   <ul>
-   <li>Do your variable values make sense?
-   <li>Are there missing cases that need to be recoded?
-   </ul>
 
-3. Submit the following on Canvas:
-   <ul>
-   <li> A **.R file** containing all R commands and comments for this assignment.
-   <li> A **PDF file** with (i) output that displays at least 3 data managed variables as frequency tables; (ii) descriptive statistics for each managed variable; and (iii) a description of the results of your frequency tables in a few sentences.
-   </ul>
+## Step 1 {.tabset .tabset-fade .tabset-pills} 
+### Question
+**Part A:** Revise and refine your hypotheses and/or research questions (RQ) and list them clearly in your PDF submission.
+
+**Part B:** In your PDF, include a table based on the hypotheses/RQs you listed in Part A. Use the format shown below to create your table. You may find it necessary to revisit Steps 2 and 4 in [GP.D](https://sarakyeo.github.io/COMM-3710/GP/GP.D.html).
+
+|IV/DV constructs | in which Hypo/RQ | Possible measures from the data set | 
+|:-----:|:----:|:---------------------:|
+| Var1 |   |   |
+| Var2 |   |   |
+| Var3 |   |   |
+| ...  |   | 
+|   |   | 
+
+: Table 1 
+
+### Hint
+**Part A:** Ensure that each hypotheses and/or RQ meet the criteria outlined below.
+
+- Each hypothesis and/or RQ contains one independent (IV) and one dependent variable (DV).
+- Each construct appropriately labeled/named?
+   - For example, a label such as "quarantine" is too vague--what is the conceptual definition of quarantine? Is it staying home without leaving for basic necessities? Is it staying home for a certain amount of time?
+- The relationships between the IVs and DVs are clearly described and the proposed relationship is reasonable.
+- There is a survey question/variable in your chosen dataset that quantifies/measures your IVs.
+- There is a survey question/variable in your chosen dataset that quantifies/measures your DVs.
+
+**Part B:** An example of Table 1 based on the Facebook example we used in [GP.D](https://sarakyeo.github.io/COMM-3710/GP/GP.D.html), would look like:
+
+|IV/DV constructs | in which Hypo/RQ | Possible measures from the data set | 
+|:-----:|:----:|:---------------------:|
+| Facebook use  | H1, RQ1 | `FBhours`, `FBdays`, or `FBattention` |
+| self-esteem | H1, RQ2 | `esteem` |
+| Nationality | RQ1, RQ2| `citizen` or `residence`|
+| | | 
+
+: Table 1 Example
+
+
+## Step 2 {.tabset .tabset-fade .tabset-pills} 
+### Question
+Load your dataset into R.
+
+### Hint
+You already know how to read a .csv data file into R. If your data are in the form of a .rda file isntead of a .csv file, use the following command:
+
+```
+load("ADDHealth_data.rda") # you must be in the correct working directory
+```
+
+A data frame called `da21600.0001` should show up in your Environment in R. Since this name is cumbersome to work with, you should rename it. I have chosen to rename the data frame as `ADDdata` but you can choose any name.
+
+```
+ADDdata <- da21600.0001 # renames your data frame to ADDdata
+```
+
+
+## Step 3 {.tabset .tabset-fade .tabset-pills} 
+### Question
+Since you will not be using all the variables in the raw dataset that is available on Canvas, the next step is to create a subset of data by selecting certain variables and/or observations that apply to all your hypotheses and/or RQs.
+
+In your R script, include all relevant code and comments detailing the criteria used to subset the raw dataset. Remember that your code must be in order in your R script. R runs commands in the script from top to bottom.
+
+### Hint
+In the Facebook use example, let's say the full data consisted of participants from 10 countries, but I decided to compare the relationship between the *Facebook use* and *self-esteem* among only American and Japanese participants. 
+
+As a result, I would create a subset of data that includes only these participants (i.e., I would be selecting observations from this dataset based on their nationality). I would then use this new data frame in the subsequent analyses.
+
+You can find more information about creating a subset of your data in the [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html) book.
+
+
+## Step 4 {.tabset .tabset-fade .tabset-pills} 
+### Question
+In this step, you will work through the variables listed in the last column of Table 1. You should have already inspected most of these variables in GP.D.
+
+Conduct data management on these variables. Follow the steps below for each variable, as necessary.
+
+1. Inspect the existing variable by examining is frequency distribution.
+2. Recode or manage this variable as necessary--when you recode a variable, do **not** overwrite the existing variable. Instead, create a new variable from the existing one. We have done this several time (e.g., `season` in [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html)).
+3. Consider these questions as you manage your data:
+   - Are there missing data?
+   - Are there values that do not meaningfully represent the scale and should be turned into `NA`s? You will need to refer to the codebook to help you make this decision.
+   - For help with recoding and managing missing data, see the [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/) book.
+   - Are there character variables that need to be converted to numeric variables for future analysis?
+   - Are there other operations that need to be conducted to manage each variable?
+4. Inspect the newly created variable by examining its frequency distribution.
+
+As you make decisions about data management, describe them in detail in your PDF submission and in brief in your R script comments. If there is no data management or recoding required after an initial examination of the frequency distribution of a particular variable, explain why no data management is necessary for the given variable.
+
+Include all data management codes (in order) in your .R file.
+
+### Hint/Example
+- You should have data management code and comments in both your PDF submission and R script for each variable in the subset of data that you will use for your group project. Again, if no data management is necessary for a particular variable, then your PDF and R script should contain an explanation (in PDF) or brief note (in R script) about this variable.
+
+- On converting character to numeric variables: For example, if you would like use a series of questions with `yes`/`no` answers (e.g., whether a participant has each of the symptoms listed in these questions) to compute the total number of "yes" answers (e.g., how many symptoms a participant has in total), you will need to convert the character variables with `yes`/`no` categories to numeric ones with values of `1` or `0`.
+
+- On "other operations": For the Facebook use example, I may want to multiply the number of hours of use per day (`FBhours`) and the number of days per week (`FBdays`) to arrive at a comprehensive measure of the number of hours per week of Facebook use (i.e., `FBuse <- FBhours * FBdays`)
+
+
+## Step 5 {.tabset .tabset-fade .tabset-pills} 
+### Question 5
+**Part A:** If you have made changes to your data in Step 4, you should have new variables to represent your IVs and DVs in place of some existing ones. You may have also found that among a few potentially equivalent measures of the same IV or DV, you are able to make a choice after inspecting the data (e.g., one is better than the others because it has fewer missing values, etc.).
+
+Create another table. Table 2, which will be a revised version of Table 1. If your group has made no changes at all to the variables (very unlikely!), Tables 1 and 2 should be identical.
+
+Include Table 2 in your PDF submission. 
+
+|IV/DV constructs | in which Hypo/RQ | Possible measures from the data set | 
+|:-----:|:----:|:---------------------:|
+| Var1 |   |   |
+| Var2 |   |   |
+| Var3 |   |   |
+| ...  |   | 
+|   |   | 
+
+: Table 2 
+
+**Part B:** Provide descriptive statistics for each of the variables/measures listed in the last column of Table 2.  
+
+- For quantitative variables, report the **range**, the **mean**, and the **standard deviation**.   
+- For categorical variables, report the **count** and **percentage** of each value category.    
+
+Include the codes in your R script, and describe the results in your PDF submission. 
+
+### Hint/Example 
+Let's say I've decided to use `FBuse` that I created in Step 4 to represent the construct, Facebook use, which combines information from `FBhours` and `FBdays`. I have decided that `FBuse` is a more direct measure of Facebook use than `FBattention`, which I originally thought would be relevant but no longer want to use for future data analysis.
+
+To represent American vs. Japanese participants, I originally thought both `citizen` and `residence` could be relevant. However, when I inspected the data in Step 4, I found that both variables almost entirely overlapped, so I choose to just use only `citizen` as my measure of the construct, "nationality".
+
+For my project, assuming no other variables need to be managed, Table 2 should look like: 
+
+|IV/DV constructs | in which Hypo/RQ | Possible measures from the data set | 
+|:-----:|:----:|:---------------------:|
+| Facebook use  | H1, RQ1 | `FBuse` |
+| self-esteem | H1, RQ2 | `esteem` |
+| Nationality | RQ1, RQ2| `citizen`|
+| | | 
+
+: Table 2 Example
+
+
+## Submission
+Submit the following on Canvas:
+
+- A **.R file** containing all R commands and comments for this assignment.
+- A **PDF file** with required answers, tables, or descriptions of results regarding each question.
