@@ -11,11 +11,8 @@ The core tidyverse includes packages that we use in everyday data analysis, incl
 To learn more about the tidyverse, visit [tidyverse.org](https://www.tidyverse.org/).
 
 To start working with graphs, first install and load the required package. Remember that you only have to install the package once (see Section \@ref(packages) to review R packages). 
-<<<<<<< HEAD
+
 ```{r, eval=FALSE}
-=======
-```{r, eval=FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 install.packages("tidyverse") # you may not need this command
 library(tidyverse)
 ```
@@ -37,22 +34,16 @@ In the steps below, we will build the command sequentially. The `ggplot()` funct
 ### Step 1. Specify data frame
 
 Use the `data = ` argument to specify the data frame you are using to build the plot. Note that the word "data" in `(data = )` is an argument and should not be replaced. For example, if your data frame is named `utilities`, this line will be `ggplot(data = utilities)`.
-<<<<<<< HEAD
+
 ``` {r, eval = FALSE}
-=======
-``` {r, eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ggplot(data = dataframe_name) 
 ```
 
 ### Step 2. Specify x- and y-axes
 
 Next, use `aes()` to tell R which variable to place on the x- (`x_var`) and y-axes (`y_var`). Note that you are adding this argument within the parentheses of the function, `ggplot()`. Be sure to close all parentheses--not doing so is a common error in R.
-<<<<<<< HEAD
+
 ``` {r, eval = FALSE}
-=======
-``` {r, eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ggplot(data = dataframe_name, aes(x = x_var, y = y_var))
 ```
 
@@ -63,21 +54,15 @@ If you are only working with only one variable (e.g., plotting a histogram of on
 The third step is to tell R what type of graph to create--points, lines, bars, histograms, etc.--by adding the `geom` layer. This function is layered on to the `ggplot()` function  using the `+` sign.
 
 For example, if we would like the relationship between two variables to be represented by a scatter plot, we can simply add `geom_point()`. 
-<<<<<<< HEAD
+
 ``` {r eval = FALSE}
-=======
-``` {r eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ggplot(data = dataframe_name, aes(x = x_var, y = y_var)) + # note the + sign
          geom_point()
 ```
 
 If we are plotting the histogram of one variable, we use `geom_histogram()`. 
-<<<<<<< HEAD
+
 ``` {r eval = FALSE}
-=======
-``` {r eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign again
          geom_histogram()
 
@@ -86,11 +71,8 @@ ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign again
 ```
 
 For a bar plot, we use `geom_bar()`.
-<<<<<<< HEAD
+
 ``` {r eval = FALSE}
-=======
-``` {r eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign yet again
          geom_bar()
 ```
@@ -100,11 +82,8 @@ ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign yet again
 ## Important considerations
 
 The `+` sign used to add layers **must** be placed at the end of each line containing a layer. If the `+` sign is added in the line before the other layer, `ggplot2` will return an error message.
-<<<<<<< HEAD
+
 ``` {r eval = FALSE}
-=======
-``` {r eval = FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 # This is the correct way of adding layers
 ggplot( .... ) +
         geom_point()
@@ -136,7 +115,7 @@ Let's create a graph with a fake data set ["quiz.csv"](http://sarakyeo.github.io
 First, make sure you set the working directory correctly on your computer and load the packages. 
 
 Download this [data set](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv) and read it into R.
-```{r prompt=TRUE}
+```{r}
 quiz <- read.csv("quiz.csv")
 ```
 
@@ -144,11 +123,8 @@ quiz <- read.csv("quiz.csv")
 Let us examine the distribution of grades for Quiz 1 using a histogram.  
 
 To better understand what R is doing step-by-step, run these lines one at a time and see what happens in the **Plots** panel in RStudio. 
-<<<<<<< HEAD
+
 ```{r eval=FALSE}
-=======
-```{r eval=FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 # 1: Try this command first
 ggplot(data = quiz)
 # 2: Then try this one
@@ -159,13 +135,13 @@ ggplot(data = quiz, aes(x = quiz1)) +
 ```
 
 As the exercise shows, the complete command is the third one. 
-```{r prompt=TRUE}
+```{r}
 ggplot(data = quiz, aes(x = quiz1)) +
   geom_histogram()
 ```
 
 To do the same for Quiz 2 grades, simply change the x-axis specification in `aes()`.
-```{r prompt=TRUE}
+```{r}
 ggplot(data = quiz, aes(x = quiz2)) +
   geom_histogram()
 ```
@@ -176,7 +152,7 @@ What if we want to examine whether there is a relationship between Quiz 1 and Qu
 
 To examine this graphically, we can use a **scatter plot**, which depicts the relationship between two quantitative variables. In this case, we use `geom_point()` to tell R that we want a graph with points.
 
-```{r prompt=TRUE}
+```{r}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
   geom_point() 
 ```
@@ -185,7 +161,7 @@ ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
 
 No graph is complete without axis labels and a title. We can add axis labels and a plot title with the `labs()` layer. Again, it is important to add this layer by using the `+` sign.
 
-```{r prompt=TRUE}
+```{r}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
   geom_point() + 
   labs(x = 'Quiz 1 Grades', 

@@ -1,0 +1,96 @@
+# Creating a Subset of Your Data
+
+From the data sets you've worked with so far, you can tell that they largely have these structural characteristics:   
+
+- Each variable has its own column.  
+- Each observation has its own row.  
+- Each value has its own cell.  
+
+![](https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png)
+[source](https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png)   
+
+For specific goals of analyses, We often need to create a subset of the data by selecting columns (variables), or rows (observations), or both. 
+
+
+## Selecting Columns (Variables)
+
+For your group project, if you know your analyses will be only limited to a few variables, you can create a smaller data set that contains only these variables. It is not a requirement to do so, but it can relieve the heavy processing burden of working with a large dataset on R. You will also have a cleaner view of the variables you are working with.
+
+There are several ways to select columns:
+
+1. **Use `[ ]` to index what are the columns you would like to select.**
+
+Generic: `newdata <- fulldata[, c("var1", "var2", "var3", ...)]`
+
+For the `week` data frame we created earlier, if we only want to keep two variables, `day` and `temp`, we can use the following code. Note the `,` in the command.
+
+``` {r eval = FALSE}
+week_temp <- week[, c("day", "temp")] 
+week_temp
+```
+
+2. **Use `subset()` command with `select = ` argument that specifies the variables to be included.**
+
+Generic: `newdata <- subset(fulldata, select = c(var1, var2, var3, ...))`
+
+``` {r eval = FALSE}
+week_temp <- subset(week, select = c(day, temp))
+week_temp
+```
+
+3. **Use `select()` command, which is part of the `dplyr`, which is included in the `tidyverse` package.** 
+Generic: `newdata <- select(fulldata, var1, var2, var3, ...)`
+
+``` {r eval = FALSE}
+library(tidyverse) # install the package first if you have not already done so
+week_temp <- select(week, day, temp)
+```
+
+The above three methods should give you the same data frame:
+``` {r eval = FALSE}
+week_temp
+```
+
+```{r echo = FALSE}
+week_temp <- select(week, day, temp)
+kbl(week_temp) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
+```
+
+
+## Selecting Rows (Observations)
+
+Using the `covid` data, let's say we are only interested in participants whose attitude toward the vaccine fell on the favorable side of our response scale (i.e., above the mid-point on the 1-5 point scale). We can create a subset of respondents that meet this criteria.
+
+Let's call it `covid_fav`. Below are three distinct ways to select these rows.
+
+1. **Use `[ ]` to specify the logical conditions. **
+
+Generic: `newdata <- fulldata[variable meeting conditions, ]`
+
+Applying this to the `covid` data frame: 
+
+``` {r eval = FALSE}
+covid_fav <- covid[covid$att > 3, ]  # row selection based on logical condition, keep all columns
+covid_fav
+```
+
+2. **Use the `subset()` command.**
+
+Generic:  `newdata <- subset(fulldata, variable meeting certain conditions)`
+
+Applied to the `covid` data frame:   
+``` {r eval = FALSE}
+covid_fav <- subset(covid, att > 3)
+covid_fav
+```
+
+3. **Use the `filter()` command that is part of the `tidyverse` and `dplyr` packages.**
+
+Generic:  `newdata <- filter(fulldata, variables meeting certain conditions)`
+
+Applied to the `covid` data frame:   
+``` {r eval = FALSE}
+covid_fav <- filter(covid, att > 3)
+covid_fav
+```

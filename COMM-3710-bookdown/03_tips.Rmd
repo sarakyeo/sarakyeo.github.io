@@ -47,11 +47,8 @@ mean(xyz) # this line calculates the mean of the object, xyz
 
 When you run this script, R recognizes the commands and ignores the comments. However, the comments and annotations are saved in the R script--and your future self and the rest of your team will be grateful.
 
-<<<<<<< HEAD
+
 ```{r, echo=FALSE}
-=======
-```{r, prompt=TRUE, echo=FALSE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ## Start by defining an object
 x <- 3+5
 

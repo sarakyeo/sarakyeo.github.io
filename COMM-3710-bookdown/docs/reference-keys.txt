@@ -61,14 +61,6 @@ histograms
 scatter-plots
 adding-axes-labels-and-plot-titles
 additional-resources-for-graphing
-install-the-tidyverse-package
-load-the-tidyverse-package-after-installing
-start-by-defining-an-object
-next-i-want-to-determine-the-mean-across-x-y-and-z
-start-by-defining-an-object-1
-next-i-want-to-determine-the-mean-across-x-y-and-z-1
-this-is-slightly-different-than-the-exact-commands-used-in-the-video-but
-more-intuitive-following-the-logic-in-this-guide.
 missing-data
 dealing-with-missing-data
 use-the-na.rm-true-argument
@@ -76,5 +68,6 @@ use-the-na.omit-function
 wait-the-results-of-the-calculation-are-different
 why-is-this
 turning-values-into-na
+creating-a-subset-of-your-data
 selecting-columns-variables
 selecting-rows-observations

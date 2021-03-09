@@ -48,11 +48,7 @@ Remember that you only need to install packages once but you need to load packag
 
 The functions to install and load packages are `install.packages()` and `library()`, respectively.
 
-<<<<<<< HEAD
 ```{r package-cmd, echo=TRUE, eval=FALSE}
-=======
-```{r package-cmd, echo=TRUE, eval=FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ## Install the tidyverse package
 install.packages("tidyverse")
 
@@ -68,11 +64,7 @@ Once you have installed and loaded the packages that you will need to complete y
 
 You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the `setwd()` function.
 
-<<<<<<< HEAD
 ```{r setwd, echo=TRUE, eval=FALSE}
-=======
-```{r setwd, echo=TRUE, eval=FALSE, prompt=TRUE}
->>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 ## Set the working directory to c:/Users/SaraK/COMM-3710
 setwd("c:/Users/SaraK/COMM-3710")
 
