@@ -127,7 +127,11 @@ This error means that you likely did not load the package for this R session. Re
 Let's try out some commands. Open RStudio and start a new R script. If you need a reminder of how to start a new R script, review section \@ref(tour). To save your R script, see Section \@ref(saveRscript)
 
 To start, let's execute a simple command. In the **Editor**, type the following command. Note that in this text, commands in R are preceded by `>`.
+<<<<<<< HEAD
+```{r eval = FALSE}
+=======
 ```{r eval = FALSE, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 4 + 8
 ```
 
@@ -143,7 +147,11 @@ Note that the `[1]` is produced by R. You can think of this as R telling you tha
 
 Next, try:
 
+<<<<<<< HEAD
+```{r eval = FALSE}
+=======
 ```{r eval = FALSE, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 3 * 3
 ```
 
@@ -157,7 +165,11 @@ Although it is good practice to write and execute commands line-by-line when you
 
 Type the following two lines in your Editor and try running them together: 
 
+<<<<<<< HEAD
+```{r eval = FALSE}
+=======
 ```{r eval = FALSE, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 12 + 8
 16 / 4
 ```
@@ -200,7 +212,11 @@ label <- information
 
 Let's say that we want to save the result of `2 * 10` to an object and call it `kittens`. In the **Editor** window, type and run the following R code:
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 kittens <- 2 * 10
 ```
 
@@ -208,7 +224,11 @@ Notice that the result in the **Console** when you ran this command did not give
 
 This is because the result is stored as the object, `kittens`, and you have to ask R to display the result by calling the object. In the Editor, type `kittens` and run this command. You should see the result in the Console.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 kittens
 ```
 
@@ -222,7 +242,11 @@ knitr::include_graphics("images/kittens-env.png")
 
 R can store objects with different types of data. Let's create three objects containing different data types.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 a <- 19.81
 b <- "Hello, Salt Lake City!"
 c <- TRUE
@@ -230,7 +254,11 @@ c <- TRUE
 
 To check the type of data contained in objects `a`, `b`, and `c`, use the `class()` function.
 
+<<<<<<< HEAD
+```{r eval = FALSE}
+=======
 ```{r eval = FALSE, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 class(a)
 class(b)
 class(c)
@@ -252,7 +280,11 @@ As mentioned in Section \@ref(terms), functions are commands that tell R what yo
 
 For example, the `print()` function will print the result of the argument or input within the parentheses.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 print("Hello, SLC!")
 print(5 * 10)
 print(3 > 5)
@@ -262,7 +294,11 @@ print(3 > 5)
 
 Let's create a data frame to learn how to work with them. In the **Editor** panel, create a data frame by typing the following commands:
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 id <- 1:7
 cats <- c(1, 3, 2, 3, 5, 2, 3)
 gender <- c('male', 'female', 'male', 'female', 'male', 'female', 'female')
@@ -272,7 +308,11 @@ With the code above, you have created 3 objects, `id`, `cats`, and `gender`, usi
 
 Let's create a data frame from these individual objects.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 mydata <- data.frame(id, gender, cats)
 View(mydata)
 ```
@@ -289,7 +329,11 @@ knitr::include_graphics("images/cat-data.png")
 
 Using the `mydata` data frame, we will calculate the mean number of cats an individual in our data set owns.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt = TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 mean(mydata$cats)
 ```
 
@@ -297,26 +341,42 @@ The `$` allows us to extract a column of data, or a **variable**, from the `myda
 
 To see how many females vs. males are included in the data frame, use the following command.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt = TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 table(mydata$gender)
 ```
 
 Let's now look at only the number of cats owned by males in our data. This means we need to **subset** the data. To do so, we use square brackets, `[]` combined with logical operators. In this case, we will use the logical operator, `==`, which means "equal to."
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 mydata$cats[mydata$gender == "male"]
 ```
 
 To calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of `mydata`...
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 Monly <- subset(mydata, gender == "male")
 mean(Monly$cats) ## in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.
 ```
 
 or we can include the last command as an argument in the `mean()` function.
 
+<<<<<<< HEAD
+```{r}
+=======
 ```{r, prompt=TRUE}
+>>>>>>> 048cc0d2d2f3a1d6bb22c7ed05207bee82975132
 mean(mydata$cats[mydata$gender == "male"])
 ```
 
