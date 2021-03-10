@@ -1,6 +1,6 @@
 ---
-title: "GP.H: Statistical Tests (15 points)"
-pagetitle: "COMM 3710: GP.H"
+title: "GP.G: Statistical Tests (15 points)"
+pagetitle: "COMM 3710: GP.G"
 output:
   html_document:
     toc: true
