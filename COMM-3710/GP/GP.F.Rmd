@@ -1,5 +1,5 @@
 ---
-title: "GP.F: Creating Graphs (10 points)"
+title: "GP.F: Creating Graphs (15 points)"
 pagetitle: "COMM 3710: GP.F"
 output:
   html_document:
