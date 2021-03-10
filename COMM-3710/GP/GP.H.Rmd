@@ -12,7 +12,7 @@ urlcolor: blue
 # Instructions
 GP.H is a culmination of your work over the course of the semester. You will use your work in GP.A through GP.G to put your poster together. A poster is essentially an abridged version of a research paper.
 
-**Submit your poster as a PDF document on Canvas**.
+**Submit your poster as a PDF document on Canvas**.asdasd
 
 Be sure to include your **names and Umail addresses** in your poster.
 

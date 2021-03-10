@@ -23,7 +23,7 @@ List your hypotheses and/or research questions (RQs) in your PDF submission.
 
 ## Step 2 {.tabset .tabset-fade .tabset-pills}
 ### Question
-For each hypothesis and/or RQ, determine what the appropriate statistical test is for your main two variables of interest. Your options are:
+For each hypothesis and/or RQ, determine what the appropriate statistical test is for your main two variables of interest. Your options are: asdasdsa
 
 - Independent samples *t*-test
 - Analysis of variance (ANOVA)
