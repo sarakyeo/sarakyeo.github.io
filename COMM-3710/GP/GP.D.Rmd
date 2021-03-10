@@ -24,7 +24,7 @@ urlcolor: blue
 
 #### Question 1
 
-List **three to four** hypotheses and/or research questions (RQ) that you'd **most** like to focus on in your group project. In the PDF file, list them as:   
+List **three to four** hypotheses and/or research questions (RQ) that you would **most** like to focus on in your group project. In the PDF file, list them as:   
 
 * H1:
 * H2:
