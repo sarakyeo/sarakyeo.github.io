@@ -1,6 +1,6 @@
 ---
-title: "GP.I: Reporting Research (15 points)"
-pagetitle: "COMM 3710: GP.I"
+title: "GP.H: Reporting Research (15 points)"
+pagetitle: "COMM 3710: GP.H"
 output:
   html_document:
     toc: true
@@ -10,11 +10,11 @@ urlcolor: blue
 ---
 
 # Instructions
-GP.I is a culmination of your work over the course of the semester. You will use your work in GP.A through GP.H to put your poster together. A poster is essentially an abridged version of a research paper.
+GP.H is a culmination of your work over the course of the semester. You will use your work in GP.A through GP.G to put your poster together. A poster is essentially an abridged version of a research paper.
 
 **Submit your poster as a PDF document on Canvas**.
 
-Be sure to include your **names and UofU email addresses** in your poster.
+Be sure to include your **names and Umail addresses** in your poster.
 
 ---
 
@@ -22,54 +22,54 @@ Be sure to include your **names and UofU email addresses** in your poster.
 Posters can be created in PowerPoint or Adobe Illustrator. And example poster that you can use as a template can be found [here](https://utah.instructure.com/files/108105236/download?download_frd=1). The Marriott library [guidelines](https://campusguides.lib.utah.edu/posters) are detailed and helpful (especially [tips for graphic design](https://campusguides.lib.utah.edu/c.php?g=160626&p=1051976)). 
 
 ## Title
-* Your title should summarize the main idea of your research question and should include the variables under investigation.
-* The title should be fully explanatory when standing alone.
+- Your title should summarize the main idea of your research question and should include the variables under investigation.
+- The title should be fully self-explanatory.
 
 ## Introduction and Literature Review
-* Your introduction should describe your topic and rationale for your research question.
-* Your objective is to convince the reader why they should care about the topic and frame how you are going to contribute to the literature.
-* Your introduction should:
-    * Include an opening statement about your main topic.
-    * Justify your research---why is this topic important to study? What are the implications for this field of research? What is the potential significance of this research for society? What are some potential implications of conducting this research?
-    * Describe, in at least 3 main points, what is known in the literature about your topic or association. Each point should make up one paragraph.
-    * Describe what is *not known* about your topic. Summarize any gaps found in the literature and describe how your analyses contribute to filling this gap.
-    * Use specific examples and describe major findings (and, briefly, their methods) of the studies you reviewed.
-    * Your research questions and/or hypotheses.
+- Your introduction should describe your topic and rationale for your research question.
+- Your objective is to convince the reader why they should care about the topic and frame how you are going to contribute to the literature.
+- Your introduction should:
+    - Include an opening statement about your main topic.
+    - Justify your research---why is this topic important to study? What are the implications for this field of research? What is the potential significance of this research for society? What are some potential implications of conducting this research?
+    - Describe, in at least 3 main points, what is known in the literature about your topic or association. Each point should make up one paragraph.
+    - Describe what is *not known* about your topic. Summarize any gaps found in the literature and describe how your analyses contribute to filling this gap.
+    - Use specific examples and describe major findings (and, briefly, their methods) of the studies you reviewed.
+    - Include your research questions and/or hypotheses.
 
 ## Method
-* Describe your data set.
-    * Include the name of the data set and at least 3 key features of the sample or way data were collected.
-    * Include descriptive statistics about the demographics of your sample. 
-* Describe your measures (i.e., variables) of interest.
-    * What types of variables are you using?
-    * Explain if you combined several items into a new measure.
-    * Include descriptive statistics for each measure.
-* Describe your analytical strategy.
-    * What statistical tests did you use to test your hypotheses and address your research questions? Why?
+- Describe your data set.
+    - Include the name of the data set and at least 3 key features of the sample or way data were collected (see corresponding websites linked on Canvas).
+    - Include descriptive statistics about the demographics of your sample. 
+- Describe your measures/variables of interest.
+    - What types of variables are you using?
+    - Explain if you combined several items into a new measure.
+    - Include descriptive statistics for each measure.
+- Describe your analytical strategy.
+    - What statistical tests did you use to test your hypotheses and address your research questions? Why?
 
 ## Results
-* Include detailed descriptions of the results of your statistical analyses. These descriptions should address each research question and/or hypothesis posed. Based on your results, state clearly whether each hypothesis is supported or not, and/or what is the answer to each research question. Use tables and graphs to effectively summarize your key findings.
+- Include detailed descriptions of the results of your statistical analyses. These descriptions should address each research question and/or hypothesis posed. Based on your results, state clearly whether each hypothesis is supported or not, and/or what is the answer to each research question. Use tables and graphs to effectively summarize your key findings.
 
-* For *descriptive analysis*,
-  * When both IV and DV are categorical variables, report percentages of the DV in each group/level of IV.	*Example*: 18.56% of women and 33.25% of men reported major depression in this sample.
-  * When IV is categorical and DV is quantitative variable, report mean and standard deviation for each group/level of IV. *Example*: The average score of skepticism toward media was 4.40 (SD = 1.12) for men and 2.29 (SD = 1.02) for women.
+- For **descriptive analysis**,
+  - When both IV and DV are categorical variables, report percentages of the DV in each group/level of IV.	*Example*: 18.56% of women and 33.25% of men reported major depression in this sample.
+  - When IV is categorical and DV is quantitative variable, report mean and standard deviation for each group/level of IV. *Example*: The average score of skepticism toward media was 4.40 (SD = 1.12) for men and 2.29 (SD = 1.02) for women.
 
-* For *inferential analysis*, be sure to include test statistics and significance values where appropriate.
-  * *Examples*: 
+- For **inferential analysis**, be sure to include test statistics and significance values where appropriate.
+  - *Examples*: 
     - Chi-square tests found a significant relationship between gender and depression ($\chi$^2^(1) = 5.8, *p* = 0.001).
     - Analysis of variance was then performed and showed significant differences in media skepticism between men and women (*F* = 12.05, *p* = 0.002).
     - The association between BMI and depression scale was found to be positive and statistically significant (*r* = 0.81, *p* = 0.03).
     - An independent samples *t*-test found that schizophrenics (M = .76, SD = .20, N = 100) were more illogical than the college students (M = .17, SD = .13, N = 97), *t*(17) = 7.53, *p* < .001.
 
 ## Discussion
-* Begin with a brief summary of your research project and its rationale.
-* Then, describe the implications of your findings.
-    * Why are these findings important?
-    * Could anything actionable happen as a result of your findings?
-    * What are the implications of your findings (*Hint*: Link your discussion to the rationale for your research from the introduction)?
-    * What are the limitations of your project and what needs to be done in future research?
+- Begin with a brief summary of your research project and its rationale.
+- Then, describe the implications of your findings.
+    - Why are these findings important?
+    - Could anything actionable happen as a result of your findings?
+    - What are the implications of your findings (*Hint*: Link your discussion to the rationale for your research from the introduction)?
+    - What are the limitations of your project and what needs to be done in future research?
 
 ## References
-* Use a citation manager (e.g., Zotero) to generate a bibliography.
-* Be sure to have in-text citations in **APA** format.
-* Reduce font size so you can get all references on one page. 
+- Use a citation manager (e.g., Zotero) to generate a bibliography.
+- Be sure to have in-text citations in **APA** format.
+- Reduce font size of the references so you can get all of them into the alloted space on your poster. 
