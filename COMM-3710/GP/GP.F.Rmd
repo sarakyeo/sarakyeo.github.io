@@ -12,13 +12,14 @@ urlcolor: blue
 # Resources
 
 - [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html)
+- [R Graphics Cookbook](https://r-graphics.org/)
 - [Video 06](https://youtu.be/mwLyXHfCPdE)
 - [Video 07](https://youtu.be/IZoCbCQRmUE)
 
 ---
 
 # Instructions
-There are a variety of ways to visualize data--tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to create both univariate and bivariate graphs.
+There are a variety of ways to visualize data--tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to create both univariate and bivariate graphs. We will use the `ggplot2` package to create graphs.
 
 - A **univariate** graph is a visualization of one variable. A histogram is a type of univariate graph.
 - A **bivariate** graph is a visualization of the relationship between two variables. A scatter plot is a type of bivariate graph.
@@ -29,36 +30,32 @@ Load the following packages in R:
 - `tidyverse` (remember that this includes the `ggplot2` package)
 - `descr`
 
-## Step 2 {.tabset .tabset-fade .tabset-pills}
-### Question
-Create univariate graphs of all your independent and dependent variables. Include the graphs in your PDF submission.
+## Step 2
+Copy Table 2 from [GP.E](https://sarakyeo.github.io/COMM-3710/GP/GP.E.html) into your PDF submission.
 
-- Each graph should contain clearly labeled x-axes, y-axes, titles, and, if applicable, legends.
-- 
+Using `ggplot2`, create histograms of all your independent and dependent variables. Include the graphs in your PDF submission and all R commands and annotations in your script.
 
-Write a few sentences describing what your graphs reveal in terms of shape, spread, and center (if variable is quantitative) and most/least frequent categories if variable is categorical.
+Each graph should contain:
 
-**Submit the graphs and descriptions as a PDF file on Canvas.**
+- Clear and relevant x-axis labels
+- Clear and relevant y-axis labels
+- Clear and relevant titles
+- If applicable, clear and relevant legends
 
-**Submit all R commands and comments used for this assignment as a .R file on Canvas.**
 
-# Instructions
+## Step 3
+Revisit your submission for [GP.E](https://sarakyeo.github.io/COMM-3710/GP/GP.E.html) and list your hypotheses and/or research questions (RQs) in your PDF submission.
 
-OPTIONAL: Watch this [video](https://youtu.be/IZoCbCQRmUE) about graphing relationships in R.
+For each hypothesis and/or research question, construct a bivariate graph that shows the relationship between your independent (IV) and dependent variable (DV). Again, each graph should contain:
 
-1. Construct a graph that shows the association between your explanatory/independent and outcome/dependent variables (bivariate graph).
+- Clear and relevant x-axis labels
+- Clear and relevant y-axis labels
+- Clear and relevant titles
+- If applicable, clear and relevant legends
 
-2. Write a few sentences describing what your graphs reveal.
-    <ul>
-    <li> How do you think the variables are related, if at all?
-    <li> How does this correspond with your predictions?
-    <li> Does the graph reveal anything unexpected or interesting about your relationship of interest?
-    </ul>
-    
-3. Construct a 2nd graph that shows the association between another explanatory variable and your dependent variable. Again, write a few sentences describing what your graph reveals in terms of the relationships among the variables.
 
-4. Submit two files on Canvas:
-   <ul>
-   <li> A **.R file** with all commands and comments.
-   <li> A **PDF file** of the graphs and descriptions. Graphs should contain axes labels, captions, and, if applicable, legends.
-   </ul>
+## Submission
+Submit two files on Canvas:
+
+- A **.R file** with all commands and comments. The commands in this R script must run in its entirety and in order (i.e., from top to bottom) and include commands to set the working directory, load packages, and read data into R.
+- A **PDF file** of the graphs and other required elements.
