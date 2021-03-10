@@ -1,5 +1,5 @@
 ---
-title: "GP.F: Univariate Graphs (10 points)"
+title: "GP.F: Creating Graphs (10 points)"
 pagetitle: "COMM 3710: GP.F"
 output:
   html_document:
@@ -10,20 +10,55 @@ urlcolor: blue
 ---
 
 # Resources
-If you need a reminder about graphing one variable at a time in R, watch this [video](https://youtu.be/mwLyXHfCPdE).
 
-There are a variety of conventional ways to visualize data---tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to graph your variables one at a time and examine both center and spread.
+- [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html)
+- [Video 06](https://youtu.be/mwLyXHfCPdE)
+- [Video 07](https://youtu.be/IZoCbCQRmUE)
 
 ---
 
 # Instructions
-Include univariate graphs of your two main constructs. These main constructs, or variables, should be managed (from GP.D).
+There are a variety of ways to visualize data--tables, histograms, bar graphs, etc. Now that your data have been managed, it is time to create both univariate and bivariate graphs.
 
-- Each graph should contain clearly labeled x-axes, y-axes, and, if applicable, legends.
-- Each figure should also have a caption below it.
+- A **univariate** graph is a visualization of one variable. A histogram is a type of univariate graph.
+- A **bivariate** graph is a visualization of the relationship between two variables. A scatter plot is a type of bivariate graph.
+
+## Step 1
+Load the following packages in R:
+
+- `tidyverse` (remember that this includes the `ggplot2` package)
+- `descr`
+
+## Step 2 {.tabset .tabset-fade .tabset-pills}
+### Question
+Create univariate graphs of all your independent and dependent variables. Include the graphs in your PDF submission.
+
+- Each graph should contain clearly labeled x-axes, y-axes, titles, and, if applicable, legends.
+- 
 
 Write a few sentences describing what your graphs reveal in terms of shape, spread, and center (if variable is quantitative) and most/least frequent categories if variable is categorical.
 
 **Submit the graphs and descriptions as a PDF file on Canvas.**
 
 **Submit all R commands and comments used for this assignment as a .R file on Canvas.**
+
+# Instructions
+
+OPTIONAL: Watch this [video](https://youtu.be/IZoCbCQRmUE) about graphing relationships in R.
+
+1. Construct a graph that shows the association between your explanatory/independent and outcome/dependent variables (bivariate graph).
+
+2. Write a few sentences describing what your graphs reveal.
+    <ul>
+    <li> How do you think the variables are related, if at all?
+    <li> How does this correspond with your predictions?
+    <li> Does the graph reveal anything unexpected or interesting about your relationship of interest?
+    </ul>
+    
+3. Construct a 2nd graph that shows the association between another explanatory variable and your dependent variable. Again, write a few sentences describing what your graph reveals in terms of the relationships among the variables.
+
+4. Submit two files on Canvas:
+   <ul>
+   <li> A **.R file** with all commands and comments.
+   <li> A **PDF file** of the graphs and descriptions. Graphs should contain axes labels, captions, and, if applicable, legends.
+   </ul>
