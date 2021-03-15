@@ -25,7 +25,7 @@ There are a variety of ways to visualize data--tables, histograms, bar graphs, e
 - A **bivariate** graph is a visualization of the relationship between two variables. A scatter plot is a type of bivariate graph.
 
 ## Step 1
-Load the following packages in R:
+Load your data set and the following packages in R:
 
 - `tidyverse` (remember that this includes the `ggplot2` package)
 - `descr`
