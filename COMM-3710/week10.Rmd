@@ -24,12 +24,14 @@ urlcolor: blue
 
 At this point in the course, you will have conducted most of these steps in data analysis through your individual lab assignments and even in your group project assignments. Review the videos and resources embedded in your lab assignments and group projects.
 
-Other resources for using R and RStudio for data analysis can be found [here](https://rpubs.com/yesun/Comm3710_helpwithR).
+Other resources for using R and RStudio for data analysis can be found in the [COMM 3710: Getting Started with R book](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
+
+Remember that you have done most, if not all, the steps of data analysis in your individual assignments. Be sure to refer to your R code from previous assignments as necessary.
 
 <a href="#top">Back to top</a>
 
 # Managing Data
-To manage your data, you should be able to run frequency distributions, recode any variables, and create composite variables.
+To manage your data, you should run frequency distributions, and recode and create variables as necessary.
 
 Watch the videos below to refresh your memory on conducting the functions in R:
 
@@ -38,7 +40,6 @@ Watch the videos below to refresh your memory on conducting the functions in R:
    - [Reverse coding](https://youtu.be/b9Bh3K5bi0I?t=725)
 - [Creating composite or secondary variables](https://youtu.be/b9Bh3K5bi0I?t=994)
 
-<a href="#top">Back to top</a>
 
 # Hypothesis Testing
 In this step, we will conduct statistical hypothesis testing. In other words, we will assess empirical evidence and determine whether we can reject our null hypothesis. If necessary, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
