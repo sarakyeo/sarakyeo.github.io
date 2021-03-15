@@ -24,6 +24,8 @@ There are a variety of ways to visualize data--tables, histograms, bar graphs, e
 - A **univariate** graph is a visualization of one variable. A histogram is a type of univariate graph.
 - A **bivariate** graph is a visualization of the relationship between two variables. A scatter plot is a type of bivariate graph.
 
+I encourage you to check out the [R Graph Gallery](https://www.r-graph-gallery.com/) for inspiration for your own graphs.
+
 ## Step 1
 Load your data set and the following packages in R:
 
