@@ -299,7 +299,7 @@ div.tocify {
 <ol start="2" style="list-style-type: decimal">
 <li>Conduct data management on these variables: <code>tvnaat</code>, <code>tvhardat</code>, <code>tvsoftat</code>, <code>sex</code>, <code>marit</code>.
 <ol style="list-style-type: lower-alpha">
-<li>Recode values of <code>99</code> as <code>NA</code> in <code>tvnaat</code>, <code>tvhardat</code>, and <code>tvsoftat</code>.</li>
+<li>Recode the variables (i.e., create new variables from the existing ones) in <code>tvnaat</code>, <code>tvhardat</code>, and <code>tvsoftat</code> such that values of <code>99</code> become <code>NA</code> .</li>
 <li>Currently, <code>sex</code> and <code>marit</code> are numeric variables (use <code>class()</code> or <code>typeof()</code> to convince yourself of this). Recode these variables as factors. Recode <code>sex</code> such that it has two levels, “female” and “male” (all other values should be coded as <code>NA</code>), and recode <code>marit</code> according to the levels currently assigned to the values in the codebook (i.e., “single,” “married,” “divorced,” etc.).</li>
 </ol></li>
 </ol>

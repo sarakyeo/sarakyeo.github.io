@@ -61,7 +61,7 @@ A data frame with 465 observations on the following variables^[`99` = “Don’t
 <br>
 
 2. Conduct data management on these variables: `tvnaat`, `tvhardat`, `tvsoftat`, `sex`, `marit`.
-      a. Recode values of `99` as `NA` in `tvnaat`, `tvhardat`, and `tvsoftat`.
+      a. Recode the variables (i.e., create new variables from the existing ones) in `tvnaat`, `tvhardat`, and `tvsoftat` such that values of `99` become `NA` .
       b. Currently, `sex` and `marit` are numeric variables (use `class()` or `typeof()` to convince yourself of this). Recode these variables as factors. Recode `sex` such that it has two levels, "female" and "male" (all other values should be coded as `NA`), and recode `marit` according to the levels currently assigned to the values in the codebook (i.e., "single," "married," "divorced," etc.).
 
 <br>
