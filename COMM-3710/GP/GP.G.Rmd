@@ -39,7 +39,15 @@ To test H1, I will use Pearson's correlation. The independent variable, average 
 
 
 ## Step 2
-Load your data, the necessary R packages, and run the appropriate statistical test in R.
+Load your data, the necessary R packages, and run the appropriate statistical test for each hypothesis and/or research question in R.
+
+> Your R script must be logical and easy-to-follow, contain **clear** and **meaningful** annotations, and run its in entirety.
+
+Include clear commands to:
+
+1) set your working directory;
+2) load/read the data into the object/data frame with which you are working in the rest of your script; and
+3) install and load all necessary packages (you can do this as you need the package, or right away at the beginning of the R script).
 
 
 ## Step 3 {.tabset .tabset-fade .tabset-pills}
