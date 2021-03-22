@@ -60,7 +60,7 @@ Interpret your findings and write a paragraph about each. Report your results af
 
 The order in your PDF should be:
 
-- Hypothesis/Research Question #1
+- Hypothesis/Research question
 - Identification of hypothesis test used and rationale for choice of hypothesis test.
 - Report results from hypothesis test.
 
