@@ -43,6 +43,8 @@ Load your data, the necessary R packages, and run the appropriate statistical te
 
 > Your R script must be logical and easy-to-follow, contain **clear** and **meaningful** annotations, and run its in entirety.
 
+Comments should answer the question of "why" (instead of "what") you are using/running a specific command.
+
 Include clear commands to:
 
 1) set your working directory;
