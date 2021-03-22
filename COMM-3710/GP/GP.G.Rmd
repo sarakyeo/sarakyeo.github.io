@@ -38,7 +38,7 @@ List the hypothesis test chosen and provide a rationale for your decision (see E
 To test H1, I will use Pearson's correlation. The independent variable, average number of hours spent on social media per week, is continuous and the dependent variable, respondents' anxiety scores, is also continuous. Therefore, Pearson's correlation is an appropriate test of this relationship.
 
 
-## Step 2
+## Step 3
 Load your data, the necessary R packages, and run the appropriate statistical test for each hypothesis and/or research question in R.
 
 > Your R script must be logical and easy-to-follow, contain **clear** and **meaningful** annotations, and run its in entirety.
@@ -52,7 +52,7 @@ Include clear commands to:
 3) install and load all necessary packages at the beginning of the script. As you work, you may find that you need libraries that you have not loaded. Simply go back to the beginning of your script and include commands to load the libraries there.
 
 
-## Step 3 {.tabset .tabset-fade .tabset-pills}
+## Step 4 {.tabset .tabset-fade .tabset-pills}
 ### Question 
 Interpret your findings and write a paragraph about each.
 
