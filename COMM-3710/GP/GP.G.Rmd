@@ -30,7 +30,7 @@ For each hypothesis and/or RQ, determine what the appropriate statistical test i
 - Chi-squared test of independence
 - Pearson's correlation
 
-List the hypothesis test chosen and provide a rationale for your decision (see Example tab).
+List the hypothesis test chosen and provide a rationale for your decision in the PDF submission (see Example tab).
 
 ### Example
 **H1: The average number of hours spent on social media per week will be positively associated with higher anxiety scores.**
@@ -50,6 +50,8 @@ Include clear commands to:
 1) set your working directory;
 2) load/read the data into the object/data frame with which you are working in the rest of your script; and
 3) install and load all necessary packages at the beginning of the script. As you work, you may find that you need libraries that you have not loaded. Simply go back to the beginning of your script and include commands to load the libraries there.
+
+You will also need to include all commands to set up and conduct hypothesis testing for each hypothesis and/or research question in your R script. 
 
 
 ## Step 4 {.tabset .tabset-fade .tabset-pills}
