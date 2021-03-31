@@ -35,7 +35,7 @@ Load your data set and the following packages in R:
 ## Step 2
 Copy Table 2 from [GP.E](https://sarakyeo.github.io/COMM-3710/GP/GP.E.html) into your PDF submission.
 
-Using `ggplot2`, create histograms of all your independent and dependent variables. Include the graphs in your PDF submission and all R commands and annotations in your script.
+Using `ggplot2`, create univariate graphs of all your independent and dependent variables. Include the graphs in your PDF submission and all R commands and annotations in your script.
 
 Each graph should contain:
 
