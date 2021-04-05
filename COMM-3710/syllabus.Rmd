@@ -272,27 +272,25 @@ Throughout the semester, there will be [drop-in office hours via Zoom](#officehr
 > Inferential statistics | **Quiz 9** 
 
 - Readings: Wrench Ch. 15, 16, 18 
-- Lab: GP.E--Data Management (10 pts)
+- Lab: GP.E--Data Management (15 pts)
 
 ## Week 10 (22-Mar)
 > Data analysis | **Quiz 10** 
 
-- Lab: GP.F--Univariate Graphs (10 pts)
+- Lab: GP.F--Creating Graphs (15 pts)
 
 ## Week 11 (29-Mar)
 > Group Project work | **Quiz 11** 
 
-- Lab: GP.G--Bivariate Graphs (10 pts)
+- Lab: GP.G--Statistical Tests (15 pts)
   
 ## Week 12 (6-Apr)
 > Group Project work 
 
-- Lab: GP.H--Statistical Tests (15 pts)
+- Lab: GP.H--Reporting Research (15 pts)
 
 ## Week 13 (12-Apr)
 > Group Project work 
-
-- Lab: GP.I--Reporting Research (15 pts)
 
 ## Week 14 (19-Apr)
 > Group Project work
