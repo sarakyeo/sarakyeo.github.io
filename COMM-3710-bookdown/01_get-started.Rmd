@@ -12,6 +12,8 @@ On a web browser, navigate to https://cloud.r-project.org/.
 - If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of February 14, 2021, is R-4.0.3.
 - If you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.
 
+During installation, select the default settings when prompted.
+
 ---
 
 ## Installing RStudio

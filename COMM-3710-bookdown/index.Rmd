@@ -28,7 +28,7 @@ R is a free software environment for computing and graphics from [CRAN](https://
 
 > What is R in the context of COMM 3710? 
 
-In this course, you will learn to install and use R for data analysis. In other words, R is the software that you will use to complete your **individual lab assignments** and the data analysis components of your **group projects**.
+In this course, you will learn to install and use R for data analysis. In other words, R is the software that you will in the labs associated with the course.
 
 ---
 
