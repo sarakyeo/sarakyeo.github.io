@@ -3,6 +3,7 @@ fig:open-R
 fig:RStudio-panels
 fig:packages
 fig:install-load-packages
+fig:packages-flowchart
 tab:basic-ops
 fig:environment
 fig:kittens-env
@@ -31,6 +32,7 @@ terms
 errors-warnings-and-messages
 learning-tips
 packages
+how-do-i-know-whether-i-need-to-install-or-load-a-package
 learning-by-doing
 creating-objects
 data-types

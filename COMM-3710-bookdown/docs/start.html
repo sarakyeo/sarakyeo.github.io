@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-04-05" />
+<meta name="date" content="2021-04-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -159,6 +159,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.3.3" data-path="start.html"><a href="start.html#errors-warnings-and-messages"><i class="fa fa-check"></i><b>2.3.3</b> Errors, warnings, and messages</a></li>
 <li class="chapter" data-level="2.3.4" data-path="start.html"><a href="start.html#learning-tips"><i class="fa fa-check"></i><b>2.3.4</b> Tips for learning to code</a></li>
 <li class="chapter" data-level="2.3.5" data-path="start.html"><a href="start.html#packages"><i class="fa fa-check"></i><b>2.3.5</b> R packages</a></li>
+<li class="chapter" data-level="2.3.6" data-path="start.html"><a href="start.html#how-do-i-know-whether-i-need-to-install-or-load-a-package"><i class="fa fa-check"></i><b>2.3.6</b> How do I know whether I need to install or load a package?</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="start.html"><a href="start.html#learning-by-doing"><i class="fa fa-check"></i><b>2.4</b> Learning by doing</a>
 <ul>
@@ -355,6 +356,15 @@ Figure 2.4: Watch this gif to learn how to install and load packages in R. Note 
 <p>If you get this error, this means that you have not installed the package.</p>
 <pre><code>Error: could not find function</code></pre>
 <p>This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.</p>
+</div>
+<div id="how-do-i-know-whether-i-need-to-install-or-load-a-package" class="section level3" number="2.3.6">
+<h3><span class="header-section-number">2.3.6</span> How do I know whether I need to install or load a package?</h3>
+<div class="figure" style="text-align: center"><span id="fig:packages-flowchart"></span>
+<img src="images/packages-flowchart.png" alt="Flowchart to help determine whether you should load or install packages." width="50%" />
+<p class="caption">
+Figure 2.5: Flowchart to help determine whether you should load or install packages.
+</p>
+</div>
 <hr />
 </div>
 </div>
@@ -425,11 +435,11 @@ Figure 2.4: Watch this gif to learn how to install and load packages in R. Note 
 <div id="creating-objects" class="section level3" number="2.4.1">
 <h3><span class="header-section-number">2.4.1</span> Creating objects</h3>
 <p>R is an <a href="https://en.wikipedia.org/wiki/Object-oriented_programming"><strong>OOP</strong> or <strong>object-oriented programming</strong></a> language.</p>
-<p>You can think of an <strong>object</strong> as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the <strong>Environment</strong> (Figure <a href="start.html#fig:environment">2.5</a>), which is the one of the tabs in the top right panel of RStudio.</p>
+<p>You can think of an <strong>object</strong> as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the <strong>Environment</strong> (Figure <a href="start.html#fig:environment">2.6</a>), which is the one of the tabs in the top right panel of RStudio.</p>
 <div class="figure" style="text-align: center"><span id="fig:environment"></span>
 <img src="images/environment.png" alt="The Environment panel in RStudio." width="640" />
 <p class="caption">
-Figure 2.5: The Environment panel in RStudio.
+Figure 2.6: The Environment panel in RStudio.
 </p>
 </div>
 <p>We assign information to an object by using the <strong>assignment operator</strong>, <code>&lt;-</code>. The generic code for creating an object looks like:</p>
@@ -440,11 +450,11 @@ Figure 2.5: The Environment panel in RStudio.
 <p>This is because the result is stored as the object, <code>kittens</code>, and you have to ask R to display the result by calling the object. In the Editor, type <code>kittens</code> and run this command. You should see the result in the Console.</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="start.html#cb12-1" aria-hidden="true" tabindex="-1"></a>kittens</span></code></pre></div>
 <pre><code>## [1] 20</code></pre>
-<p>Notice that the object, <code>kittens</code>, appeared in the <strong>Environment</strong> when you ran the command, <code>kittens &lt;- 2 * 10</code> (Figure <a href="start.html#fig:kittens-env">2.6</a>).</p>
+<p>Notice that the object, <code>kittens</code>, appeared in the <strong>Environment</strong> when you ran the command, <code>kittens &lt;- 2 * 10</code> (Figure <a href="start.html#fig:kittens-env">2.7</a>).</p>
 <div class="figure" style="text-align: center"><span id="fig:kittens-env"></span>
 <img src="images/kittens-env.png" alt="The Environment panel after you run the R code to create the object, `kittens`." width="80%" />
 <p class="caption">
-Figure 2.6: The Environment panel after you run the R code to create the object, <code>kittens</code>.
+Figure 2.7: The Environment panel after you run the R code to create the object, <code>kittens</code>.
 </p>
 </div>
 </div>
@@ -485,17 +495,17 @@ Figure 2.6: The Environment panel after you run the R code to create the object,
 <p>Let’s create a data frame from these individual objects.</p>
 <div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="start.html#cb26-1" aria-hidden="true" tabindex="-1"></a>mydata <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(id, gender, cats)</span>
 <span id="cb26-2"><a href="start.html#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(mydata)</span></code></pre></div>
-<p>After running the commands above, notice that your <strong>Environment</strong> panel now looks like Figure <a href="start.html#fig:cat-env">2.7</a>. Your data frame should look like Figure <a href="start.html#fig:dataframe">2.8</a>.</p>
+<p>After running the commands above, notice that your <strong>Environment</strong> panel now looks like Figure <a href="start.html#fig:cat-env">2.8</a>. Your data frame should look like Figure <a href="start.html#fig:dataframe">2.9</a>.</p>
 <div class="figure" style="text-align: center"><span id="fig:cat-env"></span>
 <img src="images/cat-env.png" alt="Your Environment panel should look like this once you have run the above code." width="80%" />
 <p class="caption">
-Figure 2.7: Your Environment panel should look like this once you have run the above code.
+Figure 2.8: Your Environment panel should look like this once you have run the above code.
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:dataframe"></span>
 <img src="images/cat-data.png" alt="The data frame you just created." width="30%" />
 <p class="caption">
-Figure 2.8: The data frame you just created.
+Figure 2.9: The data frame you just created.
 </p>
 </div>
 <p>Using the <code>mydata</code> data frame, we will calculate the mean number of cats an individual in our data set owns.</p>
@@ -534,11 +544,11 @@ Figure 2.8: The data frame you just created.
 <p>We can also use <code>!</code> to specify a condition as <strong>not</strong> something. Returning to our example of the mean number of cats males in <code>mydata</code> own, we could instead calculate the mean of cats owned by all individuals who are <code>!= "female"</code> or “not female.”</p>
 <div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="start.html#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(mydata<span class="sc">$</span>cats[mydata<span class="sc">$</span>gender <span class="sc">!=</span> <span class="st">&quot;female&quot;</span>])</span></code></pre></div>
 <pre><code>## [1] 2.666667</code></pre>
-<p>Figure <a href="start.html#fig:boolean">2.9</a> is a visual representation of the differences between some logical operators.</p>
+<p>Figure <a href="start.html#fig:boolean">2.10</a> is a visual representation of the differences between some logical operators.</p>
 <div class="figure" style="text-align: center"><span id="fig:boolean"></span>
 <img src="https://s3.amazonaws.com/libapps/accounts/7346/images/Boolean-Ven.jpg" alt="Differences between AND, OR, and NOT."  />
 <p class="caption">
-Figure 2.9: Differences between AND, OR, and NOT.
+Figure 2.10: Differences between AND, OR, and NOT.
 </p>
 </div>
 
