@@ -93,19 +93,6 @@ knitr::include_graphics("images/saving-R-script.gif")
 
 ---
 
-## Compiling your R script into a PDF
-
-Most of your assignments will require you to submit a PDF document in addition to your R script. There are two main ways to create a PDF document for your assignments:
-
-1) Open a Microsoft Word document and copy and paste the necessary text into that document while you work. Remember to save often. Once you have completed the assignment, save the Word document as a PDF document.
-2) Have R compile your script into a PDF document. You can do this through the GUI by clicking on *File* $\rightarrow$ *Knit Document*. When the dialog box appears, select *PDF* as the *Report output format* and click *Compile* (Figure \@ref(fig:compile)).
-
-```{r compile, echo=FALSE, fig.align='center', fig.cap="Compiling a PDF from your R script in RStudio."}
-knitr::include_graphics("images/compile-pdf.gif")
-```
-
----
-
 ## Assignment R script checklist
 
 Be sure you have *at least* the following components in your R script. This list is **not** comprehensive. It represents the minimal requirements for your R script.
