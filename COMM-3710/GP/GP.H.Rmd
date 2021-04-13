@@ -12,14 +12,14 @@ urlcolor: blue
 # Instructions
 GP.H is a culmination of your work over the course of the semester. You will use your work in GP.A through GP.G to put your poster together. A poster is essentially an abridged version of a research paper.
 
-**Submit your poster as a PDF document on Canvas**.
+**Submit your poster as a PDF document on Canvas using the template provided below**.
 
 Be sure to include your **names and Umail addresses** in your poster.
 
 ---
 
 # Poster Requirements {.tabset .tabset-fade}
-Posters can be created in PowerPoint or Adobe Illustrator. And example poster that you can use as a template can be found [here](https://utah.instructure.com/files/108105236/download?download_frd=1). The Marriott library [guidelines](https://campusguides.lib.utah.edu/posters) are detailed and helpful (especially [tips for graphic design](https://campusguides.lib.utah.edu/c.php?g=160626&p=1051976)). 
+Posters can be created in PowerPoint or Adobe Illustrator. An example poster that you can use as a template can be found [here](https://utah.instructure.com/files/108105236/download?download_frd=1). The Marriott library [guidelines](https://campusguides.lib.utah.edu/posters) are detailed and helpful (especially [tips for graphic design](https://campusguides.lib.utah.edu/c.php?g=160626&p=1051976)). 
 
 ## Title
 - Your title should summarize the main idea of your research question and should include the variables under investigation.
