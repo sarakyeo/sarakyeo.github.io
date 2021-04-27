@@ -70,7 +70,7 @@ setwd("c:/Users/SaraK/COMM-3710")
 
 ## Read data from dataset.csv file into R (note the file name of your dataset
 ## might be different)
-dataframe_name <- read.csv("dataset.csv")
+dataframe_name <- read_csv("dataset.csv")
 ```
 
 You can replace `dataframe_name` with a name of your choice.
