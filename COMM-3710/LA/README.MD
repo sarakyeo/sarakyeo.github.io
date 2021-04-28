@@ -1,4 +1,4 @@
-# Codebooks for the datasets used in individual assignments
+# Codebooks for datasets used in individual assignments
 ## HELP dataset
 | Variable Name | Description |
 | ------------- | ----------- |
@@ -30,3 +30,17 @@
 | `treat` | Randomized to HELP clinic (no, yes) |
 
 ## CPS dataset
+| Variable Name | Description |
+| ------------- | ----------- |
+| `wage` | Wage (US dollars per hour) |
+| `educ` | Number of years of education |
+| `race` | Factor with levels: NW (non-white), W (white) |
+| `sex` | Factor with levels: F, M |
+| `hispanic` | Factor with levels: Hisp, NH (non-Hispanic) |
+| `south` | Factor with levels: NS (non-south), S (south) |
+| `married` | Factor with levels: Married, Single |
+| `exper` | Number of years of work experience |
+| `union` | Factor with levels: Not (not part of union), Union |
+| `age` | Age in years |
+| `sector` | Factor with levels: clerical, const, manag, manuf, other prof, sales, service |
+| `satisfaction` | 1 = satisfied with current employment, 0 = otherwise |
