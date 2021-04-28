@@ -1,4 +1,12 @@
-# Codebooks for datasets used in individual assignments
+# Table of Contents
+- [Codebooks]
+  - [HELP dataset]
+  - [CPS dataset]
+
+
+---
+
+# Codebooks
 ## HELP dataset
 | Variable Name | Description |
 | ------------- | ----------- |
