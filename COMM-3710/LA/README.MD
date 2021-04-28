@@ -1,7 +1,7 @@
 # Table of Contents
-- [Codebooks]
-  - [HELP dataset]
-  - [CPS dataset]
+- [Codebooks](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#codebooks)
+  - [HELP dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset)
+  - [CPS dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#cps-dataset)
 
 
 ---
