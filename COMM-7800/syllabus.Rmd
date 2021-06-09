@@ -222,7 +222,7 @@ Campus security authorities are university employees who have significant respon
 - Venables, W. N., Smith, D. M., & the R Core Team. (2018). *An Introduction to R*.
 
 ## Week 5 (23-Sep)
-> Data management Tutorial (Discussant: Dr. Sara Yeo)
+> Data management tutorial (Discussant: Dr. Sara Yeo)
 
 **Discussion Topics:**
 
