@@ -214,7 +214,7 @@ Campus security authorities are university employees who have significant respon
 - Groves, R. M. (2011). Three eras of survey research. *Public Opinion Quarterly, 75*(5), 861–871. https://doi.org/10.1093/poq/nfr057
 
 ## Week 4 (16-Sep)
-> Getting familiar with IBM SPSS Statistics and R (Discussant: Sara Yeo)
+> Getting familiar with IBM SPSS Statistics and R (Discussant: Dr. Sara Yeo)
 
 **Readings:**
 
@@ -222,53 +222,64 @@ Campus security authorities are university employees who have significant respon
 - Venables, W. N., Smith, D. M., & the R Core Team. (2018). *An Introduction to R*.
 
 ## Week 5 (23-Sep)
-> Data management
+> Data management Tutorial (Discussant: Dr. Sara Yeo)
 
-**Readings:**
+**Discussion Topics:**
 
-- TBD
+- Basics of SPSS and R
+- Syntax vs. GUI
+- Setting preferences in SPSS and R
+- Reading data into SPSS and R
+- Types of data
+- Missing data
+- Descriptive statistics in a dataset
+- Recoding variables
+
 
 ## Week 6 (30-Sep)
 > Reliability and validity
 
 **Readings:**
 
-- TBD
+- Carmines, E. G., & Zeller, R. A. (1979). Reliability and Validity Assessment. Newbury Park, CA: SAGE Publications.
+- Binder, A. R., Cacciatore, M. A., Scheufele, D. A., Shaw, B. R., & Corley, E. A. (2012). Measuring risk/benefit perceptions of emerging technologies and their potential impact on communication of public opinion toward science. Public Understanding of Science, 21(7), 830–847. https://doi.org/10.1177/0963662510390159
+
 
 ## Week 7 (7-Oct)
-> Introduction to regression
+> Analysis of variance
 
 **Readings:**
 
-- TBD
+- Iversen, G. R., & Norpoth, H. (1987). Analysis of Variance (2nd ed). Newbury Park, CA: Sage Publications.
+
 
 ## Week 8 (14-Oct)
 > FALL BREAK (no class)
 
 
 ## Week 9 (21-Oct)
-> Interactions in regression
+> Introduction to regression
 
 **Readings:**
 
 - TBD
 
 ## Week 10 (28-Oct)
-> Mediation analysis: Introduction to PROCESS
+> Interactions in regression: Moderation
 
 **Readings:**
 
 - TBD
 
 ## Week 11 (4-Nov)
-> Moderated mediation with PROCESS
+> Mediation analysis: Introduction to PROCESS
 
 **Readings:**
 
 - TBD
 
 ## Week 12 (11-Nov)
-> Working lab
+> Moderated mediation with PROCESS
 
 
 ## Week 13 (18-Nov)
