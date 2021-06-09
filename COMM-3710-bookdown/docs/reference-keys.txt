@@ -3,6 +3,7 @@ fig:open-R
 fig:RStudio-panels
 fig:packages
 fig:install-load-packages
+fig:packages-flowchart
 tab:basic-ops
 fig:environment
 fig:kittens-env
@@ -12,7 +13,6 @@ fig:boolean
 fig:new-script
 fig:wd
 fig:fig-save
-fig:compile
 fig:cats
 fig:r-coaster
 intro
@@ -31,6 +31,7 @@ terms
 errors-warnings-and-messages
 learning-tips
 packages
+how-do-i-know-whether-i-need-to-install-or-load-a-package
 learning-by-doing
 creating-objects
 data-types
@@ -44,7 +45,6 @@ prepare-r-script
 install-and-load-packages
 set-working-directory-and-readload-data-into-r
 saveRscript
-compiling-your-r-script-into-a-pdf
 assignment-r-script-checklist
 tips
 on-labeling-and-naming-objects

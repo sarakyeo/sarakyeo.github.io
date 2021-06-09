@@ -6,7 +6,7 @@ output:
     toc: true
     toc_float: true
     theme: united
-urlcolor: blue
+  urlcolor: blue
 ---
 
 [R](https://cran.r-project.org/) is the programming language and environment that we will be using for statistical analysis. It is open-source. For more information on R, you can visit the [R Project for Statistical Computing](https://www.r-project.org/). [RStudio](https://rstudio.com/) is the program through which we will be using R. You will need to download and install both R and RStudio.
@@ -20,9 +20,9 @@ Once you have R and RStudio installed, create a working directory (this can be a
 
 **Submit a single PDF document that contains the three (3) screenshots on Canvas.**
 
-1. **RStudio screenshot (see example below)** <!-- 2 pts + 1 pt for correct screenshot -->
-2. **COMM 3710 working directory screenshot (see example below)** <!-- 2 pts + 1 point for correct screenshot -->
-3. **Screenshot of your R commands** <!-- 2 pts -->
+1. **RStudio screenshot (see example below)**
+2. **COMM 3710 working directory screenshot (see example below)**
+3. **Screenshot of your R commands**
 
 
 ## Download and Install R
@@ -77,9 +77,9 @@ Once you have R and RStudio installed, create a working directory (this can be a
 
 # Part II
 Read the [R help guide](https://rpubs.com/yesun/Comm3710_helpwithR) (especially Sections 2.1 - 2.3). Then, follow these following steps to answer the question.  
-<!-- 0.5 points for Q1 through Q4 -->
 
-1. Create an object that represents the outcome of `2 x 5`, and assign a name of your choice to this object.     
+1. Create an object that represents the outcome of `2 x 5`, and assign a name of your choice to this object.
+
 2. Create a second object that represents the outcome of `45 - 5`, and assign a name of your choice to this object.   
 
 3. Create a third object that represents the *product* of the first two objects, and assign a name of your choice to this object.   

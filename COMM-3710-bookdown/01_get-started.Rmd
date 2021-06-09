@@ -122,6 +122,13 @@ Error: could not find function
 
 This error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.
 
+### How do I know whether I need to install or load a package?
+
+```{r packages-flowchart, echo = FALSE, fig.cap = "Flowchart to help determine whether you should load or install packages.", fig.align = "center", out.width="50%"}
+knitr:: include_graphics("images/packages-flowchart.png")
+```
+
+
 ---
 
 ## Learning by doing
