@@ -47,7 +47,7 @@ Your grade in this course will be based on the following:
 - Participation (10\%)
 
 ## Lab Assignments
-There will be four assignments in this course. These assignments will be shared at the beginning of the semester. Each assignment build skills in data analysis. You may work on these assignments on your own time but must submit all the assignments by **Week 9**. Detailed information will be provided in the assignment.
+There will be four assignments in this course. These assignments will be shared at the beginning of the semester. Each assignment build skills in data analysis. You may work on these assignments on your own time but must submit all the assignments by **Week 13**. Detailed information will be provided in the assignment.
 
 - GA.1: Working with Statistical Software
 - GA.2: Data Management with SPSS and R
@@ -236,7 +236,7 @@ Campus security authorities are university employees who have significant respon
 - TBD
 
 ## Week 7 (7-Oct)
-> Introduction to regressions
+> Introduction to regression
 
 **Readings:**
 
@@ -247,9 +247,7 @@ Campus security authorities are university employees who have significant respon
 
 
 ## Week 9 (21-Oct)
-> Interactions in regressions
-
-\*All lab assignments (GA.1 through GA.4) due by 11:59 pm today.
+> Interactions in regression
 
 **Readings:**
 
@@ -276,12 +274,16 @@ Campus security authorities are university employees who have significant respon
 ## Week 13 (18-Nov)
 > Working lab
 
+\*All lab assignments (GA.1 through GA.4) due by 11:59 pm today.
+
 
 ## Week 14 (25-Nov)
 > THANKSGIVING (no class)
 
+
 ## Week 15 (2-Dec)
 > Final presentations
+
 
 ## Week 16 (9-Dec)
 > Final presentations
