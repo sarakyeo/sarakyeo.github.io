@@ -91,6 +91,13 @@ Subset the data to only include patients who have experienced thoughts of suicid
 Which group has a higher mean of perceived social support by friends?
 
 
+## Step 6
+Report the minimum and maximum scores and the means, medians, and standard deviations of the following variables:
+
+a. Patients' Mental Component Scores at baseline.
+b. Patients' Physical Component Scores at baseline.
+
+
 ## Submission
 Submit a **.R file** (R script) and a **.sps file** (SPSS syntax) containing the following on Canvas:
 
