@@ -96,7 +96,7 @@ Read the documentation for `freq()` by typing `?freq` in the Console.
 
 You might find the [section on working with data frames](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames) helpful.
 
-The code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
+Run the code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
 
 ```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
 freq(hdata$racegrp)
