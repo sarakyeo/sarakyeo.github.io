@@ -74,7 +74,6 @@ You will serve as discussant for **3 class meetings**:
 For a methods presentation, please include:
 
 - A 1-2 page handout with a quick overview of the analytic tool you are presenting.
-- An annotated bibliography of 4-5 readings (including at least one article or chapter you found most helpful as an overview, and one good application of this tool in the communication literature). "Annotated" means that each reading should be accompanied by a 5-10 line description of why each reading is useful and what your peers will likely get out of reading the article.
 - The R code and SPSS syntax that you present during our meeting.
 
 Please upload materials for the methods presentation to Canvas **at least 48 hours before the meeting time during which you are scheduled to present**.
