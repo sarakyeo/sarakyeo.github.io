@@ -213,7 +213,7 @@ Campus security authorities are university employees who have significant respon
 
 - Eveland, Jr., W. P. (1997). Interactions and nonlinearity in mass communication: Connecting theory and methodology. *Journalism & Mass Communication Quarterly, 74*(2), 400–416. https://doi.org/10.1177/107769909707400211
 - McLeod, J. M., & Pan, Z. (2005). Concept Explication and Theory Construction. In S. Dunwoody, L. B. Becker, D. M. McLeod, & G. M. Kosicki (Eds.), *The Evolution of Key Mass Communication Concepts* (pp. 13–76). Hampton Press, Inc.
-- Chaffee, S. H. (1991). Explication. SAGE Publications, Inc.
+- Chaffee, S. H. (1991). *Explication*. SAGE Publications, Inc.
 
 
 ## Week 4 (16-Sep)
@@ -233,7 +233,7 @@ Campus security authorities are university employees who have significant respon
 - Syntax vs. GUI
 - Setting preferences in SPSS and R
 - Reading data into SPSS and R
-- Types of data
+- Types of data and levels of measurement
 - Missing data
 - Descriptive statistics in a dataset
 - Recoding variables
@@ -244,8 +244,8 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- Carmines, E. G., & Zeller, R. A. (1979). Reliability and Validity Assessment. Newbury Park, CA: SAGE Publications.
-- Binder, A. R., Cacciatore, M. A., Scheufele, D. A., Shaw, B. R., & Corley, E. A. (2012). Measuring risk/benefit perceptions of emerging technologies and their potential impact on communication of public opinion toward science. Public Understanding of Science, 21(7), 830–847. https://doi.org/10.1177/0963662510390159
+- Carmines, E. G., & Zeller, R. A. (1979). *Reliability and Validity Assessment*. Newbury Park, CA: SAGE Publications.
+- Binder, A. R., Cacciatore, M. A., Scheufele, D. A., Shaw, B. R., & Corley, E. A. (2012). Measuring risk/benefit perceptions of emerging technologies and their potential impact on communication of public opinion toward science. *Public Understanding of Science, 21*(7), 830–847. https://doi.org/10.1177/0963662510390159
 
 
 ## Week 7 (7-Oct)
@@ -253,7 +253,9 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- Iversen, G. R., & Norpoth, H. (1987). Analysis of Variance (2nd ed). Newbury Park, CA: Sage Publications.
+- Iversen, G. R., & Norpoth, H. (1987). *Analysis of Variance* (2nd ed). Newbury Park, CA: Sage Publications.
+- Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Independent Samples t-Tests. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 471–490). Oxford University Press.
+- Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). One-Way Analysis of Variance. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 492–515). Oxford University Press.
 
 
 ## Week 8 (14-Oct)
@@ -265,7 +267,9 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- TBD
+- Schroeder, L. D., Sjoquist, D. L., & Stephan, P. E. (2016). *Understanding Regression Analysis: An Introductory Guide*. SAGE Publications.
+- Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
+
 
 ## Week 10 (28-Oct)
 > Interactions in regression: Moderation
