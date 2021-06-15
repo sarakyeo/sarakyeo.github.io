@@ -267,6 +267,7 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
+- Achen, C. H. (1982). *Interpreting and Using Regression*. SAGE Publications, Inc.
 - Schroeder, L. D., Sjoquist, D. L., & Stephan, P. E. (2016). *Understanding Regression Analysis: An Introductory Guide*. SAGE Publications.
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
 
@@ -276,14 +277,19 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- TBD
+- Cacciatore, M. A., Becker, A. B., Anderson, A. A., & Yeo, S. K. (2020). Laughing with science: The influence of audience approval on engagement. *Science Communication, 42*(2), 195–217. https://doi.org/10.1177/1075547020910749
+- Yeo, S. K., Cacciatore, M. A., Brossard, D., Scheufele, D. A., Runge, K. K., Su, L. Y.-F., Kim, J., Xenos, M. A., & Corley, E. A. (2014). Partisan amplification of risk: American perceptions of nuclear energy risk in the wake of the Fukushima Daiichi disaster. *Energy Policy, 67*, 727–736. https://doi.org/10.1016/j.enpol.2013.11.061
+
 
 ## Week 11 (4-Nov)
 > Mediation analysis: Introduction to PROCESS
 
 **Readings:**
 
-- TBD
+- Hayes, A. F. (2009). Beyond Baron and Kenny: Statistical mediation analysis in the new millennium. *Communication Monographs, 76*(4), 408–420. https://doi.org/10.1080/03637750903310360
+- Kampfer, K., Leischnig, A., Ivens, B. S., & Spence, C. (2017). Touch-flavor transference: Assessing the effect of packaging weight on gustatory evaluations, desire for food and beverages, and willingness to pay. *PLOS ONE, 12*(10), e0186121. https://doi.org/10.1371/journal.pone.0186121
+- Yeo, S. K., Anderson, A. A., Becker, A. B., & Cacciatore, M. A. (2020). Scientists as comedians: The effects of humor on perceptions of scientists and scientific messages. *Public Understanding of Science, 29*(4), 408–418. https://doi.org/10.1177/0963662520915359
+
 
 ## Week 12 (11-Nov)
 > Manuscript preparation and publishing (Discussant: Dr. Sara Yeo)
