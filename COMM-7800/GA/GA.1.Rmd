@@ -75,14 +75,20 @@ c. What percentage of patients in the study have been hospitalized fewer than 5 
 
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
 
-a. How many patients are between the ages of 40 and 45?
+a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
+b. How many patients in this subset are between the ages of 40 and 45?
 
 
 ## Step 4 
 Make a frequency table for `sex` based on this subset. Answer the questions below.
 
-a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
-b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
+a. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
+
+
+## Step 5
+Subset the data to only include patients who have experienced thoughts of suicide in the past 30 days. Determine the mean of perceived social support by friends in this group. Calculate a mean for the same variable among patients who have not experienced thoughts of suicide in the past 30 days.
+
+Which group has a higher mean of perceived social support by friends?
 
 
 ## Submission
