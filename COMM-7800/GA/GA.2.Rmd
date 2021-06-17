@@ -1,6 +1,6 @@
 ---
-title: 'GA.1: Working with Statistical Software'
-pagetitle: "COMM 7800: GA.1"
+title: 'GA.2: Data Management with SPSS and R'
+pagetitle: "COMM 7800: GA.2"
 output:
   html_document:
     toc: true
@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Data
 
-For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/117538823/download?download_frd=1).
+For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/117538823/download?download_frd=1) again. As a reminder, the dataset is described again below.
 
 The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.
 
@@ -56,46 +56,37 @@ The data set contains 453 observations on the following variables:
 # Instructions
 
 ## Step 1
-
-Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?download_frd=1) data set into R and SPSS. This data set is saved as a .csv file. Include the code for loading data into R in your R script. You do not need to include the data import syntax for SPSS. Instead, you can use the GUI to load .csv data into SPSS.
+Load the HELP dataset in R and SPSS.
 
 
 ## Step 2
+Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.
 
-Install the `descr` and `tidyverse` packages in R. Then, load the packages.
+Make a new variable called `ExtremeMCS` and code it `1` if a patient is at risk based on his/her mcs score and `0` otherwise.
 
-Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
-
-a. How many patients in the study are female?
-b. How many patients in the study have never been hospitalized for medical problems?
-c. What percentage of patients in the study have been hospitalized fewer than 5 times?
+a. How many patients are thought to be at extreme risk of returning to the detoxification unit within the next 12 months?
 
 
 ## Step 3
+Make a new variable `SuicidalThought` based on the variable `g1b`. Have `1` indicate a patient has had suicidal thoughts and a `0` indicate they have not.
 
-Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
-
-a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
-b. How many patients in this subset are between the ages of 40 and 45?
+a. What percentage of patients have had suicidal thoughts?
 
 
-## Step 4 
-Make a frequency table for `sex` based on this subset. Answer the questions below.
-
-a. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
+## Step 4
+Make a new variable `HomelessStatus` based on the variable `homeless`. Have `1` indicate that a patient is homeless and `0` indicate that they are housed.
 
 
 ## Step 5
-Subset the data to only include patients who have experienced thoughts of suicide in the past 30 days. Determine the mean of perceived social support by friends in this group. Calculate a mean for the same variable among patients who have not experienced thoughts of suicide in the past 30 days.
-
-Which group has a higher mean of perceived social support by friends?
+Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors for each patient. That is, make it a sum of these 3 variables.
 
 
 ## Step 6
-Report the minimum and maximum scores and the means, medians, and standard deviations of the following variables:
+Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Answer the following questions.
 
-a. Patients' Mental Component Scores at baseline.
-b. Patients' Physical Component Scores at baseline.
+a. How many patients are thought to be at risk based on their `mcs` score?
+b. What percentage of patients have experienced suicidal thoughts?
+c. What percentage of patients in the study have fewer than 3 risk factors? 
 
 
 ## Submission
