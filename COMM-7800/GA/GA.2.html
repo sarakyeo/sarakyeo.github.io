@@ -307,14 +307,17 @@ div.tocify {
 <div id="step-5" class="section level2">
 <h2>Step 5</h2>
 <p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors for each patient. That is, make it a sum of these 3 variables.</p>
+<p>Make a frequency table of the <code>RiskTotal</code> variable.</p>
+<ol style="list-style-type: lower-alpha">
+<li>What percentage of patients in the study have fewer than 3 risk factors?</li>
+</ol>
 </div>
 <div id="step-6" class="section level2">
 <h2>Step 6</h2>
-<p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>. Answer the following questions.</p>
+<p>For practice, we want to trichotomize the continuous variable, <code>sexrisk</code>. Suppose we want to split the variable evenly into three groups with respondents either in a low, medium, or high category depending on their <code>sexrisk</code> score. In other words, to start, we need to examine a frequency table to determine which variable values to include in the low, medium, and high categories. Once we have determined which variable values should be assigned to each category, we can recode the variable accordingly (give this new variable a name of your choice).</p>
+<p>Note that it is easier to assign numbers to categorical data in SPSS. On the other hand, R can easily assign factors to categorical variables. In other words, the variable values of your recoded, three-category variable in SPSS will have numeric values while the same three-category variable in R can have character labels (instead of numbers).</p>
 <ol style="list-style-type: lower-alpha">
-<li>How many patients are thought to be at risk based on their <code>mcs</code> score?</li>
-<li>What percentage of patients have experienced suicidal thoughts?</li>
-<li>What percentage of patients in the study have fewer than 3 risk factors?</li>
+<li>How many patients are in the low sex risk category? Medium category? High?</li>
 </ol>
 </div>
 <div id="submission" class="section level2">

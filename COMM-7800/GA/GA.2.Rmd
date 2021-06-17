@@ -80,13 +80,17 @@ Make a new variable `HomelessStatus` based on the variable `homeless`. Have `1` 
 ## Step 5
 Suppose we want to assess the overall risk a patient has to return to the detoxification unit and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` which computes the number of risk factors for each patient. That is, make it a sum of these 3 variables.
 
+Make a frequency table of the `RiskTotal` variable.
+
+a. What percentage of patients in the study have fewer than 3 risk factors? 
+
 
 ## Step 6
-Make frequency tables of `ExtremeMCS`, `SuicidalThought`, and `RiskTotal`. Answer the following questions.
+For practice, we want to trichotomize the continuous variable, `sexrisk`. Suppose we want to split the variable evenly into three groups with respondents either in a low, medium, or high category depending on their `sexrisk` score. In other words, to start, we need to examine a frequency table to determine which variable values to include in the low, medium, and high categories. Once we have determined which variable values should be assigned to each category, we can recode the variable accordingly (give this new variable a name of your choice).
 
-a. How many patients are thought to be at risk based on their `mcs` score?
-b. What percentage of patients have experienced suicidal thoughts?
-c. What percentage of patients in the study have fewer than 3 risk factors? 
+Note that it is easier to assign numbers to categorical data in SPSS. On the other hand, R can easily assign factors to categorical variables. In other words, the variable values of your recoded, three-category variable in SPSS will have numeric values while the same three-category variable in R can have character labels (instead of numbers).
+
+a. How many patients are in the low sex risk category? Medium category? High?
 
 
 ## Submission
