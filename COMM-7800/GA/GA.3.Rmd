@@ -1,0 +1,88 @@
+---
+title: "GA.3: Practice Data Analysis"
+pagetitle: "COMM 7800: GA.3"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+urlcolor: blue
+---
+
+# Data
+[Data for this assignment comes from the 1985 Current Population Survey (CPS)](https://utah.instructure.com/files/117594329/download?download_frd=1).
+The CPS is used to supplement census information between census years. These
+data consist of a random sample of persons from the survey, with information
+on wages and other characteristics of the workers, including sex, number of
+years of education, years of work experience, occupational status, region of
+residence and union membership.
+
+A data frame with 534 observations on the following variables:
+
+* `wage`: wage (US dollars per hour)
+*	`educ`: number of years of education
+*	`race`: a factor with levels NW (nonwhite) or W (white)
+*	`sex`: a factor with levels FM
+*	`hispanic`: a factor with levels Hisp or NH
+*	`south`: a factor with levels NSS
+*	`married`: a factor with levels Married or Single
+*	`exper`: number of years of work experience (inferred from age and educ)
+*	`union`: a factor with levels Not or Union
+*	`age`: age in years
+*	`sector`: a factor with levels clerical const manag manuf other prof sales
+service
+*	`satisfaction`: 1 implies participant satisfied with current employment, 0
+otherwise
+
+---
+
+# Instructions
+
+## Step 1
+Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/108105224/download?download_frd=1) in R and SPSS.
+
+
+## Step 2
+Find the mean wage earned per hour for males and females.
+
+a. What is the mean wage earned per hour for females?
+b. What is the mean wage earned per hour for males?
+ 
+
+## Step 3
+Implement the appropriate statistical test to determine whether males have
+significantly higher wages earned per hour than females.
+
+a. What statistical test did you use? <!--Independent samples t-test-->
+b. What is the value of the test statistic? <!--t = -4.84, p < .001-->
+c. What conclusions can be drawn? <!--There is a statistically significant
+difference in mean wage per hour between men and women-->
+
+
+## Step 4
+Implement the appropriate statistical test to determine whether there is a
+significant linear relationship between wages earned per hour and number of
+years of work experience.
+
+a. What statistical test did you use? <!--Pearson's correlation-->
+b. What is the value of the test statistic? <!--Pearson's r = .09, p = .044-->
+c. What conclusions can be drawn? <!-- There is a statistically significant
+relationship between the variables that is weak and positive-->
+
+
+## Step 5
+Implement the appropriate statistical test to determine whether job
+satisfaction varies significantly among the different job sectors.
+
+a. What statistical test did you use? <!--Chi-squared test-->
+b. What is the value of the test statistic? <!--X-squared = 3.65, df = 7,
+p = .82-->
+c. What conclusions can be drawn? <!--Job satisfaction and job sector are not
+related-->
+
+
+## Submission
+Submit a **.R file** (R script) and a **.sps file** (SPSS syntax) containing the following on Canvas:
+
+- R and SPSS code/commands used to complete this assignment. Your R script and SPSS syntax should include annotations that explain your thought process as you work through the assignment.
+- Clearly labeled answers to questions as comments/annotations in the R script and SPSS syntax.
