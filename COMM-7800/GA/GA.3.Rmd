@@ -53,10 +53,9 @@ b. What is the mean wage earned per hour for males?
 Implement the appropriate statistical test to determine whether males have
 significantly higher wages earned per hour than females.
 
-a. What statistical test did you use? <!--Independent samples t-test-->
-b. What is the value of the test statistic? <!--t = -4.84, p < .001-->
-c. What conclusions can be drawn? <!--There is a statistically significant
-difference in mean wage per hour between men and women-->
+a. What statistical test did you use?
+b. What is the value of the test statistic? 
+c. Report your results, including the conclusion that can be drawn from the hypothesis test, in APA format. 
 
 
 ## Step 4
@@ -64,21 +63,18 @@ Implement the appropriate statistical test to determine whether there is a
 significant linear relationship between wages earned per hour and number of
 years of work experience.
 
-a. What statistical test did you use? <!--Pearson's correlation-->
-b. What is the value of the test statistic? <!--Pearson's r = .09, p = .044-->
-c. What conclusions can be drawn? <!-- There is a statistically significant
-relationship between the variables that is weak and positive-->
+a. What statistical test did you use?
+b. What is the value of the test statistic?
+c. Report your results, including the conclusion that can be drawn from the hypothesis test, in APA format.
 
 
 ## Step 5
 Implement the appropriate statistical test to determine whether job
 satisfaction varies significantly among the different job sectors.
 
-a. What statistical test did you use? <!--Chi-squared test-->
-b. What is the value of the test statistic? <!--X-squared = 3.65, df = 7,
-p = .82-->
-c. What conclusions can be drawn? <!--Job satisfaction and job sector are not
-related-->
+a. What statistical test did you use? 
+b. What is the value of the test statistic?
+c. Report your results, including the conclusion that can be drawn from the hypothesis test, in APA format.
 
 
 ## Submission
