@@ -49,18 +49,18 @@ Your grade in this course will be based on the following:
 ## Lab Assignments
 There will be four assignments in this course. These assignments will be shared at the beginning of the semester. Each assignment build skills in data analysis. You may work on these assignments on your own time but must submit all the assignments by **Week 13**. Detailed information will be provided in the assignment.
 
-- GA.1: Working with Statistical Software
-- GA.2: Data Management with SPSS and R
-- GA.3: Practice Data Analysis
-- GA.4: Practice Data Analysis
+- [GA.1: Working with Statistical Software](https://sarakyeo.github.io/COMM-7800/GA/GA.1.html)
+- [GA.2: Data Management with SPSS and R](https://sarakyeo.github.io/COMM-7800/GA/GA.2.html)
+- [GA.3: Practice Data Analysis](https://sarakyeo.github.io/COMM-7800/GA/GA.3.html)
+- [GA.4: Practice Data Analysis](https://sarakyeo.github.io/COMM-7800/GA/GA.4.html)
 
 ---
 
 ## Discussion Leadership
-You will serve as discussant for **3 class meetings**:
+You will serve as discussant for **3 class meetings**. We will sign up in Week 1.
 
-- Please sign up to lead one (1) discussion in Weeks 2 or 3 (theoretical/introductory topics).
-- Please sign up to lead two (2) discussions in Weeks 6 through 11 (methodological topics).
+- You will lead one (1) discussion in Weeks 2 or 3 (theoretical/introductory topics).
+- You will lead two (2) discussions in Weeks 6 through 11 (methodological topics).
 
 **Discussion leadership in Weeks 2 or 3.** Weeks 2 and 3 are designed to introduce the theoretical underpinnings of quantitative social science research. For these weeks, discussion leadership includes:
 
