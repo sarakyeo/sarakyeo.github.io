@@ -267,7 +267,6 @@ Campus security authorities are university employees who have significant respon
 **Readings:**
 
 - Achen, C. H. (1982). *Interpreting and Using Regression*. SAGE Publications, Inc.
-- Schroeder, L. D., Sjoquist, D. L., & Stephan, P. E. (2016). *Understanding Regression Analysis: An Introductory Guide*. SAGE Publications.
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
 
 
