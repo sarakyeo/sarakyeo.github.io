@@ -218,10 +218,11 @@ Campus security authorities are university employees who have significant respon
 ## Week 4 (16-Sep)
 > Getting familiar with IBM SPSS Statistics and R (Discussant: Dr. Sara Yeo)
 
-**References:**
+**Readings:**
 
-- IBM. (2020). *IBM SPSS Statistics 26 Brief Guide*.
-- Venables, W. N., Smith, D. M., & the R Core Team. (2018). *An Introduction to R*.
+- Yeo, S. K. (2021). *Introduction to SPSS*. COMM 7800: Data Analysis in Communication.
+- Yeo, S. K., & Sun, Y. (2021). [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html) (Chapters 1 and 2).
+
 
 ## Week 5 (23-Sep)
 > Data management tutorial (Discussant: Dr. Sara Yeo)
