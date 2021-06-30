@@ -93,17 +93,14 @@ There are 13 individual assignments. Information on individual assignments will 
 ---
 
 ## Lab Attendance
-This course has two teaching assistants (TAs) for four lab sections. 
-
-- TA1
-- TA2
+This course has two graduate teaching assistants (TAs) for four lab sections. 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
 library(magrittr)
 Section <- c("002", "003", "004", "005")
-TA <- c("TA1", "TA1", "TA2", "TA2")
+TA <- c("Alexis Vega", "Alexis Vega", "Yi Liao", "Yi Liao")
 Day <- c("Wed", "Wed", "Fri", "Fri")
 Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
 Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
