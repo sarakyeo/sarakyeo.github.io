@@ -1,6 +1,6 @@
 ---
-title: 'LA.3: Examining Data (10 points)'
-pagetitle: "COMM 3710: LA.3"
+title: "LA.5: Visualizing Data (10 points)"
+pagetitle: "COMM 3710: LA.5"
 output:
   html_document:
     toc: true
@@ -9,134 +9,159 @@ output:
 urlcolor: blue
 ---
 
-```{r setup, include=FALSE}
-library(tidyverse)
-library(descr)
-hdata <- read.csv("HELP.csv")
-knitr::opts_chunk$set(echo = FALSE)
-```
+# Resources{#resources}
+In this assignment, we will learn how to use the R package, `ggplot2` to create
+graphs. Before you begin the assignment, watch and familiarize yourself with
+the following videos. Remember to ask questions via Slack if you need help.
 
-# Resources
+- Watch [Video 06](https://youtu.be/mwLyXHfCPdE) about graphing one variable at
+a time in R. 
+- Watch [Video 07](https://youtu.be/IZoCbCQRmUE) about graphing relationships
+in R.
 
-- [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs)
-- [COMM 3710 Slack workspace]() (see Canvas for instructions on how to join)
-- [Video 04: Working with Data](https://youtu.be/Dbj_l1PRIjA)
+You may also find the [COMM 3710: Getting Started with R chapter on `ggplot2`](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html) to 
+be helpful.
 
 ---
 
 # Data
+Use the[Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1)
+data set to complete this assignment. This data set contains a random sample of
+117 utility bills for the following variables:
 
-For this assignment, you will be working with the [Health Evaluation and Linkage to Primary Care (HELP) data set](https://utah.instructure.com/files/108105219/download?download_frd=1). Submit your answers as a PDF document on Canvas.
-
-The HELP study was a clinical trial for adult inpatients recruited from a detoxification unit. Patients with no primary care physician were randomized to receive a multidisciplinary assessment and a brief motivational intervention or usual care, with the goal of linking them to primary medical care.
-
-The data set contains 453 observations on the following variables:
-
-* `age`: Subject age at baseline (in years)
-* `anysub`: Use of any substance post-detox (a factor with levels no yes)
-* `cesd`: Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)
-* `d1`: lifetime number of hospitalizations for medical problems (measured at baseline)
-* `daysanysub`: time (in days) to first use of any substance post-detox
-* `dayslink`: time (in days) to linkage to primary care
-* `drugrisk`: Risk Assessment Battery drug risk scale at baseline
-* `e2b`: number of times in past 6 months entered a detox program (measured at baseline)
-* `female`: 0 for male, 1 for female
-* `sex`: a factor with levels male female
-* `g1b`: experienced serious thoughts of suicide in last 30 days (measured at baseline; a factor with levels no yes)
-* `homeless`: housing status: a factor with levels housed homeless
-* `i1`: average number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
-* `i2`: maximum number of drinks (standard units) consumed per day, in the past 30 days (measured at baseline)
-* `id`: subject identifier
-* `indtot`: Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)
-* `linkstatus`: post-detox linkage to primary care (0 = no, 1 = yes)
-* `link`: post-detox linkage to primary care: no yes
-* `mcs`: SF-36 Mental Component Score (measured at baseline, lower scores indicate worse status)
-* `pcs`: SF-36 Physical Component Score (measured at baseline, lower scores indicate worse status)
-* `pss_fr`: perceived social support by friends (measured at baseline, higher scores indicate more support)
-* `racegrp`: race/ethnicity: levels black hispanic other white
-* `satreat`: any BSAS substance abuse treatment at baseline (no yes)
-* `sexrisk`: Risk Assessment Battery sex risk score (measured at baseline)
-* `substance`: primary substance of abuse (alcohol cocaine heroin)
-* `treat`: randomized to HELP clinic (no yes)
+* `month`: month (coded as a number)
+*	`day`: day of month on which bill was calculated
+*	`year`: year of bill
+*	`temp`: average temperature ($^{\circ}$F) for billing period
+*	`kwh`: electricity usage (kwh)
+*	`ccf`: gas usage (ccf)
+*	`thermsPerDay`: a numeric vector
+*	`billingDays`: number of billing days in billing period
+*	`totalbill`: total bill (in dollars)
+*	`gasbill`: gas bill (in dollars)
+*	`elecbill`: electric bill (in dollars)
+*	`notes`: notes about the billing period
+*	`donate`: (yes or no) did the person add money to their bill to be donated to
+Operation Fuel, a charity providing heat to families/small businesses in need
 
 ---
 
 # Instructions
 
 ## Step 1 {.tabset .tabset-fade .tabset-pills}
-
 ### Question
-
-Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+Import the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1)
+data set. Use the codebook above to familiarize yourself with the variables.
 
 ### Hint
-
-To load/read data into R, see [Chapter 3](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html) of the book, COMM 3710: Getting Started with R.
+Review LA.3 or LA.4 for the command to read the data into a data frame.
 
 
 ## Step 2 {.tabset .tabset-fade .tabset-pills}
-
 ### Question
+Make a histogram to display the distribution of customers' total monthly bill
+(include the graph in your PDF submission) and answer the following question.
 
-Install the `descr` and `tidyverse` packages in R. Then, load the packages.
-
-Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
-
-a. How many patients in the study are female?
-b. How many patients in the study have never been hospitalized for medical problems?
-c. What percentage of patients in the study have been hospitalized fewer than 5 times?
+a. Use the histogram you created and describe the distribution. Is the
+distribution skewed or symmetric? If skewed, is the distribution skewed right
+or left? At what cost do most of the total monthly bills fall?
 
 ### Hint
+To create a histogram, first watch Video 06. We will use the package,
+`ggplot2`. The `ggplot2` commands you will use are: `ggplot()` and
+`geom_histogram()`. Remember that you can also read the documentation for these
+commands by typing `?ggplot` and `?geom_histogram` in the Console.
+      
+In the bottom right **Plot** screen in RStudio, you can **Export** the graph as
+an image or **Copy** and paste it in your Word document before saving the Word
+document as a PDF.
 
-To install and load packages, see this [section of the COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#packages) book.
-
-To run a frequency distribution, which creates a frequency table, you will need the `freq()` function in the `descr` package. Remember that you can read the documentation for a specific function by typing the function name preceded by `?` in the Console in RStudio. 
-
-Read the documentation for `freq()` by typing `?freq` in the Console.
-
-You might find the [section on working with data frames](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames) helpful.
-
-Run the code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
-
-```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
-freq(hdata$racegrp)
-```
-
+If you need help answering Q2a, see "Wrench Ch. 14: Skewness and Kurtosis" for
+an explanation of skewness or watch [Video 06](https://youtu.be/mwLyXHfCPdE)
+starting at 14:02.
 
 ## Step 3 {.tabset .tabset-fade .tabset-pills}
 ### Question
-Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
+Make a scatter plot to display gas bill by month (include the graph in your PDF
+submission).
 
-a. How many patients are between the ages of 40 and 45?
+a. Based on your graph, which month do you think has the highest **average**
+gas bill?
+b. Use R to calculate the average gas bill for the months of January and
+December. Which is higher?
 
 ### Hint
-To subset the data, you will use the `filter()` function from the `dplyr` package that is part of the `tidyverse`. Be sure you have installed and loaded the `tidyverse` package.
+Watch Video 07 to learn how to make a scatter plot. The commands you will use
+are `ggplot()` and `geom_point()`.
 
-Read the documentation for the `filter()` function by typing `?dplyr::filter` in the Console. Be sure to check out the examples in the documentation.
+To calculate the average gas bill for January, first filter the data to contain
+only observations from January (i.e., `month == 1`). To do this, create an
+object that filters the `utilities` data frame by month.
+ 
+For example, if I wanted to filter the data to contain only observations from
+September, I would use the code:`sep <- filter(utilities, month == 9)`. For
+help with the `filter` function, type `?filter` into your Console window.
+      
+Then, use the `mean()` function to calculate the average gas bill for that
+month. Type `?mean` into the Console and read the documentation for this
+function. Remember to strip NA values from your computation by using the
+argument, `na.rm = TRUE`.
 
-The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
+## Step 4
+Make a scatter plot to display electric bill by month (include the graph in
+your PDF submission).
 
-```{r filter, eval=TRUE, echo=TRUE, prompt=TRUE}
-subdata <- filter(hdata, homeless == "housed")
-freq(subdata$homeless)
-```
+a. Based on your graph, which month do you think has the highest **average**
+electric bill?
+b. Calculate the average electric bill for the months of September and
+December. Which is higher?
 
-## Step 4 
-Make a frequency table for `sex` based on this subset. Answer the questions below.
+## Step 5
+Make a scatter plot to display the relationship between gas usage and gas bill
+(include the graph in your PDF submission). 
 
-a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
-b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
+a. Does there appear to be a relationship between gas usage and gas bill?
 
+## Step 6
+Make a scatter plot to display the relationship between electricity usage and
+electric bill (include the graph in your PDF submission).
+
+a. Does there appear to be a relationship between electricity usage and
+electric bill? 
+
+## Step 7 {.tabset .tabset-fade .tabset-pills}
+### Question
+Create a new categorical variable called `season`. Have the variable equal
+winter if the bill was from December, January, or February. Have the variable
+equal spring if the bill was from March, April, or May. Have the variable equal
+summer if the bill was from June, July, or August. Have the variable equal fall
+if the bill was from September, October, or November.
+
+a. Include the frequency table for `season` in your PDF submission.
+    
+### Hint
+Use the skills you learned in data management (e.g., subsetting) to create a
+new variable called `season` according to the instructions. Then, use the
+`freq()` command from the `descr` package to check that you have created the
+`season` variable correctly.
+
+## Bonus Question
+Make a bar chart to display the count or proportion of donors by season
+(include the graph in your PDF submission). 
+
+First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the
+billee donated money to *Operation Fuel* and 0 otherwise. Check that you have
+created the `DonorStatus` variable correctly. Include frequency tables for both
+`donate` and `DonorStatus` in your PDF submission.
+
+Then, use `ggplot()` to create your graph.
+
+Does there seem to be a relationship between season and donation?
 
 ## Submission
-Submit a **.R file** containing the following on Canvas:
+Submit the following on Canvas:
 
-- R code/commands used to complete this assignment. Your R script should include annotations that explain your thought process as you work through the assignment.
-- Clearly labeled answers to questions as comments/annotations in the R script.
-
-Sample submission:
-
-```{r sample, echo=FALSE, out.width="80%", fig.align='center'}
-knitr::include_graphics("LA.3_sample-R-submission.png")
-```
-
+a. A **.R file** containing the code used to complete this assignment. This
+document should include comments that explain your commands.
+b. A **PDF file** containing the answers/figures/tables to each
+question--clearly label the answers with the question number.

@@ -12,7 +12,7 @@ output:
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 library(tidyverse)
 library(magrittr)
-library(descr)
+library(summarytools)
 library(rstatix)
 library(kableExtra)
 
@@ -43,7 +43,7 @@ Set up your R script for this assignment. Load the packages below and set your w
 
 - `tidyverse`
 - `magrittr`
-- `descr`
+- `summarytools`
 - `rstatix`
 
 ## Hint
