@@ -250,7 +250,6 @@ div.tocify {
 <li>Use the pipe operator, <code>%&gt;%</code>.</li>
 <li>Select variables from a data frame using the <code>select()</code> function.</li>
 <li>Filter cases from a data frame using the <code>filter()</code> function.</li>
-<li>Create new variables from existing variables in a data frame using the <code>mutate()</code> function.</li>
 <li>Summarize variables using the <code>summarise()</code> function.</li>
 </ul>
 <blockquote>
@@ -317,11 +316,11 @@ Went to work</code></pre>
 # Calculate the mean of the average number of drinks per day consumed </code></pre>
 <p>Next, translate the pseudocode to R functions using the pipe operator:</p>
 <pre class="r"><code># Start with the HELP data frame
-hdata %&gt;% 
-# Select female-only cases from the HELP data using the sex variable
-        filter(sex == &quot;female&quot;) %&gt;% 
-# Calculate the mean of the average number of drinks per day consumed
-        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # na.rm = TRUE removes NAs from this calculation</code></pre>
+hdata %&gt;%
+    # Select female-only cases from the HELP data using the sex variable
+filter(sex == &quot;female&quot;) %&gt;%
+    # Calculate the mean of the average number of drinks per day consumed
+summarise(M_avgdrinks = mean(i1, na.rm = TRUE))  # na.rm = TRUE removes NAs from this calculation</code></pre>
 <p>Let’s say we also want to know the minimum and maximum number of average drinks per day among females. To do so, add arguments to the <code>summarise()</code> function:</p>
 <pre class="r"><code># Start with the HELP data frame
 hdata %&gt;% 
@@ -358,16 +357,6 @@ hdata %&gt;%
 <h2>Hint</h2>
 <p>Start by identifying the variables that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for 4a, 4b, and 4c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.</p>
 <p>If you need help with the <code>count()</code> function, pull up the corresponding help documentation.</p>
-</div>
-</div>
-<div id="step-5" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade">Step 5</h1>
-<div id="instructions-4" class="section level2">
-<h2>Instructions</h2>
-<p>select() mutate()</p>
-</div>
-<div id="hint-4" class="section level2">
-<h2>Hint</h2>
 <hr />
 </div>
 </div>

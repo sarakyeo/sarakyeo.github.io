@@ -15,6 +15,7 @@ library(magrittr)
 library(summarytools)
 library(rstatix)
 library(kableExtra)
+library(formatR)
 
 # Read HELP data into R
 hdata <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP.csv")
@@ -27,7 +28,6 @@ In this assignment, you will learn how to:
 - Use the pipe operator, `%>%`. 
 - Select variables from a data frame using the `select()` function.
 - Filter cases from a data frame using the `filter()` function.
-- Create new variables from existing variables in a data frame using the `mutate()` function.
 - Summarize variables using the `summarise()` function.
 
 > Remember to ...
@@ -134,13 +134,6 @@ c) Among respondents whose primary substance of abuse is **heroin**, how many ar
 Start by identifying the variables that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for 4a, 4b, and 4c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
 
 If you need help with the `count()` function, pull up the corresponding help documentation.
-
-# Step 5 {.tabset .tabset-fade}
-## Instructions
-select()
-mutate()
-
-## Hint
 
 ---
 

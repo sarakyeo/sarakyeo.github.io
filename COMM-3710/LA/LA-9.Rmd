@@ -24,7 +24,7 @@ You may find the following R packages useful as you work through this assignment
 
 - `magrittr`
 - `tidyverse`
-- `descr`
+- `summarytools`
 - `rstatix`
 - `Hmisc`
 
