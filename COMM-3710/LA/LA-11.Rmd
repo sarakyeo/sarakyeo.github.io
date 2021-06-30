@@ -1,0 +1,95 @@
+---
+title: "LA.6: Examining Relationships (10 points)"
+pagetitle: "COMM 3710: LA.6"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# Resources
+|       I need help with...       |                    Link                    |
+|:--------------------------------|:-------------------------------------------|
+| Hypothesis testing              | https://youtu.be/08uylSp-CuI               |
+| Analysis of variance (ANOVA)    | https://youtu.be/2uQCUBtqCfM               |
+| Chi-square test of independence | https://youtu.be/Dnlp9vswwEk               |
+| Independent samples *t*-test    | https://youtu.be/ANMuuq502rE?t=590         |
+| Correlation                     | https://youtu.be/lf4HfHx2ASs               |
+| Getting started with R          | http://bit.ly/3qFJYMQ                      |
+
+---
+
+# Data
+Use the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set to complete this assignment. This data set contains a random sample of 117 utility bills for the following variables:
+
+* `month`: month (coded as a number)
+*	`day`: day of month on which bill was calculated
+*	`year`: year of bill
+*	`temp`: average temperature ($^{\circ}$F) for billing period
+*	`kwh`: electricity usage (kwh)
+*	`ccf`: gas usage (ccf)
+*	`thermsPerDay`: a numeric vector
+*	`billingDays`: number of billing days in billing period
+*	`totalbill`: total bill (in dollars)
+*	`gasbill`: gas bill (in dollars)
+*	`elecbill`: electric bill (in dollars)
+*	`notes`: notes about the billing period
+*	`donate`: (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need
+
+---
+
+# Instructions
+## Step 1
+Load the following packages in R:
+
+- `magrittr`
+- `tidyverse`
+- `descr`
+- `rstatix`
+
+Then, load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set and re-familiarize yourself with the variables. Apply your data management code from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) to create the `season` variable.
+
+   a. Include the data management code that you used to create `season` in your R file.
+   b. Include the frequency table for `season` in your PDF submission.
+
+## Step 2 {.tabset .tabset-fade .tabset-pills}
+### Question
+Use an appropriate statistical test to determine whether there is a relationship between total bill and season. Then, answer the questions below.
+
+   a. What statistical test did you use?
+   b. What is the test statistic and the probability value associated with that test statistic?
+   c. Is there a significant relationship between total bill and season?
+
+### Hints
+#### Selecting a statistical test
+First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
+
+*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
+
+<center>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png" alt="LA.6 chart"/>
+</center>
+
+---
+#### Test statistics and *p*-values
+| Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
+|-----------------------|-----------------------------------|-----------------------|
+| Chi-squared test      | Chi-squared value                 | $\chi^2$              |
+| t-test                | *t*-value                         | $t$                   |
+| ANOVA                 | *F*-value                         | $F$                   |
+| Pearson's correlation | Pearson's correlation coefficient | $r$                   |
+
+The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If $p < 0.05$, then the relationship is significant.
+
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chisq.png" alt="LA.6 chi-sq output"/>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_t-test.png" alt="LA.6 t-test output"/>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_ANOVA.png" alt="LA.6 ANOVA output"/>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png" alt="LA.6 cor output"/>
+
+## Step 3
+Submit the following on Canvas:
+
+   (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
+   (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.

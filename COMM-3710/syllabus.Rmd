@@ -7,7 +7,7 @@ output:
   html_document:
     toc: yes
     toc_float: yes
-    theme: simplex
+    theme: flatly
 ---
 [Prof. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
 Hybrid | Fall 2021 | Department of Communication | University of Utah
