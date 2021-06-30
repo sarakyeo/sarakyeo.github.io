@@ -7,16 +7,17 @@ output:
   html_document:
     toc: yes
     toc_float: yes
-    theme: united
-  pdf_document:
-    toc: yes
-urlcolor: blue
+    theme: simplex
 ---
 [Prof. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
-Online | Spring 2021 | Department of Communication | University of Utah
+Hybrid | Fall 2021 | Department of Communication | University of Utah
 
 # Course Outline
-This **asynchronous online course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and write research reports. Key topics include:
+This **hybrid course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
+
+We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
+
+Key topics include:
 
 * Formalizing hypotheses and research questions grounded in theory
 * Testing hypotheses and research questions
@@ -24,40 +25,39 @@ This **asynchronous online course** is a basic research methods course for those
 * Measurement, sampling, and research design
 * Data analysis in communication research
 
-I expect you to log into the course regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help.
+I expect you to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help.
+
+---
 
 # Required Text and Readings
+Two books are required for this course. Both are available online.
+
 > Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
 
-* The textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
-* You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
+- This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
+- You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
+
+> Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
+
+- This book is free and accessible via the link provided above.
 
 Additional readings will be provided as PDF documents on Canvas.
 
-# Technology Requirements {.tabset .tabset-fade}
-To ensure that you have full access to the course, you will need:
+---
 
-* Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) will not be sufficient to complete this course.
-* Internet access fast enough to stream videos and connect to online meetings.
-* A working webcam and microphone for online Zoom meetings.
-* An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
+# Technology Requirements {.tabset .tabset-fade}
+To ensure that you have full access to the course Canvas website, you will need:
+
+- Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course.**
+- An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
 
-You will need access to [Canvas](https://utah.instructure.com/), [Zoom](https://zoom.us/), and your [University email account](https://www.umail.utah.edu).
+You will also need access to [Canvas](https://utah.instructure.com/) and your [University email account](https://www.umail.utah.edu). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 
-## Canvas
-I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with and comfortable using Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
+You should also check your University email account regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
 
----
-
-## Zoom
-You should be familiar with using Zoom. If you need help with Zoom, check out these [tutorials](https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials).
-
----
-
-## University Email
-You should check your University email account regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
+> You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is **not** a screenshot.
 
 ---
 
@@ -71,39 +71,63 @@ General computer support is available through the Marriott Library Knowledge Com
 - [Windows users](https://forms.lib.utah.edu/computer-requests/?platform=PC)
 - [Mac users](https://forms.lib.utah.edu/computer-requests/?platform=Mac) 
 
+---
 
 # Course Requirements {.tabset .tabset-fade}
 Course grades will be based on the following:
 
-* Quizzes (35%)
-* Group project (35%)
-* Individual lab assignments (30%)
-* Week 6 participation checkpoint
+- Quizzes (30%)
+- Individual lab assignments (50%)
+- Lab attendance (20%)
 
 ## Quizzes (100 pts)
-Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered but you may drop one quiz**. You have until the end of the week to complete each quiz. There are 11 quizzes, each worth 11 points. You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz—please do not start a quiz unless you are ready to complete it.
+Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have until the end of the week to complete each quiz. There are 13 quizzes, each worth 10 points.
 
-## Group Project (100 pts)
-You will be randomly assigned to a project group with other students in your lab. As a group and using secondary data, you will explicate a research problem, conduct basic data analysis, and report your research. You will complete group project components in lab throughout the semester. Detailed instructions will be provided on Canvas. At the end of the semester, your group will share your research with other students in the course.
+You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
-## Individual Assignments (80 pts)
-There are 8 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments will not be accepted**.
+---
 
-## Week 6 Checkpoint
+## Individual Lab Assignments (130 pts)
+There are 13 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments will not be accepted**.
+
+---
+
+## Lab Attendance
+This course has two teaching assistants (TAs) for four lab sections. 
+
+- TA1
+- TA2
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(magrittr)
+Section <- c("002", "003", "004", "005")
+TA <- c("TA1", "TA1", "TA2", "TA2")
+Day <- c("Wed", "Wed", "Fri", "Fri")
+Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
+Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
+lab_data <- tibble(Section, TA, Day, Time, Location)
+lab_data %>% 
+  kbl() %>% 
+  kable_minimal("hover", full_width = FALSE)
+```
+When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
+
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade.
+
+---
+
+# Week 6 Participation Checkpoint
+In addition to the [course requirements], there will be a participation checkpoint in Week 6.
+
 **At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required up to that point (Week 6).
 - The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not performing to this standard by this point in the course, it is too late to “catch up.”
-- I would urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated.**
+- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated**.
 
-
-# Virtual Office Hours {#officehrs}
-~~Office hours will be held virtually each week on **Tuesdays at 9 - 10 am MT**.~~
-
-I will no longer be holding virtual drop-in office hours as they were not well attended. Instead, you can use the Slack workspace for our course to ask questions about individual assignments, group projects, and lecture content.
-
-Your interactions on Slack must adhere to the [course civility policy](#policies). Please be sure to review this before using the platform. I will get to your questions as soon as possible, but please do not expect me to be online 24/7. As always, I encourage you to start on assignments and weekly content early to ensure you can ask questions and receive answers in a timely manner.
-
+---
 
 # Course Grading
 <center>
@@ -112,10 +136,11 @@ Your interactions on Slack must adhere to the [course civility policy](#policies
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
-**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
+**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email; review [email policy], if necessary), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
 
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
+---
 
 # Course Policies {.tabset .tabset-fade #policies}
 By enrolling in this course, you agree to:
@@ -125,7 +150,7 @@ By enrolling in this course, you agree to:
 3. meet the requirements of this course; and
 4. abide by the course policies outlined below.
 
-This list represents the **minimal standards** to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+This list represents the **minimal standards** to make the course a productive learning space. **Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors**.
 
 ## Email Policy
 > It is critical that you check your University email account frequently and that you use your University email account to contact me.
@@ -134,18 +159,20 @@ This list represents the **minimal standards** to make the course a productive l
 
 When you contact me, I expect you to be professional in your communication. This includes:
 
-* Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
-* Providing your full name, uNID, and class section in the message.
-* Using appropriate salutations (e.g., Dr. or Prof. Yeo).
-* Using paragraphs, not just long blocks of text.
-* Proofreading your writing.
-* Providing a clear description of your problem and all relevant information.
-* Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
+- Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
+- Providing your full name, uNID, and class section in the message.
+- Using appropriate salutations (e.g., Dr. or Prof. Yeo).
+- Using paragraphs, not just long blocks of text.
+- Proofreading your writing.
+- Providing a clear description of your problem and all relevant information.
+- Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
 
 ---
 
 ## Course Civility
-Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course: 
+Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
+
+Here is the basic etiquette that will be expected in the course: 
 
 - Always address your classmates by name. There is a human being on the other side of the screen who also has struggles, doubts, and bad days.
 - Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
@@ -171,15 +198,6 @@ Curriculum accommodations take two forms—scheduling and content accommodations
 In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
 
 ---
-
-# On Learning Strategies
-One of the best ways to understand any subject is to actively try to make connections between a new topic and information you already have stored in memory. The more connections you can make between new material you encounter in this class and what you already know, the better you will be able to remember and apply it.
-
-Our goal is **knowledge integration**, connecting the dots between what might appear to be disparate concepts but are ideas that fit together into a bigger picture thereby providing a broader context for understanding. The best way to achieve knowledge integration is to:
-
-1. Make sure you complete the readings, actively drawing out the implications of the texts by connecting them to things you already know, have read in the news, or are learning in other classes.
-2. Actively engage with the content and ask questions about things you do not understand. Respectful discussion is encouraged in all my courses.
-
 
 # University Policies {.tabset .tabset-fade}
 ## COVID-19
@@ -215,82 +233,88 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 # Course Schedule {.tabset .tabset-fade}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-Throughout the semester, there will be [drop-in office hours via Zoom](#officehrs). You may drop-in to ask questions but are not required to attend these office hours.
-
-***Note**: The schedule below does not list due dates of individual lab assignments (LA) and group project components (GP). Due dates for these can be found on Canvas.*
+**Note: The schedule below does not list due dates of individual lab assignments (LA) and group project components (GP). Due dates for these can be found on Canvas.**
 
 
-## Week 1 (19-Jan)
+## Week 1 (23-Aug)
 > Course introduction | **Quiz 1**
 
 - Readings: Syllabus, Borwein \& Bailey, Pauk Ch. 7, Wrench Ch. 1
-- Lab: Introduction, LA.1--Installing R and RStudio (10 pts), GP.A--Ethics in Human Subjects Research (10 pts)
+- Lab: Introduction, LA-1: Installing R and RStudio (10 pts)
 
-## Week 2 (25-Jan)
+## Week 2 (30-Aug)
 > Overview of the research process; Research ethics | **Quiz 2**
 
 - Readings: Wrench Ch. 2, 3, BBC Visual and Data Journalism, Cushing
-- Lab: LA.2--Understanding Data (10 pts), GP.B--Finding a Research Topic (10 pts)
+- Lab: LA-2: Ethics in Human Subjects Research (10 pts)
 
-## Week 3 (1-Feb)
+## Week 3 (6-Sep)
 > Concept explication | **Quiz 3**
 
 - Readings: McLeod et al.
-- Lab: LA.3--Examining Data (10 pts)
+- Lab: LA-3: Setting Up and Working with Data (10 pts)
 
-## Week 4 (8-Feb)
+## Week 4 (13-Sep)
 > Variables and measurement | **Quiz 4** 
 
 - Readings: Wrench Ch. 6, 7 
-- Lab: LA.4--Working with Data (10 pts)
+- Lab: LA-4: ... (10 pts)
 
-## Week 5 (16-Feb)
+## Week 5 (20-Sep)
 > Survey research; Experiments | **Quiz 5** 
   
 - Readings: Wrench Ch. 9, 11, Bialik, Silver, Zukin
-- Lab: LA.5--Visualizing Data (10 pts), GP.C--Literature Review (10 pts)
+- Lab: LA-5: ... (10 pts)
   
-## Week 6 (22-Feb): Participation Checkpoint
+## Week 6 (27-Sep): Participation Checkpoint
 > Reliability and validity | **Quiz 6** 
   
 - Readings: Wrench Ch. 8 
-- Lab: LA.6--Relationships in Data (10 pts)
+- Lab: LA-6: ... (10 pts)
 
-## Week 7 (1-Mar)
+## Week 7 (4-Oct)
 > Sampling | **Quiz 7** 
 
 - Readings: Wrench Ch. 12, ASA pp. 63-68, AAPOR (2007) 
-- Lab: LA.7--Practice Data Analysis (10 pts)
+- Lab: LA-7: ... (10 pts)
 
-## Week 8 (8-Mar)
+## Week 8 (11-Oct)
+> FALL BREAK (no class)
+
+## Week 9 (18-Oct)
 > Introduction to statistics; Descriptive statistics | **Quiz 8** 
   
 - Readings: Wrench Ch. 13, 14
-- Lab: LA.8--Practice Data Analysis (10 pts), GP.D--Exploring Data (10 pts)
+- Lab: LA-8: ... (10 pts)
 
-## Week 9 (15-Mar)
+## Week 10 (25-Oct)
 > Inferential statistics | **Quiz 9** 
 
 - Readings: Wrench Ch. 15, 16, 18 
-- Lab: GP.E--Data Management (15 pts)
+- Lab: LA-9: ... (10 pts)
 
-## Week 10 (22-Mar)
+## Week 11 (1-Nov)
 > Data analysis | **Quiz 10** 
 
-- Lab: GP.F--Creating Graphs (15 pts)
+- Lab: LA-10: ... (10 pts)
 
-## Week 11 (29-Mar)
+## Week 12 (8-Nov)
 > Group Project work | **Quiz 11** 
 
-- Lab: GP.G--Statistical Tests (15 pts)
-  
-## Week 12 (6-Apr)
+- Lab: LA-11: ... (10 pts)
+
+## Week 13 (15-Nov)
 > Group Project work 
 
-- Lab: GP.H--Reporting Research (15 pts)
+-Lab: LA-12: ... (10 pts)
 
-## Week 13 (12-Apr)
+## Week 14 (22-Nov)
+> THANKSGIVING (no class)
+
+## Week 15 (29-Nov)
 > Group Project work 
 
-## Week 14 (19-Apr)
+- Lab: LA-13: ... (10 pts)
+
+## Week 16 (6-Dec)
 > Group Project work
