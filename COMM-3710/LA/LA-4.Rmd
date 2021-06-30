@@ -1,0 +1,164 @@
+---
+title: 'LA-4: Data Wrangling (10 points)'
+pagetitle: "COMM 3710: LA-4"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+---
+
+```{r setup, echo=FALSE, warnings=FALSE, message=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+library(tidyverse)
+library(magrittr)
+library(descr)
+library(rstatix)
+library(kableExtra)
+
+# Read HELP data into R
+hdata <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP.csv")
+
+```
+
+In this assignment, you will learn how to:
+
+- Read/Load data into R.
+- Use the pipe operator, `%>%`. 
+- Select variables from a data frame using the `select()` function.
+- Filter cases from a data frame using the `filter()` function.
+- Create new variables from existing variables in a data frame using the `mutate()` function.
+- Summarize variables using the `summarise()` function.
+
+> Remember to ...
+>
+> 1) Set up your R script as you did in LA-3.
+> 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+
+---
+
+# Step 1 {.tabset .tabset-fade}
+## Instructions
+Set up your R script for this assignment. Load the packages below and set your working directory.
+
+- `tidyverse`
+- `magrittr`
+- `descr`
+- `rstatix`
+
+## Hint
+See LA-3 for a reminder of how to set up your R script for assignments.
+
+
+# Step 2 {.tabset .tabset-fade}
+## Instructions
+Read the [HELP dataset]() into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.
+
+a) How many cases are there in the HELP dataset?
+b) How many variables are there in the HELP dataset?
+
+## Hint
+Read [this section of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#set-working-directory-and-readload-data-into-r). 
+
+You can also open the documentation for the function, `read_csv()` in R.
+
+
+# Step 3 {.tabset .tabset-fade}
+## Instructions
+Review the [codebook for the HELP dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset). In this step, we will learn to use the pipe operator.
+
+The pipe operator, `%>%`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
+
+You can also this of the `%>%` as "then." Here's an example from our daily lives:
+```
+I woke up %>% 
+Took a shower %>% 
+Got dressed %>% 
+Made breakfast %>% 
+Ate breakfast %>% 
+Went to work
+```
+
+Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, `sex`). Answer the question below in a comment in your R script (be sure to label this clearly in the script).
+
+a) What is the name of the variable in the HELP data that measures the average number of drinks consumed per day in the past 30 days?
+
+In your R script, write pseudocode to determine the average number of drinks among females (remember that lines that begin with `#` are comments in R):
+```{r echo=TRUE}
+# Start with the HELP data frame, which I called hdata
+# Select female-only cases from the HELP data using the sex variable
+# Calculate the mean of the average number of drinks per day consumed 
+```
+
+Next, translate the pseudocode to R functions using the pipe operator:
+```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
+# Start with the HELP data frame
+hdata %>% 
+# Select female-only cases from the HELP data using the sex variable
+        filter(sex == "female") %>% 
+# Calculate the mean of the average number of drinks per day consumed
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # na.rm = TRUE removes NAs from this calculation
+```
+
+Let's say we also want to know the minimum and maximum number of average drinks per day among females. To do so, add arguments to the `summarise()` function:
+```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
+# Start with the HELP data frame
+hdata %>% 
+# Select female-only cases from the HELP data using the sex variable
+        filter(sex == "female") %>% 
+# Calculate the mean of the average number of drinks per day consumed
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE)) # maximum
+```
+
+Using the calculations performed by the R commands above, answer the following questions:
+
+b) What is the minimum number of average drinks consumed per day in the past 30 days among females?
+c) What is the maximum number of average drinks consumed per day in the past 30 days among females?
+d) What is the mean number of average drinks consumed per day in the past 30 days among females?
+
+## Hint
+The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R.
+
+
+# Step 4 {.tabset .tabset-fade}
+## Instructions
+Using `%>%` and the `count()` function instead of `mean()`, answer the questions below.
+
+a) Among respondents whose primary substance of abuse is **alcohol**, how many are male?
+b) Among respondents whose primary substance of abuse is **cocaine**, how many are male?
+c) Among respondents whose primary substance of abuse is **heroin**, how many are male?
+
+## Hint
+Start by identifying the variables that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for 4a, 4b, and 4c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
+
+If you need help with the `count()` function, pull up the corresponding help documentation.
+
+# Step 5 {.tabset .tabset-fade}
+## Instructions
+select()
+mutate()
+
+## Hint
+
+---
+
+# Submission
+Submit your R script (which should be named `LA-4_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every single line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-4_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.
