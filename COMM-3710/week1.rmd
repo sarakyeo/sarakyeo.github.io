@@ -7,7 +7,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 <center>
@@ -15,22 +15,20 @@ urlcolor: blue
      alt="It's in the syllabus"/>
 </center>
 
-<center>
 Welcome to a new semester and to COMM 3710!
 
 COMM 3710 is an asynchronous online course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
-</center>
 
+---
 
 > It is your responsibility to read the syllabus in its entirety and adhere to the course policies and information documented therein. Please revisit the syllabus as many times as necessary during the semester.
 
+---
 
 # An Introduction to Professor Yeo
-I'm Prof. Yeo and I'm an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
+I am an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
 
-My CV and more information is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you're interested in science communication research, please get in touch ([sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)).
-
-<a href="#top">Back to top</a>
+My CV and more information is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you are interested in science communication research, email me at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu).
 
 
 # Some Highlights from the Syllabus {.tabset .tabset-fade}
@@ -63,7 +61,6 @@ Your textbook is available on Canvas through Inclusive Access. It is a great res
 
 Additional readings will be available as PDFs on Canvas.
 
-<a href="#top">Back to top</a>
 
 ## Technology
 1. Ensure that you are familiar with Canvas. Set up your notifications according to your preferences. If you need help with Canvas, review this [page](https://support.tlt.utah.edu/hc/en-us/articles/205654094).
@@ -72,8 +69,6 @@ Additional readings will be available as PDFs on Canvas.
 4. You will also need access to [R](https://www.r-project.org/). More information about R will be provided as the semester progresses.
 5. You will need a webcam and a microphone to participate in drop-in office hours. We will use [Zoom](https://zoom.us/) for virtual office hours.
 6. The U's [Teaching \& Learning Technologies](https://tlt.utah.edu/) recommends that you have the **latest versions of at least two** browsers installed. The preferred web browser is [Google Chrome](https://www.google.com/chrome/browser/desktop/).
-
-<a href="#top">Back to top</a>
 
 
 # Some Helpful Resources {.tabset .tabset-fade}
@@ -92,8 +87,6 @@ For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Cam
 
 Help is available Monday through Saturday. Please visit the [Campus Help Desk website](https://it.utah.edu/help/) for more information.
 
-<a href="#top">Back to top</a>
-
 
 # Note-taking for Success in College
 **I recommend taking notes while you review the content online. This will help you learn and recall material.**
@@ -108,8 +101,6 @@ An example of my own notes using the Cornell system:
 <img src="https://sarakyeo.github.io/images/cornell-notes.png"></img>
 </center>
 
-<a href="#top">Back to top</a>
-
 
 # An Introduction to Social Science
 
@@ -120,8 +111,6 @@ The **physical sciences** involve studying the objective aspects of nature. Typi
 The **social sciences**, on the other hand, is the study of how humans live and interact. This includes disciplines such as psychology, communication, and history. The flavor of communication research that we will learn about in this course is a type of social science.
 
 This week, we will begin by examining the history of social sciences and how the field of communication developed.
-
-<a href="#top">Back to top</a>
 
 
 # A (Brief) History of the Social Sciences {.tabset .tabset-fade}
@@ -181,8 +170,6 @@ Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bull
 <img src="https://sarakyeo.github.io/images/semantic-diff.jpg"/>
 </center>
 
-<a href="#top">Back to top</a>
-
 
 ## Social Science Research During and Post-WWII
 During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the [US Office of War Information](https://en.wikipedia.org/wiki/United_States_Office_of_War_Information). 
@@ -202,7 +189,6 @@ Another important milestone in the history of communication research is the work
 
 The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
 
-<a href="#top">Back to top</a>
 
 # Epistemologies in Communication Research {.tabset .tabset-fade}
 <center>
@@ -243,9 +229,8 @@ It is also integral that we articulate and know the distinction between ordinary
 
 ## Ordinary Ways of Knowing
 1. **Tradition**: This is often determined by culture. It is undeniable that traditions dictate how we interact and communicate with each other.
-2. **Authority**: We also come to know things by relying on experts. For example, we rely on our doctors for health information and on priests for religious teachings.
 
-<a href="#top">Back to top</a>
+2. **Authority**: We also come to know things by relying on experts. For example, we rely on our doctors for health information and on priests for religious teachings.
 
 
 ## Scientific Ways of Knowing
@@ -262,8 +247,6 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 5. **Analyzing data and presenting results**: Because scientific ways of knowing rely on objective data, scientists can spend entire careers learning how to analyze data.
 
 6. **Ethics and politics**: Importantly, researchers and scientists must collect, analyze, and report data in ethical ways, which includes minimizing potential biases.
-
-<a href="#top">Back to top</a>
 
 
 # The Wheel of Science
@@ -289,8 +272,6 @@ Check your answers using the video below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/98u0cuQq4l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-<a href="#top">Back to top</a>
-
 
 # Defining Research
 Watch the video below defining "research."
@@ -314,5 +295,3 @@ Watch the video below defining "research."
 
 - There is an element of chance involved. When we do not have all the data, our predictions will necessarily be probabilistic.
 - Example: Predicting human communication behavior and attitudes.
-
-<a href="#top">Back to top</a>
