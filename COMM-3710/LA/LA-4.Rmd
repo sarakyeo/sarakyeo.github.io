@@ -52,7 +52,7 @@ See LA-3 for a reminder of how to set up your R script for assignments.
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
-Read the [HELP dataset]() into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.
+Read the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.
 
 a) How many cases are there in the HELP dataset?
 b) How many variables are there in the HELP dataset?
@@ -69,9 +69,9 @@ Review the [codebook for the HELP dataset](https://github.com/sarakyeo/sarakyeo.
 
 The pipe operator, `%>%`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
 
-You can also this of the `%>%` as "then." Here's an example from our daily lives:
+You can also this of the `%>%` as "then." Here is an example from our daily lives:
 ```
-I woke up %>% 
+Woke up %>% 
 Took a shower %>% 
 Got dressed %>% 
 Made breakfast %>% 
@@ -79,9 +79,9 @@ Ate breakfast %>%
 Went to work
 ```
 
-Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, `sex`). Answer the question below in a comment in your R script (be sure to label this clearly in the script).
+Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, `sex`). Answer the question below in a comment in your R script (be sure to label this clearly in the script); step-by-step instructions to help you answer this question are shown below.
 
-a) What is the name of the variable in the HELP data that measures the average number of drinks consumed per day in the past 30 days?
+a) What is the name of the variable that measures the average number of drinks consumed per day in the past 30 days?
 
 In your R script, write pseudocode to determine the average number of drinks among females (remember that lines that begin with `#` are comments in R):
 ```{r echo=TRUE}
@@ -119,10 +119,18 @@ c) What is the maximum number of average drinks consumed per day in the past 30 
 d) What is the mean number of average drinks consumed per day in the past 30 days among females?
 
 ## Hint
-The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R.
+The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R once you have worked through the example.
 
 
 # Step 4 {.tabset .tabset-fade}
+Use the same logic and process from [Step 3] to answer the following questions:
+
+a) What is the minimum number of average drinks consumed per day in the past 30 days among males?
+b) What is the maximum number of average drinks consumed per day in the past 30 days among males?
+c) What is the mean number of average drinks consumed per day in the past 30 days among males?
+
+
+# Step 5 {.tabset .tabset-fade}
 ## Instructions
 Using `%>%` and the `count()` function instead of `mean()`, answer the questions below.
 
@@ -131,7 +139,7 @@ b) Among respondents whose primary substance of abuse is **cocaine**, how many a
 c) Among respondents whose primary substance of abuse is **heroin**, how many are male?
 
 ## Hint
-Start by identifying the variables that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for 4a, 4b, and 4c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
+Start by identifying the variables (which variable will you use to filter or select cases? Which varaible will be used in the `count()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
 
 If you need help with the `count()` function, pull up the corresponding help documentation.
 

@@ -281,7 +281,7 @@ div.tocify {
 <h1 class="tabset tabset-fade">Step 2</h1>
 <div id="instructions-1" class="section level2">
 <h2>Instructions</h2>
-<p>Read the <a href>HELP dataset</a> into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.</p>
+<p>Read the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP dataset</a> into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many cases are there in the HELP dataset?</li>
 <li>How many variables are there in the HELP dataset?</li>
@@ -299,16 +299,16 @@ div.tocify {
 <h2>Instructions</h2>
 <p>Review the <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset">codebook for the HELP dataset</a>. In this step, we will learn to use the pipe operator.</p>
 <p>The pipe operator, <code>%&gt;%</code>, is used to perform sequential functions in R. It is part of the package, <code>magrittr</code> and also included in the <code>tidyverse</code> package.</p>
-<p>You can also this of the <code>%&gt;%</code> as “then.” Here’s an example from our daily lives:</p>
-<pre><code>I woke up %&gt;% 
+<p>You can also this of the <code>%&gt;%</code> as “then.” Here is an example from our daily lives:</p>
+<pre><code>Woke up %&gt;% 
 Took a shower %&gt;% 
 Got dressed %&gt;% 
 Made breakfast %&gt;% 
 Ate breakfast %&gt;% 
 Went to work</code></pre>
-<p>Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, <code>sex</code>). Answer the question below in a comment in your R script (be sure to label this clearly in the script).</p>
+<p>Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, <code>sex</code>). Answer the question below in a comment in your R script (be sure to label this clearly in the script); step-by-step instructions to help you answer this question are shown below.</p>
 <ol style="list-style-type: lower-alpha">
-<li>What is the name of the variable in the HELP data that measures the average number of drinks consumed per day in the past 30 days?</li>
+<li>What is the name of the variable that measures the average number of drinks consumed per day in the past 30 days?</li>
 </ol>
 <p>In your R script, write pseudocode to determine the average number of drinks among females (remember that lines that begin with <code>#</code> are comments in R):</p>
 <pre class="r"><code># Start with the HELP data frame, which I called hdata
@@ -339,11 +339,20 @@ hdata %&gt;%
 </div>
 <div id="hint-2" class="section level2">
 <h2>Hint</h2>
-<p>The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R.</p>
+<p>The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R once you have worked through the example.</p>
 </div>
 </div>
 <div id="step-4" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 4</h1>
+<p>Use the same logic and process from <a href="#step-3">Step 3</a> to answer the following questions:</p>
+<ol style="list-style-type: lower-alpha">
+<li>What is the minimum number of average drinks consumed per day in the past 30 days among males?</li>
+<li>What is the maximum number of average drinks consumed per day in the past 30 days among males?</li>
+<li>What is the mean number of average drinks consumed per day in the past 30 days among males?</li>
+</ol>
+</div>
+<div id="step-5" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 5</h1>
 <div id="instructions-3" class="section level2">
 <h2>Instructions</h2>
 <p>Using <code>%&gt;%</code> and the <code>count()</code> function instead of <code>mean()</code>, answer the questions below.</p>
@@ -355,7 +364,7 @@ hdata %&gt;%
 </div>
 <div id="hint-3" class="section level2">
 <h2>Hint</h2>
-<p>Start by identifying the variables that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for 4a, 4b, and 4c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.</p>
+<p>Start by identifying the variables (which variable will you use to filter or select cases? Which varaible will be used in the <code>count()</code> function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.</p>
 <p>If you need help with the <code>count()</code> function, pull up the corresponding help documentation.</p>
 <hr />
 </div>
