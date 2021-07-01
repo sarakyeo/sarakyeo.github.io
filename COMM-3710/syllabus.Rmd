@@ -255,7 +255,7 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 > Variables and measurement | **Quiz 4** 
 
 - Readings: Wrench Ch. 6, 7 
-- Lab: LA-4: ... (10 pts)
+- Lab: LA-4: Data Wrangling (10 pts)
 
 ## Week 5 (20-Sep)
 > Survey research; Experiments | **Quiz 5** 
