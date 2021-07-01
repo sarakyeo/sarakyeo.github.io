@@ -220,7 +220,7 @@ An example of a research question that might be asked in this tradition is "What
 ## Rhetorical / Critical
 Rhetorical/Critical scholars believe the central role of research is to examine the interplay between ideology and science.
 
-An example of a research question that might be asked in this tradition is "How are crisis messages steeped in power and priviledge?"
+An example of a research question that might be asked in this tradition is "How are crisis messages steeped in power and privilege?"
 
 
 # Ordinary vs. Scientific Ways of Knowing {.tabset .tabset-fade}
@@ -253,7 +253,7 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xdHKsd595ME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdHKsd595ME" data-external="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <br>
@@ -261,7 +261,7 @@ A figure representing the "wheel" of science can be found in your textbook (Figu
 Next, let's practice identifying some inductive and deductive forms of reasoning. **Watch the clip below from Monty Python and the Holy Grail and try to identify the type of reasoning (inductive or deductive) used in various parts** (*Hint*: Both inductive and deductive logic is used at different times in the clip).
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H9PY_3E3h2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H9PY_3E3h2c" data-external="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <br>
@@ -269,7 +269,7 @@ Next, let's practice identifying some inductive and deductive forms of reasoning
 Check your answers using the video below:
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/98u0cuQq4l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/98u0cuQq4l4" data-external="1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
 
@@ -277,7 +277,7 @@ Check your answers using the video below:
 Watch the video below defining "research."
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw1lUASglQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw1lUASglQ" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ## Probabilistic vs. Deterministic Predictions
