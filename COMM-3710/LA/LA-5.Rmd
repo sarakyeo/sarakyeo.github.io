@@ -34,7 +34,7 @@ In this assignment, you will learn how to:
 
 ### Question
 
-Load/Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file. The codebook can be found [here](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset).
 
 ### Hint
 
@@ -51,11 +51,9 @@ Make a frequency table for `sex` and `d1`. Include these frequency tables in you
 
 a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?
-c. What percentage of patients in the study have been hospitalized fewer than 5 times?
+c. What percentage of patients in the study have been hospitalized fewer than 5 times (i.e., 4 or fewer)?
 
 ### Hint
-
-To install and load packages, see this [section of the COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#packages) book.
 
 To run a frequency distribution, which creates a frequency table, you will need the `freq()` function in the `summarytools` package. Remember that you can read the documentation for a specific function by typing the function name preceded by `?` in the Console in RStudio. 
 
@@ -78,9 +76,7 @@ Now, subset the data to only include patients whose primary substance of abuse i
 a. How many patients are between the ages of 40 and 45?
 
 ### Hint
-To subset the data, you will use the `filter()` function from the `dplyr` package that is part of the `tidyverse`. Be sure you have installed and loaded the `tidyverse` package.
-
-Read the documentation for the `filter()` function by typing `?dplyr::filter` in the Console. Be sure to check out the examples in the documentation.
+To subset the data, review LA-4.
 
 The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
 
@@ -95,7 +91,7 @@ subdata %>%
 Make a frequency table for `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
-b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are male?
+b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
 
 
 # Submission
@@ -116,10 +112,4 @@ To ensure that your R script runs without errors, you should:
 - Run the entire script by clicking the "Run" button in the top right of the R script.
 
 > These standards apply to all submissions in this course that require R scripts.
-
-Sample submission:
-
-```{r sample, echo=FALSE, out.width="80%", fig.align='center'}
-knitr::include_graphics("LA-5_sample-R-submission.png")
-```
 
