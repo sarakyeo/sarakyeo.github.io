@@ -19,6 +19,7 @@ In this assignment, you will learn how to:
 
 - Run and examine frequency distributions using the `freq()` function in the `summarytools` package.
 - View descriptive statistics using the `descr()` function in the `summarytools` package.
+- Recoding variables using the `case_when()` function.
 - Create new variables from existing variables in a data frame using the `mutate()` function.
 
 > Remember to ...
@@ -105,21 +106,75 @@ c) What is the maximum?
 ## Hint
 Let's say I am interested in examining descriptive statistics of the quantitative variable, `pss_fr`, which is perceived social support by friends.
 
-To do so, I would 
+To do so, I would use the following code:
 ```{r descr, eval=FALSE, echo=TRUE}
 hdata %>% 
   descr(pss_fr) # examine descriptive stats of variable, pss_fr
 ```     
 
 
-# Step 6
+# Step 6 {.tabset .tabset-fade}
 ## Question
-We will now learn how to use the `mutate()` function to create a new variable from existing ones. Assume we want to sum each respondent's score of `daysanysub` and `dayslink`.
+We will now learn how to use the `mutate()` function to create a new variable from existing ones. We will use the variables, `daysanysub` and `dayslink`.
 
-To do so, we need to first check the frequency distributions of each variable. In general, it is good practice to examine the frequency distributions of all variables before working with them.
+Create a new variable called `Mdays` that is the mean of `daysanysub` and `dayslink`. Then, examine the descriptive statistics of the new variable, `Mdays`, and answer the following questions.
 
-```{r mutate, eval=FALSE , echo=TRUE}
+a) What is the mean of the variable, `Mdays`?
+b) What is the minimum value of `Mdays`? 
+c) What is the maximum value of `Mdays`?
 
+## Hint
+To create a new variable, we need to first check the frequency distributions of each variable that comprises the one you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.
+
+Start by examining the variables that we will use:
+```{r mutate1, eval=FALSE, echo=TRUE}
+hdata %>% 
+  freq(daysanysub) # examine freq dist of daysanysub
+
+hdata %>% 
+  freq(dayslink)
+```
+
+Then, we can create a new variable using the `mutate()` function. Note the use of the left arrow *and* the pipe operator. This is important as it tells R to save the new variable in the existing data frame, `hdata`.
+```{r mutate2, eval=FALSE, echo=TRUE}
+hdata <- hdata %>% 
+  mutate(sumdays = (daysanysub + dayslink)) # sum the two variables
+
+# Check that the new variable is correctly created
+hdata %>% 
+  freq(sumdays)
+```
+
+
+# Step 7 {.tabset .tabset-fade}
+## Question
+There are times when we may want to take continuous variables and make them into categorical variables. For example, assume we are interested in respondents' depression scores, `cesd`, but we want to categorize them into low and high depression scores.
+
+We refer to this process as **recoding variables**. For this exercise, let's say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.
+
+Use the `mutate()` and `case_when()` functions to recode `cesd` into a new variable, `dcesd`, with only two categories, low ($\le$ 30) and high (> 30).
+
+Then, answer the following questions.
+
+a) How many respondents are in the **low** category of the new variable, `dcesd`?
+b) How many respondents are in the **high** category of the new variable, `dcesd`?
+
+## Hint
+To recode a variable, we will use the `mutate()` and `case_when()` functions. As an example, we will recode `i1` into a new variable, `di1`, that have low and high categories.
+```{r recoding, echo=TRUE, eval=FALSE}
+# First, examine i1
+hdata %>% 
+  freq(i1)
+
+# Assume I want to categorize people who have 12 or fewer drinks into a low
+# category and the rest into the high category (note the arrow and %>%)
+hdata <- hdata %>% 
+  mutate(di1 = case_when(i1 <= 12 ~ "low",
+                         i1 > 12 ~ "high"))
+
+# Check that the new variable has been recoded correctly
+hdata %>% 
+  freq(di1)
 ```
 
 

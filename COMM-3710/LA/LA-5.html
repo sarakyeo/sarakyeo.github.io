@@ -248,6 +248,7 @@ div.tocify {
 <ul>
 <li>Run and examine frequency distributions using the <code>freq()</code> function in the <code>summarytools</code> package.</li>
 <li>View descriptive statistics using the <code>descr()</code> function in the <code>summarytools</code> package.</li>
+<li>Recoding variables using the <code>case_when()</code> function.</li>
 <li>Create new variables from existing variables in a data frame using the <code>mutate()</code> function.</li>
 </ul>
 <blockquote>
@@ -287,8 +288,8 @@ div.tocify {
 <p>Read the documentation for <code>freq()</code> by typing <code>?freq</code> in the Console.</p>
 <p>You might find the <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames">section on working with data frames</a> helpful.</p>
 <p>Run the code below to see a frequency distribution for the variable <code>racegrp</code> in the HELP data set, which has been read into a data frame called <code>hdata</code>.</p>
-<pre class="r"><code>&gt; hdata %&gt;% 
-+         freq(racegrp) # examine freq dist of variable, racegrp</code></pre>
+<pre class="r"><code>hdata %&gt;% 
+        freq(racegrp) # examine freq dist of variable, racegrp</code></pre>
 </div>
 </div>
 <div id="step-3" class="section level1 tabset tabset-fade">
@@ -303,13 +304,13 @@ div.tocify {
 <div id="hint-2" class="section level2">
 <h2>Hint</h2>
 <p>The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). To ensure that the subset of data has been created correctly, you can use the the <code>freq()</code> function. Change the code to filter the data to include only patients who are male.</p>
-<pre class="r"><code>&gt; # Select respondents who are housed into a data frame called subdata
-&gt; subdata &lt;- hdata %&gt;% 
-+         filter(homeless == &quot;housed&quot;)
-&gt; 
-&gt; # Check that the code to filter data is correct
-&gt; subdata %&gt;% 
-+         freq(homeless)</code></pre>
+<pre class="r"><code># Select respondents who are housed into a data frame called subdata
+subdata &lt;- hdata %&gt;% 
+        filter(homeless == &quot;housed&quot;)
+
+# Check that the code to filter data is correct
+subdata %&gt;% 
+        freq(homeless)</code></pre>
 </div>
 </div>
 <div id="step-4" class="section level1">
@@ -335,9 +336,70 @@ div.tocify {
 <div id="hint-3" class="section level2">
 <h2>Hint</h2>
 <p>Let’s say I am interested in examining descriptive statistics of the quantitative variable, <code>pss_fr</code>, which is perceived social support by friends.</p>
-<p>To do so, I would</p>
-<pre class="r"><code>&gt; hdata %&gt;% 
-+   descr(pss_fr) # examine descriptive stats of variable, pss_fr</code></pre>
+<p>To do so, I would use the following code:</p>
+<pre class="r"><code>hdata %&gt;% 
+  descr(pss_fr) # examine descriptive stats of variable, pss_fr</code></pre>
+</div>
+</div>
+<div id="step-6" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 6</h1>
+<div id="question-4" class="section level2">
+<h2>Question</h2>
+<p>We will now learn how to use the <code>mutate()</code> function to create a new variable from existing ones. We will use the variables, <code>daysanysub</code> and <code>dayslink</code>.</p>
+<p>Create a new variable called <code>Mdays</code> that is the mean of <code>daysanysub</code> and <code>dayslink</code>. Then, examine the descriptive statistics of the new variable, <code>Mdays</code>, and answer the following questions.</p>
+<ol style="list-style-type: lower-alpha">
+<li>What is the mean of the variable, <code>Mdays</code>?</li>
+<li>What is the minimum value of <code>Mdays</code>?</li>
+<li>What is the maximum value of <code>Mdays</code>?</li>
+</ol>
+</div>
+<div id="hint-4" class="section level2">
+<h2>Hint</h2>
+<p>To create a new variable, we need to first check the frequency distributions of each variable that comprises the one you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.</p>
+<p>Start by examining the variables that we will use:</p>
+<pre class="r"><code>hdata %&gt;% 
+  freq(daysanysub) # examine freq dist of daysanysub
+
+hdata %&gt;% 
+  freq(dayslink)</code></pre>
+<p>Then, we can create a new variable using the <code>mutate()</code> function. Note the use of the left arrow <em>and</em> the pipe operator. This is important as it tells R to save the new variable in the existing data frame, <code>hdata</code>.</p>
+<pre class="r"><code>hdata &lt;- hdata %&gt;% 
+  mutate(sumdays = (daysanysub + dayslink)) # sum the two variables
+
+# Check that the new variable is correctly created
+hdata %&gt;% 
+  freq(sumdays)</code></pre>
+</div>
+</div>
+<div id="step-7" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 7</h1>
+<div id="question-5" class="section level2">
+<h2>Question</h2>
+<p>There are times when we may want to take continuous variables and make them into categorical variables. For example, assume we are interested in respondents’ depression scores, <code>cesd</code>, but we want to categorize them into low and high depression scores.</p>
+<p>We refer to this process as <strong>recoding variables</strong>. For this exercise, let’s say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.</p>
+<p>Use the <code>mutate()</code> and <code>case_when()</code> functions to recode <code>cesd</code> into a new variable, <code>dcesd</code>, with only two categories, low (<span class="math inline">\(\le\)</span> 30) and high (&gt; 30).</p>
+<p>Then, answer the following questions.</p>
+<ol style="list-style-type: lower-alpha">
+<li>How many respondents are in the <strong>low</strong> category of the new variable, <code>dcesd</code>?</li>
+<li>How many respondents are in the <strong>high</strong> category of the new variable, <code>dcesd</code>?</li>
+</ol>
+</div>
+<div id="hint-5" class="section level2">
+<h2>Hint</h2>
+<p>To recode a variable, we will use the <code>mutate()</code> and <code>case_when()</code> functions. As an example, we will recode <code>i1</code> into a new variable, <code>di1</code>, that have low and high categories.</p>
+<pre class="r"><code># First, examine i1
+hdata %&gt;% 
+  freq(i1)
+
+# Assume I want to categorize people who have 12 or fewer drinks into a low
+# category and the rest into the high category (note the arrow and %&gt;%)
+hdata &lt;- hdata %&gt;% 
+  mutate(di1 = case_when(i1 &lt;= 12 ~ &quot;low&quot;,
+                         i1 &gt; 12 ~ &quot;high&quot;))
+
+# Check that the new variable has been recoded correctly
+hdata %&gt;% 
+  freq(di1)</code></pre>
 </div>
 </div>
 <div id="submission" class="section level1">
