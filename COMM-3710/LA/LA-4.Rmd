@@ -138,7 +138,7 @@ a) Among **women** whose primary substance of abuse is **alcohol**, what is the 
 b) Among **men** whose primary substance of abuse is **alcohol**, what is the mean SF-36 mental component score?
 
 ## Hint
-Start by identifying the variables (which variable will you use to filter or select cases? Which varaible will be used in the `mean`()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
+Start by identifying the variables (which variable will you use to filter or select cases? Which varaible will be used in the `mean()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
 
 If you need help with the `mean()` function, pull up the corresponding help documentation.
 
