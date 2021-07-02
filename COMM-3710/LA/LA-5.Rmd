@@ -28,22 +28,18 @@ In this assignment, you will learn how to:
 
 ---
 
-# Instructions
-
-## Step 1 {.tabset .tabset-fade .tabset-pills}
-
-### Question
+# Step 1 {.tabset .tabset-fade}
+## Question
 
 Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file. The codebook can be found [here](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset).
 
-### Hint
+## Hint
 
 See LA-4 for a reminder of how to load data into R.
 
 
-## Step 2 {.tabset .tabset-fade .tabset-pills}
-
-### Question
+# Step 2 {.tabset .tabset-fade}
+## Question
 
 Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
@@ -53,7 +49,7 @@ a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?
 c. What percentage of patients in the study have been hospitalized fewer than 5 times (i.e., 4 or fewer)?
 
-### Hint
+## Hint
 
 To run a frequency distribution, which creates a frequency table, you will need the `freq()` function in the `summarytools` package. Remember that you can read the documentation for a specific function by typing the function name preceded by `?` in the Console in RStudio. 
 
@@ -63,35 +59,68 @@ You might find the [section on working with data frames](https://sarakyeo.github
 
 Run the code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
 
-```{r freq, eval=TRUE, echo=TRUE, prompt=TRUE}
+```{r freq, eval=FALSE, echo=TRUE}
 hdata %>% 
-        freq(racegrp)
+        freq(racegrp) # examine freq dist of variable, racegrp
 ```
 
 
-## Step 3 {.tabset .tabset-fade .tabset-pills}
-### Question
+# Step 3 {.tabset .tabset-fade}
+## Question
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
 
 a. How many patients are between the ages of 40 and 45?
 
-### Hint
-To subset the data, review LA-4.
+## Hint
+The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
 
-The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
-
-```{r filter, eval=TRUE, echo=TRUE, prompt=TRUE}
+```{r filter, eval=FALSE, echo=TRUE}
+# Select respondents who are housed into a data frame called subdata
 subdata <- hdata %>% 
         filter(homeless == "housed")
+
+# Check that the code to filter data is correct
 subdata %>% 
         freq(homeless)
 ```
 
-## Step 4 
+
+# Step 4 
 Make a frequency table for `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
 b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
+
+
+# Step 5 {.tabset .tabset-fade}
+## Question
+Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the `descr()` function that is in the package, `summarytools`. Let's examine descriptive statistics for the variable, `e2b`, which is the number of times in the past 6 months that the respondent entered a detox program.
+
+Examine the descriptive statistics for `e2b` and answer the questions below.
+
+a) What is the mean?
+b) What is the median?
+c) What is the maximum?
+
+## Hint
+Let's say I am interested in examining descriptive statistics of the quantitative variable, `pss_fr`, which is perceived social support by friends.
+
+To do so, I would 
+```{r descr, eval=FALSE, echo=TRUE}
+hdata %>% 
+  descr(pss_fr) # examine descriptive stats of variable, pss_fr
+```     
+
+
+# Step 6
+## Question
+We will now learn how to use the `mutate()` function to create a new variable from existing ones. Assume we want to sum each respondent's score of `daysanysub` and `dayslink`.
+
+To do so, we need to first check the frequency distributions of each variable. In general, it is good practice to examine the frequency distributions of all variables before working with them.
+
+```{r mutate, eval=FALSE , echo=TRUE}
+
+```
 
 
 # Submission

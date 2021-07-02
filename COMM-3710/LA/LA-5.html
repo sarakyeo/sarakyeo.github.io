@@ -258,23 +258,21 @@ div.tocify {
 </ol>
 </blockquote>
 <hr />
-<div id="instructions" class="section level1">
-<h1>Instructions</h1>
-<div id="step-1" class="section level2 tabset tabset-fade tabset-pills">
-<h2 class="tabset tabset-fade tabset-pills">Step 1</h2>
-<div id="question" class="section level3">
-<h3>Question</h3>
+<div id="step-1" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 1</h1>
+<div id="question" class="section level2">
+<h2>Question</h2>
 <p>Load the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP</a> data set into R. This data set is saved as a .csv file. The codebook can be found <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset">here</a>.</p>
 </div>
-<div id="hint" class="section level3">
-<h3>Hint</h3>
+<div id="hint" class="section level2">
+<h2>Hint</h2>
 <p>See LA-4 for a reminder of how to load data into R.</p>
 </div>
 </div>
-<div id="step-2" class="section level2 tabset tabset-fade tabset-pills">
-<h2 class="tabset tabset-fade tabset-pills">Step 2</h2>
-<div id="question-1" class="section level3">
-<h3>Question</h3>
+<div id="step-2" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 2</h1>
+<div id="question-1" class="section level2">
+<h2>Question</h2>
 <p>Install the <code>summarytools</code> and <code>tidyverse</code> packages in R. Then, load the packages.</p>
 <p>Make a frequency table for <code>sex</code> and <code>d1</code>. Include these frequency tables in your submission and answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
@@ -283,63 +281,63 @@ div.tocify {
 <li>What percentage of patients in the study have been hospitalized fewer than 5 times (i.e., 4 or fewer)?</li>
 </ol>
 </div>
-<div id="hint-1" class="section level3">
-<h3>Hint</h3>
+<div id="hint-1" class="section level2">
+<h2>Hint</h2>
 <p>To run a frequency distribution, which creates a frequency table, you will need the <code>freq()</code> function in the <code>summarytools</code> package. Remember that you can read the documentation for a specific function by typing the function name preceded by <code>?</code> in the Console in RStudio.</p>
 <p>Read the documentation for <code>freq()</code> by typing <code>?freq</code> in the Console.</p>
 <p>You might find the <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames">section on working with data frames</a> helpful.</p>
 <p>Run the code below to see a frequency distribution for the variable <code>racegrp</code> in the HELP data set, which has been read into a data frame called <code>hdata</code>.</p>
 <pre class="r"><code>&gt; hdata %&gt;% 
-+         freq(racegrp)</code></pre>
-<pre><code>## Frequencies  
-## hdata$racegrp  
-## Type: Character  
-## 
-##                  Freq   % Valid   % Valid Cum.   % Total   % Total Cum.
-## -------------- ------ --------- -------------- --------- --------------
-##          black    211     46.58          46.58     46.58          46.58
-##       hispanic     50     11.04          57.62     11.04          57.62
-##          other     26      5.74          63.36      5.74          63.36
-##          white    166     36.64         100.00     36.64         100.00
-##           &lt;NA&gt;      0                               0.00         100.00
-##          Total    453    100.00         100.00    100.00         100.00</code></pre>
++         freq(racegrp) # examine freq dist of variable, racegrp</code></pre>
 </div>
 </div>
-<div id="step-3" class="section level2 tabset tabset-fade tabset-pills">
-<h2 class="tabset tabset-fade tabset-pills">Step 3</h2>
-<div id="question-2" class="section level3">
-<h3>Question</h3>
+<div id="step-3" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 3</h1>
+<div id="question-2" class="section level2">
+<h2>Question</h2>
 <p>Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for <code>age</code>.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are between the ages of 40 and 45?</li>
 </ol>
 </div>
-<div id="hint-2" class="section level3">
-<h3>Hint</h3>
-<p>To subset the data, review LA-4.</p>
-<p>The code below subsets the data to include only patients who are housed. To ensure that the subset of data has been created correctly, you can use the the <code>freq()</code> function. Change the code to filter the data to include only patients who are male.</p>
-<pre class="r"><code>&gt; subdata &lt;- hdata %&gt;% 
+<div id="hint-2" class="section level2">
+<h2>Hint</h2>
+<p>The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). To ensure that the subset of data has been created correctly, you can use the the <code>freq()</code> function. Change the code to filter the data to include only patients who are male.</p>
+<pre class="r"><code>&gt; # Select respondents who are housed into a data frame called subdata
+&gt; subdata &lt;- hdata %&gt;% 
 +         filter(homeless == &quot;housed&quot;)
+&gt; 
+&gt; # Check that the code to filter data is correct
 &gt; subdata %&gt;% 
 +         freq(homeless)</code></pre>
-<pre><code>## Frequencies  
-## subdata$homeless  
-## Type: Character  
-## 
-##                Freq   % Valid   % Valid Cum.   % Total   % Total Cum.
-## ------------ ------ --------- -------------- --------- --------------
-##       housed    244    100.00         100.00    100.00         100.00
-##         &lt;NA&gt;      0                               0.00         100.00
-##        Total    244    100.00         100.00    100.00         100.00</code></pre>
 </div>
 </div>
-<div id="step-4" class="section level2">
-<h2>Step 4</h2>
+<div id="step-4" class="section level1">
+<h1>Step 4</h1>
 <p>Make a frequency table for <code>sex</code> based on this subset. Answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?</li>
 <li>What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are <strong>male</strong>?</li>
 </ol>
+</div>
+<div id="step-5" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 5</h1>
+<div id="question-3" class="section level2">
+<h2>Question</h2>
+<p>Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the <code>descr()</code> function that is in the package, <code>summarytools</code>. Let’s examine descriptive statistics for the variable, <code>e2b</code>, which is the number of times in the past 6 months that the respondent entered a detox program.</p>
+<p>Examine the descriptive statistics for <code>e2b</code> and answer the questions below.</p>
+<ol style="list-style-type: lower-alpha">
+<li>What is the mean?</li>
+<li>What is the median?</li>
+<li>What is the maximum?</li>
+</ol>
+</div>
+<div id="hint-3" class="section level2">
+<h2>Hint</h2>
+<p>Let’s say I am interested in examining descriptive statistics of the quantitative variable, <code>pss_fr</code>, which is perceived social support by friends.</p>
+<p>To do so, I would</p>
+<pre class="r"><code>&gt; hdata %&gt;% 
++   descr(pss_fr) # examine descriptive stats of variable, pss_fr</code></pre>
 </div>
 </div>
 <div id="submission" class="section level1">
