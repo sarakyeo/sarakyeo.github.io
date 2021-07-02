@@ -39,7 +39,7 @@ In this assignment, you will learn how to:
 
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
-Set up your R script for this assignment. Load the packages below and set your working directory.
+Set up your R script for this assignment. Load the packages below and set your working directory. Remember to write pseudocode as comments for each line of code.
 
 - `tidyverse`
 - `magrittr`
