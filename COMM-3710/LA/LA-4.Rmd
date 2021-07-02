@@ -132,10 +132,10 @@ c) What is the mean number of average drinks consumed per day in the past 30 day
 
 # Step 5 {.tabset .tabset-fade}
 ## Instructions
-Using `%>%` and the `freq()` function instead of `mean()`, answer the questions below.
+Using `%>%` and the `mean()` function, answer the questions below.
 
-a) Among respondents who are male, how many reported their primary substance of abuse to be **alcohol**, **cocaine**, and **heroin**?
-b) Among respondents who are female, how many reported their primary substance of abuse to be **alcohol**, **cocaine**, and **heroin**?
+a) Among women whose primary substance of abuse is **alcohol**, what is the mean SF-36 mental component score?
+b) Among men whose primary substance of abuse is **alcohol**, what is the mean SF-36 mental component score?
 
 ## Hint
 Start by identifying the variables (which variable will you use to filter or select cases? Which varaible will be used in the `freq`()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
