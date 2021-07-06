@@ -132,7 +132,7 @@ c) What is the mean number of average drinks consumed per day in the past 30 day
 
 # Step 5 {.tabset .tabset-fade}
 ## Instructions
-Using `%>%`, `summarise()`, and the `mean()` function, answer the questions below.
+Using `%>%`and the functions you just learned, write R code to determine the answers to the questions below.
 
 a) Among **women** whose primary substance of abuse is **alcohol**, what is the minimum, maximum, and mean SF-36 mental component score?
 b) Among **men** whose primary substance of abuse is **alcohol**, what is the minimum, maximum, and mean SF-36 mental component score?
