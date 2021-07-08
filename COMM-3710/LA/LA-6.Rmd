@@ -33,7 +33,10 @@ Load the [HELP](https://utah.instructure.com/files/117853074/download?download_f
 ## Question
 Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.
 
-Make a new variable called `ExtremeMCS` and code it as `1` if a patient is at risk based on his/her mcs score and `0` otherwise.
+Make a new variable called `ExtremeMCS` and code it as `high` if a patient is at risk based on his/her mcs score and `low` otherwise. Then, answer the following questions.
+
+a) How many patients are thought to be at extreme risk of returning to the detoxification unit within the next 12 months?
+b) What percentage of patients are not at extreme risk of returning to the detoxification unit within the next 12 months?
 
 ## Hint
 Review LA-5 and how to use the `mutate()` and `case_when()` commands.
