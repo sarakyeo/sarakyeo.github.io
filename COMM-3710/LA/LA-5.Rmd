@@ -1,5 +1,5 @@
 ---
-title: 'LA-5: Examining Data (10 points)'
+title: 'LA-5: Examining and Managing Data (10 points)'
 pagetitle: "COMM 3710: LA-5"
 output:
   html_document:
