@@ -262,7 +262,7 @@ div.tocify {
 <div id="question" class="section level2">
 <h2>Question</h2>
 <p>Patients with a mental component score (<code>mcs</code>) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.</p>
-<p>Make a new variable called <code>ExtremeMCS</code> and code it as <code>high</code> if a patient is at risk based on his/her mcs score and <code>low</code> otherwise. Then, answer the following questions.</p>
+<p>Make a new variable called <code>ExtremeMCS</code> and code it as <code>1</code> if a patient is at risk based on his/her mcs score and <code>0</code> otherwise. Then, answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are thought to be at high risk of returning to the detoxification unit within the next 12 months?</li>
 <li>What percentage of patients are at low risk of returning to the detoxification unit within the next 12 months?</li>
@@ -275,38 +275,24 @@ div.tocify {
 </div>
 <div id="step-3" class="section level1">
 <h1>Step 3</h1>
-<p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have <code>1</code> indicate a patient has had suicidal thoughts and a <code>1</code> indicate they have not.</p>
+<p>Make a new variable <code>SuicidalThought</code> based on the variable <code>g1b</code>. Have <code>1</code> indicate a patient has had suicidal thoughts and a <code>0</code> indicate they have not.</p>
+<ol style="list-style-type: lower-alpha">
+<li>How many patients report having had suicidal thoughts?</li>
+</ol>
 </div>
 <div id="step-4" class="section level1">
 <h1>Step 4</h1>
 <p>Make a new variable <code>HomelessStatus</code> based on the variable <code>homeless</code>. Have <code>1</code> indicate that a patient is homeless and <code>0</code> indicate that they are housed.</p>
-</div>
-<div id="step-5" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade">Step 5</h1>
-<div id="question-1" class="section level2">
-<h2>Question</h2>
-<p>Suppose we want to assess the overall risk a patient has to return to the detoxification unit and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> which computes the number of risk factors a particular patient has. That is, make it a sum of these 3 variables.</p>
-</div>
-<div id="hint-1" class="section level2">
-<h2>Hint</h2>
-<p>Try using <code>mutate()</code>.</p>
-</div>
-</div>
-<div id="step-6" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade">Step 6</h1>
-<div id="question-2" class="section level2">
-<h2>Question</h2>
-<p>Make frequency tables of <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>RiskTotal</code>. Answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
-<li>How many patients are thought to be at risk based on their <code>mcs</code> score?</li>
-<li>What percentage of patients have experienced suicidal thoughts?</li>
-<li>What percentage of patients in the study have fewer than 3 risk factors?</li>
+<li>What percentage of patients are homeless?</li>
 </ol>
 </div>
-<div id="hint-2" class="section level2">
-<h2>Hint</h2>
-<p>We created frequency tables in LA-5.</p>
-</div>
+<div id="step-5" class="section level1">
+<h1>Step 5</h1>
+<p>Suppose we want to assess the overall risk of a patient and <code>ExtremeMCS</code>, <code>SuicidalThought</code>, and <code>HomelessStatus</code> are considered risk factors. Construct a new variable called <code>RiskTotal</code> that quantifies the number of risk factors for each patient. That is, make it a sum of these 3 variables.</p>
+<ol style="list-style-type: lower-alpha">
+<li>What percentage of patients in the study have fewer than 3 risk factors?</li>
+</ol>
 </div>
 <div id="submission" class="section level1">
 <h1>Submission</h1>
