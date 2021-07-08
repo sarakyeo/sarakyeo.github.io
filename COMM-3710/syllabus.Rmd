@@ -261,13 +261,13 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 > Survey research; Experiments | **Quiz 5** 
   
 - Readings: Wrench Ch. 9, 11, Bialik, Silver, Zukin
-- Lab: LA-5: Examining Data (10 pts)
+- Lab: LA-5: Examining and Managing Data (10 pts)
   
 ## Week 6 (27-Sep): Participation Checkpoint
 > Reliability and validity | **Quiz 6** 
   
 - Readings: Wrench Ch. 8 
-- Lab: LA-6: ... (10 pts)
+- Lab: LA-6: Examining and Managing Data (10 pts)
 
 ## Week 7 (4-Oct)
 > Sampling | **Quiz 7** 
