@@ -60,7 +60,7 @@
 | `month` | month (coded as a number) |
 | `day` | day of month on which bill was calculated |
 | `year` | year of bill |
-| `temp` | average temperature ($^{\circ}$F) for billing period |
+| `temp` | average temperature (degrees Celsius) for billing period |
 | `kwh` | electricity usage (kwh) |
 | `ccf` | gas usage (ccf) |
 | `thermsPerDay` | a numeric vector |
