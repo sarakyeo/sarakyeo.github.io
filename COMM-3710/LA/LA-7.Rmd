@@ -26,7 +26,7 @@ Remember to ...
 ---
 
 # Step 1 {.tabset .tabset-fade}
-Import the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset)  to familiarize yourself with the variables.
+Import the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset) to familiarize yourself with the variables.
 
 
 # Step 2 {.tabset .tabset-fade}
