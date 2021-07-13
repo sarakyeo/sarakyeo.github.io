@@ -2,6 +2,7 @@
 - [Codebooks](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#codebooks)
   - [HELP dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset)
   - [CPS dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#cps-dataset)
+  - [Utilities dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset)
 
 
 ---
@@ -52,3 +53,21 @@
 | `age` | Age in years |
 | `sector` | Factor with levels: clerical, const, manag, manuf, other prof, sales, service |
 | `satisfaction` | 1 = satisfied with current employment, 0 = otherwise |
+
+## Utilities dataset
+| Variable Name | Description |
+| ------------- | ----------- |
+| `month` | month (coded as a number) |
+| `day` | day of month on which bill was calculated |
+| `year` | year of bill |
+| `temp` | average temperature ($^{\circ}$F) for billing period |
+| `kwh` | electricity usage (kwh) |
+| `ccf` | gas usage (ccf) |
+| `thermsPerDay` | a numeric vector |
+| `billingDays` | number of billing days in billing period |
+| `totalbill` | total bill (in dollars) |
+| `gasbill` | gas bill (in dollars) |
+| `elecbill` | electric bill (in dollars) |
+| `notes` | notes about the billing period |
+| `donate` | (yes or no) did the person add money to their bill to be donated to
+Operation Fuel, a charity providing heat to families/small businesses in need |

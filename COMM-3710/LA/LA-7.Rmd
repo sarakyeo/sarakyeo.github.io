@@ -1,64 +1,35 @@
 ---
-title: "LA.5: Visualizing Data (10 points)"
-pagetitle: "COMM 3710: LA.5"
+title: "LA-7: Visualizing Data (10 points)"
+pagetitle: "COMM 3710: LA-7"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
-# Resources{#resources}
-In this assignment, we will learn how to use the R package, `ggplot2` to create
-graphs. Before you begin the assignment, watch and familiarize yourself with
-the following videos. Remember to ask questions via Slack if you need help.
+```{r setup, include=FALSE}
+library(tidyverse)
+library(descr)
+hdata <- read.csv("HELP.csv")
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-- Watch [Video 06](https://youtu.be/mwLyXHfCPdE) about graphing one variable at
-a time in R. 
-- Watch [Video 07](https://youtu.be/IZoCbCQRmUE) about graphing relationships
-in R.
+In this assignment, you will put the skills you learned in LA-5 into practice.
 
-You may also find the [COMM 3710: Getting Started with R chapter on `ggplot2`](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html) to 
-be helpful.
+Remember to ...
 
----
-
-# Data
-Use the[Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1)
-data set to complete this assignment. This data set contains a random sample of
-117 utility bills for the following variables:
-
-* `month`: month (coded as a number)
-*	`day`: day of month on which bill was calculated
-*	`year`: year of bill
-*	`temp`: average temperature ($^{\circ}$F) for billing period
-*	`kwh`: electricity usage (kwh)
-*	`ccf`: gas usage (ccf)
-*	`thermsPerDay`: a numeric vector
-*	`billingDays`: number of billing days in billing period
-*	`totalbill`: total bill (in dollars)
-*	`gasbill`: gas bill (in dollars)
-*	`elecbill`: electric bill (in dollars)
-*	`notes`: notes about the billing period
-*	`donate`: (yes or no) did the person add money to their bill to be donated to
-Operation Fuel, a charity providing heat to families/small businesses in need
+1) Set up your R script appropriately.
+2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
 ---
 
-# Instructions
-
-## Step 1 {.tabset .tabset-fade .tabset-pills}
-### Question
-Import the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1)
-data set. Use the codebook above to familiarize yourself with the variables.
-
-### Hint
-Review LA.3 or LA.4 for the command to read the data into a data frame.
+# Step 1 {.tabset .tabset-fade}
+Import the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset)  to familiarize yourself with the variables.
 
 
-## Step 2 {.tabset .tabset-fade .tabset-pills}
-### Question
+# Step 2 {.tabset .tabset-fade}
 Make a histogram to display the distribution of customers' total monthly bill
 (include the graph in your PDF submission) and answer the following question.
 
@@ -66,7 +37,7 @@ a. Use the histogram you created and describe the distribution. Is the
 distribution skewed or symmetric? If skewed, is the distribution skewed right
 or left? At what cost do most of the total monthly bills fall?
 
-### Hint
+### Hint (HERE)
 To create a histogram, first watch Video 06. We will use the package,
 `ggplot2`. The `ggplot2` commands you will use are: `ggplot()` and
 `geom_histogram()`. Remember that you can also read the documentation for these
