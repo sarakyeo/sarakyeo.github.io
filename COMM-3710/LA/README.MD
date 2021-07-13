@@ -69,5 +69,4 @@
 | `gasbill` | gas bill (in dollars) |
 | `elecbill` | electric bill (in dollars) |
 | `notes` | notes about the billing period |
-| `donate` | (yes or no) did the person add money to their bill to be donated to
-Operation Fuel, a charity providing heat to families/small businesses in need |
+| `donate` | (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need |
