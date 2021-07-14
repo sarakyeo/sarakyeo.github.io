@@ -96,7 +96,7 @@ Then, create a frequency table of `season`.
 a) NEEDS A QUESTION
     
 ## Hint
-Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions.
+Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
 
 # Bonus Question
 Make a bar chart to display the count or proportion of donors by season. 
