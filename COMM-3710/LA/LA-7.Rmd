@@ -78,13 +78,13 @@ b) Calculate the average electric bill for the months of September and December.
 # Step 6
 Make a scatter plot to display the relationship between gas usage and gas bill. Place gas usage on the x-axis and  monthly gas bill on the y-axis.
 
-a) Does there appear to be a relationship between gas usage and gas bill?
+a) Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship.
 
 
 # Step 7
 Make a scatter plot to display the relationship between electricity usage and electric bill.
 
-a) Does there appear to be a relationship between electricity usage and electric bill? 
+a) Does there appear to be a relationship between electricity usage and electric bill? If so, describe the relationship.
 
 
 # Step 8 {.tabset .tabset-fade}
