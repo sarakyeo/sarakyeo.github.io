@@ -93,7 +93,8 @@ Create a new categorical variable called `season`. Have the variable equal winte
 
 Then, create a frequency table of `season`.
 
-a) NEEDS A QUESTION
+a) How many bills in the data set are from fall?
+b) How many bills in the data set are from summer?
     
 ## Hint
 Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
