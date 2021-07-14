@@ -26,7 +26,7 @@ Remember to ...
 ---
 
 # Step 1
-Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
+Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
 
 
 # Step 2
