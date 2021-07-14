@@ -40,17 +40,11 @@ Read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?d
 
 # Step 3 {.tabset .tabset-fade}
 ## Question
-Make a histogram to display the distribution of customers' total monthly bill
-(include the graph in your PDF submission) and answer the following question.
+Make a histogram to display the distribution of customers' total monthly bill.
 
-a. Use the histogram you created and describe the distribution. Is the
-distribution skewed or symmetric? If skewed, is the distribution skewed right
-or left? At what cost do most of the total monthly bills fall?
+a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
 
 ## Hint
-Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). We will use the package,
-`ggplot2` to create visuals in R. `ggplot2` is included in the `tidyverse` package.
-
 To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
       
 Once you have created the graph, it will appear in the **Plots** panel (usually bottom right of RStudio).
@@ -60,85 +54,58 @@ If you need help answering Q2a, see "Wrench Ch. 14: Skewness and Kurtosis" for a
 
 # Step 4 {.tabset .tabset-fade}
 ## Question
-Make a scatter plot to display gas bill by month (include the graph in your PDF
-submission).
+Make a scatter plot to display gas bill by month.
 
-a. Based on your graph, which month do you think has the highest **average**
-gas bill?
-b. Use R to calculate the average gas bill for the months of January and
-December. Which is higher?
+a) Based on your graph, which month do you think has the highest **average** gas bill?
+b) Use R to calculate the average gas bill for the months of January and December. Which is higher?
 
 ## Hint
-Watch Video 07 to learn how to make a scatter plot. The commands you will use
-are `ggplot()` and `geom_point()`.
+The commands you will use to make a scatter plot are `ggplot()` and `geom_point()`.
 
-To calculate the average gas bill for January, first filter the data to contain
-only observations from January (i.e., `month == 1`). To do this, create an
-object that filters the `utilities` data frame by month.
+To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
  
-For example, if I wanted to filter the data to contain only observations from
-September, I would use the code:`sep <- filter(utilities, month == 9)`. For
-help with the `filter` function, type `?filter` into your Console window.
-      
-Then, use the `mean()` function to calculate the average gas bill for that
-month. Type `?mean` into the Console and read the documentation for this
-function. Remember to strip NA values from your computation by using the
+Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the
 argument, `na.rm = TRUE`.
 
 
 # Step 5
-Make a scatter plot to display electric bill by month (include the graph in
-your PDF submission).
+Make a scatter plot to display electric bill by month.
 
-a. Based on your graph, which month do you think has the highest **average**
-electric bill?
-b. Calculate the average electric bill for the months of September and
-December. Which is higher?
+a) Based on your graph, which month do you think has the highest **average** electric bill?
+b) Calculate the average electric bill for the months of September and December. Which is higher?
 
 
 # Step 6
-Make a scatter plot to display the relationship between gas usage and gas bill
-(include the graph in your PDF submission). 
+Make a scatter plot to display the relationship between gas usage and gas bill.
 
-a. Does there appear to be a relationship between gas usage and gas bill?
+a) Does there appear to be a relationship between gas usage and gas bill?
 
 
 # Step 7
-Make a scatter plot to display the relationship between electricity usage and
-electric bill (include the graph in your PDF submission).
+Make a scatter plot to display the relationship between electricity usage and electric bill.
 
-a. Does there appear to be a relationship between electricity usage and
-electric bill? 
+a) Does there appear to be a relationship between electricity usage and electric bill? 
 
 
 # Step 8 {.tabset .tabset-fade}
 ## Question
-Create a new categorical variable called `season`. Have the variable equal
-winter if the bill was from December, January, or February. Have the variable
-equal spring if the bill was from March, April, or May. Have the variable equal
-summer if the bill was from June, July, or August. Have the variable equal fall
-if the bill was from September, October, or November.
+Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
 
-a. Include the frequency table for `season` in your PDF submission.
+Then, create a frequency table of `season`.
+
+a) NEEDS A QUESTION
     
 ## Hint
-Use the skills you learned in data management (e.g., subsetting) to create a
-new variable called `season` according to the instructions. Then, use the
-`freq()` command from the `descr` package to check that you have created the
-`season` variable correctly.
+Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions.
 
 # Bonus Question
-Make a bar chart to display the count or proportion of donors by season
-(include the graph in your PDF submission). 
+Make a bar chart to display the count or proportion of donors by season. 
 
-First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the
-billee donated money to *Operation Fuel* and 0 otherwise. Check that you have
-created the `DonorStatus` variable correctly. Include frequency tables for both
-`donate` and `DonorStatus` in your PDF submission.
+First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.
 
 Then, use `ggplot()` to create your graph.
 
-Does there seem to be a relationship between season and donation?
+a) Does there seem to be a relationship between season and donation?
 
 
 # Submission
