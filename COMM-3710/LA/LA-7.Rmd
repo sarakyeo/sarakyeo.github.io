@@ -115,7 +115,7 @@ Your R script should:
 
 1) Include code to install and load the packages.
 2) Include code to set your working directory.
-3) Contain comments and/or pseudocode for every single line of R code.
+3) Contain comments and/or pseudocode for every line of R code.
 4) Run in its entirety without errors.
 
 To ensure that your R script runs without errors, you should:
