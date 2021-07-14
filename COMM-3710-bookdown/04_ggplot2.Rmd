@@ -111,7 +111,7 @@ Let's create a graph with a fake data set ["quiz.csv"](http://sarakyeo.github.io
 
 First, make sure you set the working directory correctly on your computer and load the packages. 
 
-Download this [data set](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv) and read it into R.
+Download this [data set](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv) (right click and select *Save As...*) and read it into R.
 ```{r}
 quiz <- read.csv("quiz.csv")
 ```
