@@ -26,7 +26,12 @@ Remember to ...
 ---
 
 # Step 1 {.tabset .tabset-fade}
-Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file. The codebook can be found [here](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset).
+Load the following packages in your current session of R:
+
+- `tidyverse`
+- `summarytools`
+
+Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset) to familiarize yourself with the variables in the data set.
 
 
 # Step 2 {.tabset .tabset-fade}

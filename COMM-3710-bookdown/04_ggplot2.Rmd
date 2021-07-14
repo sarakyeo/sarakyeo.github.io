@@ -65,9 +65,6 @@ If we are plotting the histogram of one variable, we use `geom_histogram()`.
 ``` {r eval = FALSE}
 ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign again
          geom_histogram()
-
-## This is slightly different than the exact commands used in the video but
-## more intuitive following the logic in this guide.
 ```
 
 For a bar plot, we use `geom_bar()`.

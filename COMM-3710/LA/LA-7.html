@@ -251,91 +251,113 @@ div.tocify {
 <li>Include a comment for each line of code in your R script. This can be pseudocode or other comments.</li>
 </ol>
 <hr />
-<div id="step-1" class="section level1 tabset tabset-fade">
-<h1 class="tabset tabset-fade">Step 1</h1>
-<p>Import the <a href="https://utah.instructure.com/files/117853079/download?download_frd=1">Utilities.csv</a> data set into R. Use the <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset">codebook</a> to familiarize yourself with the variables.</p>
+<div id="step-1" class="section level1">
+<h1>Step 1</h1>
+<p>Load the following packages in your current session of R:</p>
+<ul>
+<li><code>tidyverse</code></li>
+<li><code>summarytools</code></li>
+</ul>
+<p>Read the <a href="https://utah.instructure.com/files/117853079/download?download_frd=1">Utilities.csv</a> data set into R. Use the <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset">codebook</a> to familiarize yourself with the variables in the data set.</p>
 </div>
 <div id="step-2" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 2</h1>
+<div id="question" class="section level2">
+<h2>Question</h2>
 <p>Make a histogram to display the distribution of customers’ total monthly bill (include the graph in your PDF submission) and answer the following question.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?</li>
 </ol>
-<div id="hint-here" class="section level3">
-<h3>Hint (HERE)</h3>
-<p>To create a histogram, first watch Video 06. We will use the package, <code>ggplot2</code>. The <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
-<p>In the bottom right <strong>Plot</strong> screen in RStudio, you can <strong>Export</strong> the graph as an image or <strong>Copy</strong> and paste it in your Word document before saving the Word document as a PDF.</p>
-<p>If you need help answering Q2a, see “Wrench Ch. 14: Skewness and Kurtosis” for an explanation of skewness or watch <a href="https://youtu.be/mwLyXHfCPdE">Video 06</a> starting at 14:02.</p>
 </div>
-<div id="step-3" class="section level2 tabset tabset-fade tabset-pills">
-<h2 class="tabset tabset-fade tabset-pills">Step 3</h2>
-<div id="question" class="section level3">
-<h3>Question</h3>
+<div id="hint" class="section level2">
+<h2>Hint</h2>
+<p>Read <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html">Chapter 5 of COMM 3710: Getting Started with R</a>. We will use the package, <code>ggplot2</code> to create visuals in R. <code>ggplot2</code> is included in the <code>tidyverse</code> package.</p>
+<p>To create a histogram, the <code>ggplot2</code> commands you will use are: <code>ggplot()</code> and <code>geom_histogram()</code>. Remember that you can also read the documentation for these commands by typing <code>?ggplot</code> and <code>?geom_histogram</code> in the Console.</p>
+<p>Once you have created the graph, it will appear in the <strong>Plots</strong> panel (usually bottom right of RStudio).</p>
+<p>If you need help answering Q2a, see “Wrench Ch. 14: Skewness and Kurtosis” for an explanation of skewness.</p>
+</div>
+</div>
+<div id="step-3" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 3</h1>
+<div id="question-1" class="section level2">
+<h2>Question</h2>
 <p>Make a scatter plot to display gas bill by month (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
 <li>Use R to calculate the average gas bill for the months of January and December. Which is higher?</li>
 </ol>
 </div>
-<div id="hint" class="section level3">
-<h3>Hint</h3>
+<div id="hint-1" class="section level2">
+<h2>Hint</h2>
 <p>Watch Video 07 to learn how to make a scatter plot. The commands you will use are <code>ggplot()</code> and <code>geom_point()</code>.</p>
 <p>To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., <code>month == 1</code>). To do this, create an object that filters the <code>utilities</code> data frame by month.</p>
 <p>For example, if I wanted to filter the data to contain only observations from September, I would use the code:<code>sep &lt;- filter(utilities, month == 9)</code>. For help with the <code>filter</code> function, type <code>?filter</code> into your Console window.</p>
 <p>Then, use the <code>mean()</code> function to calculate the average gas bill for that month. Type <code>?mean</code> into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, <code>na.rm = TRUE</code>.</p>
 </div>
 </div>
-<div id="step-4" class="section level2">
-<h2>Step 4</h2>
+<div id="step-4" class="section level1">
+<h1>Step 4</h1>
 <p>Make a scatter plot to display electric bill by month (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> electric bill?</li>
 <li>Calculate the average electric bill for the months of September and December. Which is higher?</li>
 </ol>
 </div>
-<div id="step-5" class="section level2">
-<h2>Step 5</h2>
+<div id="step-5" class="section level1">
+<h1>Step 5</h1>
 <p>Make a scatter plot to display the relationship between gas usage and gas bill (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Does there appear to be a relationship between gas usage and gas bill?</li>
 </ol>
 </div>
-<div id="step-6" class="section level2">
-<h2>Step 6</h2>
+<div id="step-6" class="section level1">
+<h1>Step 6</h1>
 <p>Make a scatter plot to display the relationship between electricity usage and electric bill (include the graph in your PDF submission).</p>
 <ol style="list-style-type: lower-alpha">
 <li>Does there appear to be a relationship between electricity usage and electric bill?</li>
 </ol>
 </div>
-<div id="step-7" class="section level2 tabset tabset-fade tabset-pills">
-<h2 class="tabset tabset-fade tabset-pills">Step 7</h2>
-<div id="question-1" class="section level3">
-<h3>Question</h3>
+<div id="step-7" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 7</h1>
+<div id="question-2" class="section level2">
+<h2>Question</h2>
 <p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Include the frequency table for <code>season</code> in your PDF submission.</li>
 </ol>
 </div>
-<div id="hint-1" class="section level3">
-<h3>Hint</h3>
+<div id="hint-2" class="section level2">
+<h2>Hint</h2>
 <p>Use the skills you learned in data management (e.g., subsetting) to create a new variable called <code>season</code> according to the instructions. Then, use the <code>freq()</code> command from the <code>descr</code> package to check that you have created the <code>season</code> variable correctly.</p>
 </div>
 </div>
-<div id="bonus-question" class="section level2">
-<h2>Bonus Question</h2>
+<div id="bonus-question" class="section level1">
+<h1>Bonus Question</h1>
 <p>Make a bar chart to display the count or proportion of donors by season (include the graph in your PDF submission).</p>
 <p>First, make a new variable, <code>DonorStatus</code>. Set DonorStatus equal to 1 if the billee donated money to <em>Operation Fuel</em> and 0 otherwise. Check that you have created the <code>DonorStatus</code> variable correctly. Include frequency tables for both <code>donate</code> and <code>DonorStatus</code> in your PDF submission.</p>
 <p>Then, use <code>ggplot()</code> to create your graph.</p>
 <p>Does there seem to be a relationship between season and donation?</p>
 </div>
-<div id="submission" class="section level2">
-<h2>Submission</h2>
-<p>Submit the following on Canvas:</p>
-<ol style="list-style-type: lower-alpha">
-<li>A <strong>.R file</strong> containing the code used to complete this assignment. This document should include comments that explain your commands.</li>
-<li>A <strong>PDF file</strong> containing the answers/figures/tables to each question–clearly label the answers with the question number.</li>
+<div id="submission" class="section level1">
+<h1>Submission</h1>
+<p>Submit your R script (<code>LA-7_FirstName-LastName.R</code>) to Canvas.</p>
+<p>Your R script should:</p>
+<ol style="list-style-type: decimal">
+<li>Include code to install and load the packages.</li>
+<li>Include code to set your working directory.</li>
+<li>Contain comments and/or pseudocode for every single line of R code.</li>
+<li>Run in its entirety without errors.</li>
 </ol>
-</div>
+<p>To ensure that your R script runs without errors, you should:</p>
+<ul>
+<li>Save your script.</li>
+<li>Completely shut down RStudio or restart your R session.</li>
+<li>Reopen RStudio, open your <code>LA-7_FirstName-LastName.R</code> script.</li>
+<li>Run the entire script by clicking the “Run” button in the top right of the R script.</li>
+</ul>
+<blockquote>
+<p>These standards apply to all submissions in this course that require R scripts.</p>
+</blockquote>
 </div>
 
 
