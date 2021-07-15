@@ -34,31 +34,33 @@ Load the following packages in R:
 - `summarytools`
 - `rstatix`
 
-Then, load the [Utilities.csv](https://utah.instructure.com/files/108105204/download?download_frd=1) data set and re-familiarize yourself with the variables. Apply your data management code from [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html) to create the `season` variable.
+Then, read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set and re-familiarize yourself with the variables using the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset).
 
-a) Include the data management code that you used to create `season` in your R file.
-b) Include the frequency table for `season` in your PDF submission.
 
-# Step 2 {.tabset .tabset-fade}
-### Question
-Use an appropriate statistical test to determine whether there is a relationship between total bill and season. Then, answer the questions below.
+# Step 2
+Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.^[This was part of Step 8 in LA-7.]
 
-   a. What statistical test did you use?
-   b. What is the test statistic and the probability value associated with that test statistic?
-   c. Is there a significant relationship between total bill and season?
 
-### Hints
-#### Selecting a statistical test
+# Step 3 {.tabset .tabset-fade}
+## Question
+Use an appropriate statistical test to determine whether there is a relationship between respondents' total monthly bill and season. Answer the questions below as comments in your R file submission.
+
+a) What statistical test did you use?
+b) What is the test statistic and the probability value associated with that test statistic?
+c) Is there a significant relationship between total bill and season?
+
+## Hint
+### Selecting a statistical test
 First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
 
 *Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
 
 <center>
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chart.png" alt="LA.6 chart"/>
+<img src="https://sarakyeo.github.io/COMM-3710/LA/LA-8_chart.png" alt="LA-8 chart"/>
 </center>
 
 ---
-#### Test statistics and *p*-values
+### Test statistics and *p*-values
 | Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
 |-----------------------|-----------------------------------|-----------------------|
 | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
