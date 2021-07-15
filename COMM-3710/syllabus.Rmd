@@ -233,5 +233,5 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 **Note: The schedule below does not list due dates of individual lab assignments (LA). Due dates for these can be found on Canvas.**
 
 <center>
-<img src="https://sarakyeo.github.io/COMM-3710/3710-schedule_fall2021.jpg" alt="COMM 3710 schedule"/>
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/3710-schedule_fall2021.jpg" alt="COMM 3710 schedule"/>
 </center>

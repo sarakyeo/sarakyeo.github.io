@@ -56,7 +56,7 @@ First, identify whether the independent and dependent variables are quantitative
 *Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
 
 <center>
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA-8_chart.png" alt="LA-8 chart"/>
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_chart.png" alt="LA-8 chart"/>
 </center>
 
 ---
@@ -75,8 +75,22 @@ The images below identify the test statistics and *p*-values in R output. Be sur
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_ANOVA.png" alt="LA.6 ANOVA output"/>
 <img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png" alt="LA.6 cor output"/>
 
-## Step 3
-Submit the following on Canvas:
 
-   (a) A **.R file** containing the code used to complete this assignment. This document should include comments that explain your commands.
-   (b) A **PDF file** containing the answers to each question--clearly label the answers with the question number.
+# Submission
+Submit your R script (`LA-7_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-7_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.
