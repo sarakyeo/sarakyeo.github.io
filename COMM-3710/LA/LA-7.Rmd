@@ -16,7 +16,7 @@ hdata <- read.csv("HELP.csv")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In this assignment, you will put the skills you learned in LA-5 into practice.
+In this assignment, you will learn how to create graphs in R using the package, `ggplot2`, which is part of the `tidyverse`.
 
 Remember to ...
 
