@@ -59,20 +59,21 @@ Then, read the [Utilities.csv](https://utah.instructure.com/files/117853079/down
 # Step 2
 Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.^[This was part of Step 8 in LA-7.]
 
+a) Run a frequency distribution of `season`.
+
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
-Use an appropriate statistical test to determine whether there is a relationship between respondents' total monthly bill and season. Answer the questions below as comments in your R file submission.
+Let's say we want to conduct a statistical test to determine whether respondents' total monthly bill differs by season. First, we need to identify whether `totalbill` is categorical or continuous.
 
-a) What statistical test did you use?
-b) What is the test statistic and the probability value associated with that test statistic?
-c) Is there a significant relationship between total bill and season?
+a) Run a frequency distribution of `totalbill`. Is this variable categorical or continuous? Be sure to note your answer as a comment in your R file.
+b) Is the variable, `season`, continuous or categorical?
+c) Check the chart in the Hint tab. Given your answers to 3a and 3b, what statistical test should you use?
 
----
 
 ## Hint
-### Selecting a statistical test
-First, identify whether the independent and dependent variables are quantitative/continuous or categorical (see LA.2 if you need a reminder). Then, use the chart below to select a statistical test.
+**Selecting a statistical test**
+First, identify whether the independent and dependent variables are quantitative/continuous or categorical. Then, use the chart below to select a statistical test.
 
 *Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
 
@@ -80,9 +81,16 @@ First, identify whether the independent and dependent variables are quantitative
 <img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_chart.png" alt="LA-8 chart"/>
 </center>
 
----
 
-### Test statistics and *p*-values
+# Step 4 {.tabset .tabset-fade}
+## Instructions
+Conduct the statistical test you selected in your answer to 3c and answer the following questions.
+
+a) What is the test statistic and the probability value associated with that test statistic?
+b) Is there a significant relationship between total bill and season?
+
+## Hint
+**Test statistics and *p*-values**
 
 | Hypothesis Test       |   Test Statistic Name             | Test Statistic Symbol |
 |:----------------------|:----------------------------------|:----------------------|
@@ -101,7 +109,16 @@ The images below identify the test statistics and *p*-values in R output. Be sur
 
 <img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_cor.png"/>
 
----
+
+# Step 5 {.tabset .tabset-fade}
+Next, you will form a hypothesis about the difference in people's gas bills by season and conduct the appropriate statistical test to address your hypothesis.
+
+a) State your hypothesis. What do you think is the relationship between monthly gas bills and season?
+b) Determine whether your variables are categorical or continuous. State these clearly in your R file.
+c) Select a statistical test; clearly label your answer in your R file.
+d) Conduct the statistical test and report your test statistic and *p*-value.
+e) Does the test support your hypothesis? Why or why not?
+
 
 # Submission
 
