@@ -77,7 +77,7 @@ The images below identify the test statistics and *p*-values in R output. Be sur
 
 
 # Submission
-Submit your R script (`LA-7_FirstName-LastName.R`) to Canvas.
+Submit your R script (`LA-8_FirstName-LastName.R`) to Canvas.
 
 Your R script should:
 
@@ -90,7 +90,7 @@ To ensure that your R script runs without errors, you should:
 
 - Save your script.
 - Completely shut down RStudio or restart your R session.
-- Reopen RStudio, open your `LA-7_FirstName-LastName.R` script.
+- Reopen RStudio, open your `LA-8_FirstName-LastName.R` script.
 - Run the entire script by clicking the "Run" button in the top right of the R script.
 
 > These standards apply to all submissions in this course that require R scripts.

@@ -81,7 +81,7 @@ Course grades will be based on the following:
 - Lab attendance (20%)
 
 ## Quizzes (100 pts)
-Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have until the end of the week to complete each quiz. There are 13 quizzes, each worth 10 points.
+Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have until the end of the week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
 
 You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
@@ -230,7 +230,7 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 # Course Schedule {.tabset .tabset-fade}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-**Note: The schedule below does not list due dates of individual lab assignments (LA). Due dates for these can be found on Canvas.**
+**Note: The schedule below lists the dates individual lab assignments (LA) are assigned. Due dates for these can be found on Canvas.**
 
 <center>
 <img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/3710-schedule_fall2021.jpg" alt="COMM 3710 schedule"/>
