@@ -60,20 +60,24 @@ First, identify whether the independent and dependent variables are quantitative
 </center>
 
 ---
+
 ### Test statistics and *p*-values
-| Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
-|-----------------------|-----------------------------------|-----------------------|
+| Hypothesis Test       |   Test Statistic Name             | Test Statistic Symbol |
+|:---------------------:|:---------------------------------:|:---------------------:|
 | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
 | t-test                | *t*-value                         | $t$                   |
 | ANOVA                 | *F*-value                         | $F$                   |
 | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
 
-The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If $p < 0.05$, then the relationship is significant.
+The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant.
 
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_chisq.png" alt="LA.6 chi-sq output"/>
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_t-test.png" alt="LA.6 t-test output"/>
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_ANOVA.png" alt="LA.6 ANOVA output"/>
-<img src="https://sarakyeo.github.io/COMM-3710/LA/LA.6_cor.png" alt="LA.6 cor output"/>
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_chisq.png"/>
+
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_t-test.png"/>
+
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_ANOVA.png"/>
+
+<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_cor.png"/>
 
 
 # Submission
