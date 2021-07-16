@@ -35,11 +35,11 @@ Two books are required for this course. Both are available online.
 > Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
 
 - This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
-- You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it even if you opt out of this program.
+- You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
 
 > Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
 
-- This book is free and accessible via the link provided above.
+- This book is free and accessible via the link provided.
 
 Additional readings will be provided as PDF documents on Canvas.
 
@@ -51,11 +51,11 @@ To ensure that you have full access to the course Canvas website, you will need:
 - Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course.**
 - An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
-We will be using Microsoft Office (Word, Excel, PowerPoint), [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom) and Adobe Acrobat (free for UofU students) are recommended.
+We will be using [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom), Microsoft Office (Word, Excel, PowerPoint), and Adobe Acrobat (free for UofU students) are recommended.
 
-You will also need access to [Canvas](https://utah.instructure.com/) and your [University email account](https://www.umail.utah.edu). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
+You will need access to [Canvas](https://utah.instructure.com/). I expect you to check the course Canvas website regularly. Announcements, assignments, readings, etc., will be posted there. You should be familiar with Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 
-You should also check your University email account regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
+You should also check your [University email account](https://www.umail.utah.edu) regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
 
 > You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is **not** a screenshot.
 
@@ -167,20 +167,22 @@ When you contact me, I expect you to be professional in your communication. This
 ---
 
 ## Course Civility
-Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
+Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
 
-Here is the basic etiquette that will be expected in the course: 
+Here is the basic etiquette that will be expected in the course:
 
-- Always address your classmates by name. There is a human being on the other side of the screen who also has struggles, doubts, and bad days.
+- Always address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
 - Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
-- Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
+- Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the concepts discussed in this course.
 
 ---
 
 ## Academic Misconduct
 > Academic misconduct will be punished to the fullest extent possible.
 
-You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course.
+
+In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
 
 ---
 
@@ -192,7 +194,7 @@ Curriculum accommodations take two forms—scheduling and content accommodations
 ---
 
 ## Emergency Plan
-In the event of a University-wide emergency which prevents us from meeting face-to-face, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
+In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
 
 ---
 
@@ -212,7 +214,7 @@ CDS will work with you and the instructor to arrange accommodations. All written
 ## Safety
 **University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677).
 
-You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
 
 **Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.
 
