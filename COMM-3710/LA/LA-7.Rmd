@@ -29,17 +29,35 @@ Remember to ...
 Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
 
 
-# Step 2
+# Step 2 {.tabset .tabset-fade}
+## Instructions
 Load the following packages in your current session of R:
 
 - `tidyverse`
 - `summarytools`
 
-Read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset) to familiarize yourself with the variables in the data set.
+Read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
+
+## Codebook
+| Variable Name | Description |
+| :------------ | :---------- |
+| `month` | month (coded as a number) |
+| `day` | day of month on which bill was calculated |
+| `year` | year of bill |
+| `temp` | average temperature (degrees Celsius) for billing period |
+| `kwh` | electricity usage (kwh) |
+| `ccf` | gas usage (ccf) |
+| `thermsPerDay` | a numeric vector |
+| `billingDays` | number of billing days in billing period |
+| `totalbill` | total monthly bill (in dollars) |
+| `gasbill` | monthly gas bill (in dollars) |
+| `elecbill` | monthly electric bill (in dollars) |
+| `notes` | notes about the billing period |
+| `donate` | (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need |
 
 
 # Step 3 {.tabset .tabset-fade}
-## Question
+## Instructions
 Make a histogram to display the distribution of customers' total monthly bill.
 
 a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
@@ -53,7 +71,7 @@ If you need help answering Q2a, see "Wrench Ch. 14: Skewness and Kurtosis" for a
 
 
 # Step 4 {.tabset .tabset-fade}
-## Question
+## Instructions
 Make a scatter plot to display gas bill by month.
 
 a) Based on your graph, which month do you think has the highest **average** gas bill?
@@ -88,7 +106,7 @@ a) Does there appear to be a relationship between electricity usage and electric
 
 
 # Step 8 {.tabset .tabset-fade}
-## Question
+## Instructions
 Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
 
 Then, create a frequency table of `season`.

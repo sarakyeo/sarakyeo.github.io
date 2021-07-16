@@ -255,19 +255,91 @@ div.tocify {
 <h1>Step 1</h1>
 <p>Read <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html">Chapter 5 of COMM 3710: Getting Started with R</a>. Be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.</p>
 </div>
-<div id="step-2" class="section level1">
-<h1>Step 2</h1>
+<div id="step-2" class="section level1 tabset tabset-fade">
+<h1 class="tabset tabset-fade">Step 2</h1>
+<div id="instructions" class="section level2">
+<h2>Instructions</h2>
 <p>Load the following packages in your current session of R:</p>
 <ul>
 <li><code>tidyverse</code></li>
 <li><code>summarytools</code></li>
 </ul>
-<p>Read the <a href="https://utah.instructure.com/files/117853079/download?download_frd=1">Utilities.csv</a> data set into R. Use the <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset">codebook</a> to familiarize yourself with the variables in the data set.</p>
+<p>Read the <a href="https://utah.instructure.com/files/117853079/download?download_frd=1">Utilities.csv</a> data set into R. Use the codebook to familiarize yourself with the variables in the data set.</p>
+</div>
+<div id="codebook" class="section level2">
+<h2>Codebook</h2>
+<table>
+<colgroup>
+<col width="54%" />
+<col width="45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>month</code></td>
+<td align="left">month (coded as a number)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>day</code></td>
+<td align="left">day of month on which bill was calculated</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>year</code></td>
+<td align="left">year of bill</td>
+</tr>
+<tr class="even">
+<td align="left"><code>temp</code></td>
+<td align="left">average temperature (degrees Celsius) for billing period</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>kwh</code></td>
+<td align="left">electricity usage (kwh)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>ccf</code></td>
+<td align="left">gas usage (ccf)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>thermsPerDay</code></td>
+<td align="left">a numeric vector</td>
+</tr>
+<tr class="even">
+<td align="left"><code>billingDays</code></td>
+<td align="left">number of billing days in billing period</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>totalbill</code></td>
+<td align="left">total monthly bill (in dollars)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>gasbill</code></td>
+<td align="left">monthly gas bill (in dollars)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>elecbill</code></td>
+<td align="left">monthly electric bill (in dollars)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>notes</code></td>
+<td align="left">notes about the billing period</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>donate</code></td>
+<td align="left">(yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="step-3" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 3</h1>
-<div id="question" class="section level2">
-<h2>Question</h2>
+<div id="instructions-1" class="section level2">
+<h2>Instructions</h2>
 <p>Make a histogram to display the distribution of customers’ total monthly bill.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?</li>
@@ -282,8 +354,8 @@ div.tocify {
 </div>
 <div id="step-4" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 4</h1>
-<div id="question-1" class="section level2">
-<h2>Question</h2>
+<div id="instructions-2" class="section level2">
+<h2>Instructions</h2>
 <p>Make a scatter plot to display gas bill by month.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Based on your graph, which month do you think has the highest <strong>average</strong> gas bill?</li>
@@ -321,8 +393,8 @@ div.tocify {
 </div>
 <div id="step-8" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 8</h1>
-<div id="question-2" class="section level2">
-<h2>Question</h2>
+<div id="instructions-3" class="section level2">
+<h2>Instructions</h2>
 <p>Create a new categorical variable called <code>season</code>. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.</p>
 <p>Then, create a frequency table of <code>season</code>.</p>
 <ol style="list-style-type: lower-alpha">

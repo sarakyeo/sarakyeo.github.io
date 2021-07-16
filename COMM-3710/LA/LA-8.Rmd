@@ -27,14 +27,33 @@ Remember to ...
 
 ---
 
-# Step 1
+# Step 1 {.tabset .tabset-fade}
+##  Instructions
 Load the following packages in R:
 
 - `tidyverse`
 - `summarytools`
 - `rstatix`
 
-Then, read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set and re-familiarize yourself with the variables using the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#utilities-dataset).
+Then, read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
+
+## Codebook
+
+| Variable Name | Description |
+| :------------ | :---------- |
+| `month` | month (coded as a number) |
+| `day` | day of month on which bill was calculated |
+| `year` | year of bill |
+| `temp` | average temperature (degrees Celsius) for billing period |
+| `kwh` | electricity usage (kwh) |
+| `ccf` | gas usage (ccf) |
+| `thermsPerDay` | a numeric vector |
+| `billingDays` | number of billing days in billing period |
+| `totalbill` | total monthly bill (in dollars) |
+| `gasbill` | monthly gas bill (in dollars) |
+| `elecbill` | monthly electric bill (in dollars) |
+| `notes` | notes about the billing period |
+| `donate` | (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need |
 
 
 # Step 2
@@ -42,12 +61,14 @@ Create a new categorical variable called `season`. Have the variable equal winte
 
 
 # Step 3 {.tabset .tabset-fade}
-## Question
+## Instructions
 Use an appropriate statistical test to determine whether there is a relationship between respondents' total monthly bill and season. Answer the questions below as comments in your R file submission.
 
 a) What statistical test did you use?
 b) What is the test statistic and the probability value associated with that test statistic?
 c) Is there a significant relationship between total bill and season?
+
+---
 
 ## Hint
 ### Selecting a statistical test
@@ -62,8 +83,9 @@ First, identify whether the independent and dependent variables are quantitative
 ---
 
 ### Test statistics and *p*-values
+
 | Hypothesis Test       |   Test Statistic Name             | Test Statistic Symbol |
-|:---------------------:|:---------------------------------:|:---------------------:|
+|:----------------------|:----------------------------------|:----------------------|
 | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
 | t-test                | *t*-value                         | $t$                   |
 | ANOVA                 | *F*-value                         | $F$                   |
@@ -79,8 +101,10 @@ The images below identify the test statistics and *p*-values in R output. Be sur
 
 <img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_cor.png"/>
 
+---
 
 # Submission
+
 Submit your R script (`LA-8_FirstName-LastName.R`) to Canvas.
 
 Your R script should:

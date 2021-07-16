@@ -261,19 +261,140 @@ div.tocify {
 <hr />
 <div id="step-1" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 1</h1>
-<div id="question" class="section level2">
-<h2>Question</h2>
-<p>Load the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP</a> data set into R. This data set is saved as a .csv file. The codebook can be found <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset">here</a>.</p>
+<div id="instructions" class="section level2">
+<h2>Instructions</h2>
+<p>Load the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP</a> data set into R. This data set is saved as a .csv file.</p>
 </div>
 <div id="hint" class="section level2">
 <h2>Hint</h2>
 <p>See LA-4 for a reminder of how to load data into R.</p>
 </div>
+<div id="codebook" class="section level2">
+<h2>Codebook</h2>
+<table>
+<colgroup>
+<col width="54%" />
+<col width="45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>age</code></td>
+<td align="left">Subject age at baseline</td>
+</tr>
+<tr class="even">
+<td align="left"><code>anysub</code></td>
+<td align="left">Use of any substance post-detox (no, yes)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>cesd</code></td>
+<td align="left">Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>d1</code></td>
+<td align="left">Lifetime number of hospitalizations for medical problems (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>daysanysub</code></td>
+<td align="left">Time (in days) to first use of any substance post-detox</td>
+</tr>
+<tr class="even">
+<td align="left"><code>dayslink</code></td>
+<td align="left">Time (in days) to linkage to primary care</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>drugrisk</code></td>
+<td align="left">Risk Assessment Battery drug risk scale at baseline</td>
+</tr>
+<tr class="even">
+<td align="left"><code>e2b</code></td>
+<td align="left">Number of times in past 6 months entered a detox program (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>female</code></td>
+<td align="left">Biological sex (0 = male, 1 = female)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>sex</code></td>
+<td align="left">Biological sex (male, female)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>g1b</code></td>
+<td align="left">Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>homeless</code></td>
+<td align="left">Housing status (housed, homeless)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>i1</code></td>
+<td align="left">Average number of drinks consumed per day in past 30 days (measured at baseline)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>i2</code></td>
+<td align="left">Maximum number of drinks consumed per day in past 30 days (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>id</code></td>
+<td align="left">Subject identifier</td>
+</tr>
+<tr class="even">
+<td align="left"><code>indtot</code></td>
+<td align="left">Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>linkstatus</code></td>
+<td align="left">Post-detox linkage to primary care (0 = no, 1 = yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>link</code></td>
+<td align="left">Post-detox linkage to primary care (no, yes)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>mcs</code></td>
+<td align="left">SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>pcs</code></td>
+<td align="left">SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>pss_fr</code></td>
+<td align="left">Perceived social support by friends (measured at baseline; higher scores indicate more support)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>racegrp</code></td>
+<td align="left">Race/Ethnicity (black, hispanic, white, other)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>satreat</code></td>
+<td align="left">Any BSAS substance abuse treatment at baseline (no, yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>sexrisk</code></td>
+<td align="left">Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>substance</code></td>
+<td align="left">Primary substance of abuse (alcohol, cocaine, heroin)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>treat</code></td>
+<td align="left">Randomized to HELP clinic (no, yes)</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="step-2" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 2</h1>
-<div id="question-1" class="section level2">
-<h2>Question</h2>
+<div id="instructions-1" class="section level2">
+<h2>Instructions</h2>
 <p>Install the <code>summarytools</code> and <code>tidyverse</code> packages in R. Then, load the packages.</p>
 <p>Make a frequency table for <code>sex</code> and <code>d1</code>. Include these frequency tables in your submission and answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
@@ -294,8 +415,8 @@ div.tocify {
 </div>
 <div id="step-3" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 3</h1>
-<div id="question-2" class="section level2">
-<h2>Question</h2>
+<div id="instructions-2" class="section level2">
+<h2>Instructions</h2>
 <p>Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for <code>age</code>.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are between the ages of 40 and 45 whose primary substance of abuse is cocaine?</li>
@@ -323,8 +444,8 @@ subdata %&gt;%
 </div>
 <div id="step-5" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 5</h1>
-<div id="question-3" class="section level2">
-<h2>Question</h2>
+<div id="instructions-3" class="section level2">
+<h2>Instructions</h2>
 <p>Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the <code>descr()</code> function that is in the package, <code>summarytools</code>. Let’s examine descriptive statistics for the variable, <code>e2b</code>, which is the number of times in the past 6 months that the respondent entered a detox program.</p>
 <p>Examine the descriptive statistics for <code>e2b</code> and answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
@@ -343,8 +464,8 @@ subdata %&gt;%
 </div>
 <div id="step-6" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 6</h1>
-<div id="question-4" class="section level2">
-<h2>Question</h2>
+<div id="instructions-4" class="section level2">
+<h2>Instructions</h2>
 <p>We will now learn how to use the <code>mutate()</code> function to create a new variable from existing ones. We will use the variables, <code>daysanysub</code> and <code>dayslink</code>.</p>
 <p>Create a new variable called <code>Mdays</code> that is the mean of <code>daysanysub</code> and <code>dayslink</code>. Then, examine the descriptive statistics of the new variable, <code>Mdays</code>, and answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
@@ -373,8 +494,8 @@ hdata %&gt;%
 </div>
 <div id="step-7" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 7</h1>
-<div id="question-5" class="section level2">
-<h2>Question</h2>
+<div id="instructions-5" class="section level2">
+<h2>Instructions</h2>
 <p>There are times when we may want to take continuous variables and make them into categorical variables. For example, assume we are interested in respondents’ depression scores, <code>cesd</code>, but we want to categorize them into low and high depression scores.</p>
 <p>We refer to this process as <strong>recoding variables</strong>. For this exercise, let’s say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.</p>
 <p>Use the <code>mutate()</code> and <code>case_when()</code> functions to recode <code>cesd</code> into a new variable, <code>dcesd</code>, with only two categories, low (<span class="math inline">\(\le\)</span> 30) and high (&gt; 30).</p>

@@ -52,7 +52,9 @@ See LA-3 for a reminder of how to set up your R script for assignments.
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
-Read the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.
+Read the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) into a data frame in R (give the data frame a name of your choice). View the HELP data set in the Console and answer the questions below.
+
+You should also take this opportunity to review the codebook.
 
 a) How many cases are there in the HELP dataset?
 b) How many variables are there in the HELP dataset?
@@ -62,10 +64,42 @@ Read [this section of COMM 3710: Getting Started with R](https://sarakyeo.github
 
 You can also open the documentation for the function, `read_csv()` in R.
 
+## Codebook
+
+
+| Variable Name | Description |
+| :------------ | :---------- |
+| `age` | Subject age at baseline |
+| `anysub` | Use of any substance post-detox (no, yes) |
+| `cesd` | Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms) |
+| `d1` | Lifetime number of hospitalizations for medical problems (measured at baseline) |
+| `daysanysub` | Time (in days) to first use of any substance post-detox |
+| `dayslink` | Time (in days) to linkage to primary care |
+| `drugrisk` | Risk Assessment Battery drug risk scale at baseline |
+| `e2b` | Number of times in past 6 months entered a detox program (measured at baseline) |
+| `female` | Biological sex (0 = male, 1 = female) |
+| `sex` | Biological sex (male, female)  |
+| `g1b` | Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes) |
+| `homeless` | Housing status (housed, homeless) |
+| `i1` | Average number of drinks consumed per day in past 30 days (measured at baseline) |
+| `i2` | Maximum number of drinks consumed per day in past 30 days (measured at baseline) |
+| `id` | Subject identifier |
+| `indtot` | Inventory of Drug Use Consequences (InDUC) total score (measured at baseline) |
+| `linkstatus` | Post-detox linkage to primary care (0 = no, 1 = yes) |
+| `link` | Post-detox linkage to primary care (no, yes) |
+| `mcs` | SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status) |
+| `pcs` | SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status) |
+| `pss_fr` | Perceived social support by friends (measured at baseline; higher scores indicate more support) |
+| `racegrp` | Race/Ethnicity (black, hispanic, white, other) |
+| `satreat` | Any BSAS substance abuse treatment at baseline (no, yes) |
+| `sexrisk` | Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk) |
+| `substance` | Primary substance of abuse (alcohol, cocaine, heroin) |
+| `treat` | Randomized to HELP clinic (no, yes) |
+
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
-Review the [codebook for the HELP dataset](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset). In this step, we will learn to use the pipe operator.
+In this step, we will learn to use the pipe operator.
 
 The pipe operator, `%>%`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
 

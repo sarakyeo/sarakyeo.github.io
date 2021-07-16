@@ -26,16 +26,48 @@ Remember to ...
 ---
 
 # Step 1 {.tabset .tabset-fade}
+## Instructions
 Load the following packages in your current session of R:
 
 - `tidyverse`
 - `summarytools`
 
-Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. Use the [codebook](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset) to familiarize yourself with the variables in the data set.
+Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
+
+## Codebook
+
+| Variable Name | Description |
+| :------------ | :---------- |
+| `age` | Subject age at baseline |
+| `anysub` | Use of any substance post-detox (no, yes) |
+| `cesd` | Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms) |
+| `d1` | Lifetime number of hospitalizations for medical problems (measured at baseline) |
+| `daysanysub` | Time (in days) to first use of any substance post-detox |
+| `dayslink` | Time (in days) to linkage to primary care |
+| `drugrisk` | Risk Assessment Battery drug risk scale at baseline |
+| `e2b` | Number of times in past 6 months entered a detox program (measured at baseline) |
+| `female` | Biological sex (0 = male, 1 = female) |
+| `sex` | Biological sex (male, female)  |
+| `g1b` | Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes) |
+| `homeless` | Housing status (housed, homeless) |
+| `i1` | Average number of drinks consumed per day in past 30 days (measured at baseline) |
+| `i2` | Maximum number of drinks consumed per day in past 30 days (measured at baseline) |
+| `id` | Subject identifier |
+| `indtot` | Inventory of Drug Use Consequences (InDUC) total score (measured at baseline) |
+| `linkstatus` | Post-detox linkage to primary care (0 = no, 1 = yes) |
+| `link` | Post-detox linkage to primary care (no, yes) |
+| `mcs` | SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status) |
+| `pcs` | SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status) |
+| `pss_fr` | Perceived social support by friends (measured at baseline; higher scores indicate more support) |
+| `racegrp` | Race/Ethnicity (black, hispanic, white, other) |
+| `satreat` | Any BSAS substance abuse treatment at baseline (no, yes) |
+| `sexrisk` | Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk) |
+| `substance` | Primary substance of abuse (alcohol, cocaine, heroin) |
+| `treat` | Randomized to HELP clinic (no, yes) |
 
 
 # Step 2 {.tabset .tabset-fade}
-## Question
+## Instructions
 Patients with a mental component score (`mcs`) less than 20 are thought to be at extreme risk of returning to the detoxification unit within the next 12 months.
 
 Make a new variable called `ExtremeMCS` and code it as `1` if a patient is at risk based on his/her mcs score and `0` otherwise. Then, answer the following questions.

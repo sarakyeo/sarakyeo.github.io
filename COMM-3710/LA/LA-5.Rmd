@@ -30,17 +30,48 @@ In this assignment, you will learn how to:
 ---
 
 # Step 1 {.tabset .tabset-fade}
-## Question
+## Instructions
 
-Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file. The codebook can be found [here](https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset).
+Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
 
 ## Hint
 
 See LA-4 for a reminder of how to load data into R.
 
+## Codebook
+
+| Variable Name | Description |
+| :------------ | :---------- |
+| `age` | Subject age at baseline |
+| `anysub` | Use of any substance post-detox (no, yes) |
+| `cesd` | Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms) |
+| `d1` | Lifetime number of hospitalizations for medical problems (measured at baseline) |
+| `daysanysub` | Time (in days) to first use of any substance post-detox |
+| `dayslink` | Time (in days) to linkage to primary care |
+| `drugrisk` | Risk Assessment Battery drug risk scale at baseline |
+| `e2b` | Number of times in past 6 months entered a detox program (measured at baseline) |
+| `female` | Biological sex (0 = male, 1 = female) |
+| `sex` | Biological sex (male, female)  |
+| `g1b` | Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes) |
+| `homeless` | Housing status (housed, homeless) |
+| `i1` | Average number of drinks consumed per day in past 30 days (measured at baseline) |
+| `i2` | Maximum number of drinks consumed per day in past 30 days (measured at baseline) |
+| `id` | Subject identifier |
+| `indtot` | Inventory of Drug Use Consequences (InDUC) total score (measured at baseline) |
+| `linkstatus` | Post-detox linkage to primary care (0 = no, 1 = yes) |
+| `link` | Post-detox linkage to primary care (no, yes) |
+| `mcs` | SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status) |
+| `pcs` | SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status) |
+| `pss_fr` | Perceived social support by friends (measured at baseline; higher scores indicate more support) |
+| `racegrp` | Race/Ethnicity (black, hispanic, white, other) |
+| `satreat` | Any BSAS substance abuse treatment at baseline (no, yes) |
+| `sexrisk` | Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk) |
+| `substance` | Primary substance of abuse (alcohol, cocaine, heroin) |
+| `treat` | Randomized to HELP clinic (no, yes) |
+
 
 # Step 2 {.tabset .tabset-fade}
-## Question
+## Instructions
 
 Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
@@ -67,7 +98,7 @@ hdata %>%
 
 
 # Step 3 {.tabset .tabset-fade}
-## Question
+## Instructions
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
 
 a. How many patients are between the ages of 40 and 45 whose primary substance of abuse is cocaine?
@@ -94,7 +125,7 @@ b. What percentage of patients who are at least 40 years old and have cocaine li
 
 
 # Step 5 {.tabset .tabset-fade}
-## Question
+## Instructions
 Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the `descr()` function that is in the package, `summarytools`. Let's examine descriptive statistics for the variable, `e2b`, which is the number of times in the past 6 months that the respondent entered a detox program.
 
 Examine the descriptive statistics for `e2b` and answer the questions below.
@@ -114,7 +145,7 @@ hdata %>%
 
 
 # Step 6 {.tabset .tabset-fade}
-## Question
+## Instructions
 We will now learn how to use the `mutate()` function to create a new variable from existing ones. We will use the variables, `daysanysub` and `dayslink`.
 
 Create a new variable called `Mdays` that is the mean of `daysanysub` and `dayslink`. Then, examine the descriptive statistics of the new variable, `Mdays`, and answer the following questions.
@@ -147,7 +178,7 @@ hdata %>%
 
 
 # Step 7 {.tabset .tabset-fade}
-## Question
+## Instructions
 There are times when we may want to take continuous variables and make them into categorical variables. For example, assume we are interested in respondents' depression scores, `cesd`, but we want to categorize them into low and high depression scores.
 
 We refer to this process as **recoding variables**. For this exercise, let's say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.

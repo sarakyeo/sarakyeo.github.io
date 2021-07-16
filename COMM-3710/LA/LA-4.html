@@ -281,7 +281,8 @@ div.tocify {
 <h1 class="tabset tabset-fade">Step 2</h1>
 <div id="instructions-1" class="section level2">
 <h2>Instructions</h2>
-<p>Read the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP dataset</a> into a data frame in R (give the data frame a name of your choice). View the HELP dataset in the Console and answer the questions below.</p>
+<p>Read the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP dataset</a> into a data frame in R (give the data frame a name of your choice). View the HELP data set in the Console and answer the questions below.</p>
+<p>You should also take this opportunity to review the codebook.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many cases are there in the HELP dataset?</li>
 <li>How many variables are there in the HELP dataset?</li>
@@ -292,12 +293,133 @@ div.tocify {
 <p>Read <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#set-working-directory-and-readload-data-into-r">this section of COMM 3710: Getting Started with R</a>.</p>
 <p>You can also open the documentation for the function, <code>read_csv()</code> in R.</p>
 </div>
+<div id="codebook" class="section level2">
+<h2>Codebook</h2>
+<table>
+<colgroup>
+<col width="54%" />
+<col width="45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable Name</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>age</code></td>
+<td align="left">Subject age at baseline</td>
+</tr>
+<tr class="even">
+<td align="left"><code>anysub</code></td>
+<td align="left">Use of any substance post-detox (no, yes)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>cesd</code></td>
+<td align="left">Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>d1</code></td>
+<td align="left">Lifetime number of hospitalizations for medical problems (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>daysanysub</code></td>
+<td align="left">Time (in days) to first use of any substance post-detox</td>
+</tr>
+<tr class="even">
+<td align="left"><code>dayslink</code></td>
+<td align="left">Time (in days) to linkage to primary care</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>drugrisk</code></td>
+<td align="left">Risk Assessment Battery drug risk scale at baseline</td>
+</tr>
+<tr class="even">
+<td align="left"><code>e2b</code></td>
+<td align="left">Number of times in past 6 months entered a detox program (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>female</code></td>
+<td align="left">Biological sex (0 = male, 1 = female)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>sex</code></td>
+<td align="left">Biological sex (male, female)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>g1b</code></td>
+<td align="left">Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>homeless</code></td>
+<td align="left">Housing status (housed, homeless)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>i1</code></td>
+<td align="left">Average number of drinks consumed per day in past 30 days (measured at baseline)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>i2</code></td>
+<td align="left">Maximum number of drinks consumed per day in past 30 days (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>id</code></td>
+<td align="left">Subject identifier</td>
+</tr>
+<tr class="even">
+<td align="left"><code>indtot</code></td>
+<td align="left">Inventory of Drug Use Consequences (InDUC) total score (measured at baseline)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>linkstatus</code></td>
+<td align="left">Post-detox linkage to primary care (0 = no, 1 = yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>link</code></td>
+<td align="left">Post-detox linkage to primary care (no, yes)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>mcs</code></td>
+<td align="left">SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>pcs</code></td>
+<td align="left">SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>pss_fr</code></td>
+<td align="left">Perceived social support by friends (measured at baseline; higher scores indicate more support)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>racegrp</code></td>
+<td align="left">Race/Ethnicity (black, hispanic, white, other)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>satreat</code></td>
+<td align="left">Any BSAS substance abuse treatment at baseline (no, yes)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>sexrisk</code></td>
+<td align="left">Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk)</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>substance</code></td>
+<td align="left">Primary substance of abuse (alcohol, cocaine, heroin)</td>
+</tr>
+<tr class="even">
+<td align="left"><code>treat</code></td>
+<td align="left">Randomized to HELP clinic (no, yes)</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="step-3" class="section level1 tabset tabset-fade">
 <h1 class="tabset tabset-fade">Step 3</h1>
 <div id="instructions-2" class="section level2">
 <h2>Instructions</h2>
-<p>Review the <a href="https://github.com/sarakyeo/sarakyeo.github.io/blob/master/COMM-3710/LA/README.MD#help-dataset">codebook for the HELP dataset</a>. In this step, we will learn to use the pipe operator.</p>
+<p>In this step, we will learn to use the pipe operator.</p>
 <p>The pipe operator, <code>%&gt;%</code>, is used to perform sequential functions in R. It is part of the package, <code>magrittr</code> and also included in the <code>tidyverse</code> package.</p>
 <p>You can also this of the <code>%&gt;%</code> as “then.” Here is an example from our daily lives:</p>
 <pre><code>Woke up %&gt;% 
