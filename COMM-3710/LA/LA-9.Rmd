@@ -1,115 +1,116 @@
 ---
-title: "LA.7: Practice Data Analysis (10 points)"
-pagetitle: "COMM 3710: LA.7"
+title: "LA-9: Practice Data Analysis (10 points)"
+pagetitle: "COMM 3710: LA-9"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
-# Resources
-Before starting this assignment, review the following videos, if necessary:
+```{r setup, include=FALSE}
+library(tidyverse)
+library(descr)
+hdata <- read.csv("HELP.csv")
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-1. [Hypothesis testing](https://youtu.be/08uylSp-CuI)
-2. [Analysis of variance (ANOVA)](https://youtu.be/2uQCUBtqCfM)
-3. [Chi-square test of independence](https://youtu.be/Dnlp9vswwEk)
-4. [Correlation](https://youtu.be/lf4HfHx2ASs)
+In this assignment, you will learn how to:
 
-Remember that help with R is also available in the [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html) book and
-other resources available in the R Resources module on Canvas.
+- Select a statistical test.
+- Conduct a statistical test.
+
+Remember to ...
+
+1) Set up your R script appropriately.
+2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
 You may find the following R packages useful as you work through this assignment:
 
-- `magrittr`
 - `tidyverse`
 - `summarytools`
 - `rstatix`
-- `Hmisc`
-
-Additionally, you can refer back to hints from previous assignments:
-
-- [LA.3](https://sarakyeo.github.io/COMM-3710/LA/LA.3.html)
-- [LA.4](https://sarakyeo.github.io/COMM-3710/LA/LA.4.html)
-- [LA.5](https://sarakyeo.github.io/COMM-3710/LA/LA.5.html)
-- [LA.6](https://sarakyeo.github.io/COMM-3710/LA/LA.6.html)
 
 ---
 
-# Data
-[Data for this assignment comes from the 1985 Current Population Survey (CPS)](https://utah.instructure.com/files/108105224/download?download_frd=1).
+# Step 1 {.tabset .tabset-fade}
+## Instructions
+Familiarize yourself with the CPS documentation in the codebook. Then, read the [CPS data set](https://utah.instructure.com/files/117853077/download?download_frd=1) into R.
+
+## Codebook
+Data for this assignment comes from the 1985 Current Population Survey (CPS).
 The CPS is used to supplement census information between census years. These
 data consist of a random sample of persons from the survey, with information
 on wages and other characteristics of the workers, including sex, number of
 years of education, years of work experience, occupational status, region of
-residence and union membership.
+residence and union membership. This data frame has 534 observations.
 
-A data frame with 534 observations on the following variables:
+| Variable Name | Description |
+| :------------ | :---------- |
+| `wage` | Wage (US dollars per hour) |
+| `educ` | Number of years of education |
+| `race` | Factor with levels: NW (non-white), W (white) |
+| `sex` | Factor with levels: F, M |
+| `hispanic` | Factor with levels: Hisp, NH (non-Hispanic) |
+| `south` | Factor with levels: NS (non-south), S (south) |
+| `married` | Factor with levels: Married, Single |
+| `exper` | Number of years of work experience |
+| `union` | Factor with levels: Not (not part of union), Union |
+| `age` | Age in years |
+| `sector` | Factor with levels: clerical, const, manag, manuf, other prof, sales, service |
+| `satisfaction` | 1 = satisfied with current employment, 0 = otherwise |
 
-* `wage`: wage (US dollars per hour)
-*	`educ`: number of years of education
-*	`race`: a factor with levels NW (nonwhite) or W (white)
-*	`sex`: a factor with levels FM
-*	`hispanic`: a factor with levels Hisp or NH
-*	`south`: a factor with levels NSS
-*	`married`: a factor with levels Married or Single
-*	`exper`: number of years of work experience (inferred from age and educ)
-*	`union`: a factor with levels Not or Union
-*	`age`: age in years
-*	`sector`: a factor with levels clerical const manag manuf other prof sales
-service
-*	`satisfaction`: 1 implies participant satisfied with current employment, 0
-otherwise
-
----
-
-# Instructions
-
-## Step 1
-Familiarize yourself with the CPS documentation above. Then, load the [CPS data set](https://utah.instructure.com/files/108105224/download?download_frd=1) in R.
-
-## Step 2
+# Step 2
 Find the mean wage earned per hour for males and females.
 
-a. What is the mean wage earned per hour for females?
-b. What is the mean wage earned per hour for males?
+a) What is the mean wage earned per hour for females?
+b) What is the mean wage earned per hour for males?
  
-## Step 3
-Implement the appropriate statistical test to determine whether males have
-significantly higher wages earned per hour than females. Use the chart from
-[LA.6](https://sarakyeo.github.io/COMM-3710/LA/LA.6.html) to guide your choice
-of statistical test.
+ 
+# Step 3
+Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females.
 
-a. What statistical test did you use? <!--Independent samples t-test-->
-b. What is the value of the test statistic? <!--t = -4.84, p < .001-->
-c. What conclusions can be drawn? <!--There is a statistically significant
-difference in mean wage per hour between men and women-->
+a) State your hypothesis about whether males earn higher wages per hour than females.
+b) Which statistical test will you use to address your hypothesis??
+c) What is the test statistic and associated *p*-value?
+d) Does the test support or refute your hypothesis?
 
-## Step 4
-Implement the appropriate statistical test to determine whether there is a
-significant linear relationship between wages earned per hour and number of
-years of work experience.
 
-a. What statistical test did you use? <!--Pearson's correlation-->
-b. What is the value of the test statistic? <!--Pearson's r = .09, p = .044-->
-c. What conclusions can be drawn? <!-- There is a statistically significant
-relationship between the variables that is weak and positive-->
+# Step 4
+Implement the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour and number of years of work experience.
 
-## Step 5
-Implement the appropriate statistical test to determine whether job
-satisfaction varies significantly among the different job sectors.
+a) State your hypothesis about the relationship between wages earned per hour and number of years of experience.
+b) Which statistical test will you use to address your hypothesis?
+c) What is the test statistic and associated *p*-value?
+d) Does the test support or refute your hypothesis?
 
-a. What statistical test did you use? <!--Chi-squared test-->
-b. What is the value of the test statistic? <!--X-squared = 3.65, df = 7,
-p = .82-->
-c. What conclusions can be drawn? <!--Job satisfaction and job sector are not
-related-->
 
-## Step 6
-Submit the following on Canvas.
+# Step 5
+Implement the appropriate statistical test to determine whether job satisfaction varies significantly among the different job sectors.
 
-a. A **.R file** containing the annotated code used to complete this
-assignment. This document should include comments that explain your commands.
-b. A **PDF file** containing the answers to each question--clearly label the
-answers with the corresponding question number.
+a) State your hypothesis about whether job satisfaction varies significantly among job sectors.
+b) Which statistical test will you use to address your hypothesis?
+c) What is the test statistic and associated *p*-value?
+d) Does the test support or refute your hypothesis?
+
+
+# Submission
+
+Submit your R script (`LA-9_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-9_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.
