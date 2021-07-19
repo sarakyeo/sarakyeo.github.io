@@ -29,6 +29,27 @@ I expect you to log into the course Canvas website regularly (**at least 3-5 tim
 
 ---
 
+# Teaching Assistants
+There are two graduate teaching assistants (TAs) in this course. Each graduate TA will be leading two lab sections.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+Section <- c("002", "003", "004", "005")
+TA <- c("Alexis Vega", "Alexis Vega", "Yi Liao", "Yi Liao")
+Day <- c("Wed", "Wed", "Fri", "Fri")
+Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
+Email <- c("alexis.vega@utah.edu", "alexis.vega@utah.edu", "yi.liao@utah.edu", "yi.liao@utah.edu")
+Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
+lab_data <- tibble(Section, TA, Email, Day, Time, Location)
+lab_data %>% 
+  kbl() %>% 
+  kable_minimal("hover", full_width = FALSE)
+```
+
+---
+
 # Required Text and Readings
 Two books are required for this course. Both are available online.
 
@@ -93,23 +114,7 @@ There are 9 individual assignments. Information on individual assignments will b
 ---
 
 ## Lab Attendance
-This course has two graduate teaching assistants (TAs) for four lab sections. 
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(kableExtra)
-library(tidyverse)
-library(magrittr)
-Section <- c("002", "003", "004", "005")
-TA <- c("Alexis Vega", "Alexis Vega", "Yi Liao", "Yi Liao")
-Day <- c("Wed", "Wed", "Fri", "Fri")
-Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
-Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
-lab_data <- tibble(Section, TA, Day, Time, Location)
-lab_data %>% 
-  kbl() %>% 
-  kable_minimal("hover", full_width = FALSE)
-```
-When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
+This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
 
 If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade.
 
