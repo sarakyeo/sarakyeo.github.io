@@ -88,7 +88,7 @@ First, identify whether the independent and dependent variables are quantitative
 Conduct the statistical test you selected in your answer to 3c and answer the following questions.
 
 a) What is the test statistic and the probability value associated with that test statistic?
-b) Is there a significant relationship between total bill and season?
+b) Do respondents' total monthly bills differ by season?
 
 ## Hint
 **Test statistics and *p*-values**
