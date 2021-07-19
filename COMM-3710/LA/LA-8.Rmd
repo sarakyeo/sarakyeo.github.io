@@ -64,11 +64,12 @@ a) Run a frequency distribution of `season`.
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
-Let's say we want to conduct a statistical test to determine whether respondents' total monthly bill differs by season. First, we need to identify whether `totalbill` is categorical or continuous.
+Let's say we want to conduct a statistical test to determine whether respondents' total monthly bill differs by season. First, answer the questions below. Be sure to include your answers as comments in your R file.
 
-a) Run a frequency distribution of `totalbill`. Is this variable categorical or continuous? Be sure to note your answer as a comment in your R file.
-b) Is the variable, `season`, continuous or categorical?
-c) Check the chart in the Hint tab. Given your answers to 3a and 3b, what statistical test should you use?
+a) Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
+b) Run a frequency distribution of `totalbill`. Is this variable categorical or continuous?
+c) Is the variable, `season`, continuous or categorical?
+d) Check the chart in the Hint tab. Given your answers to 3a and 3b, what statistical test should you use?
 
 
 ## Hint
@@ -112,13 +113,16 @@ The images below identify the test statistics and *p*-values in R output. Be sur
 
 
 # Step 5 {.tabset .tabset-fade}
-Next, you will form a hypothesis about the difference in people's gas bills by season and conduct the appropriate statistical test to address your hypothesis.
+Next, you will form a hypothesis about the difference in people's winter vs. summer gas bills and conduct the appropriate statistical test to address your hypothesis.
 
-a) State your hypothesis. What do you think is the relationship between monthly gas bills and season?
-b) Determine whether your variables are categorical or continuous. State these clearly in your R file.
-c) Select a statistical test; clearly label your answer in your R file.
-d) Conduct the statistical test and report your test statistic and *p*-value.
-e) Does the test support your hypothesis? Why or why not?
+a) State your hypothesis. Do you think monthly gas bills will be different in the summer relative to winter? If so, why?
+b) Identify the dependent and independent variables that you will use to conduct this statistical test.
+c) Determine whether your independent and dependent variables are categorical or continuous. State these clearly in your R file.
+d) Select a statistical test; clearly state your answer in your R file.
+e) Write pseudocode of the process by which you will conduct your statistical test.
+f) Write R code to conduct the statistical test and report the test statistic and associated *p*-value.
+g) Calculate the mean monthly gas bill in winter and summer.
+h) Does the test support your hypothesis?
 
 
 # Submission
