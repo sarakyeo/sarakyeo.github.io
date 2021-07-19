@@ -11,7 +11,7 @@ urlcolor: blue
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(descr)
+library(summarytools)
 hdata <- read.csv("HELP.csv")
 knitr::opts_chunk$set(echo = FALSE)
 ```
