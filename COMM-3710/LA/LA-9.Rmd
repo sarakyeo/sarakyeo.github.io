@@ -16,11 +16,6 @@ hdata <- read.csv("HELP.csv")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In this assignment, you will learn how to:
-
-- Select a statistical test.
-- Conduct a statistical test.
-
 Remember to ...
 
 1) Set up your R script appropriately.
