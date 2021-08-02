@@ -91,6 +91,8 @@ Your presentation should include:
 - An analytic answer addressing your stated research questions and hypotheses.
 - Appendices (as PDF files, not included in your presentation) or additional materials that show your analytic procedures (i.e., SPSS syntax or R code).
 
+You will present a **project prospectus** in **Week 6**. Your prospectus should include all the components of your final presentation or a plan for accomplishing each component.
+
 ---
 
 ## Participation
@@ -246,6 +248,8 @@ Campus security authorities are university employees who have significant respon
 
 - Carmines, E. G., & Zeller, R. A. (1979). *Reliability and Validity Assessment*. Newbury Park, CA: SAGE Publications.
 - Binder, A. R., Cacciatore, M. A., Scheufele, D. A., Shaw, B. R., & Corley, E. A. (2012). Measuring risk/benefit perceptions of emerging technologies and their potential impact on communication of public opinion toward science. *Public Understanding of Science, 21*(7), 830–847. https://doi.org/10.1177/0963662510390159
+
+\*Project prospectus due by 11:59 pm today.
 
 
 ## Week 7 (7-Oct)
