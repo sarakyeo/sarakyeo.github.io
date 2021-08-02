@@ -40,7 +40,7 @@ Section <- c("002", "003", "004", "005")
 TA <- c("Alexis Vega", "Alexis Vega", "Yi Liao", "Yi Liao")
 Day <- c("Wed", "Wed", "Fri", "Fri")
 Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
-Email <- c("alexis.vega@utah.edu", "alexis.vega@utah.edu", "yi.liao@utah.edu", "yi.liao@utah.edu")
+Email <- c("alexis.vega@utah.edu", "alexis.vega@utah.edu", "u1368483@utah.edu", "u1368483@utah.edu")
 Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
 lab_data <- tibble(Section, TA, Email, Day, Time, Location)
 lab_data %>% 
