@@ -80,8 +80,10 @@ Please upload materials for the methods presentation to Canvas **at least 48 hou
 
 ---
 
-## Final Presentation
-What you have learned throughout the course of the semester will culminate in a research presentation based on quantitative data analysis. Ideally, this will be analysis of data from a project on which you are currently working.
+## Final Project/Presentation
+What you have learned throughout the course of the semester will culminate in a research presentation based on quantitative data analysis. Ideally, this will be analysis of data from a project on which you are currently working. 
+
+If you do not have access to data, I am happy to share some survey data on perceptions around enhanced geothermal systems (EGS) that is part of an on-going collaboration with the [Utah FORGE](https://utahforge.com) project. You are also welcome to use publicly available data (e.g., General Social Survey).
 
 Your presentation should include:
 
