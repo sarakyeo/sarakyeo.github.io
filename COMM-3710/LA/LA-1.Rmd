@@ -24,7 +24,7 @@ Watch this [video](https://youtu.be/ZvPFKfNHBNQ) explaining R and RStudio and ho
 Read Ch. 1 of [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
 
 ## Step 3
-Follow the instructions in [Sections 2.1 and 2.2](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#install) to install R and RStudio. Then, watch this [video](https://rstudio.com/products/rstudio/?wvideo=520zbd3tij) to learn how to navigate RStudio. **Take a screenshot of RStudio**.
+Follow the instructions in [Sections 2.1 and 2.2](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#install) to install R and RStudio. Then, watch this [video](https://rstudio.com/products/rstudio/?wvideo=520zbd3tij) to learn how to navigate RStudio. **Take a screenshot of RStudio and save it**.
 
 ## Step 4
 Set preferences in RStudio.
@@ -59,13 +59,13 @@ Choose a naming convention for your class folder and stick with it. Some recomme
 2. `lab_assignments` to store your lab assignments.
 3. `data` for storing data files.
 
-**All files related to this course should be stored in this working directory. Take a screenshot of your working directory.**
+**All files related to this course should be stored in this working directory. Take a screenshot of your working directory and save it.**
 
 ---
 
 # Part II: Get Started with R
 ## Step 1
-Read [Sections 2.3 and 2.4 in COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#how-do-i-use-r). Then, follow the instructions below and answer the questions.
+Read [Sections 2.3 and 2.4 in COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#how-do-i-use-r). From this point on, you will be using RStudio. Follow the instructions below and answer the questions. 
 
 ## Step 2
 a) Create an object that represents the product of `10 x 2`, and assign a name of your choice to this object.
@@ -73,7 +73,7 @@ b) Create a second object that represents the outcome of `35 - 5`, and assign a 
 c) Create a third object that represents the *product* of the first two objects and assign a name of your choice to this object.
 d) Answer the following question: What is the value of the third object?
 
-**Submit a screenshot of the R commands that you used to arrive at your answer to Question 4. This screenshot should include all three objects from Questions 1-3 and the answer to Question 4.**
+**Submit a screenshot of the R commands in RStudio that you used to arrive at your answer to Question 4. This screenshot should include all three objects from Questions 1-3 and the answer to Question 4.**
 
 ---
 
@@ -82,7 +82,7 @@ Submit a **single PDF document** on Canvas. Your PDF submission should contain t
 
 1. RStudio screenshot (see example below).
 2. COMM 3710 working directory screenshot (see example below).
-3. Screenshot of your R commands.
+3. Screenshot of your R commands in RStudio.
 
 ---
 
