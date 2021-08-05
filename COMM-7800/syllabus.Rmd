@@ -93,7 +93,7 @@ Your presentation should include:
 - An analytic answer addressing your stated research questions and hypotheses.
 - Appendices (as PDF files, not included in your presentation) or additional materials that show your analytic procedures (i.e., SPSS syntax or R code).
 
-You will present a **project prospectus** in **Week 6**. Your prospectus should include all the components of your final presentation or a plan for accomplishing each component.
+You will present a **project prospectus in Week 6**. Your prospectus should include all the components of your final presentation or a plan for accomplishing each component.
 
 ---
 
