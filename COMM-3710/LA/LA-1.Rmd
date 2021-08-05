@@ -12,7 +12,7 @@ output:
 
 [RStudio](https://rstudio.com/) is the program through which we will be using R. You will need to download and install both R and RStudio.
 
-**This assignment has two (2) parts.** In general, you should read the assignment in its entirety before starting.
+**This assignment has two (2) parts. Read the assignment in its entirety before starting.**
 
 ---
 
