@@ -15,6 +15,8 @@ Hybrid | Fall 2021 | Department of Communication | University of Utah
 # Course Outline
 This **hybrid course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
 
+> Lecture content will be online while lab sections will be in-person (see [Course Requirements]).
+
 We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
 
 Key topics include:
