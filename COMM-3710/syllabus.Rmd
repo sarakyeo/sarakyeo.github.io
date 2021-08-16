@@ -59,6 +59,7 @@ Two books are required for this course. Both are available online.
 
 - This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
 - You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
+- To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
 
 > Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
 
@@ -106,7 +107,9 @@ Course grades will be based on the following:
 ## Quizzes (100 pts)
 Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have until the end of the week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
 
-You will have 12 minutes to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+You will have **12 minutes** to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+
+**Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.**
 
 ---
 
@@ -127,8 +130,8 @@ In addition to the [course requirements], there will be a participation checkpoi
 
 **At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
 
-- "Regular participation” as a student is defined as earning at least 50\% of the possible points on required up to that point (Week 6).
-- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not performing to this standard by this point in the course, it is too late to “catch up.”
+- "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
+- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
 - I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated**.
 
 ---
