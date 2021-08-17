@@ -100,12 +100,12 @@ General computer support is available through the Marriott Library Knowledge Com
 # Course Requirements {.tabset .tabset-fade}
 Course grades will be based on the following:
 
-- Quizzes (30%)
+- Weekly quizzes (30%)
 - Individual lab assignments (50%)
 - Lab attendance (20%)
 
-## Quizzes (100 pts)
-Quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have until the end of the week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
+## Weekly Quizzes (100 pts)
+Weekly quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have approximately one week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
 
 You will have **12 minutes** to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
@@ -121,7 +121,7 @@ There are 9 individual assignments. Information on individual assignments will b
 ## Lab Attendance
 This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
 
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade.
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you may be asked to leave.
 
 ---
 
@@ -131,8 +131,8 @@ In addition to the [course requirements], there will be a participation checkpoi
 **At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
-- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **absolutely no exceptions will be granted**. Regular participation is required because each week’s material builds on the work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
-- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the Academic Calendar for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated**.
+- The checkpoint threshold is generous--well below a failing score for this course. For that reason, **no exceptions will be granted**. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
+- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated**.
 
 ---
 
@@ -143,7 +143,7 @@ In addition to the [course requirements], there will be a participation checkpoi
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
-**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email; review [email policy], if necessary), clearly outlining your rationale. These concerns must be presented to your instructor within one week of receiving your grade.**
+**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email) to your graduate [teaching assistants], clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.**
 
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
@@ -155,7 +155,7 @@ By enrolling in this course, you agree to:
 1. respect all members of the course;
 2. engage with the online content meaningfully;
 3. meet the requirements of this course; and
-4. abide by the course policies outlined below.
+4. abide by the course policies outlined in the syllabus.
 
 This list represents the **minimal standards** to make the course a productive learning space. **Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors**.
 
@@ -179,7 +179,7 @@ When you contact me, I expect you to be professional in your communication. This
 ## Course Civility
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
 
-Here is the basic etiquette that will be expected in the course:
+Here is the basic (n)etiquette that will be expected in the course:
 
 - Always address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
 - Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
@@ -197,7 +197,7 @@ In addition, academic misconduct may result in other penalties deemed appropriat
 ---
 
 ## Curriculum Accommodations
-Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict.
+Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with your [teaching assistant]. Without exception, it is your responsibility to plan for any scheduling conflict.
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
@@ -213,17 +213,17 @@ In the event of a University-wide emergency which prevents face-to-face meetings
 This is a hybrid course; you will be expected to attend some classes in person. To protect yourself and those you care about, the University recommends that you:
 
 - **Get a COVID-19 vaccination** if you have not already done so.
-- **Get weekly asymptomatic coronavirus tests** if you are not vaccinated (don't worry, no nasal swabs). For more information or to schedule an asymptomatic coronavirus test, visit [alert.utah.edu/covid/testing](https://alert.utah.edu/covid/testing/).
-- **Wear a facemask properly while indoors**.
+- **Get weekly asymptomatic coronavirus tests** if you are not vaccinated. For more information or to schedule an asymptomatic coronavirus test, visit [alert.utah.edu/covid/testing](https://alert.utah.edu/covid/testing/).
+- **Wear a face mask properly while indoors**.
 
-If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+If you test positive for COVID-19, submit a self-report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
 
 ---
 
 ## ADA
 The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020.
 
-CDS will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability Services](https://disability.utah.edu/).
+CDA will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability & Access](https://disability.utah.edu/).
 
 ---
 
