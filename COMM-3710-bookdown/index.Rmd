@@ -28,7 +28,7 @@ R is a free software environment for computing and graphics from [CRAN](https://
 
 > What is R in the context of COMM 3710? 
 
-In this course, you will learn to install and use R for data analysis. In other words, R is the software that you will in the labs associated with the course.
+In this course, you will learn to use R for data analysis. In other words, R is the software that you will primarily use in COMM 3710 labs.
 
 ---
 
@@ -69,7 +69,7 @@ If you are still wondering why we are using R instead of Microsoft Excel for dat
 
 ## R vs. RStudio
 
-Figure \@ref(fig:R-vs-RStudio), from [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html) is a good illustration of the distinction between R and RStudio [@ismayStatisticalInferenceData2021].
+Figure \@ref(fig:R-vs-RStudio) is a good illustration of the distinction between R and RStudio [@ismayStatisticalInferenceData2021].
 
 ```{r R-vs-RStudio, fig.align = "center", fig.cap = "Analogy of the difference between R and RStudio. Source: [ModernDive Chapter 1](https://moderndive.com/1-getting-started.html).", echo = FALSE}
 knitr::include_graphics("images/R-vs-RStudio.png")
