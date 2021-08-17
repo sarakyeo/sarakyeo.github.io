@@ -160,7 +160,13 @@ Curriculum accommodations take two forms—scheduling and content accommodations
 
 # University Policies {.tabset .tabset-fade}
 ## COVID-19
-**COVID-19.** If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+**COVID-19.** This is an in-person course; you will be expected to attend weekly classes in person. To protect yourself and those you care about, the University recommends that you:
+
+- **Get a COVID-19 vaccination** if you have not already done so.
+- **Get weekly asymptomatic coronavirus tests** if you are not vaccinated (don't worry, no nasal swabs). For more information or to schedule an asymptomatic coronavirus test, visit [alert.utah.edu/covid/testing](https://alert.utah.edu/covid/testing/).
+- **Wear a facemask properly while indoors**.
+
+If you test positive for COVID-19, you must submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
 
 ---
 
