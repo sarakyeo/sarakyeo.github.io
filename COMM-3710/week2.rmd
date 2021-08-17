@@ -252,8 +252,9 @@ The basic job of an IRB is to ensure researchers protect and inform participants
 
 Another job of the IRB is to determine and review **anonymity**, **confidentiality**, and **privacy**.
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/itYy0bDTEoA" data-external="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</center>
 
 ### Types of IRB Review {.tabset .tabset-fade .tabset-pills}
 As mentioned in the video, there are 3 types of IRB review:
