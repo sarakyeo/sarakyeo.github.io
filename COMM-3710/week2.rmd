@@ -7,7 +7,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
@@ -204,7 +204,7 @@ By defining ethics in terms of whether the means and ends are good (or moral / j
 3. Machiavellian ethic (bad means-good end)
 4. Subjective ethic (good means-bad end)
 
-Refer to Ch. 3 of your textbook for full definitions and examples of these ethical categories.
+Read Ch. 3 of your textbook for full definitions and examples of these ethical categories.
 
 
 ## The Belmont Report {.tabset .tabset-fade .tabset-pills}
@@ -253,11 +253,9 @@ The basic job of an IRB is to ensure researchers protect and inform participants
 Another job of the IRB is to determine and review **anonymity**, **confidentiality**, and **privacy**.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/itYy0bDTEoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/itYy0bDTEoA" data-external="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
-<br>
 
-<a href="#top">Back to top</a>
 
 ### Types of IRB Review {.tabset .tabset-fade .tabset-pills}
 As mentioned in the video, there are 3 types of IRB review:
