@@ -17,7 +17,7 @@ urlcolor: blue
 
 Welcome to a new semester and to COMM 3710!
 
-COMM 3710 is an asynchronous online course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
+COMM 3710 is a hybrid course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
 
 ---
 
@@ -26,49 +26,9 @@ COMM 3710 is an asynchronous online course. For more information on the course, 
 ---
 
 # An Introduction to Professor Yeo
-I am an Associate Professor in the Department of Communication. I am an expert in survey research and experiments. I primarily conduct research in science communication and you can check out some of my work [here](https://orcid.org/0000-0002-2043-8400). Currently, [my project on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) is funded by the [National Science Foundation](https://nsf.gov/).
+Prof. Sara K. Yeo is an Associate Professor in the Department of Communication. She is an expert in survey research and experiments, and primarily conducts research in science communication. Youcan check out some of her work [here](https://orcid.org/0000-0002-2043-8400). Currently, she has two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
 
-My CV and more information is available on my [faculty page](https://faculty.utah.edu/~sarakyeo). If you are interested in science communication research, email me at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu).
-
-
-# Some Highlights from the Syllabus {.tabset .tabset-fade}
-
-> Read the [syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html). And then read it again. And ***again*** for good measure.
-
-## Email Policy
-> It is critical that you check your University email account frequently and that you use your University email account to contact me.
->
-> **You will not receive a response to emails sent from a non-University account (e.g., Google, Yahoo, etc.)**.
-
-Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar.
-
-**Emails that do not conform to these rules will not receive a response**.
-
-When you contact me, I expect you to be professional in your communication. This includes:
-
-* Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
-* Providing your full name, uNID, and class section in the message.
-* Using appropriate salutations (e.g., Dr. or Prof. Yeo).
-* Using paragraphs, not just long blocks of text.
-* Proofreading your writing.
-* Providing a clear description of your problem and all relevant information.
-* Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
-
-## Course Textbook
-> The course textbook is required.
-
-Your textbook is available on Canvas through Inclusive Access. It is a great resource and I highly encourage you to use it as we progress through the semester.
-
-Additional readings will be available as PDFs on Canvas.
-
-
-## Technology
-1. Ensure that you are familiar with Canvas. Set up your notifications according to your preferences. If you need help with Canvas, review this [page](https://support.tlt.utah.edu/hc/en-us/articles/205654094).
-2. Check your University email account (uNID\@utah.edu) regularly. Ideally, you should check this email account every day. Messages sent to me via Canvas will not receive a response (see syllabus for full email policy).
-3. You will need Microsoft software (Word, Excel, PowerPoint) and Adobe Acrobat.
-4. You will also need access to [R](https://www.r-project.org/). More information about R will be provided as the semester progresses.
-5. You will need a webcam and a microphone to participate in drop-in office hours. We will use [Zoom](https://zoom.us/) for virtual office hours.
-6. The U's [Teaching \& Learning Technologies](https://tlt.utah.edu/) recommends that you have the **latest versions of at least two** browsers installed. The preferred web browser is [Google Chrome](https://www.google.com/chrome/browser/desktop/).
+Prof. Yeo's CV and more information is available on her [faculty page](https://faculty.utah.edu/~sarakyeo). If you are interested in science communication research, email Dr. Yeo at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu).
 
 
 # Some Helpful Resources {.tabset .tabset-fade}
@@ -91,11 +51,11 @@ Help is available Monday through Saturday. Please visit the [Campus Help Desk we
 # Note-taking for Success in College
 **I recommend taking notes while you review the content online. This will help you learn and recall material.**
 
-One note-taking system that you might consider trying is the [Cornell system](http://lsc.cornell.edu/study-skills/cornell-note-taking-system/). This system is detailed in the book below:
+One note-taking system that you can try is the [Cornell system](http://lsc.cornell.edu/study-skills/cornell-note-taking-system/). This system is detailed in the book below:
 
 > Pauk, W., & Owens, R. J. Q. (2013). *How to Study in College* (11 edition). Cengage Learning.
 
-An example of my own notes using the Cornell system:
+I have included the chapter on note-taking as a PDF on Canvas. Be sure to complete this reading. An example of my own notes using the Cornell system can be found below.
 
 <center>
 <img src="https://sarakyeo.github.io/images/cornell-notes.png"></img>
