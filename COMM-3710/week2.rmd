@@ -41,7 +41,7 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 </center>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O6hyn_N4oj0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O6hyn_N4oj0" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -67,7 +67,7 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 Once we have antecedent and consequent propositions, we can build an **argument**. The video below explains how propositions and arguments fit into the concept of a **hypothesis** and provides some examples:
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yjujv5Lb--Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjujv5Lb--Q" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
