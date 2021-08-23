@@ -47,8 +47,6 @@ Concept explication is a cyclical process. Through concept explication and itera
 </center>
 <br>
 
-<a href="#top">Back to top</a>
-
 ## Meaning Analysis
 **Meaning analysis** is the logical process of specifying the meaning and dimensions of a concept (i.e., developing conceptual definitions) and developing operational definitions. Meaning analysis is a deductive process that researchers use to define the concepts central to their research. The goal of meaning analysis is to develop **conceptual** and **operational definitions**. The process of meaning analysis involves conceptualization, operationalization, and measurement.
 
@@ -62,8 +60,6 @@ The process of meaning analysis is illustrated below:
 </center>
 <br>
 
-<a href="#top">Back to top</a>
-
 ## Empirical Analysis
 **Empirical analysis** is an inductive process by which we evaluate our conceptual and operational definitions based on empirical evidence (i.e., observations or data that we collect). We use statistical and logical procedures in empirical analysis to assess the quality of the conceptual and operational definitions that we developed through meaning analysis.
 
@@ -72,9 +68,6 @@ The process of empirical analysis is illustrated below (Note that you start from
 <img src="https://sarakyeo.github.io/images/empirical-analysis.png"/>
 </center>
 <br>
-
-<a href="#top">Back to top</a>
-
 
 # Steps in Meaning Analysis {.tabset .tabset-fade}
 As identified in McLeod et al., there are several steps in the process of meaning analysis, which is often also referred to as **conceptualization**:
@@ -89,34 +82,22 @@ As identified in McLeod et al., there are several steps in the process of meanin
 ## Identify the concept
 Researchers identify the concept of interest using a logical analysis of what we wish to study and explain. To do so, some of the questions we ask ourselves include: "Is this concept variable?" "What is the unit of analysis?" "What is the purpose of this variable for my research?" "How does it fit into my research problem?"
 
-<a href="#top">Back to top</a>
-
 ## Literature search
 There is no need to reinvent the wheel--we can (and should) use library resources to discover how previous scholars have conceptualized and operationalized the concept (or concepts) of interest. Some questions to ask: "What are the different conceptual definitions that have been used for this concept?" "What operational definitions have been used in previous studies?" "Are there different labels under which the concept has been studied?"
-
-<a href="#top">Back to top</a>
 
 ## Examine empirical properties
 In this step, we use descriptive statistics to examine the properties of operational definitions of the concept (e.g., central tendency, range, etc). We do this because the concept needs to have sufficient variation for it to be useful for research. Examining the empirical properties of a concept should give the researcher a better sense of how it should be operationalized.
 
-<a href="#top">Back to top</a>
-
 ## Develop a tentative conceptual definition
 Now, we need to identify the essential elements of the concept of interest.  For the purposes of your research, what does this term mean conceptually? What are the lower-order (i.e., less abstract) **dimensions** of the concept? There will be many iterations of this step as we revise and refine the conceptual definition--there is a fair amount of trial and error involved in this step.
-
-<a href="#top">Back to top</a>
 
 ## Define the concept operationally
 As researchers, we want to be able to directly measure concepts. When we develop operational definitions (through the process of operationalization), we need to ask what the observable measures of each concept will be. In other words, what empirical **indicators** will we use for the dimensions of the concept? 
 
 The operational definition should include: the conditions of observation; details of question wording, rating scale, manipulation procedures etc.; and analysis procedures and statistical operations that you might use in data analysis.
 
-<a href="#top">Back to top</a>
-
 ## Gather data
 All the work we have done to come up with conceptual and operational definitions for the concept need to be used in data collection. These data will then be used in the second part of concept explication--empirical analysis.
-
-<a href="#top">Back to top</a>
 
 
 # Concepts, Dimensions, and Indicators
@@ -133,14 +114,9 @@ In [Steps in Meaning Analysis](https://sarakyeo.github.io/COMM-3710/week3.html#S
 </center>
 <br>
 
-<a href="#top">Back to top</a>
-
 # Linking Concept Explication and Theory
 Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/117882977/download?download_frd=1) reading.
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QdoHRl4oM-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 </center>
-<br>
-
-<a href="#top">Back to top</a>
