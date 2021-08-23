@@ -210,7 +210,7 @@ To ensure that your R script runs without errors, you should:
 > These standards apply to all submissions in this course that require R scripts.
 
 ## Examples and R script template
-A template for your R script can be found [here](ADD CANVAS LINK).
+A template for your R script can be found [here](https://utah.instructure.com/files/120006973/download?download_frd=1).
 
 And an example of how to write pseudocode can be seen in this gif.
 ![](LA-3_example.gif)
