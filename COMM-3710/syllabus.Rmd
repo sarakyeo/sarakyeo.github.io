@@ -72,7 +72,7 @@ Additional readings will be provided as PDF documents on Canvas.
 # Technology Requirements {.tabset .tabset-fade}
 To ensure that you have full access to the course Canvas website, you will need:
 
-- Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course. Bring your laptop to lab.** 
+- Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course. You will need a laptop to bring to lab.** 
 - An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom), Microsoft Office (Word, Excel, PowerPoint), and Adobe Acrobat (free for UofU students) are recommended.
