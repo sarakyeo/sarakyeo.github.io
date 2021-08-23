@@ -210,8 +210,9 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- Chalmers, A. F. (2013). Deriving Theories from Facts: Induction. In *What Is This Thing Called Science?* (pp. 38–54). Hackett Publishing Company, Incorporated.
+- Chalmers, A. F. (2013). Introduction. In *What Is This Thing Called Science?* (pp. xix-xxi). Hackett Publishing Company, Incorporated.
 - Chalmers, A. F. (2013). Introducing Falsificationism. In *What Is This Thing Called Science?* (pp. 55–68). Hackett Publishing Company, Incorporated.
+- Donsbach, W. (2006). The identity of communication research. *Journal of Communication, 56(3)*, 437–448. https://doi.org/10.1111/j.1460-2466.2006.00294.x
 - Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science, 121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
 
 
