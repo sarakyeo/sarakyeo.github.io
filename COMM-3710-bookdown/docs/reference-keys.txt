@@ -12,6 +12,7 @@ fig:dataframe
 fig:boolean
 fig:new-script
 fig:wd
+fig:fold
 fig:fig-save
 fig:cats
 fig:r-coaster
@@ -42,6 +43,7 @@ setup
 open-rstudio
 create-a-new-r-script
 prepare-r-script
+creating-foldable-code-sections
 install-and-load-packages
 set-working-directory-and-readload-data-into-r
 saveRscript

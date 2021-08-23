@@ -40,6 +40,17 @@ knitr::include_graphics("images/set-working-dir.gif")
 
 ---
 
+## Creating foldable code sections
+
+You can also create sections of foldable code in RStudio (*Code* > *Insert Section...*). The figure below shows you how. Once you have created a section, you can collapse it by clicking the arrows next to the line numbers on the 
+
+```{r fold, echo = FALSE, fig.cap="Creating sections of foldable code in RStudio.", fig.align="center"}
+knitr::include_graphics("images/R-foldable-code.gif")
+```
+
+
+---
+
 ## Install and load packages
 
 Next, you need to install and load the R packages (see \@ref(packages)) you will be using for this R session. Refer to section \@ref(packages) for more information about installing vs. loading packages.
