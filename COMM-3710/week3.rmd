@@ -7,14 +7,14 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
 # What is Concept Explication? {.tabset .tabset-fade}
 > "A good part of the work called 'theorizing' is taken up with the clarification of concepts--and rightly so." -Robert Merton, *Social Theory and Social Structure* (1968, p. 168)
 
-**Additional reading**: [McLeod et al.](https://utah.instructure.com/files/103810206/download?download_frd=1)
+**Additional reading**: [McLeod et al.](https://utah.instructure.com/files/117882977/download?download_frd=1)
 
 When you type "define explicate" into a Google search, the result (combined with Merton's quote) gives us some idea about what **concept explication** means.
 
@@ -136,7 +136,7 @@ In [Steps in Meaning Analysis](https://sarakyeo.github.io/COMM-3710/week3.html#S
 <a href="#top">Back to top</a>
 
 # Linking Concept Explication and Theory
-Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/103810206/download?download_frd=1) reading.
+Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/117882977/download?download_frd=1) reading.
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QdoHRl4oM-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
