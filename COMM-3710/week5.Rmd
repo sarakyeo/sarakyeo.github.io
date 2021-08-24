@@ -11,7 +11,9 @@ urlcolor: blue
 ---
 
 # Survey Research
-Let's begin by examining some examples of survey questions. As you read these, think about why a respondent might be hesitant to provide an answer to each question. Write down your these thoughts so you can compare your notes with mine. While you can find fault with the response options provided for each survey question, try to focus instead on the wording of the question itself or the way the question is asked.
+Let's begin by examining some examples of survey questions. As you read these, think about why a respondent might be hesitant to provide an answer to each question. Write down your these thoughts so you can compare your notes with mine.
+
+While you can easily find fault with the response options provided for each survey question, try to focus instead on the wording of the question itself or the way the question is asked.
 
 ---
 
@@ -40,7 +42,7 @@ Let's begin by examining some examples of survey questions. As you read these, t
    - No
 
 If YES, how much attention did you pay to them?
-   
+
    - Close attention
    - Some attention
    - Little attention
@@ -55,7 +57,7 @@ If YES, how much attention did you pay to them?
 
 ---
 
-Check your answers [here](https://utah.instructure.com/files/105569800/download?download_frd=1).
+Check your answers [here](https://utah.instructure.com/files/120147345/download?download_frd=1).
 
 
 ## What is a Survey? {.tabset .tabset-fade}
@@ -74,9 +76,9 @@ Polling is survey research that we often hear about in media, especially as it r
 
 That said, people had some questions about the accuracy of polling following the 2016 election. Read the three articles below. Each highlights some of the contemporary challenges faced by polling.
 
-- [Bialik and Enten (2016)](https://utah.instructure.com/files/105570911/download?download_frd=1)
-- [Zukin (2015)](https://utah.instructure.com/files/105570910/download?download_frd=1)
-- [Silver (2014)](https://utah.instructure.com/files/105570909/download?download_frd=1)
+- [Bialik and Enten (2016)](https://utah.instructure.com/files/117883439/download?download_frd=1)
+- [Zukin (2015)](https://utah.instructure.com/files/117883435/download?download_frd=1)
+- [Silver (2014)](https://utah.instructure.com/files/117883434/download?download_frd=1)
 
 
 ### When to Use Surveys
@@ -87,7 +89,7 @@ According to Buckingham and Saunders (2004), for researchers to decide whether a
 3. Do your participants know anything? Will they tell you?
 4. Is your goal generalizability?
 
-Read about these four considerations in **Chapter 9 of your [textbook](https://utah.instructure.com/courses/628882/external_tools/73308?display=borderless)**.
+Read about these four considerations in **Chapter 9 of your [textbook](https://utah.instructure.com/courses/722123/external_tools/73308?display=borderless)**.
 
 ---
 
@@ -109,7 +111,7 @@ Two important aspects of questionnaire construction that researchers must pay at
 Being mindful of these aspects increases the likelihood that respondents will complete a survey. The video below discusses both these aspects in more detail.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQhBKComkHI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BQhBKComkHI" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -147,7 +149,12 @@ This is known as **secondary analysis** and the data used for such analyses are 
 
 
 ## Common Sources of Secondary Data
-The data sets listed in the [Modules](https://utah.instructure.com/courses/628882/modules) page are some examples of sources of secondary data. Spend some time on each of the websites listed and explore the data that can be downloaded. Many research questions have been answered using these secondary data.
+The data sets listed below are some examples of sources of secondary data. Spend some time on each website and explore the data that can be downloaded. Many research questions have been answered using these secondary data.
+- [Add Health: The National Longitudinal Study of Adolescents to Adult Health](https://addhealth.cpc.unc.edu)
+- [Cooperative Election Study](https://cces.gov.harvard.edu)
+- [General Social Survey (GSS)](https://gss.norc.org)
+- [Health Information National Trends Survey (HINTS)](https://hints.cancer.gov)
+
 
 ### Examples of Published Research Using Secondary Data
 Webster, S. W., & Abramowitz, A. I. (2017). The ideological foundations of affective polarization in the U.S. electorate. *American Politics Research*, 45(4), 621–647. https://doi.org/10.1177/1532673X17703132
