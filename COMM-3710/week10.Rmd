@@ -1,63 +1,74 @@
 ---
 title: |
-  | <a name="top"></a>
-  | COMM 3710: Data Analysis
+  | COMM 3710: Introduction to Statistics
 pagetitle: "COMM 3710: Week 10"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
-# General Steps to Analyze Data
-1. Manage data
-   - Frequency distributions
-   - Recoding data
-   - Creating composite or secondary variables
-2. Hypothesis testing (review Week 9: Inferential Statistics, if necessary)
-   - $\chi^2$ test of independent
-   - $t$-test
-   - One-way analysis of variance (ANOVA)
-   - Pearson's correlation
+# Why Statistics?
+Statistics is a way of...
 
-At this point in the course, you will have conducted most of these steps in data analysis through your individual lab assignments and even in your group project assignments. Review the videos and resources embedded in your lab assignments and group projects.
+- organizing,
+- describing,
+- and making inferences from data.
 
-Other resources for using R and RStudio for data analysis can be found in the [COMM 3710: Getting Started with R book](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
+Statistics is fundamental to scientific processes. As you grow accustomed and practiced at thinking statistically, you will find yourself interpreting and evaluating claims that people make more analytically and critically.
 
-Remember that you have done most, if not all, the steps of data analysis in your individual assignments. Be sure to refer to your R code from previous assignments as necessary.
+Sometimes math anxiety can interfere with the goal of conceptual understanding of statistics—this is based on the belief that stats is about numbers and math. But, stats is not solely about math and numbers.
 
-<a href="#top">Back to top</a>
+> Statistics is more of a language by which we can communicate empirical evidence.
 
-# Managing Data
-To manage your data, you should run frequency distributions, and recode and create variables as necessary.
+As we would when learning a new language, we’re going to start by learning some vocabulary.
 
-Watch the videos below to refresh your memory on conducting the functions in R:
+---
 
-- [Running frequency distributions](https://youtu.be/Dbj_l1PRIjA?t=697)
-- [Recoding data](https://youtu.be/b9Bh3K5bi0I)
-   - [Reverse coding](https://youtu.be/b9Bh3K5bi0I?t=725)
-- [Creating composite or secondary variables](https://youtu.be/b9Bh3K5bi0I?t=994)
+Before we jump into learning some basic statistics this week, let's talk about why statistics might be useful for your future careers.
 
+In today's media environment, data are used in a myriad of ways. We see data-driven reporting on everything from politics ([civic-minded folks, click here](https://projects.fivethirtyeight.com/2020-election-forecast/)) to sports ([baseball fans, click here](http://projects.fivethirtyeight.com/complete-history-of-mlb/#); [basketball fans, click here](http://projects.fivethirtyeight.com/complete-history-of-the-nba/#cavaliers); [football fans, click here](http://fivethirtyeight.com/features/the-nfls-most-run-heavy-and-pass-happy-teams/)). Such data journalism has become prevalent in the online media environment and some familiarity with the statistics and tools used in this area is vital.
 
-# Hypothesis Testing
-In this step, we will conduct statistical hypothesis testing. In other words, we will assess empirical evidence and determine whether we can reject our null hypothesis. If necessary, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
+However, although most employers would like you to be familiar with basic statistics and statistical tools, they do not expect you will be an expert in data analysis or statistics!
 
-Then, watch this [video](https://youtu.be/08uylSp-CuI) about hypothesis testing.
-
-In Week 9, we discussed three statistical tests that we can use in hypothesis testing. The videos below show you how to conduct each of these tests using R.
-
-- [Chi-square ($\chi^2$) test of independence](https://youtu.be/Dnlp9vswwEk)
-- [Independent samples $t$-test](https://youtu.be/ANMuuq502rE?t=416)
-- [One-way analysis of variance](https://youtu.be/2uQCUBtqCfM) (ANOVA)
-- [Correlation](https://youtu.be/lf4HfHx2ASs)
+[Read this article and watch the video embedded in it](https://journalistsresource.org/studies/society/news-media/research-chat-new-york-times-sarah-cohen-state-data-journalism-what-reporters-need-know/). It will give you a sense of what data journalism is about. The article is an interview with Sarah Cohen, a reporter from The New York Times, and the video in the article shows her and a faculty member, Susan McGregor, from the Columbia Journalism School, discussing and demystifying data journalism.
 
 <a href="#top">Back to top</a>
 
-# A Note on Data Analysis
-The videos shared here are just one of many ways to manage data and conduct statistical tests. With R, there are many ways to achieve the same goal.
 
-Because R is open-source software, packages are continuously being developed by people all over the world. You are welcome to use these packages but they will not be taught in this course. If you **do** use another package, ensure that the answers you get from using it are correct by checking them with the strategies shown in this course.
+# The "Central Dogma" of Statistics {.tabset .tabset-fade}
+The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every unit in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
+
+<center>
+<img src="https://sarakyeo.github.io/images/central-dogma-stats.png"/>
+</center>
+<br>
+
+But what exactly is a statistic?
+
+Review the figure above. The central dogma has a population and a sample. **Statistics are associated with samples** while **parameters are associated with populations**.
+
+> We use statistics from a sample to estimate (infer) parameters in a population.
+
+## Parameter
+- number that describes the population (e.g., mean, standard deviation, variance, etc.)
+- parameters are often unknown because we cannot directly examine the entire population of interest!
 
 <a href="#top">Back to top</a>
+
+## Statistic
+- number that can be computed from sample data (e.g., mean, standard deviation, variance, etc.)
+- we use statistics in a sample to estimate parameters in a population!
+- for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
+
+<a href="#top">Back to top</a>
+
+# Categories of Statistics
+In general, there are two types of statistics: **descriptive** and **inferential statistics**. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics. In the next sections, we will discuss these types of statistics in more detail.
+
+<center>
+<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
+</center>
+<br>

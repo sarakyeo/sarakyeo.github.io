@@ -1,13 +1,12 @@
 ---
 title: |
-  | <a name="top"></a>
   | COMM 3710: Inferential Statistics
-pagetitle: "COMM 3710: Week 9"
+pagetitle: "COMM 3710: Week 12"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 

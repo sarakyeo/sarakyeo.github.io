@@ -1,6 +1,5 @@
 ---
 title: |
-  | <a name="top"></a>
   | COMM 3710: Data Analysis
 pagetitle: "COMM 3710: Week 13"
 output:

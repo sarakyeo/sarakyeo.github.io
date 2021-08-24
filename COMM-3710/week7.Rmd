@@ -1,157 +1,143 @@
 ---
 title: |
-  | <a name="top"></a>
-  | COMM 3710: Sampling
+  | COMM 3710: Reliability and Validity
 pagetitle: "COMM 3710: Week 7"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 
-# What is Sampling?
-Sampling is an important aspect of research. In survey research, the quality of the study is affected by the purpose of the survey (**conceptualization** and **operationalization**) and the way it is conducted (**sampling**). Look up the following terms using the resources available to you (e.g., textbook).
+# What is Reliability and Validity?
+> **Reliability** and **validity** are standards by which we judge success or failure in our measurement of concepts.
 
-- Sample
-- Population
-- Sampling frame
-- Sampling error
+**Reliability**
 
-> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
+- Reliability is a quality of measurement that refers to consistency. When we assess reliability of a measure, we are asking whether the measure is a consistent indicator of a concept
 
-<a href="#top">Back to top</a>
+**Validity**
 
-## When is a Sample Large Enough?
-If there was a simple answer to this question, it would be "it depends." How large a sample needs to be depends on several factors:
+- Validity is a quality of measurement that refers to confidence in a measure. A measure that is valid accurately reflects the concept it is intended to measure. The concept of validity also extends to...
 
-- How will results be used?
-- How confident in your findings do you need or want to be?
-- What kind of statistical quality do you need?
-- What resources are available to you?
+   1. precision in study design (**internal validity**, which is important in experiments)
+   2. our ability to generalize findings from a sample to a larger population (**external validity**)
 
-Often, a moderate sample size is statistically sufficient. In general, sample size should be large enough to keep your **margin of error between $\pm5\%$**.
-
-## So... What is a Margin of Error?
-
-> A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
-
-Be sure to read the following for this week: **ASA (pp. 63-68)**
-
-Typically, margins of error are reported with confidence levels or confidence intervals.
-
-**Confidence levels** = estimated probabilities that a population parameter lies within a given confidence interval.
-
-**Confidence interval** = the range of values within which a population parameter is estimated (using a sample) to lie.
-
-### An Example
-> Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
-> 
-> **Confidence level**: We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.
-> 
-> **Confidence interval**: The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.
-
-The above logic can also be used to determine your sample size. Once you know how much error you can tolerate, you can calculate the number of cases required in a sample.
-
-Sample size adheres to the **law of diminishing returns**. This means that once sample reaches a certain size, the accuracy of estimates do not increase much even if you keep increasing the sample size. In other words, after a certain point, the margin of error does not decrease very much with increasing sample size.
-
-<a href="#top">Back to top</a>
-
-## Types of Errors in Sampling
-**Coverage error**
-
-- Error that results from failing to possess an up-to-date sampling frame.
-
-**Sampling error**
-
-- Degree of error to be expected by virtue of studying a sample instead of a population.
-
-**Measurement error**
-
-- Error that results from poorly operationalized measures, e.g., poor question wording.
-
-<a href="#top">Back to top</a>
-
-# Why Does Sampling Matter?
-The video below explains why sampling matters, but it is not only about sampling. As we have learned, other factors, such as question wording and order are also important to the generalizations, inferences, or predictions that can be made using survey data.
+Reliability and validity are precision and accuracy, respectively. Using these four terms, describe the dart-thrower in scenarios A, B, and C below. Answers can be found in the video below.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HZzPmzEejWs" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="https://sarakyeo.github.io/images/rel-val-01.png"/>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RgDfNMND0GA" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+<a href="#top">Back to top</a>
+
+
+# Types of Reliability {.tabset .tabset-fade}
+There are four (4) types of reliability:
+
+1. Stability
+2. Reproducibility
+3. Homogeneity
+4. Accuracy
+
+Click on the tabs below to learn more about each type of reliability.
+
+## Stability
+Refers to consistency in measures across time. We can evaluate stability using a test-retest method. By measuring a concept at time 1 ($t_1$) and time 2 ($t_2$), we can compare them to see if they are stable across time.
+
+<center>
+<img src="https://sarakyeo.github.io/images/stability.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Reproducibility
+Refers to consistency between observers. By comparing the results of two different observers who are measuring the same phenomenon using the same measuring device, we can determine whether we have reliability between observers. This reliability between observers is known as **inter-coder reliability**.
+
+<center>
+<img src="https://sarakyeo.github.io/images/reproducibility.png"/>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+## Homogeneity
+Refers to consistency between different measures of a single concept. We often use more than one indicator to measure a concept. Homogeneity refers to the reliability of the indicators of a concept. We assess this using **inter-item reliability**. The next section discusses assessing inter-item reliability in more detail.
+
+<a href="#top">Back to top</a>
+
+## Accuracy
+Refers to the lack of mistakes in measurement. We can increase accuracy of measures by having clear, defined procedures. In addition, observers must have sufficient training, motivation, and concentration.
+
+<a href="#top">Back to top</a>
+
+
+# Assessing Inter-Item Reliability
+Inter-item reliability refers to the correlation of each item/indicator with every other item/indicator used in measurement of a particular concept. To begin, let's first clarify the meaning of a **statistical correlation**.
+
+A **statistical correlation** is a measure of the strength and direction of the relationship between two variables. The three figures below show three different types of relationships (negative, neutral, or positive). See if you can identify the type of relationship in the figure.
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-neu.png"/>
+</center>
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-pos.png"/>
+</center>
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/r-neg.png"/>
+</center>
+<br>
+
+Check your answers with the [Week 4 lecture on relationships](https://sarakyeo.github.io/COMM-3710/week4.html#Relationships).
+
+<hr>
+
+To assess inter-item reliability, we use one of three ways. The video below explains each of these.
+
+1. Average inter-item correlation
+2. Split-half reliability
+3. Cronbach's alpha ($\alpha$)
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1HObEfdRT3s" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
 <a href="#top">Back to top</a>
 
 
-# Probability vs. Nonprobability Sampling {.tabset .tabset-fade}
-There are two broad categories of sampling strategies:
+# Approaches to Validity
+There are three primary approaches or types of validity that we will cover in this course. One can be assessed before data collection, while the remaining two are assessed after data collection.
 
-- probability sampling
-- nonprobability sampling
+Before data collection, we can assess:
 
-<center>
-![](https://sarakyeo.github.io/images/sample-design.gif)
-</center>
+1. face or content validity
 
-## Nonprobability Sampling
-> **Nonprobability sampling** refers to any sampling technique in which cases are selected to a sample in ways not suggested by probability theory.
+After data collection, we can assess:
 
-### Types of Nonprobability Sampling
-**Purposive (judgmental) sampling**
+2. criterion validity
+3. construct validity
 
-Purposive sampling is a type of nonprobability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
-
-**Quota sampling**
-
-This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
-
-**Snowball sampling**
-
-This sampling methods requires each individual interviewed to recommend or suggest additional interviewees. A researcher interested in studying drug addiction and use might begin by interviewing one user, who may then suggest other users who would be willing to participate in the study.
-
-<a href="#top">Back to top</a>
-
-## Probability Sampling
-> **Probability sampling** refers to any sampling technique that relies on selecting units to a sample based on probability theory. In probability sampling, each element has a **non-zero, known, and equal chance of being selected to a sample**.
-
-### Types of Probability Sampling
-**Simple random sampling (SRS)**
-
-SRS starts by having a complete and up-to-date sampling frame and assigning numbers to each unit in the sampling frame. Then, a set of random numbers is generated and the units that have those numbers are included in the sample.
-
-**Systematic sampling**
-
-Select every $k^{th}$ element in a sampling frame with a random starting point. E.g., decide that you will select every $10^{th}$ case into your sample and start at a random point in your sampling frame.
-
-**Cluster sampling**
-
-It is often not possible to compile a comprehensive sampling frame. However, sometimes the population is already grouped into natural clusters. Cluster sampling is often multi-stage, which, in this case, means that you sample (1) the clusters, then (2) individuals within the clusters. The disadvantage is that multi-stage sampling introduces more sampling error (i.e., sampling error introduced at both stages of sampling). For example, if a researcher is interested in studying U.S. college students, they might sample universities in the first stage. In the second stage, they would sample individuals from the sampled universities.
-
-**Stratified sampling**
-
-The researcher first divides the population of interest into separate groups, known as strata. Then, a sample is drawn by randomly selecting units from each strata. Each stratum is a subset of the population that has a common characteristic.
+Read Chapter 8 of your textbook and make note of the definitions of these terms.
 
 <a href="#top">Back to top</a>
 
 
-# Probability Theory, Sampling Distribution, & Estimates of Sampling Error
-Probability theory is the basis for estimating parameters in a population from a sample as well as the accuracy of the findings. Before we go any further, let's review the terms parameter and statistic.
+# Summary
+Here's a graphical summary of what we have covered on reliability and validity of measures. Remember to post any questions about this week's content in the Discussion.
 
 <center>
-<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
+<img src="https://sarakyeo.github.io/images/rel-val-summary.png"/>
 </center>
 <br>
-
-[This video](https://www.youtube.com/watch?v=FXZ2O1Lv-KE) clarifies sampling distribution using the example of the mean. The learning tool in the video can be found [here](http://onlinestatbook.com/stat_sim/sampling_dist/index.html).
-
-<a href="#top">Back to top</a>
-
-## Weighting
-In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**. You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://nyti.ms/2dXBlva)).
-
-Read this [report](https://utah.instructure.com/files/105743188/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
-
-Post any questions about this week's content in the Discussion.
 
 <a href="#top">Back to top</a>
