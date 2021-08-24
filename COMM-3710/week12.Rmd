@@ -1,0 +1,398 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Inferential Statistics
+pagetitle: "COMM 3710: Week 9"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+urlcolor: blue
+---
+
+# Descriptive vs. Inferential Statistics
+Recall the differences between descriptive and inferential statistics:
+
+<center>
+<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
+</center>
+<br>
+
+This week, we will focus on **inferential statistics**.
+
+<a href="#top">Back to top</a>
+
+# Inferential Statistics {.tabset .tabset-fade}
+This week, we will discuss four common inferential statistical tests:
+
+1. Chi-square ($\chi^2$) test of independence
+2. Independent samples $t$-test
+3. One-way analysis of variance
+4. Pearson's correlation (also known simply as a correlation)
+
+Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing. We also need to know how which hypothesis test to use. The flowchart below can be used to guide your choice of hypothesis test.
+
+<center>
+<img src="https://sarakyeo.github.io/images/LA.6_chart.png"/>
+</center>
+<br>
+
+## Important Terms
+
+- **Null hypothesis ($H_0$)**: A prediction that states there is **no relationship** between the variables of interest.
+- **Alternative hypothesis ($H_a$)**: The opposite of $H_0$. This is a prediction that states there **is a relationship** between he variables of interest.
+
+<a href="#top">Back to top</a>
+
+## Steps in Hypothesis Testing
+When conducting hypothesis tests, we use the following steps in the order listed:
+
+1. State null ($H_0$) and alternative ($H_a$) hypotheses.
+2. Set the level of significant (also known as alpha ($\alpha$); usually $\alpha = 0.05$).
+3. Calculate the test statistic, which will differ depending on the hypothesis test you use.
+
+>| Hypothesis Test | Test Statistic |
+>|:---|:---:|
+>| Independent samples $t$-test | $t$ |
+>| Chi-square test of independence | $\chi^2$ |
+>| Pearson's correlation | Pearson's $r$ |
+>| One-way ANOVA | $F$ |
+
+4. Determine the $p$-value; each hypothesis test you conduct will result in a test statistic and a $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
+5. Compare $p$-value to $\alpha$.
+   - If $p \leq \alpha$, we **reject** the null hypothesis ($H_0$).
+   - If $p > \alpha$, we **fail to reject** the null hypothesis ($H_0$).
+
+Using hypothesis testing, researchers typically hope to "nullify" their null hypothesis ($H_0$) since we are typically trying to shed more light on relationships between variables.
+
+The video below walks through an example of how to conduct a hypothesis test.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RlR9PgDAYkA" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br>
+
+<a href="#top">Back to top</a>
+
+# Errors in Hypothesis Testing {.tabset .tabset-fade}
+When conducting hypothesis tests, 2 types of errors can occur. These are **Type I** and **Type II errors**. The table below provides an explanation and an easy way to remember the types of errors that can occur during hypothesis testing.
+
+<center>
+<img src="https://sarakyeo.github.io/images/errors-NHST.PNG"/>
+</center>
+<br>
+
+## Type I Error
+Type I error occurs when the null hypothesis is true and your decision, based on hypothesis testing, is to reject $H_0$.
+
+This is also known as a **false positive** (you are supporting the alternative hypothesis when you should not be).
+
+<a href="#top">Back to top</a>
+
+## Type II Error
+Type II error occurs when you have a **false negative**.
+
+In this case, you fail to reject $H_0$ when you should.
+
+<a href="#top">Back to top</a>
+
+
+# Chi-Square ($\chi^2$) Test of Independence {.tabset .tabset-fade}
+
+## Purpose
+- compare *observed frequencies* to *expected frequencies*
+- observed frequency ($f_o$) = number of times participants or respondents fall into a specific category
+- expected frequency ($f_e$) = number of times we *expect* participants to fall into a specific category
+- if $f_{o} = f_{e}$, then $\chi^2 = 0$
+- the greater the difference between $f_{o}$ and $f_{e}$, the larger the $\chi^2$ statistic
+
+### Assumptions
+1. Variables must be nominal (review levels of measurement, if necessary).
+2. Sample is randomly distributed.
+3. One respondent's presence in a group/category should not affect the likelihood of another respondent's presence in another cell.
+4. For two groups of respondents and two categories (i.e., a 2 $\times$ 2 table), there should be at least 5 respondents in each cell.
+
+<a href="#top">Back to top</a>
+
+## Case Study
+Let's assume we have the following research question and data:
+
+> **Do female and male students differ in their standing (sophomore, junior, etc.) when they take a public speaking course?**
+
+|   | Pre-college students | First-year students | Sophomores | Juniors | Seniors | N |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Female | 7 | 20 | 9 | 8 | 6 | 50 |
+| Male | 6 | 8 | 10 | 1 | 25 | 50 |
+
+The $\chi^2$ test evaluates whether the observed proportions of respondents in categories are equal to expected proportions or **hypothesized proportions**. Returning to our research question, in an "ideal" world, there would be little reason to expect that there would be a different proportion of males and females of each standing taking public speaking.
+
+In other words, of the 50 female and 50 male students in our sample, we would expect 10 pre-college females and 10 pre-college males taking public speaking, 10 first-year females and 10 first-year males taking public speaking, 10 sophomore females and 10 sophomore males taking public speaking, and so on.
+
+### Step 1: Formulate alternative and null hypotheses.
+Recall that if the observed proportions (or frequencies) are very different from the expected proportions (or frequencies), then the value of our test statistic, $\chi^2$, would be very large. If there are no differences between observed and expected frequencies/proportions, then $\chi^2$ would be 0. Therefore, our null and alternative hypotheses would be:
+
+$$H_a: \chi^2 \neq 0$$
+
+$$H_0: \chi^2 = 0$$
+
+### Step 2: Set the level of significance.
+Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
+
+### Step 3: Calculate the test statistic.
+To calculate a $\chi^2$ value, we use the formula below:
+
+$$\chi^2 = \Sigma \frac{(f_o-f_e)^2}{f_e}$$
+Using the data and formula above, calculate a value of $\chi^2$. Step-by-step instructions can be found in Chapter 15 of your textbook.
+
+### Step 4: Determine the $p$-value.
+Using the critical value table for a $\chi^2$ test (Fig. 15.6 in your textbook), determine the $p$-value associated with your calculated $\chi^2$ value.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from the data provided are:
+$$\chi^2 = 22.36$$
+
+$$p < .001 $$
+
+In Step 2, we set $\alpha = .05$. Given the results, decide whether we **reject** or **fail to reject** $H_0$.
+
+Based on your comparison of $p$ and $\alpha$, you should decide that we can **reject** $H_0$. Thus, we can conclude that female and male students differ in their year in college / standing when they take public speaking.
+
+<a href="#top">Back to top</a>
+
+
+# Independent Samples $t$-test {.tabset .tabset-fade}
+The independent samples $t$-test is also known as a Student's $t$-test, the $t$-test evaluates whether there is a difference between two groups on a continuous dependent variable.
+
+For some interesting information on how beer created the $t$-test, see "How Beer Created the $t$-Test" in your textbook.
+
+## Purpose
+- compare means
+- of two independent groups (i.e., units in one group cannot also be in the comparison group)
+- requires nominal and ratio/interval variables (review **levels of measurement**, if necessary)
+- dependent variable (DV) = interval/ratio variable
+- independent variable (IV) = nominal variable
+
+### Assumptions
+1. Sample is randomly distributed.
+2. The is DV is normally distributed in both levels of the IV, i.e., the dependent variable has a normal distribution in both groups of the independent variable.
+3. Homogeneity of variances. This means that the variances of the dependent variable in one group of the independent variable is the same as that in the other group.
+
+<a href="#top">Back to top</a>
+
+## Case Study
+Let's assume we have the following research question:
+
+> **Does a professor's hair length affect student academic performance?**
+
+### Step 1: Formulate alternative and null hypotheses.
+Our alternative hypothesis is that the scores of students enrolled in a course taught by a professor with short hair will be different (i.e., $\neq$) from those of students enrolled in a course taught by a faculty member with long hair.
+
+$$H_a: scores_{short} \neq scores_{long}$$
+
+Our null hypothesis is the inverse.
+
+$$H_0: scores_{short} = scores_{long}$$
+
+### Step 2: Set the level of significance.
+Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
+
+Assume we have the following data:
+
+<center>
+<img src="https://sarakyeo.github.io/images/t-test_data.PNG"/>
+</center>
+<br>
+
+### Step 3: Calculate the test statistic.
+The formula for calculating a $t$-test is...
+$$t = \frac{(\bar{x}_1-\bar{x}_2)-(\mu_1-\mu_2)}{\sqrt{\left[ \frac{\Sigma x_1^2-\frac{(\Sigma x_1)^2}{n_1}+\Sigma x_2^2-\frac{(\Sigma x_2)^2}{n_2}}{n_1 + n_2 - 2} \right] \left( \frac{1}{n_1}+\frac{1}{n_2} \right)}}$$
+
+Use the step-by-step instructions in your textbook (starts on p. 474) to calculate the test statistic, $t$.
+
+### Step 4: Determine the $p$-value.
+Using the critical value table in your textbook, find the $p$-value that corresponds to your calculated test statistic, $t$.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from conducting a $t$-test with the data provided are:
+$$t = 2.169$$
+$$ .05 < p < .10$$
+
+In Step 2, we set $\alpha = .05$. Given this information, decide whether we **reject** or **fail to reject** $H_0$.
+
+Based on your comparison of $p$ and $\alpha$, you should decide that we **fail to reject** $H_0$. Thus, we must conclude that student scores in Class 1 (prof. with short hair) are not statistically different from student scores in Class 2 (prof. with long hair).
+
+<a href="#top">Back to top</a>
+
+## Effect Size
+It is important to calculate an effect size whenever you are conducting an independent samples t-test. This is because the size of a relationship (or, in this case, the size of the difference) matters as much as statistical significance. To calculate effect size, we use **Cohen's $d$** formula:
+
+$$d = t \sqrt{ \frac{n_1 + n_2}{n_1n_2} }$$
+
+To interpret effect sizes, we generally use the following:
+
+- $0.2 =$ small effect size
+- $0.5 =$ medium effect size
+- $0.8 =$ large effect size
+
+<a href="#top">Back to top</a>
+
+
+# One-Way Analysis of Variance (ANOVA) {.tabset .tabset-fade}
+
+## Purpose
+The purpose of ANOVA is similar to that of a $t$-test. Recall that a $t$-test allows you to compare a dependent variable (interval or ratio) among two independent groups (i.e., your independent variable is nominal).
+
+ANOVA allows you to compare a dependent (interval or ratio) variable among **two or more independent groups**.
+
+### Assumptions
+1. The dependent variable must be an interval or ratio variable (i.e., continuous).
+2. The independent variable must be a nominal variable.
+3. The dependent variable should be normally distributed in each of the levels of the independent variable. In other words, in each category of the independent variable, the values of the dependent variable should be normally distributed.
+4. Homogeneity of variances: In each level of the independent variable, the populations should have equal variances.
+5. The data used in ANOVA should be a random sample from the population.
+
+<a href="#top">Back to top</a>
+
+## Case Study
+A researcher is interested in whether specific doses of puppy therapy increase happiness. She conducts an experiment in which participants are randomly assigned to one of three puppy therapy conditions: control (no puppies!), 15 minutes of puppies, or 30 minutes of puppies. After exposure to one of the three experimental conditions, she asks them to self-report their happiness on a scale of 1 ('Not at all happy') to 10 ('Very happy').
+
+To these whether the doses of puppy therapy affect people's happiness, she can use ANOVA.
+
+The data are shown below:
+
+<center>
+<img src="https://sarakyeo.github.io/images/puppies.png"/>
+</center>
+<br>
+
+### Step 1: Formulate alternative and null hypotheses.
+In ANOVA, the prediction or alternative hypothesis is that happiness is different between the three doses.
+$$\mu_{control} \neq \mu_{15min} \neq \mu_{30min}$$
+
+The null hypothesis is that there is no difference between the experimental conditions.
+$$\mu_{control} = \mu_{15min} = \mu_{30min}$$
+
+### Step 2: Set the level of significance.
+Guess what this is... $\alpha = .05$. Surprise!
+
+### Step 3: Calculate the test statistic.
+Several formulas are used to calculate a one-way ANOVA.
+
+$$SS_{total} = \Sigma{x^2}-\frac{G}{N}, df_{total} = N-1$$
+$$SS_{between} = \frac{\Sigma{T^2}}{n} - \frac{G^2}{N}, df_{between} = k-1$$
+$$SS_{within} = \Sigma{SS_{inside \space each \space treatment}, df_{within} = N-k}$$
+$$F = \frac{MS_{between}}{MS_{within}} \space where \space each \space MS = \frac{SS}{df}$$
+Follow the [step-by-step approach in your textbook](https://online.vitalsource.com/#/books/9780190861940/epubcfi/6/50%5B%3Bvnd.vst.idref%3Dc17%5D!/4/2/20/2/2%5Bhead647%5D%400:0) to calculate a test statistic. Remember that your data are different from those in the textbook.
+
+The test statistic that is calculated in an ANOVA is the $F$ value.
+
+$$F = 10.6$$
+
+### Step 4: Determine the $p$-value.
+Using a table of critical values of the $F$ distribution, find your $p$-value.
+$$p = .006$$
+
+### Step 5: Compare $\alpha$ and $p$.
+Review your hypotheses. Recall that our results are as follows:
+$$F = 10.6$$
+$$p = .006$$
+In Step 2, we set $\alpha = .05$. Given this information and the results above, decide whether we **reject** or **fail to reject** $H_0$.
+
+Since $p \leq \alpha$, we can reject $H_0$. This means that there is difference in happiness among different puppy therapy doses. What we do not know, however, is which specific groups are different from each other.
+
+This is where *post hoc* tests come in--these are also known as multiple or pairwise comparisons. In other words, using pairwise comparisons, we will not compare happiness among participants in the following pairs of conditions:
+
+- control vs. 15 min
+- control vs. 30 min
+- 15 min vs. 30 min
+
+Of the four most common *post hoc* tests, we will examine one of the more commonly used ones, **Tukey's honestly significant difference (HSD)**. Read about the others in Chapter 17 of your textbook.
+
+We will not worry about calculating this by hand. Instead, you can use the following command in R to conduct a Tukey's *post hoc* test (assuming your dataframe is called `puppies`):
+
+```puppies %>% tukey_hsd(Happiness ~ Dose)```
+
+The $p$-values that result from the pairwise comparisons conducted using Tukey's *post hoc* test are shown below. We see that only the comparison between the control group and the group that received 30 minutes of puppy therapy are different.
+
+| Group 1 | Group 2| $p$ |
+|:---:|:---:|:---:|
+| control | 15 min | 0.516 |
+| control | 30 min | 0.021 |
+| 15 min | 30 min | 0.147 |
+
+<a href="#top">Back to top</a>
+
+
+# Correlation {.tabset .tabset-fade}
+
+## Purpose
+The basic purpose of a correlation is to determine the relationship between two variables. The Pearson's product-moment correlation coefficient ($r$) is a measure of the degree to which two interval/ratio variables are linearly related in a sample.
+
+As you know, there are various types of linear relationships. Below, the graph farthest to the left shows no relationship between the variables, $X$ and $Y$. The middle graph shows a positive relationship and the graph on the right shows a negative relationship.
+
+<center>
+<img src="https://sarakyeo.github.io/images/correlation.PNG"/>
+</center>
+<br>
+
+### Assumptions
+1. Both variables are interval or ratio variables.
+2. Sample is randomly distributed.
+3. Each respondent in your sample should have a score for both variables.
+4. We assume a linear relationship between the two variables of interest.
+5. We should have a sample size of more than 25, i.e., $N > 25$.
+
+<a href="#top">Back to top</a>
+
+## Case Study
+Let's assume we have the following research question:
+
+> **How are communication apprehension (CA) and heart rate change (HR) related?**
+
+For background on this research question, see Ch. 18 of your textbook.
+
+### Step 1: Formulate alternative and null hypotheses.
+Our prediction, which forms our alternative hypothesis, is that CA and HR are correlated.
+
+$$H_a: Pearson's \space r \neq 0 $$
+
+Our null hypothesis is the inverse, i.e., there is no relationship between CA and HR.
+
+$$H_0: Pearson's \space r = 0$$
+
+### Step 2: Set the level of significance.
+Again, we set this to $\alpha = .05$.
+
+### Step 3: Calculate the test statistic.
+Assume $x = CA$ and $y = HR$.
+
+To calculate the correlation of these two variables, we use the following formula:
+
+$$r = \frac{N \Sigma xy - (\Sigma x)(\Sigma y)}{\sqrt{ [N \Sigma x^2 - (\Sigma x)^2] [N \Sigma y^2 - (\Sigma y)^2] }}$$
+
+Now, use the data and step-by-step instructions in your textbook (starts on p. 523) to calculate Pearson's $r$.
+
+### Step 4: Determine the $p$-value.
+Use the critical values table to determine the $p$-value that corresponds to the value of $r$ that you calculated.
+
+### Step 5: Compare $\alpha$ and $p$.
+First, review $H_0$ and $H_a$.
+
+Our results from examining this correlation between CA and HR are:
+
+$$r = .906$$
+
+$$p \leq .001$$
+
+In Step 2, we set $\alpha = .05$. Given this information and the results above, decide whether we **reject** or **fail to reject** $H_0$.
+
+Since $p \leq \alpha$, we can reject $H_0$. This means that the relationship between communication apprehension and heart rate change is statistically significant. Since $r$ is a positive value, we can say that these variables, CA and HR, are positively correlated.
+
+Remember that correlation $\ne$ causation! Our conclusion simply tells us that CA and HR are correlated, not whether one variable *causes* the other to change.
+
+<a href="#top">Back to top</a>
