@@ -1,13 +1,12 @@
 ---
 title: |
-  | <a name="top"></a>
-  | COMM 3710: Variables and Measurement
+   | COMM 3710: Variables and Measurement
 pagetitle: "COMM 3710: Week 4"
 output:
   html_document:
     toc: true
     toc_float: true
-    theme: united
+    theme: flatly
 urlcolor: blue
 ---
 <a name="var"></a>
@@ -51,8 +50,6 @@ Each variable has its associated aspects. These aspects include **variable attri
 </center>
 <br>
 
-<a href="#top">Back to top</a>
-
 ## Types of Variables
 A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. One way to remember this: The dependent variable depends on the independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
 
@@ -64,8 +61,6 @@ An **independent variable** (IV) is one that affects the outcome/dependent varia
 <br>
 
 Use the Week 4 Discussion page on Canvas to discuss the answers with your peers.
-
-<a href="#top">Back to top</a>
 
 
 # Understanding Relationships and Differences {.tabset .tabset-fade}
@@ -101,7 +96,6 @@ In a positive relationship, when $X$ $\Uparrow$, $Y$ $\Uparrow$. Also, when $X$ 
 </center>
 <br>
 
-<a href="#top">Back to top</a>
 
 ### Negative
 Negative relationships exist when an increase in one variable results in a decrease in another variable. In other words, the variables move **in the opposite direction**.
@@ -115,7 +109,6 @@ In a negative relationship, when $X$ $\Uparrow$, $Y$ $\Downarrow$. Also, when $X
 </center>
 <br>
 
-<a href="#top">Back to top</a>
 
 ### Neutral
 A **neutral relationship** is on in which the variables are not related. In other words, it is the lack of a relationship and changes in one variable do not result in changes in the other.
@@ -127,8 +120,6 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 </center>
 <br>
 
-<a href="#top">Back to top</a>
-
 
 ## Differences {.tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
@@ -138,7 +129,6 @@ Statistics also enables researchers to examine differences. In research, differe
 ### Differences in Kind
 **Differences in kind** occur when different groups do different things. For example, teachers teach students and musicians play music. We wouldn't expect a musician to replace a teacher or a teacher to replace a musician. In research and statistics, differences in kind are not very interesting, except when they are used as grouping variables (e.g., one group of survey participants is female and another is male).
 
-<a href="#top">Back to top</a>
 
 <hr>
 
@@ -149,7 +139,6 @@ Using statistical tests of difference allows researchers to determine whether th
 
 For a visual depiction of differences of degree, see Figures 6.4 and 6.5 in your textbook.
 
-<a href="#top">Back to top</a>
 
 ---
 
@@ -161,6 +150,7 @@ For a visual depiction of differences of degree, see Figures 6.4 and 6.5 in your
 But why do we assign numbers to things we measure?
 
 In general, we want to be able to quantify information so that...  
+
 1. we can increase our objectivity;  
 2. we can conduct statistical tests;  
 3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
@@ -207,7 +197,6 @@ Nominal data are typically reported as proportions or percentages.
 </center>
 <br>
 
-<a href="#top">Back to top</a>
 
 ### Ordinal
 **Ordinal variables** have a logical order to the categories used to represent variable attributes. Again, the categories must be mutually exclusive--a respondent should only "fit" into one category.
@@ -236,7 +225,6 @@ Here's another example of an ordinal variable:
 </center>
 <br>
 
-<a href="#top">Back to top</a>
 
 ### Interval
 **Interval variables** categorize variable attributes in a logical order that represents equal distances between each category. Attitudes, risk perceptions, opinions, and behavioral intentions are examples of interval measures, if we assume the distance between each variable attribute to be equal or constant.
@@ -261,7 +249,6 @@ Another example is temperature:
 
 Again, $0^\circ C$ is an arbitrarily defined zero-point, and so is $0^\circ F$. 
 
-<a href="#top">Back to top</a>
 
 ### Ratio
 **Ratio variables** share all the characteristics of interval variables except that ratio variables have an absolute zero point. In other words, there can be an absence of the variable that is being measured. For example, test scores, number of days one reads a newspaper, and speed are ratio variables.
@@ -284,5 +271,3 @@ The figure below helps visualize the four levels of measurement based on how pre
 <img src="https://sarakyeo.github.io/images/meas02.png"/>
 </center>
 <br>
-
-<a href="#top">Back to top</a>
