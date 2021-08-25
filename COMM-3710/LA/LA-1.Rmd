@@ -76,7 +76,7 @@ Read [Sections 2.3 and 2.4 in COMM 3710: Getting Started with R](https://sarakye
 ## Step 2
 a) Create an object that represents the product of `10 x 2`, and assign a name of your choice to this object.
 b) Create a second object that represents the outcome of `35 - 5`, and assign a name of your choice to this object.
-c) Create a third object that represents the *product* of the first two objects and assign a name of your choice to this object.
+c) Create a third object that represents the *[product](https://en.wikipedia.org/wiki/Product_(mathematics))* of the first two objects and assign a name of your choice to this object.
 d) Answer the following question: What is the value of the third object? Highlight or circle this answer (see rubric for LA-1 on Canvas).
 
 **Submit a screenshot of the R commands in RStudio that you used to arrive at your answer to Question 4. This screenshot should include all three objects from Questions 1-3 and the (highlighted) answer to Question 4.**
