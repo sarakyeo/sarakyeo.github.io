@@ -121,7 +121,7 @@ There are 9 individual assignments. Information on individual assignments will b
 ## Lab Attendance
 This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
 
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you may be asked to leave.
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you may be asked to leave. Additionally, if you are late to lab, your attendance will not count toward your grade.
 
 ---
 
