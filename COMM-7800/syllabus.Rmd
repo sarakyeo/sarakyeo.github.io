@@ -205,8 +205,10 @@ Campus security authorities are university employees who have significant respon
 > Course introduction
 
 
-## Week 2 (2-Sep; Discussants: Trevor Smith, Alexis Vega)
+## Week 2 (2-Sep)
 > Scientific approaches, social science, and the importance of stupidity
+
+**Discussants:** Trevor Smith, Alexis Vega
 
 **Readings:**
 
@@ -216,8 +218,10 @@ Campus security authorities are university employees who have significant respon
 - Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science, 121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
 
 
-## Week 3 (9-Sep; Discussants: Dallin Adams, Yi Liao, Henry Allen)
+## Week 3 (9-Sep)
 > From explication to measurement: Empirical social science research
+
+**Discussants:** Dallin Adams, Yi Liao, Henry Allen
 
 **Readings:**
 
@@ -250,8 +254,10 @@ Campus security authorities are university employees who have significant respon
 - Recoding variables
 
 
-## Week 6 (30-Sep; Discussants: Henry Allen, Dallin Adams)
+## Week 6 (30-Sep)
 > Reliability and validity
+
+**Discussants:** Henry Allen, Dallin Adams
 
 **Readings:**
 
@@ -261,8 +267,10 @@ Campus security authorities are university employees who have significant respon
 \*Project prospectus due by 11:59 pm today.
 
 
-## Week 7 (7-Oct; Trevor Smith, Dallin Adams)
+## Week 7 (7-Oct)
 > Analysis of variance
+
+**Discussants:** Trevor Smith, Dallin Adams
 
 **Readings:**
 
@@ -275,8 +283,10 @@ Campus security authorities are university employees who have significant respon
 > FALL BREAK (no class)
 
 
-## Week 9 (21-Oct; Discussants: Yi Liao, Alexis Vega)
+## Week 9 (21-Oct)
 > Introduction to regression
+
+**Discussants:** Yi Liao, Alexis Vega
 
 **Readings:**
 
@@ -284,8 +294,10 @@ Campus security authorities are university employees who have significant respon
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
 
 
-## Week 10 (28-Oct; Discussants: Alexis Vega, Trevor Smith)
+## Week 10 (28-Oct)
 > Interactions in regression: Moderation
+
+**Discussants:** Alexis Vega, Trevor Smith
 
 **Readings:**
 
@@ -293,8 +305,10 @@ Campus security authorities are university employees who have significant respon
 - Yeo, S. K., Cacciatore, M. A., Brossard, D., Scheufele, D. A., Runge, K. K., Su, L. Y.-F., Kim, J., Xenos, M. A., & Corley, E. A. (2014). Partisan amplification of risk: American perceptions of nuclear energy risk in the wake of the Fukushima Daiichi disaster. *Energy Policy, 67*, 727–736. https://doi.org/10.1016/j.enpol.2013.11.061
 
 
-## Week 11 (4-Nov; Discussants: Yi Liao, Henry Allen)
+## Week 11 (4-Nov)
 > Mediation analysis: Introduction to PROCESS
+
+**Discussants:** Yi Liao, Henry Allen
 
 **Readings:**
 
