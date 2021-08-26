@@ -205,7 +205,7 @@ Campus security authorities are university employees who have significant respon
 > Course introduction
 
 
-## Week 2 (2-Sep)
+## Week 2 (2-Sep; Discussants: Trevor Smith, Alexis Vega)
 > Scientific approaches, social science, and the importance of stupidity
 
 **Readings:**
@@ -216,7 +216,7 @@ Campus security authorities are university employees who have significant respon
 - Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science, 121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
 
 
-## Week 3 (9-Sep)
+## Week 3 (9-Sep; Discussants: Dallin Adams, Yi Liao, Henry Allen)
 > From explication to measurement: Empirical social science research
 
 **Readings:**
@@ -250,7 +250,7 @@ Campus security authorities are university employees who have significant respon
 - Recoding variables
 
 
-## Week 6 (30-Sep)
+## Week 6 (30-Sep; Discussants: Henry Allen, Dallin Adams)
 > Reliability and validity
 
 **Readings:**
@@ -261,7 +261,7 @@ Campus security authorities are university employees who have significant respon
 \*Project prospectus due by 11:59 pm today.
 
 
-## Week 7 (7-Oct)
+## Week 7 (7-Oct; Trevor Smith, Dallin Adams)
 > Analysis of variance
 
 **Readings:**
@@ -275,7 +275,7 @@ Campus security authorities are university employees who have significant respon
 > FALL BREAK (no class)
 
 
-## Week 9 (21-Oct)
+## Week 9 (21-Oct; Discussants: Yi Liao, Alexis Vega)
 > Introduction to regression
 
 **Readings:**
@@ -284,7 +284,7 @@ Campus security authorities are university employees who have significant respon
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
 
 
-## Week 10 (28-Oct)
+## Week 10 (28-Oct; Discussants: Alexis Vega, Trevor Smith)
 > Interactions in regression: Moderation
 
 **Readings:**
@@ -293,7 +293,7 @@ Campus security authorities are university employees who have significant respon
 - Yeo, S. K., Cacciatore, M. A., Brossard, D., Scheufele, D. A., Runge, K. K., Su, L. Y.-F., Kim, J., Xenos, M. A., & Corley, E. A. (2014). Partisan amplification of risk: American perceptions of nuclear energy risk in the wake of the Fukushima Daiichi disaster. *Energy Policy, 67*, 727–736. https://doi.org/10.1016/j.enpol.2013.11.061
 
 
-## Week 11 (4-Nov)
+## Week 11 (4-Nov; Discussants: Yi Liao, Henry Allen)
 > Mediation analysis: Introduction to PROCESS
 
 **Readings:**
