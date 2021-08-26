@@ -231,7 +231,9 @@ Campus security authorities are university employees who have significant respon
 
 
 ## Week 4 (16-Sep)
-> Getting familiar with IBM SPSS Statistics and R (Discussant: Dr. Sara Yeo)
+> Getting familiar with IBM SPSS Statistics and R
+
+**Discussant:** Sara Yeo
 
 **Readings:**
 
@@ -240,7 +242,9 @@ Campus security authorities are university employees who have significant respon
 
 
 ## Week 5 (23-Sep)
-> Data management tutorial (Discussant: Dr. Sara Yeo)
+> Data management tutorial
+
+**Discussant:** Sara Yeo
 
 **Discussion Topics:**
 
