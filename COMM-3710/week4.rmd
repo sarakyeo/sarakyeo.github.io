@@ -38,7 +38,7 @@ Each variable has its associated aspects. These aspects include **variable attri
    - `Somewhat confident`
    - `Moderately confident`
    - `Very confident`
-- Variable values:
+- Variable values assigned to attributes:
    - 1 = `Not at all confident`
    - 2 = `Slightly confident`
    - 3 = `Somewhat confident`
@@ -203,7 +203,7 @@ Examples of ordinal variables include household income, level of education, mili
 
 <u>Example</u>: Household income
 
-Variable values and attributes
+Variable values and attributes:
 
 - 1 = `Under $30,000`
 - 2 = `$30,000 to $49,999`
@@ -229,7 +229,7 @@ Here's another example of an ordinal variable:
 
 <u>Example</u>: Risk perceptions
 
-Variable attributes
+Variable values and attributes:
 
 - 1 = `Not at all risky`
 - 2 = `Slightly risky`
