@@ -70,7 +70,13 @@ Make a section of foldable code titled "Installing and loading packages." Under 
 
 Then, write commands to **install** the above packages and **load** them into your current session of R.
 
-Once you have written the R commands, highlight all of them and click the **Run** button. You will do this each time you wish to run commands.
+
+---
+
+> Once you have written the R commands, highlight all of them and click the **Run** button. You will do this each time you wish to run commands.
+
+---
+
 
 ## Hint
 [Sections 2.3.5 and 2.3.6](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#packages) in COMM 3710: Getting Started with R should help.
