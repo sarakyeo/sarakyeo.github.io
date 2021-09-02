@@ -55,6 +55,8 @@ Prepare your R script. In the first four (4) lines of your script, include the f
 ## Hint
 Review the resource in Step 1 to learn how to write comments in R.
 
+> **Comments** (which are preceded by "#" in your R script) are not run or executed by R. R will only run/execute **commands a.k.a. functions** (not preceded by "#").
+
 
 # Step 4 {.tabset .tabset-fade}
 ## Instructions

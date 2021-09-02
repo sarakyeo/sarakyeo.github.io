@@ -22,12 +22,12 @@ library(magrittr)
 
 
 # Set working directory ---------------------------------------------------
-
-
+setwd("C:/Users/sarak/Documents/_git-repos/sarakyeo.github.io/COMM-3710")
 
 
 # Check out c() function in R ---------------------------------------------
 # Pull up help page for c()
+?c
 
 # The c() function... [add description here]
 
