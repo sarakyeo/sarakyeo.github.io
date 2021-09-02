@@ -196,14 +196,14 @@ class(cats$cuteness)
 # Step 10
 For this last step, we will use a Tutorial that is built into an existing R package.
 
-Install and load the `learnr` package in your current session of R. In the **Tutorial** panel (usually top right with the **Environment** panel), scroll down to "Data basics" and complete this tutorial.
+Install and load the `learnr` package in your current session of R. In the **Tutorial** panel (usually top right with the **Environment** panel), complete the **Data Basics** tutorial.
 
-Include the answers to the questions below in your R script as comments. Clearly label your answers with the question number (e.g., 10a, 10b).
+Include the answers to the questions below in your R script as comments. Clearly label your answers with the question number (e.g., 10a, 10b). You will answer these questions as part of the Data Basics Tutorial. List the answers from your tutorial as comments in your R script.
 
 a) What does the `drv` variable of `mpg` describe? Read the help for `?mpg` to find out.
 b) How many rows are in the data frame named `cars`?
 c) How many columns are in the data frame named `cars`?
-d) Which types of variables does `flights` contain? List all that apply.
+d) Which types of variables does `flights` contain? List all the types that you checked in the tutorial.
 
 ---
 
