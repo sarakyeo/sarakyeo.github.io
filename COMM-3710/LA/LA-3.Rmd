@@ -26,7 +26,7 @@ In this assignment, you will learn how to:
 - Look at the contents of a data frame or tibble.
 - Identify variables and their types in a tibble.
 
-> **You should follow these instructions for preparation, naming, and saving of your R script for *all* of your individual lab assignments.**
+> **You should follow these instructions for preparation, naming, and saving of your R script for *all* of your individual lab assignments.** 
 
 ---
 
@@ -93,6 +93,7 @@ Example pseudocode for installing and loading your packages:
 # Load rstatix
 ```
 
+Use this [template](https://utah.instructure.com/files/120006973/download?download_frd=1) to help organize your R script.
 
 # Step 5 {.tabset .tabset-fade}
 ## Instructions

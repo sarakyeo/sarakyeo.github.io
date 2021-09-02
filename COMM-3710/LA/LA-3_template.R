@@ -6,13 +6,14 @@
 
 # Installing and Loading Packages -----------------------------------------
 # Install tidyverse package
-install.packages()
+install.packages("tidyverse")
 # Install magrittr package
+
 # Install descr package
 # Install rstatix package
 
 # Load tidyverse package
-library()
+library(tidyverse)
 # Load magrittr package
 # Load descr package
 # Load rstatix package
