@@ -106,6 +106,8 @@ Save your R script as `LA-3_FirstName-LastName.R`.
 ## Hint
 Use the resource in Step 1 if you need help setting your working directory.
 
+You can also use the shortcut key (Win/Mac: Ctrl + Shift + H).
+
 
 # Step 6 {.tabset .tabset-fade}
 ##  Instructions

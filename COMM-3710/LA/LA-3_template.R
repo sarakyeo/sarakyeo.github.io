@@ -8,13 +8,15 @@
 # Install tidyverse package
 install.packages("tidyverse")
 # Install magrittr package
-
+install.packages("magrittr")
 # Install descr package
+
 # Install rstatix package
 
 # Load tidyverse package
 library(tidyverse)
 # Load magrittr package
+library(magrittr)
 # Load descr package
 # Load rstatix package
 
