@@ -76,9 +76,13 @@ Then, write commands to **install** the above packages and **load** them into yo
 Example pseudocode for installing and loading your packages:
 ```
 # Install the package, tidyverse
+# Install the package, magrittr
 # Install the package, summarytools
 # Install the package, rstatix
-# Load all the packages
+# Load tidyverse
+# Load magrittr
+# Load summarytools
+# Load rstatix
 ```
 
 

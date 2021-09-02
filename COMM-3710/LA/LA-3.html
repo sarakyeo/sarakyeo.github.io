@@ -227,12 +227,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -318,9 +318,13 @@ div.tocify {
 <p><a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#packages">Sections 2.3.5 and 2.3.6</a> in COMM 3710: Getting Started with R should help.</p>
 <p>Example pseudocode for installing and loading your packages:</p>
 <pre><code># Install the package, tidyverse
+# Install the package, magrittr
 # Install the package, summarytools
 # Install the package, rstatix
-# Load all the packages</code></pre>
+# Load tidyverse
+# Load magrittr
+# Load summarytools
+# Load rstatix</code></pre>
 </div>
 </div>
 <div id="step-5" class="section level1 tabset tabset-fade">
@@ -572,6 +576,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
