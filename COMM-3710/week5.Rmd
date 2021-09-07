@@ -108,7 +108,7 @@ As it states in your textbook, "[b]eing haphazard in one's approach is not scien
 - start with an overarching research question or goal and...
 - use it as a guide to designing a good survey project.
 
-As a guide, Fink (2006) suggests five steps for conducting a survey. These are also listed with more detail in your textbook.
+As a guide, Fink (2006) suggests five steps for conducting a survey. Although the tabs below offer some idea of each step, be sure to read your textbook for more details.
 
 ## Step 1: Pick Your Questions 
 There is no single way to decide which questions you will need to ask on a survey. **The questions that you ask will be dictated by your hypotheses and specific research questions, which are driven by your overarching research question or goal**.
@@ -143,16 +143,25 @@ As a result of this pilot test, I revised this survey question as follows.
 ---
 
 ## Step 3: Study Design
+As a researcher, you must decide whether a *cross-sectional* or *longitudinal* survey will be a better design for addressing your hypotheses and research questions.
 
+Review the definitions of cross-sectional and longitudinal surveys in your textbook or in the section, [What is a Survey?]
 
 ---
 
 ## Step 4: Data Processing and Analysis
+The short explanation of this step: Researchers must have a plan for data processing and analysis when they design their survey. 
 
+To do so, you must have some idea of how survey responses are used in statistical analysis, a topic that we will get to later in the semester. Additionally, your assignments with R are designed to give you hands-on experience with data management, processing, and analysis.
 
 ---
 
 ## Step 5: Pilot Testing
+A **pilot test** is a small-scale test-run of your survey project. As illustrated in Step 2, this can often bring to light issues with the questionnaire or study design that the researchers did not anticipate.
+
+It is critical to pilot test your questionnaire before conducting the full study. Your textbook describes a relatively in-depth pilot study. Not all researchers need or are able to conduct such a comprehensive pilot study for all projects. There are degrees of comprehensiveness of pilot studies. For example, a researcher might pilot test some questions on a survey about which they are unsure instead of the entire survey.
+
+These types of decisions are among the many that researchers make when conducting a study. Often, there are no correct or incorrect answers. Instead, **decisions should be made with an eye toward addressing the hypotheses and research questions that drive a study**.
 
 ---
 
