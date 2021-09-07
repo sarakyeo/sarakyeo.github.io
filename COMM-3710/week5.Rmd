@@ -59,8 +59,9 @@ If YES, how much attention did you pay to them?
 
 Check your answers [here](https://utah.instructure.com/files/120147345/download?download_frd=1).
 
+---
 
-## What is a Survey? {.tabset .tabset-fade}
+# What is a Survey?
 A **survey** is a social scientific method for gathering quantifiable information about a specific group of people by asking the group members questions about their individual attitudes, values, beliefs, behaviors, knowledge, and perceptions.
 
 A **questionnaire** is a form containing a series of questions and mental measures given to a group of people in an attempt to gain statistical information about the group as part of a survey.
@@ -71,7 +72,7 @@ There are different types of surveys. Two that we will define in this course are
 2. **Longitudinal survey**: A survey that is conducted at multiple time points. The respondents surveyed at these time points can be the same people (panel survey) or different people (trend survey).
 
 
-### Opinion Polling
+## Opinion Polling
 Polling is survey research that we often hear about in media, especially as it related to politics and public affairs. For example, the [Pew Research Center](https://www.pewresearch.org/) conducts polls on a variety of political and public affairs in the United States.
 
 That said, people had some questions about the accuracy of polling following the 2016 election. Read the three articles below. Each highlights some of the contemporary challenges faced by polling.
@@ -81,7 +82,7 @@ That said, people had some questions about the accuracy of polling following the
 - [Silver (2014)](https://utah.instructure.com/files/117883434/download?download_frd=1)
 
 
-### When to Use Surveys
+# When to Use Surveys
 According to Buckingham and Saunders (2004), for researchers to decide whether a survey is the appropriate method, they should answer four questions:
 
 1. Do you know what you want to ask?
@@ -97,8 +98,9 @@ Read about these four considerations in **Chapter 9 of your [textbook](https://u
 
 Buckingham, A., & Saunders, P. (2004). *The Survey Methods Workbook: From Design to Analysis* (1st ed.). Cambridge, UK: Polity Press.
 
+---
 
-## Questionnaire Construction
+# Questionnaire Construction
 We use a questionnaire because it is a **standardized measurement instrument** that allows us to collect **valid** and **reliable** data.
 
 Although we call it a questionnaire, not all of the "questions" contained within it are true questions. Many questions are in the form of statements that require participants to indicate the degree to which they agree or disagree with the statements. The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html)) and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
@@ -115,48 +117,49 @@ Being mindful of these aspects increases the likelihood that respondents will co
 </center>
 <br>
 
+---
 
-## Strengths and Weaknesses of Survey Research {.tabset .tabset-fade}
+# Strengths and Weaknesses of Survey Research {.tabset .tabset-fade}
 
 > **Survey research is generally strong on reliability but *can* be weak on validity**.
 
-### Strengths
+## Strengths
 1. Surveys allow researchers to make inferences to large groups of people. In other words, surveys allow us to make **generalizations**. Of course, this means that we must first have valid and reliable measures of the concepts of interest in your survey and we must employ probability sampling techniques to obtain a representative sample of the population.
 2. We can often have **large samples** in a survey. It is not uncommon to have sample sizes upwards of 2,000 respondents. If we use probability sampling techniques, this allows us to make more accurate predictions and inferences about the population of interest.
 
 
-### Weaknesses
+## Weaknesses
 1. Sometimes, conducting survey research can be like trying to fit round pegs into square holes. Because we have standardized questionnaires for every respondent, we might miss some complexities and nuances in people's attitudes, opinions, behaviors, perceptions, etc. However, this can often be overcome through a combination of careful concept explication prior to data collection and sophisticated statistical analyses after data collection.
 2. Another critique of survey research is its **artificiality**. We cannot always use surveys to answer all our research questions. Additionally, if we have a sensitive topic, we may influence respondents' answers by asking survey questions about it. **Artificiality strains the validity of our surveys**; if the situation in which respondents are answering our survey suffers from the problem of artificiality, we may not be able to tell whether the results obtained are accurate reflections of our respondents' views.
 
 
-## Secondary Analysis {.tabset .tabset-fade}
+# Secondary Analysis {.tabset .tabset-fade}
 Survey research projects are major undertakings. It can take a year or more to progress from concept explication to data collection. Often, researchers will obtain data that have been collected by other researchers and **re-analyze** them to **address different questions and hypotheses**.
 
 This is known as **secondary analysis** and the data used for such analyses are known as **secondary data**. You will be conducting secondary data analysis for your group project.
 
-### Advantages of Secondary Analysis
+## Advantages of Secondary Analysis
 - cheaper
 - quicker
 - allows researchers to conduct [meta-analyses](https://en.wikipedia.org/wiki/Meta-analysis)
 
 
-### Disadvantages of Secondary Analysis
+## Disadvantages of Secondary Analysis
 - may be weak on validity
 - data many not exactly fit or be appropriate to the research question
 - measures may not be valid or reliable
 
 
-
-## Common Sources of Secondary Data
+# Common Sources of Secondary Data
 The data sets listed below are some examples of sources of secondary data. Spend some time on each website and explore the data that can be downloaded. Many research questions have been answered using these secondary data.
+
 - [Add Health: The National Longitudinal Study of Adolescents to Adult Health](https://addhealth.cpc.unc.edu)
 - [Cooperative Election Study](https://cces.gov.harvard.edu)
 - [General Social Survey (GSS)](https://gss.norc.org)
 - [Health Information National Trends Survey (HINTS)](https://hints.cancer.gov)
 
 
-### Examples of Published Research Using Secondary Data
+## Examples of Published Research Using Secondary Data
 Webster, S. W., & Abramowitz, A. I. (2017). The ideological foundations of affective polarization in the U.S. electorate. *American Politics Research*, 45(4), 621–647. https://doi.org/10.1177/1532673X17703132
 
 Zhao, X. Q. (2009). Media use and global warming perceptions: A snapshot of the reinforcing spirals. *Communication Research*, 36(5), 698–723. https://doi.org/10.1177/0093650209338911
