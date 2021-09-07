@@ -62,7 +62,7 @@ Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?downl
 
 ## Step 2
 
-Install the `descr` and `tidyverse` packages in R. Then, load the packages.
+Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
 Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
 
