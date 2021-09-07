@@ -47,7 +47,7 @@ Set up your R script for this assignment. Load the packages below and set your w
 - `rstatix`
 
 ## Hint
-See LA-3 for a reminder of how to set up your R script for assignments.
+See [LA-3](https://sarakyeo.github.io/COMM-3710/LA/LA-3.html) for a reminder of how to set up your R script for assignments.
 
 
 # Step 2 {.tabset .tabset-fade}
@@ -103,7 +103,7 @@ In this step, we will learn to use the pipe operator.
 
 The pipe operator, `%>%`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
 
-You can also this of the `%>%` as "then." Here is an example from our daily lives:
+You can also think of the pipe operator, `%>%`, as "then." If we were to use `%>%` to describe a daily routine, it might look something like this:
 ```
 Woke up %>% 
 Took a shower %>% 
