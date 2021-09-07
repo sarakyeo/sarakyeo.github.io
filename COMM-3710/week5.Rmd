@@ -115,13 +115,15 @@ There is no single way to decide which questions you will need to ask on a surve
 
 Read more about this in Wrench Ch. 9 and in the [questionnaire construction] section below.
 
+---
+
 ## Step 2: Creating Clear Instructions
 There is often ambiguity in a survey question that researchers fail to catch. While there are examples of clear instructions in a questionnaire in your textbook, I have also included an example from a mistake I made just a few years ago.
 
 I was pilot testing a survey on a group of college students and asked them the following question: 
 
 <center>
-<img src="https://sarakyeo.github.io/images/formal-educ-q.png"/>
+<img src="https://sarakyeo.github.io/images/form-educ-q.png"/>
 </center>
 
 The drop-down list of response choices ranged from `0` to `31 or more`. The frequency distribution of the responses is shown below. This type of graph shows the response categories on the x-axis (horizontal) and the number of responses for each category, or the frequency of each category, on the y-axis (vertical).
@@ -135,15 +137,20 @@ Since my sample consisted only of college students, I expected responses to only
 As a result of this pilot test, I revised this survey question as follows.
 
 <center>
-<img src="https://sarakyeo.github.io/images/formal-educ-q2.png"/>
+<img src="https://sarakyeo.github.io/images/form-educ-q2.png"/>
 </center>
 
+---
 
 ## Step 3: Study Design
 
 
+---
+
 ## Step 4: Data Processing and Analysis
 
+
+---
 
 ## Step 5: Pilot Testing
 
