@@ -16,6 +16,8 @@ An experiment occurs when a researcher purposefully manipulates one or more vari
 Early experimenters realized the importance of control groups. Controls limit extraneous influences that might bias the observations. We will discuss modern experimental designs that control external influences in this module.
 
 # What is an Experiment? {.tabset .tabset-fade}
+> An experiment occurs when a researcher manipulates/alters/changes one or more variables in hopes of seeing how this manipulation causes other variables of interest to change.
+
 Experiments...
 
 - explore the effects of manipulating a variable.
@@ -26,15 +28,36 @@ Experiments...
    - pre- and post-testing
    - experimental and control groups
 
-## Why Conduct Experiments?
+## Why Conduct Experiments? {.tabset .tabset-fade}
 Experiments are useful for **demonstrating causality**. This is the primary advantage of conducting experiments.
+
+Although the textbook describes four reasons why researchers conduct experiments, we will only discuss **three** here (the first and fourth in the textbook are similar, both related to causality). 
+
+We have already highlighted one of them (determining causal relationships). The tabs below describe each reason in detail.
+
+### Determining Causality
+If researchers relied only on survey data, we would find relationships that have little meaning to them and could occur by chance.
 
 When we discussed survey research, we were careful to highlight that relationships between variables were correlation, not causation. Rigorous methodology in experimentation allows researchers to isolate the cause of an effect. This allows for the exploration of whether an independent variable causes a change in a dependent variable.
 
 The bottom line: **Experiments allow us to demonstrate causality**.
 
+### Ruling Out Alternative Explanations
+Experiments allow researchers to **control** what occurs and changes in a testing situation. Often, this can help researchers rule out alternative or spurious explanations for an observed change in the dependent, or outcome, variable.
 
-## Disadvantages of Experimentation
+This is why researchers include a comparison group, also known as a **control** group or condition. Researchers use the control group as a baseline, which provides a comparison for changes that might occur as a result of the experimental manipulation.
+
+We also include pretest conditions as a *before* (pre-test) observation for comparison with the *after* (post-test) observation.
+
+### Determining the Influence of Antecedent Variables
+Another reason for performing experiments is to determine whether intervening and antecedent variables are influencing the results.
+
+**Antecedent variables** are ones occur prior to the experiment that may impact the way your variables in the experiment function. An antecedent variable occurs between an independent and dependent variable.
+
+This is discussed in more detail in the section titled, [Threats to Internal Validity].
+
+
+## What are the Disadvantages of Conducting Experiments?
 Experimentation can be time-consuming. Designing and setting up an experiment is a major undertaking that can be very resource-intensive. Additionally, experiments present subjects with artificial environments, i.e., in order to control every variable and change only one, researchers must subject participants to controlled conditions, which are often unlikely to occur in the real world. This limits researchers' ability to generalize the results of experiments. Indeed, experiments are often more focused on theory testing and building than on external validity.
 
 The bottom line: **The main disadvantage of experiments is the artificiality of the conditions to which subjects are exposed**.
@@ -43,7 +66,7 @@ The bottom line: **The main disadvantage of experiments is the artificiality of 
 # The Logic of Experiments
 
 ## Basic Experimental Design
-The most basic experimental design is a **pretest-posttest-control group design with random assignment of participants to each group**. Note that random assignment and random selection are not the same! Random selection refers to selecting subjects at random to a sample. Random assignment refers to assigned subjects in a sample to random groups in an experiment.
+The most basic experimental design is a **pretest-posttest-control group design with random assignment of participants to each group**. Note that random assignment and random selection are not the same! Random selection refers to selecting subjects at random to a sample. Random assignment refers to assigned subjects in a sample to random groups in an experiment. Read more about random assignment in the textbook (Chapter 11).
 
 <center>
 <img src="https://sarakyeo.github.io/images/basic-experimental-design.png"/>
