@@ -88,7 +88,7 @@ Following the manipulation, the dependent variable is again measured at $t_2$ (`
 
 
 ## Variations on Experimental Design {.tabset .tabset-fade}
-There are also variations on the basic experimental design. Here are four different types:
+There are also variations on the basic experimental design. Here are some different types:
 
 ### One-shot Case Study
 In this design, there is only one group--the experimental group. The outcome variable is compared with some external standard or criteria. At time 1, there is no measurement. Then, at time 2, the stimulus (in this example, the stimulus is exercise) is applied. Lastly, at time 3, researchers measure the outcome variable (e.g., fitness).
