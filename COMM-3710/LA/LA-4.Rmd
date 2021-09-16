@@ -52,7 +52,7 @@ See [LA-3](https://sarakyeo.github.io/COMM-3710/LA/LA-3.html) for a reminder of 
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
-Download the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) into your working directory.
+Download the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) and copy and paste it into your working directory.
 
 Read the HELP data into a data frame in R (give the data frame a name of your choice). View the HELP data set in the Console and answer the questions below.
 
