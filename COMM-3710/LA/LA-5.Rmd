@@ -75,7 +75,7 @@ See LA-4 for a reminder of how to load data into R.
 
 Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
-Make a frequency table for `sex` and `d1`. Use these frequency tables to answer the questions below.
+Examine the frequency distributions of the variables, `sex` and `d1`. Use these frequency distributions to answer the questions below.
 
 a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?

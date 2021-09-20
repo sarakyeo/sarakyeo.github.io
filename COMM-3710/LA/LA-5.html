@@ -396,7 +396,7 @@ div.tocify {
 <div id="instructions-1" class="section level2">
 <h2>Instructions</h2>
 <p>Install the <code>summarytools</code> and <code>tidyverse</code> packages in R. Then, load the packages.</p>
-<p>Make a frequency table for <code>sex</code> and <code>d1</code>. Use these frequency tables to answer the questions below.</p>
+<p>Examine the frequency distributions of the variables, <code>sex</code> and <code>d1</code>. Use these frequency distributions to answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients in the study are female?</li>
 <li>How many patients in the study have never been hospitalized for medical problems?</li>
@@ -429,9 +429,9 @@ div.tocify {
 subdata &lt;- hdata %&gt;% 
         filter(homeless == &quot;housed&quot;)
 
-# Check that the code to filter data is correct
+# Check that the code to filter data is correct...
 subdata %&gt;% 
-        freq(homeless)</code></pre>
+        freq(homeless) # by examining a frequency distribution of the variable, homeless</code></pre>
 </div>
 </div>
 <div id="step-4" class="section level1">
@@ -482,14 +482,14 @@ subdata %&gt;%
   freq(daysanysub) # examine freq dist of daysanysub
 
 hdata %&gt;% 
-  freq(dayslink)</code></pre>
+  freq(dayslink) # examine freq dist of dayslink</code></pre>
 <p>Then, we can create a new variable using the <code>mutate()</code> function. Note the use of the left arrow <em>and</em> the pipe operator. This is important as it tells R to save the new variable in the existing data frame, <code>hdata</code>.</p>
 <pre class="r"><code>hdata &lt;- hdata %&gt;% # including the &lt;- saves the new variable back into the data frame
   mutate(sumdays = daysanysub + dayslink) # sum the two variables
 
 # Check that the new variable is correctly created
 hdata %&gt;% 
-  freq(sumdays)</code></pre>
+  freq(sumdays) # examine freq distribution of new variable, sumdays</code></pre>
 </div>
 </div>
 <div id="step-7" class="section level1 tabset tabset-fade">
@@ -508,7 +508,7 @@ hdata %&gt;%
 <div id="hint-5" class="section level2">
 <h2>Hint</h2>
 <p>To recode a variable, we will use the <code>mutate()</code> and <code>case_when()</code> functions. As an example, we will recode <code>i1</code> into a new variable, <code>di1</code>, that have low and high categories.</p>
-<pre class="r"><code># First, examine i1
+<pre class="r"><code># First, examine the frequency distribution of i1
 hdata %&gt;% 
   freq(i1)
 
