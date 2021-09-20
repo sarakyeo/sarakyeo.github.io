@@ -32,11 +32,18 @@ In this assignment, you will learn how to:
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
 
-Load the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+
+Packages to load:
+
+- `tidyverse`
+- `magrittr`
+- `summarytools`
+- `rstatix``
 
 ## Hint
 
-See LA-4 for a reminder of how to load data into R.
+See LA-4 for a reminder of how to load data into R, which involves using the function, `read_csv()`.
 
 ## Codebook
 
@@ -72,8 +79,6 @@ See LA-4 for a reminder of how to load data into R.
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
-
-Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
 Examine the frequency distributions of the variables, `sex` and `d1`. Use these frequency distributions to answer the questions below.
 
