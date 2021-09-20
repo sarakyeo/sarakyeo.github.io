@@ -111,9 +111,9 @@ The code below subsets the data to include only patients who are housed (we did 
 subdata <- hdata %>% 
         filter(homeless == "housed")
 
-# Check that the code to filter data is correct
+# Check that the code to filter data is correct...
 subdata %>% 
-        freq(homeless)
+        freq(homeless) # by examining a frequency distribution of the variable, homeless
 ```
 
 
@@ -163,7 +163,7 @@ hdata %>%
   freq(daysanysub) # examine freq dist of daysanysub
 
 hdata %>% 
-  freq(dayslink)
+  freq(dayslink) # examine freq dist of dayslink
 ```
 
 Then, we can create a new variable using the `mutate()` function. Note the use of the left arrow *and* the pipe operator. This is important as it tells R to save the new variable in the existing data frame, `hdata`.
@@ -173,7 +173,7 @@ hdata <- hdata %>% # including the <- saves the new variable back into the data 
 
 # Check that the new variable is correctly created
 hdata %>% 
-  freq(sumdays)
+  freq(sumdays) # examine freq distribution of new variable, sumdays
 ```
 
 
@@ -193,7 +193,7 @@ b) How many respondents are in the **high** category of the new variable, `dcesd
 ## Hint
 To recode a variable, we will use the `mutate()` and `case_when()` functions. As an example, we will recode `i1` into a new variable, `di1`, that have low and high categories.
 ```{r recoding, echo=TRUE, eval=FALSE}
-# First, examine i1
+# First, examine the frequency distribution of i1
 hdata %>% 
   freq(i1)
 
