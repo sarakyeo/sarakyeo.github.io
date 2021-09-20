@@ -89,6 +89,21 @@ A **statistical correlation** is a measure of the strength and direction of the 
 
 Check your answers with the [Week 4 lecture on relationships](https://sarakyeo.github.io/COMM-3710/week4.html#Relationships).
 
+We often examine linear associations/relationships between two variables (such as the linear relationships between $X$ and $Y$ depicted in the graphs above) using **Pearson correlation coefficients ($r$)**. Pearson's correlation is commonly used to measure the strength of a linear association between two variables. These coefficients are often displayed in tables, which show the inter-item correlation between variables in the rows and columns.
+
+$r$ ranges between $-1$ and $1$ and cannot exceed these boundaries. In other words, $r$ can only have a value between $-1$ and $1$. The sign of $r$ tells us whether the relationship is positive or negative, and the value tells us about the strength of the linear relationship between the two variables.
+
+Values of $r$ closer to $+1$ indicate a stronger positive relationship and values of $r$ closer to $-1$ indicate a stronger negative relationship. $r = 0$ means there is no linear relationship between the variables.
+
+Let's take a look at the example below, which shows correlation coefficients between *attention to news on various media platforms*. 
+
+<center>
+<img src="https://sarakyeo.github.io/images/corr-coefs.png"/>
+</center>
+<br>
+
+From this table, we can see that the relationship between *attention to news on TV* and *attention to news on the radio* is $0.89$. To check your understanding of how to read tables like these, see whether you are able to determine the Pearson correlation coefficient for the relationship between *attention to news in blogs* and *attention to news on the radio*.^[The answer is $0.75$.]
+
 <hr>
 
 To assess inter-item reliability, we use one of three ways. The video below explains each of these.
