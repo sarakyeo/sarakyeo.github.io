@@ -64,7 +64,7 @@ Load/Read the [HELP](https://utah.instructure.com/files/108105219/download?downl
 
 Install the `summarytools` and `tidyverse` packages in R. Then, load the packages. You will not need any add-ons for SPSS.
 
-Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
+Make a frequency table for `sex` and `d1`. Use these frequency tables to answer the questions below.
 
 a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?

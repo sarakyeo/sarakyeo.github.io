@@ -75,7 +75,7 @@ See LA-4 for a reminder of how to load data into R.
 
 Install the `summarytools` and `tidyverse` packages in R. Then, load the packages.
 
-Make a frequency table for `sex` and `d1`. Include these frequency tables in your submission and answer the questions below.
+Make a frequency table for `sex` and `d1`. Use these frequency tables to answer the questions below.
 
 a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?
@@ -168,8 +168,8 @@ hdata %>%
 
 Then, we can create a new variable using the `mutate()` function. Note the use of the left arrow *and* the pipe operator. This is important as it tells R to save the new variable in the existing data frame, `hdata`.
 ```{r mutate2, eval=FALSE, echo=TRUE}
-hdata <- hdata %>% 
-  mutate(sumdays = (daysanysub + dayslink)) # sum the two variables
+hdata <- hdata %>% # including the <- saves the new variable back into the data frame
+  mutate(sumdays = daysanysub + dayslink) # sum the two variables
 
 # Check that the new variable is correctly created
 hdata %>% 

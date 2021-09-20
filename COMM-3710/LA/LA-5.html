@@ -396,7 +396,7 @@ div.tocify {
 <div id="instructions-1" class="section level2">
 <h2>Instructions</h2>
 <p>Install the <code>summarytools</code> and <code>tidyverse</code> packages in R. Then, load the packages.</p>
-<p>Make a frequency table for <code>sex</code> and <code>d1</code>. Include these frequency tables in your submission and answer the questions below.</p>
+<p>Make a frequency table for <code>sex</code> and <code>d1</code>. Use these frequency tables to answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients in the study are female?</li>
 <li>How many patients in the study have never been hospitalized for medical problems?</li>
@@ -484,8 +484,8 @@ subdata %&gt;%
 hdata %&gt;% 
   freq(dayslink)</code></pre>
 <p>Then, we can create a new variable using the <code>mutate()</code> function. Note the use of the left arrow <em>and</em> the pipe operator. This is important as it tells R to save the new variable in the existing data frame, <code>hdata</code>.</p>
-<pre class="r"><code>hdata &lt;- hdata %&gt;% 
-  mutate(sumdays = (daysanysub + dayslink)) # sum the two variables
+<pre class="r"><code>hdata &lt;- hdata %&gt;% # including the &lt;- saves the new variable back into the data frame
+  mutate(sumdays = daysanysub + dayslink) # sum the two variables
 
 # Check that the new variable is correctly created
 hdata %&gt;% 
