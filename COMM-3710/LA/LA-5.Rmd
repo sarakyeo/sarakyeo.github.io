@@ -39,7 +39,7 @@ Packages to load:
 - `tidyverse`
 - `magrittr`
 - `summarytools`
-- `rstatix``
+- `rstatix`
 
 ## Hint
 
