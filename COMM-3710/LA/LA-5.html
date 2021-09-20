@@ -423,7 +423,7 @@ div.tocify {
 <h1 class="tabset tabset-fade">Step 3</h1>
 <div id="instructions-2" class="section level2">
 <h2>Instructions</h2>
-<p>Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for <code>age</code>.</p>
+<p>Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, examine the frequency distribution of <code>age</code>.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients are between the ages of 40 and 45 whose primary substance of abuse is cocaine?</li>
 </ol>
@@ -442,7 +442,7 @@ subdata %&gt;%
 </div>
 <div id="step-4" class="section level1">
 <h1>Step 4</h1>
-<p>Make a frequency table for <code>sex</code> based on this subset. Answer the questions below.</p>
+<p>Examine a frequency table of <code>sex</code> based on this subset. Answer the questions below.</p>
 <ol style="list-style-type: lower-alpha">
 <li>How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?</li>
 <li>What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are <strong>male</strong>?</li>
@@ -482,7 +482,7 @@ subdata %&gt;%
 </div>
 <div id="hint-4" class="section level2">
 <h2>Hint</h2>
-<p>To create a new variable, we need to first check the frequency distributions of each variable that comprises the one you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.</p>
+<p>To create a new variable, we need to first look at the frequency distributions of each variable that makes up the new variable you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.</p>
 <p>Start by examining the variables that we will use:</p>
 <pre class="r"><code>hdata %&gt;% 
   freq(daysanysub) # examine freq dist of daysanysub

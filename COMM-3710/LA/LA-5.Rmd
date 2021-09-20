@@ -104,7 +104,7 @@ hdata %>%
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
-Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, make a frequency table for `age`.
+Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, examine the frequency distribution of `age`.
 
 a. How many patients are between the ages of 40 and 45 whose primary substance of abuse is cocaine?
 
@@ -123,7 +123,7 @@ subdata %>%
 
 
 # Step 4 
-Make a frequency table for `sex` based on this subset. Answer the questions below.
+Examine a frequency table of `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
 b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
@@ -160,7 +160,7 @@ b) What is the minimum value of `Mdays`?
 c) What is the maximum value of `Mdays`?
 
 ## Hint
-To create a new variable, we need to first check the frequency distributions of each variable that comprises the one you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.
+To create a new variable, we need to first look at the frequency distributions of each variable that makes up the new variable you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.
 
 Start by examining the variables that we will use:
 ```{r mutate1, eval=FALSE, echo=TRUE}
