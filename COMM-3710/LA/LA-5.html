@@ -473,7 +473,7 @@ subdata %&gt;%
 <div id="instructions-4" class="section level2">
 <h2>Instructions</h2>
 <p>We will now learn how to use the <code>mutate()</code> function to create a new variable from existing ones. We will use the variables, <code>daysanysub</code> and <code>dayslink</code>.</p>
-<p>Create a new variable called <code>Mdays</code> that is the mean of <code>daysanysub</code> and <code>dayslink</code>. Then, examine the descriptive statistics of the new variable, <code>Mdays</code>, and answer the following questions.</p>
+<p>Create a new variable called <code>Mdays</code> that is the mean<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> of <code>daysanysub</code> and <code>dayslink</code>. Then, examine the descriptive statistics of the new variable, <code>Mdays</code>, and answer the following questions.</p>
 <ol style="list-style-type: lower-alpha">
 <li>What is the mean of the variable, <code>Mdays</code>?</li>
 <li>What is the minimum value of <code>Mdays</code>?</li>
@@ -483,6 +483,7 @@ subdata %&gt;%
 <div id="hint-4" class="section level2">
 <h2>Hint</h2>
 <p>To create a new variable, we need to first look at the frequency distributions of each variable that makes up the new variable you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.</p>
+<p>Let’s say I want to create a new variable, <code>sumdays</code> that is the <strong>sum</strong> of <code>daysanysub</code> and <code>dayslink</code>.</p>
 <p>Start by examining the variables that we will use:</p>
 <pre class="r"><code>hdata %&gt;% 
   freq(daysanysub) # examine freq dist of daysanysub
@@ -496,6 +497,7 @@ hdata %&gt;%
 # Check that the new variable is correctly created
 hdata %&gt;% 
   freq(sumdays) # examine freq distribution of new variable, sumdays</code></pre>
+<p>Once I have created this new variable correctly, I can examine descriptive statistics of this variable using the <code>descr()</code> function.</p>
 </div>
 </div>
 <div id="step-7" class="section level1 tabset tabset-fade">
@@ -549,6 +551,12 @@ hdata %&gt;%
 <blockquote>
 <p>These standards apply to all submissions in this course that require R scripts.</p>
 </blockquote>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>To calculate a mean, you add all the variables then divide by the number of variables<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 
 
