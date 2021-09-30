@@ -125,7 +125,7 @@ subdata %>%
 # Step 4 
 Examine a frequency table of `sex` based on this subset. Answer the questions below.
 
-a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance?
+a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance are **female**?
 b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
 
 
