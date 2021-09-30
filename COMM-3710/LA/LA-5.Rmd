@@ -153,7 +153,7 @@ hdata %>%
 ## Instructions
 We will now learn how to use the `mutate()` function to create a new variable from existing ones. We will use the variables, `daysanysub` and `dayslink`.
 
-Create a new variable called `Mdays` that is the mean^[To calculate a mean, you add all the variables then divide by the number of variables] of `daysanysub` and `dayslink`. Then, examine the descriptive statistics of the new variable, `Mdays`, and answer the following questions.
+Create a new variable called `Mdays` that is the **mean**^[To calculate a mean, you add all the variables then divide by the number of variables.] of `daysanysub` and `dayslink`. Then, examine the descriptive statistics of the new variable, `Mdays`, and answer the following questions.
 
 a) What is the mean of the variable, `Mdays`?
 b) What is the minimum value of `Mdays`? 
