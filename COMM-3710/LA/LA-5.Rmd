@@ -106,7 +106,7 @@ hdata %>%
 ## Instructions
 Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, examine the frequency distribution of `age`.
 
-a. How many patients are between the ages of 40 and 45 whose primary substance of abuse is cocaine?
+a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
 
 ## Hint
 The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
