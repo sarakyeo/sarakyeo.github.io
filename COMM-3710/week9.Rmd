@@ -88,13 +88,26 @@ The video below explains why sampling matters, but it is not only about sampling
 An important part of the research process involves identifying the appropriate sample for the research question at hand. The sampling process involves several steps:
 
 ## 1) Identifying the Theoretical Population
-The actual population of a study is often not accessible. For example, studies that aim to examine the attitude
+The actual population of a study is often not accessible. For example, studies that aim to examine the attitudes and opinions held by adults in the U.S. would be difficult to do if we needed survey responses from the entire population. We cannot possibly hope to obtain survey responses from every single adult in the country!
+
+Although all adults in the U.S. would be members of the **theoretical population**, they may not be accessible for the study. So, the first step involves identifying the theoretical population to which a researcher would like to generalize results and then identifying the actual study population that a researcher could contact.
 
 ## 2) Identifying Potential Participants
+After selecting the study population, a researcher should identify all members of that group and figure out how each one could be contacted for inclusion in the study. This involves coming up with a list of potential participants from the study population, which is known as a **sampling frame**.
+
+Some questions to consider as researchers identify potential participants include:
+
+- Who are members of the group?
+- How will they be contacted for inclusion into the study?
+- What is the sampling frame?
 
 
 ## 3) Selecting the Sample
+The final step of the sampling process involves answering the following question:
 
+- What method will be used to select members from the population into the sample?
+
+Researchers must identify the sample to be included and the sampling design to use. Sampling can be done using a variety of designs, but we primarily think of two: probability and nonprobability sampling.
 
 ---
 
