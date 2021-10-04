@@ -278,7 +278,7 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- Iversen, G. R., & Norpoth, H. (1987). *Analysis of Variance* (2nd ed). Newbury Park, CA: Sage Publications.
+- Chatelain, A. M. (2015). The effect of academics’ dress and gender on student perceptions of instructor approachability and likeability. *Journal of Higher Education Policy & Management, 37*(4), 413–423. https://doi.org/10.1080/1360080X.2015.1056598
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Independent Samples t-Tests. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 471–490). Oxford University Press.
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). One-Way Analysis of Variance. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 492–515). Oxford University Press.
 
