@@ -11,16 +11,18 @@ urlcolor: blue
 ---
 
 # What is Sampling?
-Sampling is an important aspect of research. In survey research, the quality of the study is affected by the purpose of the survey (**conceptualization** and **operationalization**) and the way it is conducted (**sampling**). Look up the following terms using the resources available to you (e.g., textbook).
+Sampling is an important aspect of research. In survey research, the quality of the study is affected by the purpose of the survey (**conceptualization** and **operationalization**) and the way it is conducted (**sampling**). 
+
+> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
+
+Look up the following terms using the resources available to you (e.g., textbook). You may encounter these in your weekly quiz.
 
 - Sample
 - Population
 - Sampling frame
 - Sampling error
 
-> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
-
-<a href="#top">Back to top</a>
+---
 
 ## When is a Sample Large Enough?
 If there was a simple answer to this question, it would be "it depends." How large a sample needs to be depends on several factors:
@@ -32,17 +34,18 @@ If there was a simple answer to this question, it would be "it depends." How lar
 
 Often, a moderate sample size is statistically sufficient. In general, sample size should be large enough to keep your **margin of error between $\pm5\%$**.
 
+
 ## So... What is a Margin of Error?
 
 > A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
 
-Be sure to read the following for this week: **ASA (pp. 63-68)**
+Be sure to read the following for this week, which can be found in the corresponding Module on Canvas: **ASA (pp. 63-68)**
 
 Typically, margins of error are reported with confidence levels or confidence intervals.
 
 **Confidence levels** = estimated probabilities that a population parameter lies within a given confidence interval.
 
-**Confidence interval** = the range of values within which a population parameter is estimated (using a sample) to lie.
+**Confidence interval** = the range of values within which a population parameter is estimated (using a sample) to be.
 
 ### An Example
 > Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
@@ -51,11 +54,10 @@ Typically, margins of error are reported with confidence levels or confidence in
 > 
 > **Confidence interval**: The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.
 
-The above logic can also be used to determine your sample size. Once you know how much error you can tolerate, you can calculate the number of cases required in a sample.
+The above logic can also be used to determine your sample size. Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.
 
 Sample size adheres to the **law of diminishing returns**. This means that once sample reaches a certain size, the accuracy of estimates do not increase much even if you keep increasing the sample size. In other words, after a certain point, the margin of error does not decrease very much with increasing sample size.
 
-<a href="#top">Back to top</a>
 
 ## Types of Errors in Sampling
 **Coverage error**
@@ -64,13 +66,13 @@ Sample size adheres to the **law of diminishing returns**. This means that once 
 
 **Sampling error**
 
-- Degree of error to be expected by virtue of studying a sample instead of a population.
+- Degree of error to be expected by virtue of studying a sample instead of a population. Quantified using a margin of error.
 
 **Measurement error**
 
 - Error that results from poorly operationalized measures, e.g., poor question wording.
 
-<a href="#top">Back to top</a>
+---
 
 # Why Does Sampling Matter?
 The video below explains why sampling matters, but it is not only about sampling. As we have learned, other factors, such as question wording and order are also important to the generalizations, inferences, or predictions that can be made using survey data.
@@ -80,8 +82,34 @@ The video below explains why sampling matters, but it is not only about sampling
 </center>
 <br>
 
-<a href="#top">Back to top</a>
+---
 
+# The Process of Sampling
+An important part of the research process involves identifying the appropriate sample for the research question at hand. The sampling process involves several steps:
+
+## 1) Identifying the Theoretical Population
+The actual population of a study is often not accessible. For example, studies that aim to examine the attitudes and opinions held by adults in the U.S. would be difficult to do if we needed survey responses from the entire population. We cannot possibly hope to obtain survey responses from every single adult in the country!
+
+Although all adults in the U.S. would be members of the **theoretical population**, they may not be accessible for the study. So, the first step involves identifying the theoretical population to which a researcher would like to generalize results and then identifying the actual study population that a researcher could contact.
+
+## 2) Identifying Potential Participants
+After selecting the study population, a researcher should identify all members of that group and figure out how each one could be contacted for inclusion in the study. This involves coming up with a list of potential participants from the study population, which is known as a **sampling frame**.
+
+Some questions to consider as researchers identify potential participants include:
+
+- Who are members of the group?
+- How will they be contacted for inclusion into the study?
+- What is the sampling frame?
+
+
+## 3) Selecting the Sample
+The final step of the sampling process involves answering the following question:
+
+- What method will be used to select members from the population into the sample?
+
+Researchers must identify the sample to be included and the sampling design to use. Sampling can be done using a variety of designs, but we primarily think of two: probability and nonprobability sampling.
+
+---
 
 # Probability vs. Nonprobability Sampling {.tabset .tabset-fade}
 There are two broad categories of sampling strategies:
@@ -92,6 +120,7 @@ There are two broad categories of sampling strategies:
 <center>
 ![](https://sarakyeo.github.io/images/sample-design.gif)
 </center>
+
 
 ## Nonprobability Sampling
 > **Nonprobability sampling** refers to any sampling technique in which cases are selected to a sample in ways not suggested by probability theory.
@@ -109,10 +138,19 @@ This is a type of nonprobability sampling strategy based on characteristics that
 
 This sampling methods requires each individual interviewed to recommend or suggest additional interviewees. A researcher interested in studying drug addiction and use might begin by interviewing one user, who may then suggest other users who would be willing to participate in the study.
 
-<a href="#top">Back to top</a>
 
 ## Probability Sampling
-> **Probability sampling** refers to any sampling technique that relies on selecting units to a sample based on probability theory. In probability sampling, each element has a **non-zero, known, and equal chance of being selected to a sample**.
+> **Probability sampling** refers to any sampling technique that relies on selecting units to a sample based on probability theory (see below). In probability sampling, each element has a **non-zero, known, and equal chance of being selected to a sample**.
+
+**Probability theory** states that the score that occurs most frequently in a sample will also be the score that should occur most frequently in the population. It is the basis for estimating parameters in a population from a sample.
+
+We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
+
+<center>
+<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
+</center>
+<br>
+
 
 ### Types of Probability Sampling
 **Simple random sampling (SRS)**
@@ -131,26 +169,9 @@ It is often not possible to compile a comprehensive sampling frame. However, som
 
 The researcher first divides the population of interest into separate groups, known as strata. Then, a sample is drawn by randomly selecting units from each strata. Each stratum is a subset of the population that has a common characteristic.
 
-<a href="#top">Back to top</a>
+---
 
+# Weighting a Sample
+In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**. You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://utah.instructure.com/files/121921577/download?download_frd=1)).
 
-# Probability Theory, Sampling Distribution, & Estimates of Sampling Error
-Probability theory is the basis for estimating parameters in a population from a sample as well as the accuracy of the findings. Before we go any further, let's review the terms parameter and statistic.
-
-<center>
-<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
-</center>
-<br>
-
-[This video](https://www.youtube.com/watch?v=FXZ2O1Lv-KE) clarifies sampling distribution using the example of the mean. The learning tool in the video can be found [here](http://onlinestatbook.com/stat_sim/sampling_dist/index.html).
-
-<a href="#top">Back to top</a>
-
-## Weighting
-In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**. You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://nyti.ms/2dXBlva)).
-
-Read this [report](https://utah.instructure.com/files/105743188/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
-
-Post any questions about this week's content in the Discussion.
-
-<a href="#top">Back to top</a>
+Read this [report](https://utah.instructure.com/courses/722123/files/117883436/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.

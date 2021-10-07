@@ -50,6 +50,8 @@ lab_data %>%
   kable_minimal("hover", full_width = FALSE)
 ```
 
+In addition to your TAs, [The Learning Center](https://learningcenter.utah.edu) has a tutor for COMM 3710. You may schedule an appointment with Kenzie Smith using this [link](https://utah.craniumcafe.com/kenziesmith1).
+
 ---
 
 # Required Text and Readings
