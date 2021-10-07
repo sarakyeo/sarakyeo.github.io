@@ -109,16 +109,22 @@ Now, subset the data to only include patients whose primary substance of abuse i
 a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
 
 ## Hint
-The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). To ensure that the subset of data has been created correctly, you can use the the `freq()` function. Change the code to filter the data to include only patients who are male.
+The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). We could also combine two criteria for filtering into one command.
 
 ```{r filter, eval=FALSE, echo=TRUE}
-# Select respondents who are housed into a data frame called subdata
-subdata <- hdata %>% 
+# Filter hdata to select only patients who are housed 
+hdata %>% 
         filter(homeless == "housed")
 
-# Check that the code to filter data is correct...
-subdata %>% 
-        freq(homeless) # by examining a frequency distribution of the variable, homeless
+# To filter data using two conditions, there are at least two options:
+hdata %>% 
+        filter(homeless == "housed") %>% # select patients who are housed
+        filter(age > 40) # select patients who are over 40 yo
+
+# or
+
+hdata %>% 
+        filter(homeless == "housed" & age > 40)
 ```
 
 
