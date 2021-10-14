@@ -294,8 +294,12 @@ Campus security authorities are university employees who have significant respon
 
 **Readings:**
 
-- Achen, C. H. (1982). *Interpreting and Using Regression*. SAGE Publications, Inc.
 - Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2019). Regression. In *Quantitative Research Methods for Communication: A Hands-On Approach* (4th ed., pp. 539–559). Oxford University Press.
+- Wrench, J. S., & Booth‐Butterfield, M. (2003). Increasing patient satisfaction and compliance: An examination of physician humor orientation, compliance‐gaining strategies, and perceived credibility. *Communication Quarterly, 51*(4), 482–503. https://doi.org/10.1080/01463370309370169
+
+**References:**
+
+- Achen, C. H. (1982). *Interpreting and Using Regression*. SAGE Publications, Inc.
 
 
 ## Week 10 (28-Oct)
