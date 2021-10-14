@@ -58,7 +58,7 @@ For communication researchers, the primary benefits of statistics are as tools t
 
 The ability of statistics to describe, summarize, and organize data in meaningful ways is extremely useful. We live in a world that is inundated with lots of information. For example, the U.S. Census collects data from households around the country and estimates that the total population of Utah (in 2019) is 3,205,958. Approximately 14.7\% are in teh 25 to 34 year old age group and the median age is 31.2 years. You can browse through these data on [their website](https://data.census.gov/).
 
-Statistics can also be used to help us interpret our world. Daily weather forecasts, for example, typically include statistical predictions. 
+Statistics can also be used to help us interpret our world. Daily weather forecasts, for example, typically include statistical predictions. See, for example, the brown line on the bottom graph labeled "Precipitation Potential (%)."
 
 <center>
 <img src="https://sarakyeo.github.io/images/18-Oct-21_forecast.jpg"/>
