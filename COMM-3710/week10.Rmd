@@ -52,13 +52,30 @@ But journalism is, of course, not the only job in which statistics and data are 
 
 ---
 
-# The Benefit of Statistis
+# The Benefit of Statistics
 
 For communication researchers, the primary benefits of statistics are as tools to describe, organize, and interpret information. 
 
-The ability of statistics to describe, summarize, and organize data in meaningful ways is extremely useful. We live in a world that is inundated with lots of information. For example, the U.S. Census collects data from households around the country and estimates that the total population of Utah (in 2019) is 3,205,958. Approximately 14.7\% are in teh 25 to 34 year old age group and the median age is 31.2 years. You can browse through these data on [their website](https://data.census.gov/).
+The ability of statistics to **describe**, **summarize**, and **organize data** in meaningful ways is extremely useful. We live in a world that is inundated with lots of information. For example, the [U.S. Census](https://data.census.gov/) collects data from households around the country and estimates that the total population of Utah (in 2020) is 3,271,616. The table below shows population data for states in the western U.S.
 
-Statistics can also be used to help us interpret our world. Daily weather forecasts, for example, typically include statistical predictions. See, for example, the brown line on the bottom graph labeled "Precipitation Potential (%)."
+Statistics such as these allow us to easily answer questions like: **What percentage of the U.S. population that lives in Utah?**
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+State <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana",
+           "Nevada", "New Mexico", "Oregon", "Utah", "Wyoming")
+Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
+         3104614, 2117522, 4237256, 3271616, 576851)
+
+censusdata <- tibble(State, Pop)
+censusdata %>% 
+  kbl(., format.args = list(big.mark = ",")) %>% 
+  kable_classic_2("hover", full_width = FALSE)
+```
+
+Statistics can also be used to help us **interpret** our world. Daily weather forecasts, for example, typically include statistical predictions. See, for example, the brown line on the bottom graph labeled "Precipitation Potential (%)."
 
 <center>
 <img src="https://sarakyeo.github.io/images/18-Oct-21_forecast.jpg"/>
@@ -78,7 +95,7 @@ The figure below illustrates the "central dogma" of statistics. Using statistics
 
 > But what exactly is a **statistic**?
 
-Examine the figure above again. Notice that the figure showing the central dogma consists of a population and a sample. **Statistics are numbers that describe characteristics of samples** while **parameters describe populations**.
+Examine the figure again. Notice that the figure showing the central dogma consists of a population and a sample. **Statistics are numbers that describe characteristics of samples** while **parameters describe populations**.
 
 > We use statistics from a sample to estimate (infer) parameters in a population.
 
@@ -105,7 +122,7 @@ The tabs below contain summaries of the terms *statistic* and *parameter*.
 
 ---
 
-# Categories of Statistics
+# Descriptive vs. Inferential Statistics
 
 In general, there are two types of statistics: **descriptive** and **inferential statistics**. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics.
 
