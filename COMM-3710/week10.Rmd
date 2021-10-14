@@ -101,8 +101,6 @@ Examine the figure again. Notice that the figure showing the central dogma consi
 
 Recall (from Week 9) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
 
-For example, Professor Yeo is interested in understanding how American adults form opinions about scientific issues. In this case, the population of interest is every adult in the U.S. above 18 years old. In order to calculate statistics that will allow her to estimate the corresponding parameter in a population, she must first collect a sample. It would be impossible to measure attitudes toward a scientific issue for everyone in the U.S.!
-
 Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population. If you were interested in knowing the average height of adults in the U.S., you would collect a sample that is representative of all American adults, measure their individual heights, and calculate a mean from this sample. The calculated mean provides an estimate of the same parameter in the population.
 
 The tabs below contain summaries of the terms *statistic* and *parameter*.
