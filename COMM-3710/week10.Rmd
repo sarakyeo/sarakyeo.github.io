@@ -71,7 +71,8 @@ Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
 
 censusdata <- tibble(State, Pop)
 censusdata %>% 
-  kbl(., format.args = list(big.mark = ",")) %>% 
+  kbl(., format.args = list(big.mark = ","),
+      caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
   kable_classic_2("hover", full_width = FALSE)
 ```
 
@@ -120,7 +121,7 @@ The tabs below contain summaries of the terms *statistic* and *parameter*.
 
 ---
 
-# Descriptive vs. Inferential Statistics
+# Descriptive vs. Inferential Statistics {.tabset .tabset-fade}
 
 In general, there are two types of statistics: **descriptive** and **inferential statistics**. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics.
 
@@ -129,4 +130,24 @@ In general, there are two types of statistics: **descriptive** and **inferential
 </center>
 <br>
 
+## Descriptive Statistics
 
+> Descriptive statistics are used to provide researchers with a **description** of what "exists" in the data.
+
+Percentages and averages are types of descriptive statistics. Consider the table with population estimates for the western U.S. again. Approximately 1% of the American population lives in Utah while 12% live in California. You can easily see how this comparison would be difficult without descriptive statistics.
+
+We will focus on descriptive statistics next week.
+
+---
+
+## Inferential Statistics
+
+Inferential statistics, on the other hand, is often a more advanced stage in data analysis.
+
+> We use inferential statistics when we want to make **predictions**.
+
+To make predictions, researchers often use inferential statistics to draw conclusions and make predictions about a larger group (i.e., the **population**) based on a smaller group of data (i.e., the **sample**).
+
+We will discuss inferential statistics more in a couple of weeks.
+
+---
