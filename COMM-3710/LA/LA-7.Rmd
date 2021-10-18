@@ -16,6 +16,8 @@ Remember to ...
 1) Set up your R script appropriately.
 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
+While there are hints for each step embedded in this assignment, you may also want to use the [R Graphics Cookbook](https://r-graphics.org), which is freely available online, as you work through this assignment.
+
 ---
 
 # Step 1
@@ -114,7 +116,7 @@ Make a bar chart to display the count or proportion of donors by season.
 
 First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.
 
-Then, use `ggplot()` to create your graph.
+Then, use `ggplot()` to create your graph. 
 
 a) Does there seem to be a relationship between season and donation?
 
