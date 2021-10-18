@@ -9,13 +9,6 @@ output:
 urlcolor: blue
 ---
 
-```{r setup, include=FALSE}
-library(tidyverse)
-library(descr)
-hdata <- read.csv("HELP.csv")
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 In this assignment, you will learn how to create graphs in R using the package, `ggplot2`, which is part of the `tidyverse`.
 
 Remember to ...
@@ -26,7 +19,7 @@ Remember to ...
 ---
 
 # Step 1
-Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
+Read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
 
 
 # Step 2 {.tabset .tabset-fade}
@@ -67,7 +60,7 @@ To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `
       
 Once you have created the graph, it will appear in the **Plots** panel (usually bottom right of RStudio).
 
-If you need help answering Q2a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
+If you need help answering Q3a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
 
 
 # Step 4 {.tabset .tabset-fade}
@@ -82,8 +75,7 @@ The commands you will use to make a scatter plot are `ggplot()` and `geom_point(
 
 To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
  
-Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the
-argument, `na.rm = TRUE`.
+Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`.
 
 
 # Step 5
