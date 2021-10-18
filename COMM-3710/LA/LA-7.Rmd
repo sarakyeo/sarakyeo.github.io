@@ -111,6 +111,9 @@ b) How many bills in the data set are from summer?
 ## Hint
 Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
 
+Once you have created this new variable, you can use the `freq()` command (in `summarytools`) to obtain a frequency table.
+
+
 # Bonus Question
 Make a bar chart to display the count or proportion of donors by season. 
 
