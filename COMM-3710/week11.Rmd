@@ -17,21 +17,22 @@ Let's begin with an illustration of the utility of descriptive statistics...
 
 The table below shows IQ scores of students in Class A and Class B. Which class is smarter?
 
-| Class A | Class B|
-|:-------:|:------:|
-|   102   |  127   |
-|   128   |  131   |
-|   131   |  96    |
-|   98    |  80    |
-|   140   |  90    |
-|   93    |  120   |
-|   110   |  109   |
-|   115   |  162   |
-|   109   |  103   |
-|   89    |  111   |
-|   106   |  109   |
-|   119   |  87    |
-|   97    |  105   |
+```{r extable, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+A <- c(102, 128, 131, 98, 140, 93, 110,
+       115, 109, 89, 106, 119, 97)
+B <- c(127, 131, 96, 80, 90, 120, 109, 
+       162, 103, 111, 109, 87, 105)
+
+tbl_dta <- tibble(A, B)
+tbl_dta %>% 
+  kbl(col.names = c("Class A", "Class B"),
+      align = "c") %>% 
+  kable_minimal("hover", full_width = FALSE)
+
+```
 
 It is difficult to tell which class is smarter because it is difficult for us to process the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
 
