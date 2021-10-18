@@ -117,21 +117,22 @@ The range is the spread between the lowest and highest values of a variable.
 
 To calculate the range, we simply subtract the lowest from the highest value of the variable. Using the example of IQ scores of students in Class A and Class B, we can calculate a range for each class.
 
-| Class A | Class B|
-|:-------:|:------:|
-|   102   |  127   |
-|   128   |  131   |
-|   131   |  96    |
-|   98    |  80    |
-|   140   |  90    |
-|   93    |  120   |
-|   110   |  109   |
-|   115   |  162   |
-|   109   |  103   |
-|   89    |  111   |
-|   106   |  109   |
-|   119   |  87    |
-|   97    |  105   |
+```{r extable2, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+A <- c(102, 128, 131, 98, 140, 93, 110,
+       115, 109, 89, 106, 119, 97)
+B <- c(127, 131, 96, 80, 90, 120, 109, 
+       162, 103, 111, 109, 87, 105)
+
+tbl_dta <- tibble(A, B)
+tbl_dta %>% 
+  kbl(col.names = c("Class A", "Class B"),
+      align = "c") %>% 
+  kable_minimal("hover", full_width = FALSE)
+
+```
 
 **Class A**
 $$Range = 140-89 = 51$$
