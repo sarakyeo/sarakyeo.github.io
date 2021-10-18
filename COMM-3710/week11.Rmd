@@ -162,7 +162,7 @@ Upper limit $= Q3 + 1.5 \times (IQR)$
 
 
 #### Variance
-Variance measures the spread or dispersion of individual cases around the mean in a variable
+Variance measures the spread or dispersion of individual cases around the mean in a variable.
 
 When the variance is larger, this means that individual cases are farther away from the mean. A smaller variance, on the other hand, means that individual cases are closer to the mean.
 
