@@ -91,10 +91,19 @@ Make a new variable `HomelessStatus` based on the variable `homeless`. Have `1` 
 a) What percentage of patients are homeless?
 
 
-# Step 5
+# Step 5 {.tabset .tabset-fade}
+## Instructions
 Suppose we want to assess the overall risk of a patient and `ExtremeMCS`, `SuicidalThought`, and `HomelessStatus` are considered risk factors. Construct a new variable called `RiskTotal` that quantifies the number of risk factors for each patient. That is, make it a sum of these 3 variables.
 
 a) What percentage of patients in the study have fewer than 3 risk factors?
+
+## Hint
+To create a new variable, `newVar`, that is the sum of three existing variables, `oldVar1`, `oldVar2`, and `oldVar3`, you can use the `mutate` command.
+```{r step5, eval=FALSE, echo=TRUE}
+dataframe %>% 
+        mutate(newVar = oldVar1 + oldVar2 + oldVar3)
+```
+Then, you can check whether you have created the new variable, `newVar`, correctly by running a frequency distribution using the `freq` function.
 
 
 # Submission
