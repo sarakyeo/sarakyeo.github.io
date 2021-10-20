@@ -427,6 +427,7 @@ div.tocify {
 <h2>Hint</h2>
 <p>To create a new variable, <code>newVar</code>, that is the sum of three existing variables, <code>oldVar1</code>, <code>oldVar2</code>, and <code>oldVar3</code>, you can use the <code>mutate</code> command.</p>
 <pre class="r"><code>dataframe %&gt;% 
+        rowwise %&gt;% 
         mutate(newVar = oldVar1 + oldVar2 + oldVar3)</code></pre>
 <p>Then, you can check whether you have created the new variable, <code>newVar</code>, correctly by running a frequency distribution using the <code>freq</code> function.</p>
 </div>
