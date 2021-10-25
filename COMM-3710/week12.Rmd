@@ -68,7 +68,7 @@ Using hypothesis testing, researchers typically hope to "nullify" their null hyp
 The video below walks through an example of how to conduct a hypothesis test.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RlR9PgDAYkA" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/REPBC1QzBQo" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
@@ -85,12 +85,12 @@ When conducting hypothesis tests, 2 types of errors can occur. These are **Type 
 ## Type I Error
 Type I error occurs when the null hypothesis is true and your decision, based on hypothesis testing, is to reject $H_0$.
 
-This is also known as a **false positive** (you are supporting the alternative hypothesis when you should not be).
+This is also known as a <mark>**false positive**</mark> (you are supporting the alternative hypothesis when you should not be).
 
 <a href="#top">Back to top</a>
 
 ## Type II Error
-Type II error occurs when you have a **false negative**.
+Type II error occurs when you have a <mark>**false negative**</mark>.
 
 In this case, you fail to reject $H_0$ when you should.
 
@@ -119,10 +119,27 @@ Let's assume we have the following research question and data:
 
 > **Do female and male students differ in their standing (sophomore, junior, etc.) when they take a public speaking course?**
 
-|   | Pre-college students | First-year students | Sophomores | Juniors | Seniors | N |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Female | 7 | 20 | 9 | 8 | 6 | 50 |
-| Male | 6 | 8 | 10 | 1 | 25 | 50 |
+
+```{r extable2, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+standing <- c("Pre-college", "First-year students", "Sophomores", "Juniors", "Seniors")
+females <- c(7, 20, 9, 8, 6)
+males <- c(6, 8, 10, 1, 25)
+
+tbl_dta <- tibble(standing, females, males)
+sumrow <- tbl_dta %>% 
+  summarise(across(.cols = c(females, males),
+                   .fns = ~sum(.)))
+
+tbl_dta <- bind_rows(tbl_dta, sumrow)
+  
+tbl_dta %>% 
+  kbl(col.names = c("", "Females", "Males"),
+      align = "r") %>% 
+  kable_minimal("hover", full_width = FALSE)
+```
 
 The $\chi^2$ test evaluates whether the observed proportions of respondents in categories are equal to expected proportions or **hypothesized proportions**. Returning to our research question, in an "ideal" world, there would be little reason to expect that there would be a different proportion of males and females of each standing taking public speaking.
 
@@ -142,7 +159,7 @@ Since we usually use $\alpha = 0.05$, let's set our significance level to 0.05.
 To calculate a $\chi^2$ value, we use the formula below:
 
 $$\chi^2 = \Sigma \frac{(f_o-f_e)^2}{f_e}$$
-Using the data and formula above, calculate a value of $\chi^2$. Step-by-step instructions can be found in Chapter 15 of your textbook.
+Using the data and formula above, calculate a value of $\chi^2$. <mark>Follow the step-by-step instructions in Chapter 15 of your textbook.</mark>
 
 ### Step 4: Determine the $p$-value.
 Using the critical value table for a $\chi^2$ test (Fig. 15.6 in your textbook), determine the $p$-value associated with your calculated $\chi^2$ value.
@@ -209,7 +226,7 @@ Assume we have the following data:
 The formula for calculating a $t$-test is...
 $$t = \frac{(\bar{x}_1-\bar{x}_2)-(\mu_1-\mu_2)}{\sqrt{\left[ \frac{\Sigma x_1^2-\frac{(\Sigma x_1)^2}{n_1}+\Sigma x_2^2-\frac{(\Sigma x_2)^2}{n_2}}{n_1 + n_2 - 2} \right] \left( \frac{1}{n_1}+\frac{1}{n_2} \right)}}$$
 
-Use the step-by-step instructions in your textbook (starts on p. 474) to calculate the test statistic, $t$.
+<mark>Use the step-by-step instructions in your textbook (starts on p. 474) to calculate the test statistic, $t$.</mark>
 
 ### Step 4: Determine the $p$-value.
 Using the critical value table in your textbook, find the $p$-value that corresponds to your calculated test statistic, $t$.
@@ -286,7 +303,7 @@ $$SS_{total} = \Sigma{x^2}-\frac{G}{N}, df_{total} = N-1$$
 $$SS_{between} = \frac{\Sigma{T^2}}{n} - \frac{G^2}{N}, df_{between} = k-1$$
 $$SS_{within} = \Sigma{SS_{inside \space each \space treatment}, df_{within} = N-k}$$
 $$F = \frac{MS_{between}}{MS_{within}} \space where \space each \space MS = \frac{SS}{df}$$
-Follow the [step-by-step approach in your textbook](https://online.vitalsource.com/#/books/9780190861940/epubcfi/6/50%5B%3Bvnd.vst.idref%3Dc17%5D!/4/2/20/2/2%5Bhead647%5D%400:0) to calculate a test statistic. Remember that your data are different from those in the textbook.
+<mark>**Follow the step-by-step approach in your textbook to calculate a test statistic.**</mark> Remember that your data are different from those in the textbook.
 
 The test statistic that is calculated in an ANOVA is the $F$ value.
 
@@ -314,7 +331,10 @@ Of the four most common *post hoc* tests, we will examine one of the more common
 
 We will not worry about calculating this by hand. Instead, you can use the following command in R to conduct a Tukey's *post hoc* test (assuming your dataframe is called `puppies`):
 
-```puppies %>% tukey_hsd(Happiness ~ Dose)```
+```
+puppies %>% 
+    tukey_hsd(Happiness ~ Dose)
+```
 
 The $p$-values that result from the pairwise comparisons conducted using Tukey's *post hoc* test are shown below. We see that only the comparison between the control group and the group that received 30 minutes of puppy therapy are different.
 
@@ -374,7 +394,7 @@ To calculate the correlation of these two variables, we use the following formul
 
 $$r = \frac{N \Sigma xy - (\Sigma x)(\Sigma y)}{\sqrt{ [N \Sigma x^2 - (\Sigma x)^2] [N \Sigma y^2 - (\Sigma y)^2] }}$$
 
-Now, use the data and step-by-step instructions in your textbook (starts on p. 523) to calculate Pearson's $r$.
+Now, <mark>**use the data and step-by-step instructions in your textbook (starts on p. 523) to calculate Pearson's $r$**.</mark>
 
 ### Step 4: Determine the $p$-value.
 Use the critical values table to determine the $p$-value that corresponds to the value of $r$ that you calculated.
