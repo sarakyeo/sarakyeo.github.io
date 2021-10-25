@@ -78,10 +78,10 @@ d) Check the chart in the Hint tab. Given your answers to 3a and 3b, what statis
 
 First, identify whether the independent and dependent variables are quantitative/continuous or categorical. Then, use the chart below to select a statistical test.
 
-*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
+<mark>*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.</mark>
 
 <center>
-<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_chart.png" alt="LA-8 chart"/>
+<img src="https://sarakyeo.github.io/images/LA.6_chart.png"/>
 </center>
 
 
