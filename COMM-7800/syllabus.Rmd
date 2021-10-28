@@ -312,6 +312,7 @@ Campus security authorities are university employees who have significant respon
 
 - Cacciatore, M. A., Becker, A. B., Anderson, A. A., & Yeo, S. K. (2020). Laughing with science: The influence of audience approval on engagement. *Science Communication, 42*(2), 195–217. https://doi.org/10.1177/1075547020910749
 - Frazier, P. A., Tix, A. P., & Barron, K. E. (2004a). Testing moderator and mediator effects in counseling psychology research. *Journal of Counseling Psychology, 51*(1), 115–134. https://doi.org/10.1037/0022-0167.51.1.115
+- Spiller, S. A., Fitzsimons, G. J., Lynch, J. G., & Mcclelland, G. H. (2013). Spotlights, floodlights, and the magic number zero: Simple effects tests in moderated regression. *Journal of Marketing Research, 50*(2), 277–288. https://doi.org/10.1509/jmr.12.0420
 
 
 ## Week 11 (4-Nov)
