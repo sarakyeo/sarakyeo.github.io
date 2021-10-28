@@ -200,7 +200,7 @@ Campus security authorities are university employees who have significant respon
 
 ---
 
-# Schedule {.tabset .tabset-fade #Schedule}
+# Course Schedule {.tabset .tabset-fade #Schedule}
 ## Week 1 (26-Aug)
 > Course introduction
 
@@ -290,7 +290,7 @@ Campus security authorities are university employees who have significant respon
 ## Week 9 (21-Oct)
 > Introduction to regression
 
-**Discussants:** Yi Liao, Alexis Vega
+**Discussants:** Yi Liao, ~~Alexis Vega~~
 
 **Readings:**
 
@@ -311,7 +311,7 @@ Campus security authorities are university employees who have significant respon
 **Readings:**
 
 - Cacciatore, M. A., Becker, A. B., Anderson, A. A., & Yeo, S. K. (2020). Laughing with science: The influence of audience approval on engagement. *Science Communication, 42*(2), 195–217. https://doi.org/10.1177/1075547020910749
-- Yeo, S. K., Cacciatore, M. A., Brossard, D., Scheufele, D. A., Runge, K. K., Su, L. Y.-F., Kim, J., Xenos, M. A., & Corley, E. A. (2014). Partisan amplification of risk: American perceptions of nuclear energy risk in the wake of the Fukushima Daiichi disaster. *Energy Policy, 67*, 727–736. https://doi.org/10.1016/j.enpol.2013.11.061
+- Frazier, P. A., Tix, A. P., & Barron, K. E. (2004a). Testing moderator and mediator effects in counseling psychology research. *Journal of Counseling Psychology, 51*(1), 115–134. https://doi.org/10.1037/0022-0167.51.1.115
 
 
 ## Week 11 (4-Nov)

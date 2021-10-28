@@ -9,13 +9,6 @@ output:
 urlcolor: blue
 ---
 
-```{r setup, include=FALSE}
-library(tidyverse)
-library(descr)
-hdata <- read.csv("HELP.csv")
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 In this assignment, you will learn how to create graphs in R using the package, `ggplot2`, which is part of the `tidyverse`.
 
 Remember to ...
@@ -23,10 +16,12 @@ Remember to ...
 1) Set up your R script appropriately.
 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
+While there are hints for each step embedded in this assignment, you may also want to use the [R Graphics Cookbook](https://r-graphics.org), which is freely available online, as you work through this assignment.
+
 ---
 
 # Step 1
-Read [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
+Read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
 
 
 # Step 2 {.tabset .tabset-fade}
@@ -67,7 +62,7 @@ To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `
       
 Once you have created the graph, it will appear in the **Plots** panel (usually bottom right of RStudio).
 
-If you need help answering Q2a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
+If you need help answering Q3a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
 
 
 # Step 4 {.tabset .tabset-fade}
@@ -82,8 +77,7 @@ The commands you will use to make a scatter plot are `ggplot()` and `geom_point(
 
 To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
  
-Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the
-argument, `na.rm = TRUE`.
+Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`.
 
 
 # Step 5
@@ -117,12 +111,15 @@ b) How many bills in the data set are from summer?
 ## Hint
 Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
 
+Once you have created this new variable, you can use the `freq()` command (in `summarytools`) to obtain a frequency table.
+
+
 # Bonus Question
 Make a bar chart to display the count or proportion of donors by season. 
 
 First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.
 
-Then, use `ggplot()` to create your graph.
+Then, use `ggplot()` to create your graph. 
 
 a) Does there seem to be a relationship between season and donation?
 
