@@ -100,9 +100,9 @@ a) What percentage of patients in the study have fewer than 3 risk factors?
 ## Hint
 To create a new variable, `newVar`, that is the sum of three existing variables, `oldVar1`, `oldVar2`, and `oldVar3`, you can use the `mutate` command.
 ```{r step5, eval=FALSE, echo=TRUE}
-dataframe %>% 
-        rowwise %>% 
-        mutate(newVar = oldVar1 + oldVar2 + oldVar3)
+dataframe <- dataframe %>% 
+  rowwise %>% 
+  mutate(newVar = oldVar1 + oldVar2 + oldVar3)
 ```
 Then, you can check whether you have created the new variable, `newVar`, correctly by running a frequency distribution using the `freq` function.
 
