@@ -55,7 +55,7 @@ Read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?d
 ## Instructions
 Make a histogram to display the distribution of customers' total monthly bill.
 
-a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed right or left? At what cost do most of the total monthly bills fall?
+a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed positively or negatively? At what cost do most of the total monthly bills fall?
 
 ## Hint
 To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
@@ -90,7 +90,7 @@ b) Calculate the average electric bill for the months of September and December.
 # Step 6
 Make a scatter plot to display the relationship between gas usage and gas bill. Place gas usage on the x-axis and  monthly gas bill on the y-axis.
 
-a) Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship.
+a) Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
 
 
 # Step 7
