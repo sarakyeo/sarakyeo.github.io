@@ -290,7 +290,7 @@ Campus security authorities are university employees who have significant respon
 ## Week 9 (21-Oct)
 > Introduction to regression
 
-**Discussants:** Yi Liao, Alexis Vega
+**Discussants:** Yi Liao, ~~Alexis Vega~~
 
 **Readings:**
 
