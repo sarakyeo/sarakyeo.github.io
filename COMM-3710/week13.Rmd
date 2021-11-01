@@ -27,36 +27,49 @@ Other resources for using R and RStudio for data analysis can be found in the [C
 
 Remember that you have done most, if not all, the steps of data analysis in your individual assignments. Be sure to refer to your R code from previous assignments as necessary.
 
-<a href="#top">Back to top</a>
+---
 
 # Managing Data
-To manage your data, you should run frequency distributions, and recode and create variables as necessary.
+To manage your data, you should <mark>**run frequency distributions**</mark>, and <mark>**recode and create variables as necessary**</mark>.
 
-Watch the videos below to refresh your memory on conducting the functions in R:
+We learned how to do this in various lab assignments. Review your R code submissions to these assignments and the assignments themselves.
 
-- [Running frequency distributions](https://youtu.be/Dbj_l1PRIjA?t=697)
-- [Recoding data](https://youtu.be/b9Bh3K5bi0I)
-   - [Reverse coding](https://youtu.be/b9Bh3K5bi0I?t=725)
-- [Creating composite or secondary variables](https://youtu.be/b9Bh3K5bi0I?t=994)
+## What You Already Know from Lab Assignments
+From your lab assignments, you already know how to:
 
+- [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html)
+   - Read/Load data into R.
+   - Use the pipe operator, `%>%`.
+   - Select variables from a data frame using the select() function.
+   - Filter cases from a data frame using the filter() function.
+   - Summarize variables using the summarise() function.
+- [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html) and [LA-6](https://sarakyeo.github.io/COMM-3710/LA/LA-6.html)
+   - Run and examine frequency distributions using the `freq()` function in the `summarytools` package.
+   - View descriptive statistics using the `descr()` function in the `summarytools` package.
+   - Recode variables using the `case_when()` function.
+   - Create new variables from existing variables in a data frame using the `mutate()` function.
+- [LA-7](https://sarakyeo.github.io/COMM-3710/LA/LA-7.html)
+   - Create graphs using the `ggplot2` package.
+
+---
 
 # Hypothesis Testing
-In this step, we will conduct statistical hypothesis testing. In other words, we will assess empirical evidence and determine whether we can reject our null hypothesis. If necessary, review content from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html).
+In this step, we will conduct statistical hypothesis testing. In other words, we will assess empirical evidence and determine whether we can reject our null hypothesis. If necessary, review content from [Week 12](https://sarakyeo.github.io/COMM-3710/week12.html).
 
 Then, watch this [video](https://youtu.be/08uylSp-CuI) about hypothesis testing.
 
-In Week 9, we discussed three statistical tests that we can use in hypothesis testing. The videos below show you how to conduct each of these tests using R.
+In Week 12, we discussed three statistical tests that we can use in hypothesis testing. The videos below show you some other ways of conducting each of these tests using R.
 
 - [Chi-square ($\chi^2$) test of independence](https://youtu.be/Dnlp9vswwEk)
 - [Independent samples $t$-test](https://youtu.be/ANMuuq502rE?t=416)
 - [One-way analysis of variance](https://youtu.be/2uQCUBtqCfM) (ANOVA)
 - [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-<a href="#top">Back to top</a>
+> We will also learn how to select and conduct statistical tests in R in LA-8, which will be assigned in Week 13 (15-Nov) via Canvas.
+
+---
 
 # A Note on Data Analysis
 The videos shared here are just one of many ways to manage data and conduct statistical tests. With R, there are many ways to achieve the same goal.
 
-Because R is open-source software, packages are continuously being developed by people all over the world. You are welcome to use these packages but they will not be taught in this course. If you **do** use another package, ensure that the answers you get from using it are correct by checking them with the strategies shown in this course.
-
-<a href="#top">Back to top</a>
+Because R is open-source software, packages are continuously being developed by people all over the world. You are welcome to use these packages but they will not be taught in this course. <mark>If you **do** use another package, ensure that the answers you get from using it are correct by checking them with the strategies shown in this course.</mark>
