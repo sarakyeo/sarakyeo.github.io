@@ -323,7 +323,6 @@ Frazier, P. A., Tix, A. P., & Barron, K. E. (2004b). “Testing moderator and me
 **Readings:**
 
 - Hayes, A. F. (2009). Beyond Baron and Kenny: Statistical mediation analysis in the new millennium. *Communication Monographs, 76*(4), 408–420. https://doi.org/10.1080/03637750903310360
-- Kampfer, K., Leischnig, A., Ivens, B. S., & Spence, C. (2017). Touch-flavor transference: Assessing the effect of packaging weight on gustatory evaluations, desire for food and beverages, and willingness to pay. *PLOS ONE, 12*(10), e0186121. https://doi.org/10.1371/journal.pone.0186121
 - Yeo, S. K., Anderson, A. A., Becker, A. B., & Cacciatore, M. A. (2020). Scientists as comedians: The effects of humor on perceptions of scientists and scientific messages. *Public Understanding of Science, 29*(4), 408–418. https://doi.org/10.1177/0963662520915359
 
 
