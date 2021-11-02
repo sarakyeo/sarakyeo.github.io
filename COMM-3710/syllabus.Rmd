@@ -139,9 +139,23 @@ In addition to the [course requirements], there will be a participation checkpoi
 ---
 
 # Course Grading
-<center>
-<img src="https://sarakyeo.github.io/images/grading.png"/>
-</center>
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
+           "D+", "D", "D-", "F")
+prange <- c("93 to 100", "90 to < 93", "87 to < 90",
+            "83 to < 87", "80 to < 83", "77 to < 80",
+            "73 to < 77", "70 to < 73", "67 to < 70",
+            "63 to < 67", "60 to < 63", "< 60")
+
+grade_data <- tibble(grade, prange)
+
+grade_data %>% 
+  kbl(col.names = c("Grade", "Range")) %>% 
+  kable_minimal("hover", full_width = FALSE)
+```
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
