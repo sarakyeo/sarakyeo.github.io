@@ -77,7 +77,7 @@ The commands you will use to make a scatter plot are `ggplot()` and `geom_point(
 
 To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
  
-Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`.
+Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`. If necessary, refer to your code in previous assignments.
 
 
 # Step 5
