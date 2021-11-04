@@ -1,0 +1,25 @@
+---
+title: |
+  | COMM 3710: Presenting Research
+pagetitle: "COMM 3710: Week 14"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+# Some Guidelines for Writing and Presenting Research
+
+> What is your story?
+
+Your research tells a story. Before you start writing paper or creating a research presentation, you should have an <mark>**outline**</mark>in mind.
+
+---
+
+# The Anatomy of a Scientific Paper/Presentation
+
+<center>
+<img src="https://sarakyeo.github.io/images/anatomy-research-paper.png"/>
+</center>
