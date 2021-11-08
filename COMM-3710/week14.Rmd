@@ -19,7 +19,6 @@ Your research tells a story. Before you start writing paper or creating a resear
 ---
 
 # The Anatomy of a Scientific Paper/Presentation
-
 <center>
 <img src="https://sarakyeo.github.io/images/anatomy-research-paper.png"/>
 </center>
@@ -32,7 +31,6 @@ We will use the following journal article as an example:
 Obtain a PDF of the article using the library resources available through the [Marriott Library](https://lib.utah.edu).
 
 Of course, your presentation should always include a descriptive title and the authors' names.
-
 <center>
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_01.png"/>
 </center>
@@ -42,21 +40,18 @@ Of course, your presentation should always include a descriptive title and the a
 # Introduction
 
 Introduce the problem and the context of your research, i.e., set the stage for your study. You can do so by briefly describing the **social significance** of your research question/problem.
-
 <center>
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_02.png" img style="border:1px solid black"/>
 </center>
 <br>
 
 Describe the **academic or scholarly significance** of the research that you are presenting.
-
 <center>
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_03.png" img style="border:1px solid black"/>
 </center>
 <br>
 
 Identify the **specific contribution** of your study to the existing body of scholarly work and/or social context.
-
 <center>
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_04.png" img style="border:1px solid black"/>
 </center>
@@ -78,4 +73,24 @@ The literature review should contain brief descriptions of <mark>theories</mark>
 ---
 
 # Method
+
+The Method section describes the operationalization of your research. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
+
+As you can see in the Yeo *et al.* (2020) article, the first paragraph of the Method section describes the sample:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_06.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+Then, a detailed description of the experiment is included in the article.
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_07.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+This is followed by a description of how the key variables that represent important concepts in the paper were measured or operationalized:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_08.png" img style="border:1px solid black"/>
+</center>
+<br>
 
