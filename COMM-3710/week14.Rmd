@@ -23,3 +23,47 @@ Your research tells a story. Before you start writing paper or creating a resear
 <center>
 <img src="https://sarakyeo.github.io/images/anatomy-research-paper.png"/>
 </center>
+<br>
+
+We will use the following journal article as an example:
+
+> Yeo, S. K., Su, L. Y.-F., Cacciatore, M. A., McKasy, M., & Qian, S. (2020). Predicting intentions to engage with scientific messages on Twitter: The roles of mirth and need for humor. Science Communication, 42(4), 481–507. https://doi.org/10.1177/1075547020942512
+
+Of course, your presentation should always include a descriptive title and the authors' names.
+
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_01.png"/>
+</center>
+
+---
+
+# Introduction
+
+- Introduce the problem and the context of your research, i.e., set the stage for your study.
+- Briefly describe the **social significance** of your research question/problem.
+- Describe the **academic or scholarly significance** of the research that you are presenting.
+- Identify the **specific contribution** of your study to the existing body of scholarly work and/or social context.
+
+
+## Examples
+
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_02.png"/>
+</center>
+
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_03.png"/>
+</center>
+
+<br>
+
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_04.png"/>
+</center>
+
+---
+
+# Literature Review
+
