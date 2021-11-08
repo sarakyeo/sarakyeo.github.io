@@ -1,7 +1,7 @@
 ---
 title: |
   | COMM 3710: Presenting Research
-pagetitle: "COMM 3710: Week 14"
+pagetitle: "COMM 3710: Week 15"
 output:
   html_document:
     toc: true
@@ -74,7 +74,7 @@ The literature review should contain brief descriptions of <mark>theories</mark>
 
 # Method
 
-The Method section describes the operationalization of your research--it is often the easiest section to write since it is a literal description of what you did in the study. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
+The Method section describes the **what** and **how** of your research. In other words, it is the <mark>operationalization</mark> of your research--it is often the easiest section to write since it is a literal description of what you did in the study. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
 
 As you can see in the Yeo *et al.* (2020) article, the first paragraph of the Method section describes the sample:
 <center>
@@ -82,7 +82,7 @@ As you can see in the Yeo *et al.* (2020) article, the first paragraph of the Me
 </center>
 <br>
 
-Then, a detailed description of the experiment is included in the article.
+Then, a detailed description of the experiment is included in the article:
 <center>
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_07.png" img style="border:1px solid black"/>
 </center>
@@ -97,4 +97,6 @@ This is followed by a description of how the key variables that represent import
 ---
 
 # Results
+In this section, you will use the data to address the hypotheses and research questions that you posed in the [Literature Review and Rationale]. You should use tables and figures as appropriate. 
 
+In our example, the authors used a regression model to analyze their data. The 
