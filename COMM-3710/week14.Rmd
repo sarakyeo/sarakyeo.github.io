@@ -74,7 +74,7 @@ The literature review should contain brief descriptions of <mark>theories</mark>
 
 # Method
 
-The Method section describes the operationalization of your research. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
+The Method section describes the operationalization of your research--it is often the easiest section to write since it is a literal description of what you did in the study. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
 
 As you can see in the Yeo *et al.* (2020) article, the first paragraph of the Method section describes the sample:
 <center>
@@ -90,7 +90,11 @@ Then, a detailed description of the experiment is included in the article.
 
 This is followed by a description of how the key variables that represent important concepts in the paper were measured or operationalized:
 <center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_08.png" img style="border:1px solid black"/>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_08`.png" img style="border:1px solid black"/>
 </center>
 <br>
+
+---
+
+# Results
 
