@@ -94,6 +94,12 @@ This is followed by a description of how the key variables that represent import
 </center>
 <br>
 
+To close the Method section, a description of how the data were analyzed is included:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_09.png" img style="border:1px solid black"/>
+</center>
+<br>
+
 ---
 
 # Results
