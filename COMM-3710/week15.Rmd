@@ -105,4 +105,35 @@ To close the Method section, a description of how the data were analyzed is incl
 # Results
 In this section, you will use the data to address the hypotheses and research questions that you posed in the [Literature Review and Rationale]. You should use tables and figures as appropriate. 
 
-In our example, the authors used a regression model to analyze their data. The 
+As you can see from the example below, this section includes the statistical results of various analyses that address the specfic hypotheses and research questions:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_10.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+In our example, the authors used a regression model to analyze their data. As a result, they included a table showing the results of the regression model:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_11.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+Relevant figures should also be included in this section and referenced within the text:
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_12.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+---
+
+# Discussion and Conclusion
+This section often begins with a brief restating of the overarching goals of the study. Then, some authors opt to describe the limitations of their study prior to discussing the implications of their findings. There is no "correct" way to order the Discussion, but a good discussion of a research study should always include limitations and shortcomings. 
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_13.png" img style="border:1px solid black"/>
+</center>
+<br>
+
+Finally, the discussion of the findings and their implications should lead to some thoughts for future research and any additional questions the research might raise.
+<center>
+<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_14.png" img style="border:1px solid black"/>
+</center>
+<br>
