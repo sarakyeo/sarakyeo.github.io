@@ -137,3 +137,18 @@ Finally, the discussion of the findings and their implications should lead to so
 <img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_14.png" img style="border:1px solid black"/>
 </center>
 <br>
+
+---
+
+# Presentations vs. Papers
+Although we used a scientific paper as an example here, the principles and sections apply to creating research presentations as well. One major difference is that there are aesthetic considerations to keep in mind when creating a visual presentation instead of authoring a journal article.
+
+Some tips for presentations: 
+
+- The average presenter can cover about one slide per minute. Plan and practice your talk accordingly, especially if there is a time limit.
+- You should only present one idea or topic per slide. This might mean including only a single graph to convey a point on one slide. In this case, less is more.
+- The 6 $\times$ 6 rule:
+  - Six lines of text per slide
+  - Six words per line
+- Slides are a focus for your presentation and should not be the whole presentation. It is much easier for your audience to listen to you if they are not also trying to read a slide full of text.
+- <mark>Practice your talk!</mark> All successful presenters have practiced their talk.
