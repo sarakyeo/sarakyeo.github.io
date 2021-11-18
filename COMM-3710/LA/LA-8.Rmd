@@ -114,7 +114,7 @@ b) Do respondents' total monthly bills differ by season?
 | ANOVA                 | *F*-value                         | $F$                   |
 | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
 
-The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant.
+The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant. For a review of scientific notation (e.g., 4.48e-09), see the [related Wikipedia page](https://en.wikipedia.org/wiki/Scientific_notation).
 
 **Chi-squared ($\chi^2$) test**
 ```{r step4-hint-chisq, echo=TRUE, warning=FALSE}
