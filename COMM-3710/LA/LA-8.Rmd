@@ -12,8 +12,20 @@ urlcolor: blue
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(summarytools)
-hdata <- read.csv("HELP.csv")
+library(rstatix)
+util <- read_csv("Utilities.csv")
 knitr::opts_chunk$set(echo = FALSE)
+
+util <- util %>% 
+  mutate(month2 = case_when(month == 1 ~ "Jan",
+                            month == 7 ~ "Jul"))
+
+util <- util %>% 
+  mutate(month4 = case_when(month == 1 ~ "Jan",
+                            month == 4 ~ "Apr",
+                            month == 7 ~ "Jul",
+                            month == 10 ~ "Oct"))
+
 ```
 
 In this assignment, you will learn how to:
@@ -104,13 +116,31 @@ b) Do respondents' total monthly bills differ by season?
 
 The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant.
 
-<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_chisq.png"/>
 
-<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_t-test.png"/>
+```{r step4-hint, echo=TRUE, warning=FALSE}
+# Chi-squared test
+# donate = categorical dependent variable (DV), month2 = categorical independent variable (IV) with only 2 groups
+tbl <- table(util$donate, util$month2)
+tbl  %>% 
+  chisq_test(., donate ~ month2) # Chi-squared value (test statistic) = 2.13, p = .145
 
-<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_ANOVA.png"/>
 
-<img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/LA/LA-8_cor.png"/>
+# t-test
+# temp = continuous DV, month2 = categorical IV with only 2 groups
+util %>% 
+  t_test(., temp ~ month2) # t (test statistic) = -22.44, p < .001
+
+
+# ANOVA
+# temp = continuous DV, month4 = categorical IV with 4 groups
+util %>% 
+  anova_test(., temp ~ month4) # F (test statistic) = 227.979, p < .001
+
+
+# Pearson's correlation
+
+
+```
 
 
 # Step 5 {.tabset .tabset-fade}
