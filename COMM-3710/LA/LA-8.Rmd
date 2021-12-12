@@ -114,34 +114,39 @@ b) Do respondents' total monthly bills differ by season?
 | ANOVA                 | *F*-value                         | $F$                   |
 | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
 
-The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant.
+The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* < 0.05, then the relationship is significant. For a review of scientific notation (e.g., 4.48e-09), see the [related Wikipedia page](https://en.wikipedia.org/wiki/Scientific_notation).
 
-
-```{r step4-hint, echo=TRUE, warning=FALSE}
+**Chi-squared ($\chi^2$) test**
+```{r step4-hint-chisq, echo=TRUE, warning=FALSE}
 # Chi-squared test
 # donate = categorical dependent variable (DV), month2 = categorical independent variable (IV) with only 2 groups
 tbl <- table(util$donate, util$month2)
 tbl  %>% 
   chisq_test(., donate ~ month2) # Chi-squared value (test statistic) = 2.13, p = .145
+```
 
-
+**<i>t</i>-test**
+```{r step4-hint-ttest, echo=TRUE, warning=FALSE}
 # t-test
 # temp = continuous DV, month2 = categorical IV with only 2 groups
 util %>% 
   t_test(., temp ~ month2) # t (test statistic) = -22.44, p < .001
+```
 
-
+**ANOVA**
+```{r step4-hint-anova, echo=TRUE, warning=FALSE}
 # ANOVA
 # temp = continuous DV, month4 = categorical IV with 4 groups
 util %>% 
   anova_test(., temp ~ month4) # F (test statistic) = 227.979, p < .001
+```
 
-
+**Pearson's correlation**
+```{r step4-hint-pearson, echo=TRUE, warning=FALSE}
 # Pearson's correlation
 # gasbill = continuous DV, temp = continuous IV
 util %>% 
-  cor_test(., totalbill, temp, method = "pearson")
-
+        cor_test(., gasbill, temp, method = "pearson") # Pearson's r = -.92, p < .001
 ```
 
 
