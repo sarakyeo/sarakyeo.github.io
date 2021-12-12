@@ -138,7 +138,9 @@ util %>%
 
 
 # Pearson's correlation
-
+# gasbill = continuous DV, temp = continuous IV
+util %>% 
+  cor_test(., totalbill, temp, method = "pearson")
 
 ```
 
