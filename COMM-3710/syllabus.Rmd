@@ -1,21 +1,22 @@
 ---
 title: |
-  | <a name="top"></a>
-  | COMM 3710: Quantitative Research
-pagetitle: COMM 3710 Syllabus
+  | COMM 3710
+  | Introduction to Quantitative Communication Research
+  | \vspace{0.5cm} \large Spring 2022
+  | University of Utah
+  | \vspace{0.5cm} Hybrid
+  | \vspace{0.5cm} Prof. Sara K. Yeo
+  | [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu)
+# pagetitle: COMM 3710 Syllabus
 output:
-  html_document:
-    toc: yes
-    toc_float: yes
-    theme: flatly
+  pdf_document: default
+urlcolor: blue
 ---
-[Prof. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo) | Associate Professor | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) | [\@sarakyeo](https://twitter.com/sarakyeo)<br/>
-Hybrid | Fall 2021 | Department of Communication | University of Utah
 
 # Course Outline
 This **hybrid course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
 
-> Lecture content will be online (asynchronous) while lab sections will be in-person (see [Course Requirements]).
+> **Lecture content will be online (asynchronous) while lab sections will be in-person (see [Course Requirements]).**
 
 We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
 
@@ -29,7 +30,7 @@ Key topics include:
 
 I expect you to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help.
 
----
+<!-- --- -->
 
 # Teaching Assistants
 There are two graduate teaching assistants (TAs) in this course. Each graduate TA will be leading two lab sections.
@@ -37,44 +38,45 @@ There are two graduate teaching assistants (TAs) in this course. Each graduate T
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
+library(knitr)
+
+options(knitr.table.format = "pdf")
 
 Section <- c("002", "003", "004", "005")
-TA <- c("Alexis Vega", "Alexis Vega", "Yi Liao", "Yi Liao")
+TA <- c("Dallin Adams", "Dallin Adams", "Yi Liao", "Yi Liao")
 Day <- c("Wed", "Wed", "Fri", "Fri")
-Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "8:35 - 9:25 am", "9:40 - 10:30 am")
-Email <- c("alexis.vega@utah.edu", "alexis.vega@utah.edu", "u1368483@utah.edu", "u1368483@utah.edu")
-Location <- c("GC 4700", "GC 4700", "GC 4700", "GC 1570")
+Time <- c("8:35 - 9:25 am", "9:40 - 10:30 am", "9:40 - 10:30 am", "8:35 - 9:25 am")
+Email <- c("dallin.adams@utah.edu", "dallin.adams@utah.edu", "u1368483@utah.edu", "u1368483@utah.edu")
+Location <- c("SAEC 3151", "SAEC 3151", "BU C 210", "BU C 210")
 lab_data <- tibble(Section, TA, Email, Day, Time, Location)
-lab_data %>% 
-  kbl() %>% 
-  kable_minimal("hover", full_width = FALSE)
+lab_data %>%
+        kbl(booktabs = TRUE) %>% 
+        kable_styling(position = "center")
 ```
 
-In addition to your TAs, [The Learning Center](https://learningcenter.utah.edu) has a tutor for COMM 3710. You may schedule an appointment with Kenzie Smith using this [link](https://utah.craniumcafe.com/kenziesmith1).
-
----
+<!-- --- -->
 
 # Required Text and Readings
 Two books are required for this course. Both are available online.
 
-> Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
+**Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.**
 
 - This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
 - You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
 - To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
 
-> Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
+**Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).**
 
 - This book is free and accessible via the link provided.
 
 Additional readings will be provided as PDF documents on Canvas.
 
----
+<!-- --- -->
 
 # Technology Requirements {.tabset .tabset-fade}
 To ensure that you have full access to the course Canvas website, you will need:
 
-- Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course. You will need a laptop to bring to lab.** 
+- Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course. You will need a laptop to bring to lab.**
 - An Internet browser compatible with Canvas. For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329).
 
 We will be using [R](https://www.r-project.org/), and [RStudio](https://rstudio.com/) in this course. Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom), Microsoft Office (Word, Excel, PowerPoint), and Adobe Acrobat (free for UofU students) are recommended.
@@ -83,9 +85,9 @@ You will need access to [Canvas](https://utah.instructure.com/). I expect you to
 
 You should also check your [University email account](https://www.umail.utah.edu) regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
 
-> You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is **not** a screenshot.
+> **You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is *not* a screenshot.**
 
----
+<!-- --- -->
 
 # Technology Help
 For general help with Canvas, click the "Help" button in Canvas (when on your desktop), or contact them by phone(+1 844-527-032) or live [chat](https://cases.canvaslms.com/liveagentchat?chattype=student). Help is available **24 hours a day, 7 days a week**.
@@ -95,66 +97,68 @@ You can also read the [Canvas Student Guides](https://community.canvaslms.com/do
 General computer support is available through the Marriott Library Knowledge Commons. They can answer questions about your Windows or Mac machines, as well as questions about commonly used software, such as PowerPoint and Excel. Submit a ticket to get help:
 
 - [Windows users](https://forms.lib.utah.edu/computer-requests/?platform=PC)
-- [Mac users](https://forms.lib.utah.edu/computer-requests/?platform=Mac) 
+- [Mac users](https://forms.lib.utah.edu/computer-requests/?platform=Mac)
 
----
+<!-- --- -->
 
-# Course Requirements {.tabset .tabset-fade}
+# Course Requirements
 Course grades will be based on the following:
 
-- Weekly quizzes (30%)
+- Weekly quizzes (40%)
 - Individual lab assignments (50%)
-- Lab attendance (20%)
+- Lab attendance (10%)
 
 ## Weekly Quizzes (100 pts)
 Weekly quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have approximately one week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
 
 You will have **12 minutes** to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
-**Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.**
+> **Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.**
 
----
+<!-- --- -->
 
 ## Individual Lab Assignments (90 pts)
 There are 9 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments will not be accepted**.
 
----
+> **It is important that you pay close attention to the assignment due dates on Canvas.**
+
+<!-- --- -->
 
 ## Lab Attendance
-This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs throughout the semester. You must attend the lab section in which you are enrolled**.
+This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs in-person throughout the semester. You must attend the lab section in which you are enrolled**.
 
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you may be asked to leave. Additionally, if you are late to lab, your attendance will not count toward your grade.
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave. Additionally, if you are late to lab, your attendance will not count toward your grade.
 
----
+<!-- --- -->
 
 # Week 6 Participation Checkpoint
 In addition to the [course requirements], there will be a participation checkpoint in Week 6.
 
-**At the end of Week 6, any students who have not demonstrated regular participation may not proceed in the class and will not be permitted to pass the course.**
+> **At the end of Week 6, any students who have not demonstrated regular participation may not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
 - The checkpoint threshold is generous--well below a failing score for this course. For that reason, **no exceptions will be granted**. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
-- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit will not be evaluated**.
+- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit may not be evaluated**.
 
----
+<!-- --- -->
 
 # Course Grading
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
 
-grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
+Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
            "D+", "D", "D-", "F")
-prange <- c("93 to 100", "90 to < 93", "87 to < 90",
+Range <- c("93 to 100", "90 to < 93", "87 to < 90",
             "83 to < 87", "80 to < 83", "77 to < 80",
             "73 to < 77", "70 to < 73", "67 to < 70",
             "63 to < 67", "60 to < 63", "< 60")
 
-grade_data <- tibble(grade, prange)
+grade_data <- tibble(Grade, Range)
 
-grade_data %>% 
-  kbl(col.names = c("Grade", "Range")) %>% 
-  kable_minimal("hover", full_width = FALSE)
+grade_data %>%
+        kbl(booktabs = TRUE) %>% 
+        kable_styling(position = "center")
 ```
 
 Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
@@ -163,9 +167,9 @@ Information on the grade points assigned to letter grades and how to calculate y
 
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
 
----
+<!-- --- -->
 
-# Course Policies {.tabset .tabset-fade #policies}
+# Course Policies
 By enrolling in this course, you agree to:
 
 1. respect all members of the course;
@@ -190,7 +194,7 @@ When you contact me, I expect you to be professional in your communication. This
 - Providing a clear description of your problem and all relevant information.
 - Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
 
----
+<!-- --- -->
 
 ## Course Civility
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
@@ -198,33 +202,33 @@ Communication allows us to engage with others and broaden our perspectives. How 
 Here is the basic (n)etiquette that will be expected in the course:
 
 - Always address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
-- Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence. 
+- Disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
 - Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the concepts discussed in this course.
 
----
+<!-- --- -->
 
 ## Academic Misconduct
-> Academic misconduct will be punished to the fullest extent possible.
+> **Academic misconduct will be punished to the fullest extent possible.**
 
 You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course.
 
 In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
 
----
+<!-- --- -->
 
 ## Curriculum Accommodations
 Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with your [teaching assistants]. Without exception, it is your responsibility to plan for any scheduling conflict.
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
----
+<!-- --- -->
 
 ## Emergency Plan
 In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
 
----
+<!-- --- -->
 
-# University Policies {.tabset .tabset-fade}
+# University Policies
 ## COVID-19
 This is a hybrid course; you will be expected to attend some classes in person. To protect yourself and those you care about, the University recommends that you:
 
@@ -234,14 +238,14 @@ This is a hybrid course; you will be expected to attend some classes in person. 
 
 If you test positive for COVID-19, submit a self-report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
 
----
+<!-- --- -->
 
 ## ADA
 The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020.
 
 CDA will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability & Access](https://disability.utah.edu/).
 
----
+<!-- --- -->
 
 ## Safety
 **University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677).
@@ -252,14 +256,14 @@ For more information regarding safety and to view available training resources, 
 
 If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066.  For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776.  To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
 
----
+<!-- --- -->
 
 ## Undocumented Student Support
 Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center.
 
 Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
 
----
+<!-- --- -->
 
 # Course Schedule {.tabset .tabset-fade}
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
