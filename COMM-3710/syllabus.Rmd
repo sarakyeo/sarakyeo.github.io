@@ -25,7 +25,7 @@ Key topics include:
 * Measurement, sampling, and research design
 * Data analysis in communication research
 
-I expect you to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help.
+You are expected to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help. **It is your responsibility as a student to ask questions in a timely manner during scheduled labs and office hours, if you need help.**
 
 <!-- --- -->
 
@@ -74,6 +74,8 @@ officehrs %>%
             col.names = c("Instructor", "Time (MT)", "Zoom Link"))
 
 ```
+
+For [lab attendance] policies, review the [course requirements].
 
 <!-- --- -->
 
@@ -125,9 +127,9 @@ General computer support is available through the Marriott Library Knowledge Com
 # Course Requirements
 Course grades will be based on the following:
 
-- Weekly quizzes (40%)
-- Individual lab assignments (50%)
-- Lab attendance (10%)
+- Weekly quizzes (100 pts)
+- Individual lab assignments (90 pts)
+- Lab attendance (10 pts)
 
 ## Weekly Quizzes (100 pts)
 Weekly quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have approximately one week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
@@ -141,14 +143,16 @@ You will have **12 minutes** to complete your quiz. Note that you only have **on
 ## Individual Lab Assignments (90 pts)
 There are 9 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments will not be accepted**.
 
-> **It is important that you pay close attention to the assignment due dates on Canvas.**
+> **It is important that you pay close attention to the assignment due dates on Canvas as they may change throughout the semester.**
 
 <!-- --- -->
 
-## Lab Attendance
-This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. You must attend at least **6 labs in-person throughout the semester. You must attend the lab section in which you are enrolled**.
+## Lab Attendance (10 pts)
+This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. **You must attend at least 5 labs in-person throughout the semester. You must attend the lab section in which you are enrolled.**
 
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave. Additionally, if you are late to lab, your attendance will not count toward your grade.
+For each lab you attend, you will earn two (2) points toward your attendance grade (up to 10 pts). If you are more than **5 min** late to lab, you will only earn one (1) point toward your attendance grade.
+
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
 
 <!-- --- -->
 
@@ -159,7 +163,7 @@ In addition to the [course requirements], there will be a participation checkpoi
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
 - The checkpoint threshold is generous--well below a failing score for this course. For that reason, **no exceptions will be granted**. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
-- I urge non-participants to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit may not be evaluated**.
+- Non-participants are urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit may not be evaluated**.
 
 <!-- --- -->
 
@@ -191,7 +195,7 @@ You can and should check your grade regularly on Canvas. You can also use Canvas
 # Course Policies{#policies}
 By enrolling in this course, you agree to:
 
-1. respect all members of the course;
+1. respect the instructors and all members of the course;
 2. engage with the online content meaningfully;
 3. meet the requirements of this course; and
 4. abide by the course policies outlined in the syllabus.
@@ -199,11 +203,11 @@ By enrolling in this course, you agree to:
 This list represents the **minimal standards** to make the course a productive learning space. **Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors**.
 
 ## Email Policy
-> It is critical that you check your University email account frequently and that you use your University email account to contact me.
+> **It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.**
 
-**I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
+**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
 
-When you contact me, I expect you to be professional in your communication. This includes:
+When you contact your instructors, you are expected to be professional in your communication. This includes:
 
 - Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
 - Providing your full name, uNID, and class section in the message.
@@ -216,7 +220,7 @@ When you contact me, I expect you to be professional in your communication. This
 <!-- --- -->
 
 ## Course Civility
-Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
+Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
 
 Here is the basic (n)etiquette that will be expected in the course:
 
@@ -236,7 +240,7 @@ In addition, academic misconduct may result in other penalties deemed appropriat
 <!-- --- -->
 
 ## Curriculum Accommodations
-Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with your [teaching assistants]. Without exception, it is your responsibility to plan for any scheduling conflict.
+Curriculum accommodations take two forms—scheduling and content accommodations. I will consider scheduling accommodations for individual assignments on a case-by-case basis for those who have conflicts that involve religious observances, University-sanctioned activities, and personal or medical emergencies, **if you submit the appropriate documentation in advance of the conflict**. If you anticipate a scheduling conflict, please speak with your [teaching assistants]. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
@@ -289,11 +293,8 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 
 **Note: The schedule below lists the dates individual lab assignments (LA) are assigned. Due dates for these can be found on Canvas.**
 
-```{r, schedule, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, schedule, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
 
-sp2022 <- read_csv("3710_spring-2022.csv")
-sp2022 %>% 
-        kbl(., booktabs = TRUE) %>% 
-        kable_styling(position = "center")
+knitr::include_graphics("3710-spring-2022_schedule.png")
 
 ```
