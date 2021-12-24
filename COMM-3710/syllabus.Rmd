@@ -1,19 +1,16 @@
 ---
 title: |
-  | COMM 3710
+  | COMM 3710 (Hybrid)
   | Introduction to Quantitative Communication Research
   | \vspace{0.5cm} \large Spring 2022
   | University of Utah
-  | \vspace{0.5cm} Hybrid
   | \vspace{0.5cm} Prof. Sara K. Yeo
   | [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu)
-# pagetitle: COMM 3710 Syllabus
 output:
   pdf_document: default
 urlcolor: blue
 ---
 
-# Course Outline
 This **hybrid course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
 
 > **Lecture content will be online (asynchronous) while lab sections will be in-person (see [Course Requirements]).**
@@ -50,8 +47,32 @@ Email <- c("dallin.adams@utah.edu", "dallin.adams@utah.edu", "u1368483@utah.edu"
 Location <- c("SAEC 3151", "SAEC 3151", "BU C 210", "BU C 210")
 lab_data <- tibble(Section, TA, Email, Day, Time, Location)
 lab_data %>%
-        kbl(booktabs = TRUE) %>% 
-        kable_styling(position = "center")
+        kbl(., booktabs = TRUE,
+            col.names = c("Section", "TA", "Day", "Time (MT)", "Email", "Location"))
+
+```
+
+
+## Office Hours
+Both TAs and Prof. Yeo will have weekly office hours.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+Instructor <- c("Prof. Yeo",
+                "Yi Liao",
+                "Dallin Adams")
+offtime <- c("Th 10 - 11 am",
+          "F XX - XX a/pm",
+          "Th XX - XX pm")
+Link <- c("https://utah.zoom.us/j/95921224902 (Passcode: COMM3710)",
+          "",
+          "")
+
+officehrs <- tibble(Instructor, offtime, Link)
+
+officehrs %>%
+        kbl(.,booktabs = TRUE,
+            col.names = c("Instructor", "Time (MT)", "Zoom Link"))
+
 ```
 
 <!-- --- -->
@@ -144,9 +165,6 @@ In addition to the [course requirements], there will be a participation checkpoi
 
 # Course Grading
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(kableExtra)
-library(tidyverse)
-
 Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
            "D+", "D", "D-", "F")
 Range <- c("93 to 100", "90 to < 93", "87 to < 90",
@@ -157,7 +175,8 @@ Range <- c("93 to 100", "90 to < 93", "87 to < 90",
 grade_data <- tibble(Grade, Range)
 
 grade_data %>%
-        kbl(booktabs = TRUE) %>% 
+        kbl(booktabs = TRUE,
+            linesep = "") %>% 
         kable_styling(position = "center")
 ```
 
@@ -169,7 +188,7 @@ You can and should check your grade regularly on Canvas. You can also use Canvas
 
 <!-- --- -->
 
-# Course Policies
+# Course Policies{#policies}
 By enrolling in this course, you agree to:
 
 1. respect all members of the course;
@@ -265,11 +284,9 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 
 <!-- --- -->
 
-# Course Schedule {.tabset .tabset-fade}
+# Course Schedule
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
 **Note: The schedule below lists the dates individual lab assignments (LA) are assigned. Due dates for these can be found on Canvas.**
 
-<!-- <center> -->
-<!-- <img src="https://github.com/sarakyeo/sarakyeo.github.io/raw/master/COMM-3710/3710-schedule_fall-2021.jpg" alt="COMM 3710 schedule"/> -->
-<!-- </center> -->
+
