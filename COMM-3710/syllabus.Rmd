@@ -32,7 +32,7 @@ I expect you to log into the course Canvas website regularly (**at least 3-5 tim
 # Teaching Assistants
 There are two graduate teaching assistants (TAs) in this course. Each graduate TA will be leading two lab sections.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r, TA-info, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
 library(knitr)
@@ -56,7 +56,7 @@ lab_data %>%
 ## Office Hours
 Both TAs and Prof. Yeo will have weekly office hours.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
 Instructor <- c("Prof. Yeo",
                 "Yi Liao",
                 "Dallin Adams")
@@ -164,7 +164,7 @@ In addition to the [course requirements], there will be a participation checkpoi
 <!-- --- -->
 
 # Course Grading
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r, grades, echo=FALSE, message=FALSE, warning=FALSE}
 Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
            "D+", "D", "D-", "F")
 Range <- c("93 to 100", "90 to < 93", "87 to < 90",
@@ -289,4 +289,11 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 
 **Note: The schedule below lists the dates individual lab assignments (LA) are assigned. Due dates for these can be found on Canvas.**
 
+```{r, schedule, echo=FALSE, message=FALSE, warning=FALSE}
 
+sp2022 <- read_csv("3710_spring-2022.csv")
+sp2022 %>% 
+        kbl(., booktabs = TRUE) %>% 
+        kable_styling(position = "center")
+
+```
