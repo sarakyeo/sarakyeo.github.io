@@ -152,7 +152,7 @@ This course has two graduate [teaching assistants] for four lab sections. When y
 
 For each lab you attend, you will earn two (2) points toward your attendance grade (up to 10 pts). If you are more than **5 min** late to lab, you will only earn one (1) point toward your attendance grade.
 
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
+If you show up to a lab section in< which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
 
 <!-- --- -->
 
@@ -168,6 +168,11 @@ In addition to the [course requirements], there will be a participation checkpoi
 <!-- --- -->
 
 # Course Grading
+
+**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email) to your graduate [teaching assistants], clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.**
+
+Grades in this course will be based on the following scale.
+
 ```{r, grades, echo=FALSE, message=FALSE, warning=FALSE}
 Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
            "D+", "D", "D-", "F")
@@ -180,15 +185,12 @@ grade_data <- tibble(Grade, Range)
 
 grade_data %>%
         kbl(booktabs = TRUE,
-            linesep = "") %>% 
-        kable_styling(position = "center")
+            linesep = "")
 ```
 
-Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
-
-**If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (as a Microsoft Word document or PDF attached in an email) to your graduate [teaching assistants], clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.**
-
 You can and should check your grade regularly on Canvas. You can also use Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
+
+Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
 <!-- --- -->
 
