@@ -48,7 +48,7 @@ Location <- c("SAEC 3151", "SAEC 3151", "BU C 210", "BU C 210")
 lab_data <- tibble(Section, TA, Email, Day, Time, Location)
 lab_data %>%
         kbl(., booktabs = TRUE,
-            col.names = c("Section", "TA", "Day", "Time (MT)", "Email", "Location"))
+            col.names = c("Section", "TA", "Email", "Day", "Time (MT)", "Location"))
 
 ```
 
@@ -71,7 +71,7 @@ officehrs <- tibble(Instructor, offtime, Link)
 
 officehrs %>%
         kbl(.,booktabs = TRUE,
-            col.names = c("Instructor", "Time (MT)", "Zoom Link"))
+            col.names = c("Instructor", "Time (MT)", "Zoom Link (copy & paste URL into web browser)"))
 
 ```
 
@@ -175,7 +175,7 @@ Grades in this course will be based on the following scale.
 
 ```{r, grades, echo=FALSE, message=FALSE, warning=FALSE}
 Grade <- c("A", "A-", "B+", "B", "B-", "C+", "C", "C-",
-           "D+", "D", "D-", "F")
+           "D+", "D", "D-", "E")
 Range <- c("93 to 100", "90 to < 93", "87 to < 90",
             "83 to < 87", "80 to < 83", "77 to < 80",
             "73 to < 77", "70 to < 73", "67 to < 70",
