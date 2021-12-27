@@ -6,6 +6,7 @@ title: |
   | University of Utah
   | \vspace{0.5cm} Prof. Sara K. Yeo
   | [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu)
+  | \vspace{0.5cm} \small TAs: Yi Liao (u1368483@utah.edu) & Dallin Adams (dallin.adams@utah.edu)
 output:
   pdf_document: default
 urlcolor: blue
