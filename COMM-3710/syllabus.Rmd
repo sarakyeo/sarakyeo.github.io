@@ -31,7 +31,7 @@ You are expected to log into the course Canvas website regularly (**at least 3-5
 <!-- --- -->
 
 # Teaching Assistants
-There are two graduate teaching assistants (TAs) in this course. Each graduate TA will be leading two lab sections.
+There are two graduate teaching assistants (TAs) in this course. Each graduate TA will be leading two lab sections. For lab attendance policies, review the [course requirements].
 
 ```{r, TA-info, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
@@ -61,11 +61,11 @@ Both TAs and Prof. Yeo will have weekly office hours.
 Instructor <- c("Prof. Yeo",
                 "Yi Liao",
                 "Dallin Adams")
-offtime <- c("Th 10 - 11 am",
-          "F XX - XX a/pm",
+offtime <- c("Th 10:00 - 11:00 am",
+          "F 10:40 - 11:40 am",
           "Th XX - XX pm")
 Link <- c("https://utah.zoom.us/j/95921224902 (Passcode: COMM3710)",
-          "",
+          "https://utah.zoom.us/j/93592701193",
           "")
 
 officehrs <- tibble(Instructor, offtime, Link)
@@ -76,8 +76,6 @@ officehrs %>%
 
 ```
 
-For [lab attendance] policies, review the [course requirements].
-
 <!-- --- -->
 
 # Required Text and Readings
@@ -85,13 +83,13 @@ Two books are required for this course. Both are available online.
 
 **Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.**
 
+- To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
 - This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
 - You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
-- To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
 
 **Yeo, S. K. & Y. Sun (2021) [*COMM 3710: Getting Started with R*](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).**
 
-- This book is free and accessible via the link provided.
+- This book is free and accessible via the link provided on Canvas.
 
 Additional readings will be provided as PDF documents on Canvas.
 
@@ -151,9 +149,9 @@ There are 9 individual assignments. Information on individual assignments will b
 ## Lab Attendance (10 pts)
 This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend. **You must attend at least 5 labs in-person throughout the semester. You must attend the lab section in which you are enrolled.**
 
-For each lab you attend, you will earn two (2) points toward your attendance grade (up to 10 pts). If you are more than **5 min** late to lab, you will only earn one (1) point toward your attendance grade.
+For each full lab (i.e., 50 min) you attend, you will earn two (2) points toward your attendance grade (up to 10 pts). If you are **5 to 15 min** late to lab, you will only earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
 
-If you show up to a lab section in< which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
+If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
 
 <!-- --- -->
 
@@ -164,7 +162,7 @@ In addition to the [course requirements], there will be a participation checkpoi
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
 - The checkpoint threshold is generous--well below a failing score for this course. For that reason, **no exceptions will be granted**. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
-- Non-participants are urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2021.php) for withdrawal deadlines). **Any future work such students might choose to submit may not be evaluated**.
+- Non-participants are urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/spring2022.php) for withdrawal deadlines). **Any future work such students might choose to submit may not be evaluated**.
 
 <!-- --- -->
 

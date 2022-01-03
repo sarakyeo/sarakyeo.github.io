@@ -16,7 +16,7 @@ urlcolor: blue
 
 Welcome to a new semester and to COMM 3710!
 
-COMM 3710 is a hybrid course. For more information on the course, please see the [course syllabus](https://sarakyeo.github.io/COMM-3710/syllabus.html).
+COMM 3710 is a hybrid course. For more information on the course, please see the course syllabus on [Canvas](https://utah.instructure.com/).
 
 ---
 
