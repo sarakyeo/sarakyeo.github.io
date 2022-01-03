@@ -25,10 +25,11 @@ COMM 3710 is a hybrid course. For more information on the course, please see the
 ---
 
 # An Introduction to Professor Yeo
-Prof. Sara K. Yeo is an Associate Professor in the Department of Communication. She is an expert in survey research and experiments, and primarily conducts research in science communication. Youcan check out some of her work [here](https://orcid.org/0000-0002-2043-8400). Currently, she has two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
+Prof. Sara K. Yeo is an Associate Professor in the Department of Communication. She is an expert in survey research and experiments, and primarily conducts research in science communication. You can check out some of her work [here](https://orcid.org/0000-0002-2043-8400). Currently, she has two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
 
 Prof. Yeo's CV and more information is available on her [faculty page](https://faculty.utah.edu/~sarakyeo). If you are interested in science communication research, email Dr. Yeo at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu).
 
+---
 
 # Some Helpful Resources {.tabset .tabset-fade}
 ## Canvas Help
@@ -46,6 +47,7 @@ For help with UMail, uNID, VPN, Box, Office 365, and CIS log-in, contact the Cam
 
 Help is available Monday through Saturday. Please visit the [Campus Help Desk website](https://it.utah.edu/help/) for more information.
 
+---
 
 # Note-taking for Success in College
 **I recommend taking notes while you review the content online. This will help you learn and recall material.**
@@ -60,6 +62,7 @@ I have included the chapter on note-taking as a PDF on Canvas. Be sure to comple
 <img src="https://sarakyeo.github.io/images/cornell-notes.png"></img>
 </center>
 
+---
 
 # An Introduction to Social Science
 
@@ -129,6 +132,7 @@ Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bull
 <img src="https://sarakyeo.github.io/images/semantic-diff.jpg"/>
 </center>
 
+---
 
 ## Social Science Research During and Post-WWII
 During WWII, the US government became more involved in social science research in order to understand propaganda, attitudes, and persuasion. In order to main high morale during wartime, the US government realized that media was critical and created the [US Office of War Information](https://en.wikipedia.org/wiki/United_States_Office_of_War_Information). 
@@ -148,6 +152,7 @@ Another important milestone in the history of communication research is the work
 
 The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
 
+---
 
 # Epistemologies in Communication Research {.tabset .tabset-fade}
 <center>
@@ -169,18 +174,21 @@ An example of a research question that might be asked in this tradition is "What
 
 **This is the epistemological tradition on which this course is based.**
 
+---
 
 ## Qualitative / Interpretive
 Qualitative researchers believe that to understand human communication, one must explore and appreciate how individuals at the center of specific interactions or communicative acts understands his or her own communication. 
 
 An example of a research question that might be asked in this tradition is "What does it mean to be a member of the LDS church?"
 
+---
 
 ## Rhetorical / Critical
 Rhetorical/Critical scholars believe the central role of research is to examine the interplay between ideology and science.
 
 An example of a research question that might be asked in this tradition is "How are crisis messages steeped in power and privilege?"
 
+---
 
 # Ordinary vs. Scientific Ways of Knowing {.tabset .tabset-fade}
 
@@ -191,6 +199,7 @@ It is also integral that we articulate and know the distinction between ordinary
 
 2. **Authority**: We also come to know things by relying on experts. For example, we rely on our doctors for health information and on priests for religious teachings.
 
+---
 
 ## Scientific Ways of Knowing
 As mentioned, the difference between ordinary and scientific ways of knowing has to do with the **process** of generating scientific knowledge. This process relies on 6 steps:
@@ -207,6 +216,7 @@ As mentioned, the difference between ordinary and scientific ways of knowing has
 
 6. **Ethics and politics**: Importantly, researchers and scientists must collect, analyze, and report data in ethical ways, which includes minimizing potential biases.
 
+---
 
 # The Wheel of Science
 A figure representing the "wheel" of science can be found in your textbook (Figure 2.1). Your textbook refers to this as the scientific method. Below is a short video explanation of the "wheel" of science.
@@ -231,6 +241,7 @@ Check your answers using the video below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/98u0cuQq4l4" data-external="1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </center>
 
+---
 
 # Defining Research
 Watch the video below defining "research."
