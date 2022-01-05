@@ -63,10 +63,10 @@ Instructor <- c("Prof. Yeo",
                 "Dallin Adams")
 offtime <- c("Th 10:00 - 11:00 am",
           "F 10:40 - 11:40 am",
-          "Th TIME TBD")
+          "Th 1:00 - 2:00 pm")
 Link <- c("https://utah.zoom.us/j/95921224902 (Passcode: COMM3710)",
           "https://utah.zoom.us/j/93592701193 (Passcode: 2022)",
-          "ZOOM LINK TBD")
+          "https://utah.zoom.us/j/99312657864 (Passcode: 3710spring)")
 
 officehrs <- tibble(Instructor, offtime, Link)
 
