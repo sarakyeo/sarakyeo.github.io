@@ -8,8 +8,8 @@ output:
     theme: flatly
 ---
 
-```{r setup, echo=FALSE, warnings=FALSE, message=FALSE}
-knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 library(tidyverse)
 library(kableExtra)
 ```
@@ -73,8 +73,6 @@ Make a section of foldable code titled "Installing and loading packages." Under 
 Then, write commands to **install** the above packages and **load** them into your current session of R.
 
 
----
-
 > Once you have written the R commands, highlight all of them and click the **Run** button. You will do this each time you wish to run commands.
 
 ---
@@ -101,7 +99,7 @@ Use this [template](https://utah.instructure.com/files/121254294/download?downlo
 ## Instructions
 Create another foldable section labeled "Set working directory." In this section, write pseudocode to set your working directory to the "lab assignments" folder that you set up in [LA-1](https://sarakyeo.gituhub.io/COMM-3710/LA/LA-1.html).
 
-Then, write the R command to set your working directory.
+Then, write the R command to set your working directory and run it.
 
 Save your R script as `LA-3_FirstName-LastName.R`.
 
@@ -113,15 +111,15 @@ You can also use the shortcut key (Win/Mac: Ctrl + Shift + H).
 
 # Step 6 {.tabset .tabset-fade}
 ##  Instructions
-In the next step, we will enter data into R manually using the `c()` function, which is short for `concatenate()`. Before we do so, let's learn about the function we will be using.
+In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's learn about the function we will be using.
 
 Create a new foldable section in your code for this--give it an appropriate heading.
 
 Write pseudocode to pull up the help documentation for the `c()` function (e.g., "exploring the c() function before using it").
 
-Then, write the R command (`?c`) that opens the documentation in your R script. 
+Then, write and run the R command (`?c`) that opens the documentation in your R script. 
 
-Describe the `c()` function from the documentation as a comment under your `?c` command. You can copy and paste the text under "Description" from the documentation, but I encourage you to add your own description so that you understand what the function is doing.
+Use the results to describe the `c()` function from the documentation as a comment under your `?c` command. You can copy and paste the text under "Description" from the documentation, but I encourage you to add your own description so that you understand what the function is doing.
 
 ## Hint
 Remember that `?` before any function in R will open the documentation for that function. I recommend that you use this any time you are unsure what a R function does.
@@ -136,7 +134,7 @@ Write pseudocode to enter the data in the table below as four (4) objects called
 
 Then, use the `c()` function to enter the data below into four (4) objects called 
 
-```{r data, echo=FALSE}
+```{r data, echo=FALSE, warnings=FALSE}
 Aname <- c("C. Clark", "A. Hayes", "C. Hooks", "K. Bell", "A. Joens")
 Ateam <- c("Iowa", "Middle Tenn", "Ohio", "FGCU", "Iowa State")
 ppg <- c(26.6, 26.5, 25.1, 24.3, 24.2)
@@ -147,6 +145,8 @@ df %>%
   kable(caption = "2021 data of top 5 women's college basketball players by points per game.") %>% 
   kable_classic(full_width = FALSE, html_font = "Arial")
 ```
+
+After writing code in your R script, remember to **run** it.
 
 ## Hint
 There are two data types in the data table, numeric and character. To enter these data types into objects, review [Section 2.4.2](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#data-types) in the book.
@@ -161,7 +161,7 @@ Then, combine the objects into a single data frame that has a name of your choos
 The data in the tibble should match the information in the table in [Step 7].
 
 ## Hint
-To call an object, type the name of the object in the Console and press Enter.
+To call an object, type the name of the object in the Console and press Enter. Or type the name of the object in your R script, then highlight and run it.
 
 The pseudocode and R code below is generic. This means that you will have to replace the placeholders (e.g., `obj1`, `obj2`, `df`) with names of the objects in your R environment.
 
@@ -180,7 +180,7 @@ Now, we will examine the type of data stored in each column of our data frame. T
 
 Write pseudocode and R code to examine the `class` function. Copy and paste the description of this function as a comment in your R script.
 
-Then, write psedocode and R code to check the class of each column in your data frame. Note the class of each column of your data frame in a comment.
+Then, write pseudocode and R code to check the class of each column in your data frame. Run the code you just wrote and note the class of each column of your data frame in a comment.
 
 ## Hint
 To pull up documentation for a function, see hint in [Step 6]. If necessary, review the [brief section in the book about data types](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#data-types).
