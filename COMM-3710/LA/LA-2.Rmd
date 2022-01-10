@@ -12,6 +12,8 @@ output:
 
 For this assignment, you will complete online training modules on ethical conduct of human subjects research through the Collaborative Institutional Training Initiative (CITI).
 
+> Read the instructions carefully and  in their entirety before starting.
+
 To complete CITI training, follow the instructions below:
 
 1. Open your browser and navigate to [https://www.citiprogram.org](https://www.citiprogram.org/). Click `Register`.
@@ -22,7 +24,7 @@ To complete CITI training, follow the instructions below:
 
 4. Create a username and password. Fill in the required fields. When asked to verify your email address, be sure to check your Spam folder for the verification email.
 
-5. When you are asked "Are you interested in the option of receiving Continuing Education Unit credit for completed CITI Program courses?" Select `No`. Remember to answer the required question at the bottom of the page about participation in research surveys.
+5. When you are asked *"Are you interested in the option of receiving Continuing Education Unit credit for completed CITI Program courses?"* Select `No`. Remember to answer the required question at the bottom of the page about participation in research surveys.
 
 6. Under `Department`, type "Communication." From the drop-down menu of `What is your role in research?`, select `Student researcher – Undergraduate`.
 
@@ -36,12 +38,12 @@ To complete CITI training, follow the instructions below:
 
 11. **Complete all 17 modules with a grade of at least 80%**.
 
-12. Once you have completed the modules, click “Print Report.” **Save the resulting report as a PDF file**.
+12. Once you have completed the modules, click `Print Report`. **Save the resulting report as a PDF file**.
 
 ---
 
 # Submission
-Submit the report as a **PDF file** on Canvas.
+Submit the report as a **PDF file** on Canvas. An example submission is shown below.
 
 ---
 
