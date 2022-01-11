@@ -57,6 +57,8 @@ lab_data %>%
 # Office Hours
 Both TAs and Prof. Yeo will have weekly office hours. Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
 
+TEST
+
 ```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
 Instructor <- c("Prof. Yeo",
                 "Yi Liao",
