@@ -95,7 +95,7 @@ Additional readings will be provided as PDF documents on Canvas.
 
 <!-- --- -->
 
-# Technology Requirements {.tabset .tabset-fade}
+# Technology Requirements
 To ensure that you have full access to the course Canvas website, you will need:
 
 - Reliable access to a laptop or desktop computer. **A mobile device (tablet, phone) is not sufficient to complete this course. You will need a laptop to bring to lab.**
