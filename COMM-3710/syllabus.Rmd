@@ -1,7 +1,7 @@
 ---
 title: |
   | <a name="top"></a>
-  | COMM 3710: Quantitative Research
+  | COMM 3710: Intro to Quantitative Research
 pagetitle: COMM 3710 Syllabus
 output:
   html_document:
