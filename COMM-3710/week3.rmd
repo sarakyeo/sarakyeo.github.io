@@ -12,7 +12,7 @@ urlcolor: blue
 
 > "A good part of the work called 'theorizing' is taken up with the clarification of concepts--and rightly so." -Robert Merton, *Social Theory and Social Structure* (1968, p. 168)
 
-> **Additional reading**: [McLeod et al.](https://utah.instructure.com/courses/757513/files/123052925/download?download_frd=1)
+> **Assigned reading**: [McLeod et al.](https://utah.instructure.com/courses/757513/files/123052925/download?download_frd=1)
 
 
 # Some Definitions {.tabset .tabset-fade}
