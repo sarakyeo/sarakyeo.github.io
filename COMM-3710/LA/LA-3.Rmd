@@ -26,6 +26,8 @@ In this assignment, you will learn how to:
 - Look at the contents of a data frame or tibble.
 - Identify variables and their types in a tibble.
 
+> You may use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to organize your R script.
+
 ---
 
 # Step 1 {.tabset .tabset-fade}
@@ -91,7 +93,7 @@ Example pseudocode for installing and loading your packages:
 # Load rstatix
 ```
 
-Use this [template](https://utah.instructure.com/files/121254294/download?download_frd=1) to help organize your R script.
+Use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to help organize your R script.
 
 # Step 5 {.tabset .tabset-fade}
 ## Instructions
