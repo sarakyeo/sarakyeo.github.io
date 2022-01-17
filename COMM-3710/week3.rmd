@@ -10,12 +10,13 @@ output:
 urlcolor: blue
 ---
 
-# What is Concept Explication? {.tabset .tabset-fade}
 > "A good part of the work called 'theorizing' is taken up with the clarification of concepts--and rightly so." -Robert Merton, *Social Theory and Social Structure* (1968, p. 168)
 
-**Additional reading**: [McLeod et al.](https://utah.instructure.com/files/117882977/download?download_frd=1)
+> **Additional reading**: [McLeod et al.](https://utah.instructure.com/courses/757513/files/123052925/download?download_frd=1)
 
-When you type "define explicate" into a Google search, the result (combined with Merton's quote) gives us some idea about what **concept explication** means.
+
+# Some Definitions {.tabset .tabset-fade}
+When you type `define explicate` into a Google search, the result (combined with Merton's quote) gives us some idea about what **concept explication** means.
 
 <center>
 <img src="https://sarakyeo.github.io/images/explicate.png"/>
@@ -26,10 +27,17 @@ When you type "define explicate" into a Google search, the result (combined with
 
 Before we discuss this process in more detail, we first need to define the terms, **concept** and **construct**.
 
+## Concept
 A **concept** is a term used to express abstract ideas. Examples of concepts include cats, energy, etc.
 
+---
+
+## Construct
 A **construct** is a concept that has added meaning that has been deliberately adopted for scientific purposes, e.g., intelligence.
 
+---
+
+# What is Concept Explication? {.tabset .tabset-fade}
 Sometimes, the terms concept and construct are used interchangeably. This is especially true when a concept has a lot of clarity of meaning, e.g., age. But, for more complex and nuanced concepts, how do we get from a concept to a construct?
 
 The answer is that we use the process of concept explication. Concept explication is a process that is central to research--it is the process of creating, defining, and using a concept in scientific research. Concepts are the building blocks of research. We use concepts to advance, revise, and even develop new theories. The process of making a concept into a construct, therefore, makes a theory empirically testable.
