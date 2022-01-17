@@ -26,8 +26,6 @@ In this assignment, you will learn how to:
 - Look at the contents of a data frame or tibble.
 - Identify variables and their types in a tibble.
 
-> **You should follow these instructions for preparation, naming, and saving of your R script for *all* of your individual lab assignments.** 
-
 ---
 
 # Step 1 {.tabset .tabset-fade}
@@ -224,8 +222,8 @@ To ensure that your R script runs without errors, you should:
 - Reopen RStudio, open your `LA-3_FirstName-LastName.R` script.
 - Run the entire script by clicking the "Run" button in the top right of the R script.
 
-> These standards apply to all submissions in this course that require R scripts.
+> **These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for *all* of your individual lab assignments.** 
 
 ## Examples
-An example of how to write pseudocode can be seen in this gif.
+An example of how to write pseudocode can be seen in this GIF.
 ![](LA-3_example.gif)
