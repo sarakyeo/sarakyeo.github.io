@@ -40,7 +40,7 @@ Read [Ch. 3 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COM
 Create a new R script.
 
 ## Hint
-Revisit [Step 1] if you are unsure how to create a new R script.
+Revisit [Step 1] if you are unsure how to create a new R script. You can also use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to help organize your R script.
 
 
 # Step 3 {.tabset .tabset-fade}
@@ -93,7 +93,6 @@ Example pseudocode for installing and loading your packages:
 # Load rstatix
 ```
 
-Use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to help organize your R script.
 
 # Step 5 {.tabset .tabset-fade}
 ## Instructions
