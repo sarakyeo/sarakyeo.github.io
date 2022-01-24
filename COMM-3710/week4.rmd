@@ -14,13 +14,28 @@ urlcolor: blue
 # What is a Variable? {.tabset .tabset-fade}
 A **variable** can be defined as any entity that can take on a variety of different values. Research deals with the measurement, manipulation, and control of variables to test hypotheses and answer research questions.
 
-A **variable** is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
+A variable is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
 
-**Concrete variables** are those that are stable or consistent over time. Some examples of this are eye color (e.g., blue, green, brown) and biological sex (male/female).
+```{r, meaning-empirical-analysis, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
 
-**Abstract variables** are those that change over time or across situations or contexts. Some examples are attitudes and opinions.
+Term <- c("Concrete variables", "Abstract variables")
+Definition <- c("Variables that are stable or consistent over time or across situations or context", "Variables that change over time or across situations or contexts")
+Examples <- c("eye color (e.g., blue, brown, green)", "attitudes and opinions")
 
-Before discussing relationships and differences between variables, we need to cover aspects of variables and some types of variables that we will encounter in this course.
+comparison <- tibble(Term, Definition, Examples)
+comparison %>%
+        kbl(., "html",
+            caption = "Definitions and examples of concrete and abstract variables.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+
+```
+<br>
+
+Before discussing relationships and differences between variables, we need to cover **aspects of variables** and some **types of variables** that we will encounter in this course.
 
 ## Aspects of Variables
 Each variable has its associated aspects. These aspects include **variable attributes** and **variable values**.
