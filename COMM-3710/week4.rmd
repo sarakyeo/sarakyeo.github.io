@@ -9,9 +9,8 @@ output:
     theme: flatly
 urlcolor: blue
 ---
-<a name="var"></a>
 
-# What is a Variable? {.tabset .tabset-fade}
+# What is a Variable? {#var .tabset .tabset-fade}
 A **variable** can be defined as any entity that can take on a variety of different values. Research deals with the measurement, manipulation, and control of variables to test hypotheses and answer research questions.
 
 A variable is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
@@ -115,9 +114,9 @@ See if you can identify the IV and DV in the following hypotheses and research q
 
 
 # Understanding Relationships and Differences
-All variables in research enable us to understand two basic phenomena: **relationships** and **differences**. Click on the tabs below to learn about these phenomena.
+All variables in research enable us to understand two basic phenomena: [**relationships**](#Relationships) and [**differences**](#Differences).
 
-## Relationships {.tabset .tabset-fade}
+## Relationships {#Relationships .tabset .tabset-fade}
 In research, **relationships** refer to connections between variables. Most communication studies are designed with the goal of identifying relationships between variables.
 
 For example, Yeo et al. (2014) studied the relationship between people's *perceptions of risk related to nuclear energy* and *attention to media*.
@@ -191,7 +190,7 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 <br>
 
 
-## Differences {.tabset .tabset-fade}
+## Differences {#Differences .tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
 
 
@@ -225,7 +224,7 @@ In general, we want to be able to quantify information so that...
 ## Levels of Measurement {.tabset .tabset-fade}
 Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
 
-If necesary, refer to <a href="#var">What is a Variable?</a> to review the definitions of *variable attribute* and *variable value*.
+If necesary, refer to the [section defining a variable](#var) to review the definitions of *variable attribute* and *variable value*.
 
 <center>
 <img src="https://sarakyeo.github.io/images/level-of-meas.png"/>
