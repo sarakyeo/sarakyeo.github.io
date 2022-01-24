@@ -114,7 +114,7 @@ See if you can identify the IV and DV in the following hypotheses and research q
 > *Research Question*: Did members of the public, relying on media coverage, generalize their evaluations of Bush's handling of the Gulf War or the economy to his overall job performance during each issue regime? [<mark>DV = Bush's overall job performance; IV = evaluations of Bush's handling of the Gulf War or the economy.</mark>]{.spoiler}
 
 
-# Understanding Relationships and Differences {.tabset .tabset-fade}
+# Understanding Relationships and Differences
 All variables in research enable us to understand two basic phenomena: **relationships** and **differences**. Click on the tabs below to learn about these phenomena.
 
 ## Relationships {.tabset .tabset-fade}
