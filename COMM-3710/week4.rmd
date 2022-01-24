@@ -16,7 +16,7 @@ A **variable** can be defined as any entity that can take on a variety of differ
 
 A variable is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
 
-```{r, meaning-empirical-analysis, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, concrete-abstract-var, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
 library(knitr)
@@ -42,23 +42,34 @@ Each variable has its associated aspects. These aspects include **variable attri
 
 **Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
 
-**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., 1 = *brown*, 2 = *blue*, 3 = *green*. 
+**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., `1 = brown`, `2 = blue`, `3 = green`. 
 
-<u>Another example:</u>
 
-- Variable: Journalists' confidence in their own reporting abilities
-- Variable attributes:
-   - `Not at all confident`
-   - `Slightly confident`
-   - `Somewhat confident`
-   - `Moderately confident`
-   - `Very confident`
-- Variable values assigned to attributes:
-   - 1 = `Not at all confident`
-   - 2 = `Slightly confident`
-   - 3 = `Somewhat confident`
-   - 4 = `Moderately confident`
-   - 5 = `Very confident`
+```{r, variable-values, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+Attributes <- c("Not at all confident",
+                "Slightly confident",
+                "Somewhat confident",
+                "Moderately confident",
+                "Very confident")
+Values <- c(1,
+            2,
+            3,
+            4,
+            5)
+
+tbl <- tibble(Values, Attributes)
+tbl %>%
+        kbl(., "html",
+            caption = "Another example: The attributes and assigned values of the attributes in a variable that measures journalists' confidence in their own reporting abilities.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "15em")
+
+```
+<br>
 
 <center>
 <img src="https://sarakyeo.github.io/images/aspects-variables.png"/>
@@ -66,14 +77,41 @@ Each variable has its associated aspects. These aspects include **variable attri
 <br>
 
 ## Types of Variables
-A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. One way to remember this: The dependent variable depends on the independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
+A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
 
 An **independent variable** (IV) is one that affects the outcome/dependent variable. In experiments, the independent variable is one that researchers manipulate or change. The independent variable is also often called the **predictor variable**.
 
-<center>
-<img src="https://sarakyeo.github.io/images/iv-dv.png"/>
-</center>
-<br>
+> One way to remember this: The dependent variable depends on the independent variable.
+
+See if you can identify the IV and DV in the following hypotheses and research questions, which originate from journal articles in Communication.
+
+```{css, echo=FALSE}
+.spoiler {
+  visibility: hidden;
+}
+
+.spoiler::before {
+  visibility: visible;
+  content: "Hover for answer."
+}
+
+.spoiler:hover {
+  visibility: visible;
+}
+
+.spoiler:hover::before {
+  display: none;
+}
+```
+<br> 
+
+> *Hypothesis*: Lectures using examples should result in high scores on subsequent tests of cognitive recall. [<mark>DV = scores on tests of cognitive recall; IV = lectures using examples.</mark>]{.spoiler}
+
+> *Hypothesis*: Strength of religious beliefs will be negatively related to support for nanotechnology. [<mark>DV = support for nanotechnology; IV = strength of religious beliefs.</mark>]{.spoiler}
+
+> *Research Question*: What is the relationship between watching violent TV shows and a child's level of aggressiveness? [<mark>DV = child's level of aggressiveness; IV = watching violent TV shows.</mark>]{.spoiler}
+
+> *Research Question*: Did members of the public, relying on media coverage, generalize their evaluations of Bush's handling of the Gulf War or the economy to his overall job performance during each issue regime? [<mark>DV = Bush's overall job performance; IV = evaluations of Bush's handling of the Gulf War or the economy.</mark>]{.spoiler}
 
 
 # Understanding Relationships and Differences {.tabset .tabset-fade}
@@ -89,13 +127,32 @@ For example, Yeo et al. (2014) studied the relationship between people's *percep
 </center>
 <br>
 
-Relationships typically fall into one of three categories: **positive**, **negative**, or **neutral**. We typically use a number, known as Pearson's correlation coefficient (denoted by *r*) to describe the strength and direction of a relationship. This is an inferential statistic that we can compute (and we will do so in our group projects).
+Relationships typically fall into one of three categories: **positive**, **negative**, or **neutral**. We typically use a number, known as Pearson's correlation coefficient (denoted by $r$) to describe the strength and direction of a relationship. This is an inferential statistic that we can compute.
 
-**Pearson's correlation coefficient** ranges between **-1 and 1**.
+> **Pearson's correlation coefficient ($r$)** ranges between **-1 and 1**.
 
-- The **sign** of *r* tells us whether the relationship is positive or negative.
-- The **magnitude** of *r* tells us about the strength of the relationship.
-- For example, a *r*-value of 0.8 is considered a strong, positive relationship, while a *r*-value of -0.8 is considered to be a strong, negative relationship.
+- The **sign of $r$** tells us whether the relationship is positive or negative.
+- The **magnitude of $r$** tells us about the strength of the relationship.
+- For example, a $r$-value of 0.8 is considered a strong, positive relationship, while a $r$-value of -0.8 is considered to be a strong, negative relationship.
+
+```{r, pearson-corr, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+col1 <- c("Positive", "Neutral", "Negative")
+col2 <- c("$r$ > 0", "$r$ = 0", "$r$ < 0")
+
+tbl <- tibble(col1, col2)
+tbl %>%
+        kbl(., "html",
+            col.names = NULL,
+            caption = "Relationships: Pearson's correlation.") %>% 
+        kable_classic("hover", full_width = FALSE)
+        # column_spec(2, width = "15em")
+
+```
+<br>
 
 ### Positive
 Positive relationships exist when an increase in one variable results in an increase in another variable. Note that, in a positive relationship, when one variable decreases, the other also decreases. In other words, the variables move **in the same direction**.
