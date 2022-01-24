@@ -38,13 +38,6 @@ comparison %>%
 Before discussing relationships and differences between variables, we need to cover **aspects of variables** and some **types of variables** that we will encounter in this course.
 
 ## Aspects of Variables
-Each variable has its associated aspects. These aspects include **variable attributes** and **variable values**.
-
-**Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
-
-**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., `1 = brown`, `2 = blue`, `3 = green`. 
-
-
 ```{r, variable-values, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
@@ -65,12 +58,19 @@ tbl <- tibble(Values, Attributes)
 tbl %>%
         kbl(., "html",
             caption = "Another example: The attributes and assigned values of the attributes in a variable that measures journalists' confidence in their own reporting abilities.") %>% 
-        kable_classic("hover", full_width = FALSE) %>% 
-        column_spec(2, width = "15em")
+        kable_classic(full_width = FALSE,
+                      position = "float_right") %>% 
+        column_spec(2, width = "20em")
 
 ```
-<br>
 
+Each variable has its associated aspects, which include **variable attributes** and **variable values**.
+
+**Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
+
+**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., `1 = brown`, `2 = blue`, `3 = green`. 
+
+<br>
 <center>
 <img src="https://sarakyeo.github.io/images/aspects-variables.png"/>
 </center>
@@ -142,14 +142,14 @@ library(knitr)
 
 col1 <- c("Positive", "Neutral", "Negative")
 col2 <- c("$r$ > 0", "$r$ = 0", "$r$ < 0")
-
 tbl <- tibble(col1, col2)
+
 tbl %>%
         kbl(., "html",
             col.names = NULL,
-            caption = "Relationships: Pearson's correlation.") %>% 
-        kable_classic("hover", full_width = FALSE)
-        # column_spec(2, width = "15em")
+            caption = "Relationships: Pearson's correlation. Click on the tabs below to learn more about each type of relationship.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "8em")
 
 ```
 <br>
@@ -194,26 +194,23 @@ Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neut
 ## Differences {.tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
 
-<br>
 
 ### Differences in Kind
 **Differences in kind** occur when different groups do different things. For example, teachers teach students and musicians play music. We wouldn't expect a musician to replace a teacher or a teacher to replace a musician. In research and statistics, differences in kind are not very interesting, except when they are used as grouping variables (e.g., one group of survey participants is female and another is male).
 
-
-<hr>
+---
 
 ### Differences of Degree
 Researchers are often interested in **differences of degree**. This is when two groups have different degrees of a variable. For example, women tend to be more averse to risk than men. Or in general, women tend to perceive more risk than men.
 
 Using statistical tests of difference allows researchers to determine whether there is a statistically significant difference in risk perceptions between women and men.
 
-For a visual depiction of differences of degree, see Figures 6.4 and 6.5 in your textbook.
-
+For a visual depiction of differences of degree, see <mark>Figures 6.4 and 6.5</mark> in your textbook.
 
 ---
 
 # Measurement
-**Measurement** is the process of systematic observation in which we assign numbers to the things we measure. Measurement is a way for us to observe the "seen" (e.g., eye color, biological sex) and the "unseen" (e.g., attitudes, perceptions). To clarify your understanding about measurement as a *process*, read the section titled **"Defining the Term" in Chapter 6 of your textbook**.
+**Measurement** is the process of systematic observation in which we assign numbers to the things we measure. Measurement is a way for us to observe the "seen" (e.g., eye color, biological sex) and the "unseen" (e.g., attitudes, perceptions). To clarify your understanding about measurement as a *process*, read the section titled <mark>**"Defining the Term" in Chapter 6 of your textbook**</mark>.
 
 <br>
 
@@ -226,7 +223,9 @@ In general, we want to be able to quantify information so that...
 3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
 
 ## Levels of Measurement {.tabset .tabset-fade}
-Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable. Refer to <a href="#var">What is a Variable?</a> to review the definitions of *variable attribute* and *variable value*.
+Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
+
+If necesary, refer to <a href="#var">What is a Variable?</a> to review the definitions of *variable attribute* and *variable value*.
 
 <center>
 <img src="https://sarakyeo.github.io/images/level-of-meas.png"/>
