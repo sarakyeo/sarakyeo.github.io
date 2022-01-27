@@ -196,7 +196,7 @@ df %>%
 <br>
 
 <center>
-<img src="https://sarakyeo.github.io/images/concepts-dimensions-indicators.gif"/>
+<img src="https://sarakyeo.github.io/images/concepts-dimensions-indicators.png"/>
 </center>
 <br>
 
