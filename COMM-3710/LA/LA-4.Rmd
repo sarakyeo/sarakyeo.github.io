@@ -32,8 +32,9 @@ In this assignment, you will learn how to:
 
 > Remember to ...
 >
-> 1) Set up your R script as you did in LA-3.
-> 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+> 1) Read all the instructions carefully.
+> 2) Set up your R script as you did in LA-3.
+> 3) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
 ---
 
@@ -52,9 +53,9 @@ See [LA-3](https://sarakyeo.github.io/COMM-3710/LA/LA-3.html) for a reminder of 
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
-Download the [HELP dataset](https://utah.instructure.com/files/117853074/download?download_frd=1) and copy and paste it into your working directory.
+Download the [HELP dataset](https://utah.instructure.com/files/123052929/download?download_frd=1) and save it into your working directory.
 
-Read the HELP data into a data frame in R (give the data frame a name of your choice). View the HELP data set in the Console and answer the questions below.
+Read the HELP data into an object (a data frame) in R. Ggive the data frame a name of your choice; feel free to be creative. View the HELP data set in the Console and answer the questions below.
 
 You should also take this opportunity to review the codebook.
 
@@ -197,4 +198,4 @@ To ensure that your R script runs without errors, you should:
 - Reopen RStudio, open your `LA-4_FirstName-LastName.R` script.
 - Run the entire script by clicking the "Run" button in the top right of the R script.
 
-> These standards apply to all submissions in this course that require R scripts.
+> These standards apply to all R script submissions in this course.
