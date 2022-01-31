@@ -57,7 +57,7 @@ If YES, how much attention did you pay to them?
 
 ---
 
-> Check your answers [here](https://utah.instructure.com/files/120147345/download?download_frd=1).
+> Check your answers [here](https://utah.instructure.com/files/123052927/download?download_frd=1).
 
 ---
 
@@ -102,14 +102,14 @@ As it states in your textbook, "[b]eing haphazard in one's approach is not scien
 - start with an overarching research question or goal and...
 - use it as a guide to designing a good survey project.
 
-As a guide, Fink (2006)^[Fink, A. (2006). *How to conduct surveys: A step-by-step guide* (3rd ed.). Thousand Oaks, CA: Sage.] suggests five steps for conducting a survey. Although the tabs below offer some idea of each step, be sure to read your textbook for more details.
+As a guide, Fink (2006)^[Fink, A. (2006). *How to conduct surveys: A step-by-step guide* (3rd ed.). Thousand Oaks, CA: Sage.] suggests five steps for conducting a survey. Although the sections below offer a summary of each step, be sure to read your textbook for detailed information.
 
 ---
 
 ## Step 1: Pick Your Questions 
 There is no single way to decide which questions you will need to ask on a survey. **The questions that you ask will be dictated by your hypotheses and specific research questions, which are driven by your overarching research question or goal**.
 
-Read more about this in Wrench Ch. 9 and in the [questionnaire construction] section below.
+Read more about this in Wrench Ch. 9 and in the [questionnaire construction](#quescons) section below.
 
 ---
 
@@ -121,16 +121,18 @@ I was pilot testing a survey on a group of college students and asked them the f
 <center>
 <img src="https://sarakyeo.github.io/images/form-educ-q.png"/>
 </center>
+<br>
 
 The drop-down list of response choices ranged from `0` to `31 or more`. The frequency distribution of the responses is shown below. This type of graph shows the response categories on the x-axis (horizontal) and the number of responses for each category, or the frequency of each category, on the y-axis (vertical).
 
 <center>
 <img src="https://sarakyeo.github.io/images/formal-educ.png"/>
 </center>
+<br>
 
 Since my sample consisted only of college students, I expected responses to only be in categories > 12 years of formal education. However, my question was poorly worded. It looks like some respondents thought that the question was asking them about how many years of **college** education they had completed.
 
-As a result of this pilot test, I revised this survey question as follows.
+As a result of this pilot test, I revised this survey question as follows. As you can see, the question contains a more specific definition of "formal education."
 
 <center>
 <img src="https://sarakyeo.github.io/images/form-educ-q2.png"/>
@@ -161,10 +163,12 @@ These types of decisions are among the many that researchers make when conductin
 
 ---
 
-# Questionnaire Construction
+# Questionnaire Construction {#quescons}
 We use a questionnaire because it is a **standardized measurement instrument** that allows us to collect **valid** and **reliable** data.
 
-Although we call it a questionnaire, not all of the "questions" contained within it are true questions. Many questions are in the form of statements that require participants to indicate the degree to which they agree or disagree with the statements. The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html)) and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
+Although we call it a questionnaire, not all of the "questions" contained within it are true questions. Many questions are in the form of statements that require participants to indicate the degree to which they agree or disagree with the statements.
+
+The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html)) and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
 
 Two important aspects of questionnaire construction that researchers must pay attention to when creating a survey are:
 
@@ -202,7 +206,7 @@ Being mindful of these aspects increases the likelihood that respondents will co
 # Secondary Analysis {.tabset .tabset-fade}
 Survey research projects are major undertakings. It can take a year or more to progress from concept explication to data collection. Often, researchers will obtain data that have been collected by other researchers and **re-analyze** them to **address different questions and hypotheses**.
 
-This is known as **secondary analysis** and the data used for such analyses are known as **secondary data**. You will be conducting secondary data analysis for your group project.
+This is known as **secondary analysis** and the data used for such analyses are known as **secondary data**. The data used in your individual assignments are secondary data.
 
 ## Advantages of Secondary Analysis
 - cheaper
