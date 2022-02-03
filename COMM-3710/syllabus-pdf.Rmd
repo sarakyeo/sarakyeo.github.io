@@ -55,17 +55,14 @@ lab_data %>%
 
 
 # Office Hours
-Both TAs and Prof. Yeo will have weekly office hours. Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
+Both TAs will have weekly office hours. Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
 
 ```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
-Instructor <- c("Prof. Yeo",
-                "Yi Liao",
+Instructor <- c("Yi Liao",
                 "Dallin Adams")
-offtime <- c("Th 10:00 - 11:00 am",
-          "F 2:00 - 3:00 pm",
+offtime <- c("F 2:00 - 3:00 pm",
           "Th 1:00 - 2:00 pm")
-Link <- c("https://utah.zoom.us/j/95921224902 (Passcode: COMM3710)",
-          "https://utah.zoom.us/j/93592701193 (Passcode: 2022)",
+Link <- c("https://utah.zoom.us/j/93592701193 (Passcode: 2022)",
           "https://utah.zoom.us/j/99312657864 (Passcode: 3710spring)")
 
 officehrs <- tibble(Instructor, offtime, Link)
@@ -75,6 +72,10 @@ officehrs %>%
             col.names = c("Instructor", "Time (MT)", "Zoom Link (copy & paste URL into web browser)"))
 
 ```
+
+Prof. Yeo will be available to answer questions on [Discord](https://discord.com/). The link to join the COMM 3710 Discord server can be found on Canvas. The [Course Civility](#civility) policy applies to all interactions in this course, including those on Discord.
+
+As always, it is your responsibility to ask questions and get help with assignments well in advance of deadlines. There is no guarantee that you will receive a response if you need help over the weekend or on the day an assignment is due.
 
 <!-- --- -->
 
@@ -220,7 +221,7 @@ When you contact your instructors, you are expected to be professional in your c
 
 <!-- --- -->
 
-## Course Civility
+## Course Civility {#civility}
 Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
 
 Here is the basic (n)etiquette that will be expected in the course:

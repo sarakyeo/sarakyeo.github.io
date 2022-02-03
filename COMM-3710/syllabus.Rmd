@@ -66,25 +66,25 @@ lab_data %>%
 Both TAs and Prof. Yeo will have weekly office hours. Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
 
 ```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
-Instructor <- c("Prof. Yeo",
-                "Yi Liao",
+Instructor <- c("Yi Liao",
                 "Dallin Adams")
-offtime <- c("Th 10:00 - 11:00 am",
-             "F 2:00 - 3:00 pm",
-             "Th 1:00 - 2:00 pm")
-Link <- c("https://utah.zoom.us/j/95921224902 (Passcode: COMM3710)",
-          "https://utah.zoom.us/j/93592701193 (Passcode: 2022)",
+offtime <- c("F 2:00 - 3:00 pm",
+          "Th 1:00 - 2:00 pm")
+Link <- c("https://utah.zoom.us/j/93592701193 (Passcode: 2022)",
           "https://utah.zoom.us/j/99312657864 (Passcode: 3710spring)")
 
 officehrs <- tibble(Instructor, offtime, Link)
 
 officehrs %>%
-        kbl(.,col.names = c("Instructor",
-                            "Time (MT)",
-                            "Zoom Link (copy & paste URL into web browser)")) %>% 
+        kbl(.,booktabs = TRUE,
+            col.names = c("Instructor", "Time (MT)", "Zoom Link (copy & paste URL into web browser)")) %>% 
         kable_minimal("hover", full_width = FALSE)
 
 ```
+
+Prof. Yeo will be available to answer questions on [Discord](https://discord.com/). The link to join the COMM 3710 Discord server can be found on Canvas. The [Course Civility](#civility) policy applies to all interactions in this course, including those on Discord.
+
+As always, it is your responsibility to ask questions and get help with assignments well in advance of deadlines. There is no guarantee that you will receive a response if you need help over the weekend or on the day an assignment is due.
 
 ---
 
