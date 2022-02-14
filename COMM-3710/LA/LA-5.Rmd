@@ -101,6 +101,16 @@ hdata %>%
         freq(racegrp) # examine freq dist of variable, racegrp
 ```
 
+If you are having trouble with the `summarytools` package (so far, this has happened only for students using Macs), you may see the following error message (probably in <span style="color: red;">angry-looking `r emo::ji("angry")` red font</span>):
+```
+Error: package or namespace load failed for ‘summarytools’:
+.onLoad failed in loadNamespace() for 'tcltk', details:
+call: fun(libname, pkgname)
+error: X11 library is missing: install XQuartz from xquartz.org
+```
+
+The solution is to read the error message and follow the instructions--install XQuartz from xquartz.org. Once you have XQuartz installed on your Mac, re-install `summarytools` using `install.packages("summarytools)` and the package should load when you run the command, `library(summarytools)`.
+
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
@@ -109,7 +119,7 @@ Now, subset the data to only include patients whose primary substance of abuse i
 a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
 
 ## Hint
-The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). We could also combine two criteria for filtering into one command.
+The code below subsets the data to include only patients who are housed (we did this in [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html) if you need a reminder). We could also combine two criteria for filtering into one command.
 
 ```{r filter, eval=FALSE, echo=TRUE}
 # Filter hdata to select only patients who are housed 
