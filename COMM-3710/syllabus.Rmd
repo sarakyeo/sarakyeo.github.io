@@ -141,7 +141,7 @@ Course grades will be based on the following:
 - Lab attendance (10 pts)
 
 ## Weekly Quizzes (100 pts)
-Weekly quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **Under no circumstances will make-up or late quizzes be administered**. You have approximately one week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
+Weekly quizzes will be administered on Canvas. All quizzes will be based on assigned readings and lectures. **No make-up or late quizzes be administered**. You have approximately one week to complete each quiz. There are 13 quizzes, each worth 10 points. Your lowest score will be dropped at the end of the semester.
 
 You will have **12 minutes** to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
