@@ -111,6 +111,15 @@ error: X11 library is missing: install XQuartz from xquartz.org
 
 The solution is to read the error message and follow the instructions--install XQuartz from xquartz.org. Once you have XQuartz installed on your Mac, re-install `summarytools` using `install.packages("summarytools)` and the package should load when you run the command, `library(summarytools)`.
 
+If you continue to experience issues with `summarytools`, try:
+
+1) Reinstalling [XQuartz](https://www.xquartz.org/). If you still encounter problems, try the step below.
+2) Install `summarytools` directly from Github in R using the following commands:
+```{r summarytools, eval=FALSE, echo=TRUE}
+install.packages("devtools")
+devtools::install_github("dcomtois/summarytools", ref = "no-x11-check")
+```
+
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions

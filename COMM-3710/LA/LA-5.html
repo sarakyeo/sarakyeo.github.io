@@ -423,6 +423,13 @@ div.tocify {
 call: fun(libname, pkgname)
 error: X11 library is missing: install XQuartz from xquartz.org</code></pre>
 <p>The solution is to read the error message and follow the instructions–install XQuartz from xquartz.org. Once you have XQuartz installed on your Mac, re-install <code>summarytools</code> using <code>install.packages(&quot;summarytools)</code> and the package should load when you run the command, <code>library(summarytools)</code>.</p>
+<p>If you continue to experience issues with <code>summarytools</code>, try:</p>
+<ol style="list-style-type: decimal">
+<li>Reinstalling <a href="https://www.xquartz.org/">XQuartz</a>. If you still encounter problems, try the step below.</li>
+<li>Install <code>summarytools</code> directly from Github in R using the following commands:</li>
+</ol>
+<pre class="r"><code>install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;dcomtois/summarytools&quot;, ref = &quot;no-x11-check&quot;)</code></pre>
 </div>
 </div>
 <div id="step-3" class="section level1 tabset tabset-fade">
