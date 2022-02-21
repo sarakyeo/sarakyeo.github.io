@@ -67,7 +67,7 @@ comparison %>%
 
 > The question, then, is what is a **population parameter**?
 
-A **parameter** is a value (e.g., mean, standard deviation) that describes a population. Parameters are estimated from sample statistics. Do not worry, we will cover this term again next week and more fully define it. For now, let's use an example to understand the difference between confidence intervals and confidence level.
+A **parameter** is a value (e.g., mean, standard deviation) that describes a population. Parameters are estimated from sample statistics. Do not worry, we will cover this term again next week and more fully define it (see also the section below on [Types of Probability Sampling](#prob-samp)). For now, let's use an example to understand the difference between confidence intervals and confidence level.
 
 
 ### An Example
@@ -88,7 +88,9 @@ comparison %>%
 ```
 <br>
 
-The above logic can also be used to determine your sample size: <mark>Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.</mark>
+The above logic can also be used to determine your sample size: 
+
+> Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.
 
 Sample size adheres to the **law of diminishing returns**. This means that once sample reaches a certain size, the accuracy of estimates do not increase much even if you keep increasing the sample size. In other words, after a certain point, the margin of error does not decrease very much with increasing sample size.
 
@@ -149,11 +151,11 @@ Researchers must identify the sample to be included and the sampling design to u
 
 ---
 
-# Probability vs. Nonprobability Sampling {.tabset .tabset-fade}
+# Probability vs. Non-probability Sampling {.tabset .tabset-fade}
 There are two broad categories of sampling strategies:
 
 - probability sampling
-- nonprobability sampling
+- non-probability sampling
 
 <center>
 ![](https://sarakyeo.github.io/images/sample-design.gif)
@@ -175,16 +177,16 @@ comparison %>%
 <br>
 
 
-## Types of Nonprobability Sampling
+## Types of Non-probability Sampling
 **Purposive (judgmental) sampling**
 
-Purposive sampling is a type of nonprobability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
+Purposive sampling is a type of non-probability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
 
 ---
 
 **Quota sampling**
 
-This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
+This is a type of non-probability sampling strategy based on characteristics that are pre-specified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
 
 ---
 
@@ -195,7 +197,7 @@ This sampling methods requires each individual interviewed to recommend or sugge
 ---
 
 
-## Types of Probability Sampling
+## Types of Probability Sampling {#prob-samp}
 **Probability theory** states that the score that occurs most frequently in a sample will also be the score that should occur most frequently in the population. It is the basis for estimating parameters in a population from a sample.
 
 We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
@@ -234,6 +236,6 @@ The researcher first divides the population of interest into separate groups, kn
 # Weighting a Sample
 In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**.
 
-You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://utah.instructure.com/files/123052932/download?download_frd=1)).
+You may have heard this term used in the 2016 Presidential election <mark>(read [this article in The New York Times](https://utah.instructure.com/files/123052932/download?download_frd=1))</mark>.
 
-Read this [report](https://utah.instructure.com/files/123052922/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
+<mark>Read this [report](https://utah.instructure.com/files/123052922/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.</mark>
