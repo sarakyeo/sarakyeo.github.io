@@ -11,11 +11,14 @@ urlcolor: blue
 ---
 
 # What is Sampling?
-Sampling is an important aspect of research. In survey research, the quality of the study is affected by the purpose of the survey (**conceptualization** and **operationalization**) and the way it is conducted (**sampling**). 
+Sampling is an important aspect of research. The quality of a research study is affected by:
+
+1) its purpose and how the variables are measured (**conceptualization** and **operationalization**) and;
+2) the way it is conducted (**sampling**). 
 
 > **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
 
-Look up the following terms using the resources available to you (e.g., textbook). You may encounter these in your weekly quiz.
+Look up the following terms using the resources available to you (e.g., using the Glossary in your textbook). You may encounter these in your weekly quiz.
 
 - Sample
 - Population
@@ -39,7 +42,7 @@ Often, a moderate sample size is statistically sufficient. In general, sample si
 
 > A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
 
-Be sure to read the following for this week, which can be found in the corresponding Module on Canvas: **ASA (pp. 63-68)**
+Be sure to read the following for this week, which can be found on Canvas: <mark>**ASA (pp. 63-68)**</mark>
 
 Typically, margins of error are reported with confidence levels or confidence intervals.
 
