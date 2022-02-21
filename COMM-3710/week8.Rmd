@@ -61,7 +61,7 @@ comparison %>%
         kbl(., "html",
             caption = "Definitions of confidence levels and intervals.") %>% 
         kable_classic("hover", full_width = FALSE) %>% 
-        column_spec(2, width = "20em")
+        column_spec(2, width = "30em")
 ```
 <br>
 
@@ -106,7 +106,7 @@ comparison %>%
         kbl(., "html",
             caption = "") %>% 
         kable_classic("hover", full_width = FALSE) %>% 
-        column_spec(2, width = "20em")
+        column_spec(2, width = "40em")
 ```
 <br>
 
@@ -159,27 +159,43 @@ There are two broad categories of sampling strategies:
 ![](https://sarakyeo.github.io/images/sample-design.gif)
 </center>
 
+```{r, prob-nonprob, echo=FALSE, message=FALSE, warning=FALSE}
 
-## Nonprobability Sampling
-> **Nonprobability sampling** refers to any sampling technique in which cases are selected to a sample in ways not suggested by probability theory.
+Term <- c("Probability sampling", "Non-probability sampling")
+Definition <- c("Any sampling technique that relies on selecting units to a sample based on probability theory (see below). In probability sampling, each element has a non-zero, known, and equal chance of being selected to a sample",
+                "A sampling technique in which cases are selected to a sample in ways not suggested by probability theory.")
 
-### Types of Nonprobability Sampling
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+```
+<br>
+
+
+## Types of Nonprobability Sampling
 **Purposive (judgmental) sampling**
 
 Purposive sampling is a type of nonprobability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
+
+---
 
 **Quota sampling**
 
 This is a type of nonprobability sampling strategy based on characteristics that are prespecified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
 
+---
+
 **Snowball sampling**
 
 This sampling methods requires each individual interviewed to recommend or suggest additional interviewees. A researcher interested in studying drug addiction and use might begin by interviewing one user, who may then suggest other users who would be willing to participate in the study.
 
+---
 
-## Probability Sampling
-> **Probability sampling** refers to any sampling technique that relies on selecting units to a sample based on probability theory (see below). In probability sampling, each element has a **non-zero, known, and equal chance of being selected to a sample**.
 
+## Types of Probability Sampling
 **Probability theory** states that the score that occurs most frequently in a sample will also be the score that should occur most frequently in the population. It is the basis for estimating parameters in a population from a sample.
 
 We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
@@ -189,19 +205,25 @@ We use different terms when describing numbers in a population vs. a sample. Num
 </center>
 <br>
 
+---
 
-### Types of Probability Sampling
 **Simple random sampling (SRS)**
 
 SRS starts by having a complete and up-to-date sampling frame and assigning numbers to each unit in the sampling frame. Then, a set of random numbers is generated and the units that have those numbers are included in the sample.
+
+---
 
 **Systematic sampling**
 
 Select every $k^{th}$ element in a sampling frame with a random starting point. E.g., decide that you will select every $10^{th}$ case into your sample and start at a random point in your sampling frame.
 
+---
+
 **Cluster sampling**
 
 It is often not possible to compile a comprehensive sampling frame. However, sometimes the population is already grouped into natural clusters. Cluster sampling is often multi-stage, which, in this case, means that you sample (1) the clusters, then (2) individuals within the clusters. The disadvantage is that multi-stage sampling introduces more sampling error (i.e., sampling error introduced at both stages of sampling). For example, if a researcher is interested in studying U.S. college students, they might sample universities in the first stage. In the second stage, they would sample individuals from the sampled universities.
+
+---
 
 **Stratified sampling**
 
@@ -210,6 +232,8 @@ The researcher first divides the population of interest into separate groups, kn
 ---
 
 # Weighting a Sample
-In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**. You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://utah.instructure.com/files/121921577/download?download_frd=1)).
+In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**.
 
-Read this [report](https://utah.instructure.com/courses/722123/files/117883436/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
+You may have heard this term used in the 2016 Presidential election (see, for example, [this article in The New York Times](https://utah.instructure.com/files/123052932/download?download_frd=1)).
+
+Read this [report](https://utah.instructure.com/files/123052922/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
