@@ -39,6 +39,21 @@ If you are having issues with `summarytools`, see the **Hint** in Step 2 of [LA-
 
 ## Codebook
 
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+codebook <- read_csv("./COMM-3710/LA/HELP-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in HELP dataset.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
+
+
 | Variable Name | Description |
 | :------------ | :---------- |
 | `age` | Subject age at baseline |
