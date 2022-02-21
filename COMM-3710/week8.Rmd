@@ -40,40 +40,75 @@ Often, a moderate sample size is statistically sufficient. In general, sample si
 
 ## So... What is a Margin of Error?
 
-> A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**. Remember that in survey research we are making probabilistic, not deterministic, predictions from a sample to a population. In other words, there is some chance of error.
+> A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**.
+
+In survey research, the kind of research with which we are primarily concerned in this course, we are making **probabilistic, not deterministic, predictions** from a sample to a population. In other words, there is some chance of error.
 
 Be sure to read the following for this week, which can be found on Canvas: <mark>**ASA (pp. 63-68)**</mark>
 
-Typically, margins of error are reported with confidence levels or confidence intervals.
+Typically, margins of error are reported with **confidence levels or confidence intervals**. 
 
-**Confidence levels** = estimated probabilities that a population parameter lies within a given confidence interval.
+```{r, conf, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
 
-**Confidence interval** = the range of values within which a population parameter is estimated (using a sample) to be.
+Term <- c("Confidence level", "Confidence interval")
+Definition <- c("Estimated probabilities that a population parameter lies within a given confidence interval.", "The range of values within which a population parameter is estimated (using a sample) to be.")
+
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "Definitions of confidence levels and intervals.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+```
+<br>
+
+> The question, then, is what is a **population parameter**?
+
+A **parameter** is a value (e.g., mean, standard deviation) that describes a population. Parameters are estimated from sample statistics. Do not worry, we will cover this term again next week and more fully define it. For now, let's use an example to understand the difference between confidence intervals and confidence level.
+
 
 ### An Example
-> Survey data show that 60% of Americans prefer ice cream over cake for dessert. This question has a margin of error of ±3% and a 95% confidence interval.
-> 
-> **Confidence level**: We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.
-> 
-> **Confidence interval**: The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.
+Survey data show that 60% of Americans prefer ice cream over cake for dessert. The survey question has a margin of error of ±3% and a 95% confidence interval. 
 
-The above logic can also be used to determine your sample size. Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.
+```{r, conf-ex, echo=FALSE, message=FALSE, warning=FALSE}
+
+Term <- c("Confidence level", "Confidence interval")
+Definition <- c("Estimated probabilities that a population parameter lies within a given confidence interval.", "The range of values within which a population parameter is estimated (using a sample) to be.")
+Example <- c("We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.", "The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.")
+
+comparison <- tibble(Term, Definition, Example)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+```
+<br>
+
+The above logic can also be used to determine your sample size: <mark>Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.</mark>
 
 Sample size adheres to the **law of diminishing returns**. This means that once sample reaches a certain size, the accuracy of estimates do not increase much even if you keep increasing the sample size. In other words, after a certain point, the margin of error does not decrease very much with increasing sample size.
 
 
 ## Types of Errors in Sampling
-**Coverage error**
+```{r, errs, echo=FALSE, message=FALSE, warning=FALSE}
 
-- Error that results from failing to possess an up-to-date sampling frame.
+Term <- c("Coverage error", "Measurement error", "Sampling error")
+Definition <- c("Error that results from failing to possess an up-to-date sampling frame.",
+                "Error that results from poorly operationalized measures, e.g., poor question wording.",
+                "Degree of error to be expected by virtue of studying a sample instead of a population. Quantified using a margin of error.")
 
-**Sampling error**
-
-- Degree of error to be expected by virtue of studying a sample instead of a population. Quantified using a margin of error.
-
-**Measurement error**
-
-- Error that results from poorly operationalized measures, e.g., poor question wording.
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+```
+<br>
 
 ---
 

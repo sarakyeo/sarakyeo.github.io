@@ -89,6 +89,8 @@ Statistics can also be used to help us **interpret** our world. Daily weather fo
 
 The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every unit in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
 
+Recall that in our lecture on **Sampling**, we briefly defined the term, **parameter**. After reading this section, revisit [last week's lecture](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
+
 <center>
 <img src="https://sarakyeo.github.io/images/central-dogma-stats.png"/>
 </center>
@@ -100,7 +102,7 @@ Examine the figure again. Notice that the figure showing the central dogma consi
 
 > We use statistics from a sample to estimate (infer) parameters in a population.
 
-Recall (from Week 9) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
+Recall (from [Week 8](https://sarakyeo.github.io/COMM-3710/week8.html)) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
 
 Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population. If you were interested in knowing the average height of adults in the U.S., you would collect a sample that is representative of all American adults, measure their individual heights, and calculate a mean from this sample. The calculated mean provides an estimate of the same parameter in the population.
 
