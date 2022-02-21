@@ -31,6 +31,8 @@ Load the following packages in your current session of R:
 
 - `tidyverse`
 - `summarytools`
+- `magrittr`
+- `rstatix`
 
 Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
 
