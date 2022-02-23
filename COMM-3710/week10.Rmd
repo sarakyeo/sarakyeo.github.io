@@ -1,16 +1,48 @@
 ---
-title: |
-  | COMM 3710: Introduction to Statistics
-pagetitle: "COMM 3710: Week 10"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
-urlcolor: blue
+title: "Week 10: Intro to Statistics"
+author: "Prof. Sara K. Yeo | COMM 3710 | Spring 2022"
+output: 
+        ioslides_presentation:
+                widescreen: true
+                incremental: false
 ---
 
-# Why Statistics?
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<style>
+div.footnotes {
+position: absolute;
+bottom: 0;
+margin-bottom: 10px;
+width: 80%;
+font-size: 0.6em;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+$('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+
+$('footnote').each(function(index) {
+var text  = $(this).html();
+var fnNum = (index+1).toString().sup();
+$(this).html(text + fnNum);
+
+var footnote   = fnNum + ' ' + $(this).attr('content') + '<br/>';
+var oldContent = $(this).parents('slide').children('div.footnotes').html();
+var newContent = oldContent + footnote;
+$(this).parents('slide').children('div.footnotes').html(newContent);
+});
+});
+</script>
+
+# Why statistics?
+
+##
 
 Statistics is a way of...
 
@@ -18,19 +50,40 @@ Statistics is a way of...
 - describing,
 - and making inferences from or interpreting data.
 
-Statistics is fundamental to scientific processes. As you grow accustomed and practiced at thinking *statistically*, you will find yourself interpreting and evaluating claims that people make more analytically and critically.
 
-Sometimes math anxiety can interfere with the goal of conceptual understanding of statistics—this is based on the belief that stats is about numbers and math. But, statistics is not solely about math and numbers.
+## Statistics is fundamental to the scientific process
 
-> Statistics is not just numbers; it is a language by which we can communicate empirical evidence.
+As you grow accustomed and practiced at thinking *statistically*, you will find yourself interpreting and evaluating claims that people make more analytically and critically.  
+
+## A note on math anxiety
+
+**What is math anxiety?**
+
+"Math anxiety is commonly defined as a feeling of tension, apprehension, or fear that interferes with
+math performance." <footnote content="Ashcraft, M. H. (2002). Math anxiety: Personal, educational, and cognitive consequences. Current Directions in Psychological Science, 11(5), 181–185. https://doi.org/10.1111/1467-8721.00196">(Ashcraft, 2002)</footnote>
+
+<br>
+
+Sometimes math anxiety can interfere with the goal of conceptual understanding of statistics.
+
+- This is based on the belief that stats is about numbers and math.
+- But, statistics is **not** solely about math and numbers.
+
+## Statistics is not just numbers; it is a language
+
+Specifically, it is a language that we can use to communicate empirical evidence.
 
 Before we dive in, let's look at some examples of data and statistics in media and everyday life, and how they are useful in many jobs and careers.
 
----
-
 # A Digression: Data and Statistics in Media and Everyday Life
 
-In today's media environment, data are used in a myriad of ways. We see data-driven reporting on everything from politics to sports. Such data journalism has become prevalent in the online media environment and some familiarity with the statistics and tools used in this area is vital.
+##
+
+In today's media environment, data are used in a myriad of ways. We see data-driven reporting on everything from politics to sports.
+
+Such data journalism has become prevalent in the online media environment and some familiarity with the statistics and tools used in this area is vital.
+
+##
 
 Explore some of the links below and how statistics is used in each of these domains:
 
@@ -40,9 +93,21 @@ Explore some of the links below and how statistics is used in each of these doma
 - [Basketball](http://projects.fivethirtyeight.com/complete-history-of-the-nba/#cavaliers)
 - [NFL football](http://fivethirtyeight.com/features/the-nfls-most-run-heavy-and-pass-happy-teams/)
 
-Although most employers would like you to be familiar with basic statistics and statistical tools, they do not expect you will be an expert in data analysis or statistics! Often, having advanced data analysis skills is an advantage.
+##
 
-Data and statistics are also widely used in journalism. Read this [article (contains an embedded video)](https://journalistsresource.org/studies/society/news-media/research-chat-new-york-times-sarah-cohen-state-data-journalism-what-reporters-need-know/) about the state of data journalism. It reports an interview with [Sarah Cohen](https://isearch.asu.edu/profile/3189494), a Pulitzer Prize-winning journalist and Professor who holds the Knight Chair in Journalism at Arizona State University.
+Although most employers would like you to be familiar with basic statistics and statistical tools, they do not expect you will be an expert in data analysis or statistics!
+
+Often, having advanced data analysis skills is an **advantage**.
+
+##
+
+Data and statistics are also widely used in journalism.
+
+Read this [article (contains an embedded video)](https://journalistsresource.org/studies/society/news-media/research-chat-new-york-times-sarah-cohen-state-data-journalism-what-reporters-need-know/) about the state of data journalism.
+
+It reports an interview with [Sarah Cohen](https://isearch.asu.edu/profile/3189494), a Pulitzer Prize-winning journalist and Professor who holds the Knight Chair in Journalism at Arizona State University.
+
+##
 
 But journalism is, of course, not the only job in which statistics and data are useful...
 
@@ -50,15 +115,136 @@ But journalism is, of course, not the only job in which statistics and data are 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqngbsS0iKY" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
----
+## The Benefit of Statistics
 
-# The Benefit of Statistics
+The primary benefits of statistics are as tools for **describing**, **summarizing**, **organizing**, and **interpreting** information.
 
-For communication researchers, the primary benefits of statistics are as tools to describe, organize, and interpret information. 
+We live in a world inundated with data and statistics can help us make sense of all the data. 
 
-The ability of statistics to **describe**, **summarize**, and **organize data** in meaningful ways is extremely useful. We live in a world that is inundated with lots of information. For example, the [U.S. Census](https://data.census.gov/) collects data from households around the country and estimates that the total population of Utah (in 2020) is 3,271,616. The table below shows population data for states in the western U.S.
+## Statistics can help us summarize and organize data
 
-Statistics such as these allow us to easily answer questions like: **What percentage of the U.S. population that lives in Utah?**
+The ability of statistics to **describe**, **summarize**, and **organize data** in meaningful ways is extremely useful. We live in a world that is inundated with lots of information.
+
+For example, the [U.S. Census Bureau](https://data.census.gov/) collects data from households around the country and estimates that the total population of Utah (in 2020) is 3,271,616.
+
+The table on the next slide shows population data for states in the western U.S.
+
+##
+
+Statistics allow us to easily answer questions such as: **What percentage of the U.S. population that lives in Utah?**
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+
+State <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana",
+           "Nevada", "New Mexico", "Oregon", "Utah", "Wyoming")
+Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
+         3104614, 2117522, 4237256, 3271616, 576851)
+
+censusdata <- tibble(State, Pop)
+censusdata %>% 
+        kbl(., format.args = list(big.mark = ","),
+            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
+        kable_styling(bootstrap_options = "striped",
+                      position = "center",
+                      font_size = 25,
+                      full_width = TRUE)
+```
+
+## Statistics can also be used to interpret our world
+
+Daily weather forecasts, for example, typically include statistical predictions (e.g., "Precipitation Potential (%)" in the bottom graph).
+```{r fig1, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/18-Oct-21_forecast.jpg")
+
+```
+
+# The Central Dogma of Statistics
+
+##
+
+```{r fig2, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/central-dogma-stats.png")
+
+```
+
+## Using statistics, we want to learn about a *population*
+
+But, we rarely (if ever!) have access to every unit in a population.
+
+Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
+
+## 
+
+Recall that in our lecture on **Sampling**, we briefly defined the term, **parameter**.
+
+After reading this section, revisit [the lecture from Week 8](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
+
+## But what exactly is a statistic?
+
+Examine the figure again...
+
+```{r fig3, echo=FALSE, fig.align="center", out.width="44%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/central-dogma-stats.png")
+
+```
+
+Notice that the central dogma consists of a population and a sample.
+
+- **Statistics** are numbers that describe characteristics of **samples**.
+- **Parameters** describe **populations**.
+
+## We use statistics from a sample to estimate (infer) parameters in a population
+
+Recall (from [Week 8](https://sarakyeo.github.io/COMM-3710/week8.html)) that a **sample** consists of the units (in the case of survey research, people) that are included in a study.
+
+The **population**, on the other hand, is the entire group in which a researcher is interested.
+
+The population is a theoretically specified aggregation of the units (i.e., people) in the study.
+
+## The population is theoretical
+
+Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population.
+
+If you were interested in knowing the average height of adults in the U.S., you would...
+
+- collect a sample that is representative of all American adults,
+- measure their individual heights, and
+- calculate a mean from this sample.
+
+The calculated mean provides an estimate of the same parameter in the population.
+
+# Summary: Population Parameter vs. Sample Statistic
+
+## Parameter
+
+- number that describes the **population** (e.g., mean, standard deviation, variance, etc.)
+- parameters are often unknown because we cannot directly examine the entire population of interest!
+
+## Statistic
+
+- number that can be computed from **sample** data (e.g., mean, standard deviation, variance, etc.)
+- we use statistics in a sample to estimate parameters in a population!
+- for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
+
+# Descriptive vs. Inferential Statistics: A Brief Introduction
+
+## 
+
+In general, there are two types of statistics: **descriptive** and **inferential** statistics.
+
+```{r fig4, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/desc-infer-stats.png")
+
+```
+
+## Descriptive statistics provide researchers with a *description* of what "exists" in the data
+
+Use the table below to calculate the % of Americans who live in UT and CA.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
@@ -71,85 +257,26 @@ Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
 
 censusdata <- tibble(State, Pop)
 censusdata %>% 
-  kbl(., format.args = list(big.mark = ","),
-      caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
-  kable_classic_2("hover", full_width = FALSE)
+        kbl(., format.args = list(big.mark = ","),
+            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
+        kable_styling(bootstrap_options = "striped",
+                      position = "center",
+                      font_size = 20,
+                      full_width = TRUE)
 ```
 
-Statistics can also be used to help us **interpret** our world. Daily weather forecasts, for example, typically include statistical predictions. See, for example, the brown line on the bottom graph labeled "Precipitation Potential (%)."
+##
 
-<center>
-<img src="https://sarakyeo.github.io/images/18-Oct-21_forecast.jpg"/>
-</center>
-<br>
+Approximately 1% of the American population lives in Utah while 12% live in California.
 
----
-
-# The "Central Dogma" of Statistics {.tabset .tabset-fade}
-
-The figure below illustrates the "central dogma" of statistics. Using statistics, we seek to learn more about the **population** of interest. However, we rarely (if ever!) have access to every unit in a population. Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
-
-Recall that in our lecture on **Sampling**, we briefly defined the term, **parameter**. After reading this section, revisit [last week's lecture](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
-
-<center>
-<img src="https://sarakyeo.github.io/images/central-dogma-stats.png"/>
-</center>
-<br>
-
-> But what exactly is a **statistic**?
-
-Examine the figure again. Notice that the figure showing the central dogma consists of a population and a sample. **Statistics are numbers that describe characteristics of samples** while **parameters describe populations**.
-
-> We use statistics from a sample to estimate (infer) parameters in a population.
-
-Recall (from [Week 8](https://sarakyeo.github.io/COMM-3710/week8.html)) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
-
-Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population. If you were interested in knowing the average height of adults in the U.S., you would collect a sample that is representative of all American adults, measure their individual heights, and calculate a mean from this sample. The calculated mean provides an estimate of the same parameter in the population.
-
-The tabs below contain summaries of the terms *statistic* and *parameter*.
-
-## Parameter
-
-- number that describes the **population** (e.g., mean, standard deviation, variance, etc.)
-- parameters are often unknown because we cannot directly examine the entire population of interest!
-
----
-
-## Statistic
-
-- number that can be computed from **sample** data (e.g., mean, standard deviation, variance, etc.)
-- we use statistics in a sample to estimate parameters in a population!
-- for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
-
----
-
-# Descriptive vs. Inferential Statistics {.tabset .tabset-fade}
-
-In general, there are two types of statistics: **descriptive** and **inferential statistics**. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics.
-
-<center>
-<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
-</center>
-<br>
-
-## Descriptive Statistics
-
-> Descriptive statistics are used to provide researchers with a **description** of what "exists" in the data.
-
-Percentages and averages are types of descriptive statistics. Consider the table with population estimates for the western U.S. again. Approximately 1% of the American population lives in Utah while 12% live in California. You can easily see how this comparison would be difficult without descriptive statistics.
+- This comparison would be difficult without descriptive statistics.
 
 We will focus on descriptive statistics next week.
 
----
+## Inferential statistics is often a more advanced stage in data analysis
 
-## Inferential Statistics
-
-Inferential statistics, on the other hand, is often a more advanced stage in data analysis.
-
-> We use inferential statistics when we want to make **predictions**.
+We use inferential statistics when we want to make **predictions**.
 
 To make predictions, researchers often use inferential statistics to draw conclusions and make predictions about a larger group (i.e., the **population**) based on a smaller group of data (i.e., the **sample**).
 
 We will discuss inferential statistics more in a couple of weeks.
-
----
