@@ -262,6 +262,7 @@ Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
 censusdata <- tibble(State, Pop)
 censusdata %>% 
         kbl(., format.args = list(big.mark = ","),
+            col.names = NULL,
             caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
         kable_styling(bootstrap_options = "striped",
                       position = "center",
