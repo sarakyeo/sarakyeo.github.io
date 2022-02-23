@@ -32,7 +32,7 @@ In this assignment, you will learn how to:
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
 
-Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/123052929/download?download_frd=1) data set into R. This data set is saved as a .csv file.
 
 Packages to load:
 

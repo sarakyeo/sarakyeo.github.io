@@ -8,37 +8,41 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+library(tidyverse)
+
 ```
 
-<style>
-div.footnotes {
-position: absolute;
-bottom: 0;
-margin-bottom: 10px;
-width: 80%;
-font-size: 0.6em;
-}
-</style>
+<!-- <style> -->
+<!-- div.footnotes { -->
+<!-- position: absolute; -->
+<!-- bottom: 0; -->
+<!-- margin-bottom: 10px; -->
+<!-- width: 80%; -->
+<!-- font-size: 0.6em; -->
+<!-- } -->
+<!-- </style> -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 
-<script>
-$(document).ready(function() {
-$('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+<!-- <script> -->
+<!-- $(document).ready(function() { -->
+<!-- $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">'); -->
 
-$('footnote').each(function(index) {
-var text  = $(this).html();
-var fnNum = (index+1).toString().sup();
-$(this).html(text + fnNum);
+<!-- $('footnote').each(function(index) { -->
+<!-- var text  = $(this).html(); -->
+<!-- var fnNum = (index+1).toString().sup(); -->
+<!-- $(this).html(text + fnNum); -->
 
-var footnote   = fnNum + ' ' + $(this).attr('content') + '<br/>';
-var oldContent = $(this).parents('slide').children('div.footnotes').html();
-var newContent = oldContent + footnote;
-$(this).parents('slide').children('div.footnotes').html(newContent);
-});
-});
-</script>
+<!-- var footnote   = fnNum + ' ' + $(this).attr('content') + '<br/>'; -->
+<!-- var oldContent = $(this).parents('slide').children('div.footnotes').html(); -->
+<!-- var newContent = oldContent + footnote; -->
+<!-- $(this).parents('slide').children('div.footnotes').html(newContent); -->
+<!-- }); -->
+<!-- }); -->
+<!-- </script> -->
 
 # Why statistics?
 
@@ -60,7 +64,7 @@ As you grow accustomed and practiced at thinking *statistically*, you will find 
 **What is math anxiety?**
 
 "Math anxiety is commonly defined as a feeling of tension, apprehension, or fear that interferes with
-math performance." <footnote content="Ashcraft, M. H. (2002). Math anxiety: Personal, educational, and cognitive consequences. Current Directions in Psychological Science, 11(5), 181–185. https://doi.org/10.1111/1467-8721.00196">(Ashcraft, 2002)</footnote>
+math performance." ([Ashcraft, 2002](https://doi.org/10.1111/1467-8721.00196))
 
 <br>
 
@@ -109,7 +113,7 @@ It reports an interview with [Sarah Cohen](https://isearch.asu.edu/profile/31894
 
 ##
 
-But journalism is, of course, not the only job in which statistics and data are useful...
+Of course, journalism is not the only job in which statistics and data are useful...
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqngbsS0iKY" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -129,14 +133,8 @@ For example, the [U.S. Census Bureau](https://data.census.gov/) collects data fr
 
 The table on the next slide shows population data for states in the western U.S.
 
-##
-
-Statistics allow us to easily answer questions such as: **What percentage of the U.S. population that lives in Utah?**
-
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(kableExtra)
-library(tidyverse)
-
+## Statistics allow us to easily answer questions using data | What percentage of the U.S. population lives in Utah?
+```{r message=FALSE, warning=FALSE}
 State <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana",
            "Nevada", "New Mexico", "Oregon", "Utah", "Wyoming")
 Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
@@ -145,10 +143,12 @@ Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
 censusdata <- tibble(State, Pop)
 censusdata %>% 
         kbl(., format.args = list(big.mark = ","),
-            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
+            col.names = NULL,
+            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.",
+            ) %>% 
         kable_styling(bootstrap_options = "striped",
                       position = "center",
-                      font_size = 25,
+                      font_size = 22,
                       full_width = TRUE)
 ```
 
@@ -188,9 +188,10 @@ Recall that in our lecture on **Sampling**, we briefly defined the term, **param
 
 After reading this section, revisit [the lecture from Week 8](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
 
-## But what exactly is a statistic? | Let's look at that figure again...
+## But what exactly is a statistic? | Let's look at that figure again...{.build}
 
-```{r fig3, echo=FALSE, fig.align="center", out.width="44%"}
+<div class="columns-2">
+```{r fig3, echo=FALSE, fig.align="center", out.width="100%"}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/central-dogma-stats.png")
 
@@ -200,6 +201,7 @@ Notice that the central dogma consists of a population and a sample.
 
 > - **Statistics** are numbers that describe characteristics of **samples**.
 > - **Parameters** describe **populations**.
+</div>
 
 ## We use statistics from a sample to estimate (infer) parameters in a population
 
@@ -209,9 +211,7 @@ The **population**, on the other hand, is the entire group in which a researcher
 
 The population is a theoretically specified aggregation of the units (i.e., people) in the study.
 
-## The population is theoretical
-
-Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population.
+## The population is theoretical | So instead we collect a sample from the population
 
 If you were interested in knowing the average height of adults in the U.S., you would...
 

@@ -113,34 +113,53 @@ slide:not(.current) .plotly.html-widget{
           </hgroup>
   </slide>
 
-<style>
-div.footnotes {
-position: absolute;
-bottom: 0;
-margin-bottom: 10px;
-width: 80%;
-font-size: 0.6em;
-}
-</style>
+<!-- <style> -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- div.footnotes { -->
 
-<script>
-$(document).ready(function() {
-$('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+<!-- position: absolute; -->
 
-$('footnote').each(function(index) {
-var text  = $(this).html();
-var fnNum = (index+1).toString().sup();
-$(this).html(text + fnNum);
+<!-- bottom: 0; -->
 
-var footnote   = fnNum + ' ' + $(this).attr('content') + '<br/>';
-var oldContent = $(this).parents('slide').children('div.footnotes').html();
-var newContent = oldContent + footnote;
-$(this).parents('slide').children('div.footnotes').html(newContent);
-});
-});
-</script>
+<!-- margin-bottom: 10px; -->
+
+<!-- width: 80%; -->
+
+<!-- font-size: 0.6em; -->
+
+<!-- } -->
+
+<!-- </style> -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+<!-- <script> -->
+
+<!-- $(document).ready(function() { -->
+
+<!-- $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">'); -->
+
+<!-- $('footnote').each(function(index) { -->
+
+<!-- var text  = $(this).html(); -->
+
+<!-- var fnNum = (index+1).toString().sup(); -->
+
+<!-- $(this).html(text + fnNum); -->
+
+<!-- var footnote   = fnNum + ' ' + $(this).attr('content') + '<br/>'; -->
+
+<!-- var oldContent = $(this).parents('slide').children('div.footnotes').html(); -->
+
+<!-- var newContent = oldContent + footnote; -->
+
+<!-- $(this).parents('slide').children('div.footnotes').html(newContent); -->
+
+<!-- }); -->
+
+<!-- }); -->
+
+<!-- </script> -->
 
 <slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Why statistics?</h2></hgroup><article  id="why-statistics">
 
@@ -162,7 +181,7 @@ $(this).parents('slide').children('div.footnotes').html(newContent);
 
 <p><strong>What is math anxiety?</strong></p>
 
-<p>&ldquo;Math anxiety is commonly defined as a feeling of tension, apprehension, or fear that interferes with math performance.&rdquo; <footnote content="Ashcraft, M. H. (2002). Math anxiety: Personal, educational, and cognitive consequences. Current Directions in Psychological Science, 11(5), 181–185. https://doi.org/10.1111/1467-8721.00196">(Ashcraft, 2002)</footnote></p>
+<p>&ldquo;Math anxiety is commonly defined as a feeling of tension, apprehension, or fear that interferes with math performance.&rdquo; (<a href='https://doi.org/10.1111/1467-8721.00196' title=''>Ashcraft, 2002</a>)</p>
 
 <p><br></p>
 
@@ -215,7 +234,7 @@ $(this).parents('slide').children('div.footnotes').html(newContent);
 
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-5">
 
-<p>But journalism is, of course, not the only job in which statistics and data are useful…</p>
+<p>Of course, journalism is not the only job in which statistics and data are useful…</p>
 
 <center>
 
@@ -239,37 +258,15 @@ $(this).parents('slide').children('div.footnotes').html(newContent);
 
 <p>The table on the next slide shows population data for states in the western U.S.</p>
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-6">
+</article></slide><slide class=""><hgroup><h2>Statistics allow us to easily answer questions using data </h2><h3> What percentage of the U.S. population lives in Utah?</h3></hgroup><article  id="statistics-allow-us-to-easily-answer-questions-using-data-what-percentage-of-the-u.s.-population-lives-in-utah">
 
-<p>Statistics allow us to easily answer questions such as: <strong>What percentage of the U.S. population that lives in Utah?</strong></p>
-
-<table class="table table-striped" style="font-size: 25px; margin-left: auto; margin-right: auto;">
+<table class="table table-striped" style="font-size: 22px; margin-left: auto; margin-right: auto;">
 
 <caption style="font-size: initial !important;">
 
 Population estimates for states in the western United States. Data from 2020 U.S. Census.
 
 </caption>
-
-<thead>
-
-<tr>
-
-<th style="text-align:left;">
-
-State
-
-</th>
-
-<th style="text-align:right;">
-
-Pop
-
-</th>
-
-</tr>
-
-</thead>
 
 <tbody>
 
@@ -461,7 +458,7 @@ Wyoming
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>The Central Dogma of Statistics</h2></hgroup><article  id="the-central-dogma-of-statistics">
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-7">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-6">
 
 <p><img src="https://sarakyeo.github.io/images/central-dogma-stats.png" width="80%" style="display: block; margin: auto;" /></p>
 
@@ -477,22 +474,23 @@ Wyoming
 <li>we can also make <strong>inferences/predictions/generalizations</strong> (inferential statistics) about the population.</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-8">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-7">
 
 <p>Recall that in our lecture on <strong>Sampling</strong>, we briefly defined the term, <strong>parameter</strong>.</p>
 
 <p>After reading this section, revisit <a href='https://sarakyeo.github.io/COMM-3710/week8.html' title=''>the lecture from Week 8</a> to see if the definitions of the terms, <em>confidence interval</em> and <em>confidence level</em>, make more sense.</p>
 
-</article></slide><slide class=""><hgroup><h2>But what exactly is a statistic? </h2><h3> Let’s look at that figure again…</h3></hgroup><article  id="but-what-exactly-is-a-statistic-lets-look-at-that-figure-again">
+</article></slide><slide class=""><hgroup><h2>But what exactly is a statistic? </h2><h3> Let’s look at that figure again…</h3></hgroup><article  id="but-what-exactly-is-a-statistic-lets-look-at-that-figure-again" class="build">
 
-<p><img src="https://sarakyeo.github.io/images/central-dogma-stats.png" width="44%" style="display: block; margin: auto;" /></p>
+<div class="columns-2">
+<p><img src="https://sarakyeo.github.io/images/central-dogma-stats.png" width="100%" style="display: block; margin: auto;" /></p>
 
 <p>Notice that the central dogma consists of a population and a sample.</p>
 
 <ul class = 'build'>
 <li><strong>Statistics</strong> are numbers that describe characteristics of <strong>samples</strong>.</li>
 <li><strong>Parameters</strong> describe <strong>populations</strong>.</li>
-</ul>
+</ul></div>
 
 </article></slide><slide class=""><hgroup><h2>We use statistics from a sample to estimate (infer) parameters in a population</h2></hgroup><article  id="we-use-statistics-from-a-sample-to-estimate-infer-parameters-in-a-population">
 
@@ -502,9 +500,7 @@ Wyoming
 
 <p>The population is a theoretically specified aggregation of the units (i.e., people) in the study.</p>
 
-</article></slide><slide class=""><hgroup><h2>The population is theoretical</h2></hgroup><article  id="the-population-is-theoretical">
-
-<p>Because the population is theoretical (i.e., it is almost impossible to get data from everyone in the population), we instead collect data from a sample and use those data to estimate the same characteristics in the population.</p>
+</article></slide><slide class=""><hgroup><h2>The population is theoretical </h2><h3> So instead we collect a sample from the population</h3></hgroup><article  id="the-population-is-theoretical-so-instead-we-collect-a-sample-from-the-population">
 
 <p>If you were interested in knowing the average height of adults in the U.S., you would…</p>
 
@@ -535,7 +531,7 @@ Wyoming
 
 </article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Descriptive vs. Inferential Statistics: A Brief Introduction</h2></hgroup><article  id="descriptive-vs.-inferential-statistics-a-brief-introduction">
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-9">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-8">
 
 <p>In general, there are two types of statistics: <strong>descriptive</strong> and <strong>inferential</strong> statistics.</p>
 
@@ -755,7 +751,7 @@ Wyoming
 
 </table>
 
-</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-10">
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-9">
 
 <p>Approximately 1% of the American population lives in Utah while 12% live in California.</p>
 
