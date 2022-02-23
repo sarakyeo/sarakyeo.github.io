@@ -5,6 +5,7 @@ output:
         ioslides_presentation:
                 widescreen: true
                 incremental: false
+                theme: flatly
 ---
 
 ```{r setup, include=FALSE}
@@ -134,22 +135,24 @@ For example, the [U.S. Census Bureau](https://data.census.gov/) collects data fr
 The table on the next slide shows population data for states in the western U.S.
 
 ## Statistics allow us to easily answer questions using data | What percentage of the U.S. population lives in Utah?
-```{r message=FALSE, warning=FALSE}
-State <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana",
-           "Nevada", "New Mexico", "Oregon", "Utah", "Wyoming")
-Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
-         3104614, 2117522, 4237256, 3271616, 576851)
 
-censusdata <- tibble(State, Pop)
+```{r message=FALSE, warning=FALSE}
+State1 <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana")
+State2 <- c("Nevada", "New Mexico", "Oregon", "Utah", "Wyoming", "")
+Pop1 <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225)
+Pop2 <- c(3104614, 2117522, 4237256, 3271616, 576851, "")
+
+censusdata <- tibble(State1, Pop1, State2, Pop2)
 censusdata %>% 
         kbl(., format.args = list(big.mark = ","),
-            col.names = NULL,
+            col.names = c("", "Population", "", "Population"),
             caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.",
             ) %>% 
         kable_styling(bootstrap_options = "striped",
                       position = "center",
-                      font_size = 25,
-                      full_width = FALSE)
+                      font_size = 20,
+                      full_width = FALSE) %>% 
+        column_spec(2, border_right = TRUE)
 ```
 
 ## Statistics can also be used to interpret our world
@@ -250,24 +253,23 @@ knitr::include_graphics("https://sarakyeo.github.io/images/desc-infer-stats.png"
 
 Use the table below to calculate the % of Americans who live in UT and CA.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(kableExtra)
-library(tidyverse)
+```{r message=FALSE, warning=FALSE}
+State1 <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana")
+State2 <- c("Nevada", "New Mexico", "Oregon", "Utah", "Wyoming", "")
+Pop1 <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225)
+Pop2 <- c(3104614, 2117522, 4237256, 3271616, 576851, "")
 
-State <- c("USA", "Arizona", "California", "Colorado", "Idaho", "Montana",
-           "Nevada", "New Mexico", "Oregon", "Utah", "Wyoming")
-Pop <- c(334735155, 7151502, 39538223, 5773714, 1839106, 1084225,
-         3104614, 2117522, 4237256, 3271616, 576851)
-
-censusdata <- tibble(State, Pop)
+censusdata <- tibble(State1, Pop1, State2, Pop2)
 censusdata %>% 
         kbl(., format.args = list(big.mark = ","),
-            col.names = NULL,
-            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.") %>% 
+            col.names = c("", "Population", "", "Population"),
+            caption = "Population estimates for states in the western United States. Data from 2020 U.S. Census.",
+            ) %>% 
         kable_styling(bootstrap_options = "striped",
                       position = "center",
                       font_size = 20,
-                      full_width = FALSE)
+                      full_width = FALSE) %>% 
+        column_spec(2, border_right = TRUE)
 ```
 
 ##
