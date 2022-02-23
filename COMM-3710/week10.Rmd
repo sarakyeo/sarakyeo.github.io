@@ -46,9 +46,9 @@ $(this).parents('slide').children('div.footnotes').html(newContent);
 
 Statistics is a way of...
 
-- organizing,
-- describing,
-- and making inferences from or interpreting data.
+> - organizing,
+> - describing,
+> - and making inferences from or interpreting data.
 
 
 ## Statistics is fundamental to the scientific process
@@ -66,8 +66,8 @@ math performance." <footnote content="Ashcraft, M. H. (2002). Math anxiety: Pers
 
 Sometimes math anxiety can interfere with the goal of conceptual understanding of statistics.
 
-- This is based on the belief that stats is about numbers and math.
-- But, statistics is **not** solely about math and numbers.
+> - This is based on the belief that stats is about numbers and math.
+> - But, statistics is **not** solely about math and numbers.
 
 ## Statistics is not just numbers; it is a language
 
@@ -132,6 +132,7 @@ The table on the next slide shows population data for states in the western U.S.
 ##
 
 Statistics allow us to easily answer questions such as: **What percentage of the U.S. population that lives in Utah?**
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
@@ -154,6 +155,7 @@ censusdata %>%
 ## Statistics can also be used to interpret our world
 
 Daily weather forecasts, for example, typically include statistical predictions (e.g., "Precipitation Potential (%)" in the bottom graph).
+
 ```{r fig1, echo=FALSE, fig.align="center", out.width="80%"}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/18-Oct-21_forecast.jpg")
@@ -174,7 +176,11 @@ knitr::include_graphics("https://sarakyeo.github.io/images/central-dogma-stats.p
 
 But, we rarely (if ever!) have access to every unit in a population.
 
-Therefore, we take a representative sample, or a representative subset of the population, and use this sample to **describe** (descriptive statistics) and make **inferences/predictions/generalizations** (inferential statistics) about the population.
+Instead, we...
+
+> - take a representative sample, or a representative subset of the population, and
+> - use this sample to **describe** (descriptive statistics) the population, and
+> - we can also make **inferences/predictions/generalizations** (inferential statistics) about the population.
 
 ## 
 
@@ -182,9 +188,7 @@ Recall that in our lecture on **Sampling**, we briefly defined the term, **param
 
 After reading this section, revisit [the lecture from Week 8](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
 
-## But what exactly is a statistic?
-
-Examine the figure again...
+## But what exactly is a statistic? | Let's look at that figure again...
 
 ```{r fig3, echo=FALSE, fig.align="center", out.width="44%"}
 
@@ -194,8 +198,8 @@ knitr::include_graphics("https://sarakyeo.github.io/images/central-dogma-stats.p
 
 Notice that the central dogma consists of a population and a sample.
 
-- **Statistics** are numbers that describe characteristics of **samples**.
-- **Parameters** describe **populations**.
+> - **Statistics** are numbers that describe characteristics of **samples**.
+> - **Parameters** describe **populations**.
 
 ## We use statistics from a sample to estimate (infer) parameters in a population
 
@@ -221,14 +225,14 @@ The calculated mean provides an estimate of the same parameter in the population
 
 ## Parameter
 
-- number that describes the **population** (e.g., mean, standard deviation, variance, etc.)
-- parameters are often unknown because we cannot directly examine the entire population of interest!
+> - number that describes the **population** (e.g., mean, standard deviation, variance, etc.)
+> - parameters are often unknown because we cannot directly examine the entire population of interest!
 
 ## Statistic
 
-- number that can be computed from **sample** data (e.g., mean, standard deviation, variance, etc.)
-- we use statistics in a sample to estimate parameters in a population!
-- for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
+> - number that can be computed from **sample** data (e.g., mean, standard deviation, variance, etc.)
+> - we use statistics in a sample to estimate parameters in a population!
+> - for example, we can calculate the mean age in a sample and use this statistic to estimate the mean age in the population.
 
 # Descriptive vs. Inferential Statistics: A Brief Introduction
 
