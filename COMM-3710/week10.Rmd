@@ -2,9 +2,7 @@
 title: "Week 10: Intro to Statistics"
 author: "Prof. Sara K. Yeo | COMM 3710 | Spring 2022"
 output: 
-        ioslides_presentation:
-                widescreen: true
-                incremental: false
+        slidy_presentation
 ---
 
 ```{r setup, include=FALSE}
