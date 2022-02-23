@@ -2,7 +2,9 @@
 title: "Week 10: Intro to Statistics"
 author: "Prof. Sara K. Yeo | COMM 3710 | Spring 2022"
 output: 
-        slidy_presentation
+        ioslides_presentation:
+                widescreen: true
+                incremental: false
 ---
 
 ```{r setup, include=FALSE}
@@ -146,8 +148,8 @@ censusdata %>%
             ) %>% 
         kable_styling(bootstrap_options = "striped",
                       position = "center",
-                      font_size = 22,
-                      full_width = TRUE)
+                      font_size = 25,
+                      full_width = FALSE)
 ```
 
 ## Statistics can also be used to interpret our world
@@ -265,7 +267,7 @@ censusdata %>%
         kable_styling(bootstrap_options = "striped",
                       position = "center",
                       font_size = 20,
-                      full_width = TRUE)
+                      full_width = FALSE)
 ```
 
 ##
