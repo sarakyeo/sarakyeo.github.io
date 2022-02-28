@@ -186,7 +186,7 @@ Click on the tabs below for a summary of the terms <span style="color: blue;">pa
 
 In general, there are two types of statistics: **descriptive** and **inferential** statistics. The figure below highlights the differences between these two types and provides examples of questions that researchers might ask using descriptive and inferential statistics.
 
-```{r fig4, echo=FALSE, fig.align="center", out.width="100%"}
+```{r fig4, echo=FALSE, fig.align="center", out.width="80%"}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/desc-infer-stats.png")
 
