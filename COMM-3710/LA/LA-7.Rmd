@@ -1,5 +1,5 @@
 ---
-title: "LA-7: Visualizing Data (12 points)"
+title: "LA-7: Visualizing Data (10 pts + 2 bonus pts)"
 pagetitle: "COMM 3710: LA-7"
 output:
   html_document:
@@ -20,18 +20,16 @@ While there are hints for each step embedded in this assignment, you may also wa
 
 ---
 
-# Step 1
-Read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
-
-
-# Step 2 {.tabset .tabset-fade}
+# Step 1 {.tabset .tabset-fade}
 ## Instructions
+Download and save the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) dataset into your working directory.
+
 Load the following packages in your current session of R:
 
 - `tidyverse`
 - `summarytools`
 
-Read the [Utilities.csv](https://utah.instructure.com/files/123052907/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
+Use the codebook to familiarize yourself with the variables in the data set.
 
 ## Codebook
 ```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
@@ -39,7 +37,7 @@ library(kableExtra)
 library(tidyverse)
 library(knitr)
 
-codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/CPS-codebook.csv")
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/Utilities-codebook.csv")
 codebook %>%
         kbl(., "html",
             caption = "Names and descriptions of variables in Utilities dataset.") %>% 
@@ -48,6 +46,12 @@ codebook %>%
         column_spec(2, width = "30em")
 
 ```
+
+
+# Step 2 
+Using the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) data, read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
+
+Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio. <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
@@ -107,7 +111,7 @@ a) How many bills in the data set are from fall?
 b) How many bills in the data set are from summer?
     
 ## Hint
-Use the skills you learned in wrangling data and data management to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
+Use the skills you learned in data wrangling and management ([LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html), [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html), and [LA-6](https://sarakyeo.github.io/COMM-3710/LA/LA-6.html)) to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
 
 Once you have created this new variable, you can use the `freq()` command (in `summarytools`) to obtain a frequency table.
 
