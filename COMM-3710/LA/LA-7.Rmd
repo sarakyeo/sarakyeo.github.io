@@ -31,7 +31,7 @@ Load the following packages in your current session of R:
 - `tidyverse`
 - `summarytools`
 
-Read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
+Read the [Utilities.csv](https://utah.instructure.com/files/123052907/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
 
 ## Codebook
 ```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
@@ -39,30 +39,14 @@ library(kableExtra)
 library(tidyverse)
 library(knitr)
 
-codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP-codebook.csv")
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/CPS-codebook.csv")
 codebook %>%
         kbl(., "html",
-            caption = "Names and descriptions of variables in HELP dataset.") %>% 
+            caption = "Names and descriptions of variables in Utilities dataset.") %>% 
         kable_styling(bootstrap_options = c("hover", "striped"),
                       full_width = FALSE) %>% 
         column_spec(2, width = "30em")
 
-
-| Variable Name | Description |
-| :------------ | :---------- |
-| `month` | month (coded as a number) |
-| `day` | day of month on which bill was calculated |
-| `year` | year of bill |
-| `temp` | average temperature (degrees Celsius) for billing period |
-| `kwh` | electricity usage (kwh) |
-| `ccf` | gas usage (ccf) |
-| `thermsPerDay` | a numeric vector |
-| `billingDays` | number of billing days in billing period |
-| `totalbill` | total monthly bill (in dollars) |
-| `gasbill` | monthly gas bill (in dollars) |
-| `elecbill` | monthly electric bill (in dollars) |
-| `notes` | notes about the billing period |
-| `donate` | (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need |
 ```
 
 # Step 3 {.tabset .tabset-fade}
