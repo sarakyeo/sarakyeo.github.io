@@ -49,7 +49,7 @@ codebook %>%
 
 
 # Step 2 
-Using the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) data, read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
+Using the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) data and the data provided in the chapter, read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
 
 Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio. <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
 
