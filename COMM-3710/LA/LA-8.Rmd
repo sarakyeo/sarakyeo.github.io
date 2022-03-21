@@ -48,26 +48,24 @@ Load the following packages in R:
 - `summarytools`
 - `rstatix`
 
-Then, read the [Utilities.csv](https://utah.instructure.com/files/117853079/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
+Then, read the [Utilities.csv](https://utah.instructure.com/files/123052907/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
 
 ## Codebook
 
-| Variable Name | Description |
-| :------------ | :---------- |
-| `month` | month (coded as a number) |
-| `day` | day of month on which bill was calculated |
-| `year` | year of bill |
-| `temp` | average temperature (degrees Celsius) for billing period |
-| `kwh` | electricity usage (kwh) |
-| `ccf` | gas usage (ccf) |
-| `thermsPerDay` | a numeric vector |
-| `billingDays` | number of billing days in billing period |
-| `totalbill` | total monthly bill (in dollars) |
-| `gasbill` | monthly gas bill (in dollars) |
-| `elecbill` | monthly electric bill (in dollars) |
-| `notes` | notes about the billing period |
-| `donate` | (yes or no) did the person add money to their bill to be donated to Operation Fuel, a charity providing heat to families/small businesses in need |
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
 
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/Utilities-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in Utilities dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
 
 # Step 2
 Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.^[This was part of Step 8 in LA-7.]
