@@ -80,7 +80,7 @@ Let's say we want to conduct a statistical test to determine whether respondents
 a) Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
 b) Run a frequency distribution of `totalbill`. Is this variable categorical or continuous?
 c) Is the variable, `season`, continuous or categorical?
-d) Check the chart in the Hint tab. Given your answers to 3a and 3b, what statistical test should you use?
+d) Check the chart in the Hint tab. Given your answers to the previous question, what statistical test should you use?
 
 
 ## Hint
@@ -100,7 +100,7 @@ First, identify whether the independent and dependent variables are quantitative
 Conduct the statistical test you selected in your answer to 3c and answer the following questions.
 
 a) What is the test statistic and the probability value associated with that test statistic?
-b) Do respondents' total monthly bills differ by season?
+b) Based on the test statistic and the *p*-value, do respondents' total monthly bills differ by season?
 
 ## Hint
 **Test statistics and *p*-values**
