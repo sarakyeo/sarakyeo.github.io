@@ -103,7 +103,7 @@ write.csv(quiz, file = "quiz.csv")
 
 ## Learning by doing
 
-Let's create a graph with a fake data set ["quiz.csv"](http://sarakyeo.github.io/COMM-3710-bookdown/quiz.csv). It contains simulated data for Quiz 1 and 2 scores of 120 students. There data set contains three variables: 
+Let's create a graph with a fake data set ["quiz.csv"](https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710-bookdown/quiz.csv). It contains simulated data for Quiz 1 and 2 scores of 120 students. There data set contains three variables: 
 
 - `id`: Student ID
 - `quiz1`: Quiz 1 scores
