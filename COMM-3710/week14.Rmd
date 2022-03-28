@@ -1,7 +1,7 @@
 ---
 title: |
   | COMM 3710: Presenting Research
-pagetitle: "COMM 3710: Week 15"
+pagetitle: "COMM 3710: Week 14"
 output:
   html_document:
     toc: true
