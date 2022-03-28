@@ -50,6 +50,8 @@ From your lab assignments, you already know how to:
    - Create new variables from existing variables in a data frame using the `mutate()` function.
 - [LA-7](https://sarakyeo.github.io/COMM-3710/LA/LA-7.html)
    - Create graphs using the `ggplot2` package.
+   
+   TEST
 
 ---
 
