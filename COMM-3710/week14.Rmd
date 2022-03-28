@@ -141,7 +141,7 @@ Finally, the discussion of the findings and their implications should lead to so
 ---
 
 # Presentations vs. Papers
-Although we used a scientific paper as an example here, the principles and sections apply to creating research presentations as well. One major difference is that there are aesthetic considerations to keep in mind when creating a visual presentation instead of authoring a journal article. TEST
+Although we used a scientific paper as an example here, the principles and sections apply to creating research presentations as well. One major difference is that there are aesthetic considerations to keep in mind when creating a visual presentation instead of authoring a journal article.
 
 Some tips for presentations: 
 
