@@ -66,7 +66,7 @@ b)  What is the mean wage earned per hour for males?
 Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females.
 
 a)  State your hypothesis about whether males earn higher wages per hour than females.
-b)  Which statistical test will you use to address your hypothesis??
+b)  Which statistical test will you use to address your hypothesis?
 c)  What is the test statistic and associated *p*-value?
 d)  Does the test support or refute your hypothesis?
 
