@@ -66,27 +66,27 @@ b)  What is the mean wage earned per hour for males?
 Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females.
 
 a)  State your hypothesis about whether males earn higher wages per hour than females.
-b)  Which statistical test will you use to address your hypothesis?
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
 c)  What is the test statistic and associated *p*-value?
-d)  Does the test support or refute your hypothesis?
+d)  Does the test support or refute your hypothesis? Do males or females earn higher wages on average?
 
 # Step 4
 
 Implement the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour and number of years of work experience.
 
 a)  State your hypothesis about the relationship between wages earned per hour and number of years of experience.
-b)  Which statistical test will you use to address your hypothesis?
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
 c)  What is the test statistic and associated *p*-value?
-d)  Does the test support or refute your hypothesis?
+d)  Does the test support or refute your hypothesis? What is the relationship, if any, between wages earned per hour and number of years of experience?
 
 # Step 5
 
 Implement the appropriate statistical test to determine whether job satisfaction varies significantly among the different job sectors.
 
 a)  State your hypothesis about whether job satisfaction varies significantly among job sectors.
-b)  Which statistical test will you use to address your hypothesis?
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
 c)  What is the test statistic and associated *p*-value?
-d)  Does the test support or refute your hypothesis?
+d)  Does the test support or refute your hypothesis? Does job satisfaction vary among different job sectors?
 
 # Submission
 
