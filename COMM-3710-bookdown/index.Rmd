@@ -38,7 +38,7 @@ Increasingly, data are important components of decision-making. Whether you are 
 
 R is a tool that can help you do all this and more. This course will help you become familiar with this powerful data analysis tool. Often, students ask why we use R instead of Microsoft Excel in this course.
 
-Here are some reasons for using R over Excel:
+Here are some reasons for using R over Excel.
 
 ### Ease of Use
 
@@ -60,7 +60,7 @@ Visualization is where R excels (HAH, see what I did there!). When datasets begi
 
 ---
 
-If you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel:
+If you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel.
 
 - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
 - [The Reinhart-Rogoff error - or How Not to Excel at Economics](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646)

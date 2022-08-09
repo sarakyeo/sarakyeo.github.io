@@ -9,7 +9,7 @@ Remember that you need both R and RStudio. Follow the instructions below to inst
 On a web browser, navigate to https://cloud.r-project.org/.
 
 - If you are a Windows user: Click on “Download R for Windows”, then click on “base”, then click on the Download link.
-- If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of February 14, 2021, is R-4.0.3.
+- If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R (as of August 2022) is R-4.2.1.
 - If you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.
 
 During installation, select the default settings when prompted.
@@ -24,7 +24,7 @@ When you are ready to use R, you will open RStudio. In this course, you will rar
 
 > From this point on, when "R" is referenced in the text, you know that you are accessing and using the language through RStudio.
 
-```{r open-R, echo = FALSE, fig.cap = "Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio).", fig.align = "center"}
+```{r open-R, echo = FALSE, fig.cap = "Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. The icon on the left is \"base R.\" Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio).", fig.align = "center"}
 knitr::include_graphics("images/open-RStudio.png")
 ```
 
@@ -54,7 +54,7 @@ knitr::include_graphics("images/RStudio-panels.png")
 
 ### Some basic terminology and concepts {#terms}
 
-Throughout the book, `R code` will be distinguished from text by using a different font. Let's start with some basic terms:
+Throughout the book, `R code` will be distinguished from text by using a different font. Let's start with some basic terms.
 
 - **Console**: This is the panel in RStudio where you can view the output or results of your commands. Note that you can also enter commands in the Console panel. Pressing Enter after each command runs it, i.e., it tells R to execute the command.
 - **Editor**: This is the panel in RStudio where you type commands in language that R understands. Think of this as a script containing instructions for R. You can save this script, which makes the work you have done reproducible.
