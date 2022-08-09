@@ -307,7 +307,7 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 
 **Note: The schedule below lists the dates individual lab assignments (LA) are assigned. Due dates for these can be found on Canvas.**
 
-```{r, schedule, echo=FALSE, message=FALSE, warning=FALSE, out.height = "58%", fig.align='center'}
+```{r, schedule, echo=FALSE, message=FALSE, warning=FALSE, out.height = "75%", fig.align='center'}
 
 knitr::include_graphics("3710_fall-2022_schedule.png")
 
