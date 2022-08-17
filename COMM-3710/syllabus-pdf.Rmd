@@ -16,7 +16,7 @@ urlcolor: blue
 
 This **hybrid course** is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
 
-> **Lecture content will be online (asynchronous) while lab sections will be in-person (see [Course Requirements]).**
+**Lecture content will be online (asynchronous) while lab sections will be in-person (see [Course Requirements]).**
 
 We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
 
@@ -60,15 +60,15 @@ lab_data %>%
 
 
 # Office Hours
-Both TAs will have weekly office hours (\@ref(tab:office-hrs). Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
+Both TAs will have weekly office hours (Table \@ref(tab:office-hrs)). Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
 
 ```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
 Instructor <- c("Camilla Owens",
                 "Henry Allen")
-offtime <- c("TBD",
-          "TBD")
-Link <- c("TBD",
-          "TBD")
+offtime <- c("Thur, 7 - 8 pm MT",
+          "Fri, 3 - 4 pm MT")
+Link <- c("https://utah.zoom.us/j/7516524355 (Passcode: 527309)",
+          "https://utah.zoom.us/j/97100477617 (Passcode: office)")
 
 officehrs <- tibble(Instructor, offtime, Link)
 
@@ -88,7 +88,7 @@ It is your responsibility to ask questions and get help with assignments well in
 <!-- --- -->
 
 # Required Text and Readings
-Two books are required for this course. Both are available online.
+Two books are required for this course. Both are available on Canvas.
 
 **Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.**
 
@@ -116,7 +116,7 @@ You will need access to [Canvas](https://utah.instructure.com/). I expect you to
 
 You should also check your [University email account](https://www.umail.utah.edu) regularly. Be sure to review the [course email policies](#policies) as necessary throughout the semester.
 
-> **You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is *not* a screenshot.**
+**You should know how to take a screenshot on your computer. A photo of your laptop or computer screen taken with your mobile device is *not* a screenshot.**
 
 <!-- --- -->
 
@@ -144,21 +144,21 @@ Weekly quizzes will be administered on Canvas. All quizzes will be based on assi
 
 You will have **12 minutes** to complete your quiz. Note that you only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
-> **Quizzes will open on Monday at 12:00 am MT and are due on Saturday at 11:59 pm MT.**
+**Quizzes will open on Monday at 12:00 am MT and are due on Saturday at 11:59 pm MT.**
 
 <!-- --- -->
 
 ## Individual Lab Assignments (90 pts)
 There are 9 individual assignments. Information on individual assignments will be provided on Canvas. **Late assignments are rarely accepted in this course**.
 
-> **It is important that you pay close attention to the assignment due dates on Canvas as they may change throughout the semester.**
+**It is important that you pay close attention to the assignment due dates on Canvas as they may change throughout the semester.**
 
 <!-- --- -->
 
 ## Lab Attendance (10 pts)
 This course has two graduate [teaching assistants] for four lab sections. When you enrolled in this course, you selected a lab section to attend.
 
-> **You must attend at least 5 labs in-person throughout the semester. You must attend the lab section in which you are enrolled.**
+**You must attend at least 5 labs in-person throughout the semester. You must attend the lab section in which you are enrolled.**
 
 For each full lab (i.e., 50 min) you attend, you will earn two (2) points toward your attendance grade (up to 10 pts). If you are **5 to 15 min** late to lab, you will only earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
 
@@ -169,7 +169,7 @@ If you show up to a lab section in which you are not enrolled, your attendance w
 # Week 6 Participation Checkpoint
 In addition to the [course requirements], there will be a participation checkpoint in Week 6.
 
-> **At the end of Week 6, any students who have not demonstrated regular participation may not be permitted to pass the course.**
+**At the end of Week 6, any students who have not demonstrated regular participation may not be permitted to pass the course.**
 
 - "Regular participation” as a student is defined as earning at least 50\% of the possible points on required graded content up to this point (Week 6).
 - The checkpoint threshold is generous--well below a failing score for this course. For that reason, **no exceptions will be granted**. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is too late to “catch up.”
@@ -217,9 +217,9 @@ By enrolling in this course, you agree to:
 This list represents the **minimal standards** to make the course a productive learning space. **Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors**.
 
 ## Email Policy
-> **It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.**
+**It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.**
 
-**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
+**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach your instructors in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
 
 When you contact your instructors, you are expected to be professional in your communication. This includes:
 
@@ -230,6 +230,8 @@ When you contact your instructors, you are expected to be professional in your c
 - Proofreading your writing.
 - Providing a clear description of your problem and all relevant information.
 - Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
+
+Your instructors will respond to emails that conform to the policy within 24 to 48 hours.
 
 <!-- --- -->
 
@@ -245,7 +247,7 @@ Here is the basic (n)etiquette that will be expected in the course:
 <!-- --- -->
 
 ## Academic Misconduct
-> **Academic misconduct will be punished to the fullest extent possible.**
+**Academic misconduct will be punished to the fullest extent possible.**
 
 You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course.
 
@@ -267,13 +269,13 @@ In the event of a University-wide emergency which prevents face-to-face meetings
 
 # University Policies
 ## COVID-19
-This is a hybrid course; you will be expected to attend some classes in person. To protect yourself and those you care about, the University recommends that you:
+This is a hybrid course; you will be expected to attend some classes in person. To protect yourself and those you care about, the University encourages that you:
 
-- **Get a COVID-19 vaccination** if you have not already done so.
-- **Get weekly asymptomatic coronavirus tests** if you are not vaccinated. For more information or to schedule an asymptomatic coronavirus test, visit [alert.utah.edu/covid/testing](https://alert.utah.edu/covid/testing/).
-- **Wear a face mask properly while indoors**.
+- Test weekly for COVID-19, even if asymptomatic.
+- Get vaccinated against COVID-10 and get a booster when eligible.
+- If you test positive, or are unvaccinated and exposed to COVID-19, follow the 5-5-5 rule.
 
-If you test positive for COVID-19, submit a self-report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
 
 <!-- --- -->
 
