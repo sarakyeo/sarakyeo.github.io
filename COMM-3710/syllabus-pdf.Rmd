@@ -59,7 +59,7 @@ lab_data %>%
 ```
 
 
-# Office Hours
+# Office Hours and Microsoft Teams
 Both TAs will have weekly office hours (Table \@ref(tab:office-hrs)). Although you must attend the lab section in which you are enrolled, you may attend any of the instructors' office hours.
 
 ```{r, office-hrs, echo=FALSE, message=FALSE, warning=FALSE}
@@ -81,9 +81,21 @@ officehrs %>%
 
 ```
 
-<!-- Prof. Yeo will be available to answer questions on [Discord](https://discord.com/). The link to join the COMM 3710 Discord server can be found on Canvas. The [Course Civility](#civility) policy applies to all interactions in this course, including those on Discord. -->
+Prof. Yeo and your TAs will also be available to answer questions on [Microsoft Teams](https://teams.microsoft.com/). You have access to Teams through your University account. 
 
-It is your responsibility to ask questions and get help with assignments well in advance of deadlines. There is no guarantee that you will receive a response if you need help over the weekend or on the day an assignment is due.
+To join Teams, follow these instructions:
+
+1) Log in to [Office 365](https://o365cloud.utah.edu/) using your University of Utah account.
+
+        Username: uNID@umail.utah.edu
+        Password: [your uNID password])
+
+2) Once you have logged in, click on **Teams** in the left navigation bar.
+3) You should see `Join a team with a code` with a space to enter the code. Use the code `mhz8jvn` to join the COMM 3710-001 team.
+
+Note that the [Course Civility](#civility) policy applies to all interactions in this course, including those on Teams.
+
+It is your responsibility to ask questions and get help with assignments well in advance of deadlines. There is no guarantee that you will receive a response, either via email or Teams, if you need help over the weekend or on the day an assignment is due.
 
 <!-- --- -->
 
