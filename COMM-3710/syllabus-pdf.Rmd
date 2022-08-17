@@ -88,7 +88,7 @@ To join Teams, follow these instructions:
 1) Log in to [Office 365](https://o365cloud.utah.edu/) using your University of Utah account.
 
         Username: uNID@umail.utah.edu
-        Password: [your uNID password])
+        Password: [your uNID password]
 
 2) Once you have logged in, click on **Teams** in the left navigation bar.
 3) You should see `Join a team with a code` with a space to enter the code. Use the code `mhz8jvn` to join the COMM 3710-001 team.
