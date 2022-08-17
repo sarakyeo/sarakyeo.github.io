@@ -259,7 +259,7 @@ Watch the video below defining "research."
 **Deterministic predictions**
 
 - All data is known (i.e., one can *determine* the outcome).
-- Example: Predicting the amount of money you wiull have in your bank account next year.
+- Example: Predicting the amount of money you will have in your bank account next year.
 
 **Probabilistic predictions**
 
