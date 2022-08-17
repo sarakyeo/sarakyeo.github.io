@@ -20,6 +20,8 @@ output:
 ## Step 1
 Watch this [video](https://youtu.be/ZvPFKfNHBNQ) explaining R and RStudio and how to install both pieces of software.
 
+*Note*: Mac users may need to install [XQuartz](https://www.xquartz.org/) to use R and RStudio on their devices.
+
 ## Step 2
 Read Ch. 1 of [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
 
@@ -32,7 +34,8 @@ Open RStudio on your computer. **Take a screenshot of RStudio and save it**.
 ### Hint
 Instructions on how to take a screenshot on Windows can be found [here](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b). Instructions for Mac OS can be found [here](https://support.apple.com/en-us/HT201361).
 
-## Step 4
+## Step 4 {.tabset .tabset-fade}
+### Question
 Set preferences in RStudio.
 
 - Open RStudio. Click on `Tools` and navigate to `Global Options...`.
@@ -43,6 +46,10 @@ Set preferences in RStudio.
 These settings ensure that R does not carry forward objects (such as data) that you were working on in a prior assignment to a new assignment.
 
 > Make a habit of *completely* shutting down RStudio when you are done working. This will clear the "Environment," which is a good thing.
+
+### Just for fun
+You can change your RStudio theme (how it looks on your computer) in the `Global Options...` by navigating to `Appearance` and changing the `Editor theme`.
+
 
 ## Step 5
 Create a working directory (or a file folder on your computer) for COMM 3710. This can be anywhere on your computer that you choose, you just need to know where it is (e.g., in your Documents folder).
