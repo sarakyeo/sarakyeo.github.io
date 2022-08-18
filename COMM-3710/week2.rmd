@@ -53,19 +53,18 @@ knitr::include_graphics("https://sarakyeo.github.io/images/theory.png")
 ---
 
 ## Hypothesis
-<center>
 ```{r, hypothesis, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/hypothesis.png")
 
 ```
 
+<center>
 **Antecedent propositions** can be thought of as `IF` statements.
 
 **Consequent propositions** can be thought of as `THEN` statements.
 
 <br>
-<center>
 <font size="4">IF antecedent is true, THEN consequent is true.</font>
 </center>
 <br>
