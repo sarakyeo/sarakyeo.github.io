@@ -1,0 +1,241 @@
+---
+title: |
+  | COMM 3710: Sampling
+pagetitle: "COMM 3710: Week 8"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+# What is Sampling?
+Sampling is an important aspect of research. The quality of a research study is affected by:
+
+1) its purpose and how the variables are measured (**conceptualization** and **operationalization**) and;
+2) the way it is conducted (**sampling**). 
+
+> **Sampling** is the selection of a subset of individuals from within a statistical population to estimate characteristics of the whole population.
+
+Look up the following terms using the resources available to you (e.g., Ch. 12 and the Glossary in your textbook). You may encounter these in your weekly quiz.
+
+- Sample
+- Population
+- Sampling frame
+- Sampling error
+
+---
+
+## When is a Sample Large Enough?
+If there was a simple answer to this question, it would be "it depends." How large a sample needs to be depends on several factors:
+
+- How will results be used?
+- How confident in your findings do you need or want to be?
+- What kind of statistical quality do you need?
+- What resources are available to you?
+
+Often, a moderate sample size is statistically sufficient. In general, sample size should be large enough to keep your **margin of error between $\pm5\%$**.
+
+
+## So... What is a Margin of Error?
+
+> A **margin of error** is a summary of sampling error that **quantifies uncertainty about survey results**.
+
+In survey research, the kind of research with which we are primarily concerned in this course, we are making **probabilistic, not deterministic, predictions** from a sample to a population. In other words, there is some chance of error.
+
+Be sure to read the following for this week, which can be found on Canvas: <mark>**ASA (pp. 63-68)**</mark>
+
+Typically, margins of error are reported with **confidence levels or confidence intervals**. 
+
+```{r, conf, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+Term <- c("Confidence level", "Confidence interval")
+Definition <- c("Estimated probabilities that a population parameter lies within a given confidence interval.", "The range of values within which a population parameter is estimated (using a sample) to be.")
+
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "Definitions of confidence levels and intervals.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+```
+<br>
+
+> The question, then, is what is a **population parameter**?
+
+A **parameter** is a value (e.g., mean, standard deviation) that describes a population. Parameters are estimated from sample statistics. Do not worry, we will cover this term again next week and more fully define it (see also the section below on [Probability vs. Non-probability Sampling](#prob)). For now, let's use an example to understand the difference between confidence intervals and confidence level.
+
+
+### An Example
+Survey data show that 60% of Americans prefer ice cream over cake for dessert. The survey question has a margin of error of ±3% and a 95% confidence interval. 
+
+```{r, conf-ex, echo=FALSE, message=FALSE, warning=FALSE}
+
+Term <- c("Confidence level", "Confidence interval")
+Definition <- c("Estimated probabilities that a population parameter lies within a given confidence interval.", "The range of values within which a population parameter is estimated (using a sample) to be.")
+Example <- c("We are 95% confident that 57% to 63% of Americans prefer ice cream over cake for dessert.", "The confidence interval is calculated using the margin of error (±3%) and is 57% to 63%.")
+
+comparison <- tibble(Term, Definition, Example)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+```
+<br>
+
+The above logic can also be used to determine your sample size: 
+
+> Once you know how much error you can/are willing to tolerate, you can calculate the number of cases required in a sample.
+
+Sample size adheres to the **law of diminishing returns**. This means that once sample reaches a certain size, the accuracy of estimates do not increase much even if you keep increasing the sample size. In other words, after a certain point, the margin of error does not decrease very much with increasing sample size.
+
+
+## Types of Errors in Sampling
+```{r, errs, echo=FALSE, message=FALSE, warning=FALSE}
+
+Term <- c("Coverage error", "Measurement error", "Sampling error")
+Definition <- c("Error that results from failing to possess an up-to-date sampling frame.",
+                "Error that results from poorly operationalized measures, e.g., poor question wording.",
+                "Degree of error to be expected by virtue of studying a sample instead of a population. Quantified using a margin of error.")
+
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "40em")
+```
+<br>
+
+---
+
+# Why Does Sampling Matter?
+The video below explains why sampling matters, but it is not only about sampling. As we have learned, other factors, such as question wording and order are also important to the generalizations, inferences, or predictions that can be made using survey data.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZzPmzEejWs" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br>
+
+---
+
+# The Process of Sampling
+An important part of the research process involves identifying the appropriate sample for the research question at hand. The sampling process involves several steps:
+
+## 1) Identifying the Theoretical Population
+The actual population of a study is often not accessible. For example, studies that aim to examine the attitudes and opinions held by adults in the U.S. would be difficult to do if we needed survey responses from the entire population. We cannot possibly hope to obtain survey responses from every single adult in the country!
+
+Although all adults in the U.S. would be members of the **theoretical population**, they may not be accessible for the study. So, the first step involves identifying the theoretical population to which a researcher would like to generalize results and then identifying the actual study population that a researcher could contact.
+
+## 2) Identifying Potential Participants
+After selecting the study population, a researcher should identify all members of that group and figure out how each one could be contacted for inclusion in the study. This involves coming up with a list of potential participants from the study population, which is known as a **sampling frame**.
+
+Some questions to consider as researchers identify potential participants include:
+
+- Who are members of the group?
+- How will they be contacted for inclusion into the study?
+- What is the sampling frame?
+
+
+## 3) Selecting the Sample
+The final step of the sampling process involves answering the following question:
+
+- What method will be used to select members from the population into the sample?
+
+Researchers must identify the sample to be included and the sampling design to use. Sampling can be done using a variety of designs, but we primarily think of two: probability and nonprobability sampling.
+
+---
+
+# Probability vs. Non-probability Sampling {.tabset .tabset-fade #prob}
+There are two broad categories of sampling strategies:
+
+- probability sampling
+- non-probability sampling
+
+<center>
+![](https://sarakyeo.github.io/images/sample-design.gif)
+</center>
+
+```{r, prob-nonprob, echo=FALSE, message=FALSE, warning=FALSE}
+
+Term <- c("Probability sampling", "Non-probability sampling")
+Definition <- c("Any sampling technique that relies on selecting units to a sample based on probability theory (see below). In probability sampling, each element has a non-zero, known, and equal chance of being selected to a sample",
+                "A sampling technique in which cases are selected to a sample in ways not suggested by probability theory.")
+
+comparison <- tibble(Term, Definition)
+comparison %>%
+        kbl(., "html",
+            caption = "") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+```
+<br>
+
+
+## Types of Non-probability Sampling
+**Purposive (judgmental) sampling**
+
+Purposive sampling is a type of non-probability sampling in which you (as the researcher) decides which cases should be selected to a sample based on the purpose of the study. For example, market research targeting a particular group in a population would use judgmental sampling.
+
+---
+
+**Quota sampling**
+
+This is a type of non-probability sampling strategy based on characteristics that are pre-specified. Quota sampling ensures that a sample will have the same distribution of characteristics as the population. While this seems like representative sampling, it is often difficult to obtain up-to-date information about the characteristics of interest. For example, I collected a recent sample using quota sampling. In my sample, some demographic characteristics (age, gender, education) were matched to that of 2010 U.S. Census Bureau data. While it is tempting to say this sample is representative of the adult U.S. population, it is more likely that 2010 Census Bureau data is not up-to-date and, therefore, not necessarily representative of the adult U.S. population.
+
+---
+
+**Snowball sampling**
+
+This sampling methods requires each individual interviewed to recommend or suggest additional interviewees. A researcher interested in studying drug addiction and use might begin by interviewing one user, who may then suggest other users who would be willing to participate in the study.
+
+---
+
+
+## Types of Probability Sampling
+**Probability theory** states that the score that occurs most frequently in a sample will also be the score that should occur most frequently in the population. It is the basis for estimating parameters in a population from a sample.
+
+We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
+
+<center>
+<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
+</center>
+<br>
+
+---
+
+**Simple random sampling (SRS)**
+
+SRS starts by having a complete and up-to-date sampling frame and assigning numbers to each unit in the sampling frame. Then, a set of random numbers is generated and the units that have those numbers are included in the sample.
+
+---
+
+**Systematic sampling**
+
+Select every $k^{th}$ element in a sampling frame with a random starting point. E.g., decide that you will select every $10^{th}$ case into your sample and start at a random point in your sampling frame.
+
+---
+
+**Cluster sampling**
+
+It is often not possible to compile a comprehensive sampling frame. However, sometimes the population is already grouped into natural clusters. Cluster sampling is often multi-stage, which, in this case, means that you sample (1) the clusters, then (2) individuals within the clusters. The disadvantage is that multi-stage sampling introduces more sampling error (i.e., sampling error introduced at both stages of sampling). For example, if a researcher is interested in studying U.S. college students, they might sample universities in the first stage. In the second stage, they would sample individuals from the sampled universities.
+
+---
+
+**Stratified sampling**
+
+The researcher first divides the population of interest into separate groups, known as strata. Then, a sample is drawn by randomly selecting units from each strata. Each stratum is a subset of the population that has a common characteristic.
+
+---
+
+# Weighting a Sample
+In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**.
+
+You may have heard this term used in the 2016 Presidential election <mark>(read [this article in The New York Times](https://utah.instructure.com/files/123052932/download?download_frd=1))</mark>.
+
+<mark>Read this [report](https://utah.instructure.com/files/123052922/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.</mark>

@@ -14,9 +14,9 @@ urlcolor: blue
      alt="It's in the syllabus"/>
 </center>
 
-Welcome to a new semester and to COMM 3710!
+`r emo::ji('party')` Welcome to a new semester and to COMM 3710! This course is a hybrid course designed to introduce you to quantitative research methods in communication.
 
-COMM 3710 is a hybrid course. For more information on the course, please see the course syllabus on [Canvas](https://utah.instructure.com/).
+For more information about the course, please see the course syllabus on [Canvas](https://utah.instructure.com/).
 
 ---
 
@@ -25,9 +25,15 @@ COMM 3710 is a hybrid course. For more information on the course, please see the
 ---
 
 # An Introduction to Professor Yeo
-Prof. Sara K. Yeo is an Associate Professor in the Department of Communication. She is an expert in survey research and experiments, and primarily conducts research in science communication. You can check out some of her work [here](https://orcid.org/0000-0002-2043-8400). Currently, she has two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
+`r emo::ji('wave')` Hello! My name is Dr. Sara K. Yeo and I am an Associate Professor in the Department of Communication. I am also the Director of the [STEM Ambassador Program](https://stemap.org/) and I co-host a podcast ([Planet SciComm](https://www.twitter.com/planetscicomm)) on science communication with a computational biologist and a microbiologist.
 
-Prof. Yeo's CV and more information is available on her [faculty page](https://faculty.utah.edu/~sarakyeo). If you are interested in science communication research, email Dr. Yeo at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu).
+`r emo::ji('science')` I am an expert in survey research and experiments, and I primarily conduct research in science communication. You can check out some of my work [here](https://orcid.org/0000-0002-2043-8400).
+
+`r emo::ji('computer')` Currently, I have two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
+
+`r emo::ji('+1')` You can browse more of my work on my [CV](https://docs.google.com/document/d/1YCrk1gc2QDnrBvCdwNlN5RHpowDyBGdp4HDHe8h6S2Q/edit?usp=sharing) and more information is available on my [faculty page](https://faculty.utah.edu/~sarakyeo).
+
+`r emo::ji('science')` If you are interested in science communication research, email me at [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu) or connect with me on [Twitter](https://www.twitter.com/sarakyeo).
 
 ---
 
@@ -58,9 +64,10 @@ One note-taking system that you can try is the [Cornell system](http://lsc.corne
 
 I have included the chapter on note-taking as a PDF on Canvas. Be sure to complete this reading. An example of my own notes using the Cornell system can be found below.
 
-<center>
-<img src="https://sarakyeo.github.io/images/cornell-notes.png"></img>
-</center>
+```{r, cornell, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/cornell-notes.png")
+```
 
 ---
 
@@ -79,39 +86,36 @@ This week, we will begin by examining the history of social sciences and how the
 
 Ancient Greek scholars did not make a distinction between the social and physical sciences. In fact, many studied both and considered both physical and social processes as things to be studied scientifically. Here are a few examples:
 
-1. **Hippocrates of Cos**
+1. **Hippocrates of Cos** was the first scientist (or philospher) to classify his patients according to personality. He was, of course, also a physician--many of us will be familiar with the [Hippocratic oath in medicine](https://www.nlm.nih.gov/hmd/greek/greek_oath.html). Interestingly, the phrase that commonly attributed to this oath, "First, do no harm," is **not** explicitly contained within this text. Instead, there are [modern versions](https://www.pbs.org/wgbh/nova/doctors/oath_modern.html) that some medical schools adopt.
 
-Hippocrates was the first scientist (or philospher) to classify his patients according to personality. He was, of course, also a physician--many of us will be familiar with the [Hippocratic oath in medicine](https://www.nlm.nih.gov/hmd/greek/greek_oath.html). Interestingly, the phrase that commonly attributed to this oath, "First, do no harm," is **not** explicitly contained within this text. Instead, there are [modern versions](https://www.pbs.org/wgbh/nova/doctors/oath_modern.html) that some medical schools adopt.
+2. **Plato** used geometric proofs, a physical science concept, to study the intrinsic state of knowledge, which is a social scientific concept.
 
-2. **Plato**
+3. **Aristotle** studied poetry and rhetoric with the same scientific rigor and processes with which he studied planetary motion.
 
-Plato used geometric proofs, a physical science concept, to study the intrinsic state of knowledge, which is a social scientific concept.
-
-3. **Aristotle**
-
-Aristotle studied poetry and rhetoric with the same scientific rigor and processes with which he studied planetary motion.
-
-<br>
 
 This lack of division between physical and social sciences stayed intact until the publication of **Sir Isaac Newton**’s *Philosophiae Naturalis Principia Mathematica* (Mathematical Principles of Natural Philosophy) in 1687. This is considered one of the most important works in the history of science.
 
-- In these volumes, Newton argues that the underlying rule of all physical nature is mathematics.
+In these volumes, Newton argues that the underlying rule of all physical nature is mathematics.
 
-<center>
-<img src="https://sarakyeo.github.io/images/Newton-1687.png"/>
-</center>
+```{r, newton-1687, echo=FALSE, message=FALSE, warning=FALSE, out.width = "60%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Newton-1687.png")
+```
 
 As a result, physical scientists gravitated to and successfully applied Newton's writings. Social scientists, on the other hand, were slower to make their studies more quantitative.
 
-**Charles Darwin**'s theory was another point at which we see a divide between the “hard” and social sciences; social scientists were slower than biologists to see how Darwin’s theory applied to social science.
+**Charles Darwin**'s theory was another point at which we see a divide between the “hard” and social sciences--social scientists were slower than biologists to see how Darwin’s theory applied to social science.
 
-<center>
-<img src="https://sarakyeo.github.io/images/Darwin_origin-of-spp.jpg"/>
-</center>
+```{r, darwin, echo=FALSE, message=FALSE, warning=FALSE, out.width = "60%", fig.align='center'}
 
-In the late 1800's to the early 1900's, quantitative measurements in the physical sciences became the norm.
+knitr::include_graphics("https://sarakyeo.github.io/images/Darwin_origin-of-spp.jpg")
+```
+
+Between the late 1800's and the early 1900's, quantitative measurements in the physical sciences became the norm.
 
 Then, at the turn of the 20th century, we begin to see a divide among scholars who study humans and the **social scientific** vs. the **humanistic perspectives** emerge.
+
+Click on the tabs below to examine social science research post-World War I and during and after World War II. 
 
 ## Social Sciences Research Post-WWI
 Post-WWI, we begin to see social science research expand and flourish. In 1981, for example, the field of social psychology, i.e., the study of people's attitudes, is established. The focus on social science during this period of time is partly a result of WWI being a time of great social change and people's need to understand this change.
@@ -122,15 +126,17 @@ For example, the Likert and semantic differential scales were developed during t
 
 Likert, R. (1932). A technique for the measurement of attitudes (Ph.D.). Columbia University, New York, NY. Retrieved from [http://psycnet.apa.org/record/1933-01885-001](http://psycnet.apa.org/record/1933-01885-001)
 
-<center>
-<img src="https://sarakyeo.github.io/images/Likert.jpg"/>
-</center>
+```{r, likert, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Likert.jpg")
+```
 
 Osgood, C. E. (1952). The nature and measurement of meaning. *Psychological Bulletin*, *49(3)*, 197–237. [https://doi.org/10.1037/h0055737](https://doi.org/10.1037/h0055737)
 
-<center>
-<img src="https://sarakyeo.github.io/images/semantic-diff.jpg"/>
-</center>
+```{r, semantic-diff, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/semantic-diff.jpg")
+```
 
 ---
 
@@ -146,20 +152,22 @@ In 1941, [Paul Lazarsfeld](http://www.nasonline.org/publications/biographical-me
 
 Another important milestone in the history of communication research is the work of [Carl Hovland](http://www.apadivisions.org/division-1/publications/newsletters/general/2017/06/hovland-profile.aspx)'s group at Yale University. This group examined a wide range of variables shown to influence persuasion including sources credibility, personality traits, and fear appeals.
 
-<center>
-<img src="https://sarakyeo.github.io/images/Hovland-Weiss.png"/>
-</center>
+```{r, Hovland-Weiss, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Hovland-Weiss.png")
+```
 
 The legacy of research conducted by Hovland's group led to future researchers examining other communication contexts. To get a better idea of how research from this historical legacy has influenced the discipline of communication, see Figure 1.1 in the textbook.
 
 ---
 
 # Epistemologies in Communication Research {.tabset .tabset-fade}
-<center>
-<img src="https://sarakyeo.github.io/images/epistemology.png"/>
-</center>
+```{r, epistem, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
 
-In communication research, there are 3 epistemological traditions:
+knitr::include_graphics("https://sarakyeo.github.io/images/epistemology.png")
+```
+
+In communication research, there are 3 epistemological traditions. Click on the tabs below to learn more about each epistemology.
 
 1. social scientific (positivism)
 2. qualitative (interpretive)
@@ -244,7 +252,7 @@ Check your answers using the video below:
 ---
 
 # Defining Research
-Watch the video below defining "research."
+Next, watch the video below defining "research."
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw1lUASglQ" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -252,14 +260,15 @@ Watch the video below defining "research."
 
 ## Probabilistic vs. Deterministic Predictions
 
-<center>
-<img src="https://sarakyeo.github.io/images/prob-deter-predictions.PNG"/>
-</center>
+```{r, prob-v-det, echo=FALSE, message=FALSE, warning=FALSE, out.width = "75%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/prob-deter-predictions.PNG")
+```
 
 **Deterministic predictions**
 
 - All data is known (i.e., one can *determine* the outcome).
-- Example: Predicting the amount of money you wiull have in your bank account next year.
+- Example: Predicting the amount of money you will have in your bank account next year.
 
 **Probabilistic predictions**
 

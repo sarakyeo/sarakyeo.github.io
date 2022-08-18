@@ -10,19 +10,32 @@ output:
 urlcolor: blue
 ---
 
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+library(tidyverse)
+
+```
+
 # Descriptive vs. Inferential Statistics
-Recall the differences between descriptive and inferential statistics:
 
-<center>
-<img src="https://sarakyeo.github.io/images/desc-infer-stats.png"/>
-</center>
-<br>
+> Recall the differences between descriptive and inferential statistics...
 
-This week, we will focus on **inferential statistics**.
+```{r fig1, echo=FALSE, fig.align="center", out.width="90%"}
 
-<a href="#top">Back to top</a>
+knitr::include_graphics("https://sarakyeo.github.io/images/desc-infer-stats.png")
 
-# Inferential Statistics {.tabset .tabset-fade}
+```
+
+This week, we will focus on **<mark>inferential statistics</mark>**.
+
+> `r emo::ji("lightning")` There is a lot of material in this week's lecture. I recommend that you take your time working through it and do so in segments of time throughout the week. Remember to click on all the tabs for each type of hypothesis test.
+
+---
+
+# Inferential Statistics
+
 This week, we will discuss four common inferential statistical tests:
 
 1. Chi-square ($\chi^2$) test of independence
@@ -32,10 +45,11 @@ This week, we will discuss four common inferential statistical tests:
 
 Before doing so, we need to know how some terms used to discuss hypothesis testing and how to conduct hypothesis testing. We also need to know how which hypothesis test to use. The flowchart below can be used to guide your choice of hypothesis test.
 
-<center>
-<img src="https://sarakyeo.github.io/images/LA.6_chart.png"/>
-</center>
-<br>
+```{r fig2, echo=FALSE, fig.align="center", out.width="100%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/LA.6_chart.png")
+
+```
 
 ## Important Terms
 
@@ -51,28 +65,51 @@ When conducting hypothesis tests, we use the following steps in the order listed
 2. Set the level of significant (also known as alpha ($\alpha$); usually $\alpha = 0.05$).
 3. Calculate the test statistic, which will differ depending on the hypothesis test you use.
 
->| Hypothesis Test | Test Statistic |
->|:---|:---:|
->| Independent samples $t$-test | $t$ |
->| Chi-square test of independence | $\chi^2$ |
->| Pearson's correlation | Pearson's $r$ |
->| One-way ANOVA | $F$ |
+```{r message=FALSE, warning=FALSE}
+Htest <- c("Chi-square test of independence",
+           "Independent samples $t$-test",
+           "One-way analysis of variance (ANOVA)",
+           "Pearson's correlation"
+           )
+tstat <- c("$\\chi^2$",
+           "$t$",
+           "$F$",
+           "Pearson's $r$"
+           )
+pval <- c("$p$",
+          "$p$",
+          "$p$",
+          "$p$"
+          )
+
+data <- tibble(Htest, tstat, pval)
+data %>% 
+        kbl(., format.args = list(big.mark = ","),
+            col.names = c("Hypothesis Test", "Test Statistic", "$p$-value"),
+            caption = "Test statistics and $p$ for the four hypothesis tests we are learning in COMM 3710.",
+            align = 'lcc',
+            ) %>% 
+        kable_styling(bootstrap_options = "striped",
+                      position = "center",
+                      full_width = FALSE)
+
+```
 
 4. Determine the $p$-value; each hypothesis test you conduct will result in a test statistic and a $p$-value. The $p$-value is the probability of obtaining a test statistic assuming your null hypothesis is supported. Another way to phrase this is the $p$-value is the probability of obtaining the results you did (or more extreme results) given that $H_0$ is true.
 5. Compare $p$-value to $\alpha$.
    - If $p \leq \alpha$, we **reject** the null hypothesis ($H_0$).
    - If $p > \alpha$, we **fail to reject** the null hypothesis ($H_0$).
 
-Using hypothesis testing, researchers typically hope to "nullify" their null hypothesis ($H_0$) since we are typically trying to shed more light on relationships between variables.
+Using hypothesis testing, researchers typically hope to <mark>nullify</mark> their null hypothesis ($H_0$) since we are typically trying to shed more light on relationships between variables.
 
-The video below walks through an example of how to conduct a hypothesis test.
+The video below walks through an example of the steps above. It uses Excel, but we will be using $R$ for hypothesis testing this semester.
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/REPBC1QzBQo" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
 
-<a href="#top">Back to top</a>
+---
 
 # Errors in Hypothesis Testing {.tabset .tabset-fade}
 When conducting hypothesis tests, 2 types of errors can occur. These are **Type I** and **Type II errors**. The table below provides an explanation and an easy way to remember the types of errors that can occur during hypothesis testing.
@@ -87,15 +124,14 @@ Type I error occurs when the null hypothesis is true and your decision, based on
 
 This is also known as a <mark>**false positive**</mark> (you are supporting the alternative hypothesis when you should not be).
 
-<a href="#top">Back to top</a>
+---
 
 ## Type II Error
 Type II error occurs when you have a <mark>**false negative**</mark>.
 
 In this case, you fail to reject $H_0$ when you should.
 
-<a href="#top">Back to top</a>
-
+---
 
 # Chi-Square ($\chi^2$) Test of Independence {.tabset .tabset-fade}
 
@@ -112,7 +148,7 @@ In this case, you fail to reject $H_0$ when you should.
 3. One respondent's presence in a group/category should not affect the likelihood of another respondent's presence in another cell.
 4. For two groups of respondents and two categories (i.e., a 2 $\times$ 2 table), there should be at least 5 respondents in each cell.
 
-<a href="#top">Back to top</a>
+---
 
 ## Case Study
 Let's assume we have the following research question and data:
@@ -176,7 +212,7 @@ In Step 2, we set $\alpha = .05$. Given the results, decide whether we **reject*
 
 Based on your comparison of $p$ and $\alpha$, you should decide that we can **reject** $H_0$. Thus, we can conclude that female and male students differ in their year in college / standing when they take public speaking.
 
-<a href="#top">Back to top</a>
+---
 
 
 # Independent Samples $t$-test {.tabset .tabset-fade}
@@ -196,7 +232,7 @@ For some interesting information on how beer created the $t$-test, see "How Beer
 2. The is DV is normally distributed in both levels of the IV, i.e., the dependent variable has a normal distribution in both groups of the independent variable.
 3. Homogeneity of variances. This means that the variances of the dependent variable in one group of the independent variable is the same as that in the other group.
 
-<a href="#top">Back to top</a>
+---
 
 ## Case Study
 Let's assume we have the following research question:
@@ -242,7 +278,7 @@ In Step 2, we set $\alpha = .05$. Given this information, decide whether we **re
 
 Based on your comparison of $p$ and $\alpha$, you should decide that we **fail to reject** $H_0$. Thus, we must conclude that student scores in Class 1 (prof. with short hair) are not statistically different from student scores in Class 2 (prof. with long hair).
 
-<a href="#top">Back to top</a>
+---
 
 ## Effect Size
 It is important to calculate an effect size whenever you are conducting an independent samples t-test. This is because the size of a relationship (or, in this case, the size of the difference) matters as much as statistical significance. To calculate effect size, we use **Cohen's $d$** formula:
@@ -255,7 +291,7 @@ To interpret effect sizes, we generally use the following:
 - $0.5 =$ medium effect size
 - $0.8 =$ large effect size
 
-<a href="#top">Back to top</a>
+---
 
 
 # One-Way Analysis of Variance (ANOVA) {.tabset .tabset-fade}
@@ -272,7 +308,6 @@ ANOVA allows you to compare a dependent (interval or ratio) variable among **two
 4. Homogeneity of variances: In each level of the independent variable, the populations should have equal variances.
 5. The data used in ANOVA should be a random sample from the population.
 
-<a href="#top">Back to top</a>
 
 ## Case Study
 A researcher is interested in whether specific doses of puppy therapy increase happiness. She conducts an experiment in which participants are randomly assigned to one of three puppy therapy conditions: control (no puppies!), 15 minutes of puppies, or 30 minutes of puppies. After exposure to one of the three experimental conditions, she asks them to self-report their happiness on a scale of 1 ('Not at all happy') to 10 ('Very happy').
@@ -344,8 +379,7 @@ The $p$-values that result from the pairwise comparisons conducted using Tukey's
 | control | 30 min | 0.021 |
 | 15 min | 30 min | 0.147 |
 
-<a href="#top">Back to top</a>
-
+---
 
 # Correlation {.tabset .tabset-fade}
 
@@ -366,7 +400,7 @@ As you know, there are various types of linear relationships. Below, the graph f
 4. We assume a linear relationship between the two variables of interest.
 5. We should have a sample size of more than 25, i.e., $N > 25$.
 
-<a href="#top">Back to top</a>
+---
 
 ## Case Study
 Let's assume we have the following research question:
@@ -413,5 +447,3 @@ In Step 2, we set $\alpha = .05$. Given this information and the results above, 
 Since $p \leq \alpha$, we can reject $H_0$. This means that the relationship between communication apprehension and heart rate change is statistically significant. Since $r$ is a positive value, we can say that these variables, CA and HR, are positively correlated.
 
 Remember that correlation $\ne$ causation! Our conclusion simply tells us that CA and HR are correlated, not whether one variable *causes* the other to change.
-
-<a href="#top">Back to top</a>

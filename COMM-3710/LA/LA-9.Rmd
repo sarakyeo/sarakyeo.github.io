@@ -18,77 +18,75 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Remember to ...
 
-1) Set up your R script appropriately.
-2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+1)  Set up your R script appropriately.
+2)  Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
 You may find the following R packages useful as you work through this assignment:
 
-- `tidyverse`
-- `summarytools`
-- `rstatix`
+-   `tidyverse`
+-   `summarytools`
+-   `rstatix`
 
----
+------------------------------------------------------------------------
 
 # Step 1 {.tabset .tabset-fade}
+
 ## Instructions
-Familiarize yourself with the CPS documentation in the codebook. Then, read the [CPS data set](https://utah.instructure.com/files/117853077/download?download_frd=1) into R.
+
+Familiarize yourself with the CPS documentation in the codebook. Then, read the [CPS data set](https://utah.instructure.com/files/123052898/download?download_frd=1) into R.
 
 ## Codebook
-Data for this assignment comes from the 1985 Current Population Survey (CPS).
-The CPS is used to supplement census information between census years. These
-data consist of a random sample of persons from the survey, with information
-on wages and other characteristics of the workers, including sex, number of
-years of education, years of work experience, occupational status, region of
-residence and union membership. This data frame has 534 observations.
 
-| Variable Name | Description |
-| :------------ | :---------- |
-| `wage` | Wage (US dollars per hour) |
-| `educ` | Number of years of education |
-| `race` | Factor with levels: NW (non-white), W (white) |
-| `sex` | Factor with levels: F, M |
-| `hispanic` | Factor with levels: Hisp, NH (non-Hispanic) |
-| `south` | Factor with levels: NS (non-south), S (south) |
-| `married` | Factor with levels: Married, Single |
-| `exper` | Number of years of work experience |
-| `union` | Factor with levels: Not (not part of union), Union |
-| `age` | Age in years |
-| `sector` | Factor with levels: clerical, const, manag, manuf, other prof, sales, service |
-| `satisfaction` | 1 = satisfied with current employment, 0 = otherwise |
+Data for this assignment comes from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data consist of a random sample of persons from the survey, with information on wages and other characteristics of the workers, including sex, number of years of education, years of work experience, occupational status, region of residence and union membership. This data frame has 534 observations.
+
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/CPS-codebook.csv")
+
+codebook %>%
+        kbl(., "html") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
 
 # Step 2
+
 Find the mean wage earned per hour for males and females.
 
-a) What is the mean wage earned per hour for females?
-b) What is the mean wage earned per hour for males?
- 
- 
+a)  What is the mean wage earned per hour for females?
+b)  What is the mean wage earned per hour for males?
+
 # Step 3
+
 Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females.
 
-a) State your hypothesis about whether males earn higher wages per hour than females.
-b) Which statistical test will you use to address your hypothesis??
-c) What is the test statistic and associated *p*-value?
-d) Does the test support or refute your hypothesis?
-
+a)  State your hypothesis about whether males earn higher wages per hour than females.
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
+c)  What is the test statistic and associated *p*-value?
+d)  Does the test support or refute your hypothesis? Do males or females earn higher wages on average?
 
 # Step 4
+
 Implement the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour and number of years of work experience.
 
-a) State your hypothesis about the relationship between wages earned per hour and number of years of experience.
-b) Which statistical test will you use to address your hypothesis?
-c) What is the test statistic and associated *p*-value?
-d) Does the test support or refute your hypothesis?
-
+a)  State your hypothesis about the relationship between wages earned per hour and number of years of experience.
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
+c)  What is the test statistic and associated *p*-value?
+d)  Does the test support or refute your hypothesis? What is the relationship, if any, between wages earned per hour and number of years of experience?
 
 # Step 5
+
 Implement the appropriate statistical test to determine whether job satisfaction varies significantly among the different job sectors.
 
-a) State your hypothesis about whether job satisfaction varies significantly among job sectors.
-b) Which statistical test will you use to address your hypothesis?
-c) What is the test statistic and associated *p*-value?
-d) Does the test support or refute your hypothesis?
-
+a)  State your hypothesis about whether job satisfaction varies significantly among job sectors.
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
+c)  What is the test statistic and associated *p*-value?
+d)  Does the test support or refute your hypothesis? Does job satisfaction vary among different job sectors?
 
 # Submission
 
@@ -96,16 +94,16 @@ Submit your R script (`LA-9_FirstName-LastName.R`) to Canvas.
 
 Your R script should:
 
-1) Include code to install and load the packages.
-2) Include code to set your working directory.
-3) Contain comments and/or pseudocode for every line of R code.
-4) Run in its entirety without errors.
+1)  Include code to install and load the packages.
+2)  Include code to set your working directory.
+3)  Contain comments and/or pseudocode for every line of R code.
+4)  Run in its entirety without errors.
 
 To ensure that your R script runs without errors, you should:
 
-- Save your script.
-- Completely shut down RStudio or restart your R session.
-- Reopen RStudio, open your `LA-9_FirstName-LastName.R` script.
-- Run the entire script by clicking the "Run" button in the top right of the R script.
+-   Save your script.
+-   Completely shut down RStudio or restart your R session.
+-   Reopen RStudio, open your `LA-9_FirstName-LastName.R` script.
+-   Run the entire script by clicking the "Run" button in the top right of the R script.
 
 > These standards apply to all submissions in this course that require R scripts.

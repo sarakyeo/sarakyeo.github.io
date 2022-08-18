@@ -15,22 +15,27 @@ urlcolor: blue
 
 **Reliability**
 
-- Reliability is a quality of measurement that refers to consistency. When we assess reliability of a measure, we are asking whether the measure is a consistent indicator of a concept
+- Reliability is a quality of measurement that refers to <mark>consistency</mark> of a measure. When we assess reliability of a measure, we are asking whether the measure is a consistent indicator of a concept
 
 **Validity**
 
-- Validity is a quality of measurement that refers to confidence in a measure. A measure that is valid accurately reflects the concept it is intended to measure. The concept of validity also extends to...
+- Validity is a quality of measurement that refers to <mark>accuracy</mark> of a measure. A measure that is valid accurately reflects the concept it is intended to measure. The concept of validity also extends to...
 
    1. precision in study design (**internal validity**, which is important in experiments)
    2. our ability to generalize findings from a sample to a larger population (**external validity**)
 
-Reliability and validity are precision and accuracy, respectively. Using these four terms, describe the dart-thrower in scenarios A, B, and C below. Answers can be found in the video below.
+Reliability and validity can be thought of as precision and accuracy, respectively. Using these four terms (*reliability*, *validity*, *precision*, and *accuracy*), describe the dart-thrower in scenarios A, B, and C below.
 
 <center>
 <img src="https://sarakyeo.github.io/images/rel-val-01.png"/>
+</center>
 <br>
 
+Answers can be found in the video below.
+
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RgDfNMND0GA" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 <br>
 
 
@@ -130,7 +135,7 @@ After data collection, we can assess:
 2. criterion validity
 3. construct validity
 
-> Read Chapter 8 of your textbook and make note of the definitions of these terms.
+> Read **Chapter 8** of your textbook and make note of the definitions of these terms.
 
 
 # Summary

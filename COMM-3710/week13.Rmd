@@ -65,7 +65,7 @@ In Week 12, we discussed three statistical tests that we can use in hypothesis t
 - [One-way analysis of variance](https://youtu.be/2uQCUBtqCfM) (ANOVA)
 - [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-> We will also learn how to select and conduct statistical tests in R in LA-8, which will be assigned in Week 13 (15-Nov) via Canvas.
+> There will also be material on how to select and conduct statistical tests in R in LA-8.
 
 ---
 

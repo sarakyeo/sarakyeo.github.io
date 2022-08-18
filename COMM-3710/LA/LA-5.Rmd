@@ -32,7 +32,7 @@ In this assignment, you will learn how to:
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
 
-Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/123052929/download?download_frd=1) data set into R. This data set is saved as a .csv file.
 
 Packages to load:
 
@@ -47,35 +47,20 @@ See LA-4 for a reminder of how to load data into R, which involves using the fun
 
 ## Codebook
 
-| Variable Name | Description |
-| :------------ | :---------- |
-| `age` | Subject age at baseline |
-| `anysub` | Use of any substance post-detox (no, yes) |
-| `cesd` | Center for Epidemiologic Studies Depression measure at baseline (high scores indicate more depressive symptoms) |
-| `d1` | Lifetime number of hospitalizations for medical problems (measured at baseline) |
-| `daysanysub` | Time (in days) to first use of any substance post-detox |
-| `dayslink` | Time (in days) to linkage to primary care |
-| `drugrisk` | Risk Assessment Battery drug risk scale at baseline |
-| `e2b` | Number of times in past 6 months entered a detox program (measured at baseline) |
-| `female` | Biological sex (0 = male, 1 = female) |
-| `sex` | Biological sex (male, female)  |
-| `g1b` | Experienced serious thoughts of suicide in last 30 days (measured at baseline; no, yes) |
-| `homeless` | Housing status (housed, homeless) |
-| `i1` | Average number of drinks consumed per day in past 30 days (measured at baseline) |
-| `i2` | Maximum number of drinks consumed per day in past 30 days (measured at baseline) |
-| `id` | Subject identifier |
-| `indtot` | Inventory of Drug Use Consequences (InDUC) total score (measured at baseline) |
-| `linkstatus` | Post-detox linkage to primary care (0 = no, 1 = yes) |
-| `link` | Post-detox linkage to primary care (no, yes) |
-| `mcs` | SF-36 Mental Component Score (measured at baseline; lower scores indicate worse status) |
-| `pcs` | SF-36 Physical Component Score (measured at baseline; lower scores indicate worse status) |
-| `pss_fr` | Perceived social support by friends (measured at baseline; higher scores indicate more support) |
-| `racegrp` | Race/Ethnicity (black, hispanic, white, other) |
-| `satreat` | Any BSAS substance abuse treatment at baseline (no, yes) |
-| `sexrisk` | Risk Assessment battery; sex risk score (measured at baseline; high scores indicates higher risk) |
-| `substance` | Primary substance of abuse (alcohol, cocaine, heroin) |
-| `treat` | Randomized to HELP clinic (no, yes) |
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
 
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in HELP dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
 
 # Step 2 {.tabset .tabset-fade}
 ## Instructions
@@ -101,6 +86,25 @@ hdata %>%
         freq(racegrp) # examine freq dist of variable, racegrp
 ```
 
+If you are having trouble with the `summarytools` package (so far, this has happened only for students using Macs), you may see the following error message (probably in <span style="color: red;">angry-looking `r emo::ji("angry")` red font</span>):
+```
+Error: package or namespace load failed for ‘summarytools’:
+.onLoad failed in loadNamespace() for 'tcltk', details:
+call: fun(libname, pkgname)
+error: X11 library is missing: install XQuartz from xquartz.org
+```
+
+The solution is to read the error message and follow the instructions--install XQuartz from xquartz.org. Once you have XQuartz installed on your Mac, re-install `summarytools` using `install.packages("summarytools)` and the package should load when you run the command, `library(summarytools)`.
+
+If you continue to experience issues with `summarytools`, try:
+
+1) Reinstalling [XQuartz](https://www.xquartz.org/). If you still encounter problems, try the step below.
+2) Install `summarytools` directly from Github in R using the following commands:
+```{r summarytools, eval=FALSE, echo=TRUE}
+install.packages("devtools")
+devtools::install_github("dcomtois/summarytools", ref = "no-x11-check")
+```
+
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
@@ -109,7 +113,7 @@ Now, subset the data to only include patients whose primary substance of abuse i
 a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
 
 ## Hint
-The code below subsets the data to include only patients who are housed (we did this in LA-4, if you need a reminder). We could also combine two criteria for filtering into one command.
+The code below subsets the data to include only patients who are housed (we did this in [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html) if you need a reminder). We could also combine two criteria for filtering into one command.
 
 ```{r filter, eval=FALSE, echo=TRUE}
 # Filter hdata to select only patients who are housed 

@@ -28,17 +28,20 @@ The scientific method consists of 7 basic steps:
 
 
 # The Wheel of Science Revisited {.tabset .tabset-fade}
-<center>
-<img src="https://sarakyeo.github.io/images/wheel-of-science.png"/>
-</center>
-<br> 
+```{r, wheel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/wheel-of-science.png")
+
+```
 
 In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science), we discussed inductive and deductive reasoning. Let's now turn to other terms in the wheel of science. Click on the tabs below to learn about the terms, *theory*, *hypothesis*, *observation*, and *empirical generalization*.
 
 ## Theory
-<center>
-<img src="https://sarakyeo.github.io/images/theory.png"/>
-</center>
+```{r, theory, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/theory.png")
+
+```
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O6hyn_N4oj0" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,8 +54,11 @@ In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science
 
 ## Hypothesis
 <center>
-<img src="https://sarakyeo.github.io/images/hypothesis.png"/>
-</center>
+```{r, hypothesis, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/hypothesis.png")
+
+```
 
 **Antecedent propositions** can be thought of as `IF` statements.
 
@@ -78,9 +84,11 @@ The most concrete concept in our wheel of science is observation. These observat
 
 It is important to note that measurement in social science, like in most other sciences, is not exact. It would be difficult to imagine exact measurement of people's attitudes, behaviors, beliefs, and values! In other words, there is always some degree of error in measurement.
 
-<center>
-<img src="https://sarakyeo.github.io/images/observations.png"/>
-</center>
+```{r, obs, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/observations.png")
+
+```
 
 When we consider "empirical" observations, we mean that these observations must be measurable--something that we can sense (or that instruments we use can be sensed).
 
@@ -92,25 +100,27 @@ Consider the following example:
 
 Researchers in education are studying students aged 6-12 years old. The researchers measure and track students' shoe size and math skill in the children in the study. They find that there is a positive correlation between shoe size and math skill. In other words, larger shoe sizes are correlated with better math skills, and vice versa. This relationship can be shown as follows:
 
-<center>
-<img src="https://sarakyeo.github.io/images/spurious1.PNG"/>
-</center>
-<br>
+```{r, spurious-1, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious1.PNG")
+
+```
 
 Of course, we know that this relationship is coincidental! As children get older, they tend to get more educated and, as a consequence, their math skills improve. The actual relationship, therefore, is more like:
 
-<center>
-<img src="https://sarakyeo.github.io/images/spurious2.PNG"/>
-</center>
-<br>
+```{r, spurious-2, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious2.PNG")
+
+```
 
 The **spurious relationship** in this example is that between *shoe size* and *math skill*:
 
-<center>
-<img src="https://sarakyeo.github.io/images/spurious3.PNG"/>
-</center>
+```{r, spurious-3, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
 
-<br>
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious3.PNG")
+
+```
 
 Here are some other examples of spurious relationships--see if you can figure out what the unobserved variable is that affects both variables in the spurious relationship.
 
@@ -145,10 +155,11 @@ The units of analysis and observation are the **what or whom being studied**.
 
 For example, if I was curious about classes in the Department of Communication at the U, I might collect data from individual students and group them into classes when I analyze the data. The figure below shows how conclusions (called "Sample Statements" in the figure) are related to the units of analysis.
 
-<center>
-<img src="https://sarakyeo.github.io/images/units-of-analysis.PNG"/>
-</center>
-<br>
+```{r, units, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/units-of-analysis.PNG")
+
+```
 
 
 ### Common Problems in Empirical Generalizations{.tabset .tabset-fade .tabset-pills}
@@ -192,10 +203,11 @@ Research ethics can be defined in terms of **means** and **ends**.
 - **Means** refer to tools or behaviors that we use to achieve outcomes.
 - **Ends** refer to the outcomes themselves.
 
-<center>
-<img src="https://sarakyeo.github.io/images/calvin-ethics.jpg"/>
-</center>
-<br>
+```{r, calvin, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/calvin-ethics.jpg")
+
+```
 
 By defining ethics in terms of whether the means and ends are good (or moral / just), we can identify 4 types of ethics (Figure 3.1 of your textbook):
 
@@ -210,10 +222,11 @@ Read Ch. 3 of your textbook for full definitions and examples of these ethical c
 ## The Belmont Report {.tabset .tabset-fade .tabset-pills}
 The Belmont Report is a report that outlines the basic ethical principles for which all human subjects researchers are accountable. The report was completed in 1979 by the National Commission for the Protection of Human Subjects in Biomedical and Behavioral Research.
 
-<center>
-<img src="https://sarakyeo.github.io/images/belmont.png"/>
-</center>
-<br>
+```{r, belmont, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/belmont.png")
+
+```
 
 The three basic principles outlined in the Belmont Report are:
 
