@@ -29,7 +29,7 @@ For more information about the course, please see the course syllabus on [Canvas
 
 `r emo::ji('science')` I am an expert in survey research and experiments, and I primarily conduct research in science communication. You can check out some of my work [here](https://orcid.org/0000-0002-2043-8400).
 
-`r emo::ji('computer')` Currently, I have two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
+`r emo::ji('computer')` Currently, I have two projects funded by the [National Science Foundation](https://nsf.gov/)--[one on science humor](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906864) and [another in collaboration with PBS Digital Studios](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120006).
 
 `r emo::ji('+1')` You can browse more of my work on my [CV](https://docs.google.com/document/d/1YCrk1gc2QDnrBvCdwNlN5RHpowDyBGdp4HDHe8h6S2Q/edit?usp=sharing) and more information is available on my [faculty page](https://faculty.utah.edu/~sarakyeo).
 
