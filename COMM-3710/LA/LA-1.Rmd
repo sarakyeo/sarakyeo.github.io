@@ -72,7 +72,7 @@ Choose a naming convention for your class folder and stick with it. Some recomme
 2. `lab_assignments` to store your lab assignments.
 3. `data` for storing data files.
 
-**All files related to this course should be stored in this working directory. Take a screenshot of your working directory and save it.**
+**All files related to this course should be stored in this working directory. Take a screenshot of your working directory in Finder (Mac) Windows Explorer (PC) and save it. There are examples of screenshots at the bottom of the page.**
 
 ---
 
