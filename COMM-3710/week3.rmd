@@ -12,7 +12,7 @@ urlcolor: blue
 
 > "A good part of the work called 'theorizing' is taken up with the clarification of concepts--and rightly so." -Robert Merton, *Social Theory and Social Structure* (1968, p. 168)
 
-> **Assigned reading**: [McLeod et al.](https://utah.instructure.com/courses/757513/files/123052925/download?download_frd=1)
+> **Assigned reading**: [McLeod et al.](https://utah.instructure.com/files/131421316/download?download_frd=1)
 
 
 # Some Definitions {.tabset .tabset-fade}
@@ -23,7 +23,7 @@ When you type `define explicate` into a Google search, the result (combined with
 </center>
 <br>
 
-**Concept explication** is the process of creating, defining, and using a concept in scientific research. It is the process by which abstract, theoretical concepts are systematically linked to empirical observations in the real world.
+`r emo::ji("light")` **Concept explication** is the process of creating, defining, and using a concept in scientific research. It is the process by which abstract, theoretical concepts are systematically linked to empirical observations in the real world.
 
 Before we discuss this process in more detail, we first need to define the terms, **concept** and **construct**.
 
@@ -51,12 +51,13 @@ Concept explication involves two stages, which are explained in more detail in t
 1. Meaning analysis
 2. Empirical analysis
 
-Concept explication is a cyclical process. Through concept explication and iterations of meaning and empirical analysis, we can refine our definitions, which in turn inform the observations we make.
+Concept explication is a cyclical process (see GIF below). Through concept explication and iterations of meaning and empirical analysis, we can refine our definitions, which in turn inform the observations we make.
 
-<center>
-<img src="https://sarakyeo.github.io/images/concept-explication-cycle.gif"/>
-</center>
-<br>
+```{r, exp-cycle, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/concept-explication-cycle.gif")
+
+```
 
 ```{r, meaning-empirical-analysis, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
@@ -84,35 +85,31 @@ A **conceptual definition** include properties that researchers decide are impor
 A **operational definition** is a definition that includes the procedures by which concepts will be measured.
 
 The process of meaning analysis is illustrated below:
-<center>
-<img src="https://sarakyeo.github.io/images/meaning-analysis.png"/>
-</center>
-<br>
+```{r, meaning-analysis, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/meaning-analysis.png")
+
+```
 
 ---
 
 ## Empirical Analysis
 **Empirical analysis** is an **inductive process** by which we evaluate our conceptual and operational definitions based on empirical evidence (i.e., observations or data that we collect). We use statistical and logical procedures in empirical analysis to **assess the quality of the conceptual and operational definitions** that we developed through meaning analysis.
 
-The process of empirical analysis is illustrated below (Note that you start from the bottom, i.e., from "data"):
-<center>
-<img src="https://sarakyeo.github.io/images/empirical-analysis.png"/>
-</center>
-<br>
+The process of empirical analysis is illustrated below (note that you start from the bottom, i.e., from "data"):
+```{r, emp-analysis, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/empirical-analysis.png")
+
+```
 
 ---
 
 # Steps in Meaning Analysis {.tabset .tabset-fade}
 As identified in McLeod et al., there are several steps in the process of meaning analysis, which is often also referred to as **conceptualization**:
 
-1. Identify the concept
-2. Search the literature
-3. Examine empirical properties
-4. Develop a tentative conceptual definition
-5. Define the concept operationally
-6. Gather data
 
-## Identify the concept
+## 1) Identify the concept
 Researchers identify the concept of interest using a logical analysis of what we wish to study and explain.
 
 To do so, some of the questions we ask ourselves include:
@@ -124,7 +121,7 @@ To do so, some of the questions we ask ourselves include:
 
 ---
 
-## Literature search
+## 2) Literature search
 There is no need to reinvent the wheel--we can (and should) use library resources to discover how previous scholars have conceptualized and operationalized the concept (or concepts) of interest.
 
 Some questions to ask:
@@ -135,14 +132,14 @@ Some questions to ask:
 
 ---
 
-## Examine empirical properties
+## 3) Examine empirical properties
 In this step, we use descriptive statistics to examine the properties of operational definitions of the concept (e.g., central tendency, range, etc). We do this because the concept needs to have sufficient variation for it to be useful for research.
 
 Examining the empirical properties of a concept should give the researcher a better sense of how it should be operationalized.
 
 ---
 
-## Develop a tentative conceptual definition
+## 4) Develop a tentative conceptual definition
 Now, we need to identify the essential elements of the concept of interest.
 
 For the purposes of your research...
@@ -154,7 +151,7 @@ There will be many iterations of this step as we revise and refine the conceptua
 
 ---
 
-## Define the concept operationally
+## 5) Define the concept operationally
 As researchers, we want to be able to directly measure concepts. When we develop operational definitions (through the process of operationalization), we need to ask what the observable measures of each concept will be. In other words, what empirical **indicators** will we use for the dimensions of the concept? 
 
 The operational definition should include:
@@ -165,15 +162,15 @@ The operational definition should include:
 
 ---
 
-## Gather data
+## 6) Gather data
 All the work we have done to come up with conceptual and operational definitions for the concept need to be used in **data collection**. These data will then be used in the second part of concept explication--empirical analysis.
 
 ---
 
 # Concepts, Dimensions, and Indicators
-In the section titled [Steps in Meaning Analysis], we introduced two new terms related to **concepts**: <mark>dimensions</mark> and <mark>indicators</mark>.
+In discussing the [steps in meaning analysis], we introduced two new terms: <mark>dimensions</mark> and <mark>indicators</mark>.
 
-For clarity, the three terms and their definitions are listed below. The GIF beneath that shows an example of each.
+For clarity, the three terms and their definitions are listed below. The image beneath that shows an example of each.
 
 ```{r, conc-dimen-indic, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
@@ -193,15 +190,17 @@ df %>%
         column_spec(2, width = "30em")
 
 ```
-<br>
 
-<center>
-<img src="https://sarakyeo.github.io/images/concepts-dimensions-indicators.png"/>
-</center>
-<br>
+
+```{r, c-d-i, echo=FALSE, message=FALSE, warning=FALSE, out.width = "95%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/concepts-dimensions-indicators.png")
+
+```
+
 
 # Linking Concept Explication and Theory
-Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/117882977/download?download_frd=1) reading.
+Before watching the video below, review pp. 4-7 of the [McLeod et al.](https://utah.instructure.com/files/131421316/download?download_frd=1) reading.
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QdoHRl4oM-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
