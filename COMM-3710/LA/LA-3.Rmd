@@ -26,7 +26,7 @@ In this assignment, you will learn how to:
 - Look at the contents of a data frame or tibble.
 - Identify variables and their types in a tibble.
 
-> You may use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to organize your R script.
+> `r emo::ji("warning")` You may use this [template](https://utah.instructure.com/files/131421338/download?download_frd=1) to organize your R script.
 
 ---
 
@@ -40,7 +40,7 @@ Read [Ch. 3 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COM
 Create a new R script.
 
 ## Hint
-Revisit [Step 1] if you are unsure how to create a new R script. You can also use this [template](https://utah.instructure.com/files/123052924/download?download_frd=1) to help organize your R script.
+Revisit [Step 1] if you are unsure how to create a new R script. You can also use this [template](https://utah.instructure.com/files/131421338/download?download_frd=1) to help organize your R script.
 
 
 # Step 3 {.tabset .tabset-fade}
@@ -69,6 +69,7 @@ Make a section of foldable code titled "Installing and loading packages." Under 
 
 > **Pseudocode** is the plain English version of your R code that described the steps you are taking in R. It should be written as comments in your R script and should be logical.
 
+`r emo::ji("warning")` While you can work with another student on your assignments, your pseudocode **should be in your own words**. Identical submissions will be flagged as plagiarism, which will be dealt with in accordance with the course policy.
 
 Then, write commands to **install** the above packages and **load** them into your current session of R.
 
@@ -125,7 +126,7 @@ Remember that `?` before any function in R will open the documentation for that 
 
 # Step 7 {.tabset .tabset-fade}
 ## Instructions
-Time to enter the data!
+Time to enter data!
 
 Write pseudocode to enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `ppg`, and `pts`, respectively.
 
@@ -145,7 +146,7 @@ df %>%
   kable_classic(full_width = FALSE, html_font = "Arial")
 ```
 
-After writing code in your R script, remember to **run** it.
+`r emo::ji("running")` After writing code in your R script, remember to **run** it.
 
 ## Hint
 There are two data types in the data table, numeric and character. To enter these data types into objects, review [Section 2.4.2](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#data-types) in the book.
