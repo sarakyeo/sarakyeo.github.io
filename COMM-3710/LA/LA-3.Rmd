@@ -149,7 +149,7 @@ df %>%
 `r emo::ji("running")` After writing code in your R script, remember to **run** it.
 
 ## Hint
-There are two data types in the data table, numeric and character. To enter these data types into objects, review [Section 2.4.2](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#data-types) in the book.
+There are two data types in the data table, numeric and character. To enter these data types into objects, review [Section 2.4](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#learning-by-doing) in the book.
 
 
 # Step 8 {.tabset .tabset-fade}
