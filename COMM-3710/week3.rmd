@@ -51,14 +51,27 @@ Concept explication involves two stages, which are explained in more detail in t
 1. Meaning analysis
 2. Empirical analysis
 
-Concept explication is a cyclical process (see GIF below). Through concept explication and iterations of meaning and empirical analysis, we can refine our definitions, which in turn inform the observations we make.
+Concept explication is a cyclical process (see GIF below or static image in the tab). Through concept explication and iterations of meaning and empirical analysis, we can refine our definitions, which in turn inform the observations we make.
 
+## GIF
 ```{r, exp-cycle, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/concept-explication-cycle.gif")
 
 ```
 
+---
+
+## Static image
+```{r, exp-cycle-static, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/concept-explication-cycle.png")
+
+```
+
+---
+
+# Stages of Concept Explication {.tabset .tabset-fade}
 ```{r, meaning-empirical-analysis, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
 library(tidyverse)
