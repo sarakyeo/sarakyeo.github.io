@@ -69,11 +69,11 @@ Each variable has its associated aspects, which include **variable attributes** 
 
 **Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., `1 = brown`, `2 = blue`, `3 = green`. 
 
-<br>
-<center>
-<img src="https://sarakyeo.github.io/images/aspects-variables.png"/>
-</center>
-<br>
+```{r, var-aspect, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/aspects-variables.png")
+
+```
 
 ## Types of Variables
 A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
@@ -121,10 +121,11 @@ In research, **relationships** refer to connections between variables. Most comm
 
 For example, Yeo et al. (2014) studied the relationship between people's *perceptions of risk related to nuclear energy* and *attention to media*.
 
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2014.png"/>
-</center>
-<br>
+```{r, yeo-et-al, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2014.png")
+
+```
 
 Relationships typically fall into one of three categories: **positive**, **negative**, or **neutral**. We typically use a number, known as Pearson's correlation coefficient (denoted by $r$) to describe the strength and direction of a relationship. This is an inferential statistic that we can compute.
 
@@ -160,11 +161,11 @@ Let's say $X$ is an independent variable and $Y$ is a dependent variable.
 
 In a positive relationship, when $X$ $\Uparrow$, $Y$ $\Uparrow$. Also, when $X$ $\Downarrow$, $Y$ $\Downarrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
 
-<center>
-<img src="https://sarakyeo.github.io/images/pos-rel.png"/>
-</center>
-<br>
+```{r, pos-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
 
+knitr::include_graphics("https://sarakyeo.github.io/images/pos-rel.png")
+
+```
 
 ### Negative
 Negative relationships exist when an increase in one variable results in a decrease in another variable. In other words, the variables move **in the opposite direction**.
@@ -173,22 +174,22 @@ Again, say $X$ is an independent variable and $Y$ is a dependent variable.
 
 In a negative relationship, when $X$ $\Uparrow$, $Y$ $\Downarrow$. Also, when $X$ $\Downarrow$, $Y$ $\Uparrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
 
-<center>
-<img src="https://sarakyeo.github.io/images/neg-rel.png"/>
-</center>
-<br>
+```{r, neg-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
 
+knitr::include_graphics("https://sarakyeo.github.io/images/neg-rel.png")
+
+```
 
 ### Neutral
 A **neutral relationship** is on in which the variables are not related. In other words, it is the lack of a relationship and changes in one variable do not result in changes in the other.
 
 Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neutral relationship would look like this:
 
-<center>
-<img src="https://sarakyeo.github.io/images/neu-rel.png"/>
-</center>
-<br>
+```{r, neu-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
 
+knitr::include_graphics("https://sarakyeo.github.io/images/neu-rel.png")
+
+```
 
 ## Differences {#Differences .tabset .tabset-fade}
 Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
@@ -222,21 +223,23 @@ In general, we want to be able to quantify information so that...
 3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
 
 ## Levels of Measurement {.tabset .tabset-fade}
-`r emo::ji("ruler")`` Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
+`r emo::ji("ruler")` Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
 
 If necesary, refer to the [section defining a variable](#var) to review the definitions of *variable attribute* and *variable value*.
 
-<center>
-<img src="https://sarakyeo.github.io/images/level-of-meas.png"/>
-</center>
-<br>
+```{r, level-of-meas, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/level-of-meas.png")
+
+```
 
 Quantitative data can be measured as **categorical/discrete** or **continuous** variables. Each of these broad categories has two levels of measurement.
 
-<center>
-<img src="https://sarakyeo.github.io/images/meas01.png"/>
-</center>
-<br>
+```{r, meas01, echo=FALSE, message=FALSE, warning=FALSE, out.width = "75%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/meas01.png")
+
+```
 
 Click on the tabs below to learn about the four levels of measurement. 
 
@@ -260,11 +263,11 @@ There is a special type of nominal measure called a **binary** measure. One exam
 
 Nominal data are typically reported as proportions or percentages.
 
-<center>
-<img src="https://sarakyeo.github.io/images/nominal.png"/>
-</center>
-<br>
+```{r, nominal, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
 
+knitr::include_graphics("https://sarakyeo.github.io/images/nominal.png")
+
+```
 
 ### Ordinal
 **Ordinal variables** have a logical order to the categories used to represent variable attributes. Again, the categories must be mutually exclusive--a respondent should only "fit" into one category.
@@ -288,11 +291,11 @@ Lastly, there is no zero point in an ordinal variable. In other words, there is 
 <br>
 
 Here's another example of an ordinal variable:
-<center>
-<img src="https://sarakyeo.github.io/images/ordinal.png"/>
-</center>
-<br>
+```{r, ordinal, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
 
+knitr::include_graphics("https://sarakyeo.github.io/images/ordinal.png")
+
+```
 
 ### Interval
 **Interval variables** categorize variable attributes in a logical order that represents equal distances between each category. Attitudes, risk perceptions, opinions, and behavioral intentions are examples of interval measures, if we assume the distance between each variable attribute to be equal or constant.
@@ -311,31 +314,33 @@ Note that we are assuming the distances between attributes to be equal in this e
 <br>
 
 Another example is temperature:
-<center>
-<img src="https://sarakyeo.github.io/images/interval.png"/>
-</center>
+```{r, interval, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
 
-Again, $0^\circ C$ is an arbitrarily defined zero-point, and so is $0^\circ F$. 
+knitr::include_graphics("https://sarakyeo.github.io/images/interval.png")
 
+```
+
+Again, $0^\circ C$ is an arbitrarily defined zero-point, and so is $0^\circ F$.
 
 ### Ratio
 **Ratio variables** share all the characteristics of interval variables except that ratio variables have an absolute zero point. In other words, there can be an absence of the variable that is being measured. For example, test scores, number of days one reads a newspaper, and speed are ratio variables.
 
 All these examples have mutually exclusive categories, the distances between variable attributes are equal, and they all have a "real" (or absolute) zero, i.e., true absence of a characteristic. 
 
-
 ### Summary
 
 Here's an illustration to help you remember nominal, ordinal, and binary measures (remember that binary measures are a special case of nominal measures).^[Artwork by [Allison Horst](https://twitter.com/allison_horst)]
 
-<center>
-<img src="https://sarakyeo.github.io/images/nominal_ordinal_binary.png"/>
-</center>
-<br>
+```{r, summary, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/nominal_ordinal_binary.png")
+
+```
 
 The figure below helps visualize the four levels of measurement based on how precise (or how much information contained in each level) they are.
 
-<center>
-<img src="https://sarakyeo.github.io/images/meas02.png"/>
-</center>
-<br>
+```{r, meas02, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/meas02.png")
+
+```
