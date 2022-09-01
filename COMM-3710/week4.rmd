@@ -222,7 +222,7 @@ In general, we want to be able to quantify information so that...
 3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
 
 ## Levels of Measurement {.tabset .tabset-fade}
-Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
+`r emo::ji("ruler")`` Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
 
 If necesary, refer to the [section defining a variable](#var) to review the definitions of *variable attribute* and *variable value*.
 
