@@ -179,6 +179,14 @@ Start by identifying the variables (which variable will you use to filter or sel
 
 If you need help with the `mean()` function, pull up the corresponding help documentation.
 
+
+# Bonus Question {.tabset .tabset-fade}
+## Instructions
+There are multiple ways to obtain the minimum, maximum, and mean values of variables in a dataset. See if you can figure out how to use the `descr()` function in the `summarytools` package to answer the two questions in [Step 5].
+
+## Hint
+Refer to [LA-1](https://sarakyeo.github.io/COMM-3710/LA/LA-1.html) for a reminder on how to read the documentation for any command in R.
+
 ---
 
 # Submission
