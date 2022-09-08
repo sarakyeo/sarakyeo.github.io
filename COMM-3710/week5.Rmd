@@ -57,7 +57,7 @@ If YES, how much attention did you pay to them?
 
 ---
 
-> Check your answers [here](https://utah.instructure.com/files/123052927/download?download_frd=1).
+> Check your answers [here](https://utah.instructure.com/files/131421318/download?download_frd=1).
 
 ---
 
@@ -77,9 +77,9 @@ Polling is survey research that we often hear about in media, especially as it r
 
 That said, people had some questions about the accuracy of polling following the 2016 election. Read the three articles below. Each highlights some of the contemporary challenges faced by polling.
 
-- [Bialik and Enten (2016)](https://utah.instructure.com/files/117883439/download?download_frd=1)
-- [Zukin (2015)](https://utah.instructure.com/files/117883435/download?download_frd=1)
-- [Silver (2014)](https://utah.instructure.com/files/117883434/download?download_frd=1)
+- [Bialik and Enten (2016)](https://utah.instructure.com/files/131421352/download?download_frd=1)
+- [Zukin (2015)](https://utah.instructure.com/files/131421341/download?download_frd=1)
+- [Silver (2014)](https://utah.instructure.com/files/131421335/download?download_frd=1)
 
 
 # When to Use Surveys
@@ -90,7 +90,7 @@ According to Buckingham and Saunders (2004)^[Buckingham, A., & Saunders, P. (200
 3. Do your participants know anything? Will they tell you?
 4. Is your goal generalizability?
 
-Read about these four considerations in **Chapter 9 of your [textbook](https://utah.instructure.com/courses/722123/external_tools/73308?display=borderless)**.
+Read about these four considerations in **Chapter 9 of your [textbook](https://utah.instructure.com/courses/800682/external_tools/73308?display=borderless)**.
 
 ---
 
@@ -118,25 +118,29 @@ There is often ambiguity in a survey question that researchers fail to catch. Wh
 
 I was pilot testing a survey on a group of college students and asked them the following question: 
 
-<center>
-<img src="https://sarakyeo.github.io/images/form-educ-q.png"/>
-</center>
-<br>
+```{r, survey-q, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/form-educ-q.png")
+
+```
 
 The drop-down list of response choices ranged from `0` to `31 or more`. The frequency distribution of the responses is shown below. This type of graph shows the response categories on the x-axis (horizontal) and the number of responses for each category, or the frequency of each category, on the y-axis (vertical).
 
-<center>
-<img src="https://sarakyeo.github.io/images/formal-educ.png"/>
-</center>
-<br>
+```{r, form-educ, echo=FALSE, message=FALSE, warning=FALSE, out.width = "75%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/formal-educ.png")
+
+```
 
 Since my sample consisted only of college students, I expected responses to only be in categories > 12 years of formal education. However, my question was poorly worded. It looks like some respondents thought that the question was asking them about how many years of **college** education they had completed.
 
 As a result of this pilot test, I revised this survey question as follows. As you can see, the question contains a more specific definition of "formal education."
 
-<center>
-<img src="https://sarakyeo.github.io/images/form-educ-q2.png"/>
-</center>
+```{r, form-educ2, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/form-educ-q2.png")
+
+```
 
 ---
 
