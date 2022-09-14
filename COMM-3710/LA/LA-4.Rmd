@@ -63,12 +63,11 @@ a) How many cases are there in the HELP dataset?
 b) How many variables are there in the HELP dataset?
 
 ## Hint
-Read [this section of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#set-working-directory-and-readload-data-into-r). 
+Read [this section of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#set-working-directory-and-readload-data-into-r).
 
 You can also open the documentation for the function, `read_csv()` in R.
 
 ## Codebook
-
 
 | Variable Name | Description |
 | :------------ | :---------- |
