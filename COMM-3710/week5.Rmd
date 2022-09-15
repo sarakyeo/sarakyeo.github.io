@@ -11,7 +11,7 @@ urlcolor: blue
 ---
 
 # Survey Research
-Let's begin by examining some examples of survey questions. As you read these, think about why a respondent might be hesitant to provide an answer to each question. Write down your these thoughts so you can compare your notes with mine.
+`r emo::ji("thinking")` Let's begin by examining some examples of survey questions. As you read these, think about why a respondent might be hesitant to provide an answer to each question. Write down your these thoughts so you can compare your notes with mine.
 
 While you can easily find fault with the response options provided for each survey question, try to focus instead on the wording of the question itself or the way the question is asked.
 
@@ -95,7 +95,7 @@ Read about these four considerations in **Chapter 9 of your [textbook](https://u
 ---
 
 # How to Conduct Survey Research
-At first glance, conducting a survey might seem easy. This is **far** from the truth. In fact, conducting a survey research project takes a significant amount of time and a lot of careful planning, testing, and revising.
+`r emo::ji("question")` At first glance, conducting a survey might seem easy. This is **far** from the truth. In fact, conducting a survey research project takes a significant amount of time and a lot of careful planning, testing, and revising.
 
 As it states in your textbook, "[b]eing haphazard in one's approach is not science" (Chapter 9). As with any research project, you should...
 
@@ -132,7 +132,7 @@ knitr::include_graphics("https://sarakyeo.github.io/images/formal-educ.png")
 
 ```
 
-Since my sample consisted only of college students, I expected responses to only be in categories > 12 years of formal education. However, my question was poorly worded. It looks like some respondents thought that the question was asking them about how many years of **college** education they had completed.
+Since my sample consisted only of college students, I expected responses to only be in categories > 12 years of formal education. However, my question was poorly worded. It looks like some respondents thought that the question was asking them about how many years of **college** education they had completed. `r emo::ji("scream")`
 
 As a result of this pilot test, I revised this survey question as follows. As you can see, the question contains a more specific definition of "formal education."
 
@@ -159,7 +159,7 @@ To do so, you must have some idea of how survey responses are used in statistica
 ---
 
 ## Step 5: Pilot Testing
-A **pilot test** is a small-scale test-run of your survey project. As illustrated in Step 2, this can often bring to light issues with the questionnaire or study design that the researchers did not anticipate.
+`r emo::ji("airplane")` A **pilot test** is a small-scale test-run of your survey project. As illustrated in Step 2, this can often bring to light issues with the questionnaire or study design that the researchers did not anticipate.
 
 It is critical to pilot test your questionnaire before conducting the full study. Your textbook describes a relatively in-depth pilot study. Not all researchers need or are able to conduct such a comprehensive pilot study for all projects. There are degrees of comprehensiveness of pilot studies. For example, a researcher might pilot test some questions on a survey about which they are unsure instead of the entire survey.
 
@@ -168,11 +168,11 @@ These types of decisions are among the many that researchers make when conductin
 ---
 
 # Questionnaire Construction {#quescons}
-We use a questionnaire because it is a **standardized measurement instrument** that allows us to collect **valid** and **reliable** data.
+`r emo::ji("ruler")` We use a questionnaire because it is a **standardized measurement instrument** that allows us to collect **valid** and **reliable** data.
 
 Although we call it a questionnaire, not all of the "questions" contained within it are true questions. Many questions are in the form of statements that require participants to indicate the degree to which they agree or disagree with the statements.
 
-The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html)) and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
+The agree-disagree scales that many of us are familiar with are known as Likert scales (see example in [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html); search the page for "Likert") and they are interval level measures (if this term is unfamiliar, review levels of measurement in [Week 4](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)).
 
 Two important aspects of questionnaire construction that researchers must pay attention to when creating a survey are:
 
@@ -192,13 +192,13 @@ Being mindful of these aspects increases the likelihood that respondents will co
 
 > **Survey research is generally strong on reliability but *can* be weak on validity**.
 
-## Strengths
+## Strengths `r emo::ji("muscle")`
 1. Surveys allow researchers to make inferences to large groups of people. In other words, surveys allow us to make **generalizations**. Of course, this means that we must first have valid and reliable measures of the concepts of interest in your survey and we must employ probability sampling techniques to obtain a representative sample of the population.
 2. We can often have **large samples** in a survey. It is not uncommon to have sample sizes upwards of 2,000 respondents. If we use probability sampling techniques, this allows us to make more accurate predictions and inferences about the population of interest.
 
 ---
 
-## Weaknesses/Challenges
+## Weaknesses/Challenges `r emo::ji("shrug")`
 1) Sometimes, conducting survey research can be like trying to fit round pegs into square holes. Because we have standardized questionnaires for every respondent, we might miss some complexities and nuances in people's attitudes, opinions, behaviors, perceptions, etc. However, this can often be overcome through a combination of careful concept explication prior to data collection and sophisticated statistical analyses after data collection.
 
 2) Another critique of survey research is its **artificiality**. We cannot always use surveys to answer all our research questions. Additionally, if we have a sensitive topic, we may influence respondents' answers by asking survey questions about it. **Artificiality strains the validity of our surveys**; if the situation in which respondents are answering our survey suffers from the problem of artificiality, we may not be able to tell whether the results obtained are accurate reflections of our respondents' views.
@@ -212,13 +212,13 @@ Survey research projects are major undertakings. It can take a year or more to p
 
 This is known as **secondary analysis** and the data used for such analyses are known as **secondary data**. The data used in your individual assignments are secondary data.
 
-## Advantages of Secondary Analysis
+## Advantages of Secondary Analysis `r emo::ji("+1")`
 - cheaper
 - quicker
 - allows researchers to conduct [meta-analyses](https://en.wikipedia.org/wiki/Meta-analysis)
 
 
-## Disadvantages of Secondary Analysis
+## Disadvantages of Secondary Analysis `r emo::ji("-1")`
 - may be weak on validity
 - data many not exactly fit or be appropriate to the research question
 - measures may not be valid or reliable
