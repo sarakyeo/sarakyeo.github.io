@@ -205,21 +205,24 @@ We have already discussed that experiments impose relatively artificial environm
 # The Solomon Four-Group Design
 The **Solomon four-group design** expands on the basic experimental design to account for threats to internal validity. To review, the basic experimental design includes a pretest-posttest control group design:
 
-```{r, solomon, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center', fig.cap = "Basic experimental design."}
+```{r, solomon, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center', fig.cap = "Basic experimental design."}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/basic-experimental-design.png")
 
 ```
 
-In the basic experimental design, it is possible for pretesting to have an effect on subjects. Since there is no group in which respondents do not get a pretest, researchers cannot tell if pretesting threatens internal validity of the experiment. In other words, because of the lack of a group without a pretest, researchers may be unable to determine whether the effect on the dependent variable is due to the stimulus, $X$, or is an artifact of pretesting in both experimental and control groups.
+In the basic experimental design, it is possible for pretesting to have an effect on subjects. Since there is no group in which respondents do not get a pretest, researchers cannot tell if pretesting threatens internal validity of the experiment.
+
+In other words, because of the lack of a group without a pretest, researchers may be unable to determine whether the effect on the dependent variable is due to the stimulus, $X$, or is an artifact of pretesting in both experimental and control groups.
 
 > To overcome this, the Solomon four-group design **adds** a posttest-only control group design to the basic experimental design.
 
-```{r, solomon-basic, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center', fig.cap = "Solomon four-group design."}
+```{r, solomon-basic, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center', fig.cap = "Solomon four-group design: **Groups A and C** are the experimental groups while **Groups B and D** are the control groups."}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/solomon-four-group-design_basic.png")
 
 ```
+
 
 ## An Example of Research Using the Solomon Four-Group Design
 Let's assume that we want to examine how a film about positive contributions of Muslims to U.S. history affects people's prejudice against Muslims. We design an experiment using the Solomon four-group design.
