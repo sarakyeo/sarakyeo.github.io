@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Getting Started with R | COMM 3710: Getting Started with R</title>
   <meta name="description" content="A guide to getting started with R in COMM 3710." />
-  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Getting Started with R | COMM 3710: Getting Started with R" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2022-08-08" />
+<meta name="date" content="2022-09-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -51,6 +51,8 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 <style type="text/css">
@@ -285,7 +287,7 @@ div.csl-indent {
 <p>From this point on, when “R” is referenced in the text, you know that you are accessing and using the language through RStudio.</p>
 </blockquote>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:open-R"></span>
-<img src="images/open-RStudio.png" alt="Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. The icon on the left is &quot;base R.&quot; Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio)."  />
+<img src="images/open-RStudio.png" alt="Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. The icon on the left is &quot;base R.&quot; Source: [ModernDive](https://moderndive.com/1-getting-started.html#r-rstudio)." width="770" />
 <p class="caption">
 Figure 2.1: Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. The icon on the left is “base R.” Source: <a href="https://moderndive.com/1-getting-started.html#r-rstudio">ModernDive</a>.
 </p>
@@ -294,7 +296,7 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 </div>
 <div id="how-do-i-use-r" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> How do I use R?<a href="start.html#how-do-i-use-r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>Unlike Excel, which has a point-and-click GUI, R is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>. This means that you, the user, must type in commands written in <strong>R code</strong>. In other words, this course will teach you to <strong>code</strong> or <strong>program</strong> using the R language.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <p>In COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to <a href="https://jamesclear.com/beginners-guide-deliberate-practice">practice deliberately</a>.</p>
 <blockquote>
 <p>“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” <span class="citation">(<a href="#ref-clearBeginnerGuideDeliberate2017" role="doc-biblioref">Clear 2017</a>)</span></p>
@@ -308,7 +310,7 @@ Figure 2.1: Typically, you will only need to use RStudio for this course. Click 
 </blockquote>
 <p>If you happen to see only three panels, please select <strong>File <span class="math inline">\(\rightarrow{}\)</span> New File <span class="math inline">\(\rightarrow{}\)</span> R Script</strong>. Your RStudio should like like Figure <a href="start.html#fig:RStudio-panels">2.2</a>.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:RStudio-panels"></span>
-<img src="images/RStudio-panels.png" alt="Editor and Console windows in RStudio."  />
+<img src="images/RStudio-panels.png" alt="Editor and Console windows in RStudio." width="640" />
 <p class="caption">
 Figure 2.2: Editor and Console windows in RStudio.
 </p>
@@ -352,7 +354,7 @@ Figure 2.2: Editor and Console windows in RStudio.
 <p>Some examples that we will use in this course include <code>ggplot2</code> <span class="citation">(<a href="#ref-wickhamGgplot2ElegantGraphics2020" role="doc-biblioref">Wickham, Navarro, and Pederson 2020</a>)</span>, <code>descr</code>, and <code>tidyverse</code>.</p>
 <p>Packages in R are like apps on your phone–they extend the functionality of the base technology (Figure <a href="start.html#fig:packages">2.3</a>).</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:packages"></span>
-<img src="images/packages.png" alt="R packages are to R what apps are to your mobile phone."  />
+<img src="images/packages.png" alt="R packages are to R what apps are to your mobile phone." width="700" />
 <p class="caption">
 Figure 2.3: R packages are to R what apps are to your mobile phone.
 </p>
@@ -398,7 +400,7 @@ Figure 2.5: Flowchart to help determine whether you should load or install packa
 <p>To run this command, which tells R to sum 4 and 8, highlight the command and click the <img src="images/run.png"/> button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).</p>
 <p>You will see the result of the command you just ran in the <strong>Console</strong> window.</p>
 <pre><code>## [1] 12</code></pre>
-<p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<p>Note that the <code>[1]</code> is produced by R. You can think of this as R telling you that this value, <code>12</code>, is the answer to the first question you asked.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>Next, try:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="start.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span> <span class="sc">*</span> <span class="dv">3</span></span></code></pre></div>
 <p>When you run this command, R will return the product of these two numbers.</p>
@@ -459,7 +461,7 @@ Figure 2.5: Flowchart to help determine whether you should load or install packa
 <p>R is an <a href="https://en.wikipedia.org/wiki/Object-oriented_programming"><strong>OOP</strong> or <strong>object-oriented programming</strong></a> language.</p>
 <p>You can think of an <strong>object</strong> as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the <strong>Environment</strong> (Figure <a href="start.html#fig:environment">2.6</a>), which is the one of the tabs in the top right panel of RStudio.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:environment"></span>
-<img src="images/environment.png" alt="The Environment panel in RStudio."  />
+<img src="images/environment.png" alt="The Environment panel in RStudio." width="640" />
 <p class="caption">
 Figure 2.6: The Environment panel in RStudio.
 </p>
@@ -591,9 +593,9 @@ Wickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. <em>Ggplot2: <
 </div>
 <div class="footnotes">
 <hr />
-<ol start="2">
-<li id="fn2"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="start.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>This is not exactly accurate, but it is close enough for now.<a href="start.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<ol start="3">
+<li id="fn3"><p>The terms <em>coding</em> and <em>programming</em> are used interchangeably in this book.<a href="start.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>This is not exactly accurate, but it is close enough for now.<a href="start.html#fnref4" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -662,7 +664,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');
