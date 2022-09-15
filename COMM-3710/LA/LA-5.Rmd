@@ -43,7 +43,7 @@ Packages to load:
 
 ## Hint
 
-See LA-4 for a reminder of how to load data into R, which involves using the function, `read_csv()`.
+See LA-4 for a reminder of how to load data into R, which involves using the function, `read_csv()`. Or read the documentation for `read_csv()`.
 
 ## Codebook
 
