@@ -71,12 +71,12 @@ library(tidyverse)
 
 ## Set working directory and read/load data into R
 
-Once you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory.
+Once you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory (the path shown below is specific to your computer--replace `c:/Users/SaraK/COMM-3710` with the path to the working directory that you created on your computer for this course).
 
 You can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the `setwd()` function.
 
 ```{r setwd, echo=TRUE, eval=FALSE}
-## Set the working directory to c:/Users/SaraK/COMM-3710
+## Set the working directory to my working directory
 setwd("c:/Users/SaraK/COMM-3710")
 
 ## Read data from dataset.csv file into R (note the file name of your dataset

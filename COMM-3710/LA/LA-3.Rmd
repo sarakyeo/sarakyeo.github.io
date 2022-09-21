@@ -122,7 +122,9 @@ Then, write and run the R command (`?c`) that opens the documentation in your R 
 Use the results to describe the `c()` function from the documentation as a comment under your `?c` command. You can copy and paste the text under "Description" from the documentation, but I encourage you to add your own description so that you understand what the function is doing.
 
 ## Hint
-Remember that `?` before any function in R will open the documentation for that function. I recommend that you use this any time you are unsure what a R function does.
+Remember that typing `?` before any function in R will open the documentation for that function. I recommend that you use this any time you are unsure what a R function does.
+
+For example, if I wanted to learn more about the `library()` function, I would use the command, `?library()`.
 
 # Step 7 {.tabset .tabset-fade}
 ## Instructions
