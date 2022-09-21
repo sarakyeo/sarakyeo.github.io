@@ -113,24 +113,23 @@ In your R script, write pseudocode to determine the average number of drinks amo
 
 Next, translate the pseudocode to R functions using the pipe operator:
 ```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
-# Start with the HELP data frame
-hdata %>% 
-# Select female-only cases from the HELP data using the sex variable
-        filter(sex == "female") %>% 
-# Calculate the mean of the average number of drinks per day consumed
-        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # na.rm = TRUE removes NAs from this calculation
+
+hdata %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # find mean
+
+# Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation of the mean
+
 ```
 
 Let's say we also want to know the minimum and maximum number of average drinks per day among females. To do so, add arguments to the `summarise()` function:
 ```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
-# Start with the HELP data frame
-hdata %>% 
-# Select female-only cases from the HELP data using the sex variable
-        filter(sex == "female") %>% 
-# Calculate the mean of the average number of drinks per day consumed
-        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # mean
-                  min_avgdrinks = min(i1, na.rm = TRUE), # minimum
-                  max_avgdrinks = max(i1, na.rm = TRUE)) # maximum
+
+hdata %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE)) # find maximum
 ```
 
 Using the calculations performed by the R commands above, answer the following questions:

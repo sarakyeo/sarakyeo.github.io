@@ -2094,23 +2094,19 @@ are comments in R):</p>
 # Calculate the mean of the average number of drinks per day consumed </code></pre>
 <p>Next, translate the pseudocode to R functions using the pipe
 operator:</p>
-<pre class="r"><code># Start with the HELP data frame
-hdata %&gt;%
-    # Select female-only cases from the HELP data using the sex variable
-filter(sex == &quot;female&quot;) %&gt;%
-    # Calculate the mean of the average number of drinks per day consumed
-summarise(M_avgdrinks = mean(i1, na.rm = TRUE))  # na.rm = TRUE removes NAs from this calculation</code></pre>
+<pre class="r"><code>hdata %&gt;% # Start with the HELP data frame
+        filter(sex == &quot;female&quot;) %&gt;% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # find mean
+
+# Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation of the mean</code></pre>
 <p>Let’s say we also want to know the minimum and maximum number of
 average drinks per day among females. To do so, add arguments to the
 <code>summarise()</code> function:</p>
-<pre class="r"><code># Start with the HELP data frame
-hdata %&gt;% 
-# Select female-only cases from the HELP data using the sex variable
-        filter(sex == &quot;female&quot;) %&gt;% 
-# Calculate the mean of the average number of drinks per day consumed
-        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # mean
-                  min_avgdrinks = min(i1, na.rm = TRUE), # minimum
-                  max_avgdrinks = max(i1, na.rm = TRUE)) # maximum</code></pre>
+<pre class="r"><code>hdata %&gt;% # Start with the HELP data frame
+        filter(sex == &quot;female&quot;) %&gt;% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE)) # find maximum</code></pre>
 <p>Using the calculations performed by the R commands above, answer the
 following questions:</p>
 <ol start="2" style="list-style-type: lower-alpha">
