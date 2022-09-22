@@ -26,10 +26,11 @@ urlcolor: blue
 
 Reliability and validity can be thought of as precision and accuracy, respectively. Using these four terms (*reliability*, *validity*, *precision*, and *accuracy*), describe the dart-thrower in scenarios A, B, and C below.
 
-<center>
-<img src="https://sarakyeo.github.io/images/rel-val-01.png"/>
-</center>
-<br>
+```{r, rel-val-01, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/rel-val-01.png")
+
+```
 
 Answers can be found in the video below.
 
@@ -52,18 +53,20 @@ Click on the tabs below to learn more about each type of reliability.
 ## Stability
 Refers to consistency in measures across time. We can evaluate stability using a test-retest method. By measuring a concept at time 1 ($t_1$) and time 2 ($t_2$), we can compare them to see if they are stable across time.
 
-<center>
-<img src="https://sarakyeo.github.io/images/stability.png"/>
-</center>
-<br>
+```{r, stability, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/stability.png")
+
+```
 
 ## Reproducibility
 Refers to consistency between observers. By comparing the results of two different observers who are measuring the same phenomenon using the same measuring device, we can determine whether we have reliability between observers. This reliability between observers is known as **inter-coder reliability**.
 
-<center>
-<img src="https://sarakyeo.github.io/images/reproducibility.png"/>
-</center>
-<br>
+```{r, reprod, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/reproducibility.png")
+
+```
 
 ## Homogeneity
 Refers to consistency between different measures of a single concept. We often use more than one indicator to measure a concept. Homogeneity refers to the reliability of the indicators of a concept. We assess this using **inter-item reliability**. The next section discusses assessing inter-item reliability in more detail.
@@ -77,20 +80,23 @@ Inter-item reliability refers to the correlation of each item/indicator with eve
 
 A **statistical correlation** is a measure of the strength and direction of the relationship between two variables. The three figures below show three different types of relationships (negative, neutral, or positive). See if you can identify the type of relationship in the figure.
 
-<center>
-<img src="https://sarakyeo.github.io/images/r-neu.png"/>
-</center>
-<br>
+```{r, r-neu, echo=FALSE, message=FALSE, warning=FALSE, out.width = "30%", fig.align='center'}
 
-<center>
-<img src="https://sarakyeo.github.io/images/r-pos.png"/>
-</center>
-<br>
+knitr::include_graphics("https://sarakyeo.github.io/images/r-neu.png")
 
-<center>
-<img src="https://sarakyeo.github.io/images/r-neg.png"/>
-</center>
-<br>
+```
+
+```{r, r-pos, echo=FALSE, message=FALSE, warning=FALSE, out.width = "30%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/r-pos.png")
+
+```
+
+```{r, r-neg, echo=FALSE, message=FALSE, warning=FALSE, out.width = "30%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/r-neg.png")
+
+```
 
 Check your answers with the [Week 4 lecture on relationships](https://sarakyeo.github.io/COMM-3710/week4.html#Relationships).
 
@@ -100,12 +106,13 @@ $r$ ranges between $-1$ and $1$ and cannot exceed these boundaries. In other wor
 
 Values of $r$ closer to $+1$ indicate a stronger positive relationship and values of $r$ closer to $-1$ indicate a stronger negative relationship. $r = 0$ means there is no linear relationship between the variables.
 
-Let's take a look at the example below, which shows correlation coefficients for *attention to news* on various media platforms. 
+Let's take a look at the example below, which shows correlation coefficients for *attention to news* on various media platforms.
 
-<center>
-<img src="https://sarakyeo.github.io/images/corr-coefs.png"/>
-</center>
-<br>
+```{r, corr-coefs, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/corr-coefs.png")
+
+```
 
 From this table, we can see that the relationship between *attention to news on TV* and *attention to news on the radio* is $0.89$. To check your understanding of how to read tables like these, see whether you are able to determine the Pearson correlation coefficient for the relationship between *attention to news in blogs* and *attention to news on the radio*.^[The answer is $0.75$.]
 
@@ -141,7 +148,8 @@ After data collection, we can assess:
 # Summary
 Here's a graphical summary of what we have covered on reliability and validity of measures. Remember to ask any questions about this week's content in lab.
 
-<center>
-<img src="https://sarakyeo.github.io/images/rel-val-summary.png"/>
-</center>
-<br>
+```{r, rel-val-summary, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/rel-val-summary.png")
+
+```
