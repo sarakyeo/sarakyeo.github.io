@@ -198,7 +198,7 @@ Once I have created this new variable correctly, I can examine descriptive stati
 
 # Step 7 {.tabset .tabset-fade}
 ## Instructions
-There are times when we may want to take continuous variables and make them into categorical variables. For example, assume we are interested in respondents' depression scores, `cesd`, but we want to categorize them into low and high depression scores.
+There are times when we may want to take continuous variables and make them into categorical variables (unsure what "continuous" vs. "categorical" variables are? Review the [lecture content on measurement](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)). For example, assume we are interested in respondents' depression scores, `cesd`, but we want to categorize them into low and high depression scores.
 
 We refer to this process as **recoding variables**. For this exercise, let's say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.
 
