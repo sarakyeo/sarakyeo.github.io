@@ -316,6 +316,8 @@ In [Step 7], you recoded respondents' depression scores, `cesd`, into a new cate
 hdta %>% 
         group_by(dcesd) %>% 
         descr(age)
+# Mlow = 36.03
+# Mhigh = 35.40
 
 ```
 
