@@ -277,6 +277,18 @@ Then, answer the following questions.
 a) How many respondents are in the **low** category of the new variable, `dcesd`?
 b) How many respondents are in the **high** category of the new variable, `dcesd`?
 
+```{r step-7, include=FALSE}
+
+hdta %>% 
+        freq(cesd)
+hdta <- hdta %>% 
+        mutate(dcesd = case_when(cesd <= 30 ~ "low",
+                                 cesd > 30 ~ "high"))
+hdta %>% 
+        freq(dcesd) # low = 182 R; high = 271 R
+
+```
+
 ## Hint
 To recode a variable, we will use the `mutate()` and `case_when()` functions. As an example, we will recode `i1` into a new variable, `di1`, that have low and high categories.
 ```{r recoding, echo=TRUE, eval=FALSE}
@@ -293,6 +305,18 @@ hdata <- hdata %>%
 # Check that the new variable has been recoded correctly
 hdata %>% 
   freq(di1)
+```
+
+
+# Bonus Question
+In [Step 7], you recoded respondents' depression scores, `cesd`, into a new categorical variable, `dcesd`. What is the mean age among respondents in the low and high categories?
+
+```{r bonus, include=FALSE}
+
+hdta %>% 
+        group_by(dcesd) %>% 
+        descr(age)
+
 ```
 
 
