@@ -12,6 +12,8 @@ urlcolor: blue
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(summarytools)
+library(rstatix)
+library(magrittr)
 hdata <- read.csv("HELP.csv")
 knitr::opts_chunk$set(echo = FALSE)
 ```
@@ -41,6 +43,15 @@ Packages to load:
 - `summarytools`
 - `rstatix`
 
+```{r step-1, include=FALSE}
+
+root <- here::here()
+setwd(root)
+
+hdta <- read.csv("./COMM-3710/LA/HELP.csv")
+
+```
+
 ## Hint
 
 See LA-4 for a reminder of how to load data into R, which involves using the function, `read_csv()`. Or read the documentation for `read_csv()`.
@@ -49,7 +60,6 @@ See LA-4 for a reminder of how to load data into R, which involves using the fun
 
 ```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
-library(tidyverse)
 library(knitr)
 
 codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP-codebook.csv")
@@ -70,6 +80,17 @@ Examine the frequency distributions of the variables, `sex` and `d1`. Use these 
 a. How many patients in the study are female?
 b. How many patients in the study have never been hospitalized for medical problems?
 c. What percentage of patients in the study have been hospitalized fewer than 5 times (i.e., 4 or fewer)?
+
+```{r step-2, include=FALSE}
+
+hdta %>% 
+        select(sex, d1) %>% 
+        freq()
+# 2a: 107 female patients in the study.
+# 2b: 92 have never been hospitalized.
+# 2c: 83.22%
+
+```
 
 ## Hint
 
@@ -112,6 +133,15 @@ Now, subset the data to only include patients whose primary substance of abuse i
 
 a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
 
+```{r step-3, include=FALSE}
+
+hdta %>% 
+        filter(substance == "cocaine" & age >= 40) %>% 
+        freq(age)
+# 3a: 27 patients meet this criteria.
+
+```
+
 ## Hint
 The code below subsets the data to include only patients who are housed (we did this in [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html) if you need a reminder). We could also combine two criteria for filtering into one command.
 
@@ -136,7 +166,18 @@ hdata %>%
 Examine a frequency table of `sex` based on this subset. Answer the questions below.
 
 a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance are **female**?
-b. What percentage of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
+b. What **percentage** of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
+
+```{r step-4, include=FALSE}
+
+hdta %>% 
+        filter(substance == "cocaine" & age >= 40) %>% 
+        group_by(sex) %>% 
+        freq(age)
+# 4a: 7 are female.
+# 4b: 74.07% of these patients are male.
+
+```
 
 
 # Step 5 {.tabset .tabset-fade}
@@ -148,6 +189,17 @@ Examine the descriptive statistics for `e2b` and answer the questions below.
 a) What is the mean?
 b) What is the median?
 c) What is the maximum?
+
+```{r step-5, include=FALSE}
+
+hdta %>% 
+        descr(e2b)
+
+# 5a: M = 2.50
+# 5b: Median = 2.00
+# 5c: Maximum = 21.00
+
+```
 
 ## Hint
 Let's say I am interested in examining descriptive statistics of the quantitative variable, `pss_fr`, which is perceived social support by friends.
@@ -168,6 +220,22 @@ Create a new variable called `Mdays` that is the **mean**^[To calculate a mean, 
 a) What is the mean of the variable, `Mdays`?
 b) What is the minimum value of `Mdays`? 
 c) What is the maximum value of `Mdays`?
+
+```{r step-6, include=FALSE}
+
+hdta <- hdta %>% 
+        mutate(Mdays = (daysanysub + dayslink)/2)
+hdta %>% 
+        descr(Mdays) # M = 159.26, min = 7.00, max = 358.50
+
+# Another way to do this using the mean() function
+hdta <- hdta %>% 
+        rowwise() %>% 
+        mutate(Mfxndays = mean(c(daysanysub, dayslink)))
+hdta %>% 
+        descr(Mfxndays) # M = 159.26, min = 7.00, max = 358.50
+
+```
 
 ## Hint
 To create a new variable, we need to first look at the frequency distributions of each variable that makes up the new variable you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.
