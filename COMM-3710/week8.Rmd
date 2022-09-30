@@ -157,10 +157,9 @@ There are two broad categories of sampling strategies:
 - probability sampling
 - non-probability sampling
 
-## GIF
 ```{r, sample-des, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
 
-knitr::include_graphics("https://sarakyeo.github.io/images/sample-design.gif")
+knitr::include_graphics("https://sarakyeo.github.io/images/sample-design.png")
 
 ```
 
