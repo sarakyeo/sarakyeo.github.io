@@ -27,14 +27,16 @@ Remember to ...
 
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
-Load the following packages in your current session of R:
+**Load the following packages** in your current session of R:
 
 - `tidyverse`
 - `summarytools`
 - `magrittr`
 - `rstatix`
 
-Read the [HELP](https://utah.instructure.com/files/117853074/download?download_frd=1) data set into R. Use the codebook to familiarize yourself with the variables in the data set.
+**Set your working directory**.
+
+**Read the [HELP](https://utah.instructure.com/files/131421311/download?download_frd=1) data set into R**. Use the codebook to familiarize yourself with the variables in the data set.
 
 ## Hint
 If you are having issues with `summarytools`, see the **Hint** in Step 2 of [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html).

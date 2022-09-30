@@ -1570,6 +1570,7 @@ if (window.hljs) {
 
 
 
+
 <style type="text/css">
 .main-container {
   max-width: 940px;
@@ -1590,6 +1591,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -1765,16 +1769,18 @@ be pseudocode or other comments.</li>
 <h1 class="tabset tabset-fade">Step 1</h1>
 <div id="instructions" class="section level2">
 <h2>Instructions</h2>
-<p>Load the following packages in your current session of R:</p>
+<p><strong>Load the following packages</strong> in your current session
+of R:</p>
 <ul>
 <li><code>tidyverse</code></li>
 <li><code>summarytools</code></li>
 <li><code>magrittr</code></li>
 <li><code>rstatix</code></li>
 </ul>
-<p>Read the <a href="https://utah.instructure.com/files/117853074/download?download_frd=1">HELP</a>
-data set into R. Use the codebook to familiarize yourself with the
-variables in the data set.</p>
+<p><strong>Set your working directory</strong>.</p>
+<p><strong>Read the <a href="https://utah.instructure.com/files/131421311/download?download_frd=1">HELP</a>
+data set into R</strong>. Use the codebook to familiarize yourself with
+the variables in the data set.</p>
 </div>
 <div id="hint" class="section level2">
 <h2>Hint</h2>
