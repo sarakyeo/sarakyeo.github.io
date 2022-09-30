@@ -205,7 +205,7 @@ This sampling methods requires each individual interviewed to recommend or sugge
 We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
 
 
-```{r, param-stat, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+```{r, param-stat, echo=FALSE, message=FALSE, warning=FALSE, out.width = "70%", fig.align='center'}
 
 knitr::include_graphics("https://sarakyeo.github.io/images/parameter-statistic.png")
 
