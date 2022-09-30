@@ -157,9 +157,12 @@ There are two broad categories of sampling strategies:
 - probability sampling
 - non-probability sampling
 
-<center>
-![](https://sarakyeo.github.io/images/sample-design.gif)
-</center>
+## GIF
+```{r, sample-des, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/sample-design.gif")
+
+```
 
 ```{r, prob-nonprob, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -202,10 +205,12 @@ This sampling methods requires each individual interviewed to recommend or sugge
 
 We use different terms when describing numbers in a population vs. a sample. Numbers that are used to describe a sample (e.g., mean, standard deviation) are called **statistics** while the same numbers used to describe a population are called **parameters**.
 
-<center>
-<img src="https://sarakyeo.github.io/images/parameter-statistic.png"/>
-</center>
-<br>
+
+```{r, param-stat, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/parameter-statistic.png")
+
+```
 
 ---
 
@@ -236,6 +241,6 @@ The researcher first divides the population of interest into separate groups, kn
 # Weighting a Sample
 In a sample in which all elements have the same chance of selection, each case is given the same weight. However, it is sometimes appropriate to weight some cases more than others. This process is known as **weighting**.
 
-You may have heard this term used in the 2016 Presidential election <mark>(read [this article in The New York Times](https://utah.instructure.com/files/123052932/download?download_frd=1))</mark>.
+> You may have heard this term used in the 2016 Presidential election (read [this article in The New York Times](https://utah.instructure.com/files/131421329/download?download_frd=1)).
 
-<mark>Read this [report](https://utah.instructure.com/files/123052922/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.</mark>
+> Read this [report](https://utah.instructure.com/files/131421340/download?download_frd=1) by the American Association for Public Opinion Research (AAPOR) about weighting.
