@@ -142,7 +142,7 @@ Instead, we...
 - we can also make **inferences/predictions/generalizations** about the population (<span style="color: blue;">inferential statistics</span>).
 
 
-Recall that in our lecture on **Sampling**, we briefly defined the term, **parameter**. After reading this section, revisit [the lecture from Week 8](https://sarakyeo.github.io/COMM-3710/week8.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
+Recall that in our lecture on **Sampling**, we briefly defined the term, **parameter**. After reading this section, revisit [the lecture from Week 9](https://sarakyeo.github.io/COMM-3710/week9.html) to see if the definitions of the terms, *confidence interval* and *confidence level*, make more sense.
 
 > But what exactly is a statistic? 
 
@@ -153,7 +153,7 @@ Examine the figure again. Notice that the central dogma consists of a population
 
 > We use statistics from a sample to estimate (infer) parameters in a population.
 
-Recall (from [Week 8](https://sarakyeo.github.io/COMM-3710/week8.html)) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
+Recall (from [Week 9](https://sarakyeo.github.io/COMM-3710/week9.html)) that a **sample** consists of the units (in the case of survey research, people) that are included in a study. The **population**, on the other hand, is the entire group in which a researcher is interested. The population is a theoretically specified aggregation of the units (i.e., people) in the study.
 
 Because the population is theoretical (i.e., it is almost impossible to get data from *everyone* in the population), we instead we collect a sample from the population and use those data to estimate the same characteristics in the population.
 
