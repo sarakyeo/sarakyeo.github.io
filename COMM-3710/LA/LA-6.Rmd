@@ -100,14 +100,8 @@ dataframe <- dataframe %>%
 Then, you can check whether you have created the new variable, `newVar`, correctly by running a frequency distribution using the `freq` function.
 
 
-# Bonus (1 point) {.tabset .tabset-fade}
-## Instructions
-Determine the mean number of risk factors for patients whose primary substance of abuse is (a) alcohol, (b) cocaine, and (c) heroin.
-
----
-
-## Hint
-Use the `group_by()` and `descr()` functions to get the answers to (a), (b), and (c).
+# Bonus (1 point)
+Use the `group_by()` and `descr()` functions to determine the mean number of risk factors for patients whose primary substance of abuse is (a) alcohol, (b) cocaine, and (c) heroin.
 
 ---
 
