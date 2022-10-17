@@ -69,7 +69,7 @@ a) How many patients are thought to be at high risk of returning to the detoxifi
 b) What percentage of patients are at low risk of returning to the detoxification unit within the next 12 months?
 
 ## Hint
-Review LA-5 and how to use the `mutate()` and `case_when()` commands.
+Review [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html) and how to use the `mutate()` and `case_when()` commands (we last used these commands in Step 7).
 
 
 # Step 3
