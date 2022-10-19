@@ -71,6 +71,10 @@ b) What percentage of patients are at low risk of returning to the detoxificatio
 ## Hint
 Review [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html) and how to use the `mutate()` and `case_when()` commands (we last used these commands in Step 7).
 
+Note that you do **not** need quotation marks if you are recoding a variable to be numeric. We are using numbers, `0` and `1`, to denote whether a patient is at risk or not. You might want to review the lecture content on [Measurement](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement), paying close attention to **Aspects of Variables**.
+
+
+
 
 # Step 3
 Make a new variable `SuicidalThought` based on the variable `g1b`. Have `1` indicate a patient has had suicidal thoughts and a `0` indicate they have not.
