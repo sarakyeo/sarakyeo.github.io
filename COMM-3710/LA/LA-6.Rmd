@@ -71,9 +71,29 @@ b) What percentage of patients are at low risk of returning to the detoxificatio
 ## Hint
 Review [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html) and how to use the `mutate()` and `case_when()` commands (we last used these commands in Step 7).
 
-Note that you do **not** need quotation marks if you are recoding a variable to be numeric. We are using numbers, `0` and `1`, to denote whether a patient is at risk or not. You might want to review the lecture content on [Measurement](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement), paying close attention to **Aspects of Variables**.
+Note that you do **not** need quotation marks if you are recoding a variable to be numeric. We are using numbers, `0` and `1`, to denote whether a patient is at risk or not. The table below shows the values and attributes of the new variable, `ExtremeMCS`, created from the variable, `mcs`.
 
+You might also want to review the lecture content on [Measurement](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement), paying close attention to **Aspects of Variables**.
 
+```{r, step-2-hint, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+Value <- c(0, 1)
+Attribute <- c("Not at risk of returning to detox unit",
+               "At risk of returning to detox unit")
+
+comparison <- tibble(Value, Attribute)
+comparison %>%
+        kbl(., "html",
+            col.names = c("Variable value",
+                          "Variable attribute"),
+            align = "cl") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+
+```
 
 
 # Step 3
@@ -100,6 +120,10 @@ To create a new variable, `newVar`, that is the sum of three existing variables,
 dataframe <- dataframe %>% 
         rowwise() %>% 
         mutate(newVar = oldVar1 + oldVar2 + oldVar3)
+
+# Note the inclusion of the function rowwise() here with nothing in the ().
+# We include this to tell R to add the variables row-by-row.
+
 ```
 Then, you can check whether you have created the new variable, `newVar`, correctly by running a frequency distribution using the `freq` function.
 

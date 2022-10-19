@@ -2051,24 +2051,39 @@ how to use the <code>mutate()</code> and <code>case_when()</code>
 commands (we last used these commands in Step 7).</p>
 <p>Note that you do <strong>not</strong> need quotation marks if you are
 recoding a variable to be numeric. We are using numbers, <code>0</code>
-and <code>1</code>, to denote whether a patient is at risk or not. You
-might want to review the lecture content on <a href="https://sarakyeo.github.io/COMM-3710/week4.html#Measurement">Measurement</a>,
+and <code>1</code>, to denote whether a patient is at risk or not. The
+table below shows the values and attributes of the new variable,
+<code>ExtremeMCS</code>, created from the variable,
+<code>mcs</code>.</p>
+<p>You might also want to review the lecture content on <a href="https://sarakyeo.github.io/COMM-3710/week4.html#Measurement">Measurement</a>,
 paying close attention to <strong>Aspects of Variables</strong>.</p>
-<table>
+<table class=" lightable-classic lightable-hover" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
-<tr class="header">
-<th>Variable value</th>
-<th>Variable attributes</th>
+<tr>
+<th style="text-align:center;">
+Variable value
+</th>
+<th style="text-align:left;">
+Variable attribute
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>0</td>
-<td>Not at risk</td>
+<tr>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:left;width: 20em; ">
+Not at risk of returning to detox unit
+</td>
 </tr>
-<tr class="even">
-<td>1</td>
-<td>At risk</td>
+<tr>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:left;width: 20em; ">
+At risk of returning to detox unit
+</td>
 </tr>
 </tbody>
 </table>
@@ -2115,7 +2130,10 @@ and <code>oldVar3</code>, you can use the <code>mutate</code>
 command.</p>
 <pre class="r"><code>dataframe &lt;- dataframe %&gt;% 
         rowwise() %&gt;% 
-        mutate(newVar = oldVar1 + oldVar2 + oldVar3)</code></pre>
+        mutate(newVar = oldVar1 + oldVar2 + oldVar3)
+
+# Note the inclusion of the function rowwise() here with nothing in the ().
+# We include this to tell R to add the variables row-by-row.</code></pre>
 <p>Then, you can check whether you have created the new variable,
 <code>newVar</code>, correctly by running a frequency distribution using
 the <code>freq</code> function.</p>
