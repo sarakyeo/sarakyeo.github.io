@@ -36,7 +36,8 @@ In the steps below, we will build the command sequentially. The `ggplot()` funct
 Use the `data = ` argument to specify the data frame you are using to build the plot. Note that the word "data" in `(data = )` is an argument and should not be replaced. For example, if your data frame is named `utilities`, this line will be `ggplot(data = utilities)`.
 
 ``` {r, eval = FALSE}
-ggplot(data = dataframe_name) 
+dataframe_name %>% 
+        ggplot() 
 ```
 
 ### Step 2. Specify x- and y-axes
@@ -44,7 +45,8 @@ ggplot(data = dataframe_name)
 Next, use `aes()` to tell R which variable to place on the x- (`x_var`) and y-axes (`y_var`). Note that you are adding this argument within the parentheses of the function, `ggplot()`. Be sure to close all parentheses--not doing so is a common error in R.
 
 ``` {r, eval = FALSE}
-ggplot(data = dataframe_name, aes(x = x_var, y = y_var))
+dataframe_name %>% 
+        ggplot(aes(x = x_var, y = y_var))
 ```
 
 If you are only working with only one variable (e.g., plotting a histogram of one variable), you need only specify the `x = ` variable within `aes()`.
@@ -56,22 +58,25 @@ The third step is to tell R what type of graph to create--points, lines, bars, h
 For example, if we would like the relationship between two variables to be represented by a scatter plot, we can simply add `geom_point()`. 
 
 ``` {r eval = FALSE}
-ggplot(data = dataframe_name, aes(x = x_var, y = y_var)) + # note the + sign
-         geom_point()
+dataframe_name %>% 
+        ggplot(aes(x = x_var, y = y_var)) + # note the + sign
+        geom_point()
 ```
 
 If we are plotting the histogram of one variable, we use `geom_histogram()`. 
 
 ``` {r eval = FALSE}
-ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign again
-         geom_histogram()
+dataframe_name %>% 
+        ggplot(aes(x = x_var)) + # note the + sign again
+        geom_histogram()
 ```
 
 For a bar plot, we use `geom_bar()`.
 
 ``` {r eval = FALSE}
-ggplot(data = dataframe_name, aes(x = x_var)) + # note the + sign yet again
-         geom_bar()
+dataframe_name %>% 
+        ggplot(aes(x = x_var)) + # note the + sign yet again
+        geom_bar()
 ```
 
 ---
@@ -82,19 +87,21 @@ The `+` sign used to add layers **must** be placed at the end of each line conta
 
 ``` {r eval = FALSE}
 # This is the correct way of adding layers
-ggplot( .... ) +
+dataframe_name %>% 
+        ggplot( .... ) +
         geom_point()
 
-# This will give you an error message
-ggplot( .... ) 
-       + geom_point()
+# This will give you an error message (note where the + is)
+dataframe_name %>% 
+        ggplot( .... ) 
+        + geom_point()
 ```
 
 ```{r include = FALSE}
 id <- 1: 120
 quiz1 <- round(rnorm(120, m = 8.4, sd = .5), digits = 1)
 quiz2 <- round(quiz1*0.9 + 0.3 + rnorm(120, m = 0, sd = .3), digits = 1)
-quiz <- data.frame(id, quiz1, quiz2)
+quiz <- tibble(id, quiz1, quiz2)
 
 write.csv(quiz, file = "quiz.csv")
 ```
@@ -123,24 +130,29 @@ To better understand what R is doing step-by-step, run these lines one at a time
 
 ```{r eval=FALSE}
 # 1: Try this command first
-ggplot(data = quiz)
+quiz %>% 
+        ggplot()
+
 # 2: Then try this one
-ggplot(data = quiz, aes(x = quiz1))
+quiz %>% 
+        ggplot(aes(x = quiz1))
+
 # 3: And, finally, try this
-ggplot(data = quiz, aes(x = quiz1)) +
-  geom_histogram()
+quiz %>% 
+        ggplot(aes(x = quiz1)) +
+        geom_histogram()
 ```
 
 As the exercise shows, the complete command is the third one. 
 ```{r}
 ggplot(data = quiz, aes(x = quiz1)) +
-  geom_histogram()
+        geom_histogram()
 ```
 
 To do the same for Quiz 2 grades, simply change the x-axis specification in `aes()`.
 ```{r}
 ggplot(data = quiz, aes(x = quiz2)) +
-  geom_histogram()
+        geom_histogram()
 ```
 
 ### Scatter plots
@@ -151,7 +163,7 @@ To examine this graphically, we can use a **scatter plot**, which depicts the re
 
 ```{r}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
-  geom_point() 
+        geom_point() 
 ```
 
 ### Adding axes labels and plot titles
@@ -160,10 +172,10 @@ No graph is complete without axis labels and a title. We can add axis labels and
 
 ```{r}
 ggplot(data = quiz, aes(x = quiz1, y = quiz2)) +
-  geom_point() + 
-  labs(x = 'Quiz 1 Grades', 
-       y = 'Quiz 2 Grades',
-       title = 'Relationship between Quiz 1 and Quiz 2 grades in COMM 3710')
+        geom_point() + 
+        labs(x = 'Quiz 1 Grades', 
+             y = 'Quiz 2 Grades',
+             title = 'Relationship between Quiz 1 and Quiz 2 grades in COMM 3710')
 ```
 
 ---

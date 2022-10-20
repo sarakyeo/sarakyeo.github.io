@@ -14,6 +14,11 @@ In this assignment, you will learn how to create graphs in R using the package, 
 Remember to ...
 
 1) Set up your R script appropriately.
+
+- Include comments for your name, date, assignment number and title.
+- Load the packages necessary.
+- Set your working directory (even if you use the GUI to do this, the code should be included in your submission).
+        
 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
 
 While there are hints for each step embedded in this assignment, you may also want to use the [R Graphics Cookbook](https://r-graphics.org), which is freely available online, as you work through this assignment.
@@ -22,7 +27,7 @@ While there are hints for each step embedded in this assignment, you may also wa
 
 # Step 1 {.tabset .tabset-fade}
 ## Instructions
-Download and save the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) dataset into your working directory.
+Download and save the [Utilities](https://utah.instructure.com/files/131421319/download?download_frd=1) dataset into your working directory.
 
 Load the following packages in your current session of R:
 
@@ -49,9 +54,9 @@ codebook %>%
 
 
 # Step 2 
-Using the [Utilities](https://utah.instructure.com/files/123052907/download?download_frd=1) data and the data provided in the chapter, read and follow along with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
+Using the [Utilities](https://utah.instructure.com/files/131421319/download?download_frd=1) data and the data provided in the chapter, **read and follow along** with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). `r emo::ji("graph")`
 
-Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio. <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
+Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio. `r emo::ji("raised")` <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
