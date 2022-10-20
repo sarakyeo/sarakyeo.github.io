@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Creating a Subset of Your Data | COMM 3710: Getting Started with R</title>
   <meta name="description" content="A guide to getting started with R in COMM 3710." />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Creating a Subset of Your Data | COMM 3710: Getting Started with R" />
   <meta property="og:type" content="book" />
@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2022-09-15" />
+<meta name="date" content="2022-10-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -286,22 +286,22 @@ div.csl-indent {
 </ol>
 <p>Generic: <code>newdata &lt;- fulldata[, c("var1", "var2", "var3", ...)]</code></p>
 <p>For the <code>week</code> data frame we created earlier, if we only want to keep two variables, <code>day</code> and <code>temp</code>, we can use the following code. Note the <code>,</code> in the command.</p>
-<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="creating-a-subset-of-your-data.html#cb90-1" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> week[, <span class="fu">c</span>(<span class="st">&quot;day&quot;</span>, <span class="st">&quot;temp&quot;</span>)] </span>
-<span id="cb90-2"><a href="creating-a-subset-of-your-data.html#cb90-2" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
+<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb88-1"><a href="creating-a-subset-of-your-data.html#cb88-1" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> week[, <span class="fu">c</span>(<span class="st">&quot;day&quot;</span>, <span class="st">&quot;temp&quot;</span>)] </span>
+<span id="cb88-2"><a href="creating-a-subset-of-your-data.html#cb88-2" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Use <code>subset()</code> command with <code>select =</code> argument that specifies the variables to be included.</strong></li>
 </ol>
 <p>Generic: <code>newdata &lt;- subset(fulldata, select = c(var1, var2, var3, ...))</code></p>
-<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb91-1"><a href="creating-a-subset-of-your-data.html#cb91-1" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> <span class="fu">subset</span>(week, <span class="at">select =</span> <span class="fu">c</span>(day, temp))</span>
-<span id="cb91-2"><a href="creating-a-subset-of-your-data.html#cb91-2" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
+<div class="sourceCode" id="cb89"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb89-1"><a href="creating-a-subset-of-your-data.html#cb89-1" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> <span class="fu">subset</span>(week, <span class="at">select =</span> <span class="fu">c</span>(day, temp))</span>
+<span id="cb89-2"><a href="creating-a-subset-of-your-data.html#cb89-2" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
 <ol start="3" style="list-style-type: decimal">
 <li><strong>Use <code>select()</code> command, which is part of the <code>dplyr</code>, which is included in the <code>tidyverse</code> package.</strong>
 Generic: <code>newdata &lt;- select(fulldata, var1, var2, var3, ...)</code></li>
 </ol>
-<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="creating-a-subset-of-your-data.html#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># install the package first if you have not already done so</span></span>
-<span id="cb92-2"><a href="creating-a-subset-of-your-data.html#cb92-2" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> <span class="fu">select</span>(week, day, temp)</span></code></pre></div>
+<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="creating-a-subset-of-your-data.html#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># install the package first if you have not already done so</span></span>
+<span id="cb90-2"><a href="creating-a-subset-of-your-data.html#cb90-2" aria-hidden="true" tabindex="-1"></a>week_temp <span class="ot">&lt;-</span> <span class="fu">select</span>(week, day, temp)</span></code></pre></div>
 <p>The above three methods should give you the same data frame:</p>
-<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb93-1"><a href="creating-a-subset-of-your-data.html#cb93-1" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
+<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb91-1"><a href="creating-a-subset-of-your-data.html#cb91-1" aria-hidden="true" tabindex="-1"></a>week_temp</span></code></pre></div>
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -382,22 +382,22 @@ Sat
 </ol>
 <p>Generic: <code>newdata &lt;- fulldata[variable meeting conditions, ]</code></p>
 <p>Applying this to the <code>covid</code> data frame:</p>
-<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="creating-a-subset-of-your-data.html#cb94-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> covid[covid<span class="sc">$</span>att <span class="sc">&gt;</span> <span class="dv">3</span>, ]  <span class="co"># row selection based on logical condition, keep all columns</span></span>
-<span id="cb94-2"><a href="creating-a-subset-of-your-data.html#cb94-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
+<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="creating-a-subset-of-your-data.html#cb92-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> covid[covid<span class="sc">$</span>att <span class="sc">&gt;</span> <span class="dv">3</span>, ]  <span class="co"># row selection based on logical condition, keep all columns</span></span>
+<span id="cb92-2"><a href="creating-a-subset-of-your-data.html#cb92-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Use the <code>subset()</code> command.</strong></li>
 </ol>
 <p>Generic: <code>newdata &lt;- subset(fulldata, variable meeting certain conditions)</code></p>
 <p>Applied to the <code>covid</code> data frame:</p>
-<div class="sourceCode" id="cb95"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb95-1"><a href="creating-a-subset-of-your-data.html#cb95-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> <span class="fu">subset</span>(covid, att <span class="sc">&gt;</span> <span class="dv">3</span>)</span>
-<span id="cb95-2"><a href="creating-a-subset-of-your-data.html#cb95-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
+<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb93-1"><a href="creating-a-subset-of-your-data.html#cb93-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> <span class="fu">subset</span>(covid, att <span class="sc">&gt;</span> <span class="dv">3</span>)</span>
+<span id="cb93-2"><a href="creating-a-subset-of-your-data.html#cb93-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
 <ol start="3" style="list-style-type: decimal">
 <li><strong>Use the <code>filter()</code> command that is part of the <code>tidyverse</code> and <code>dplyr</code> packages.</strong></li>
 </ol>
 <p>Generic: <code>newdata &lt;- filter(fulldata, variables meeting certain conditions)</code></p>
 <p>Applied to the <code>covid</code> data frame:</p>
-<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="creating-a-subset-of-your-data.html#cb96-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> <span class="fu">filter</span>(covid, att <span class="sc">&gt;</span> <span class="dv">3</span>)</span>
-<span id="cb96-2"><a href="creating-a-subset-of-your-data.html#cb96-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
+<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="creating-a-subset-of-your-data.html#cb94-1" aria-hidden="true" tabindex="-1"></a>covid_fav <span class="ot">&lt;-</span> <span class="fu">filter</span>(covid, att <span class="sc">&gt;</span> <span class="dv">3</span>)</span>
+<span id="cb94-2"><a href="creating-a-subset-of-your-data.html#cb94-2" aria-hidden="true" tabindex="-1"></a>covid_fav</span></code></pre></div>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');
