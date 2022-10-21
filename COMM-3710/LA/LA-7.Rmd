@@ -56,7 +56,9 @@ codebook %>%
 # Step 2 
 Using the [Utilities](https://utah.instructure.com/files/131421319/download?download_frd=1) data and the data provided in the chapter, **read and follow along** with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). `r emo::ji("graph")`
 
-Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio. `r emo::ji("raised")` <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
+Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
+
+> `r emo::ji("raised")` <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
 
 # Step 3 {.tabset .tabset-fade}
 ## Instructions
@@ -67,8 +69,10 @@ b) At what cost do most of the total monthly bills fall? Provide a range between
 
 ## Hint
 To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
+
+> If this hint makes no sense to you, go back to Step 2. `r emo::ji("help")`
       
-Once you have created the graph, it will appear in the **Plots** panel (usually bottom right of RStudio).
+Once you have created the graph, it will appear in the **Plots** panel (usually the bottom right pane of RStudio).
 
 If you need help answering Q3a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
 
