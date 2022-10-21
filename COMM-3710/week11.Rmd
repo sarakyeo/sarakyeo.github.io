@@ -15,7 +15,9 @@ This week, we will discuss descriptive statistics. We will add inferential stati
 
 Let's begin with an illustration of the utility of descriptive statistics...
 
-The table below shows IQ scores of students in Class A and Class B. Which class is smarter?
+`r emo::ji("student")` The table below shows IQ scores of students in Class A and Class B. 
+
+> Which class do you think has higher IQ?
 
 ```{r extable, echo=FALSE, message=FALSE, warning=FALSE}
 library(kableExtra)
@@ -34,9 +36,11 @@ tbl_dta %>%
 
 ```
 
-It is difficult to tell which class is smarter because it is difficult for us to process the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
+It is difficult to tell which class is smarter because it is difficult for us to make sense of the information provided in the table. However, we can use descriptive statistics (in this case, the mean) to summarize these data and help us answer the question.
 
-Below are the average IQ scores of students in Class A and B. Which class is smarter?
+Below are the average IQ scores of students in Class A and B. 
+
+> Which class do you think has higher IQ?
 
 $$\bar{x}_{A} = 110.54$$
 $$\bar{x}_{B} = 110.23$$
@@ -50,13 +54,16 @@ We can use descriptive statistics to:
 1. Organize data
 2. Summarize data
 
-<center>
-<img src="https://sarakyeo.github.io/images/types-desc-stats.png"/>
-</center>
-<br>
+```{r, types-desc, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/types-desc-stats.png")
+
+```
 
 ## Organizing Data
-A frequency distribution is a description of the number of times the various attributes of a variable are observed in a sample. This can be show in tables or graphs (histograms, stem-and-leaf plots). Watch the short video below for an explanation of **frequency distribution tables, histograms, and stem-and-leaf plots**.
+A frequency distribution is a description of the number of times the various attributes of a variable are observed in a sample. This can be show in tables or graphs (histograms, stem-and-leaf plots). 
+
+Watch the short video below for an explanation of **frequency distribution tables, histograms, and stem-and-leaf plots**. `r emo::ji("leaf")`
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BxA3o3fF2Jo" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -65,7 +72,7 @@ A frequency distribution is a description of the number of times the various att
 
 
 ## Summarizing Data
-To summarize data, we often think about **central tendency** and **variability**.
+To summarize data, we often think about <span style="color: blue;">**central tendency**</span> and <span style="color: blue;">**variability**</span>.
 
 Central tendency refers to the middle values of groups, while variability refers to the spread of the data in the groups.
 
@@ -74,34 +81,39 @@ Central tendency refers to the middle values of groups, while variability refers
 #### Mean
 The mean ($\bar{x}$) is the "average" of the data points of a variable. In our example of IQ scores in Class A and Class B (above), we calculate the mean by adding all the scores in each class and dividing by the number of students in each class. In mathematical notation, the formula for calculating a mean would be:
 
-<center>
-<img src="https://sarakyeo.github.io/images/mean.png"/>
-</center>
-<br>
+```{r, mean, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
 
-You can think of the mean as a **balance point**.
+knitr::include_graphics("https://sarakyeo.github.io/images/mean.png")
+
+```
+
+> You can think of the mean as a **balance point**. `r emo::ji("balance")`
 
 Imagine each person's score is a 1-lb weight placed at the score's position on a see-saw. Let's say we have a 200-meter long see-saw and the mean is 110 m. And we have 3 people in our sample with scores of 93 m, 106 m, and 131 m.
 
-<center>
-<img src="https://sarakyeo.github.io/images/mean-balance.png"/>
-</center>
-<br>
+```{r, mean-bal, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/mean-balance.png")
+
+```
 
 Because of this, the mean can be badly affected by outliers, which can make the mean a poor measure of central tendency.
 
 For example, the mean of annual income in the U.S. (the point marked by the red triangle in the figure below) is skewed by the very rich among us, e.g., BIll Gates (outliers)!
 
-<center>
-<img src="https://sarakyeo.github.io/images/skewed-mean.png"/>
-</center>
-<br>
+```{r, skew-mean, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/skewed-mean.png")
+
+```
 
 
 #### Median
 The median is the second measure of central tendency that we will discuss. The median is the middle value in a ranked set of values. This middle value divides the ranked values into two equal halves.
 
-The median is also known as the **50th percentile**. When the data are ranked, the median (or 50th percentile) is the point at which 50\% of the cases are above and 50\% of the cases are below. Watch the video below for an explanation of how to calculate the median and the relationship between the mean and median.
+> The median is also known as the **50th percentile**. 
+
+When the data are ranked, the median (or 50th percentile) is the point at which 50\% of the cases are above and 50\% of the cases are below. Watch the video below for an explanation of how to calculate the median and the relationship between the mean and median.
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S_Yb3t5TtCE" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -149,16 +161,13 @@ In the example below, let's assume we have a sequential list of numbers that ran
 Now that we know what a quartile is, we can define the **interquartile range (IQR)**. This is the distance or range between $Q_3$ and $Q_1$. To calculate this, we use the formula:
 $$IQR = Q_3 - Q_1$$
 
-We use the IQR to define outliers (very high or very low values) in our data. An outlier is any value outside the lower or upper limits. These limits are determined using the following formulae (also shown in the figure below):
+We use the IQR to define outliers (very high or very low values) in our data. An outlier is any value outside the lower or upper limits. These limits are determined using the following formula:
 
-Lower limit $= Q1 - 1.5 \times (IQR)$
+```{r, IQR, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
 
-Upper limit $= Q3 + 1.5 \times (IQR)$
+knitr::include_graphics("https://sarakyeo.github.io/images/IQR.png")
 
-<center>
-<img src="https://sarakyeo.github.io/images/IQR.png"/>
-</center>
-<br>
+```
 
 
 #### Variance
@@ -166,10 +175,12 @@ Variance measures the spread or dispersion of individual cases around the mean i
 
 When the variance is larger, this means that individual cases are farther away from the mean. A smaller variance, on the other hand, means that individual cases are closer to the mean.
 
-<center>
-<img src="https://sarakyeo.github.io/images/variance01.PNG"/>
-</center>
-<br>
+```{r, var01, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/variance01.PNG")
+
+```
+
 
 To calculate variance, we use the following formula:
 
@@ -207,10 +218,15 @@ In a box plot, we can show...
 
 Using the IQ scores example again, here are the data and a corresponding box plot showing the various descriptive statistics.
 
-<center>
-<img src="https://sarakyeo.github.io/images/IQ-data.png"/>
-<br>
+```{r, IQ-data, echo=FALSE, message=FALSE, warning=FALSE, out.width = "60%", fig.align='center'}
 
-<img src="https://sarakyeo.github.io/images/box-plot.PNG"/>
-</center>
-<br>
+knitr::include_graphics("https://sarakyeo.github.io/images/IQ-data.png")
+
+```
+
+```{r, box-plot, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/box-plot.PNG")
+
+```
+
