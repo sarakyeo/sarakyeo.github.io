@@ -1925,12 +1925,12 @@ need
 <p>Using the <a href="https://utah.instructure.com/files/131421319/download?download_frd=1">Utilities</a>
 data and the data provided in the chapter, <strong>read and follow
 along</strong> with <a href="https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html">Chapter
-5 of COMM 3710: Getting Started with R</a>. 📉</p>
+5 of COMM 3710: Getting Started with R</a>. 💹</p>
 <p>Although there are no questions in this assignment related to this
 chapter, be sure to follow along with the text; learning by doing is
 best when starting to work with R and RStudio.</p>
 <blockquote>
-<p>🤚 <span style="color: blue;"><strong>Do not skip this step. It will
+<p>🙋 <span style="color: blue;"><strong>Do not skip this step. It will
 help you understand <code>ggplot</code>.</strong></span></p>
 </blockquote>
 </div>
@@ -1984,11 +1984,10 @@ and December. Which is higher?</li>
 <p>To calculate the average gas bill for January, first filter the data
 to contain only observations from January (i.e.,
 <code>month == 1</code>).</p>
-<p>Then, use the <code>mean()</code> function to calculate the average
-gas bill for that month. Type <code>?mean</code> into the Console and
-read the documentation for this function. Remember to strip NA values
-from your computation by using the argument, <code>na.rm = TRUE</code>.
-If necessary, refer to your code in previous assignments.</p>
+<p>Then, use the <code>descr()</code> function to determine the average
+gas bill for that month. Type <code>?descr</code> into the Console and
+read the documentation for this function. If necessary, refer to your
+code in previous assignments.</p>
 </div>
 </div>
 <div id="step-5" class="section level1">
@@ -2052,16 +2051,16 @@ frequency table.</p>
 </div>
 <div id="bonus-question" class="section level1">
 <h1>Bonus Question</h1>
-<p>Make a bar chart to display the count or proportion of donors by
-season.</p>
+<p>Make a bar chart using the <code>geom_col()</code> to display the
+count or proportion of donors by season.</p>
 <p>First, make a new variable, <code>DonorStatus</code>. Set DonorStatus
 equal to 1 if the billee donated money to <em>Operation Fuel</em> and 0
 otherwise. Check that you have created the <code>DonorStatus</code>
 variable correctly.</p>
 <p>Then, use <code>ggplot()</code> to create your graph.</p>
 <ol style="list-style-type: lower-alpha">
-<li>Does there seem to be a relationship between season and
-donation?</li>
+<li>In your own words, describe the graph. Does donation vary by
+season?</li>
 </ol>
 </div>
 <div id="submission" class="section level1">

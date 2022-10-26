@@ -89,7 +89,7 @@ The commands you will use to make a scatter plot are `ggplot()` and `geom_point(
 
 To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
  
-Then, use the `mean()` function to calculate the average gas bill for that month. Type `?mean` into the Console and read the documentation for this function. Remember to strip NA values from your computation by using the argument, `na.rm = TRUE`. If necessary, refer to your code in previous assignments.
+Then, use the `descr()` function to determine the average gas bill for that month. Type `?descr` into the Console and read the documentation for this function. If necessary, refer to your code in previous assignments.
 
 
 # Step 5
@@ -127,13 +127,13 @@ Once you have created this new variable, you can use the `freq()` command (in `s
 
 
 # Bonus Question
-Make a bar chart to display the count or proportion of donors by season. 
+Make a bar chart using the `geom_col()` to display the count or proportion of donors by season. 
 
 First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.
 
 Then, use `ggplot()` to create your graph. 
 
-a) Does there seem to be a relationship between season and donation?
+a) In your own words, describe the graph. Does donation vary by season?
 
 
 # Submission
