@@ -99,7 +99,7 @@ knitr::include_graphics("https://sarakyeo.github.io/images/mean-balance.png")
 
 Because of this, the mean can be badly affected by outliers, which can make the mean a poor measure of central tendency.
 
-For example, the mean of annual income in the U.S. (the point marked by the red triangle in the figure below) is skewed by the very rich among us, e.g., BIll Gates (outliers)!
+For example, the mean of annual income in the U.S. (the point marked by the red triangle in the figure below) is skewed by the very rich among us, e.g., Bill Gates (outliers)!
 
 ```{r, skew-mean, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
 
