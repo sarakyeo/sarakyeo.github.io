@@ -16,6 +16,7 @@ fig:fold
 fig:fig-save
 fig:cats
 fig:r-coaster
+fig:x-y-axes
 intro
 what-is-r
 why-r

@@ -29,6 +29,13 @@ Building `ggplot` graphics is typically a layered process. The function that we 
 
 In the function arguments (i.e., the commands within the parentheses), we define the data set that we want to use with `data = `, the aesthetics (x- and y-axes) with `aes()`, and the type of graph with `geom`.
 
+As a reminder, the x- and y-axes on a graph are shown below (Figure \@ref(fig:x-y-axes)).
+```{r x-y-axes, echo = FALSE, fig.cap = "The x- and y-axes on a graph.", fig.align = "center", out.width="70%"}
+
+knitr::include_graphics("images/x-y-axes.png")
+
+```
+
 In the steps below, we will build the command sequentially. The `ggplot()` function will not run until the basic layers are in place. 
 
 ### Step 1. Specify data frame

@@ -22,7 +22,7 @@
 
 
 
-<meta name="date" content="2022-10-20" />
+<meta name="date" content="2022-10-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -282,6 +282,13 @@ div.csl-indent {
 <h2><span class="header-section-number">5.1</span> <code>ggplot2</code> basics<a href="ggplot2.html#ggplot2-basics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Building <code>ggplot</code> graphics is typically a layered process. The function that we use is <code>ggplot()</code>. We use the <code>+</code> to add layers to the function.</p>
 <p>In the function arguments (i.e., the commands within the parentheses), we define the data set that we want to use with <code>data =</code>, the aesthetics (x- and y-axes) with <code>aes()</code>, and the type of graph with <code>geom</code>.</p>
+As a reminder, the x- and y-axes on a graph are shown below (Figure <a href="ggplot2.html#fig:x-y-axes">5.1</a>).
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:x-y-axes"></span>
+<img src="images/x-y-axes.png" alt="The x- and y-axes on a graph." width="70%" />
+<p class="caption">
+Figure 5.1: The x- and y-axes on a graph.
+</p>
+</div>
 <p>In the steps below, we will build the command sequentially. The <code>ggplot()</code> function will not run until the basic layers are in place.</p>
 <div id="step-1.-specify-data-frame" class="section level3 hasAnchor" number="5.1.1">
 <h3><span class="header-section-number">5.1.1</span> Step 1. Specify data frame<a href="ggplot2.html#step-1.-specify-data-frame" class="anchor-section" aria-label="Anchor link to header"></a></h3>
