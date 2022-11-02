@@ -5,6 +5,7 @@ pagetitle: "COMM 3710: Week 12"
 output:
   html_document:
     toc: true
+    toc_depth: 2
     toc_float: true
     theme: flatly
 urlcolor: blue
