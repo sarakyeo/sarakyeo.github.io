@@ -40,9 +40,9 @@ From your lab assignments, you already know how to:
 - [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html)
    - Read/Load data into R.
    - Use the pipe operator, `%>%`.
-   - Select variables from a data frame using the select() function.
-   - Filter cases from a data frame using the filter() function.
-   - Summarize variables using the summarise() function.
+   - Select variables from a data frame using the `select()` function.
+   - Filter cases from a data frame using the `filter()` function.
+   - Summarize variables using the `summarise()` function. you can also use the `descr()` function here.
 - [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html) and [LA-6](https://sarakyeo.github.io/COMM-3710/LA/LA-6.html)
    - Run and examine frequency distributions using the `freq()` function in the `summarytools` package.
    - View descriptive statistics using the `descr()` function in the `summarytools` package.
@@ -53,10 +53,15 @@ From your lab assignments, you already know how to:
 
 ---
 
-# Hypothesis Testing
+# Hypothesis Testing {.tabset .tabset-fade}
 In this step, we will conduct statistical hypothesis testing. In other words, we will assess empirical evidence and determine whether we can reject our null hypothesis. If necessary, review content from [Week 12](https://sarakyeo.github.io/COMM-3710/week12.html).
 
-Then, watch this [video](https://youtu.be/08uylSp-CuI) about hypothesis testing.
+Then, watch the video below about hypothesis testing.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/08uylSp-CuI" frameborder="0" data-external="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br>
 
 In Week 12, we discussed three statistical tests that we can use in hypothesis testing. The videos below show you some other ways of conducting each of these tests using R.
 
@@ -65,7 +70,7 @@ In Week 12, we discussed three statistical tests that we can use in hypothesis t
 - [One-way analysis of variance](https://youtu.be/2uQCUBtqCfM) (ANOVA)
 - [Correlation](https://youtu.be/lf4HfHx2ASs)
 
-> There will also be material on how to select and conduct statistical tests in R in LA-8.
+> There are also hints on how to select and conduct statistical tests in R in LA-8.
 
 ---
 
