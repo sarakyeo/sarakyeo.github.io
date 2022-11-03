@@ -72,4 +72,6 @@ In Week 12, we discussed three statistical tests that we can use in hypothesis t
 # A Note on Data Analysis
 The videos shared here are just one of many ways to manage data and conduct statistical tests. With R, there are many ways to achieve the same goal.
 
-Because R is open-source software, packages are continuously being developed by people all over the world. You are welcome to use these packages but they will not be taught in this course. <mark>If you **do** use another package, ensure that the answers you get from using it are correct by checking them with the strategies shown in this course.</mark>
+Because R is open-source software, packages are continuously being developed by people all over the world. You are welcome to use these packages but they will not be taught in this course.
+
+<mark>If you **do** use another package, ensure that the answers you get from using it are correct by checking them with the strategies shown in this course.</mark>
