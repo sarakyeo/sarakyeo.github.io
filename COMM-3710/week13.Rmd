@@ -30,7 +30,7 @@ Remember that you have done most, if not all, the steps of data analysis in your
 ---
 
 # Managing Data
-To manage your data, you should <mark>**run frequency distributions**</mark>, and <mark>**recode and create variables as necessary**</mark>.
+To manage your data, you should **run frequency distributions**, and **recode and create variables as necessary**.
 
 We learned how to do this in various lab assignments. Review your R code submissions to these assignments and the assignments themselves.
 
@@ -63,7 +63,9 @@ Then, watch the video below about hypothesis testing.
 </center>
 <br>
 
-In Week 12, we discussed three statistical tests that we can use in hypothesis testing. The videos below show you some other ways of conducting each of these tests using R.
+In [Week 12](https://sarakyeo.github.io/COMM-3710/week12.html), we discussed four statistical tests that we can use in hypothesis testing and `r emo::ji("star")`[**how to select which test to use**](https://sarakyeo.github.io/COMM-3710/week12.html#Inferential_Statistics)`r emo::ji("star")`. 
+
+The videos below show you some other ways of conducting each of these tests using R.
 
 - [Chi-square ($\chi^2$) test of independence](https://youtu.be/Dnlp9vswwEk)
 - [Independent samples $t$-test](https://youtu.be/ANMuuq502rE?t=416)
