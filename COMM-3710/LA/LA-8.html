@@ -1614,8 +1614,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -1623,16 +1623,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -1778,7 +1771,7 @@ be pseudocode or other comments.</li>
 <li><code>summarytools</code></li>
 <li><code>rstatix</code></li>
 </ul>
-<p>Then, read the <a href="https://utah.instructure.com/files/123052907/download?download_frd=1">Utilities.csv</a>
+<p>Then, read the <a href="https://utah.instructure.com/files/131421319/download?download_frd=1">Utilities.csv</a>
 data set into R and re-familiarize yourself with the variables using the
 codebook.</p>
 </div>
@@ -2019,7 +2012,7 @@ test</strong></p>
 tbl &lt;- table(util$donate, util$month2)
 tbl  %&gt;% 
   chisq_test(., donate ~ month2) # Chi-squared value (test statistic) = 2.13, p = .145</code></pre>
-<pre><code>## # A tibble: 1 x 6
+<pre><code>## # A tibble: 1 × 6
 ##       n statistic     p    df method          p.signif
 ## * &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;   
 ## 1    18      2.13 0.145     1 Chi-square test ns</code></pre>
@@ -2028,10 +2021,11 @@ tbl  %&gt;%
 # temp = continuous DV, month2 = categorical IV with only 2 groups
 util %&gt;% 
   t_test(., temp ~ month2) # t (test statistic) = -22.44, p &lt; .001</code></pre>
-<pre><code>## # A tibble: 1 x 10
-##   .y.   group1 group2    n1    n2 statistic    df         p   p.adj p.adj.signif
-## * &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;       
-## 1 temp  Jan    Jul        8    10     -22.4  8.80   4.48e-9 4.48e-9 ****</code></pre>
+<pre><code>## # A tibble: 1 × 10
+##   .y.   group1 group2    n1    n2 statistic    df             p    p.adj p.adj…¹
+## * &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;  &lt;int&gt; &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt;         &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;  
+## 1 temp  Jan    Jul        8    10     -22.4  8.80 0.00000000448  4.48e-9 ****   
+## # … with abbreviated variable name ¹​p.adj.signif</code></pre>
 <p><strong>ANOVA</strong></p>
 <pre class="r"><code># ANOVA
 # temp = continuous DV, month4 = categorical IV with 4 groups
@@ -2047,7 +2041,7 @@ util %&gt;%
 # gasbill = continuous DV, temp = continuous IV
 util %&gt;% 
         cor_test(., gasbill, temp, method = &quot;pearson&quot;) # Pearson&#39;s r = -.92, p &lt; .001</code></pre>
-<pre><code>## # A tibble: 1 x 8
+<pre><code>## # A tibble: 1 × 8
 ##   var1    var2    cor statistic        p conf.low conf.high method 
 ##   &lt;chr&gt;   &lt;chr&gt; &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  
 ## 1 gasbill temp  -0.92     -24.9 4.16e-48   -0.943    -0.884 Pearson</code></pre>
@@ -2067,8 +2061,8 @@ to conduct this statistical test.</li>
 categorical or continuous. State these clearly in your R file.</li>
 <li>Select a statistical test; clearly state your answer in your R
 file.</li>
-<li>Write pseudocode of the process by which you will conduct your
-statistical test.</li>
+<li>Write pseudocode that describes, in your own words, the process by
+which you will conduct your statistical test.</li>
 <li>Write R code to conduct the statistical test and report the test
 statistic and associated <em>p</em>-value.</li>
 <li>Calculate the mean monthly gas bill in winter and summer.</li>

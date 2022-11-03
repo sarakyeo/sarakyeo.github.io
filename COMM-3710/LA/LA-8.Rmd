@@ -48,7 +48,7 @@ Load the following packages in R:
 - `summarytools`
 - `rstatix`
 
-Then, read the [Utilities.csv](https://utah.instructure.com/files/123052907/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
+Then, read the [Utilities.csv](https://utah.instructure.com/files/131421319/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
 
 ## Codebook
 
@@ -155,7 +155,7 @@ a) State your hypothesis. Do you think monthly gas bills will be different in th
 b) Identify the dependent and independent variables that you will use to conduct this statistical test.
 c) Determine whether your independent and dependent variables are categorical or continuous. State these clearly in your R file.
 d) Select a statistical test; clearly state your answer in your R file.
-e) Write pseudocode of the process by which you will conduct your statistical test.
+e) Write pseudocode that describes, in your own words, the process by which you will conduct your statistical test.
 f) Write R code to conduct the statistical test and report the test statistic and associated *p*-value.
 g) Calculate the mean monthly gas bill in winter and summer.
 h) Does the test support your hypothesis?
