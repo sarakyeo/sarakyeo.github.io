@@ -1614,8 +1614,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -1623,16 +1623,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -1775,7 +1768,7 @@ assignment:</p>
 <div id="instructions" class="section level2">
 <h2>Instructions</h2>
 <p>Familiarize yourself with the CPS documentation in the codebook.
-Then, read the <a href="https://utah.instructure.com/files/123052898/download?download_frd=1">CPS
+Then, read the <a href="https://utah.instructure.com/files/131421330/download?download_frd=1">CPS
 data set</a> into R.</p>
 </div>
 <div id="codebook" class="section level2">
@@ -1950,6 +1943,20 @@ Conduct the statistical test you have chosen.</li>
 <li>What is the test statistic and associated <em>p</em>-value?</li>
 <li>Does the test support or refute your hypothesis? Does job
 satisfaction vary among different job sectors?</li>
+</ol>
+</div>
+<div id="bonus-question" class="section level1">
+<h1>Bonus Question</h1>
+<p>Implement the appropriate statistical test to determine whether wages
+vary by job sector.</p>
+<ol style="list-style-type: lower-alpha">
+<li>State your hypothesis about whether wages and job sector are
+related.</li>
+<li>Which statistical test will you use to address your hypothesis?
+Conduct the statistical test you have chosen.</li>
+<li>What is the test statistic and associated <em>p</em>-value?</li>
+<li>Does the test support or refute your hypothesis? Do wages vary among
+different job sectors?</li>
 </ol>
 </div>
 <div id="submission" class="section level1">

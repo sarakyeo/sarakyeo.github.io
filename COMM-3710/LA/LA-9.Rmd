@@ -33,7 +33,7 @@ You may find the following R packages useful as you work through this assignment
 
 ## Instructions
 
-Familiarize yourself with the CPS documentation in the codebook. Then, read the [CPS data set](https://utah.instructure.com/files/123052898/download?download_frd=1) into R.
+Familiarize yourself with the CPS documentation in the codebook. Then, read the [CPS data set](https://utah.instructure.com/files/131421330/download?download_frd=1) into R.
 
 ## Codebook
 
@@ -87,6 +87,15 @@ a)  State your hypothesis about whether job satisfaction varies significantly am
 b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
 c)  What is the test statistic and associated *p*-value?
 d)  Does the test support or refute your hypothesis? Does job satisfaction vary among different job sectors?
+
+# Bonus Question
+
+Implement the appropriate statistical test to determine whether wages vary by job sector.
+
+a)  State your hypothesis about whether wages and job sector  are related.
+b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
+c)  What is the test statistic and associated *p*-value?
+d)  Does the test support or refute your hypothesis? Do wages vary among different job sectors?
 
 # Submission
 
