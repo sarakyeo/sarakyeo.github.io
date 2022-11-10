@@ -12,17 +12,18 @@ urlcolor: blue
 
 # Some Guidelines for Writing and Presenting Research
 
-> What is your story?
+> What is your story? `r emo::ji("notebook")`
 
 Your research tells a story. Before you start writing paper or creating a research presentation, you should have an <mark>**outline**</mark>in mind.
 
 ---
 
 # The Anatomy of a Scientific Paper/Presentation
-<center>
-<img src="https://sarakyeo.github.io/images/anatomy-research-paper.png"/>
-</center>
-<br>
+```{r paper, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/anatomy-research-paper.png")
+
+```
 
 We will use the following journal article as an example:
 
@@ -31,30 +32,44 @@ We will use the following journal article as an example:
 Obtain a PDF of the article using the library resources available through the [Marriott Library](https://lib.utah.edu).
 
 Of course, your presentation should always include a descriptive title and the authors' names.
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_01.png"/>
-</center>
+
+```{r Yeo-01, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_01.png")
+
+```
 
 ---
 
 # Introduction
 
 Introduce the problem and the context of your research, i.e., set the stage for your study. You can do so by briefly describing the **social significance** of your research question/problem.
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_02.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-02, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_02.png")
+
+```
+
+---
 
 Describe the **academic or scholarly significance** of the research that you are presenting.
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_03.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-03, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_03.png")
+
+```
+
+---
 
 Identify the **specific contribution** of your study to the existing body of scholarly work and/or social context.
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_04.png" img style="border:1px solid black"/>
-</center>
+
+```{r Yeo-04, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_04.png")
+
+```
 
 ---
 
@@ -63,10 +78,14 @@ Identify the **specific contribution** of your study to the existing body of sch
 In this section, you should review the existing scholarship that is relevant to your research question. The review of the literature often covers the <mark>key concepts</mark> in your study and often culminates with specific hypotheses and/or research questions. 
 
 An example of this can be seen below:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_05.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-05, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_05.png")
+
+```
+
+---
 
 The literature review should contain brief descriptions of <mark>theories</mark> that are applicable to your study. This is part of the **rationale** of your study. 
 
@@ -77,28 +96,42 @@ The literature review should contain brief descriptions of <mark>theories</mark>
 The Method section describes the **what** and **how** of your research. In other words, it is the <mark>operationalization</mark> of your research--it is often the easiest section to write since it is a literal description of what you did in the study. It should include a description of your **sample**, the **experimental design (if your study is experimental)**, the **measures** used in the study, and the **data analysis**.
 
 As you can see in the Yeo *et al.* (2020) article, the first paragraph of the Method section describes the sample:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_06.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-06, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_06.png")
+
+```
+
+---
 
 Then, a detailed description of the experiment is included in the article:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_07.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-07, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_07.png")
+
+```
+
+---
 
 This is followed by a description of how the key variables that represent important concepts in the paper were measured or operationalized:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_08.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-08, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_08.png")
+
+```
+
+---
 
 To close the Method section, a description of how the data were analyzed is included:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_09.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-09, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_09.png")
+
+```
 
 ---
 
@@ -106,37 +139,53 @@ To close the Method section, a description of how the data were analyzed is incl
 In this section, you will use the data to address the hypotheses and research questions that you posed in the [Literature Review and Rationale]. You should use tables and figures as appropriate. 
 
 As you can see from the example below, this section includes the statistical results of various analyses that address the specfic hypotheses and research questions:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_10.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-10, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_10.png")
+
+```
+
+---
 
 In our example, the authors used a regression model to analyze their data. As a result, they included a table showing the results of the regression model:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_11.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-11, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_11.png")
+
+```
+
+---
 
 Relevant figures should also be included in this section and referenced within the text:
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_12.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-12, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_12.png")
+
+```
 
 ---
 
 # Discussion and Conclusion
 This section often begins with a brief restating of the overarching goals of the study. Then, some authors opt to describe the limitations of their study prior to discussing the implications of their findings. There is no "correct" way to order the Discussion, but a good discussion of a research study should always include limitations and shortcomings. 
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_13.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-13, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_13.png")
+
+```
+
+---
 
 Finally, the discussion of the findings and their implications should lead to some thoughts for future research and any additional questions the research might raise.
-<center>
-<img src="https://sarakyeo.github.io/images/Yeo-et-al-2020_14.png" img style="border:1px solid black"/>
-</center>
-<br>
+
+```{r Yeo-14, echo=FALSE, fig.align="center", out.width="80%"}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2020_14.png")
+
+```
 
 ---
 
