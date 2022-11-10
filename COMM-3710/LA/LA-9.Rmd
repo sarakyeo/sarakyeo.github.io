@@ -54,6 +54,15 @@ codebook %>%
 
 ```
 
+## Selecting a Statistical Test
+*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.
+
+```{r, flowchart, echo=FALSE, message=FALSE, warning=FALSE, out.width = "110%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/LA.6_chart.png")
+
+```
+
 # Step 2
 
 Find the mean wage earned per hour for males and females.
