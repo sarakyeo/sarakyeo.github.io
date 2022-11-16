@@ -112,7 +112,7 @@ b)  Based on the test statistic and the *p*-value, do respondents' total monthly
 **Test statistics and *p*-values**
 
 | Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
-|:--------------------|:-----------------------------|:--------------------|
+|:----------------------|:----------------------------------|:----------------------|
 | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
 | t-test                | *t*-value                         | $t$                   |
 | ANOVA                 | *F*-value                         | $F$                   |
