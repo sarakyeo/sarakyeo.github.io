@@ -1614,8 +1614,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -1623,9 +1623,16 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -1967,7 +1974,7 @@ respondents’ total monthly bills differ by season?</li>
 <table>
 <colgroup>
 <col width="28%" />
-<col width="43%" />
+<col width="42%" />
 <col width="28%" />
 </colgroup>
 <thead>
@@ -2004,9 +2011,11 @@ respondents’ total monthly bills differ by season?</li>
 in R output. Be sure to report the correct values. If <em>p</em> &lt;
 0.05, then the relationship is significant. For a review of scientific
 notation (e.g., 4.48e-09), see the <a href="https://en.wikipedia.org/wiki/Scientific_notation">related
-Wikipedia page</a>.</p>
-<p><strong>Chi-squared (<span class="math inline">\(\chi^2\)</span>)
-test</strong></p>
+Wikipedia page</a>.<br />
+<br />
+⭐ Note that for <em>p</em>-values less than 0.001, we report them in
+this way: <span class="math inline">\(p &lt; .001\)</span></p>
+<p><strong>Chi-squared (</strong><span class="math inline">\(\chi^2\)</span>) test</p>
 <pre class="r"><code># Chi-squared test
 # donate = categorical dependent variable (DV), month2 = categorical independent variable (IV) with only 2 groups
 tbl &lt;- table(util$donate, util$month2)
@@ -2016,7 +2025,7 @@ tbl  %&gt;%
 ##       n statistic     p    df method          p.signif
 ## * &lt;int&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;   
 ## 1    18      2.13 0.145     1 Chi-square test ns</code></pre>
-<p><strong><i>t</i>-test</strong></p>
+<p><i>t</i>-test</p>
 <pre class="r"><code># t-test
 # temp = continuous DV, month2 = categorical IV with only 2 groups
 util %&gt;% 
