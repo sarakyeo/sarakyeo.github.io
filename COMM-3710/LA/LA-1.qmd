@@ -28,7 +28,8 @@ Watch this [video](https://youtu.be/ZvPFKfNHBNQ) explaining R and RStudio and ho
 
 Read Ch. 1 of [COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/index.html).
 
-## Step 3 {.tabset .tabset-fade}
+## Step 3
+:::{.panel-tabset}
 
 ### Question
 
@@ -40,7 +41,11 @@ Open RStudio on your computer. **Take a screenshot of RStudio and save it**.
 
 Instructions on how to take a screenshot on Windows can be found [here](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b). Instructions for Mac OS can be found [here](https://support.apple.com/en-us/HT201361).
 
-## Step 4 {.tabset .tabset-fade}
+:::
+
+## Step 4
+
+:::{.panel-tabset}
 
 ### Question
 
@@ -58,6 +63,8 @@ These settings ensure that R does not carry forward objects (such as data) that 
 ### Just for fun
 
 You can change your RStudio theme (how it looks on your computer) in the `Global Options...` by navigating to `Appearance` and changing the `Editor theme`.
+
+:::
 
 ## Step 5
 
@@ -116,7 +123,9 @@ Submit a **single PDF document** on Canvas. Your PDF submission should contain t
 
 ------------------------------------------------------------------------
 
-## Sample screenshots {.tabset .tabset-fade}
+## Sample screenshots
+
+:::{.panel-tabset}
 
 ### RStudio
 
@@ -129,3 +138,5 @@ Submit a **single PDF document** on Canvas. Your PDF submission should contain t
 ### Example screenshot for Part II
 
 ![](LA-1_ex-obj.png)
+
+:::
