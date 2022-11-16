@@ -118,9 +118,11 @@ b)  Based on the test statistic and the *p*-value, do respondents' total monthly
 | ANOVA                 | *F*-value                         | $F$                   |
 | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
 
-The images below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* \< 0.05, then the relationship is significant. For a review of scientific notation (e.g., 4.48e-09), see the [related Wikipedia page](https://en.wikipedia.org/wiki/Scientific_notation).\
+The code and output below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* \< 0.05, then the relationship is significant. For a review of scientific notation (e.g., 4.48e-09), see the [related Wikipedia page](https://en.wikipedia.org/wiki/Scientific_notation).\
 \
 `r emo::ji("star")` Note that for *p*-values less than 0.001, we report them in this way: $p < .001$
+
+------------------------------------------------------------------------
 
 **Chi-squared (**$\chi^2$) test
 
