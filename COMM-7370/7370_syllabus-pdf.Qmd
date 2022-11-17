@@ -48,20 +48,20 @@ For most weeks, I have compiled a non-exhaustive set of readings. I will post th
 
 You are expected to complete these readings before the start of each meeting. These readings are intended as a point-of-entry into the week\\'s content. They may also be useful if you are trying to compile a reading list for your preliminary examinations.
 
-\# Computer Software
+# Computer Software
 
-You will need Microsoft Office (Word, Excel, PowerPoint) and software for data analysis (\[R\](https://www.r-project.org/), IBM SPSS Statistics). We will set up R and IBM SPSS Statistics during the course--you do not have to have them ready for the first day of class.
+You will need Microsoft Office (Word, Excel, PowerPoint) and software for data analysis ([R](https://www.r-project.org/), [IBM SPSS Statistics](https://onthehub.com/products/a4db50af-41be-eb11-813b-000d3af41938)). You will have to either purchase IBM SPSS Statistics or use it through the remote software tools via the [Marriott Library](https://lib.utah.edu/services/knowledge-commons/remote-software/). Please note that you do not have to have them ready for the first day of class. We will set these up during class when needed.
 
 Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++) and Adobe Acrobat (free for UofU students) is recommended.
 
-You will need access to \[Canvas\](https://utah.instructure.com/). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the \[Canvas Getting Started Guide for Students\](https://community.canvaslms.com/docs/DOC-10701).
+You will need access to [Canvas](https://utah.instructure.com/). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 
-\# Course Requirements
+# Course Requirements
 
 Your grade in this course will be based on the following:
 
-\- Discussion leadership (40%)
+-   Discussion leadership (40%)
 
-\- Lab assignments (30%)
+-   Lab assignments (30%)
 
-\- Participation and contribution to class paper (30%)
+-   Participation and contribution to class paper (30%)
