@@ -2,19 +2,21 @@
 title:  |
         | COMM 7370
         | Quantitative Communication Research
-        | \vspace{0.5cm} \large Wednesdays (2:00 - 4:50 pm)
-        | LNCO 2630
-        | \vspace{0.5cm} Spring 2023
-        | The University of Utah
-author: |
-        | Sara K. Yeo
-        | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
-format:
+author: "Sara  K. Yeo"
+format: 
   pdf:
-    mainfont: Latin Modern Roman
-    sansfont: Latin Modern Roman
+    sansfont: Times New Roman
+    mainfont: Times New Roman
 editor: visual
 ---
+
+|                     |                                                        |
+|-----------------------------------:|:-----------------------------------|
+|         Spring 2023 | E-mail: [sara.yeo\@utah.edu](mailto:sara.yeo@utah.edu) |
+| Time: W 2 - 4:50 pm | Office: LNCO 2618                                      |
+|     Room: LNCO 2630 | Twitter: @sarakyeo                                     |
+
+: {tbl-colwidths="\[50,50\]"}
 
 This graduate seminar is an introductory course in quantitative research for communication-related topics. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
 
@@ -60,8 +62,82 @@ You will need access to [Canvas](https://utah.instructure.com/). I expect you to
 
 Your grade in this course will be based on the following:
 
--   Discussion leadership (40%)
+-   Weekly response papers (30%)
 
--   Lab assignments (30%)
+-   Discussion leadership (30%)
 
--   Participation and contribution to class paper (30%)
+-   Lab assignments (20%)
+
+-   Participation and contribution to class paper (20%)
+
+## Weekly Response Papers
+
+asdasd
+
+## Discussion Leadership
+
+sdadas
+
+## Lab Assignments
+
+asdadsa
+
+## Participation and Contribution to Class Paper
+
+asdasd
+
+# Course Policies
+
+**Course civility.** By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the minimal standards to make the classroom a productive learning space for all. Your final grade may be affected each time you engage in disruptive and/or disrespectful behaviors.
+
+Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course:
+
+-   Always address your classmates by name. There is a human being on the other side of the room who also has struggles, doubts, and bad days.
+
+-   Disagreement is encouraged. Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
+
+-   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
+
+**E-mail policy. Use your University email account to contact me; I typically will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all.
+
+Emails should be written clearly and professionally, using appropriate salutations (e.g., Dr. or Prof. Yeo) with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response.**
+
+If you need to contact me, please send a message from your University of Utah email account to [sara.yeo\@utah.edu](mailto:%20sara.yeo@utah.edu).
+
+**Academic misconduct.** **Academic misconduct will be punished to the fullest extent possible**. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+**Emergency plan.** In the event of a University-wide emergency which prevents us from meeting, you should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
+
+**Accommodations.** Curriculum accommodations take two forms---scheduling and content accommodations. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+# University Policies
+
+**COVID-19.** If you test positive for COVID-19, please submit a report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
+
+**ADA.** The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability Services](https://disability.utah.edu/).
+
+**Safety.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+
+Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066. For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776. To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
+
+Responsible employees and campus security authorities (CSAs) have different obligations. Responsible employees are defined by Title IX and CSAs are defined under the Clery Act. Though certain people/positions may be both, the concepts and requirements are different. On our campus, responsible employees are required to report any information about possible sexual misconduct or discrimination to the OEO/AA. CSAs are required to report crimes that occurred on campus to campus police.
+
+Responsible employees are university employees, including students in paid leadership positions, who are required to report sexual misconduct to the Office of Equal Opportunity and Affirmative Action per university regulations. Examples of responsible employees include:
+
+-   Professors and other faculty
+
+-   Administration and staff (non-mental health)
+
+-   Resident advisors
+
+-   Student employees
+
+-   Campus police or campus security officials
+
+-   Athletic coaches/assistants
+
+Campus security authorities are university employees who have significant responsibility for student and campus activities, including but not limited to student housing, student discipline and campus judicial proceedings and are designated to receive and report criminal incidents to the University of Utah Police Department.
+
+**Undocumented Student Support.** Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+
+# Course Schedule
