@@ -1,0 +1,67 @@
+---
+title:  |
+        | COMM 7370
+        | Quantitative Communication Research
+        | \vspace{0.5cm} \large Wednesdays (2:00 - 4:50 pm)
+        | LNCO 2630
+        | \vspace{0.5cm} Spring 2023
+        | The University of Utah
+author: |
+        | Sara K. Yeo
+        | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
+format:
+  pdf:
+    mainfont: Latin Modern Roman
+    sansfont: Latin Modern Roman
+editor: visual
+---
+
+This graduate seminar is an introductory course in quantitative research for communication-related topics. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
+
+Key topics include:
+
+-   Formalizing hypotheses and research questions grounded in theory
+
+-   Testing hypotheses and research questions
+
+-   Conceptual and operational definitions
+
+-   Measurement, sampling, and research design
+
+-   Data analysis in communication research
+
+The main objectives of this course are:
+
+1.  To offer a theoretical perspective on quantitative social science research with a focus on surveys and experiments in communication.
+
+2.  To familiarize you with data analysis using two software packages, R and IBM SPSS Statistics.
+
+3.  To stimulate ideas for original research and help you conduct data analysis for your own future research projects.
+
+4.  To generate a class study and paper using quantitative research for presentation at a conference and publication in a journal.
+
+It is challenging to grasp research methods without doing research. As a result, much of the course will be spent linking concepts to survey questions, collecting and analyzing data, trying to make sense of output, and linking data analysis to research questions and hypotheses. We will also have working labs at the end of the semester during which we will work on our class manuscript.
+
+# Required Readings
+
+For most weeks, I have compiled a non-exhaustive set of readings. I will post the weekly reading list on Canvas. If PDFs are not available through the Marriott Library resources, the files will be posted on Canvas.
+
+You are expected to complete these readings before the start of each meeting. These readings are intended as a point-of-entry into the week\\'s content. They may also be useful if you are trying to compile a reading list for your preliminary examinations.
+
+\# Computer Software
+
+You will need Microsoft Office (Word, Excel, PowerPoint) and software for data analysis (\[R\](https://www.r-project.org/), IBM SPSS Statistics). We will set up R and IBM SPSS Statistics during the course--you do not have to have them ready for the first day of class.
+
+Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++) and Adobe Acrobat (free for UofU students) is recommended.
+
+You will need access to \[Canvas\](https://utah.instructure.com/). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the \[Canvas Getting Started Guide for Students\](https://community.canvaslms.com/docs/DOC-10701).
+
+\# Course Requirements
+
+Your grade in this course will be based on the following:
+
+\- Discussion leadership (40%)
+
+\- Lab assignments (30%)
+
+\- Participation and contribution to class paper (30%)
