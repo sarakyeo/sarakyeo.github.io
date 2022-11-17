@@ -2,12 +2,13 @@
 title:  |
         | COMM 7370
         | Quantitative Communication Research
-author: "Sara  K. Yeo"
+author: "Dr. Sara  K. Yeo"
 format: 
   pdf:
     sansfont: Times New Roman
     mainfont: Times New Roman
 editor: visual
+bibliography: 7370_readings.bib
 ---
 
 |                     |                                                        |
@@ -78,9 +79,11 @@ asdasd
 
 sdadas
 
-## Lab Assignments
+## Assignments
 
-asdadsa
+-   Concept explication assignment
+
+-   
 
 ## Participation and Contribution to Class Paper
 
@@ -128,7 +131,7 @@ Responsible employees are university employees, including students in paid leade
 
 -   Administration and staff (non-mental health)
 
--   Resident advisors
+-   Resident advisers
 
 -   Student employees
 
@@ -141,3 +144,19 @@ Campus security authorities are university employees who have significant respon
 **Undocumented Student Support.** Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
 
 # Course Schedule
+
+## Week 1 (11-Jan)
+
+Readings:
+
+-   Syllabus
+
+## Week 2 (18-Jan)
+
+Discussant:
+
+Readings:
+
+-   @chalmers2013
+
+-   
