@@ -1,21 +1,19 @@
 ---
-title:  |
-        | COMM 7370
-        | Quantitative Communication Research
-subtitle: |
-          |
-          | Spring 2023
-          |
-          | Wed 2 - 4:50 pm
-          | LNCO 2630
-author: |
-        | Sara K. Yeo
-        | [sara.yeo@utah.edu](sara.yeo@utah.edu)
-format: 
-  pdf:
-    documentclass: scrartcl
-    sansfont: Times New Roman
-editor: visual
+title: |
+  | COMM 7370
+  | Quantitative Communication Research
+  | \vspace{0.5cm} \large Spring 2023
+  | University of Utah
+  | \vspace{0.5cm} Prof. Sara K. Yeo
+  | [sara.yeo@utah.edu](mailto: sara.yeo@utah.edu)
+  | \vspace{0.5cm} W 2 - 4:50 pm
+  | LNCO 2630
+output:
+  bookdown::pdf_document2:
+        number_sections: FALSE
+        toc: FALSE
+urlcolor: blue
+bibliography: 7370_readings.bib
 ---
 
 This graduate seminar is an introductory course in quantitative research for communication-related topics. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
@@ -56,8 +54,11 @@ You will need access to [Canvas](https://utah.instructure.com/). I expect you to
 Your grade in this course will be based on the following:
 
 -   Weekly response papers (30%)
+
 -   Discussion leadership (30%)
+
 -   Lab assignments (20%)
+
 -   Participation and contribution to class paper (20%)
 
 ## Weekly Response Papers
@@ -71,6 +72,7 @@ sdadas
 ## Assignments
 
 -   Concept explication assignment
+
 -   
 
 ## Participation and Contribution to Class Paper
@@ -84,7 +86,9 @@ asdasd
 Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course:
 
 -   Always address your classmates by name. There is a human being on the other side of the room who also has struggles, doubts, and bad days.
+
 -   Disagreement is encouraged. Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
+
 -   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
 
 **E-mail policy. Use your University email account to contact me; I typically will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all.
@@ -114,10 +118,15 @@ Responsible employees and campus security authorities (CSAs) have different obli
 Responsible employees are university employees, including students in paid leadership positions, who are required to report sexual misconduct to the Office of Equal Opportunity and Affirmative Action per university regulations. Examples of responsible employees include:
 
 -   Professors and other faculty
+
 -   Administration and staff (non-mental health)
+
 -   Resident advisers
+
 -   Student employees
+
 -   Campus police or campus security officials
+
 -   Athletic coaches/assistants
 
 Campus security authorities are university employees who have significant responsibility for student and campus activities, including but not limited to student housing, student discipline and campus judicial proceedings and are designated to receive and report criminal incidents to the University of Utah Police Department.
@@ -126,105 +135,22 @@ Campus security authorities are university employees who have significant respon
 
 # Course Schedule
 
-## Week 1 (11-Jan): Introduction
+## Week 1 (11-Jan)
 
-Readings
+Readings: Syllabus
 
--   Syllabus
-
-## Week 2 (18-Jan): (Quantitative) Communication Research
+## Week 2 (18-Jan)
 
 Discussant:
 
-Readings
+Readings:
 
--   Kerlinger, F. N. (1986b). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
+-   Chalmers, A. F. (2013). Deriving Theories from Facts: Induction. In *What Is This Thing Called Science?* (pp. 38--54). Hackett Publishing Company, Incorporated. <http://ebookcentral.proquest.com/lib/utah/detail.action?docID=1416097>
+
+-   Chalmers, A. F. (2013). Introducing Falsificationism. In *What Is This Thing Called Science?* (pp. 55--68). Hackett Publishing Company, Incorporated. <http://ebookcentral.proquest.com/lib/utah/detail.action?docID=1416097>
+
 -   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
 
-## Week 3 (25-Jan): Communication as Social Science
+\newpage
 
-Discussant:
-
-Readings
-
--   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496.
--   Donsbach, W. (2006). The identity of communication research. *Journal of Communication*, *56*(3), 437--448. [https://doi.org/10.1111/j.1460-2466.2006.00294.](https://doi.org/10.1111/j.1460-2466.2006.00294.x)
--   Eveland, Jr., W. P. (1997). Interactions and nonlinearity in mass communication: Connecting theory and methodology. *Journalism & Mass Communication Quarterly*, *74*(2), 400--416. <https://doi.org/10.1177/107769909707400211>
--   McLeod, J. M., Kosicki, G. M., & Pan, Z. (1991). On Understanding and Misundertanding Media Effects. In J. Curran & M. Gurevitch (Eds.), *Mass Media and Society* (pp. 235--266). Edward Arnold.
-
-## Week 4 (1-Feb): From an Idea to a Research Project
-
-Discussant:
-
-Readings
-
--   Kerlinger, F. N. (1986a). Research Design: Purpose and Principles. In *Foundations of Behavioral Research* (3rd edition, pp. 279--291). Holt, Rinehart and Winston.
--   McLeod, J. M. (1998a). *Concept Explication and Theory Construction Part I: Meaning Analysis*.
--   McLeod, J. M. (1998b). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
-
-## Week 5 (8-Feb): Survey Research
-
-Discussant:
-
-Readings
-
--   Marsh, C. (1982). *The Survey Method: The Contribution of Surveys to Sociological Explanation*. Allen & Unwin.
--   Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*(1), 537--567. <https://doi.org/10.1146/annurev.psych.50.1.537>
-
-## Week 6 (15-Feb): Measurement, Variables, Reliability & Validity
-
-Discussant:
-
-Readings
-
--   
-
-## Week 7 (22-Feb): Sampling
-
-Discussant:
-
-Readings
-
--   asd
-
-## Week 8 (1-Mar): Experiments
-
-Discussant:
-
-Readings
-
--   
-
-## Week 9 (8-Mar): SPRING BREAK 
-
-No class
-
-## Week 10 (15-Mar): Data Reduction & Scaling
-
-Discussant:
-
-Readings
-
--   asdas
-
-## Week 11 (22-Mar): Data Analysis
-
-Discussant:
-
-Readings
-
--   
-
-## Week 12 (29-Mar): Data Analysis
-
-Discussant:
-
-Readings
-
--   
-
-## Week 13 (5-Apr): Data Analysis / Writing Workshop
-
-## Week 14 (12-Apr): Data Analysis / Writing Workshop
-
-## Week 15 (19-Apr): Data Analysis / Writing Workshop
+# References
