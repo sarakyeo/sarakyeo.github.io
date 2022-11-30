@@ -7,19 +7,19 @@ setwd(root)
 
 attend <- read_csv("./COMM-3710/attendance_reports_attendance.csv")
 
-attend2 <- attend %>% 
-        group_by(LastName, FirstName) %>% 
+present <- attend %>% 
+        group_by(StudentName) %>% 
         filter(Attendance == "present") %>% 
         count(Attendance)
-attend1 <- attend %>% 
-        group_by(LastName, FirstName) %>% 
+late <- attend %>% 
+        group_by(StudentName) %>% 
         filter(Attendance == "late") %>% 
         count(Attendance)
 
-write_csv(attend2,
-          "attendance-full.csv")
-write_csv(attend1,
-          "attendance-partial.csv")
+write_csv(present,
+          "./COMM-3710/attendance-full.csv")
+write_csv(late,
+          "./COMM-3710/attendance-partial.csv")
 
 comm3710 <- read_csv("./COMM-3710/fall-2022_grades.csv")
 head(comm3710)
