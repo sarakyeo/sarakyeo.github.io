@@ -251,7 +251,8 @@ Concept explication assignment due.
 Readings
 
 -   Marsh, C. (1982). *The Survey Method: The Contribution of Surveys to Sociological Explanation*. Allen & Unwin.
--   Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*(1), 537--567. <https://doi.org/10.1146/annurev.psych.50.1.537>
+-   Krosnick, J. A., & Abelson, R. P. (1992). The Case for Measuring Attitude Strength in Surveys. In J. M. Tanur (Ed.), *Questions About Questions: Inquiries into the Cognitive Bases of Surveys* (pp. 177--203). Russell Sage Foundation. <https://www.jstor.org/stable/10.7758/9781610445269>
+-   Dovidio, J. F., & Fazio, R. H. (1992). New Technologies for the Direct and Indirect Assessment of Attitudes. In J. M. Tanur (Ed.), *Questions About Questions: Inquiries into the Cognitive Bases of Surveys* (pp. 204--237). Russell Sage Foundation. <https://www.jstor.org/stable/10.7758/9781610445269>
 
 ## Week 8 (1-Mar)
 
@@ -292,7 +293,11 @@ First draft of final paper due.
 
 ### Pre-registration (Prof. Ben Lyons)
 
+<<<<<<< HEAD
 Readings
+=======
+## Week 9 (8-Mar): SPRING BREAK
+>>>>>>> c3b5f006a959f5434917e22c3541fac561700ee1
 
 -   Monogan, J. E. (2015). Research preregistration in political science: The case, counterarguments, and a response to critiques. *PS: Political Science & Politics*, *48*(3), 425--429. <https://doi.org/10.1017/S1049096515000189>
 

@@ -7,25 +7,24 @@ setwd(root)
 
 attend <- read_csv("./COMM-3710/attendance_reports_attendance.csv")
 
-attend2 <- attend %>% 
+present <- attend %>% 
         group_by(LastName, FirstName) %>% 
         filter(Attendance == "present") %>% 
         count(Attendance)
-attend1 <- attend %>% 
+late <- attend %>% 
         group_by(LastName, FirstName) %>% 
         filter(Attendance == "late") %>% 
         count(Attendance)
 
-write_csv(attend2,
-          "attendance-full.csv")
-write_csv(attend1,
-          "attendance-partial.csv")
+write_csv(present,
+          "./COMM-3710/attendance-full.csv")
+write_csv(late,
+          "./COMM-3710/attendance-partial.csv")
+attendfull <- read_csv("./COMM-3710/attendance-full.csv")
+attendpartial <- read_csv("./COMM-3710/attendance-partial.csv")
 
 comm3710 <- read_csv("./COMM-3710/fall-2022_grades.csv")
 head(comm3710)
-
-attendfull <- read_csv("./COMM-3710/attendance-full.csv")
-attendpartial <- read_csv("./COMM-3710/attendance-partial.csv")
 
 # Convert attendance count to points
 attendfull <- attendfull %>% 
@@ -35,7 +34,7 @@ attendpartial <- attendpartial %>%
         rowwise() %>% 
         mutate(late = n)
 
-# Join attendance data to COMM 3710 grades data
+# Join attendance points data to COMM 3710 grades data
 comm3710 <- left_join(comm3710, attendfull,
                       by = c("LastName", "FirstName"))
 comm3710 <- left_join(comm3710, attendpartial,
@@ -43,7 +42,7 @@ comm3710 <- left_join(comm3710, attendpartial,
 
 
 # Calculate final grade ---------------------------------------------------
-# Attendance
+# Attendance points
 comm3710 <- comm3710 %>% 
         mutate(late = replace(late, is.na(late) == TRUE, 0))
         
@@ -117,6 +116,10 @@ comm3710 <- comm3710 %>%
         mutate(finalscore = finalassign + finalquiz + finalattend)
 comm3710 %>% 
         freq(finalscore)
+
+# Write grades to csv file
+write_csv(comm3710,
+          "./COMM-3710/fall-2022_grades-processed.csv")
 
 
 # Extra R code ------------------------------------------------------------
