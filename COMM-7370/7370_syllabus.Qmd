@@ -193,7 +193,7 @@ Readings
 -   Donsbach, W. (2006). The identity of communication research. *Journal of Communication*, *56*(3), 437--448. [https://doi.org/10.1111/j.1460-2466.2006.00294](https://doi.org/10.1111/j.1460-2466.2006.00294.x)
 
 ::: callout-tip
-# Assignment Deadilne
+# Assignment Deadline
 
 CITI training assignment due.
 :::
