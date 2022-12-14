@@ -19,7 +19,7 @@ format:
 ```{=tex}
 \begin{center}
 \textbf{Sara K. Yeo}\\
-Email: \href{mailto: sara.yeo@utah.edu}{sara.yeo[at]utah.edu}\\
+Email: \href{mailto: sara.yeo@utah.edu}{sara.yeo@utah.edu}\\
 Office: LNCO 2618\\
 Office hours: By appointment
 \end{center}
@@ -90,7 +90,7 @@ Your project should include:
 -   A literature review to support your theoretical framework and translates the problem into research questions and testable hypotheses.
 -   A discussion of the measures used in your project and justification for measures and analytic procedures.
 
-You will present a **project prospectus in Week 5**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
+You will present a **project prospectus in Week 7**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
 
 ## Participation
 
@@ -189,14 +189,8 @@ Readings
 
 Readings
 
--   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496.
+-   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496. <https://ijoc.org/index.php/ijoc/article/view/1331>
 -   Donsbach, W. (2006). The identity of communication research. *Journal of Communication*, *56*(3), 437--448. [https://doi.org/10.1111/j.1460-2466.2006.00294](https://doi.org/10.1111/j.1460-2466.2006.00294.x)
-
-::: callout-tip
-# Assignment Deadline
-
-CITI training assignment due.
-:::
 
 ## Week 3 (25-Jan)
 
@@ -224,12 +218,6 @@ Readings
 
 -   Chapters 6 - 8 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
 
-::: callout-tip
-# Final Project Deadline
-
-Project prospectus due.
-:::
-
 ## Week 6 (15-Feb)
 
 ### Sampling
@@ -238,34 +226,40 @@ Readings
 
 -   Chapter 12 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
 
+## Week 7 (22-Feb)
+
+### Work Week
+
+::: callout-warning
+## No class
+:::
+
+::: callout-note
+## Final Project Deadline
+
+Project prospectus due.
+:::
+
 ::: callout-tip
 # Assignment Deadline
 
 Concept explication assignment due.
 :::
 
-## Week 7 (22-Feb)
-
-### Survey Research
-
-Readings
-
--   Marsh, C. (1982). *The Survey Method: The Contribution of Surveys to Sociological Explanation*. Allen & Unwin.
--   Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*(1), 537--567. <https://doi.org/10.1146/annurev.psych.50.1.537>
-
 ## Week 8 (1-Mar)
 
-### Experiments
+### Survey Research & Experiments
 
 Readings
 
+-   Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*(1), 537--567. <https://doi.org/10.1146/annurev.psych.50.1.537>
 -   Chapter 11 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
 
 ## Week 9 (8-Mar)
 
 ### SPRING BREAK
 
-::: callout-caution
+::: callout-warning
 # No class
 :::
 
@@ -282,10 +276,10 @@ Readings
 -   R4DS: [Workflow: Code Style](https://r4ds.hadley.nz/workflow-style.html)
 -   R4DS: [Workflow: Scripts and Projects](https://r4ds.hadley.nz/workflow-scripts.html)
 
-::: callout-tip
+::: callout-note
 # Final Project Deadline
 
-First draft of final paper due.
+Draft of final paper due.
 :::
 
 ## Week 11 (22-Mar)
@@ -294,7 +288,9 @@ First draft of final paper due.
 
 Readings
 
--   Monogan, J. E. (2015). Research preregistration in political science: The case, counterarguments, and a response to critiques. *PS: Political Science & Politics*, *48*(3), 425--429. <https://doi.org/10.1017/S1049096515000189>
+-   Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. *Nature Human Behaviour*, *1*(1), Article 1. <https://doi.org/10.1038/s41562-016-0021>
+-   Center for Open Science. (n.d.). *Preregistration*. Retrieved December 13, 2022, from <https://www.cos.io/initiatives/prereg>
+-   Chen, L., & Grady, C. (2020). *10 Things to Know About Pre-Analysis Plans*. EGAP. <https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/>
 
 ## Week 12 (29-Mar)
 
@@ -321,18 +317,24 @@ Readings
 
 -   Dienlin, T., Johannes, N., Bowman, N. D., Masur, P. K., Engesser, S., Kümpel, A. S., Lukito, J., Bier, L. M., Zhang, R., Johnson, B. K., Huskey, R., Schneider, F. M., Breuer, J., Parry, D. A., Vermeulen, I., Fisher, J. T., Banks, J., Weber, R., Ellis, D. A., ... de Vreese, C. (2021). An agenda for open science in communication. *Journal of Communication*, *71*(1), 1--26. <https://doi.org/10.1093/joc/jqz052>
 
-## Week 15 (19-Apr)
-
-### Data Analysis / Writing Workshop
-
-Resources
-
--   [R Graphics Cookbook](https://r-graphics.org/)
--   [R for Data Science](https://r4ds.had.co.nz/) (1st edition)
--   [R for Data Science](https://r4ds.hadley.nz/) (2nd edition)
-
-::: callout-tip
+::: callout-note
 # Final Project Deadline
 
-Final paper due on **Friday, 21-Apr**.
+Final paper due.
+:::
+
+## Week 15 (19-Apr)
+
+### In-class Presentations
+
+::: callout-note
+## Final Project Deadline
+
+Final project preregistration due on **Friday, 21-Apr**.
+:::
+
+::: callout-tip
+## Assignment Deadline
+
+Data analysis assignments due.
 :::
