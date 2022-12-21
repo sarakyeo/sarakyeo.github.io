@@ -80,7 +80,7 @@ comm3710 %>%
 comm3710 <- comm3710 %>% 
         rowwise() %>% 
         mutate(assigntotal = sum(c(LA1, LA2, LA3, LA4, LA5,
-                                   LA6, LA7, La8, LA9),
+                                   LA6, LA7, LA8, LA9),
                                  na.rm = TRUE))
 comm3710 %>% 
         freq(assigntotal)
