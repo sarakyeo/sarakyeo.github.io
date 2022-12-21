@@ -62,19 +62,9 @@ comm3710 %>%
 # Quiz total
 comm3710 <- comm3710 %>% 
         rowwise() %>% 
-        mutate(quiztotal = sum(c(`Quiz 1 (10690775)`,
-                                 `Quiz 2 (10690779)`,
-                                 `Quiz 3 (10690774)`,
-                                 `Quiz 4 (10690777)`,
-                                 `Quiz 5 (10690783)`,
-                                 `Quiz 6 (10690776)`,
-                                 `Quiz 7 (10690792)`,
-                                 `Quiz 8 (10690790)`,
-                                 `Quiz 9 (10690778)`,
-                                 `Quiz 10 (10690780)`,
-                                 `Quiz 11 (10690791)`,
-                                 `Quiz 12: Review Quiz (10690786)`,
-                                 `Quiz 13: Review Quiz (10690781)`),
+        mutate(quiztotal = sum(c(Q1, Q2, Q3, Q4, Q5,
+                                 Q6, Q7, Q8, Q9, Q10,
+                                 Q11, Q12, Q13),
                                na.rm = TRUE))
 comm3710 %>% 
         freq(quiztotal)
@@ -89,15 +79,8 @@ comm3710 %>%
 # Assignments total
 comm3710 <- comm3710 %>% 
         rowwise() %>% 
-        mutate(assigntotal = sum(c(`LA-1: Installing R and RStudio (10690793)`,
-                                   `LA-2: Ethics in Human Subjects Research (10690794)`,
-                                   `LA-3: Setting Up and Working with Data (10690795)`,
-                                   `LA-4: Data Wrangling (10690796)`,
-                                   `LA-5: Examining and Managing Data (10690797)`,
-                                   `LA-6: Examining and Managing Data (10690798)`,
-                                   `LA-7: Visualizing Data (10690799)`,
-                                   `LA-8: Examining Relationships (10690800)`,
-                                   `LA-9: Practice Data Analysis (10690801)`),
+        mutate(assigntotal = sum(c(LA1, LA2, LA3, LA4, LA5,
+                                   LA6, LA7, La8, LA9),
                                  na.rm = TRUE))
 comm3710 %>% 
         freq(assigntotal)
