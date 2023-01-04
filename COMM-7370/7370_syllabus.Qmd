@@ -180,8 +180,6 @@ Immigration is a complex phenomenon with broad impact---those who are directly a
 Readings
 
 -   COMM 7370 syllabus
--   Kerlinger, F. N. (1986b). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
--   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
 
 ## Week 2 (18-Jan)
 
@@ -190,7 +188,8 @@ Readings
 Readings
 
 -   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496. <https://ijoc.org/index.php/ijoc/article/view/1331>
--   Donsbach, W. (2006). The identity of communication research. *Journal of Communication*, *56*(3), 437--448. [https://doi.org/10.1111/j.1460-2466.2006.00294](https://doi.org/10.1111/j.1460-2466.2006.00294.x)
+-   Kerlinger, F. N. (1986b). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
+-   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
 
 ## Week 3 (25-Jan)
 
