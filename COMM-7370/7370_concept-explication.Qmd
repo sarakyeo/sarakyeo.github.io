@@ -112,10 +112,12 @@ Using your chosen article, answer the following questions.
 
 5)  Provide an example of how the findings and implications of the study would be changed if [**ONE**]{.underline} of the key concepts in the paper were defined and/or operationalized differently. This can be the same concept that you examined in Question 2 or a different one in the paper, but be clear about which concept you have selected. Do [**NOT**]{.underline} explain how the authors could conduct a new study by adding new or different sets of variables; rather, explain how the [**current**]{.underline} study might be altered given different measurement or manipulation of an existing concept.
 
-Attach a PDF of the article that you chose for this assignment.
+Attach a PDF of the article that you chose for this assignment. The process of concept explication (i.e., meaning and empirical analysis) is shown in Figure 1.
 
 ::: callout-tip
 ## Some final words\...
 
 Before you start your assignment, you should read the above example. Then, you should carefully select an article from a journal and choose a research concept that is dealt with carefully by the authors of the article. Think carefully about what constitutes a concept. Remember, a concept is meaningfully defined and employed in a particular theoretical context for certain theoretical purposes.
 :::
+
+![The process of concept explication.](images/concept-explication-process.png){width="700"}
