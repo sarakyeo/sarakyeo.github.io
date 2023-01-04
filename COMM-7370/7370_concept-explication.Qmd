@@ -1,0 +1,121 @@
+---
+title: "Concept Explication Assignment"
+subtitle: "COMM 7370 | Spring 2023 | Due: see syllabus"
+format:
+  pdf:
+    geometry: 
+      - top=.75in
+      - left=.8in
+      - right=.8in
+    urlcolor: blue
+  html:
+    code-fold: true
+    toc: true
+    theme: sandstone
+---
+
+::: callout-tip
+## Instructions
+
+Read through the example below, then complete the assignment; instructions follow the example.
+:::
+
+# Example
+
+You attend a colloquium and the speaker is an expert in quantitative communication research. Specifically, she studies public information campaigns and presents a case of an information campaign, designed by her and her colleagues, aimed at increasing people's knowledge about heart disease prevention. The campaign was accompanied by a full media blitz, carried out in an urban community. She states that the campaign was successful in increasing knowledge about the issue. Yet, she does not offer empirical evidence to support her claim.
+
+After the presentation, you decide to collect evidence and test her claim that the campaign was successful. However, you find that your first task is to identify and clarify the concepts involved in the assessment of campaign effects. For example, what is the campaign variable designed to cause an increase in knowledge about heart disease prevention? What is the supposed result of the campaign effort? What measures capture this outcome? Finally, is there any relationship between the causal variable and the supposed result?
+
+After reviewing related literature, you come up with a grand theory: *exposure to mediated campaign messages are an important source of information for people in modern society*. In other words, the more people expose themselves to mediated messages about heart disease prevention, the more they know about the topic. Now, you must conduct a meaning analysis to make this theory into an empirically testable hypothesis.
+
+## A. Meaning Analysis
+
+1)  *Theoretical statement*
+
+    *H1: Exposure to a mediated campaign message about heart disease prevention causes an increase in knowledge about the issue.*
+
+2)  *Conceptualization* *(main concepts and their conceptual definitions)*[^1]
+
+    a)  **Concept:** Exposure to the mediated campaign message.
+
+        **Definition:** Encountering information about heart disease prevention, including through watching TV programs and public service announcements, listening to radio programs and announcements, reading newspaper editorials, stories, and advertisements about heart disease prevention.
+
+        Also: Visiting community organizations, such as the American Heart Association, etc. And exposure via interpersonal discussion with public health experts, doctors, friends and family.
+
+    b)  **Concept:** Knowledge about heart disease prevention
+
+        **Definition:** Familiarity with various risk factors causing heart disease, such as smoking, high cholesterol, and eating fast food.
+
+        Also: Familiarity with appropriate strategies for reducing risks of heart disease.
+
+3)  *Dimensions (lower-level concepts, sub-concepts)*
+
+    a)  **General media exposure:** Exposure to campaign messages via media in general.
+
+    b)  **Specific media exposure:** Exposure to campaign messages in a specific medium (e.g., TV, newspapers, social media, etc.).
+
+    c)  **Interpersonal communication:** Exposure to campaign messages through personal contacts, conversations, interpersonal social network.
+
+4)  *Indicators*
+
+    a)  Example indicator of **general media exposure**:
+
+        Rating media in general as an important source of information about heart disease prevention (e.g., "On a scale of 1 ("Never") to 7 ("Very frequently"), please indicate how often you encounter information about health or illness in the mass media in general.")
+
+    b)  Example indicators of **specific media exposure**: Reported frequency of viewing content about heart disease across four specific mediums (scale: 1 = "Never," 7 = "Very frequently;" Cronbach's $\alpha$ = .84).
+
+        i)  Indicator 1: "Please tell us how often you [**watch TV programs**]{.underline} about health or illness."
+
+        ii) Indicator 2: "Please tell us how often you [**listen to radio programs**]{.underline} about health or illness."
+
+        iii) Indicator 3: "Please tell us how often you [**read newspaper articles**]{.underline} about health or illness."
+
+        iv) Indicator 4: "Please tell us how often you read information about health or illness [**online**]{.underline}."
+
+    c)  Example indicators of **interpersonal communication**:
+
+        Reported frequency of consulting medical specialists at community health organizations about heart disease prevention (Pearson's $r$ = 0.67).
+
+        i)  Indicator 1: "How often do you speak with your doctor about heart disease prevention?"
+
+        ii) Indicator 2: "How often do you speak with a dietitian or nutritionist about heart disease prevention?"
+
+        Reported frequency of discussions with friends and/or family members about heart disease prevention (Cronbach's $\alpha$ = .88).
+
+        i)  Indicator 1: "How often do you speak with friends about heart disease prevention?"
+
+        ii) Indicator 2: "How often do your speak with your family members about heart disease prevention?"
+
+        iii) Indicator 3: "How often do you speak with your neighbors about heart disease prevention?"
+
+        iv) Indicator 4: "How often do you speak with co-workers about heart diseases prevention?"
+
+[^1]: This is an example of the process of conceptualization for one concept in the theoretical statement, H1. In practice, you would conduct a similar process of meaning analysis for the other concept in H1, *increase in knowledge about heart disease prevention*.
+
+------------------------------------------------------------------------
+
+# Your Assignment
+
+Find an article in a social science journal (e.g., *Public Understanding of Science*, *Science Communication*, *Mass Communication & Society*, etc.) that involves [**clearly defined concepts**]{.underline}.[^2] If you need help searching for an article, ask Sara.
+
+[^2]: Look for clear hypotheses or research questions such as the one posed in the example above. Also look for a detailed Method section that outlines precisely how concepts were measured or manipulated. This section is often labeled *Measures*.
+
+Using your chosen article, answer the following questions.
+
+1)  What are the concepts included in the theoretical statement or research questions/hypotheses? Include all the research questions/hypotheses in your answer and identify the concepts from each.
+
+2)  Select [**ONE**]{.underline} of the concepts you identified in the previous question (do [**NOT**]{.underline} choose a concept that was measured with a single item for this question) and explain how the concept was defined and operationalized (measured or manipulated) by the researcher. According to the paper, does the concept have multiple dimensions? If so, what are they? How many indicators were used to measure the concept? What were the indicators? Note that you can also choose a concept that was defined and manipulated (i.e., as part of an experiment). If you do so, explain how the concept was defined and manipulated, which is also a form of operationalization.
+
+3)  What measures of reliability (Cronbach's alpha \[$\alpha$\] is the most common metric of inter-item reliability, though you might also encounter Pearson's $r$), if any, were included in the study (i.e., not just for your chosen concept but all the concepts present in the paper)? What were the values of those reliability measures? Do they meet appropriate standards of reliability (we will discuss these in class)? Were different or unique measures of reliability used? If so, why? If no reliability measures were included, could some have been?
+
+4)  Summarize how the authors discuss validity in the paper, if at all. What types of validity are mentioned? Are references provided for any of the scales used to measure key concepts? In your opinion, was their measurement of key concepts valid? Do you think the study as a whole is valid (publication in a peer-reviewed journal is [**not necessarily**]{.underline} an indication of validity)?
+
+5)  Provide an example of how the findings and implications of the study would be changed if [**ONE**]{.underline} of the key concepts in the paper were defined and/or operationalized differently. This can be the same concept that you examined in Question 2 or a different one in the paper, but be clear about which concept you have selected. Do [**NOT**]{.underline} explain how the authors could conduct a new study by adding new or different sets of variables; rather, explain how the [**current**]{.underline} study might be altered given different measurement or manipulation of an existing concept.
+
+Attach a PDF of the article that you chose for this assignment.
+
+::: callout-tip
+## Some final words\...
+
+Before you start your assignment, you should read the above example. Then, you should carefully select an article from a journal and choose a research concept that is dealt with carefully by the authors of the article. Think carefully about what constitutes a concept. Remember, a concept is meaningfully defined and employed in a particular theoretical context for certain theoretical purposes.
+:::
