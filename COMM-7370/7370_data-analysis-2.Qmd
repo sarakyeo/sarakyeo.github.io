@@ -32,6 +32,8 @@ In this assignment, you will learn how to:
 -   Select a subset of data based on criteria using the `filter()` function.
 -   Recode variables using the `mutate()` and `case_when()` functions.
 -   Create new variables from existing variables in a data frame.
+-   Create plots using the `ggplot2` package, which is included in the `tidyverse`.
+-   Conduct inferential statistical tests (e.g., ANOVA, correlation).
 
 ::: callout-important
 ## Remember to\...
@@ -46,7 +48,7 @@ In this assignment, you will learn how to:
 # Codebook
 
 | Variable     | Description                                                                                                       |
-|------------------------|------------------------------------------------|
+|--------------------------|----------------------------------------------|
 | `age`        | R age at baseline                                                                                                 |
 | `anysub`     | Use of any substance post-detox (no, yes)                                                                         |
 | `cesd`       | Center for Epidemiologic Studies Depression measure at baseline (higher scores indicate more depressive symptoms) |
@@ -213,16 +215,66 @@ In this assignment, you will learn how to:
             freq(newVar) # check that newVar is created correctly
 
     ```
-
-    
-
     :::
+
+7)  Data visualization is an important part of analysis. To start, we will learn how to create a histogram. We will use the `ggplot2` package, which is included in the `tidyverse`. To get started, **read and follow along** using the HELP data with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html).
+
+8)  Using `ggplot2`, make a histogram of age using `geom_bar`. Describe the distribution: Is the normally distributed? Is it skewed or symmetric? If skewed, is the skew positive or negative? From the graph, what do you think the mean age of respondents is in this dataset?
+
+9)  Determine the mean age of patients in the data using functions you have learned. How closely does it match your estimate from the graph?
+
+10) Now, create a scatter plot with `age` on the x-axis and `i1` on the y-axis. Use `geom_point()` to create scatter plots. Is there a relationship between `age` and `i1`? Is it positive or negative? Is it strong or weak?
+
+11) Test the correlations between `age` and `i1`. Some generic code to help you is included below:
+
+    ```{r}
+    #| eval: false
+    #| include: true
+
+    dataframe %>%
+            cor_test(x, y) # Correlation between two continuous variables
+
+    ```
+
+    Is the relationship between `age` and `i1` significant? What is the Pearson's correlation coefficient ($r$)?
+
+12) Next, we want to test whether there is a difference in SF-36 Physical Component Scores among males and females in the sample. We need to determine which inferential statistical test to use in this case. Making this decision requires that we know whether our variables of interest are categorical or continuous (@fig-chart).
+
+    Since `pcs` is continuous and `sex` is categorical with two groups, we can use an independent samples *t*-test. We should also examine the mean of each sample relative to each other by plotting the data. Generic code to do so is included below. The output from the various statistical tests show in @fig-chart can be found in @tbl-stats.
+
+    Once you have conducted the test, state the value of the test statistic and the *p*-value in your R script as comments. Note that for *-p*-values that are less than 0.001, we typically report them as $p < .001$.
+
+    ```{r}
+    #| eval: false
+    #| include: true
+
+    dataframe %>%
+            t_test(varx, vary) # where varx is categorical and vary is continuous
+
+    # To graph means with error bars using ggplot2
+    dataframe |> 
+            ggplot(aes(x = varx, y = vary)) +
+            stat_summary(fun = mean,
+                         geom = "point") +
+            stat_summary(fun.data = mean_cl_boot,
+                         geom = "errorbar")
+
+    ```
+
+    | Statistical Test      | Test Statistic Name               | Test Statistic Symbol |
+    |---------------------|-------------------------------|---------------------|
+    | Chi-squared test      | Chi-squared value                 | $\chi^2$              |
+    | *t*-test              | *t*-value                         | $t$                   |
+    | ANOVA                 | *F*-value                         | $F$                   |
+    | Pearson's correlation | Pearson's correlation coefficient | $r$                   |
+
+    : Various test statistic names and symbols. {#tbl-stats}
 
 [^1]: If you need a reminder of how to do this, check Data Analysis Assignment 1.
 
 # Submission
 
-Submit your R script (which should have a `.R` extention) to Canvas. Your R script should:
+Submit your R script (which should have a `.R` extension) to Canvas. Your R script should:
 
 1)  Include code to install and load the packages.
 2)  Contain comments and/or pseudocode.
@@ -238,3 +290,5 @@ To ensure that your R script runs without errors, you should:
 ::: callout-important
 **These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for *all* of your data analysis assignments.**
 :::
+
+![Decision-making flowchart for selecting a statistical test.](images/LA.6_chart.png){#fig-chart}

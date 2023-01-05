@@ -147,7 +147,7 @@ In this assignment, you will learn how to:
     The codebook for the HELP dataset can be found in @tbl-codebook. A codebook provides information on the structure, contents, and layout of a data file.
 
     | Variable     | Description                                                                                                       |
-    |--------------|-------------------------------------------------------------------------------------------------------------------|
+    |--------------|----------------------------------------------------------|
     | `age`        | R age at baseline                                                                                                 |
     | `anysub`     | Use of any substance post-detox (no, yes)                                                                         |
     | `cesd`       | Center for Epidemiologic Studies Depression measure at baseline (higher scores indicate more depressive symptoms) |
@@ -228,7 +228,7 @@ In this assignment, you will learn how to:
 
 # Submission
 
-Submit your R script (which should have a `.R` extention) to Canvas. Your R script should:
+Submit your R script (which should have a `.R` extension) to Canvas. Your R script should:
 
 1)  Include code to install and load the packages.
 2)  Contain comments and/or pseudocode.
