@@ -1,11 +1,7 @@
 ---
 title: 'LA-2: Ethics in Human Subjects Research (10 points)'
-pagetitle: "COMM 3710: LA-2"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
+subtitle: "COMM 3710 Spring 2023"
+output: pdf_document
 ---
 
 # Instructions
