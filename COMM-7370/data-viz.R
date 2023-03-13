@@ -177,8 +177,53 @@ diamonds |>
 
 # 2.5.5 Exercises ---------------------------------------------------------
 #1: Categorical: manufacturer, model, trans, drv, fl, class
-#   Numerical: displ, year, cyl, cty. hwy
+#   Numerical: displ, year, cyl, cty, hwy
 ?mpg
 
-#2:
+#2: Won't work for shape since cyl is numeric, not categorical
+mpg |> 
+        ggplot(aes(x = hwy, y = displ, color = cyl, size = cyl)) +
+        geom_point() 
 
+#3: Nothing happens because there's no line geom
+mpg |> 
+        ggplot(aes(x = hwy, y = displ, linewidth = cyl)) +
+        geom_point() 
+
+#4: You should get a straight line
+mpg |> 
+        ggplot(aes(x = hwy, y = hwy)) +
+        geom_point()
+
+#5:
+penguins |> 
+        ggplot(aes(x = bill_length_mm, y = bill_depth_mm)) +
+        geom_point() +
+        facet_grid(~species)
+
+#6: Remove labs function.
+ggplot(
+        data = penguins,
+        mapping = aes(
+                x = bill_length_mm, y = bill_depth_mm, 
+                color = species, shape = species
+        )
+) +
+        geom_point()
+
+#7:
+ggplot(penguins, aes(x = island, fill = species)) +
+        geom_bar(position = "fill") # proportion of each spp on each island
+ggplot(penguins, aes(x = species, fill = island)) +
+        geom_bar(position = "fill") # distribution of spp on islands
+
+
+# 2.6.1 Exercises ---------------------------------------------------------
+#1: The second plot is saved.
+ggplot(mpg, aes(x = class)) +
+        geom_bar()
+ggplot(mpg, aes(x = cty, y = hwy)) +
+        geom_point()
+ggsave("mpg-plot.png")
+
+#2: The extension to the file name.
