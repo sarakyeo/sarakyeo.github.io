@@ -202,13 +202,10 @@ ggplot(
 [write code here]
 
 
-## Missing Data ------------------------------------------------------------
-# Recode missing data as NA in R.
-
-
 ## Descriptive Statistics --------------------------------------------------
 # Uses summarytools package
 # Find descriptive statistics for age.
+[write code here]
 
 ## Recoding Variables ------------------------------------------------------
 # Use M2_3, M3_3 to create composite variable of scimedia
