@@ -306,31 +306,26 @@ Readings
 Readings
 
 -   Crettaz von Roten, F. (2016). Statistics in Public Understanding of Science review: How to achieve high statistical standards? *Public Understanding of Science*, *25*(2), 135--140. <https://doi.org/10.1177/0963662515595195>
+-   Dienlin, T., Johannes, N., Bowman, N. D., Masur, P. K., Engesser, S., Kümpel, A. S., Lukito, J., Bier, L. M., Zhang, R., Johnson, B. K., Huskey, R., Schneider, F. M., Breuer, J., Parry, D. A., Vermeulen, I., Fisher, J. T., Banks, J., Weber, R., Ellis, D. A., ... de Vreese, C. (2021). An agenda for open science in communication. *Journal of Communication*, *71*(1), 1--26. <https://doi.org/10.1093/joc/jqz052>
 -   Tal, A. (2016). Rigor Mortis: Statistical thoroughness in reporting and the making of truth. *Public Understanding of Science*, *25*(2), 141--145. <https://doi.org/10.1177/0963662515619836>
 
 ## Week 14 (12-Apr)
 
-### Data Analysis / Writing Workshop
+### Work Week
 
-Readings
-
--   Dienlin, T., Johannes, N., Bowman, N. D., Masur, P. K., Engesser, S., Kümpel, A. S., Lukito, J., Bier, L. M., Zhang, R., Johnson, B. K., Huskey, R., Schneider, F. M., Breuer, J., Parry, D. A., Vermeulen, I., Fisher, J. T., Banks, J., Weber, R., Ellis, D. A., ... de Vreese, C. (2021). An agenda for open science in communication. *Journal of Communication*, *71*(1), 1--26. <https://doi.org/10.1093/joc/jqz052>
+::: callout-warning
+# No class
+:::
 
 ::: callout-note
 # Final Project Deadline
 
-Final proposal and response due.
+Final proposal and pre-registration due.
 :::
 
 ## Week 15 (19-Apr)
 
 ### In-class Presentations
-
-::: callout-note
-## Final Project Deadline
-
-Final project preregistration due on **Friday, 21-Apr**.
-:::
 
 ::: callout-tip
 ## Assignment Deadline
