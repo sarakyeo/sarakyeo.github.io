@@ -270,10 +270,13 @@ Readings
 
 -   R4DS: [Introduction](https://r4ds.hadley.nz/intro.html)
 -   R4DS: [Whole Game](https://r4ds.hadley.nz/whole-game.html)
--   R4DS: [Workflow: Basics](https://r4ds.hadley.nz/workflow-basics.html)
--   R4DS: [Workflow: Pipes](https://r4ds.hadley.nz/workflow-pipes.html)
--   R4DS: [Workflow: Code Style](https://r4ds.hadley.nz/workflow-style.html)
--   R4DS: [Workflow: Scripts and Projects](https://r4ds.hadley.nz/workflow-scripts.html)
+-   R4DS: [Data Visualization](https://r4ds.hadley.nz/data-visualize.html)
+-   R4DS: [Workflow: basics](https://r4ds.hadley.nz/workflow-basics.html)
+-   R4DS: [Data transformation](https://r4ds.hadley.nz/data-transform.html)
+-   R4DS: [Workflow: code Style](https://r4ds.hadley.nz/workflow-style.html)
+-   R4DS: [Data tidying](https://r4ds.hadley.nz/data-tidy.html)
+-   R4DS: [Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html)
+-   R4DS: [Data import](https://r4ds.hadley.nz/data-import.html)
 
 ::: callout-note
 # Final Project Deadline
