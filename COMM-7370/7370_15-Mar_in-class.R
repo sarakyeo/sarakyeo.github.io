@@ -78,7 +78,7 @@ ggplot(
   geom_point(mapping = aes(
     color = species,
     shape = species
-  )) +
+  )) + 
   geom_smooth(method = "lm") +
   labs(
     title = "Body mass and flipper length",
@@ -108,7 +108,7 @@ ggplot(
   data = penguins,
   mapping = aes(x = species, y = bill_depth_mm)
 ) +
-  geom_col() # columns are a better choice of geom
+  geom_boxplot() # boxplot are a better choice of geom
 
 # 5: No mapping aesthetic specified.
 
@@ -243,7 +243,6 @@ ggsave("mpg-plot.png")
 # Basics of R -------------------------------------------------------------
 # R vs. RStudio
 
-
 # Setting Preferences in R ------------------------------------------------
 # Tools --> Global Options --> Appearance
 # Rainbow parentheses
@@ -263,7 +262,6 @@ ggsave("mpg-plot.png")
 # install.packages("magrittr")
 # install.packages("psych")
 library(tidyverse)
-library(magrittr)
 library(summarytools)
 library(rstatix)
 library(psych)
@@ -290,40 +288,36 @@ setwd("C:/Users/sarak/Documents/_git-repos/sarakyeo.github.io/COMM-7370")
 
 
 ## Reading Data into R -----------------------------------------------------
-rawdata <- read_csv("7370_practice-data.csv")
+wdata <- read_csv("7370_practice-data.csv")
+
 # Cleaning data
-rawdata %>%
+wdata |> 
   freq(gc)
 
-wdata <- rawdata %>%
+wdata <- wdata |> 
   filter(gc == 1) # Explain gc--we only want R for whom gc = 1
 
 
 ## Types of Data and Levels of Measurement ---------------------------------
 # What is C1? Where do I find info about C1? Why do I need to do this?
-wdata %>%
+wdata |> 
   freq(C1)
 
-wdata %>%
+wdata |> 
   freq(V1) # Where do I find info re: V1? What type of variable is it?
 # Calculate age of respondents. Why is this important?
 
-wdata <- wdata %>%
-  rowwise() %>%
-  mutate(age = 2021 - V1)
+wdata <- wdata |> 
+  mutate(age = 2023 - V1)
 
-wdata %>%
+wdata |> 
   freq(age) # continuous variable; ratio
-
-
-## Missing Data ------------------------------------------------------------
-# Recode missing data as NA in R.
 
 
 ## Descriptive Statistics --------------------------------------------------
 # Uses summarytools package
 wdata %>%
-  descr(age)
+  descr(age) # M = 55.40, SD = 15.52
 
 ## Recoding Variables ------------------------------------------------------
 # M2_3, M3_3 to create composite variable of scimedia
