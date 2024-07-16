@@ -1,11 +1,11 @@
 ---
-title: 'LA-1: Installing R and RStudio (10 points)'
-pagetitle: "COMM 3710: LA-1"
+title: "LA-1: Ethics in Human Subjects Research (10 points)"
 format:
-  html:
-    toc: true
-    toc_float: true
-    theme: zephyr
+   pdf:
+      documentclass: article
+      toc: false
+      colorlinks: true
+urlcolor: blue
 ---
 
 [R](https://cran.r-project.org/) is the programming language and environment that we will be using for statistical analysis. It is open-source. For more information on R, you can visit the [R Project for Statistical Computing](https://www.r-project.org/).
