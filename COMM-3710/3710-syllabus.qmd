@@ -2,17 +2,23 @@
 title: |
   | COMM 3710: Intro to Quantitative Research
 pagetitle: COMM 3710 syllabus
-format: 
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      papersize: letter
+      toc: false
+      colorlinks: true
    html:
       toc: true
       toc_float: true
       theme: simplex
       smooth-scroll: true
       embed-resources: true
-   pdf:
-      documentclass: article
-      toc: false
-      colorlinks: true
 urlcolor: blue
 ---
 
@@ -237,16 +243,6 @@ In the event of a University-wide emergency which prevents face-to-face meetings
 
 # University Policies {#sec-Upolicies}
 
-## COVID-19 \[CHECK\]
-
-This is an in-person course; you will be expected to attend classes in person. To protect yourself and those you care about, the University recommends that you:
-
--   Get a COVID-19 vaccination if you have not already done so.
--   **Get weekly asymptomatic coronavirus tests** if you are not vaccinated. For more information or to schedule an asymptomatic coronavirus test, visit [alert.utah.edu/covid/testing](https://alert.utah.edu/covid/testing/).
--   **Wear a face mask properly while indoors**.
-
-If you test positive for COVID-19, submit a self-report at [coronavirus.utah.edu](https://coronavirus.utah.edu). For more information about how the University is handling the coronavirus pandemic, visit [coronavirus.utah.edu](https://coronavirus.utah.edu).
-
 ## ADA
 
 The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020.
@@ -261,9 +257,9 @@ For more information regarding safety and to view available training resources, 
 
 **Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.
 
-If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066. For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776. To report to the police, contact the Department of Public Safety, 801-585-2677 (COPS).
+If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 801-581-7066. For support and confidential consultation, contact the Center for Student Wellness,801-581-7776. To report to the police, contact campus police, 801-585-2677 (COPS).
 
-## Undocumented Student Support \[CHECK\]
+## Undocumented Student Support
 
 Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center.
 
@@ -279,49 +275,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas.
 :::
 
-<!-- Fix schedule below -->
-
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| WK     | DATES          | LECTURE                              | READINGS          | QUIZ   | IN-CLASS ASSIGNMENT | LAB ASSIGNMENT                          |
-+========+================+======================================+===================+========+=====================+=========================================+
-| 1      | 19-Aug, 21-Aug | Introduction\                        | Syllabus\         | 1      |                     |                                         |
-|        |                | Ways of Knowing                      | Wrench Ch. 1, 2   |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 2      | 26-Aug, 28-Aug | The Process of Research              | Wrench Ch. 3\     | 2      | 1                   | LA-1: Ethics in human subjects research |
-|        |                |                                      | BBC               |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 3      | 2-Sep, 4-Sep   | LABOR DAY (no lecture)               | --                | --     | --                  | LA-2: Setting up R (10 pts)             |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 4      | 9-Sep, 11-Sep  | Concept Explication                  | McLeod et al.     | 3      | 2                   | LA-3: Working with data                 |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 5      | 16-Sep, 18-Sep | Concept Explication\                 | Wrench Ch. 6      | 4      | 3                   |                                         |
-|        |                | Variables & Measurement              |                   |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 6      | 23-Sep, 25-Sep | Variables & Measurement\             | Wrench Ch. 7      | 5      | 4                   | LA-4: Data wrangling                    |
-|        |                | Reliability & Validity               |                   |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 7      | 30-Sep, 2-Oct  | Relibility & Validity                | Wrench Ch. 8      | 6      | 5                   |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 8      | 7-Oct, 9-Oct   | FALL BREAK (no lecture/lab)          | --                | --     | --                  | --                                      |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 9      | 14-Oct, 16-Oct | Sampling                             | Wrench Ch. 12\    | 7      | 6                   | LA-5: Examining and managing data       |
-|        |                |                                      | ASA (pp. 63-68)\  |        |                     |                                         |
-|        |                |                                      | Pew 2016\         |        |                     |                                         |
-|        |                |                                      | AAPOR 2007        |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 10     | 21-Oct, 23-Oct | Survey Research                      | Wrench Ch. 9\     | 8      | 7                   |                                         |
-|        |                |                                      | Bialik\           |        |                     |                                         |
-|        |                |                                      | Pew 2020          |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 11     | 28-Oct, 30-Oct | Experimental Design                  | Wrench Ch. 11     | 9      | 8                   | LA-6: Data visualization                |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 12     | 4-Nov, 6-Nov   | Content Analysis                     | Wrench Ch. 10     | 10     | 9                   |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 13     | 11-Nov, 13-Nov | Introduction to Statistics           | Wrench Ch. 13, 14 | 11     | 10                  | LA-7: Examining relationships           |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 14     | 18-Nov, 20-Nov | Descriptive & Inferential Statistics | Wrench Ch. 15-18  | 12     | 11                  |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 15     | 25-Nov, 27-Nov | Data Analysis                        |                   |        |                     | LA-8: Practice data analysis            |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
-| 16     | 2-Dec, 4-Dec   | Reporting Research                   | Wrench Ch. 20     |        |                     |                                         |
-+--------+----------------+--------------------------------------+-------------------+--------+---------------------+-----------------------------------------+
+![](3710-schedule.png){fig-align="center" width=7in}
