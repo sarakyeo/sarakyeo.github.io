@@ -17,6 +17,10 @@ We will be using Posit Cloud for lab assignments in this course. RStudio, which 
 
 You can also use R and RStudio as standalone programs offline on your computer, but you will have to download both programs and install them. We will not be covering installation of R on your own machine in this course, but you are welcome to do so on your own.
 
+::: {.callout-tip}
+Remember to save your work often.
+:::
+
 # Instructions: Setting up an account
 
 1) Open a web browser and navigate to [Posit.Cloud](https://posit.cloud/).
@@ -36,9 +40,9 @@ You can also use R and RStudio as standalone programs offline on your computer, 
 
 3) At the top of the screen, click on `Untitled Project` to name your project. I recommend having a project for each lab assignment.
 
-4) You're ready to work with R on Posit Cloud! Your TA will help you get familiar with the layout of R. At the very least, you should know where the **Console** and **Environment** panes.
+4) You're ready to work with R on Posit Cloud! Your TA will help you get familiar with the layout of R. Be sure you know where the **Console** and **Environment** panes are located.
 
-5) Take a screenshot of your project and save it. This is one of your submissions for this assignment.
+5) Take a screenshot of your project and save it. This is one of your submissions for this assignment. <!-- 1 pt -->
 
 
 # Instructions: Your first functions
@@ -58,7 +62,15 @@ print("Your Name Here")
 
 ```
 
-3) Run the command you just wrote in the script. Your TA will show you how. Copy and paste the output from the Console into your R script then add `#` in front of it. Congratulations, you have just programmed your first function in R! With your answer, the script should look something like this:
+3) Run the command you just wrote in the script and make note of what happens in the Console. To run commands from the script, highlight the command you want to run and click `Run` in the top right of the script or use the shortcut keys, `Ctrl` + `Enter` (Windows) or `Command` + `Enter`. 
+
+4) Copy and paste the output from the Console into your R script then add `#` in front of it. <!-- 0.5 pt -->
+
+::: {.callout-note}
+Congratulations, you have just programmed your first function in R!
+:::
+
+With your answer, the script should look something like this:
 
 ```{r}
 #| label: print-ex
@@ -70,7 +82,7 @@ print("Your Name Here")
 
 ```
 
-4) You can also do basic math with R. In your R script, type the following:
+5) You can also do basic math with R. In your R script, type the following:
 
 ```{r}
 #| label: math
@@ -81,11 +93,14 @@ print("Your Name Here")
 
 ```
 
-5) Copy and paste the result from the Console in your R script. Again, add `#` in front of it.
+6) Copy and paste the result from the Console in your R script. Again, add `#` in front of it. <!-- 0.5 pt -->
 
-6) You might notice that the result of the last calculation you did was not saved anywhere. What if we want to use the result in another calculation or operation? To do this, we can save functions and computations into *objects*. Let's create some objects in R so we can use them in subsequent calculations.
 
-7) Type the following in your script and run the function. Describe what happened when you ran the command. You can type your answer under the function in your R script. Type `#` before your answer so that the text turns green, indicating that these are comments in your script (vs. functions). Comments are not evaluated when you run the script; only functions are evaluated.
+# Instructions: Creating objects
+
+You might notice that the result of the last calculation you did was not saved anywhere. What if we want to use the result in another calculation or operation? To do this, we can save functions and computations into *objects*. Let's create some objects in R so we can use them in subsequent calculations.
+
+1) Type the following in your script and run the function. Describe what happened when you ran the command. You can type your answer under the function in your R script. Type `#` before your answer so that the text turns green, indicating that these are comments in your script (vs. functions). Comments are not evaluated when you run the script; only functions are evaluated.
 
 ```{r}
 #| label: objects1
@@ -96,11 +111,12 @@ xray <- 4+5
 
 ```
 
-xray
-b <-6
-b/xray
-apples <-5
-oranges<-2
-grapes<-10
-strawberries<-15
-fruitsalad<-apples-2+oranges+grapes+strawberries
+2) In your R script, describe (i) what happened in the Console and (ii) what happened in the Environment pane when you ran the function above. Remember to use the `#` to make all your answers into comments in your R script. <!-- 2 pts -->
+
+3) Now, create another object (you can call it whatever you wish) and assign the number `6` to it. Describe what happened in the Console and the Environment when you created this object. <!-- 2 pts -->
+
+4) Use the object you just created as the denominator and divide `xray` by this object. Describe what happened in the Console and Environment panes when you did this. <!-- 2 pts -->
+
+5) Finally, let's create an object called `fruitsalad` from individual fruit. Create four objects, `apples`, `oranges`, `pears`, and `grapes`. Assign the following numbers to them: 5, 3, 10, 18. Create `fruitsalad` by adding the individual fruit together. Write down the result of your fruit salad in your R script. <!-- 2 pts -->
+
+Submit your R script (`LA-2_FirstName-LastName.R`) on Canvas.
