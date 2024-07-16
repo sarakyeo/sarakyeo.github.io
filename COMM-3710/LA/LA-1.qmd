@@ -55,4 +55,4 @@ Submit the report as a **PDF file** on Canvas. An example submission is shown be
 
 # Example CITI Report
 
-![](LA-2_CITIex.png){width=6.5in fig-align="center"}
+![](LA-1_CITIex.png){width=6.5in fig-align="center"}

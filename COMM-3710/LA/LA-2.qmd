@@ -1,0 +1,106 @@
+---
+title: "LA-2: Setting up R (10 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+---
+
+We will be using Posit Cloud for lab assignments in this course. RStudio, which is the graphical user interface through which many people use R, re-branded themselves as Posit. What used to be called RStudio Cloud is now known as Posit Cloud, but it is the same thing. 
+
+You can also use R and RStudio as standalone programs offline on your computer, but you will have to download both programs and install them. We will not be covering installation of R on your own machine in this course, but you are welcome to do so on your own.
+
+# Instructions: Setting up an account
+
+1) Open a web browser and navigate to [Posit.Cloud](https://posit.cloud/).
+
+2) Click on `Log In` in the top right corner of the page.
+
+3) On the next screen, click on the `Sign Up` tab or sign in with your Google or Github account (pick one if you have it). You may sign up with any account that you would like.
+
+4) Once you have created an account, log in.
+
+
+# Instructions: Setting up Posit Cloud
+
+1) Once you log in, you will be taken to `Your Workspace`.
+
+2) Click on `New Project` in the top right corner. From the dropdown options, select `New RStudio Project`.
+
+3) At the top of the screen, click on `Untitled Project` to name your project. I recommend having a project for each lab assignment.
+
+4) You're ready to work with R on Posit Cloud! Your TA will help you get familiar with the layout of R. At the very least, you should know where the **Console** and **Environment** panes.
+
+5) Take a screenshot of your project and save it. This is one of your submissions for this assignment.
+
+
+# Instructions: Your first functions
+
+At its core, R is a calculator. It can also make fancy figures. Let's start by giving R some simple commands. 
+
+1) Create a new R script, name it `LA-2_Your Name.R`. Your TA will show you how. Think of a script as a list of commands that you (the user) are giving to the computer (R, which is the engine underlying RStudio and Posit Cloud).
+
+2) In your script, type the following command:
+
+```{r}
+#| label: print
+#| eval: false
+#| as-is: true
+
+print("Your Name Here")
+
+```
+
+3) Run the command you just wrote in the script. Your TA will show you how. Copy and paste the output from the Console into your R script then add `#` in front of it. Congratulations, you have just programmed your first function in R! With your answer, the script should look something like this:
+
+```{r}
+#| label: print-ex
+#| eval: false
+#| as-is: true
+
+print("Your Name Here")
+# [1] "Your Name Here"
+
+```
+
+4) You can also do basic math with R. In your R script, type the following:
+
+```{r}
+#| label: math
+#| eval: false
+#| as-is: true
+
+5*12
+
+```
+
+5) Copy and paste the result from the Console in your R script. Again, add `#` in front of it.
+
+6) You might notice that the result of the last calculation you did was not saved anywhere. What if we want to use the result in another calculation or operation? To do this, we can save functions and computations into *objects*. Let's create some objects in R so we can use them in subsequent calculations.
+
+7) Type the following in your script and run the function. Describe what happened when you ran the command. You can type your answer under the function in your R script. Type `#` before your answer so that the text turns green, indicating that these are comments in your script (vs. functions). Comments are not evaluated when you run the script; only functions are evaluated.
+
+```{r}
+#| label: objects1
+#| eval: false
+#| as-is: true
+
+xray <- 4+5
+
+```
+
+xray
+b <-6
+b/xray
+apples <-5
+oranges<-2
+grapes<-10
+strawberries<-15
+fruitsalad<-apples-2+oranges+grapes+strawberries
