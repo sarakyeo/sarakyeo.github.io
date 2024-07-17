@@ -1,6 +1,11 @@
 ---
 title: |
   | COMM 3710: Intro to Quantitative Research
+subtitle: |
+  | Mondays (9:40 - 11:35 am)
+  | LNCO 1100
+  | Instructor: Dr. Sara K. Yeo
+  | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
 pagetitle: COMM 3710 syllabus
 format:
    pdf:
@@ -21,10 +26,6 @@ format:
       embed-resources: true
 urlcolor: blue
 ---
-
-Instructor: [Dr. Sara K. Yeo](https://faculty.utah.edu/~sarakyeo)
-
-Email: [sara.yeo\@utah.edu](mailto:sara.yeo@utah.edu)
 
 # Course Outline {#sec-outline}
 
