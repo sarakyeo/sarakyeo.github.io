@@ -25,7 +25,7 @@ To complete CITI training, follow the instructions below:
 
 2.  Enter your university affiliation. Click `Continue to Step 2`.
 
-3.  Fill in your **first and last names** and your **utah.edu email address**. Click `Continue to Step 3`.
+3.  Fill in your **first and last name** and your **utah.edu email address**. Click `Continue to Step 3`.
 
 4.  Create a username and password. Fill in the required fields. When asked to verify your email address, be sure to check your Spam folder for the verification email.
 

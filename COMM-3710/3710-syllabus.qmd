@@ -2,8 +2,9 @@
 title: |
   | COMM 3710: Intro to Quantitative Research
 subtitle: |
-  | Mondays (9:40 - 11:35 am)
-  | LNCO 1100
+  | Lecture: Mondays (9:40 - 11:35 am), LNCO 1100
+  | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 1770
+  | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1570
   | Instructor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
 pagetitle: COMM 3710 syllabus

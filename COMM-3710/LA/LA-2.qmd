@@ -27,7 +27,7 @@ Remember to save your work often.
 
 2) Click on `Log In` in the top right corner of the page.
 
-3) On the next screen, click on the `Sign Up` tab or sign in with your Google or Github account (pick one if you have it). You may sign up with any account that you would like.
+3) On the next screen, click on the `Sign Up` tab or sign in with your Google or Github account (pick one if you have it and would like to use it for the course). You may sign up with any account that you would like.
 
 4) Once you have created an account, log in.
 
@@ -36,7 +36,7 @@ Remember to save your work often.
 
 1) Once you log in, you will be taken to `Your Workspace`.
 
-2) Click on `New Project` in the top right corner. From the dropdown options, select `New RStudio Project`.
+2) Click on `New Project` in the top right corner. From the drop down options, select `New RStudio Project`.
 
 3) At the top of the screen, click on `Untitled Project` to name your project. I recommend having a project for each lab assignment.
 
@@ -117,6 +117,6 @@ xray <- 4+5
 
 4) Use the object you just created as the denominator and divide `xray` by this object. Describe what happened in the Console and Environment panes when you did this. <!-- 2 pts -->
 
-5) Finally, let's create an object called `fruitsalad` from individual fruit. Create four objects, `apples`, `oranges`, `pears`, and `grapes`. Assign the following numbers to them: 5, 3, 10, 18. Create `fruitsalad` by adding the individual fruit together. Write down the result of your fruit salad in your R script. <!-- 2 pts -->
+5) Finally, let's create an object called `fruitsalad` from individual fruit. Create four objects, `apples`, `oranges`, `pears`, and `grapes`. Assign the following numbers to them: 5, 3, 10, 18, respectively. Create `fruitsalad` by adding the individual fruit together. Write down the result of your fruit salad in your R script. <!-- 2 pts -->
 
 Submit your R script (`LA-2_FirstName-LastName.R`) on Canvas.
