@@ -1,0 +1,13 @@
+﻿Variable,Description
+Date.Day,The day of the month that this performance's week ended on.
+Date.Full,"The full date representation that this performance's week ended on in ""Month/Day/Year"" format."
+Date.Month,"The numeric month that this performance's week ended in (1 = January, 2 = February, etc.)."
+Date.Year,The year that this week of performances occurred in.
+Show.Name,The name of the production.
+Show.Theatre,The name of the theatre.
+Show.Type,"Whether it is a ""Musical"", ""Play"", or ""Special""."
+Statistics.Attendance,The total number of people who attended performances over the week.
+Statistics.Capacity,The percentage of the theatre that was filled during that week.
+Statistics.Gross,"The ""Gross Gross"" of this performance, or how much it made in total across the entire week. Measured in dollars."
+Statistics.Gross Potential,"The Gross Potential is the maximum amount an engagement can possibly earn based on calculations involving ticket prices, seating capacity, and the number of performances. This number is expressed here as a percentage of what could have been achieved (Gross Gross / Gross Potential). In case the GP could not be calculated, it was replaced with 0%."
+Statistics.Performances,The number of performances that occurred this week.
