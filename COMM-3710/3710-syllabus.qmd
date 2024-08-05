@@ -19,12 +19,12 @@ format:
       papersize: letter
       toc: false
       colorlinks: true
-   html:
-      toc: true
-      toc_float: true
-      theme: simplex
-      smooth-scroll: true
-      embed-resources: true
+   # html:
+   #    toc: true
+   #    toc_float: true
+   #    theme: simplex
+   #    smooth-scroll: true
+   #    embed-resources: true
 urlcolor: blue
 ---
 
@@ -101,7 +101,7 @@ You are expected to know how to take a screenshot with your computer. A photo of
 Course grades will be based on the following:
 
 -   Quizzes (100 pts)
--   In-class assignments (100 pts)
+-   In-class assignments (60 pts)
 -   Lab assignments (100 pts)
 -   Lab attendance (26 pts)
 
@@ -115,9 +115,9 @@ You will have **15 minutes** to complete each quiz. Note that you will only have
 Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.
 :::
 
-## In-class Assignments (100 pts)
+## In-class Assignments (60 pts)
 
-There are 11 in-class assignments. We will work on these during lecture sessions throughout the semester. Information on in-class assignments will be provided during lecture and on Canvas. Without exception, these assignments are due at the end of the lecture in which they are assigned.
+There are 6 in-class assignments throughout the semester. We will work on these during lecture sessions. Information on in-class assignments will be provided during lecture. Without exception, these assignments are due at the end of the lecture in which they are assigned.
 
 **Late assignments will not be accepted**.
 
@@ -273,8 +273,8 @@ Arrangements with the Dream Center will not jeopardize your student status, your
 
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-::: call-note
-The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas.
+::: callout-note
+The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule.png){fig-align="center" width=7in}
+![](3710-schedule.png){fig-align="center" width=6in}
