@@ -83,9 +83,7 @@ bway <- read_csv("broadway.csv")
 4)  Let's get a sense of our data using the `glimpse()` function. This function, which is included in the `tidyverse` suite of packages for R, allows us to get a glimpse of our data. To use this function, the command is: `glimpse(df)` where `df` is the name of your data frame.
 
 5)  Using the results of `glimpse()` in your Console, answer the following questions (as comments in your R script).
-
     a) How many cases are there in the broadway dataset?
-
     b) How many variables are there in the broadway dataset?
 
 ```{r}
@@ -100,55 +98,47 @@ glimpse(bway)
 ```
 
 6)  Now that we know the dimensions of our data frame (i.e., rows/cases, columns/variables), let's get a little more familiar with these data. Download the codebook from Canvas (.csv file) and take a look at the names and descriptions of the variables. In your R script, answer the following questions:
-
     a)  What does the variable, `Statistics.Performances`, measure?
     b)  What is the name of the variable that describes the maximum amount that a show can earn?
 
-7)  In this step, we will learn to use the pipe operator.
+7) In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
 
-The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
+        Woke up |>
+        Took a shower |>
+        Got dressed |>
+        Made breakfast |>
+        Ate breakfast |>
+        Went to class
 
-You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
+Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script).
 
-```         
+   a) What is the name of the variable that tells us the name of the show? 
+   b) What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
+   c) What is the name of the variable that measures the attendance per show?
 
-Woke up |>
-Took a shower |>
-Got dressed |>
-Made breakfast |>
-Ate breakfast |>
-Went to class
-```
-
-Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for Mamma Mia! and The Lion King (we will use the variable, `Show.Name`). Answer the question below in a comment in your R script (be sure to label this clearly in the script); step-by-step instructions to help you answer this question are shown below.
-
-    a) What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
-
-    b) What is the name of the variable that measures the attendance per show?
-
-In your R script, write pseudocode to determine the average attendance per show for *Mamma Mia!* and *The Lion King* respectively (remember that lines that begin with `#` are comments in R):
+Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
 
 ```{r}
 #| label: ex7
 
-# Start with the broadway data frame, which I called b
-# Select cases that only contain Mamma Mia! from the broadway data using the Show.Name variable
-# Calculate the mean of the attendance
+# Start with the broadway data frame, which I called bway
+# Filter for cases that only contain Mamma Mia! from the broadway data using the Show.Name variable
+# Calculate the mean of the attendance among these cases
 
 ```
 
-Next, translate the pseudocode to R functions using the pipe operator:
+Next, translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
 
 ```{r}
-#| label: ans7
+#| label: ex7a
 #| echo: TRUE
-#| evaluate: FALSE
+#| eval: false
 #| include: TRUE
 #| tidy: TRUE
 
 bway |> # Start with the broadway data frame
-        filter(Show.Name == "Mamma Mia!") |> # Select only Mamma Mia! cases
-        summarise(Mattd = mean(Statistics.Attendance, na.rm = TRUE)) # find mean
+        filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
+        summarise(Mattd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
 
 # Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
 # of the mean, if there are any in your dataset. We don't have those in this
@@ -156,129 +146,100 @@ bway |> # Start with the broadway data frame
 
 ```
 
-<!-- Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function: -->
+Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
 
-<!-- ```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE} -->
+```{r}
+#| label: ex7b
+#| echo: true
+#| eval: false
+#| include: true
+#| tidy: true
 
-<!-- b |> # Start with the broadway data frame -->
+bway |> # Start with the broadway data frame
+        filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
+        summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean
+                  min_attd = min(Statistics.Attendance, na.rm = TRUE), # Find minimum
+                  max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum
 
-<!--         filter(Show.Name == "Mamma Mia!") |> # Select only Mamma Mia! cases -->
+```
 
-<!--         summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # find mean -->
+Using the calculations performed by the R commands above, answer the following questions:
 
-<!--                   min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum -->
+   d) What is the minimum number of people who attended Mamma Mia!?
+   e) What is the maximum number of people who attended Mamma Mia!?
+   f) What is the mean number of people who attended Mamma Mia!?
 
-<!--                   max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum -->
+:::callout-note   
+There is a single function that is part of the package, `summarytools`, that will enable you to obtain these statistics with a single function. For 2 bonus points, try to figure out this function and use it in this exercise.
+:::
 
-<!-- ``` -->
+```{r}
+#| label: ans7
+#| include: FALSE
 
-<!-- Using the calculations performed by the R commands above, answer the following questions: -->
+bway |> # Start with the broadway data frame
+        filter(Show.Name == "Mamma Mia!") |> # Select only Mamma Mia! cases
+        summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # find mean
+                  min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum
+                  max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum
 
-<!-- b) What is the minimum number of people who attended Mamma Mia!? -->
+# 7d: 3307 people
+# 7e: 13742 people
+# 7f: 10436 people
 
-<!-- c) What is the maximum number of people who attended Mamma Mia!? -->
+```
 
-<!-- d) What is the mean number of people who attended Mamma Mia!? -->
+8) Use the same logic and process from the example above to answer the following questions.
 
-<!-- ```{r step-3, include=FALSE} -->
+   a) What is the minimum number of people who attended The Lion King?
+   b) What is the maximum number of people who attended The Lion King?
+   c) What is the mean number of people who attended The Lion King?
+   d) Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful?
 
-<!-- b |> # Start with the broadway data frame -->
+```{r}
+#| label: ans8
+#| include: false
 
-<!--         filter(Show.Name == "Mamma Mia!") |> # Select only Mamma Mia! cases -->
+bway |> # Start with the braodway data frame
+        filter(Show.Name == "The Lion King") |> # Select only The Lion King cases
+        summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # find mean
+                  min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum
+                  max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum
 
-<!--         summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # find mean -->
+# 8a: 13477 people
+# 8b: 15737 people
+# 8c: 16319 people
 
-<!--                   min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum -->
+```
 
-<!--                   max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum -->
+9) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-<!-- # 3a: Statistics.Attendance -->
+   a) Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+   b) Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+   c) Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
-<!-- # 3b: 3307 people -->
+```{r}
+#| label: ans9
+#| include: false
 
-<!-- # 3c: 13742 people -->
+bway |> # Start with the braodway data frame
+        filter(Show.Theater == "Studio 54") |> # Select only Studio 54 cases
+        filter(Show.Type == "Musical") |> # Select type == musical
+        summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
+                  min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
+                  max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum
 
-<!-- # 3d: 10436 people -->
+bway |> # Start with the braodway data frame
+        filter(Show.Theater == "Vivian Beaumont") |> # Select only Vivian Beaumont cases
+        filter(Show.Type == "Musical") |> # Select type == musical
+        summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
+                  min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
+                  max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum
 
-<!-- ``` -->
+#9a: min = 185490 USD, max = 1843296 USD, mean = 750724 USD
+#9b: min = 67578 USD, max = 1247155 USD, mean = 561461 USD
 
-<!-- # Step 4 {.tabset .tabset-fade} -->
-
-<!-- Use the same logic and process from [Step 3] to answer the following questions: -->
-
-<!-- a) What is the minimum number of people who attended The Lion King?  -->
-
-<!-- b) What is the maximum number of people who attended The Lion King? -->
-
-<!-- c) What is the mean number of people who attended The Lion King? -->
-
-<!-- ```{r step-4, include=FALSE} -->
-
-<!-- b |> # Start with the braodway data frame -->
-
-<!--         filter(Show.Name == "The Lion King") |> # Select only The Lion King cases -->
-
-<!--         summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # find mean -->
-
-<!--                   min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum -->
-
-<!--                   max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum -->
-
-<!-- # 4a: 13477 people -->
-
-<!-- # 4b: 15737 people -->
-
-<!-- # 4c: 16319 people -->
-
-<!-- ``` -->
-
-<!-- # Step 5 {.tabset .tabset-fade} -->
-
-<!-- ## Instructions -->
-
-<!-- Using `|>`and the functions you just learned, write R code to determine the answers to the questions below. -->
-
-<!-- a) Among shows in the **Studio 54 theater** that are **musicals**, what is the minimum, maximum, and mean **"Gross Gross"** in dollars? -->
-
-<!-- b) Among shows in the **Vivian Beaumont theater** that are **musicals**, what is the minimum, maximum, and mean **"Gross Gross"** in dollars? -->
-
-<!-- ```{r step-5, include=FALSE} -->
-
-<!-- b |> # Start with the braodway data frame -->
-
-<!--         filter(Show.Theater == "Studio 54") |> # Select only Studio 54 cases -->
-
-<!--         filter(Show.Type == "Musical") |> # Select type == musical -->
-
-<!--         summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean -->
-
-<!--                   min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum -->
-
-<!--                   max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum -->
-
-<!-- b |> # Start with the braodway data frame -->
-
-<!--         filter(Show.Theater == "Vivian Beaumont") |> # Select only Vivian Beaumont cases -->
-
-<!--         filter(Show.Type == "Musical") |> # Select type == musical -->
-
-<!--         summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean -->
-
-<!--                   min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum -->
-
-<!--                   max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum -->
-
-<!-- # 5a: min = 87141 USD, max = 1051850 USD, M = 460019.7 USD -->
-
-<!-- # 5b: min = 67578 USD, max = 1247155 USD, M = 561461.1 USD -->
-
-<!-- ``` -->
-
-<!-- ## Hint -->
-
-<!-- Start by identifying the variables (which variable will you use to filter or select cases? Which variable will be used in the `mean()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a and b. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment. -->
-
-<!-- If you need help with the `mean()` function, pull up the corresponding help documentation. -->
+```
 
 ------------------------------------------------------------------------
 
