@@ -1,0 +1,121 @@
+---
+title: "LA-7: Examining Relationships (15 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(summarytools)
+library(rstatix)
+library(kableExtra)
+library(formatR)
+
+# Read data into R
+covid <- read_csv(here::here("COMM-3710", "LA","covid.csv"))
+
+```
+
+# Learning Outcomes
+
+In this assignment, you will:
+
+- Select the appropriate statistical test.
+- Conduct a statistical test.
+
+::: callout-tip
+Read all the instructions carefully before starting the assignment.
+:::
+
+------------------------------------------------------------------------
+
+# Instructions
+
+1) Load the packages below and download the `covid.csv` data file from Canvas. Read the dataset into R. Use the codebook on Canvas to familiarize yourself with the data in this file.
+   
+   * `tidyverse`
+   * `summarytools`
+   * `rstatix`
+   
+2) Create a new variable called `region`. Have the variable equal `Americas` if the country is Brazil, Canada, Mexico, or the United States. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain. Run a frequency distribution of region. Which region has the highest frequency?
+
+```{r}
+#| label: ans2
+#| include: false
+#| eval: false
+
+covid |> freq(country)
+
+covid <- covid |> 
+        mutate(region = case_when(
+                country == "Brazil" | country == "Canada" | country == "Mexico" | country == "United States" ~ "Americas",
+                country == "China" | country == "India" | country == "Japan" | country == "Singapore" | country == "South Korea" ~ "Asia",
+                country == "Denmark" | country == "France" | country == "Germany" | country == "Italy" | country == "Spain" ~ "Europe",
+                        ))
+
+covid |> freq(region)
+
+#2: Europe.
+
+```
+
+3) Let’s say we want to conduct a statistical test to determine whether the total number of contacts people had on the previous day differs by region. First, answer the questions below. Be sure to include your answers as comments in your R file.
+
+   a) Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
+   b) Run a frequency distribution of `total_contacts`. Is this variable categorical or continuous?
+   c) Is the variable `region` continuous or categorical?
+   d) Given your answers to the previous questions, what statistical test should you use? Why? Refer to the flowchart on Canvas to help select a statistical test.
+   
+```{r}
+#| label: ans3
+#| include: false
+#| eval: false
+
+#3a: `total_contacts` and `region`. IV = `region`, DV = `total_contacts`.
+
+covid |> freq(total_contacts)
+
+#3b: `total_contacts` is a continuous variable.
+#3c: `region` is a categorical variable.
+#3d: Analysis of variance (ANOVA).
+
+```
+
+------------------------------------------------------------------------
+
+# Submission
+
+Submit your R script (named `LA-#_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1)  Include commands and functions that are necessary to address all the questions in the assignment.
+2)  Contain comments that answer the questions in the assignment.
+3)  Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+-   Save your script.
+-   Navigate back to Your Workspace on Posit Cloud.
+-   Reopen your project.
+-   Run the entire script line-by-line without editing it to ensure there are no errors.
+
+::: callout-important
+These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
+:::
