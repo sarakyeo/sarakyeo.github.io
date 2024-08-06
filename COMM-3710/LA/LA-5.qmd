@@ -27,7 +27,7 @@ library(rstatix)
 library(kableExtra)
 library(formatR)
 
-# Read broadway data into R
+# Read data into R
 wind <- read_csv("wind-turbines.csv")
 
 ```
@@ -150,7 +150,7 @@ wind |>
     \
     We refer to this process as **recoding variables**. For this exercise, let's recode projects with 100 turbines or less into the `low` category and those that have more than 100 turbines into the `high` category.\
     \
-    Use the `mutate()` and `case_when()` functions to recode `Project.Number_Turbines` into a new variable, `Project.Number`, with only two categories, low (≤ 100) and high (\> 100). Then, answer the following questions.
+    Use the `mutate()` and `case_when()` functions to recode `Project.Number_Turbines` into a new variable, `Project.Number`, with only two categories, low ($\le$ 100) and high ($>$ 100). Then, answer the following questions.
 
     a)  How many projects are in the **low** category?
     b)  How many projects are in the **high** category?
