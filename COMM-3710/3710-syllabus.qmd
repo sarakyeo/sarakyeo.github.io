@@ -5,7 +5,8 @@ subtitle: |
   | Lecture: Mondays (9:40 - 11:35 am), LNCO 1100
   | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 1770
   | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1570
-  | Instructor: Dr. Sara K. Yeo
+  |
+  | Instructor: Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
 pagetitle: COMM 3710 syllabus
 format:
@@ -222,12 +223,16 @@ Here is the basic etiquette that will be expected in the course:
 ## Academic Misconduct
 
 ::: callout-warning
-Academic misconduct will be punished to the fullest extent possible.
+Academic misconduct will be punished to the fullest extent possible. Anyone found guilty of academic misconduct should expect to fail this course.
 :::
 
-You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course.
+It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one’s work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah’s Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
 
-In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. Academic misconduct, according to the University of Utah Student Code:
+
+> “...Includes, but is not limited to, cheating, misrepresenting one’s work, inappropriately collaborating, plagiarism, and fabrication or falsification of information…It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct.”
+
+For details on plagiarism and other important course conduct issues, see the U's [Code of Student Rights and Responsibilities](http://regulations.utah.edu/academics/6-400.php).
 
 ## Curriculum Accommodations
 
@@ -247,19 +252,27 @@ In the event of a University-wide emergency which prevents face-to-face meetings
 
 ## ADA
 
-The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the Center for Disability Services, 162 Olpin Union Building, (801) 581-5020.
+The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities.
 
-CDA will work with you and the instructor to arrange accommodations. All written information in this course can be made available in an alternative format with prior notification to the [Center for Disability & Access](https://disability.utah.edu/).
+All written information in this course can be made available in an alternative format with prior notification to the Center for Disability & Access (CDA). CDA will work with you and the instructor to make arrangements for accommodations. Prior notice is appreciated. To read the full accommodations policy for the University of Utah, please see Section Q of the Instruction & Evaluation regulations.
+
+In compliance with ADA requirements, some students may need to record course content. Any recordings of course content are for personal use only, should not be shared, and should never be made publicly available. In addition, recordings **must** be destroyed at the conclusion of the course.
+
+If you will need accommodations in this class, or for more information about what support they provide, contact the [Center for Disability & Access](https://disability.utah.edu/).
 
 ## Safety
 
-**University Safety Statement.** The University of Utah values the safety of all campus community members. To report suspicious activity or to request a courtesy escort, call campus police at 801-585-COPS (801-585-2677).
+**Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu.
 
-For more information regarding safety and to view available training resources, including helpful videos, visit [safeu.utah.edu](http://safeu.utah.edu/).
+To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
 
 **Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.
 
-If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 801-581-7066. For support and confidential consultation, contact the Center for Student Wellness,801-581-7776. To report to the police, contact campus police, 801-585-2677 (COPS).
+If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677.
+
+If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence.
+
+To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
 
 ## Undocumented Student Support
 
@@ -277,4 +290,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule.png){fig-align="center" width=6in}
+![](3710-schedule.png){fig-align="center" width=7in}

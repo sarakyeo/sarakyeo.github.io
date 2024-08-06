@@ -83,8 +83,9 @@ bway <- read_csv("broadway.csv")
 4)  Let's get a sense of our data using the `glimpse()` function. This function, which is included in the `tidyverse` suite of packages for R, allows us to get a glimpse of our data. To use this function, the command is: `glimpse(df)` where `df` is the name of your data frame.
 
 5)  Using the results of `glimpse()` in your Console, answer the following questions (as comments in your R script).
-    a) How many cases are there in the broadway dataset?
-    b) How many variables are there in the broadway dataset?
+
+    a)  How many cases are there in the broadway dataset?
+    b)  How many variables are there in the broadway dataset?
 
 ```{r}
 #| label: ans5ab
@@ -98,79 +99,82 @@ glimpse(bway)
 ```
 
 6)  Now that we know the dimensions of our data frame (i.e., rows/cases, columns/variables), let's get a little more familiar with these data. Download the codebook from Canvas (.csv file) and take a look at the names and descriptions of the variables. In your R script, answer the following questions:
+
     a)  What does the variable, `Statistics.Performances`, measure?
     b)  What is the name of the variable that describes the maximum amount that a show can earn?
 
-7) In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
+7)  In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
 
-        Woke up |>
-        Took a shower |>
-        Got dressed |>
-        Made breakfast |>
-        Ate breakfast |>
-        Went to class
+    ```         
+     Woke up |>
+     Took a shower |>
+     Got dressed |>
+     Made breakfast |>
+     Ate breakfast |>
+     Went to class
+    ```
 
-Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script).
+    Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script).
 
-   a) What is the name of the variable that tells us the name of the show? 
-   b) What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
-   c) What is the name of the variable that measures the attendance per show?
+    a)  What is the name of the variable that tells us the name of the show?
+    b)  What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
+    c)  What is the name of the variable that measures the attendance per show?
 
-Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
+    Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
 
-```{r}
-#| label: ex7
+    ```{r}
+    #| label: ex7
 
-# Start with the broadway data frame, which I called bway
-# Filter for cases that only contain Mamma Mia! from the broadway data using the Show.Name variable
-# Calculate the mean of the attendance among these cases
+    # Start with the broadway data frame, which I called bway
+    # Filter for cases that only contain Mamma Mia! from the broadway data using the Show.Name variable
+    # Calculate the mean of the attendance among these cases
 
-```
+    ```
 
-Next, translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
+    Next, translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
 
-```{r}
-#| label: ex7a
-#| echo: TRUE
-#| eval: false
-#| include: TRUE
-#| tidy: TRUE
+    ```{r}
+    #| label: ex7a
+    #| echo: TRUE
+    #| eval: false
+    #| include: TRUE
+    #| tidy: TRUE
 
-bway |> # Start with the broadway data frame
-        filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
-        summarise(Mattd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
+    bway |> # Start with the broadway data frame
+            filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
+            summarise(Mattd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
 
-# Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
-# of the mean, if there are any in your dataset. We don't have those in this
-# dataset, though.
+    # Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
+    # of the mean, if there are any in your dataset. We don't have those in this
+    # dataset, though.
 
-```
+    ```
 
-Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
+    Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
 
-```{r}
-#| label: ex7b
-#| echo: true
-#| eval: false
-#| include: true
-#| tidy: true
+    ```{r} 
+    #| label: ex7b 
+    #| echo: true 
+    #| eval: false 
+    #| include: true 
+    #| tidy: true  
+    
+    bway |> # Start with the broadway data frame         
+            filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases       
+            summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean   
+                      min_attd = min(Statistics.Attendance, na.rm = TRUE), # Find minimum 
+                      max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum}
+            
+    ```
 
-bway |> # Start with the broadway data frame
-        filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
-        summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean
-                  min_attd = min(Statistics.Attendance, na.rm = TRUE), # Find minimum
-                  max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum
+    Using the calculations performed by the R commands above, answer the following questions:
 
-```
+    a)  What is the minimum number of people who attended Mamma Mia!?
+    b)  What is the maximum number of people who attended Mamma Mia!?
+    c)  What is the mean number of people who attended Mamma Mia!?
 
-Using the calculations performed by the R commands above, answer the following questions:
-
-   d) What is the minimum number of people who attended Mamma Mia!?
-   e) What is the maximum number of people who attended Mamma Mia!?
-   f) What is the mean number of people who attended Mamma Mia!?
-
-:::callout-note   
-There is a single function that is part of the package, `summarytools`, that will enable you to obtain these statistics with a single function. For 2 bonus points, try to figure out this function and use it in this exercise.
+::: callout-note
+There is a function that is part of the package, `summarytools`, that will enable you to obtain these statistics with a single function. For **2 bonus points**, try to figure out this function and use it in this exercise.
 :::
 
 ```{r}
@@ -189,12 +193,12 @@ bway |> # Start with the broadway data frame
 
 ```
 
-8) Use the same logic and process from the example above to answer the following questions.
+8)  Use the same logic and process from the example above to answer the following questions.
 
-   a) What is the minimum number of people who attended The Lion King?
-   b) What is the maximum number of people who attended The Lion King?
-   c) What is the mean number of people who attended The Lion King?
-   d) Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful?
+    a)  What is the minimum number of people who attended The Lion King?
+    b)  What is the maximum number of people who attended The Lion King?
+    c)  What is the mean number of people who attended The Lion King?
+    d)  Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful?
 
 ```{r}
 #| label: ans8
@@ -212,11 +216,11 @@ bway |> # Start with the braodway data frame
 
 ```
 
-9) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
+9)  Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-   a) Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-   b) Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-   c) Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
+    a)  Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    b)  Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
 #| label: ans9

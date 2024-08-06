@@ -1,0 +1,14 @@
+﻿Variable,Description
+Site.State,"Two letter abbreviation of state where turbine is located (e.g., CA for California)"
+Site.County,County where the turbine is located
+Year,Year when the turbine’s project became operational
+Turbine.Capacity,Electrical generation capacity of the turbine measured in KW (kilo-watts)
+Turbine.Hub_Height,Height in meters of the turbine’s hub
+Turbine.Rotor_Diameter,Diameter in meters of the turbine’s rotor
+Turbine.Swept_Area,The area swept on each rotation of the turbine
+Turbine.Total_Height,"TTotal height of the turbine, in meters"
+Project.Capacity,Electrical generation capacity of the turbine measured in MW (mega-watts)
+Project.Number_Turbines,Number of turbines in this project
+Site.Latitude,Latitude (decimal degrees - NAD 83 datum) of where turbine is located
+Site.Longitude,Longitude (decimal degrees - NAD 83 datum)
+,
