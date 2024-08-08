@@ -192,7 +192,7 @@ covid |> freq(masks_outside)
 covid |> 
         cor_test(vars = masks_outside, vars2 = days_since_outbreak)
 
-#6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense as we learned more about the virus over time.
+#6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense; as we learned more about the virus over time, we learned that it was a respiratory virus that spread via air droplets and that mask-wearing reduces its spread.
 
 ```
 
