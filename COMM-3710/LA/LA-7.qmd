@@ -38,6 +38,7 @@ In this assignment, you will:
 
 - Select the appropriate statistical test.
 - Conduct a statistical test.
+- Interpret the results of a statistical test.
 
 ::: callout-tip
 Read all the instructions carefully before starting the assignment.
@@ -97,6 +98,57 @@ covid |> freq(total_contacts)
 
 ```
 
+4) Conduct the statistical test from your answer to 3d. Answer the following questions.
+
+   a) What is the test statistic and the probability value (i.e., *p*-value) associated with that test statistic?
+   b) Based on the test statistic and the *p*-value, do the number of total contacts differ by region?
+
+5) Next, let's compare how mask-wearing differs between the first and second year after the COVID outbreak. Follow the steps below to select and conduct the appropriate statistical test.
+
+   a) State your hypothesis. Do you think more people wore masks when they went outside in the first or second year after the outbreak? Why?
+   b) Identify the dependent variable. Is it continuous or categorical?
+   c) What variable can you use to create the independent variable? Describe how you might recode an existing variable to create the independent variable. Then, create this new variable using the `mutate()` and `case_when()` functions. Is this new variable continuous or categorical?
+   d) Select and conduct the appropriate statistical test.
+   e) Report the test statistic and probability value as a comment in your R script.
+   f) Calculate the means and standard deviations of the dependent variable for the first and second years after the COVID outbreak. Include these descriptive statistics in your R script. Did people wear masks more often when they went outside in the first or second year after the outbreak?
+   g) Does the statistical test support your hypothesis?
+   
+```{r}
+#| label: ans5
+#| include: false
+#| eval: false
+
+#5a: People wore masks more often in the first year after the outbreak compared to the second year after the outbreak.
+#5b: DV = `masks_outside`
+#5c: We can use `days_since_outbreak` to create the independent variable.
+
+covid <- covid |> 
+        mutate(yr_after_outbreak = case_when(
+                days_since_outbreak <=365 ~ "first year",
+                days_since_outbreak > 365 ~ "second year"
+        ))
+
+covid |> freq(yr_after_outbreak)
+
+#5d: t-test
+
+covid |> 
+        t_test(masks_outside ~ yr_after_outbreak)
+
+#5e: t(157) = -3.80, p < .001
+#5f: The mean of mask wearing is higher in the second year after the outbreak compared to the first.
+
+covid |> 
+        group_by(yr_after_outbreak) |> 
+        descr(masks_outside)
+
+# First year: M = 82.56, SD = 22.31
+# Second year: M = 91.27, SD = 6.63
+
+#5g: The test does not support the hypothesis posed in #5a.
+
+```
+   
 ------------------------------------------------------------------------
 
 # Submission
@@ -119,3 +171,85 @@ To ensure that your R script runs without errors, you should:
 ::: callout-important
 These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
 :::
+
+\newpage
+
+# Selecting a Statistical Test
+
+![](selecting-stats-test.png)
+
+# Conducting a Statistical Test in R
+
+## Chi-squared test
+
+A chi-squared test is used when we want to compare two categorical variables. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: chisq
+#| eval: false
+#| include: true
+
+chisq_test(x = df$ind_var, y = df$dep_var)
+
+# A tibble: 1 × 6
+#       n statistic         p    df method          p.signif
+# * <int>     <dbl>     <dbl> <int> <chr>           <chr>   
+# 1   291      22.5 0.0000133     2 Chi-square test **** 
+
+```
+
+To report the results of your chi-squared test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $\chi^2$(**`df`**, $N$ = **`n`**) = **`statistic`**, *p* = **`p`**
+
+From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 291) = 22.5$, $p < .001$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
+
+## *t*-test
+
+A *t*-test is used to compare the mean values of a continuous variable between two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: t-test
+#| eval: false
+#| include: true
+
+df |> 
+        t_test(dep_var ~ ind_var)
+
+# A tibble: 1 × 10
+#   .y.        group1 group2    n1    n2 statistic    df        p    p.adj p.adj.signif
+# * <chr>      <chr>  <chr>  <int> <int>     <dbl> <dbl>    <dbl>    <dbl> <chr>       
+# 1 dep_var ind_var1  ind_var2  54    70     -12.2  122. 6.49e-23 6.49e-23 ****   
+          
+```
+
+To report the results of your chi-squared test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $t$(**`df`**) = **`statistic`**, *p* = **`p`**
+
+Using the results above, I would report the results of a *t*-test like this: $t(df = 122) = -12.2$, $p < .001$.
+
+## Analysis of variance (ANOVA)
+
+ANOVA is used when we want to compare the mean values of continuous variable between more than two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: aov
+#| eval: false
+#| include: true
+
+df |> 
+        anova_test(dep_var ~ ind_var)
+
+# ANOVA Table (type II tests)
+#
+#   Effect  DFn DFd     F        p p<.05   ges
+# 1 ind_var   2 157 7.505 0.000771     * 0.087
+
+```
+
+To report the results in APA format:
+
+> $F$ (`DFn`, `DFd`) = `F-value`, $p =$ `p-value`
+
+Using the results above, I would report: $F(2, 157) = 7.51$, $p < .001$.
