@@ -117,7 +117,7 @@ There are 8 lab assignments. Information on individual assignments will be provi
 
 ## Lab Attendance (26 pts)
 
-This course has one [graduate TA](#sec-ta) for two lab sections. When you enrolled in this course, you selected a lab section to attend. Please attend the section in which you are enrolled.
+This course has one graduate TA for two lab sections. When you enrolled in this course, you selected a lab section to attend. Please attend the section in which you are enrolled.
 
 For each full lab you attend, you will earn two (2) points toward your attendance grade. If you are **5 to 15 min** late to lab, you will earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
 
