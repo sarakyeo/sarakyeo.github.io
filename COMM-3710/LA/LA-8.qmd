@@ -179,6 +179,23 @@ chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
 
 ```
 
+6) **BONUS:** Use the data and a statistical test to determine whether there is a relationship between the number of days since the COVID outbreak began and how often respondents wore masks outside. Conduct the statistical test, report the results of the test (i.e., test statistic and *p*-value) and explain your conclusion.
+
+```{r}
+#| label: ans6
+#| include: false
+#| eval: false
+
+covid |> freq(days_since_outbreak)
+covid |> freq(masks_outside)
+
+covid |> 
+        cor_test(vars = masks_outside, vars2 = days_since_outbreak)
+
+#6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense as we learned more about the virus over time.
+
+```
+
 ------------------------------------------------------------------------
 
 # Submission
