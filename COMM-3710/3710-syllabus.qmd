@@ -97,7 +97,7 @@ Course grades will be based on the following:
 
 Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. There are 12 quizzes, each worth 10 points.
 
-You will have **15 minutes** to complete each quiz. Note that you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
 ::: callout-important
 Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.
