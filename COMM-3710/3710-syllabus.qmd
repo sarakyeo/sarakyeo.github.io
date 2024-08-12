@@ -11,7 +11,7 @@ subtitle: |
   |
   | Graduate TA: Casey Zukosky
   | Email: [u1147451@utah.edu](mailto:u1147451@utah.edu)
-  | TA Office Hours: Fridays (1-2 pm), LNCO XXXX
+  | TA Office Hours: Fridays (1-2 pm), LNCO 2810
 pagetitle: COMM 3710 syllabus
 format:
    pdf:
@@ -191,7 +191,7 @@ When you contact your instructors, you are expected to be professional in your c
 
 -   Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
 -   Providing your full name, uNID, and class section in the message.
--   Using appropriate salutations (e.g., Dr. or Prof. Yeo).
+-   Using appropriate salutations (e.g., Dr. or Prof. Yeo; recipient's name, if appropriate).
 -   Using paragraphs, not just long blocks of text.
 -   Proofreading your writing.
 -   Providing a clear description of your problem and all relevant information.
