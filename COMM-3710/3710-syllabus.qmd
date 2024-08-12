@@ -89,7 +89,7 @@ You are expected to know how to take a screenshot with your computer. A photo of
 Course grades will be based on the following:
 
 -   Quizzes (100 pts)
--   In-class assignments (60 pts)
+-   In-class assignments (74 pts)
 -   Lab assignments (100 pts)
 -   Lab attendance (26 pts)
 
@@ -103,7 +103,7 @@ Note that quizzes are timed and you will only have **one attempt** at each quiz-
 Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.
 :::
 
-## In-class Assignments (60 pts)
+## In-class Assignments (74 pts)
 
 There are 6 in-class assignments throughout the semester. We will work on these during lecture sessions. Information on in-class assignments will be provided during lecture. Without exception, these assignments are due at the end of the lecture in which they are assigned.
 
