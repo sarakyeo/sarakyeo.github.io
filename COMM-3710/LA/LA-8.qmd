@@ -41,7 +41,7 @@ Read all the instructions carefully before starting the assignment.
 
 # Instructions
 
-1) Download the full COVID dataset (`covid-full.csv`) and codebook (`covid-full-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R.
+1) Download the full COVID dataset (`covid-full.csv`) and codebook (`covid-full-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester.
 
 ```{r}
 #| label: ans1
