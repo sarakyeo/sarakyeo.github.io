@@ -19,7 +19,7 @@ In this assignment, you will learn how to:
 
 - Create a new R script.
 - Prepare your R script for your assignment.
-- Create foldable/collapsible headers in your R script.
+- Create headers in your R script.
 - Set your working directory.
 - Install and load packages in R.
 - Open a help page in R.
@@ -42,7 +42,7 @@ In this assignment, you will learn how to:
 Comments (text preceded by `#` in your R script) are not run or executed. R will only run/execute commands or functions (text not preceded by `#`).
 :::
 
-2) Make a section of foldable code titled "Installing and loading packages." Under this heading, write pseudocode in preparation to install and load the following packages:
+2) Make a section of code titled "Installing and loading packages." Under this heading, write pseudocode in preparation to install and load the following packages:
 
 - `tidyverse`
 - `summarytools`
@@ -60,7 +60,7 @@ Pseudocode is the plain English version of your R code that described the steps 
 
 In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's learn about the function we will be using.
 
-1) Create a new foldable section of code where you can explore and learn about the `c()` function.
+1) Create a new section of code where you can explore and learn about the `c()` function.
 
 2) To read the documentation for any function, you can add `?` in front of the command and run it. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
 
