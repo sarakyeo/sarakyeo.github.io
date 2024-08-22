@@ -1,0 +1,42 @@
+---
+title: "In-class Assignment 1: Concept Explication (15 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+Using available library resources and databases, find the following journal article:
+
+> Liang, X., Su, L. Y.-F., Yeo, S. K., Scheufele, D. A., Brossard, D., Xenos, M. A., Nealey, P., & Corley, E. A. (2014). Building buzz: (Scientists) communicating science in new media environments. *Journalism & Mass Communication Quarterly, 91*(4), 772–791. https://doi.org/10.1177/1077699014550092
+
+This article exemplifies the process of concept explication. Use the journal article to answer the following questions:
+
+1) How many research questions hypotheses are there in this study? Identify the concepts/constructs pertinent to all the research questions and hypotheses in the study.
+
+2) Identify the dependent variable and the independent variables relevant to each research question and hypothesis in this article.
+
+3) Consider the dependent or outcome variable in this study. Answer the following questions.
+
+   a) How did researcher conceptualize the dependent/outcome variable?
+   b) Describe how the dependent variable is measured in the study.
+
+4) Select one independent variable from those you have identified.
+
+   a) Explain how this predictor variable is conceptualized by the researchers.
+   b) Describe how this predictor variable is operationalized by the researchers.
+
+5) Pick a construct. Give an example of how the meaning of the study would be changed if this construct were conceptualized and operationalized differently.
+
+Respond to each question using **short essays with complete sentences**. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
+
+Submit your assignment via Canvas at the end of class.
