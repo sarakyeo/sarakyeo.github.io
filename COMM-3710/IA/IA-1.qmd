@@ -44,7 +44,9 @@ RQ2: IV = forms of communication behaviors; DV = scientific impact.
 3) Consider the dependent or outcome variable in this study. Answer the following questions.
 
    a) How did researchers conceptualize the dependent/outcome variable?
+   <!-- Scientific impact vs. scientific reputation. Used impact as the DV instead of reputation. -->
    b) Describe how the dependent variable is operationalized in the study.
+   <!-- By using a scientists' *h*-index. -->
 
 4) Select one independent variable from those you have identified.
 
@@ -53,6 +55,6 @@ RQ2: IV = forms of communication behaviors; DV = scientific impact.
 
 5) Using the same independent variable from the last question, provide an example of how the meaning of the study would be changed if this construct were conceptualized and operationalized differently.
 
-Respond to each question using **short essays with complete sentences**. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
+Respond to each question using complete sentences. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
 
 Submit your assignment as a PDF file via Canvas at the end of class.
