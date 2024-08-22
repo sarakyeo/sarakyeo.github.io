@@ -15,28 +15,44 @@ editor_options:
   chunk_output_type: console
 ---
 
-Using available library resources and databases, find the following journal article:
+Using available library resources and databases, find a PDF of the following journal article:
 
-> Liang, X., Su, L. Y.-F., Yeo, S. K., Scheufele, D. A., Brossard, D., Xenos, M. A., Nealey, P., & Corley, E. A. (2014). Building buzz: (Scientists) communicating science in new media environments. *Journalism & Mass Communication Quarterly, 91*(4), 772–791. https://doi.org/10.1177/1077699014550092
+:::callout-note
+Liang, X., Su, L. Y.-F., Yeo, S. K., Scheufele, D. A., Brossard, D., Xenos, M. A., Nealey, P., & Corley, E. A. (2014). Building buzz: (Scientists) communicating science in new media environments. *Journalism & Mass Communication Quarterly, 91*(4), 772–791. https://doi.org/10.1177/1077699014550092
+:::
 
-This article exemplifies the process of concept explication. Use the journal article to answer the following questions:
+This article exemplifies the process of concept explication. Carefully read pp. 772-779 of the article. Use the journal article to answer the following questions.
 
 1) How many research questions hypotheses are there in this study? Identify the concepts/constructs pertinent to all the research questions and hypotheses in the study.
 
+<!-- There are three (3) hypotheses and two (2) research questions in this study. -->
+
 2) Identify the dependent variable and the independent variables relevant to each research question and hypothesis in this article.
+
+<!-- 
+H1: IV = scientists' interactions with non-scientists; DV = scientific impact.
+
+H2: IV = scientists' blogging about science; DV = scientific impact.
+
+H3: IV = being mentioned on Twitter; DV = scientific impact.
+
+RQ1: scientists' interaction with reporters; DV = scientific impact.
+
+RQ2: IV = forms of communication behaviors; DV = scientific impact.
+-->
 
 3) Consider the dependent or outcome variable in this study. Answer the following questions.
 
-   a) How did researcher conceptualize the dependent/outcome variable?
-   b) Describe how the dependent variable is measured in the study.
+   a) How did researchers conceptualize the dependent/outcome variable?
+   b) Describe how the dependent variable is operationalized in the study.
 
 4) Select one independent variable from those you have identified.
 
-   a) Explain how this predictor variable is conceptualized by the researchers.
-   b) Describe how this predictor variable is operationalized by the researchers.
+   a) How did the researchers conceptualized this predictor variable?
+   b) Describe how this predictor variable is operationalized in the study.
 
-5) Pick a construct. Give an example of how the meaning of the study would be changed if this construct were conceptualized and operationalized differently.
+5) Using the same independent variable from the last question, provide an example of how the meaning of the study would be changed if this construct were conceptualized and operationalized differently.
 
 Respond to each question using **short essays with complete sentences**. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
 
-Submit your assignment via Canvas at the end of class.
+Submit your assignment as a PDF file via Canvas at the end of class.
