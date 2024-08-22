@@ -100,7 +100,7 @@ Weekly quizzes will be administered online via Canvas. All quizzes will be based
 Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
 ::: callout-important
-Quizzes will open on Mondays at 12:00 am and are due on the Saturdays of that week at 11:59 pm.
+Quizzes will open on Tuesday at 12:00 am and are due on Sunday of that week at 11:59 pm.
 :::
 
 ## In-class Assignments (74 pts)
