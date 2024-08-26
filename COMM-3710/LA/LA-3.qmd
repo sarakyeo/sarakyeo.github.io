@@ -20,7 +20,6 @@ In this assignment, you will learn how to:
 - Create a new R script.
 - Prepare your R script for your assignment.
 - Create headers in your R script.
-- Set your working directory.
 - Install and load packages in R.
 - Open a help page in R.
 - Manually enter data into R.
