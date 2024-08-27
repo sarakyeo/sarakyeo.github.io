@@ -131,7 +131,7 @@ glimpse(bway)
 
     ```
 
-    Next, translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
+    Translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
 
     ```{r}
     #| label: ex7a
@@ -150,15 +150,15 @@ glimpse(bway)
 
     ```
 
-    Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
+8)  Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
 
-    ```{r} 
+    ```{r}
     #| label: ex7b 
     #| echo: true 
     #| eval: false 
     #| include: true 
     #| tidy: true  
-    
+
     bway |> # Start with the broadway data frame         
             filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases       
             summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean   
@@ -178,7 +178,7 @@ There is a function that is part of the package, `summarytools`, that will enabl
 :::
 
 ```{r}
-#| label: ans7
+#| label: ans8
 #| include: FALSE
 
 bway |> # Start with the broadway data frame
@@ -193,7 +193,7 @@ bway |> # Start with the broadway data frame
 
 ```
 
-8)  Use the same logic and process from the example above to answer the following questions.
+9)  Use the same logic and process from the example above to answer the following questions.
 
     a)  What is the minimum number of people who attended The Lion King?
     b)  What is the maximum number of people who attended The Lion King?
@@ -201,7 +201,7 @@ bway |> # Start with the broadway data frame
     d)  Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful?
 
 ```{r}
-#| label: ans8
+#| label: ans9
 #| include: false
 
 bway |> # Start with the braodway data frame
@@ -216,14 +216,14 @@ bway |> # Start with the braodway data frame
 
 ```
 
-9)  Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
+10) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-    a)  Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    b)  Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
+    a) Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    b) Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    c) Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
-#| label: ans9
+#| label: ans10
 #| include: false
 
 bway |> # Start with the braodway data frame
