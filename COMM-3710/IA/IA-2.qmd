@@ -1,0 +1,39 @@
+---
+title: "In-class Assignment 2: Variables and Measurement (13 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+Pick two of the concepts from the list below. You can also select one concept from the list below and come up with another concept in which you are interested. Using available library resources and databases, find journal articles that report empirical studies using your chosen concepts. Note that both concepts do not need to be in the same journal article/empirical study.
+
+- Media use
+- Political engagement
+- Engagement with (media) content
+- Support for a political party
+- Opinions about climate change
+- Sense of humor
+- Opinions about energy
+- Perceived credibility
+- Trustworthiness
+
+1) List the citation(s) of the journal articles in APA format.
+
+2) For each concept, find and describe (in your own words) its working definition from the appropriate journal article. Be sure to cite the journal article in your answer.
+
+3) 
+
+
+Respond to each question using complete sentences. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
+
+Submit your assignment as a PDF file via Canvas at the end of class.
