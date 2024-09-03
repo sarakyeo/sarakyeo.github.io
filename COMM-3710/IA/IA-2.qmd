@@ -19,6 +19,7 @@ Pick two of the concepts from the list below. You can also select one concept fr
 
 - Media use
 - Political engagement
+- Social capital
 - Engagement with (media) content
 - Support for a political party
 - Opinions about climate change
@@ -27,12 +28,19 @@ Pick two of the concepts from the list below. You can also select one concept fr
 - Perceived credibility
 - Trustworthiness
 
-1) List the citation(s) of the journal articles in APA format.
+1) List the citation(s) of the journal articles in APA format.<!-- 2 points -->
 
-2) For each concept, find and describe (in your own words) its working definition from the appropriate journal article. Be sure to cite the journal article in your answer.
+2) For each concept, find and describe (in your own words) its working definition from the appropriate journal article. Be sure to cite the journal article in your answer.<!-- 3 pts -->
 
-3) 
+3) How was each concept operationalized in the journal article that you read?<!-- 2 pts -->
 
+4) Using the operationalization that you described in Q3, identify:
+
+   a) the level of measurement; <!-- 2 pts -->
+   b) the attributes of the variable; <!-- 2 pts -->
+   c) the values assigned to each attribute of the variable. <!-- 2 pts -->
+   
+5) For each variable, identify whether it was an independent or dependent variable in the study.<!-- 2 pts -->
 
 Respond to each question using complete sentences. Clearly label your responses with the corresponding question number and check spelling and grammar in your submission. 
 
