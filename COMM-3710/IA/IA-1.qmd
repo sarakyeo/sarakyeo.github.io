@@ -15,6 +15,8 @@ editor_options:
   chunk_output_type: console
 ---
 
+<!-- 3 points for each question. -->
+
 Using available library resources and databases, find a PDF of the following journal article:
 
 :::callout-note
