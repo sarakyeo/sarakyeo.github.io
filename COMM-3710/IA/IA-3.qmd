@@ -1,0 +1,65 @@
+---
+title: "In-class Assignment 3: Survey Research (12 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+#### Objective:
+To understand the process of designing, conducting, and analyzing a survey in social science research.
+
+#### Instructions:
+
+1. **Formulate a Research Question:**
+   - Choose a topic of interest within social sciences (e.g., social media usage, study habits, public opinion on a social issue).
+   - Develop a clear and concise research question. For example, "How does social media usage affect academic performance among college students?"
+
+2. **Design the Survey:**
+   - Create a survey with 10-15 questions that address your research question.
+   - Include a mix of question types (e.g., multiple-choice, Likert scale, open-ended).
+   - Ensure questions are clear, unbiased, and relevant to the research question.
+
+3. **Sampling:**
+   - Decide on your target population (e.g., undergraduate students at your university).
+   - Determine a sampling method (e.g., random sampling, convenience sampling).
+   - Aim for a sample size of at least 30 respondents to ensure sufficient data for analysis.
+
+4. **Conduct the Survey:**
+   - Distribute the survey to your chosen sample using an online survey tool (e.g., Google Forms, SurveyMonkey).
+   - Collect responses over a specified period (e.g., one week).
+
+5. **Analyze the Data:**
+   - Compile the survey responses and analyze the data using basic statistical methods.
+   - Summarize the findings in tables or charts.
+   - Identify any patterns or trends in the data.
+
+6. **Report the Findings:**
+   - Write a brief report (2-3 pages) summarizing your research question, survey design, data collection process, analysis, and key findings.
+   - Discuss any limitations of your survey and suggest areas for future research.
+
+#### Deliverables:
+- A copy of your survey questionnaire.
+- A summary of your sampling method and data collection process.
+- Data analysis results (tables/charts).
+- A written report of your findings.
+
+#### Evaluation Criteria:
+- Clarity and relevance of the research question.
+- Quality and variety of survey questions.
+- Appropriateness of the sampling method.
+- Accuracy and thoroughness of data analysis.
+- Clarity and coherence of the written report.
+
+---
+
+Feel free to adjust the exercise based on your specific course requirements or student needs. Would you like any additional details or modifications?
