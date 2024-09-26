@@ -21,7 +21,9 @@ editor_options:
 
 2) Identify the independent and dependent variables in your research question or hypothesis.
 
-3) Next, we will explicate the independent and dependent variables/concepts in your research question or hypothesis. Conduct the process of concept explication for both your variables.
+3) Next, we will explicate the independent and dependent variables/concepts in your research question or hypothesis. Conduct the process of concept explication for both your concepts
+
+4) For each concept, design **at least 3** survey questions that measure it (i.e., you should have at least 6 survey questions. 
 
 2. **Design the Survey:**
    - Create a survey with 10-15 questions that address your research question.
