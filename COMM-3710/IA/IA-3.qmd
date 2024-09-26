@@ -15,14 +15,13 @@ editor_options:
   chunk_output_type: console
 ---
 
-#### Objective:
-To understand the process of designing, conducting, and analyzing a survey in social science research.
+# Formulate a Research Question
 
-#### Instructions:
+1) Choose a topic of interest within social sciences (e.g., social media usage, study habits, public opinion on a social issue). Develop a clear and concise research question (e.g., "How does social media usage during class affect academic performance among college students?") or hypothesis (e.g., "Social media use in class is negatively associated with academic performance among college students.") for your topic.
 
-1. **Formulate a Research Question:**
-   - Choose a topic of interest within social sciences (e.g., social media usage, study habits, public opinion on a social issue).
-   - Develop a clear and concise research question. For example, "How does social media usage affect academic performance among college students?"
+2) Identify the independent and dependent variables in your research question or hypothesis.
+
+3) Next, we will explicate the independent and dependent variables/concepts in your research question or hypothesis. Conduct the process of concept explication for both your variables.
 
 2. **Design the Survey:**
    - Create a survey with 10-15 questions that address your research question.
@@ -59,7 +58,3 @@ To understand the process of designing, conducting, and analyzing a survey in so
 - Appropriateness of the sampling method.
 - Accuracy and thoroughness of data analysis.
 - Clarity and coherence of the written report.
-
----
-
-Feel free to adjust the exercise based on your specific course requirements or student needs. Would you like any additional details or modifications?
