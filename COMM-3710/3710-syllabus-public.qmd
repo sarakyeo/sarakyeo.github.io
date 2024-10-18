@@ -83,30 +83,30 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 Course grades will be based on the following:
 
--   Quizzes (100 pts)
--   In-class assignments (74 pts)
--   Lab assignments (100 pts)
--   Lab attendance (26 pts)
+-   Quizzes
+-   In-class assignments
+-   Lab assignments
+-   Lab attendance
 
-## Quizzes (100 pts)
+## Quizzes
 
-Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. There are 12 quizzes, each worth 10 points.
+Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. 
 
 Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
-## In-class Assignments (74 pts)
+## In-class Assignments 
 
 There are 6 in-class assignments throughout the semester. We will work on these during lecture sessions. Information on in-class assignments will be provided during lecture. Without exception, these assignments are due at the end of the lecture in which they are assigned.
 
 **Late assignments will not be accepted**. Please pay attention to any changes in the due dates on Canvas.
 
-## Lab Assignments (100 pts)
+## Lab Assignments
 
 There are 8 lab assignments. Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas.
 
 **Late assignments will not be accepted**. Please pay attention to any changes in the due dates on Canvas.
 
-## Lab Attendance (26 pts)
+## Lab Attendance
 
 This course has one graduate TA for two lab sections. When you enrolled in this course, you selected a lab section to attend. Please attend the section in which you are enrolled.
 
