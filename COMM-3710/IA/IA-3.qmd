@@ -44,4 +44,4 @@ Create a new survey project from scratch on Qualtrics (blue button on bottom lef
 
 # Submission 
 
-Once you are done programming your survey, publish it and copy and paste the link at the top of your codebook. Submit your codebook as a PDF document on Canvas. Be sure to include your name and uNID in your submission.
+Once you are done programming your survey, publish it and copy and paste the link at the top of your codebook (your codebook contains your responses to the questions about explication and your survey questions that may be formatted using the template provided on Canvas). Submit your codebook as a PDF document on Canvas. Be sure to include your name and uNID in your submission.

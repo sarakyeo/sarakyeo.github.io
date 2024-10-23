@@ -1,0 +1,78 @@
+---
+title: "In-class Assignment 4: Experimental Design (12 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+# Formulate a Research Question
+
+Sure! Here's an assignment designed for undergraduate students to be completed in 45 minutes, focusing on giving them hands-on experience in designing a communication experiment:
+
+---
+
+### Assignment: Designing a Communication Experiment
+
+**Objective:**  
+To provide practical experience in designing an experiment within the field of communication studies.
+
+**Instructions:**  
+You have 45 minutes to complete this assignment. Follow the steps below and answer all questions.
+
+---
+
+#### Part 1: Conceptualizing Your Experiment (15 minutes)
+
+1. **Research Question:**  
+   Formulate a clear and concise research question related to communication. For example, "How does the use of emojis in text messages affect the perceived tone of the message?"
+
+2. **Hypothesis:**  
+   Develop a testable hypothesis based on your research question. For example, "Messages with emojis are perceived as more positive than messages without emojis."
+
+---
+
+#### Part 2: Designing the Experiment (30 minutes)
+
+3. **Variables:**  
+   - **Independent Variable:** Identify the variable you will manipulate (e.g., presence or absence of emojis).
+   - **Dependent Variable:** Identify the variable you will measure (e.g., perceived tone of the message).
+
+4. **Participants:**  
+   Describe how you would select participants for your study. Include details about the sample size and any inclusion/exclusion criteria.
+
+5. **Experimental Groups:**  
+   Explain how you will divide participants into groups (e.g., control group receiving messages without emojis and experimental group receiving messages with emojis).
+
+6. **Procedure:**  
+   Outline the steps you would take to conduct the experiment. Include details about how you will present the messages to participants and how you will measure their responses.
+
+7. **Control Measures:**  
+   Describe how you will control for potential confounding variables to ensure the validity of your results (e.g., ensuring all messages are of similar length and content).
+
+8. **Data Collection and Analysis:**  
+   Explain how you will collect and analyze the data. What statistical tests will you use to determine if your hypothesis is supported?
+
+9. **Ethical Considerations:**  
+   Discuss any ethical considerations you need to take into account when conducting this experiment. How will you ensure the participants' privacy and consent?
+
+---
+
+**Submission:**  
+Submit your completed assignment to the course's online portal before the end of the class.
+
+---
+
+Feel free to ask if you have any questions or need further clarification!
+# Submission 
+
+Once you are done programming your survey, publish it and copy and paste the link at the top of your codebook. Submit your codebook as a PDF document on Canvas. Be sure to include your name and uNID in your submission.

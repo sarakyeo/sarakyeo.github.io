@@ -192,7 +192,7 @@ util |> freq(season)
 
 ```
 
-9) **BONUS:** Make a bar chart using the `geom_col()` to display the count or proportion of donors by `season`.\
+9) **BONUS (2 points):** Make a bar chart using the `geom_col()` to display the count or proportion of donors by `season`.\
 \
 First, make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.\
 \
