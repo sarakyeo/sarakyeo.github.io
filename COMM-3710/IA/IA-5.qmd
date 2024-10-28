@@ -41,7 +41,7 @@ Record your codes in the Excel spreadsheet (on Canvas).
 
 # Part 3: Comparing your Codes
 
-Once you have independently coded your data, compare your codes with other students in the course. You can do this via email or in-person during class. 
+Once you have independently coded your data, compare your codes with other students in the course. You can do this via email or in-person during class.^[Ideally, you should ask a peer in the course to compare codes. However, we recognize that there may be circumstances under which you might not get an email response from a peer, etc. In this case, you can ask someone (e.g., roommate, sibling) to code the sample independently and compare and discuss your individual codes). If you are unable to find another human to code these data for comparison and discussion, you can reflect on how you might code this differently in a 500-word essay to answer this question.] 
 
 In the Excel file where you recorded your codes, write a reflection of this coding process. Your reflection should articulate the similarities and differences in your codes vs. others', as well as how and why you might code a particular post differently.
 
