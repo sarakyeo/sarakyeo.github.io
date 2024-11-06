@@ -81,7 +81,7 @@ covid |> freq(region)
    a) Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
    b) Run a frequency distribution of `total_contacts`. Is this variable categorical or continuous?
    c) Is the variable `region` continuous or categorical?
-   d) Given your answers to the previous questions, what statistical test should you use? Why? Refer to the flowchart on Canvas to help select a statistical test.
+   d) Given your answers to the previous questions, what statistical test should you use? Why? Refer to the flowchart and instructions on page 3 to help select a statistical test.
    
 ```{r}
 #| label: ans3
