@@ -106,7 +106,7 @@ covid |>
    d) Does the statistical test support or refute your hypothesis?
    
 ```{r}
-#| label: ans3
+#| label: ans4
 #| include: false
 #| eval: false
 
@@ -131,7 +131,7 @@ covid |>
    d) Does the statistical test support or refute your hypothesis? If there is a significant relationship, describe it. Does this finding make sense? Why or why not?
 
 ```{r}
-#| label: ans4
+#| label: ans5
 #| include: false
 #| eval: false
 
@@ -160,7 +160,7 @@ covid |>
    d) Does the statistical test support or refute your hypothesis? If there is a significant difference, describe it (e.g., which region, Asia or Europe, had more respondents who said their lives were impacted by COVID). You can use the `filter()` and `freq()` functions to help you describe the differences.
    
 ```{r}
-#| label: ans5
+#| label: ans6
 #| include: false
 #| eval: false
 
@@ -182,7 +182,7 @@ chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
 6) **BONUS:** Use the data and a statistical test to determine whether there is a relationship between the number of days since the COVID outbreak began and how often respondents wore masks outside. Conduct the statistical test, report the results of the test (i.e., test statistic and *p*-value) and explain your conclusion.
 
 ```{r}
-#| label: ans6
+#| label: ans7
 #| include: false
 #| eval: false
 
@@ -194,6 +194,24 @@ covid |>
 
 #6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense; as we learned more about the virus over time, we learned that it was a respiratory virus that spread via air droplets and that mask-wearing reduces its spread.
 
+```
+
+4) **BONUS:** Create a figure showing the number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average number of times people washed their hands on the previous day."
+
+```{r}
+#| label: ans3
+#| include: false
+#| eval: false
+
+covid |> 
+        select(asia_europe, handwashes) |> 
+        na.omit() |> 
+        ggplot(aes(x = asia_europe, y = handwashes)) +
+        geom_col() +
+        xlab("") +
+        ylab("Average number of times people washed their hands on the previous day") +
+        jtools::theme_apa()
+        
 ```
 
 ------------------------------------------------------------------------
