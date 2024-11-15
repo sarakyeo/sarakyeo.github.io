@@ -3,8 +3,8 @@ title: |
   | COMM 3710: Intro to Quantitative Research
 subtitle: |
   | Lecture: Mondays (9:40 - 11:35 am), LNCO 1100
-  | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 1770
-  | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1570
+  | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 4680
+  | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1770
   |
   | Instructor: Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
@@ -135,7 +135,7 @@ At the end of Week 6, any students who have not demonstrated regular participati
 
 -   "Regular participation” as a student is defined as earning at least 50% of the possible points on required graded content up to this point.
 -   The checkpoint threshold is generous--well below a failing score for this course. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is often too late to “catch up.”
--   Non-participants will be urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2022.php) for withdrawal deadlines).
+-   Non-participants will be urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/spring2025.php) for withdrawal deadlines).
 
 ------------------------------------------------------------------------
 
@@ -277,4 +277,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule.png){fig-align="center" width=7in}
+![](3710-schedule-S2025.png){fig-align="center" width=7in}
