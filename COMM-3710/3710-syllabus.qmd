@@ -6,7 +6,7 @@ subtitle: |
   | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 4680
   | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1770
   |
-  | Professor Sara K. Yeo
+  | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
   |
   | Graduate TA: Casey Zukosky
@@ -46,7 +46,6 @@ Key topics include:
 You are expected to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help. **It is your responsibility as a student to ask questions in a timely manner during scheduled labs and office hours, if you need help.**
 :::
 
-
 # Required Text and Readings {#sec-text}
 
 The textbook for this course is listed below and available online. The course fee that you paid when you enrolled covers Inclusive Access to the Wrench textbook via Canvas. Additional readings will be provided as PDF documents on Canvas.
@@ -56,7 +55,6 @@ Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On
 -   To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
 -   This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
 -   You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
-
 
 # Technology Requirements {#sec-tech}
 
@@ -73,7 +71,6 @@ To ensure that you have full access to the course, you will need:
 ::: callout-note
 You are expected to know how to take a screenshot with your computer. A photo of your laptop or computer screen taken with your mobile device is *not* a screenshot.
 :::
-
 
 # Course Requirements {#sec-requirements}
 
@@ -142,8 +139,7 @@ Grades in this course will be based on the following scale.
 | D-    | 60 to \< 63 |
 | E     | \< 60       |
 
-You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
-
+You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate "what-if" scores and determine the score you need to get to do well in this class. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
 # Course Policies {#sec-policies}
 
@@ -186,11 +182,11 @@ Communication allows us to engage with others and broaden our perspectives. How 
 Academic misconduct will be punished to the fullest extent possible. Anyone found guilty of academic misconduct should expect to fail this course.
 :::
 
-It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one’s work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah’s Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
+It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one's work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah's Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
 
 Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. Academic misconduct, according to the University of Utah Student Code:
 
-> “... includes, but is not limited to, cheating, misrepresenting one’s work, inappropriately collaborating, plagiarism, and fabrication or falsification of information…It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct.”
+> "... includes, but is not limited to, cheating, misrepresenting one's work, inappropriately collaborating, plagiarism, and fabrication or falsification of information...It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct."
 
 For details on plagiarism and other important course conduct issues, see the U's [Code of Student Rights and Responsibilities](http://regulations.utah.edu/academics/6-400.php).
 
@@ -200,12 +196,11 @@ Curriculum accommodations take two forms--scheduling and content accommodations.
 
 If you anticipate a scheduling conflict, please speak with your [TA](#sec-ta) as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
 
-**There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+**There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
 ## Emergency Plan
 
 In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
-
 
 # University Policies {#sec-Upolicies}
 
@@ -217,12 +212,11 @@ The University of Utah seeks to provide equal access to its programs, services, 
 
 **Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu. To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
 
-**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677. If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677. If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
 
 ## Undocumented Student Support
 
-Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
-
+Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
 
 # Course Schedule
 
@@ -232,198 +226,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-## Week 1: Course Introduction, Ways of Knowing
-
-Lecture (6-Jan)
-
--   Quiz 1
--   Readings: Syllabus, Wrench Ch. 1, 2
-
-Lab (8-Jan)
-
--   LA-1: Ethics in Research (CITI training; 10 pts)
-
-------------------------------------------------------------------------
-
-## Week 2: The Research Process
-
-Lecture (13-Jan)
-
--   Quiz 2
--   Readings: Wrench Ch. 2, 3, BBC Visual Data & Journalism
-
-Lecture (15-Jan)
-
--   LA-2: Setting up R (Posit Cloud; 10 pts)
-
-------------------------------------------------------------------------
-
-## Week 3
-
-Lecture (20-Jan)
-
--   No lecture (MLK Jr. Day)
-
-Lab (22-Jan)
-
--   LA-3: Working with Data (15 pts)
-
-------------------------------------------------------------------------
-
-## Week 4: Concept Explication
-
-Lecture (27-Jan)
-
--   Quiz 3
--   Readings: McLeod *et al.*
-
-Lab (29-Jan)
-
--   LA-3 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 5: Concept Explication, Variables & Measurement
-
-Lecture (3-Feb)
-
--   Quiz 4
--   IA-1: Concept Explication (10 pts)
--   Readings: Wrench Ch. 6
-
-Lab (5-Feb)
-
--   LA-4: Data Wrangling (15 pts)
-
-------------------------------------------------------------------------
-
-## Week 6: Variables & Measurement
-
-Lecture (10-Feb)
-
--   Quiz 5
--   IA-2: Variables & Measurement (10 pts)
--   Readings: Wrench Ch. 7
-
-Lab (12-Feb)
-
--   LA-4 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 7
-
-Lecture (17-Feb)
-
--   No lecture (Presidents Day)
-
-Lab (19-Feb)
-
--   LA-5: Examining and Managing Data (15 pts)
-
-------------------------------------------------------------------------
-
-## Week 8: Reliability & Validity
-
-Lecture (24-Feb)
-
--   Quiz 6
--   Readings: Wrench Ch. 8
-
-Lab (26-Feb)
-
--   LA-5 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 9: Sampling
-
-Lecture (3-Mar)
-
--   Quiz 7
--   Readings: Wrench Ch. 12, ASA pp. 63-68, Pew 2016, AAPOR 2007
-
-Lab (5-Mar)
-
--   LA-6: Data Visualization (15 pts)
-
-------------------------------------------------------------------------
-
-## Week 10: Spring Break (no lecture/lab)
-
-------------------------------------------------------------------------
-
-## Week 11: Survey Research 
-
-Lecture (17-Mar)
-
--   Quiz 8
--   IA-3: Survey Research (10 pts)
--   Readings: Wrench Ch. 9, Bialik, Pew 2020
-
-Lab (19-Mar)
-
--   LA-6 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 12: Experimental Design
-
-Lecture (24-Mar)
-
--   Quiz 9
--   IA-4: Experimental Design (10 pts)
--   Readings: Wrench Ch. 11
-
-Lab (26-Mar)
-
--   LA-7: Examining Relationships (15 pts)
-
-------------------------------------------------------------------------
-
-
-## Week 13: Content Analysis
-
-Lecture (31-Mar)
-
--   Quiz 10
--   IA-5: Content Analysis (10 pts)
--   Readings: Wrench Ch. 10
-
-Lab (2-Apr)
-
--   LA-7 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 14: Introduction to Statistics, Descriptive Statistics
-
-Lecture (7-Apr)
-
--   Quiz 11
--   Readings: Wrench Ch. 13, 14
-
-Lab (9-Apr)
-
--   LA-8: Practice Data Analysis (15 pts)
-
-------------------------------------------------------------------------
-
-## Week 15: Inferential Statistics
-
-Lecture (14-Apr)
-
--   Quiz 12
--   Readings: Wrench Ch. 15-18
-
-Lab (16-Apr)
-
--   LA-8 (cont'd)
-
-------------------------------------------------------------------------
-
-## Week 16: Reporting Research
-
-Lecture (21-Apr)
-
--   Readings: Wrench Ch. 20
+![](3710-schedule-S2025.png){fig-align="center" fig-width=80%}
