@@ -226,4 +226,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule-S2025.png){fig-align="center" fig-width=80%}
+![](3710-schedule-S2025.png){fig-align="center" fig-width=90%}
