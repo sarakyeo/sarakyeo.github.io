@@ -11,7 +11,7 @@ subtitle: |
   |
   | Graduate TA: Casey Zukosky
   | Email: [u1147451@utah.edu](mailto:u1147451@utah.edu)
-  | TA Office Hours: Fridays (1-2 pm), LNCO 2810
+  | TA Office Hours (in-person): Tuesdays (4-5 pm), LNCO 2810
 pagetitle: COMM 3710 syllabus
 format:
    pdf:
