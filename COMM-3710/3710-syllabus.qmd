@@ -74,13 +74,14 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 # Course Requirements {#sec-requirements}
 
-Course grades will be based on the following:
+Course grades will be based on the following (325 points total):
 
 -   Quizzes (100 pts)
 -   In-class assignments (50 pts)
--   Post-lecture reflections (20 pts)
+-   Post-lecture reflections (25 pts)
 -   Lab assignments (100 pts)
 -   Lab attendance (25 pts)
+-   Lab presentations (25 pts)
 
 ## Quizzes (100 pts)
 
@@ -96,9 +97,9 @@ There are 5 in-class assignments throughout the semester. We will work on these 
 
 **Late assignments will not be accepted**.
 
-## Post-lecture Reflections (20 pts)
+## Post-lecture Reflections (25 pts)
 
-At the end of lecture each week, you will get a reflection prompt related to the week's lecture. More detailed instructions will be given during lecture. These prompts will be written and submitted at the end of lecture.
+At the end of lecture each week, you will get a reflection prompt related to the week's lecture. More detailed instructions will be given during lecture. These prompts will be written and submitted at the end of lecture each week. To encourage thoughtful reflection during the week's lecture, your grade for each reflection will range from 0 to 2 points.
 
 **Only reflections from students present in lecture will be accepted.**
 
@@ -108,13 +109,17 @@ There are 8 lab assignments. Information on individual assignments will be provi
 
 **Late assignments will not be accepted**.
 
-## Lab Attendance (26 pts)
+## Lab Attendance (25 pts)
 
 This course has one graduate TA for two lab sections. When you enrolled in this course, you selected a lab section to attend. Please attend the section in which you are enrolled.
 
 For each full lab you attend, you will earn two (2) points toward your attendance grade. If you are **5 to 15 min** late to lab, you will earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
 
 If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
+
+## Lab Presentations (25 pts)
+
+Each student will give one (1) presentation in lab. This presentation will be a group project. More information and detailed instructions will be provided during lab.
 
 # Course Grading
 
@@ -125,7 +130,7 @@ If you wish to dispute your grade on any assignment or quiz, you must put your c
 Grades in this course will be based on the following scale.
 
 | Grade | Score (%)   |
-|-------|-------------|
+|-------|:-----------:|
 | A     | 93 to 100   |
 | A-    | 90 to \< 93 |
 | B+    | 87 to \< 90 |
@@ -226,4 +231,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule-S2025.png){fig-align="center" fig-width=90%}
+![](3710-schedule-S2025.png){fig-align="center" fig-width="90%"}
