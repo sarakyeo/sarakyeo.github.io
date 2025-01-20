@@ -1,5 +1,5 @@
 ---
-title: "In-class Assignment 1: Concept Explication (15 points)"
+title: "In-class Assignment 1: Concept Explication"
 format:
    pdf:
       documentclass: article
@@ -15,7 +15,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-<!-- 3 points for each question. -->
+<!-- 2 points for each question. -->
 
 Using available library resources and databases, find a PDF of the following journal article:
 
