@@ -1,0 +1,137 @@
+---
+title: "Extra Credit: Working with Data (10 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+---
+
+# Setup
+
+1) Create a new R script and set it up for your assignment. In the first four (4) lines of your script, include the following, each on a new line, as a comment:
+
+- Full name
+- Student ID (u########)
+- Date (MM/DD/YY)
+- Assignment name
+
+2) Install and load the following packages:
+
+- `tidyverse`
+- `summarytools`
+- `rstatix`
+
+3) Enter the data in the table below as 5 objects (one object per column just like you did in LA-3).
+
+```{r}
+#| label: data
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(kableExtra)
+
+resort <- c("Zermatt",
+            "Park City",
+            "Whistler",
+            "Courchevel",
+            "Bansko",
+            "Zauchensee",
+            "Cortina d'Ampezzo",
+            "Perisher",
+            "La Parva",
+            "Mt. Naeba")
+
+country <- c("Switzerland",
+             "USA",
+             "Canada",
+             "France",
+             "Bulgaria",
+             "Austria",
+             "Italy",
+             "Australia",
+             "Chile",
+             "Japan")
+
+highpt <- c(3899,
+            3049,
+            2284,
+            3230,
+            2560,
+            2188,
+            2924,
+            1605,
+            3574,
+            1789)
+
+longestrun <- c(16,
+                4,
+                11,
+                12,
+                16,
+                6,
+                11,
+                3,
+                6,
+                4)
+
+lifts <- c(63,
+           41,
+           37,
+           165,
+           17,
+           19,
+           40,
+           49,
+           13,
+           15)
+
+df <- tibble("Resort" = resort,
+             "Country" = country,
+             "Highest point (m)" = highpt,
+             "Longest run (km)" = longestrun,
+             "Number of lifts" = lifts)
+
+df |> 
+  kable(caption = "Data from ten ski resorts around the world.") |> 
+  kable_classic(full_width = FALSE)
+
+```
+
+4) Check that you have created the objects correctly by calling each object.
+
+5) Combine the objects into a single data frame that has a name of your choosing and look at the data frame. The data in the data frame should match that in Table 1. Call the data frame in the Console. Copy and paste the output as a comment in your R script.
+
+# Examining Data
+
+1) Determine the class of each column in your data frame. Copy and paste the class of each column in your R script.
+
+2) Use the function `max()` to find the greatest highest point (in meters) of all the ski resorts in the dataset. What is the highest point (m) and in which ski resort is this highest point?
+
+3) Which resort has the fewest number of lifts?
+
+---
+
+# Submission
+
+Submit your R script (named `LA-#_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include commands and functions that are necessary to address all the questions in the assignment.
+2) Contain comments that answer the questions in the assignment.
+3) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Navigate back to Your Workspace on Posit Cloud.
+- Reopen your project.
+- Run the entire script line-by-line without editing it to ensure there are no errors.
