@@ -113,9 +113,9 @@ df |>
 
 1) Determine the class of each column in your data frame. Copy and paste the class of each column in your R script.
 
-2) Use the function `max()` to find the greatest highest point (in meters) of all the ski resorts in the dataset. What is the highest point (m) and in which ski resort is this highest point?
+2) Use the function `max()` to find the greatest highest point (in meters) of all the ski resorts in the dataset. What is the highest point (m) and in which ski resort is this highest point? <!-- 3,899 m (Zermatt) -->
 
-3) Which resort has the fewest number of lifts?
+3) Which resort has the fewest number of lifts? <!-- La Parva, Chile (13 lifts) -->
 
 ---
 
