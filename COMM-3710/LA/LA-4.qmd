@@ -36,7 +36,6 @@ In this assignment, you will learn how to:
 
 -   Read/Load data into R (in LA-3, you learned how to enter data into R manually).
 -   Use the pipe operator, `|>`.
--   Select variables from a data frame using the `select()` function.
 -   Filter cases from a data frame using the `filter()` function.
 -   Summarize variables using the `summarise()` function.
 

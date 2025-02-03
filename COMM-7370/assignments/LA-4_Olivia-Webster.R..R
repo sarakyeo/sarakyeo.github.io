@@ -130,7 +130,6 @@ df%>%
   # t_test(pcs, sex) - old code, doesn't work
   t_test(pcs ~ sex)
 
-
 df %>%
   ggplot(aes(x = sex, y = pcs)) +
   stat_summary(fun = mean,

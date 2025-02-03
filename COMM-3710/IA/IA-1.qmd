@@ -46,7 +46,7 @@ RQ2: IV = forms of communication behaviors; DV = scientific impact.
 3) Consider the dependent or outcome variable in this study. Answer the following questions.
 
    a) How did researchers conceptualize the dependent/outcome variable?
-   <!-- Scientific impact vs. scientific reputation. Used impact as the DV instead of reputation. -->
+   <!-- Scientific impact vs. scientific reputation (first paragraph on p. 774). Used impact as the DV instead of reputation. -->
    b) Describe how the dependent variable is operationalized in the study.
    <!-- By using a scientists' *h*-index. -->
 

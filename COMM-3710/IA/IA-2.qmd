@@ -28,9 +28,10 @@ Pick two of the concepts from the list below. You can also select one concept fr
 - Perceived credibility
 - Trustworthiness
 
-1) List the citation(s) of the journal articles in APA format.<!-- 2 points -->
+1) List the reference(s) of the journal articles in APA format.<!-- 2 points -->
 
-2) For each concept, find and describe (in your own words) its working definition from the appropriate journal article. Be sure to cite the journal article in your answer.<!-- 3 pts -->
+2) For each concept, find and describe (in your own words) its working definition from the appropriate journal article. Be sure to cite the journal article in APA format in your answer.<!-- 3 pts -->
+<!-- talk about citing; refer the to Purdue OWL -->
 
 3) How was each concept operationalized in the journal article that you read?<!-- 2 pts -->
 

@@ -57,7 +57,7 @@ helpobject %>%
 helpobject %>% 
   filter(substance=="cocaine" & age <= 40) %>% 
   descr(age)
-#Answer: 32.39
+#Answer: 32.39 
 
 # Use the mutate() function to recategorize continuous variables as categorical variables 
 # Categorize respondents by their depression scores, cesd 
@@ -158,9 +158,9 @@ helpobject %>%
 
 # Test if there is a difference between pcs among males and females in the sample
 # Using an independent samples t-test 
-helpobject %>% 
-  group_by() %>% 
-  t_test(pcs~sex)
+helpobject |> 
+  group_by() |> 
+  t_test(pcs ~ sex)
 
 # The test statistic is -3.49 and p < 0.001 
 
