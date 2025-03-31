@@ -50,9 +50,6 @@ Formulate a clear and concise research question related to communication. For ex
 
 7. **Control Measures**  
    Describe how you will control for potential confounding variables to ensure the validity of your results (e.g., ensuring all messages are of similar length and content). In your own words and using your experiment as an example, explain why it is necessary to control for potential confounding variables.
-  
-8. **Antecedent and Intervening Variables**  
-   Determine whether there are antecedent and intervening variables that might affect the outcome of your experiment. List and describe these variables. Be sure to explain why you think they might affect the outcome of your experiment.
 
-9. **Ethical Considerations**  
+8. **Ethical Considerations**  
    Discuss any ethical considerations you need to take into account when conducting this experiment. How will you ensure the participants' privacy and consent? Are there other ethical considerations of which you should be aware?
