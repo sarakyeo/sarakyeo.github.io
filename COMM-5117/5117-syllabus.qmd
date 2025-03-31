@@ -1,7 +1,9 @@
 ---
 title: |
-  | COMM 5117 (Section 301): Health Campaigns and Media
+  | COMM 5117: Health Campaigns and Media
 subtitle: |
+  | Section 301
+  |
   | Mondays - Fridays (9:00 am - 12:00 pm)
   | Location: TBD
   |
@@ -61,15 +63,42 @@ Course grades will be based on the following:
 -   Response papers (25%)
 -   Group project (30%)
 
-## Attendance and Participation
+## Attendance and Participation (20%)
 
 Much of the learning that occurs in this course will be in a seminar-style, discussion setting. To make this work—and make this fun—you will need to be prepared to vigorously debate and discuss the material. It is not enough that you just come to class. You are expected to actively discuss the readings and critically analyze their contents. More information on the University attendance policy can be found [here](https://catalog.utah.edu/pages/8Fjihzb4XouQv5OY0ZiE).
 
-# Course Grading
+Our goal is **knowledge integration**--connecting seemingly disparate ideas and fitting them together in a larger picture--to provide a broad context for advancing our understanding. The best way to integrate knowledge from this class with what you already know is to:
+
+-   Make sure you **complete the readings before class**, actively drawing out the implications of the readings and connecting them to other concepts and ideas that you have learned.
+-   **Participate actively** in the class discussion, challenging the evidence provided by the studies, by me, or by other students. 
+-   **Ask questions** if there is something you do not understand. Other students are likely to have the same question.
+
+::: callout-note
+Respectful disagreement and healthy debate is good and encouraged in all my courses.
+:::
+
+## Discussion Leadership (25%)
+
+You are required to serve as a discussant for three (3) classes. Discussion leadership comes with two responsibilities:
+
+1) Leading a discussion among your peers that critically engage with the assigned readings for that class.
+2) Writing a 1-2 page (single-spaced, 12-point font, 1-in margins) response paper. Your response paper should help you prepare to lead the discussion.
+
+## Response Papers (25%)
+
+You will write 3 response papers during the semester. Response papers should be 1-2 pages (single-spaced, 12-point font, 1-in margins). A good response paper will summarize and critique the set of readings for the class. Your response should identify common threads between the readings and critically engage with the ideas and concepts in the assigned readings.
 
 ::: callout-important
-If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your [graduate teaching assistant](#sec-ta), clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.
+Response papers should be submitted electronically via Canvas 24-hours before class.
 :::
+
+## Group Project
+
+You will be randomly assigned to a group of your peers. Your group project will be a case study of a single health campaign. You will present the results of your case study in class. 
+
+More information about the group project will be provided during the first class and as the semester progresses.
+
+# Course Grading
 
 Grades in this course will be based on the following scale.
 
@@ -88,14 +117,18 @@ Grades in this course will be based on the following scale.
 | D-    | 60 to \< 63 |
 | E     | \< 60       |
 
-You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate "what-if" scores and determine the score you need to get to do well in this class. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
+You can and should check your grade regularly on Canvas. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
+
+::: callout-important
+If you wish to dispute your grade on any assignment, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) via email to [Prof. Yeo](sara.yeo@utah.edu), clearly outlining your rationale. These concerns must be presented within one week of receiving your grade.
+:::
 
 # Course Policies {#sec-policies}
 
 By enrolling in this course, you agree to:
 
-1.  respect the instructors and all members of the course;
-2.  engage with the online content meaningfully;
+1.  respect the instructor and all members of the course;
+2.  engage with the content meaningfully;
 3.  meet the requirements of this course; and
 4.  abide by the course policies outlined in the syllabus.
 
@@ -107,7 +140,7 @@ This list represents the **minimal standards** to make the course a productive l
 It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.
 :::
 
-**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**. When you contact your instructors, you are expected to be professional in your communication. This includes:
+**I will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam/Junks and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**. When you contact your instructors, you are expected to be professional in your communication. This includes:
 
 -   Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
 -   Providing your full name, uNID, and class section in the message.
@@ -122,7 +155,7 @@ It is critical that you check your University email account frequently and that 
 Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic etiquette that will be expected in the course:
 
 -   Please address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
--   Civil disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
+-   **Civil** disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
 -   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by credible evidence based on the concepts discussed in this course.
 
 ## Academic Misconduct
@@ -143,7 +176,7 @@ For details on plagiarism and other important course conduct issues, see the U's
 
 Curriculum accommodations take two forms--scheduling and content accommodations. On a case-by-case basis, if you submit the appropriate documentation in advance of the conflict (when possible), scheduling accommodations for assignments may be considered.
 
-If you anticipate a scheduling conflict, please speak with your [TA](#sec-ta) as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
+If you anticipate a scheduling conflict, please speak with me as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict.
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
@@ -161,18 +194,187 @@ The University of Utah seeks to provide equal access to its programs, services, 
 
 **Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu. To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
 
-**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677. If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
-
-## Undocumented Student Support
-
-Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/). If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
 
 # Course Schedule
 
-The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus. *Note:* IA = in-class assignment; LA = lab assignment.
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-::: callout-note
-The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
-:::
+## Friday (20-Jun): Paradigms/Some Early Communication Models
 
-![](3710-schedule-S2025.png){fig-width="90%"}
+Readings:
+
+-   Course syllabus
+
+---
+
+## Monday (23-Jun): The Nature of Theory
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Tuesday (24-Jun): Perceptions of Risk
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Wednesday (25-Jun): Knowledge and Risk Perceptions
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Thursday (26-Jun): Media Coverage of Health Risks
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Friday (27-Jun): Framing
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Monday (30-Jun): Models of Information Processing (ELM, HSM)
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+--- 
+
+## Tuesday (1-Jul): Priming
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+
+--- 
+
+## Wednesday (2-Jul): Tailoring and Targeting
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Thursday (3-Jul): Health Belief Model and Integrated Model
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Friday (4-Jul): Social Amplification of Risk
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Monday (7-Jul): Health Communication Campaigns
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Tuesday (8-Jul): Integrating Media Effects, Information Processing, Behavior Change
+
+Readings:
+
+-   reading 1
+-   reading 2
+
+Discussants:
+
+-   sign up here
+-   sign up here
+
+---
+
+## Wednesday (9-Jul) & Thursday (10-Jul): Group Presentations
