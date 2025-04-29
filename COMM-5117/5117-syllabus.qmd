@@ -61,7 +61,7 @@ Course grades will be based on the following:
 -   Attendance and participation (20%)
 -   Discussion leadership (25%)
 -   Response papers (25%)
--   Group project (30%)
+-   Project (30%)
 
 ## Attendance and Participation (20%)
 
@@ -92,11 +92,11 @@ You will write 3 response papers during the semester. Response papers should be 
 Response papers should be submitted electronically via Canvas 24-hours before class.
 :::
 
-## Group Project
+## Project
 
-You will be randomly assigned to a group of your peers. Your group project will be a case study of a single health campaign. You will present the results of your case study in class. 
+Your project will be a case study of a single health campaign. You will present the results of your case study in class at the end of the semester.
 
-More information about the group project will be provided during the first class and as the semester progresses.
+More information about the project will be provided during the first class and as the semester progresses.
 
 # Course Grading
 
@@ -205,6 +205,8 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 Readings:
 
 -   Course syllabus
+-   Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science*, *121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
+
 
 ---
 
@@ -212,8 +214,7 @@ Readings:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Fishbein, M., & Cappella, J. N. (2006). The role of theory in developing effective health communications. *Journal of Communication*, *56*, S1–S17. https://doi.org/10.1111/j.1460-2466.2006.00280.x
 
 Discussants:
 
@@ -226,8 +227,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Slovic, P., Fischhoff, B., & Lichtenstein, S. (1982). Why study risk perception? *Risk Analysis*, *2*(2), 83–93. https://doi.org/10.1111/j.1539-6924.1982.tb01369.x
 
 Discussants:
 
@@ -240,8 +240,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Johnson, B. B. (1993). Advancing understanding of knowledge’s role in lay risk perception. *Risk: Issues in Health & Safety*, *4*, 189–212.
 
 Discussants:
 
@@ -254,8 +253,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Hubner, A. (2021). How did we get here? A framing and source analysis of early COVID-19 media coverage. *Communication Research Reports*, *38*(2), 112–120. https://doi.org/10.1080/08824096.2021.1894112
 
 Discussants:
 
@@ -268,8 +266,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, *211*(4481), 453. https://doi.org/10.1126/science.7455683
 
 Discussants:
 
@@ -282,8 +279,8 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Cacioppo, J. T., Kao, C. F., Petty, R. E., & Rodriguez, R. (1986). Central and peripheral routes to persuasion: An individual difference perspective. *Journal of Personality and Social Psychology*, *51*(5), 1032–1043. https://doi.org/10.1037//0022-3514.51.5.1032
+-   Chaiken, S., Liberman, A., & Eagly, A. H. (1989). Heuristic and systematic information processing within and beyond the persuasion context. In *Unintended Thought* (pp. 212–252). Guilford Press.
 
 Discussants:
 
@@ -296,8 +293,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Scheufele, D. A., & Tewksbury, D. (2007). Framing, agenda setting, and priming: The evolution of three media effects models. *Journal of Communication*, *57*(1), 9–20. https://doi.org/10.1111/J.1460-2466.2006.00326.X
 
 Discussants:
 
@@ -311,8 +307,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Rimer, B. K., & Kreuter, M. W. (2006). Advancing tailored health communication: A persuasion and message effects perspective. *Journal of Communication*, *56*(suppl_1), S184–S201. https://doi.org/10.1111/j.1460-2466.2006.00289.x
 
 Discussants:
 
@@ -321,12 +316,11 @@ Discussants:
 
 ---
 
-## Thursday (3-Jul): Health Belief Model and Integrated Model
+## Thursday (3-Jul): Health Belief Model
 
 Readings:
 
--   reading 1
--   reading 2
+-   Carpenter, C. J. (2010). A meta-analysis of the effectiveness of Health Belief Model variables in predicting behavior. *Health Communication*, *25*(8), 661–669. https://doi.org/10.1080/10410236.2010.521906
 
 Discussants:
 
@@ -339,8 +333,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Kasperson, R. E., Webler, T., Ram, B., & Sutton, J. (2022). The social amplification of risk framework: New perspectives. *Risk Analysis*, *42*(7), 1367–1380. https://doi.org/10.1111/risa.13926
 
 Discussants:
 
@@ -349,12 +342,11 @@ Discussants:
 
 ---
 
-## Monday (7-Jul): Health Communication Campaigns
+## Monday (7-Jul): Health Communication Campaigns & Social Media
 
 Readings:
 
--   reading 1
--   reading 2
+-   Kite, J., Chan, L., MacKay, K., Corbett, L., Reyes-Marcelino, G., Nguyen, B., Bellew, W., & Freeman, B. (2023). A model of social media effects in public health communication campaigns: Systematic review. *Journal of Medical Internet Research*, *25*(1), e46345. https://doi.org/10.2196/46345
 
 Discussants:
 
@@ -367,8 +359,7 @@ Discussants:
 
 Readings:
 
--   reading 1
--   reading 2
+-   Cappella, J. N. (2006). Integrating message effects and behavior change theories: Organizing comments and unanswered questions. *Journal of Communication*, *56*, S265–S278. https://doi.org/10.1111/j.1460-2466.2006.00293.x
 
 Discussants:
 
@@ -377,4 +368,4 @@ Discussants:
 
 ---
 
-## Wednesday (9-Jul) & Thursday (10-Jul): Group Presentations
+## Wednesday (9-Jul) & Thursday (10-Jul): Presentations
