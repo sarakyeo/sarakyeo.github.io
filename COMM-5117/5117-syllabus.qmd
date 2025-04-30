@@ -59,9 +59,10 @@ You are expected to know how to take a screenshot with your computer. A photo of
 Course grades will be based on the following:
 
 -   Attendance and participation (20%)
--   Discussion leadership (25%)
--   Response papers (25%)
--   Project (30%)
+-   Discussion leadership (20%)
+-   Response papers (20%)
+-   Project (20%)
+-   Peer reviewing and grading (20%)
 
 ## Attendance and Participation (20%)
 
@@ -77,14 +78,14 @@ Our goal is **knowledge integration**--connecting seemingly disparate ideas and 
 Respectful disagreement and healthy debate is good and encouraged in all my courses.
 :::
 
-## Discussion Leadership (25%)
+## Discussion Leadership (20%)
 
 You are required to serve as a discussant for three (3) classes. Discussion leadership comes with two responsibilities:
 
 1) Leading a discussion among your peers that critically engage with the assigned readings for that class.
 2) Writing a 1-2 page (single-spaced, 12-point font, 1-in margins) response paper. Your response paper should help you prepare to lead the discussion.
 
-## Response Papers (25%)
+## Response Papers (20%)
 
 You will write 3 response papers during the semester. Response papers should be 1-2 pages (single-spaced, 12-point font, 1-in margins). A good response paper will summarize and critique the set of readings for the class. Your response should identify common threads between the readings and critically engage with the ideas and concepts in the assigned readings.
 
@@ -92,11 +93,15 @@ You will write 3 response papers during the semester. Response papers should be 
 Response papers should be submitted electronically via Canvas 24-hours before class.
 :::
 
-## Project
+## Project (20%)
 
 Your project will be a case study of a single health campaign. You will present the results of your case study in class at the end of the semester.
 
 More information about the project will be provided during the first class and as the semester progresses.
+
+## Peer Reviewing and Grading (20%)
+
+You will be responsible for reviewing grading three (3) response papers from your peers.
 
 # Course Grading
 
