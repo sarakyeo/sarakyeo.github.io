@@ -220,6 +220,7 @@ Readings:
 Readings:
 
 -   Fishbein, M., & Cappella, J. N. (2006). The role of theory in developing effective health communications. *Journal of Communication*, *56*, S1–S17. https://doi.org/10.1111/j.1460-2466.2006.00280.x
+-   Hornik, R., & Yanovitzky, I. (2003). Using theory to design evaluations of communication campaigns: The case of the National Youth Anti-Drug Media Campaign. *Communication Theory*, *13*(2), 204–224. https://doi.org/10.1111/j.1468-2885.2003.tb00289.x
 
 Discussants:
 
@@ -233,6 +234,8 @@ Discussants:
 Readings:
 
 -   Slovic, P., Fischhoff, B., & Lichtenstein, S. (1982). Why study risk perception? *Risk Analysis*, *2*(2), 83–93. https://doi.org/10.1111/j.1539-6924.1982.tb01369.x
+-   Freudenburg, W. R. (1988). Perceived risk, real risk: Social science and the art of probabilistic risk assessment. *Science*, *242*(4875), 44–49. https://doi.org/10.1126/science.3175635
+-   Hansson, S. O. (2010). Risk: Objective or subjective, facts or values. *Journal of Risk Research*, *13*(2), 231–238. https://doi.org/10.1080/13669870903126226
 
 Discussants:
 
@@ -246,6 +249,7 @@ Discussants:
 Readings:
 
 -   Johnson, B. B. (1993). Advancing understanding of knowledge’s role in lay risk perception. *Risk: Issues in Health & Safety*, *4*, 189–212.
+-   Simis, M. J., Madden, H., Cacciatore, M. A., & Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? *Public Understanding of Science*, *25*(4), 400–414. https://doi.org/10.1177/0963662516629749
 
 Discussants:
 
@@ -254,11 +258,12 @@ Discussants:
 
 ---
 
-## Thursday (26-Jun): Media Coverage of Health Risks
+## Thursday (26-Jun): Media Coverage of Risks
 
 Readings:
 
 -   Hubner, A. (2021). How did we get here? A framing and source analysis of early COVID-19 media coverage. *Communication Research Reports*, *38*(2), 112–120. https://doi.org/10.1080/08824096.2021.1894112
+-   Mayeda, A. M., Boyd, A. D., Paveglio, T. B., & Flint, C. G. (2018). Media representations of water issues as health risks. *Environmental Communication*, *13*(7), 926–942. https://doi.org/10.1080/17524032.2018.1513054
 
 Discussants:
 
@@ -272,6 +277,7 @@ Discussants:
 Readings:
 
 -   Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, *211*(4481), 453. https://doi.org/10.1126/science.7455683
+-   Scheufele, D. A. (1999). Framing as a theory of media effects. *Journal of Communication*, *49*(1), 103–122. https://doi.org/10.1111/j.1460-2466.1999.tb02784.x
 
 Discussants:
 
@@ -299,6 +305,7 @@ Discussants:
 Readings:
 
 -   Scheufele, D. A., & Tewksbury, D. (2007). Framing, agenda setting, and priming: The evolution of three media effects models. *Journal of Communication*, *57*(1), 9–20. https://doi.org/10.1111/J.1460-2466.2006.00326.X
+-   Kim, J., & Cappella, J. N. (2023). Beliefs as causal mediators in the design of communication interventions: Exploring semantic and affective priming in parallel encouragement designs. *Human Communication Research*, *49*(4), 372–382. https://doi.org/10.1093/hcr/hqad020
 
 Discussants:
 
@@ -313,6 +320,7 @@ Discussants:
 Readings:
 
 -   Rimer, B. K., & Kreuter, M. W. (2006). Advancing tailored health communication: A persuasion and message effects perspective. *Journal of Communication*, *56*(suppl_1), S184–S201. https://doi.org/10.1111/j.1460-2466.2006.00289.x
+-   Griffith, D. M., Efird, C. R., Baskin, M. L., Hooper, M. W., Davis, R. E., & Resnicow, K. (2024). Cultural sensitivity and cultural tailoring: Lessons learned and refinements after two decades of incorporating culture in health communication research. *Annual Review of Public Health*, *45*(Volume 45, 2024), 195–212. https://doi.org/10.1146/annurev-publhealth-060722-031158
 
 Discussants:
 
@@ -326,6 +334,7 @@ Discussants:
 Readings:
 
 -   Carpenter, C. J. (2010). A meta-analysis of the effectiveness of Health Belief Model variables in predicting behavior. *Health Communication*, *25*(8), 661–669. https://doi.org/10.1080/10410236.2010.521906
+-   Griffith, D. M., Efird, C. R., Baskin, M. L., Hooper, M. W., Davis, R. E., & Resnicow, K. (2024). Cultural sensitivity and cultural tailoring: Lessons learned and refinements after two decades of incorporating culture in health communication research. *Annual Review of Public Health*, *45*(Volume 45, 2024), 195–212. https://doi.org/10.1146/annurev-publhealth-060722-031158
 
 Discussants:
 
@@ -339,6 +348,7 @@ Discussants:
 Readings:
 
 -   Kasperson, R. E., Webler, T., Ram, B., & Sutton, J. (2022). The social amplification of risk framework: New perspectives. *Risk Analysis*, *42*(7), 1367–1380. https://doi.org/10.1111/risa.13926
+-   Bearth, A., & Siegrist, M. (2022). The social amplification of risk framework: A normative perspective on trust? *Risk Analysis*, *42*(7), 1381–1392. https://doi.org/10.1111/risa.13757
 
 Discussants:
 
@@ -352,6 +362,8 @@ Discussants:
 Readings:
 
 -   Kite, J., Chan, L., MacKay, K., Corbett, L., Reyes-Marcelino, G., Nguyen, B., Bellew, W., & Freeman, B. (2023). A model of social media effects in public health communication campaigns: Systematic review. *Journal of Medical Internet Research*, *25*(1), e46345. https://doi.org/10.2196/46345
+-   McGurk, M. D., Ogawa, G., Inoue, K., Wills, C., Ching, L. K., Shalaby, A. K., Kong, N., Hansen Smith, H., Lee, J., Irvin, L., & Keliikoa, L. B. (2025). Sweet Lies! Lessons learned from Hawai‘i’s sweetened fruit drink countermarketing campaign. *Journal of Health Communication*, *30*(sup1), 14–27. https://doi.org/10.1080/10810730.2025.2461588
+
 
 Discussants:
 
@@ -365,6 +377,7 @@ Discussants:
 Readings:
 
 -   Cappella, J. N. (2006). Integrating message effects and behavior change theories: Organizing comments and unanswered questions. *Journal of Communication*, *56*, S265–S278. https://doi.org/10.1111/j.1460-2466.2006.00293.x
+-   Slater, M. D. (1999). Integrating application of media effects, persuasion, and behavior change theories to communication campaigns: A stages-of-change framework. *Health Communication*, *11*(4), 335–354. https://doi.org/10.1207/S15327027hc1104_2
 
 Discussants:
 
