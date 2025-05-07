@@ -334,7 +334,7 @@ Discussants:
 Readings:
 
 -   Carpenter, C. J. (2010). A meta-analysis of the effectiveness of Health Belief Model variables in predicting behavior. *Health Communication*, *25*(8), 661–669. https://doi.org/10.1080/10410236.2010.521906
--   Griffith, D. M., Efird, C. R., Baskin, M. L., Hooper, M. W., Davis, R. E., & Resnicow, K. (2024). Cultural sensitivity and cultural tailoring: Lessons learned and refinements after two decades of incorporating culture in health communication research. *Annual Review of Public Health*, *45*(Volume 45, 2024), 195–212. https://doi.org/10.1146/annurev-publhealth-060722-031158
+-   Janz, N. K., & Becker, M. H. (1984). The Health Belief Model: A decade later. *Health Education Quarterly*, *11*(1), 1–47. https://doi.org/10.1177/109019818401100101
 
 Discussants:
 
