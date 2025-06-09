@@ -5,7 +5,7 @@ subtitle: |
   | Section 301
   |
   | Mondays - Fridays (9:00 am - 12:00 pm)
-  | Location: TBD
+  | Location: Univesity of Utah Asia Campus
   |
   | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
