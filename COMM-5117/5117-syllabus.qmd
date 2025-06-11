@@ -35,12 +35,11 @@ You are expected to log into the course Canvas website regularly (**at least 3-5
 
 # Required Text and Readings {#sec-text}
 
-There is no single textbook or edited volume that adequately captures the breadth and depth of this evolving area of research. Therefore, I have compiled readings for each week that will be available as PDF files unless they are directly available online.
-There are several books that are relevant to this topic area. They are not required for this course, but may serve as good references.
+There is no single textbook or edited volume that adequately captures the breadth and depth of this evolving area of research. Therefore, I have compiled readings for each week that will be available as PDF files unless they are directly available online. There are several books that are relevant to this topic area. They are not required for this course, but may serve as good references.
 
-* Rice, R. E., & Atkin, C. K. (2013). Public Communication Campaigns (R. E. Rice, Ed.; 4th ed.). Sage.
+-   Rice, R. E., & Atkin, C. K. (2013). Public Communication Campaigns (R. E. Rice, Ed.; 4th ed.). Sage.
 
-* du Pré, A. (2013). Communicating About Health: Current Issues and Perspectives (4th ed.). Oxford University Press.
+-   du Pré, A. (2013). Communicating About Health: Current Issues and Perspectives (4th ed.). Oxford University Press.
 
 # Technology Requirements {#sec-tech}
 
@@ -62,12 +61,12 @@ Course grades will be based on the following:
 
 ## Attendance, Participation, and Discussion (20%)
 
-Much of the learning that occurs in this course will be in a seminar-style, discussion setting. To make this work—and make this fun—you will need to be prepared to vigorously debate and discuss the material. It is not enough that you just come to class. You are expected to actively discuss the readings and critically analyze their contents. More information on the University attendance policy can be found [here](https://catalog.utah.edu/pages/8Fjihzb4XouQv5OY0ZiE).
+Much of the learning that occurs in this course will be in a seminar-style, discussion setting. To make this work---and make this fun---you will need to be prepared to vigorously debate and discuss the material. It is not enough that you just come to class. You are expected to actively discuss the readings and critically analyze their contents. More information on the University attendance policy can be found [here](https://catalog.utah.edu/pages/8Fjihzb4XouQv5OY0ZiE).
 
 Our goal is **knowledge integration**--connecting seemingly disparate ideas and fitting them together in a larger picture--to provide a broad context for advancing our understanding. The best way to integrate knowledge from this class with what you already know is to:
 
 -   Make sure you **read deeply**, actively drawing out the implications of the readings and connecting them to other concepts and ideas that you have learned.
--   **Participate actively** in the class, challenging the evidence provided by the studies, by me, or by other students. 
+-   **Participate actively** in the class, challenging the evidence provided by the studies, by me, or by other students.
 -   **Ask questions** if there is something you do not understand. Other students are likely to have the same question.
 
 ::: callout-note
@@ -86,17 +85,17 @@ Over the course, each student will present one campaign. Presentations will be s
 
 Presentations should include **(1) a summary of the case**, **(2) an analysis and a critique of the case**, and **(3) your conclusions**. In the summary, you should provide enough information about the case, including what the case was about, what the organization did, the results of the campaign, etc. In the analysis and critique, you must analyze the effectiveness of the campaign. To assess effectiveness,you can compare your case to other case(s) and/or apply any theories they have learned in this or other classes. In the conclusion, you must determine whether the case serves as a good benchmark of an excellent campaign.
 
-Presentations are expected to take about **30 minutes** followed by a Q&A session. 
+Presentations are expected to take about **30 minutes** followed by a Q&A session.
 
 While scheduling presentations later in the semester will allow students more time to prepare, the expectation is that these presentations will be of higher quality.
 
 Please note that students who do not present their case study on the assigned day will receive a 50% deduction to their presentation grade as a penalty. If any emergency occurs, please contact the instructor ASAP.
 
-After the presentation, you must submit the presentation slides as a **PDF** file on Canvas. 
+After the presentation, you must submit the presentation slides as a **PDF** file on Canvas.
 
 ## Case Study: Written Analyses (15%)
 
-Over the course, you will see other students’ campaign case study presentations. Each student will write and analysis of 10 campaigns. The paper should include **(1) a short summary of the case** and **(2) your own evaluation of the case (not the presenter’s evaluation)**, including what was good and what was not, and what they would do if they were in charge of that campaign. 
+Over the course, you will see other students' campaign case study presentations. Each student will write and analysis of 10 campaigns. The paper should include **(1) a short summary of the case** and **(2) your own evaluation of the case (not the presenter's evaluation)**, including what was good and what was not, and what they would do if they were in charge of that campaign.
 
 Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below. Submit written analyses as **PDF** files on Canvas.
 
@@ -106,21 +105,21 @@ Your project will be a campaign planning proposal where your team will develop a
 
 There will be assignments throughout the semester designed to help you complete your proposal.
 
-1) **Topic and preliminary research presentation.** Teams will decide on a specific health or risky behavior to work on and will conduct preliminary research. Then, your team will present this research in class and receive feedback from other students and the instructor.
+1)  **Topic and preliminary research presentation.** Teams will decide on a specific health or risky behavior to work on and will conduct preliminary research. Then, your team will present this research in class and receive feedback from other students and the instructor.
 
-2) **Focus group interviews (FGI) protocol, transcription, and summary.** Based on your preliminary research, your team will identify your research needs and conduct focus group interviews (FGI) with other students in the class. Before conducting interviews, you will work on the FGI protocol for submission. After the interviews, your team will transcribe and summarize what you learned from the FGI.
+2)  **Focus group interviews (FGI) protocol, transcription, and summary.** Based on your preliminary research, your team will identify your research needs and conduct focus group interviews (FGI) with other students in the class. Before conducting interviews, you will work on the FGI protocol for submission. After the interviews, your team will transcribe and summarize what you learned from the FGI.
 
-3) **Final presentation.** Your team will present your health/risk communication campaign proposal in class.
+3)  **Final presentation.** Your team will present your health/risk communication campaign proposal in class.
 
-3) **Written proposal.** Your team will prepare and submit a written proposal via Canvas at the end of the semester.
+4)  **Written proposal.** Your team will prepare and submit a written proposal via Canvas at the end of the semester.
 
 # Course Grading
 
 Grades in this course will be based on the following scale.
 
-| Grade | Score (%)   |
+| Grade |  Score (%)  |
 |-------|:-----------:|
-| A     | 93 to 100   |
+| A     |  93 to 100  |
 | A-    | 90 to \< 93 |
 | B+    | 87 to \< 90 |
 | B     | 83 to \< 87 |
@@ -131,7 +130,7 @@ Grades in this course will be based on the following scale.
 | D+    | 67 to \< 70 |
 | D     | 63 to \< 67 |
 | D-    | 60 to \< 63 |
-| E     | \< 60       |
+| E     |    \< 60    |
 
 You can and should check your grade regularly on Canvas. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
@@ -212,185 +211,10 @@ The University of Utah seeks to provide equal access to its programs, services, 
 
 **Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/). If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
 
-\newpage 
+\newpage
 
 # Course Schedule
 
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
-## Friday (20-Jun; Day 1): Paradigms/Some Early Communication Models
-
-Readings:
-
--   Course syllabus
--   Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science*, *121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
-
-Sign up for Case Study Presentations.
-
----
-
-## Monday (23-Jun; Day 2): The Nature of Theory
-
-Readings:
-
--   Hornik, R., & Yanovitzky, I. (2003). Using theory to design evaluations of communication campaigns: The case of the National Youth Anti-Drug Media Campaign. *Communication Theory*, *13*(2), 204–224. https://doi.org/10.1111/j.1468-2885.2003.tb00289.x
-
-Case Study Presentation:
-
--   Student 1
-
-Case Study: Written Analysis #1 due on Canvas.
-
----
-
-## Tuesday (24-Jun; Day 3): Perceptions of Risk
-
-Readings:
-
--   Slovic, P., Fischhoff, B., & Lichtenstein, S. (1982). Why study risk perception? *Risk Analysis*, *2*(2), 83–93. https://doi.org/10.1111/j.1539-6924.1982.tb01369.x
-
-Case Study Presentation:
-
--   Student 2
-
-Case Study Written Analysis #2 due on Canvas.
-
----
-
-## Wednesday (25-Jun; Day 4): Knowledge and Risk Perceptions
-
-Readings:
-
--   Simis, M. J., Madden, H., Cacciatore, M. A., & Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? *Public Understanding of Science*, *25*(4), 400–414. https://doi.org/10.1177/0963662516629749
-
-Case Study Written Analysis #3 due on Canvas.
-
-Group Project: Topic and Preliminary Research Presentation
-
----
-
-## Thursday (26-Jun; Day 5): Media Coverage of Risks
-
-Readings:
-
--   Mayeda, A. M., Boyd, A. D., Paveglio, T. B., & Flint, C. G. (2018). Media representations of water issues as health risks. *Environmental Communication*, *13*(7), 926–942. https://doi.org/10.1080/17524032.2018.1513054
-
-Group Project: Topic and Preliminary Research Presentation
-
----
-
-## Friday (27-Jun; Day 6): Framing
-
-Readings:
-
--   Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, *211*(4481), 453. https://doi.org/10.1126/science.7455683
-
-Case Study Presentation:
-
--   Student 3
-
-Case Study Written Analysis #4 due on Canvas.
-
----
-
-## Monday (30-Jun; Day 7): Framing, Agenda Setting, and Priming
-
-Readings:
-
--   Scheufele, D. A., & Tewksbury, D. (2007). Framing, agenda setting, and priming: The evolution of three media effects models. *Journal of Communication*, *57*(1), 9–20. https://doi.org/10.1111/J.1460-2466.2006.00326.X
-
-Case Study Presentation:
-
--   Student 4
-
-Case Study Written Analysis #5 due on Canvas.
-
---- 
-
-## Tuesday (1-Jul; Day 8): Models of Information Processing (ELM, HSM)
-
-Readings:
-
--   Luttrell, A. (2018). *Dual Process Models of Persuasion*. In Oxford Research Encyclopedia of Psychology. https://doi.org/10.1093/acrefore/9780190236557.013.319
-
-Case Study Written Analysis #6 due on Canvas.
-
-Group Project: Work on FGI, transcription, and summary
-
---- 
-
-## Wednesday (2-Jul; Day 9): Tailoring and Targeting
-
-Readings:
-
--   Rimer, B. K., & Kreuter, M. W. (2006). Advancing tailored health communication: A persuasion and message effects perspective. *Journal of Communication*, *56*(suppl_1), S184–S201. https://doi.org/10.1111/j.1460-2466.2006.00289.x
-
-Group Project: Work on FGI, transcription, and summary
-
----
-
-## Thursday (3-Jul; Day 10): Health Belief Model
-
-Readings:
-
--   Janz, N. K., & Becker, M. H. (1984). The Health Belief Model: A decade later. *Health Education Quarterly*, *11*(1), 1–47. https://doi.org/10.1177/109019818401100101
-
-Case Study Presentation:
-
--   sign up here
-
-Case Study Written Analysis #7 due on Canvas.
-
----
-
-## Friday (4-Jul; Day 11): Social Amplification of Risk
-
-Readings:
-
--   Kasperson, R. E., Webler, T., Ram, B., & Sutton, J. (2022). The social amplification of risk framework: New perspectives. *Risk Analysis*, *42*(7), 1367–1380. https://doi.org/10.1111/risa.13926
-
-Case Study Presentation:
-
-- sign up here
-
-Case Study Written Analysis #8 due on Canvas.
-
----
-
-## Monday (7-Jul; Day 12): Health Communication Campaigns & Social Media
-
-Readings:
-
--   McGurk, M. D., Ogawa, G., Inoue, K., Wills, C., Ching, L. K., Shalaby, A. K., Kong, N., Hansen Smith, H., Lee, J., Irvin, L., & Keliikoa, L. B. (2025). Sweet Lies! Lessons learned from Hawai‘i’s sweetened fruit drink countermarketing campaign. *Journal of Health Communication*, *30*(sup1), 14–27. https://doi.org/10.1080/10810730.2025.2461588
-
-Case Study Presentation:
-
-- sign up here
-
-Case Study Written Analysis #9 due on Canvas.
-
----
-
-## Tuesday (8-Jul; Day 13): Making Health Communication Programs Work
-
-Readings:
-
--   National Cancer Institute. (2001). *Making Health Communication Programs Work*. U.S. Department of Health & Human Services. https://stacks.cdc.gov/view/cdc/24017
-
-Case Study Presentation:
-
--   sign up here
-
-Case Study Written Analysis #10 due on Canvas.
-
----
-
-## Wednesday (9-Jul; Day 14): Group Project Presentations
-
-Group Project: Final Presentations
-
----
-
-## Thursday (10-Jul; Day 15): Group Project Presentations
-
-Group Project: Final Presentations.
+![](5117-schedule.jpg){fig-align="center"}
