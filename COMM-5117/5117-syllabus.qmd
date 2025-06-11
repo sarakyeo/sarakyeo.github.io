@@ -76,7 +76,7 @@ Respectful disagreement and healthy debate is good and encouraged in all my cour
 
 ## Response Papers (20%)
 
-You will write 3 response papers during the semester. Response papers should be at least 1 page (single-spaced, 12-point font, 1-in margins). A good response paper will summarize and critique the readings for the day. Your response should identify common threads between the readings and what you already know, and critically engage with the ideas and concepts in the assigned readings.
+You will write 3 response papers during the semester. Response papers should be **at least 500 words**. A good response paper will summarize and critique the readings for the day. Your response should identify common threads between the readings and what you already know, and critically engage with the ideas and concepts in the assigned readings.
 
 Your response papers are due at the end of the day via Canvas for the class for which you choose to write a response.
 
@@ -98,7 +98,7 @@ After the presentation, you must submit the presentation slides on Canvas.
 
 Over the course, you will see other students’ campaign case study presentations. Each student will write and analysis of 10 campaigns. The paper should include **(1) a short summary of the case** and **(2) your own evaluation of the case (not the presenter’s evaluation)**, including what was good and what was not, and what they would do if they were in charge of that campaign. 
 
-Each analysis should be **at least 250 words**. Due dates will be posted on Canvas.
+Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below.
 
 ## Group Project: Campaign Planning Proposal (30%)
 
@@ -106,7 +106,7 @@ Your project will be a campaign planning proposal where your team will develop a
 
 There will be assignments throughout the semester designed to help you complete your proposal.
 
-1) **Preliminary research presentation.** Teams will decide on a specific health or risky behavior to work on and will conduct preliminary research. Then, your team will present this research in class and receive feedback from other students and the instructor.
+1) **Topic and preliminary research presentation.** Teams will decide on a specific health or risky behavior to work on and will conduct preliminary research. Then, your team will present this research in class and receive feedback from other students and the instructor.
 
 2) **Focus group interviews (FGI) protocol, transcription, and summary.** Based on your preliminary research, your team will identify your research needs and conduct focus group interviews (FGI) with other students in the class. Before conducting interviews, you will work on the FGI protocol for submission. After the interviews, your team will transcribe and summarize what you learned from the FGI.
 
@@ -249,6 +249,8 @@ Case Study Presentation:
 
 -   sign up here
 
+Case Study Written Analysis #1 due on Canvas.
+
 ---
 
 ## Wednesday (25-Jun; Day 4): Knowledge and Risk Perceptions
@@ -257,10 +259,9 @@ Readings:
 
 -   Simis, M. J., Madden, H., Cacciatore, M. A., & Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? *Public Understanding of Science*, *25*(4), 400–414. https://doi.org/10.1177/0963662516629749
 
-Case Study Presentation:
+Case Study Written Analysis #2 due on Canvas.
 
--   sign up here
-
+Group Project: Topic and Preliminary Research Presentation
 
 ---
 
@@ -270,9 +271,9 @@ Readings:
 
 -   Mayeda, A. M., Boyd, A. D., Paveglio, T. B., & Flint, C. G. (2018). Media representations of water issues as health risks. *Environmental Communication*, *13*(7), 926–942. https://doi.org/10.1080/17524032.2018.1513054
 
-Case Study Presentation:
+Case Study Written Analysis #3 due on Canvas.
 
--   sign up here
+Group Project: Topic and Preliminary Research Presentation
 
 ---
 
@@ -286,7 +287,6 @@ Case Study Presentation:
 
 -   sign up here
 
-
 ---
 
 ## Monday (30-Jun; Day 7): Framing, Agenda Setting, and Priming
@@ -298,6 +298,8 @@ Readings:
 Case Study Presentation:
 
 -   sign up here
+
+Case Study Written Analysis #4 due on Canvas.
 
 --- 
 
@@ -311,6 +313,8 @@ Case Study Presentation:
 
 - sign up here
 
+Case Study Written Analysis #5 due on Canvas.
+
 --- 
 
 ## Wednesday (2-Jul; Day 9): Tailoring and Targeting
@@ -323,6 +327,9 @@ Case Study Presentation:
 
 - sign up here
 
+Case Study Written Analysis #6 due on Canvas.
+
+Group Project: Work on FGI, transcription, and summary.
 
 ---
 
@@ -336,6 +343,8 @@ Case Study Presentation:
 
 -   sign up here
 
+Group Project: Work on FGI, transcription, and summary.
+
 ---
 
 ## Friday (4-Jul; Day 11): Social Amplification of Risk
@@ -347,7 +356,6 @@ Readings:
 Case Study Presentation:
 
 - sign up here
-
 
 ---
 
@@ -361,6 +369,8 @@ Case Study Presentation:
 
 - sign up here
 
+Case Study Written Analysis #7 due on Canvas.
+
 ---
 
 ## Tuesday (8-Jul; Day 13): Making Health Communication Programs Work
@@ -373,6 +383,16 @@ Case Study Presentation:
 
 -   sign up here
 
+Case Study Written Analysis #8 due on Canvas.
+
 ---
 
-## Wednesday (9-Jul; Day 14) & Thursday (10-Jul; Day 15): Group Project Presentations
+## Wednesday (9-Jul; Day 14): Group Project Presentations
+
+Case Study Written Analysis #9 due on Canvas.
+
+---
+
+## Thursday (10-Jul; Day 15): Group Project Presentations
+
+Case Study Written Analysis #10 due on Canvas.
