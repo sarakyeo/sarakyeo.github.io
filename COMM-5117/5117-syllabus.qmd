@@ -78,7 +78,7 @@ Respectful disagreement and healthy debate is good and encouraged in all my cour
 
 You will write 3 response papers during the semester. Response papers should be **at least 500 words**. A good response paper will summarize and critique the readings for the day. Your response should identify common threads between the readings and what you already know, and critically engage with the ideas and concepts in the assigned readings.
 
-Your response papers are due at the end of the day via Canvas for the class for which you choose to write a response.
+Your response papers are due at the end of the day via Canvas for the class for which you choose to write a response. You should submit your response paper as a **PDF** on Canvas.
 
 ## Case Study: Presentations (15%)
 
@@ -92,13 +92,13 @@ While scheduling presentations later in the semester will allow students more ti
 
 Please note that students who do not present their case study on the assigned day will receive a 50% deduction to their presentation grade as a penalty. If any emergency occurs, please contact the instructor ASAP.
 
-After the presentation, you must submit the presentation slides on Canvas. 
+After the presentation, you must submit the presentation slides as a **PDF** file on Canvas. 
 
 ## Case Study: Written Analyses (15%)
 
 Over the course, you will see other students’ campaign case study presentations. Each student will write and analysis of 10 campaigns. The paper should include **(1) a short summary of the case** and **(2) your own evaluation of the case (not the presenter’s evaluation)**, including what was good and what was not, and what they would do if they were in charge of that campaign. 
 
-Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below.
+Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below. Submit written analyses as **PDF** files on Canvas.
 
 ## Group Project: Campaign Planning Proposal (30%)
 
@@ -225,6 +225,8 @@ Readings:
 -   Course syllabus
 -   Schwartz, M. A. (2008). The importance of stupidity in scientific research. *Journal of Cell Science*, *121*(11), 1771–1771. https://doi.org/10.1242/jcs.033340
 
+Sign up for Case Study Presentations.
+
 ---
 
 ## Monday (23-Jun; Day 2): The Nature of Theory
@@ -235,7 +237,9 @@ Readings:
 
 Case Study Presentation:
 
--   sign up here
+-   Student 1
+
+Case Study: Written Analysis #1 due on Canvas.
 
 ---
 
@@ -247,9 +251,9 @@ Readings:
 
 Case Study Presentation:
 
--   sign up here
+-   Student 2
 
-Case Study Written Analysis #1 due on Canvas.
+Case Study Written Analysis #2 due on Canvas.
 
 ---
 
@@ -259,7 +263,7 @@ Readings:
 
 -   Simis, M. J., Madden, H., Cacciatore, M. A., & Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? *Public Understanding of Science*, *25*(4), 400–414. https://doi.org/10.1177/0963662516629749
 
-Case Study Written Analysis #2 due on Canvas.
+Case Study Written Analysis #3 due on Canvas.
 
 Group Project: Topic and Preliminary Research Presentation
 
@@ -270,8 +274,6 @@ Group Project: Topic and Preliminary Research Presentation
 Readings:
 
 -   Mayeda, A. M., Boyd, A. D., Paveglio, T. B., & Flint, C. G. (2018). Media representations of water issues as health risks. *Environmental Communication*, *13*(7), 926–942. https://doi.org/10.1080/17524032.2018.1513054
-
-Case Study Written Analysis #3 due on Canvas.
 
 Group Project: Topic and Preliminary Research Presentation
 
@@ -285,7 +287,9 @@ Readings:
 
 Case Study Presentation:
 
--   sign up here
+-   Student 3
+
+Case Study Written Analysis #4 due on Canvas.
 
 ---
 
@@ -297,9 +301,9 @@ Readings:
 
 Case Study Presentation:
 
--   sign up here
+-   Student 4
 
-Case Study Written Analysis #4 due on Canvas.
+Case Study Written Analysis #5 due on Canvas.
 
 --- 
 
@@ -309,11 +313,9 @@ Readings:
 
 -   Luttrell, A. (2018). *Dual Process Models of Persuasion*. In Oxford Research Encyclopedia of Psychology. https://doi.org/10.1093/acrefore/9780190236557.013.319
 
-Case Study Presentation:
+Case Study Written Analysis #6 due on Canvas.
 
-- sign up here
-
-Case Study Written Analysis #5 due on Canvas.
+Group Project: Work on FGI, transcription, and summary
 
 --- 
 
@@ -323,13 +325,7 @@ Readings:
 
 -   Rimer, B. K., & Kreuter, M. W. (2006). Advancing tailored health communication: A persuasion and message effects perspective. *Journal of Communication*, *56*(suppl_1), S184–S201. https://doi.org/10.1111/j.1460-2466.2006.00289.x
 
-Case Study Presentation:
-
-- sign up here
-
-Case Study Written Analysis #6 due on Canvas.
-
-Group Project: Work on FGI, transcription, and summary.
+Group Project: Work on FGI, transcription, and summary
 
 ---
 
@@ -343,7 +339,7 @@ Case Study Presentation:
 
 -   sign up here
 
-Group Project: Work on FGI, transcription, and summary.
+Case Study Written Analysis #7 due on Canvas.
 
 ---
 
@@ -357,6 +353,8 @@ Case Study Presentation:
 
 - sign up here
 
+Case Study Written Analysis #8 due on Canvas.
+
 ---
 
 ## Monday (7-Jul; Day 12): Health Communication Campaigns & Social Media
@@ -369,7 +367,7 @@ Case Study Presentation:
 
 - sign up here
 
-Case Study Written Analysis #7 due on Canvas.
+Case Study Written Analysis #9 due on Canvas.
 
 ---
 
@@ -383,16 +381,16 @@ Case Study Presentation:
 
 -   sign up here
 
-Case Study Written Analysis #8 due on Canvas.
+Case Study Written Analysis #10 due on Canvas.
 
 ---
 
 ## Wednesday (9-Jul; Day 14): Group Project Presentations
 
-Case Study Written Analysis #9 due on Canvas.
+Group Project: Final Presentations
 
 ---
 
 ## Thursday (10-Jul; Day 15): Group Project Presentations
 
-Case Study Written Analysis #10 due on Canvas.
+Group Project: Final Presentations.
