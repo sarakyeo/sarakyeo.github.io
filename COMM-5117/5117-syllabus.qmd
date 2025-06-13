@@ -29,6 +29,17 @@ urlcolor: blue
 
 This three-credit course provides an introduction to the application and integration of media effects theories in health and risk communication. We will examine social and cognitive models relevant to the context of health and risk communication campaigns and address theoretical perspectives that inform campaign messaging, including social determinants of health, individual behavior change, information processing, and message effects. Through this course, students will gain an understanding of theories relevant to the study of health and risk communication messages and an appreciation of the importance of integrating theory in understanding persuasive message effects.
 
+# Course Objectives {#sec-obj}
+
+In this course, students will:
+
+-   identify key components involved with the design, implementation, and evaluation of health campaigns;
+-   apply a variety of research methodologies, including surveys, focus groups, and other informal research methods, to inform a health campaign proposal;
+-   critically evaluate existing health campaigns;
+-   apply theories to justify and develop campaign messages that are most likely to be effective in reaching campaign objectives among targeted audiences;
+-   synthesize information gained through theories and original research to develop an original health campaign proposal; and
+-   design effective media strategies and messages.
+
 ::: callout-note
 You are expected to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help. **It is your responsibility as a student to ask questions in a timely manner during scheduled labs and office hours, if you need help.**
 :::
