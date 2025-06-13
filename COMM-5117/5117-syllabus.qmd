@@ -68,7 +68,7 @@ Course grades will be based on the following:
 -   Response papers (20%)
 -   Case study: Presentation (15%%)
 -   Case study: Written analysis (15%)
--   Group Project: Campaign planning proposal (30%)
+-   Team Project: Campaign planning proposal (30%)
 
 ## Attendance, Participation, and Discussion (20%)
 
@@ -110,9 +110,9 @@ Over the course, you will see other students' campaign case study presentations.
 
 Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below. Submit written analyses as **PDF** files on Canvas.
 
-## Group Project: Campaign Planning Proposal (30%)
+## Team Project: Campaign Planning Proposal (30%)
 
-Your project will be a campaign planning proposal where your team will develop a health campaign plan related to a topic of your choice. The proposal is designed to provide an opportunity for students to apply the materials covered in readings and in class. Students are assigned to groups and will collaborate to select a specific health or risky behavior. More detailed information will be provided in class.
+Your project will be a campaign planning proposal where your team will develop a health campaign plan related to a topic of your choice. The proposal is designed to provide an opportunity for students to apply the materials covered in readings and in class. Students are assigned to teams and will collaborate to select a specific health or risky behavior. More detailed information will be provided in class.
 
 There will be assignments throughout the semester designed to help you complete your proposal.
 
@@ -123,6 +123,10 @@ There will be assignments throughout the semester designed to help you complete 
 3)  **Final presentation.** Your team will present your health/risk communication campaign proposal in class.
 
 4)  **Written proposal.** Your team will prepare and submit a written proposal via Canvas at the end of the semester.
+
+# Late Work Policy
+
+Late work will **not** be accepted in this course.
 
 # Course Grading
 
