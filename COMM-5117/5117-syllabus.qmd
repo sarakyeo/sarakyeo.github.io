@@ -65,10 +65,9 @@ To ensure that you have full access to the course, you will need:
 Course grades will be based on the following:
 
 -   Attendance, participation, and discussion (20%)
--   Response papers (20%)
--   Case study: Presentation (15%%)
--   Case study: Written analysis (15%)
--   Team Project: Campaign planning proposal (30%)
+-   Case study: Presentation (20%)
+-   Case study: Written analysis (20%)
+-   Team Project: Campaign planning proposal (40%)
 
 ## Attendance, Participation, and Discussion (20%)
 
@@ -84,13 +83,7 @@ Our goal is **knowledge integration**--connecting seemingly disparate ideas and 
 Respectful disagreement and healthy debate is good and encouraged in all my courses.
 :::
 
-## Response Papers (20%)
-
-You will write 3 response papers during the semester. Response papers should be **at least 500 words**. A good response paper will summarize and critique the readings for the day. Your response should identify common threads between the readings and what you already know, and critically engage with the ideas and concepts in the assigned readings.
-
-Your response papers are due at the end of the day via Canvas for the class for which you choose to write a response. You should submit your response paper as a **PDF** on Canvas.
-
-## Case Study: Presentations (15%)
+## Case Study: Presentations (20%)
 
 Over the course, each student will present one case study of a campaign. Presentations will be scheduled during the first day of the course. Case studies will be provided on Canvas.
 
@@ -104,13 +97,13 @@ Please note that students who do not present their case study on the assigned da
 
 After the presentation, you must submit the presentation slides as a **PDF** file on Canvas.
 
-## Case Study: Written Analyses (15%)
+## Case Study: Written Analyses (20%)
 
 Over the course, you will see other students' campaign case study presentations. Each student will write and analysis of 10 campaigns. The paper should include **(1) a short summary of the case** and **(2) your own evaluation of the case (not the presenter's evaluation)**, including what was good and what was not, and what they would do if they were in charge of that campaign.
 
 Each analysis should be **at least 250 words**. Due dates will be posted on Canvas and are included in the schedule below. Submit written analyses as **PDF** files on Canvas.
 
-## Team Project: Campaign Planning Proposal (30%)
+## Team Project: Campaign Planning Proposal (40%)
 
 Your project will be a campaign planning proposal where your team will develop a health campaign plan related to a topic of your choice. The proposal is designed to provide an opportunity for students to apply the materials covered in readings and in class. Students are assigned to teams and will collaborate to select a specific health or risky behavior. More detailed information will be provided in class.
 
