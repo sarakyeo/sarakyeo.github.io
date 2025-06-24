@@ -182,7 +182,7 @@ For details on plagiarism and other important course conduct issues, see the U's
 
 Curriculum accommodations take two forms--scheduling and content accommodations. On a case-by-case basis, if you submit the appropriate documentation in advance of the conflict (when possible), scheduling accommodations for assignments may be considered.
 
-If you anticipate a scheduling conflict, please speak with your [TA](#sec-ta) as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
+If you anticipate a scheduling conflict, please speak with your professor as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
 
 **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
@@ -208,10 +208,10 @@ Immigration is a complex phenomenon with broad impact---those who are directly a
 
 # Course Schedule
 
-The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus. *Note:* IA = in-class assignment; LA = lab assignment.
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
 ::: callout-note
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule-S2025.png){fig-width="90%"}
+![](3710-schedule-F2025.png){fig-width="90%"}
