@@ -2,16 +2,12 @@
 title: |
   | COMM 3710: Intro to Quantitative Research
 subtitle: |
-  | Lecture: Mondays (9:40 - 11:35 am), LNCO 1100
-  | Lab Section 002: Wednesdays (9:40 - 10:30 am), GC 4680
-  | Lab Section 003: Wednesdays (10:45 - 11:35 am), GC 1770
+  | Lecture: Mondays (9:40 - 11:35 am), BEH S 111
+  | Lab: Wednesdays (9:40 - 11:35 am), BEH S 111
   |
   | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
-  |
-  | Graduate TA: Casey Zukosky
-  | Email: [u1147451@utah.edu](mailto:u1147451@utah.edu)
-  | TA Office Hours (in-person): Tuesdays (4-5 pm), LNCO 2810
+  | Office Hours: By appointment
 pagetitle: COMM 3710 syllabus
 format:
    pdf:
@@ -102,12 +98,12 @@ There are 8 lab assignments. Information on individual assignments will be provi
 
 ## Lab Presentations (50 pts)
 
-Each student will give one (1) presentation in lab. This presentation will be a group project. More information and detailed instructions will be provided during lab.
+Each student will give one (1) presentation in lab as part of a team. More information and detailed instructions will be provided during lab.
 
 # Course Grading
 
 ::: callout-important
-If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your [graduate teaching assistant](#sec-ta), clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.
+If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your professor, clearly outlining your rationale. These concerns must be presented to your professor within one week of receiving your grade.
 :::
 
 Grades in this course will be based on the following scale.
@@ -133,7 +129,7 @@ You can and should check your grade regularly on Canvas. You can also use the sp
 
 By enrolling in this course, you agree to:
 
-1.  respect the instructors and all members of the course;
+1.  respect the instructor and all members of the course;
 2.  engage with the online content meaningfully;
 3.  meet the requirements of this course; and
 4.  abide by the course policies outlined in the syllabus.
@@ -143,7 +139,7 @@ This list represents the **minimal standards** to make the course a productive l
 ## Email Policy
 
 ::: callout-note
-It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.
+It is critical that you check your University email account frequently and that you use your University email account to contact your instructor.
 :::
 
 **Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**. When you contact your instructors, you are expected to be professional in your communication. This includes:
