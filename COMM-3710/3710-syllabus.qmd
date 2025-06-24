@@ -71,32 +71,32 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 # Course Requirements {#sec-requirements}
 
-Course grades will be based on the following (300 points total):
+Course grades will be based on the following:
 
--   Quizzes (100 pts)
--   Attendance (50 pts)
--   Lab assignments (100 pts)
--   Lab presentations (50 pts)
+-   Quizzes (33%)
+-   Attendance (17%)
+-   Lab assignments (33%)
+-   Lab presentations (17%)
 
-## Quizzes (100 pts)
+## Quizzes
 
-Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. There are 12 quizzes, each worth 10 points. Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. Quizzes are each worth 10 points. Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
 ::: callout-important
 Quizzes will open on Tuesday at 12:00 am and are due on Sunday of that week at 11:59 pm.
 :::
 
-## Attendance (50 pts)
+## Attendance
 
-Attendance is required for lectures and labs. For each full class (lecture/lab) you attend, you will earn two (2) points toward your attendance grade. If you are **5 to 15 min** late to lab, you will earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
+Attendance is required for lectures and labs. Out of respect for your instructor and peers, please arrive on time to classes.
 
-## Lab Assignments (100 pts)
+## Lab Assignments
 
-There are 8 lab assignments. Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas. Please pay attention to any changes in the due dates on Canvas.
+There are 9 lab assignments. Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas. Please pay attention to any changes in the due dates on Canvas.
 
 **Late assignments will not be accepted**.
 
-## Lab Presentations (50 pts)
+## Lab Presentations
 
 Each student will give one (1) presentation in lab as part of a team. More information and detailed instructions will be provided during lab.
 
