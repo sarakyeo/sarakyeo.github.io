@@ -73,10 +73,10 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 Course grades will be based on the following:
 
--   Quizzes (33%)
--   Attendance (17%)
--   Lab assignments (33%)
--   Lab presentations (17%)
+-   Quizzes (110 pts)
+-   Attendance (28 pts)
+-   Lab assignments (125 pts)
+-   Lab presentations (50 pts)
 
 ## Quizzes
 
