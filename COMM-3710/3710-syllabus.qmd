@@ -7,7 +7,7 @@ subtitle: |
   |
   | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
-  | Virtual Office Hours: By [appointment](https://outlook.office.com/bookwithme/user/98f1ac91631e47eb9f502658b45494f9@umail.utah.edu/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?bookingcode=cad671fe-e6f1-4efb-9ac9-3d51855fec1f&anonymous&ep=mlink)
+  | Virtual Office Hours: [By appointment](https://outlook.office.com/bookwithme/user/98f1ac91631e47eb9f502658b45494f9@umail.utah.edu/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?bookingcode=6a99b2dc-526d-4185-8078-0f5a72d23764&anonymous&ismsaljsauthenabled&ep=mlink)
 pagetitle: COMM 3710 syllabus
 format:
    pdf:
