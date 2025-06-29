@@ -75,7 +75,7 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 # Course Requirements {#sec-requirements}
 
-Course grades will be based on the following (325 points total; **(HON)** 400 points total):
+Course grades will be based on the following:
 
 -   Quizzes (110 pts)
 -   Attendance (28 pts)
