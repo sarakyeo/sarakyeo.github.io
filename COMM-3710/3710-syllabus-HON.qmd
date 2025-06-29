@@ -81,7 +81,7 @@ Course grades will be based on the following (325 points total; **(HON)** 400 po
 -   Attendance (28 pts)
 -   Lab assignments (125 pts)
 -   Lab presentations (50 pts)
--   **(HON)** Article presentation (25 pts)
+-   **(HON)** Article presentation (50 pts)
 -   **(HON)** Research proposal (50 pts)
 
 ## Quizzes

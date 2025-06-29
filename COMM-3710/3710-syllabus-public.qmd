@@ -84,62 +84,42 @@ You are expected to know how to take a screenshot with your computer. A photo of
 Course grades will be based on the following:
 
 -   Quizzes
--   In-class assignments
+-   Attendance
 -   Lab assignments
--   Lab attendance
+-   Lab presentation
 
 ## Quizzes
 
-Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. 
+Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. Quizzes are each worth 10 points. Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
 
-Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+::: callout-important
+Quizzes will open on Tuesday at 12:00 am and are due on Sunday of that week at 11:59 pm.
+:::
 
-## In-class Assignments 
+## Attendance
 
-There are 6 in-class assignments throughout the semester. We will work on these during lecture sessions. Information on in-class assignments will be provided during lecture. Without exception, these assignments are due at the end of the lecture in which they are assigned.
-
-**Late assignments will not be accepted**. Please pay attention to any changes in the due dates on Canvas.
+Attendance is required for lectures and labs. Out of respect for your instructor and peers, please arrive on time to classes.
 
 ## Lab Assignments
 
-There are 8 lab assignments. Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas.
+Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas. Please pay attention to any changes in the due dates on Canvas.
 
-**Late assignments will not be accepted**. Please pay attention to any changes in the due dates on Canvas.
+**Late assignments will not be accepted**.
 
-## Lab Attendance
+## Lab Presentations
 
-This course has one graduate TA for two lab sections. When you enrolled in this course, you selected a lab section to attend. Please attend the section in which you are enrolled.
-
-For each full lab you attend, you will earn two (2) points toward your attendance grade. If you are **5 to 15 min** late to lab, you will earn one (1) point toward your attendance grade. If you are more than **15 min** late to lab, you will earn no (0) points for attendance that day.
-
-If you show up to a lab section in which you are not enrolled, your attendance will not count toward your grade and you will be asked to leave.
-
-------------------------------------------------------------------------
-
-# Week 6 Participation Checkpoint
-
-In addition to the [course requirements](#sec-requirements), there will be a participation checkpoint in Week 6.
-
-::: callout-note
-At the end of Week 6, any students who have not demonstrated regular participation will receive an email advising them of their performance in this course up to this point.
-:::
-
--   "Regular participation” as a student is defined as earning at least 50% of the possible points on required graded content up to this point.
--   The checkpoint threshold is generous--well below a failing score for this course. Regular participation is required because each week’s material builds on content and work from the prior week. If you are not meeting this standard by this point in the course, it is often too late to “catch up.”
--   Non-participants will be urged to withdraw from the course to avoid receiving a failing grade (see the University's [Academic Calendar](https://registrar.utah.edu/academic-calendars/fall2022.php) for withdrawal deadlines).
-
-------------------------------------------------------------------------
+Each student will give one (1) presentation in lab as part of a team. More information and detailed instructions will be provided during lab.
 
 # Course Grading
 
 ::: callout-important
-If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your [graduate teaching assistant](#sec-ta), clearly outlining your rationale. These concerns must be presented to your TA within one week of receiving your grade.
+If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your professor, clearly outlining your rationale. These concerns must be presented to your professor within one week of receiving your grade.
 :::
 
 Grades in this course will be based on the following scale.
 
 | Grade | Score (%)   |
-|-------|-------------|
+|-------|:-----------:|
 | A     | 93 to 100   |
 | A-    | 90 to \< 93 |
 | B+    | 87 to \< 90 |
@@ -153,17 +133,13 @@ Grades in this course will be based on the following scale.
 | D-    | 60 to \< 63 |
 | E     | \< 60       |
 
-You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate “what-if” scores and determine the score you need to get to do well in this class.
-
-Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
-
-------------------------------------------------------------------------
+You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate "what-if" scores and determine the score you need to get to do well in this class. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
 
 # Course Policies {#sec-policies}
 
 By enrolling in this course, you agree to:
 
-1.  respect the instructors and all members of the course;
+1.  respect the instructor and all members of the course;
 2.  engage with the online content meaningfully;
 3.  meet the requirements of this course; and
 4.  abide by the course policies outlined in the syllabus.
@@ -173,12 +149,10 @@ This list represents the **minimal standards** to make the course a productive l
 ## Email Policy
 
 ::: callout-note
-It is critical that you check your University email account frequently and that you use your University email account to contact your instructors.
+It is critical that you check your University email account frequently and that you use your University email account to contact your instructor.
 :::
 
-**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**.
-
-When you contact your instructors, you are expected to be professional in your communication. This includes:
+**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**. When you contact your instructors, you are expected to be professional in your communication. This includes:
 
 -   Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
 -   Providing your full name, uNID, and class section in the message.
@@ -190,9 +164,7 @@ When you contact your instructors, you are expected to be professional in your c
 
 ## Course Civility
 
-Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely.
-
-Here is the basic etiquette that will be expected in the course:
+Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic etiquette that will be expected in the course:
 
 -   Please address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
 -   Civil disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
@@ -204,11 +176,11 @@ Here is the basic etiquette that will be expected in the course:
 Academic misconduct will be punished to the fullest extent possible. Anyone found guilty of academic misconduct should expect to fail this course.
 :::
 
-It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one’s work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah’s Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
+It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one's work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah's Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
 
 Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. Academic misconduct, according to the University of Utah Student Code:
 
-> “...Includes, but is not limited to, cheating, misrepresenting one’s work, inappropriately collaborating, plagiarism, and fabrication or falsification of information…It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct.”
+> "... includes, but is not limited to, cheating, misrepresenting one's work, inappropriately collaborating, plagiarism, and fabrication or falsification of information...It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct."
 
 For details on plagiarism and other important course conduct issues, see the U's [Code of Student Rights and Responsibilities](http://regulations.utah.edu/academics/6-400.php).
 
@@ -216,44 +188,26 @@ For details on plagiarism and other important course conduct issues, see the U's
 
 Curriculum accommodations take two forms--scheduling and content accommodations. On a case-by-case basis, if you submit the appropriate documentation in advance of the conflict (when possible), scheduling accommodations for assignments may be considered.
 
-If you anticipate a scheduling conflict, please speak with your [TA](#sec-ta) as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
+If you anticipate a scheduling conflict, please speak with your professor as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
 
-**There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University’s accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+**There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
 
 ## Emergency Plan
 
 In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
 
-------------------------------------------------------------------------
-
 # University Policies {#sec-Upolicies}
 
 ## ADA
 
-The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities.
-
-All written information in this course can be made available in an alternative format with prior notification to the Center for Disability & Access (CDA). CDA will work with you and the instructor to make arrangements for accommodations. Prior notice is appreciated. To read the full accommodations policy for the University of Utah, please see Section Q of the Instruction & Evaluation regulations.
-
-In compliance with ADA requirements, some students may need to record course content. Any recordings of course content are for personal use only, should not be shared, and should never be made publicly available. In addition, recordings **must** be destroyed at the conclusion of the course.
-
-If you will need accommodations in this class, or for more information about what support they provide, contact the [Center for Disability & Access](https://disability.utah.edu/).
+The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. All written information in this course can be made available in an alternative format with prior notification to the Center for Disability & Access (CDA). CDA will work with you and the instructor to make arrangements for accommodations. Prior notice is appreciated. To read the full accommodations policy for the University of Utah, please see Section Q of the Instruction & Evaluation regulations. In compliance with ADA requirements, some students may need to record course content. Any recordings of course content are for personal use only, should not be shared, and should never be made publicly available. In addition, recordings **must** be destroyed at the conclusion of the course. If you will need accommodations in this class, or for more information about what support they provide, contact the [Center for Disability & Access](https://disability.utah.edu/).
 
 ## Safety
 
-**Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu.
+**Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu. To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
 
-To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
-
-**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.
-
-If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677.
-
-If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence.
-
-To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677. If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
 
 ## Undocumented Student Support
 
-Immigration is a complex phenomenon with broad impact—those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center.
-
-Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
+Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).
