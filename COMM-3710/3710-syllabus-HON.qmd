@@ -4,7 +4,7 @@ title: |
   | COMM 3711: **(HON)** Intro to Quantitative Research
 subtitle: |
   | Lecture: Mondays (9:40 - 11:35 am), BEH S 111
-  | Lab: Wednesdays (9:40 - 10:35 am), BEH S 111
+  | Lab: Wednesdays (9:40 - 11:35 am), BEH S 111
   |
   | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
