@@ -1,0 +1,343 @@
+---
+title: 'LA-5: Examining and Managing Data (10 points)'
+pagetitle: "COMM 3710: LA-5"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(summarytools)
+library(rstatix)
+library(magrittr)
+hdata <- read.csv("HELP.csv")
+knitr::opts_chunk$set(echo = FALSE)
+```
+In this assignment, you will learn how to:
+
+- Run and examine frequency distributions using the `freq()` function in the `summarytools` package.
+- View descriptive statistics using the `descr()` function in the `summarytools` package.
+- Recoding variables using the `case_when()` function.
+- Create new variables from existing variables in a data frame using the `mutate()` function.
+
+> Remember to ...
+>
+> 1) Set up your R script as you did in LA-4.
+> 2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+
+---
+
+# Step 1 {.tabset .tabset-fade}
+## Instructions
+
+Load the packages below into R. Then, read the [HELP](https://utah.instructure.com/files/131421311/download?download_frd=1) data set into R. This data set is saved as a .csv file.
+
+Packages to load:
+
+- `tidyverse`
+- `magrittr`
+- `summarytools`
+- `rstatix`
+
+```{r step-1, include=FALSE}
+
+root <- here::here()
+setwd(root)
+
+hdta <- read.csv("./COMM-3710/LA/HELP.csv")
+
+```
+
+## Hint
+
+See LA-4 for a reminder of how to load data into R, which involves using the function, `read_csv()`. Or read the documentation for `read_csv()`.
+
+## Codebook
+
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(knitr)
+
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in HELP dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
+
+# Step 2 {.tabset .tabset-fade}
+## Instructions
+
+Examine the frequency distributions of the variables, `sex` and `d1`. Use these frequency distributions to answer the questions below.
+
+a. How many patients in the study are female?
+b. How many patients in the study have never been hospitalized for medical problems?
+c. What percentage of patients in the study have been hospitalized fewer than 5 times (i.e., 4 or fewer)?
+
+```{r step-2, include=FALSE}
+
+hdta %>% 
+        select(sex, d1) %>% 
+        freq()
+# 2a: 107 female patients in the study.
+# 2b: 92 have never been hospitalized.
+# 2c: 83.22%
+
+```
+
+## Hint
+
+To run a frequency distribution, which creates a frequency table, you will need the `freq()` function in the `summarytools` package. Remember that you can read the documentation for a specific function by typing the function name preceded by `?` in the Console in RStudio. 
+
+Read the documentation for `freq()` by typing `?freq` in the Console.
+
+You might find the [section on working with data frames](https://sarakyeo.github.io/COMM-3710-bookdown/docs/start.html#working-with-data-frames) helpful.
+
+Run the code below to see a frequency distribution for the variable `racegrp` in the HELP data set, which has been read into a data frame called `hdata`.
+
+```{r freq, eval=FALSE, echo=TRUE}
+hdata %>% 
+        freq(racegrp) # examine freq dist of variable, racegrp
+```
+
+If you are having trouble with the `summarytools` package (so far, this has happened only for students using Macs), you may see the following error message (probably in <span style="color: red;">angry-looking `r emo::ji("angry")` red font</span>):
+```
+Error: package or namespace load failed for ‘summarytools’:
+.onLoad failed in loadNamespace() for 'tcltk', details:
+call: fun(libname, pkgname)
+error: X11 library is missing: install XQuartz from xquartz.org
+```
+
+The solution is to read the error message and follow the instructions--install XQuartz from xquartz.org. Once you have XQuartz installed on your Mac, re-install `summarytools` using `install.packages("summarytools)` and the package should load when you run the command, `library(summarytools)`.
+
+If you continue to experience issues with `summarytools`, try:
+
+1) Reinstalling [XQuartz](https://www.xquartz.org/). If you still encounter problems, try the step below.
+2) Install `summarytools` directly from Github in R using the following commands:
+```{r summarytools, eval=FALSE, echo=TRUE}
+install.packages("devtools")
+devtools::install_github("dcomtois/summarytools", ref = "no-x11-check")
+```
+
+
+# Step 3 {.tabset .tabset-fade}
+## Instructions
+Now, subset the data to only include patients whose primary substance of abuse is cocaine and who are at least 40 years old. Then, examine the frequency distribution of `age`.
+
+a. How many patients are at least 40 years old whose primary substance of abuse is cocaine?
+
+```{r step-3, include=FALSE}
+
+hdta %>% 
+        filter(substance == "cocaine" & age >= 40) %>% 
+        freq(age)
+# 3a: 27 patients meet this criteria.
+
+```
+
+## Hint
+The code below subsets the data to include only patients who are housed (we did this in [LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html) if you need a reminder). We could also combine two criteria for filtering into one command.
+
+```{r filter, eval=FALSE, echo=TRUE}
+# Filter hdata to select only patients who are housed 
+hdata %>% 
+        filter(homeless == "housed")
+
+# To filter data using two conditions, there are at least two options:
+hdata %>% 
+        filter(homeless == "housed") %>% # select patients who are housed
+        filter(age > 40) # select patients who are over 40 yo
+
+# or
+
+hdata %>% 
+        filter(homeless == "housed" & age > 40)
+```
+
+
+# Step 4 
+Examine a frequency table of `sex` based on this subset. Answer the questions below.
+
+a. How many patients in the study are at least 40 years old and have cocaine listed as his/her primary abuse substance are **female**?
+b. What **percentage** of patients who are at least 40 years old and have cocaine listed as his/her primary abuse substance are **male**?
+
+```{r step-4, include=FALSE}
+
+hdta %>% 
+        filter(substance == "cocaine" & age >= 40) %>% 
+        group_by(sex) %>% 
+        freq(age)
+# 4a: 7 are female.
+# 4b: 74.07% of these patients are male.
+
+```
+
+
+# Step 5 {.tabset .tabset-fade}
+## Instructions
+Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the `descr()` function that is in the package, `summarytools`. Let's examine descriptive statistics for the variable, `e2b`, which is the number of times in the past 6 months that the respondent entered a detox program.
+
+Examine the descriptive statistics for `e2b` and answer the questions below.
+
+a) What is the mean?
+b) What is the median?
+c) What is the maximum?
+
+```{r step-5, include=FALSE}
+
+hdta %>% 
+        descr(e2b)
+
+# 5a: M = 2.50
+# 5b: Median = 2.00
+# 5c: Maximum = 21.00
+
+```
+
+## Hint
+Let's say I am interested in examining descriptive statistics of the quantitative variable, `pss_fr`, which is perceived social support by friends.
+
+To do so, I would use the following code:
+```{r descr, eval=FALSE, echo=TRUE}
+hdata %>% 
+  descr(pss_fr) # examine descriptive stats of variable, pss_fr
+```     
+
+
+# Step 6 {.tabset .tabset-fade}
+## Instructions
+We will now learn how to use the `mutate()` function to create a new variable from existing ones. We will use the variables, `daysanysub` and `dayslink`.
+
+Create a new variable called `Mdays` that is the **mean**^[To calculate a mean, you add all the variables then divide by the number of variables.] of `daysanysub` and `dayslink`. Then, examine the descriptive statistics of the new variable, `Mdays`, and answer the following questions.
+
+a) What is the mean of the variable, `Mdays`?
+b) What is the minimum value of `Mdays`? 
+c) What is the maximum value of `Mdays`?
+
+```{r step-6, include=FALSE}
+
+hdta <- hdta %>% 
+        mutate(Mdays = (daysanysub + dayslink)/2)
+hdta %>% 
+        descr(Mdays) # M = 159.26, min = 7.00, max = 358.50
+
+# Another way to do this using the mean() function
+hdta <- hdta %>% 
+        rowwise() %>% 
+        mutate(Mfxndays = mean(c(daysanysub, dayslink)))
+hdta %>% 
+        descr(Mfxndays) # M = 159.26, min = 7.00, max = 358.50
+
+```
+
+## Hint
+To create a new variable, we need to first look at the frequency distributions of each variable that makes up the new variable you will create. In general, it is good practice to examine the frequency distributions of all variables before working with them.
+
+Let's say I want to create a new variable, `sumdays` that is the **sum** of `daysanysub` and `dayslink`.
+
+Start by examining the variables that we will use:
+```{r mutate1, eval=FALSE, echo=TRUE}
+hdata %>% 
+  freq(daysanysub) # examine freq dist of daysanysub
+
+hdata %>% 
+  freq(dayslink) # examine freq dist of dayslink
+```
+
+Then, we can create a new variable using the `mutate()` function. Note the use of the left arrow *and* the pipe operator. This is important as it tells R to save the new variable in the existing data frame, `hdata`.
+```{r mutate2, eval=FALSE, echo=TRUE}
+hdata <- hdata %>% # including the <- saves the new variable back into the data frame
+  mutate(sumdays = daysanysub + dayslink) # sum the two variables
+
+# Check that the new variable is correctly created
+hdata %>% 
+  freq(sumdays) # examine freq distribution of new variable, sumdays
+```
+
+Once I have created this new variable correctly, I can examine descriptive statistics of this variable using the `descr()` function.
+
+
+# Step 7 {.tabset .tabset-fade}
+## Instructions
+There are times when we may want to take continuous variables and make them into categorical variables (unsure what "continuous" vs. "categorical" variables are? Review the [lecture content on measurement](https://sarakyeo.github.io/COMM-3710/week4.html#Measurement)). For example, assume we are interested in respondents' depression scores, `cesd`, but we want to categorize them into low and high depression scores.
+
+We refer to this process as **recoding variables**. For this exercise, let's say we want to code respondents who have scores of 30 or lower into a low category and those who have scores higher than 30 into a high category.
+
+Use the `mutate()` and `case_when()` functions to recode `cesd` into a new variable, `dcesd`, with only two categories, low ($\le$ 30) and high (> 30).
+
+Then, answer the following questions.
+
+a) How many respondents are in the **low** category of the new variable, `dcesd`?
+b) How many respondents are in the **high** category of the new variable, `dcesd`?
+
+```{r step-7, include=FALSE}
+
+hdta %>% 
+        freq(cesd)
+hdta <- hdta %>% 
+        mutate(dcesd = case_when(cesd <= 30 ~ "low",
+                                 cesd > 30 ~ "high"))
+hdta %>% 
+        freq(dcesd) # low = 182 R; high = 271 R
+
+```
+
+## Hint
+To recode a variable, we will use the `mutate()` and `case_when()` functions. As an example, we will recode `i1` into a new variable, `di1`, that have low and high categories.
+```{r recoding, echo=TRUE, eval=FALSE}
+# First, examine the frequency distribution of i1
+hdata %>% 
+  freq(i1)
+
+# Assume I want to categorize people who have 12 or fewer drinks into a low
+# category and the rest into the high category (note the arrow and %>%)
+hdata <- hdata %>% 
+  mutate(di1 = case_when(i1 <= 12 ~ "low",
+                         i1 > 12 ~ "high"))
+
+# Check that the new variable has been recoded correctly
+hdata %>% 
+  freq(di1)
+```
+
+
+# Bonus Question
+In [Step 7], you recoded respondents' depression scores, `cesd`, into a new categorical variable, `dcesd`. What is the mean age among respondents in the low and high categories?
+
+```{r bonus, include=FALSE}
+
+hdta %>% 
+        group_by(dcesd) %>% 
+        descr(age)
+# Mlow = 36.03
+# Mhigh = 35.40
+
+```
+
+
+# Submission
+Submit your R script (`LA-5_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every single line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-5_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.
+

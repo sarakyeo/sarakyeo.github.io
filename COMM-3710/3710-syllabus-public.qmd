@@ -1,0 +1,213 @@
+---
+title: |
+  | COMM 3710: Intro to Quantitative Research
+subtitle: |
+  | Lecture
+  | Lab Section
+  |
+  | Instructor: Sara K. Yeo
+  | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
+pagetitle: COMM 3710 syllabus
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      papersize: letter
+      toc: false
+      colorlinks: true
+   # html:
+   #    toc: true
+   #    toc_float: true
+   #    theme: simplex
+   #    smooth-scroll: true
+   #    embed-resources: true
+urlcolor: blue
+---
+
+# Course Outline {#sec-outline}
+
+This course is a basic research methods course for those with little or no experience or course work in quantitative communication research. COMM 3710 is a quantitative intensive (QI) course. The goal of this course is to provide you with a critical framework for evaluating social science research and some hands-on experience in the process of conducting empirical investigations.
+
+Key topics include:
+
+-   Developing a question into a research project
+-   Formalizing hypotheses and research questions grounded in theory
+-   Testing hypotheses and research questions
+-   Conceptual and operational definitions
+-   Measurement, sampling, and research design
+-   Data analysis in communication research
+-   Interpreting research results
+-   Communicating research
+
+::: callout-note
+You are expected to log into the course Canvas website regularly (**at least 3-5 times per week**), complete and submit work on time, and ask questions if you need help. **It is your responsibility as a student to ask questions in a timely manner during scheduled labs and office hours, if you need help.**
+:::
+
+------------------------------------------------------------------------
+
+# Required Text and Readings {#sec-text}
+
+The textbook for this course is listed below and available online. The course fee that you paid when you enrolled covers Inclusive Access to the Wrench textbook via Canvas. Additional readings will be provided as PDF documents on Canvas.
+
+Wrench, J.S. (2019) *Quantitative Research Methods for Communication: A Hands-On Approach* (4th edition). New York, NY: Oxford University Press.
+
+-   To access this textbook, navigate to your **Bookshelf** on the Canvas site for this course.
+-   This textbook is available through the [Inclusive Access program](https://www.campusstore.utah.edu/inclusiveaccess/), which provides you with digital access to the textbook via Canvas at a reduced price.
+-   You may opt out of the Inclusive Access program [here](https://www.campusstore.utah.edu/inclusiveaccess/). However, the textbook is **required**, and you are expected to have it, even if you opt out of this program.
+
+------------------------------------------------------------------------
+
+# Technology Requirements {#sec-tech}
+
+To ensure that you have full access to the course, you will need:
+
+-   Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) is not sufficient to complete this course. Please bring a laptop to lab.
+
+-   An Internet browser compatible with [Canvas](https://utah.instructure.com/). For more information, see this [page](https://community.canvaslms.com/docs/DOC-10720-67952720329). Announcements, assignments, readings, etc., will be posted there. You should be familiar with Canvas. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
+
+-   We will be using [R](https://www.r-project.org/) in lab for data analysis. You do not need to have this set up before the semester begins. We will get set up in lab at the beginning of the semester.
+
+-   Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++, Atom), Microsoft Office (Word, Excel, PowerPoint), and Adobe Acrobat (free for UofU students) are recommended.
+
+::: callout-note
+You are expected to know how to take a screenshot with your computer. A photo of your laptop or computer screen taken with your mobile device is *not* a screenshot.
+:::
+
+------------------------------------------------------------------------
+
+# Course Requirements {#sec-requirements}
+
+Course grades will be based on the following:
+
+-   Quizzes
+-   Attendance
+-   Lab assignments
+-   Lab presentation
+
+## Quizzes
+
+Weekly quizzes will be administered online via Canvas. All quizzes will be based on assigned readings. **No make-up or late quizzes be administered**. You can take the quiz at any time during the week it is assigned. Quizzes are each worth 10 points. Note that quizzes are timed and you will only have **one attempt** at each quiz--please do not start a quiz unless you are ready to complete it.
+
+::: callout-important
+Quizzes will open on Tuesday at 12:00 am and are due on Sunday of that week at 11:59 pm.
+:::
+
+## Attendance
+
+Attendance is required for lectures and labs. Out of respect for your instructor and peers, please arrive on time to classes.
+
+## Lab Assignments
+
+Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas. Please pay attention to any changes in the due dates on Canvas.
+
+**Late assignments will not be accepted**.
+
+## Lab Presentations
+
+Each student will give one (1) presentation in lab as part of a team. More information and detailed instructions will be provided during lab.
+
+# Course Grading
+
+::: callout-important
+If you wish to dispute your grade on any assignment or quiz, you must put your concerns in writing (please adhere to the [course email policy](#sec-policies)) to your professor, clearly outlining your rationale. These concerns must be presented to your professor within one week of receiving your grade.
+:::
+
+Grades in this course will be based on the following scale.
+
+| Grade | Score (%)   |
+|-------|:-----------:|
+| A     | 93 to 100   |
+| A-    | 90 to \< 93 |
+| B+    | 87 to \< 90 |
+| B     | 83 to \< 87 |
+| B-    | 80 to \< 83 |
+| C+    | 77 to \< 80 |
+| C     | 73 to \< 77 |
+| C-    | 70 to \< 73 |
+| D+    | 67 to \< 70 |
+| D     | 63 to \< 67 |
+| D-    | 60 to \< 63 |
+| E     | \< 60       |
+
+You can and should check your grade regularly on Canvas. You can also use the spreadsheet provided on Canvas to calculate "what-if" scores and determine the score you need to get to do well in this class. Information on the grade points assigned to letter grades and how to calculate your GPA can be found [here](https://advising.utah.edu/academic-standards/gpa-calculator-new.php).
+
+# Course Policies {#sec-policies}
+
+By enrolling in this course, you agree to:
+
+1.  respect the instructor and all members of the course;
+2.  engage with the online content meaningfully;
+3.  meet the requirements of this course; and
+4.  abide by the course policies outlined in the syllabus.
+
+This list represents the **minimal standards** to make the course a productive learning space. **Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors**.
+
+## Email Policy
+
+::: callout-note
+It is critical that you check your University email account frequently and that you use your University email account to contact your instructor.
+:::
+
+**Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.)**. Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all. Emails should be written clearly and professionally with correct spelling and grammar. **Emails that do not conform to these rules will not receive a response**. When you contact your instructors, you are expected to be professional in your communication. This includes:
+
+-   Providing a relevant description or statement in the email subject line. Do not leave the subject line blank or simply write, "Hi."
+-   Providing your full name, uNID, and class section in the message.
+-   Using appropriate salutations (e.g., Dr. or Prof. Yeo; recipient's name, if appropriate).
+-   Using paragraphs, not just long blocks of text.
+-   Proofreading your writing.
+-   Providing a clear description of your problem and all relevant information.
+-   Being polite in your emails. For example, you should end your messages with a signature, such as "sincerely," "regards," or "thank you."
+
+## Course Civility
+
+Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic etiquette that will be expected in the course:
+
+-   Please address your classmates by name. There is a human being on the other side of the screen/room who also has struggles, doubts, and bad days.
+-   Civil disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
+-   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by credible evidence based on the concepts discussed in this course.
+
+## Academic Misconduct
+
+::: callout-warning
+Academic misconduct will be punished to the fullest extent possible. Anyone found guilty of academic misconduct should expect to fail this course.
+:::
+
+It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one's work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession/discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession/discipline may be subject to academic sanctions as per the University of Utah's Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
+
+Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. Academic misconduct, according to the University of Utah Student Code:
+
+> "... includes, but is not limited to, cheating, misrepresenting one's work, inappropriately collaborating, plagiarism, and fabrication or falsification of information...It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct."
+
+For details on plagiarism and other important course conduct issues, see the U's [Code of Student Rights and Responsibilities](http://regulations.utah.edu/academics/6-400.php).
+
+## Curriculum Accommodations
+
+Curriculum accommodations take two forms--scheduling and content accommodations. On a case-by-case basis, if you submit the appropriate documentation in advance of the conflict (when possible), scheduling accommodations for assignments may be considered.
+
+If you anticipate a scheduling conflict, please speak with your professor as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. **There will be no scheduling accommodations for quizzes.**
+
+**There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+## Emergency Plan
+
+In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email.
+
+# University Policies {#sec-Upolicies}
+
+## ADA
+
+The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. All written information in this course can be made available in an alternative format with prior notification to the Center for Disability & Access (CDA). CDA will work with you and the instructor to make arrangements for accommodations. Prior notice is appreciated. To read the full accommodations policy for the University of Utah, please see Section Q of the Instruction & Evaluation regulations. In compliance with ADA requirements, some students may need to record course content. Any recordings of course content are for personal use only, should not be shared, and should never be made publicly available. In addition, recordings **must** be destroyed at the conclusion of the course. If you will need accommodations in this class, or for more information about what support they provide, contact the [Center for Disability & Access](https://disability.utah.edu/).
+
+## Safety
+
+**Safety at the U.** The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message. For more safety information and to view available training resources, including helpful videos, visit safeu.utah.edu. To report suspicious activity or to request a courtesy escort, contact Campus Police at 801-585-COPS (801-585-2677) or go to [dps.utah.edu](https://dps.utah.edu/).
+
+**Addressing Sexual Misconduct.** Title IX makes it clear that violence and harassment based on sex and gender (includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran's status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the [Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action](https://oeo.utah.edu/) or the [Office of the Dean of Students](https://deanofstudents.utah.edu/). To report to the police, contact [Campus Police](https://dps.utah.edu/) or call 801-585-2677. If you do not feel comfortable reporting to authorities, the U's Victim-Survivor Advocates provide free, confidential, and trauma-informed support services to students, faculty, and staff who have experienced interpersonal violence. To privately explore options and resources available to you with an advocate, contact the [Center for Student Wellness](http://wellness.utah.edu/).
+
+## Undocumented Student Support
+
+Immigration is a complex phenomenon with broad impact---those who are directly affected by it, as well as those who are indirectly affected by their relationships with family members, friends, and loved ones. If your immigration status presents obstacles to engaging in specific activities or fulfilling specific course criteria, confidential arrangements may be requested from the Dream Center. Arrangements with the Dream Center will not jeopardize your student status, your financial aid, or any other part of your residence. The Dream Center offers a wide range of resources to support undocumented students (with and without DACA) as well as students from mixed-status families. To learn more, please contact the Dream Center at 801-213-3697 or visit [dream.utah.edu](http://dream.utah.edu/).

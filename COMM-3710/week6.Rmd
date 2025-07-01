@@ -1,0 +1,244 @@
+---
+title: |
+  | COMM 3710: Experiments
+pagetitle: "COMM 3710: Week 6"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+# A Brief History of Experiments
+`r emo::ji("student")` An experiment occurs when a researcher purposefully manipulates one or more variables in the hope of seeing how this manipulation affects other variables of interest. The emphasis on experimentation began in the 16th and 17th centuries. During this time, we see the emergence of modern science from natural philosophy. Prior to this time period, natural philosophy relied primarily of observation and documentation on-going systems. As experimentation emerged, scientists began to observe systems after causing deliberate change.
+
+Early experimenters realized the importance of control groups. Controls limit extraneous influences that might bias the observations. We will discuss modern experimental designs that control external influences in this module.
+
+# What is an Experiment? {.tabset .tabset-fade}
+> An experiment occurs when a researcher manipulates/alters/changes one or more variables in hopes of seeing how this manipulation causes other variables of interest to change.
+
+Experiments...
+
+- explore the effects of manipulating a variable.
+- involve taking action then observing the consequences of that action.
+- have 3 major components:
+   
+   - independent and dependent variables
+   - pre- and post-testing
+   - experimental and control groups
+
+## Why Conduct Experiments? `r emo::ji("+1")`{.tabset .tabset-fade}
+Experiments are useful for **demonstrating causality**. This is the primary advantage of conducting experiments.
+
+Although the textbook describes four reasons why researchers conduct experiments, we will only discuss **three** here (the first and fourth in the textbook are similar, both related to causality). 
+
+We have already highlighted one of them (determining causal relationships). The tabs below describe each reason in detail.
+
+### Determining Causality
+If researchers relied only on survey data, we would find relationships that have little meaning to them and could occur by chance.
+
+When we discussed survey research, we were careful to highlight that relationships between variables were correlation, not causation. Rigorous methodology in experimentation allows researchers to isolate the cause of an effect. This allows for the exploration of whether an independent variable causes a change in a dependent variable.
+
+The bottom line: **Experiments allow us to demonstrate causality**.
+
+### Ruling Out Alternative Explanations
+Experiments allow researchers to **control** what occurs and changes in a testing situation. Often, this can help researchers rule out alternative or spurious explanations for an observed change in the dependent, or outcome, variable.
+
+This is why researchers include a comparison group, also known as a **control** group or condition. Researchers use the control group as a baseline, which provides a comparison for changes that might occur as a result of the experimental manipulation.
+
+We also include pretest conditions as a *before* (pre-test) observation for comparison with the *after* (post-test) observation.
+
+### Determining the Effect of Antecedent Variables
+Another reason for performing experiments is to determine whether intervening and antecedent variables are influencing the results.
+
+**Antecedent variables** are ones occur prior to the experiment that may impact the way your variables in the experiment function. An antecedent variable occurs between an independent and dependent variable.
+
+This is discussed in more detail in the section titled, [Threats to Internal Validity].
+
+
+## What are the Disadvantages of Conducting Experiments? `r emo::ji("-1")`
+Experimentation can be time-consuming. Designing and setting up an experiment is a major undertaking that can be very resource-intensive. Additionally, experiments present subjects with artificial environments, i.e., in order to control every variable and change only one, researchers must subject participants to controlled conditions, which are often unlikely to occur in the real world. This limits researchers' ability to generalize the results of experiments. Indeed, experiments are often more focused on theory testing and building than on external validity.
+
+The bottom line: **The main disadvantage of experiments is the artificiality of the conditions to which subjects are exposed**.
+
+
+# The Logic of Experiments
+
+## Basic Experimental Design
+The most basic experimental design is a **pretest-posttest-control group design with random assignment of participants to each group**. Note that random assignment and random selection are not the same! Random selection refers to selecting subjects at random to a sample. Random assignment refers to assigned subjects in a sample to random groups in an experiment. Read more about random assignment in the textbook (Chapter 11).
+
+```{r, basic-design, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/basic-experimental-design.png")
+
+```
+
+In the diagram above, $t_1$ refers to time 1, $t_2$ refers to time 2, $X$ denotes the group in which the stimulus is applied (experimental group), and `obs #` shows where observations of the dependent variable have been recorded. This is the classic and most basic experimental design.
+
+Respondents are randomly assigned to one of two groups, either the experimental or control group. In both groups, pretests are administered (i.e., observations of the dependent variable are recorded at $t_1$, `obs 1` and `obs 2`).
+
+Then, the experimental group is exposed to the stimulus ($X$), which is the manipulation that the researcher thinks will cause a change in the dependent variable. The control group is not exposed to any experimental manipulation.
+
+Following the manipulation, the dependent variable is again measured at $t_2$ (`obs 3` and `obs 4`).
+
+```{r, basic-design-Babbie, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/basic-experimental-design_Babbie.png")
+
+```
+
+
+## Variations on Experimental Design {.tabset .tabset-fade}
+There are also variations on the basic experimental design. Here are some different types:
+
+### One-shot Case Study
+In this design, there is only one group--the experimental group. The outcome variable is compared with some external standard or criteria. At time 1, there is no measurement. Then, at time 2, the stimulus (in this example, the stimulus is exercise) is applied. Lastly, at time 3, researchers measure the outcome variable (e.g., fitness).
+
+```{r, one-shot, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/oneshot-case-study.png")
+
+```
+
+
+### One-group Pretest-Posttest Design
+Similar to the one-shot case study, this design has only one group, the experimental group. In this design, the outcome variable (e.g., fitness) is measured prior to application of the experimental manipulation/stimulus, at time 1 (e.g., exercise). The stimulus is applied at time 2, then the outcome variable is again measured at time 3.
+
+```{r, one-group, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/onegroup-preposttest-design.png")
+
+```
+
+
+### Static Group Comparison
+In this design, there are two groups--a control and an experimental group. In neither group are pretest measurements of the outcome variable taken at time 1. However, in the experimental group, subjects are exposed to the experimental stimulus (exercise) at time 2. In the control group, however, subjects are not exposed to the experimental manipulation. Then, at time 3, the outcome variable is measured among subjects in both experimental and control groups.
+
+```{r, static-group, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/static-group.png")
+
+```
+
+
+## Threats to Internal and External Validity {.tabset .tabset-fade}
+When we design experiments, we must guard against threats to **internal and external validity**. The figure below shows the types of threats to internal and external validity that we will discuss.
+
+```{r, int-ext-val, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/threats-int-ext-validity.png")
+
+```
+
+
+## Internal Validity
+Internal validity is only relevant to studies that attempt to establish causality. It is the degree to which the results of a study are attributable to the independent variable (in experimental designs, the stimulus is the independent variable of interest) and not to some other rival explanation.
+
+When we think about internal validity, we should ask ourselves:
+
+1. Did the experimental manipulation (and not some external independent variable) have an effect on the dependent variable?
+2. Did stimulus cause a change in the outcome variable?
+
+
+## External Validity
+This is applicable to many types of research, not only those which attempt to establish causality. External validity is the extent to which the results of a study can be generalized.
+
+With regards to external validity, we should ask:
+
+1. How generalizable are the results of the experiment?
+2. How accurately does this experiment and its results reflect the "real world?"
+
+
+# Threats to Internal Validity {.tabset .tabset-fade}
+
+## History
+This threat to internal validity refers to uncontrolled events that might occur during the time of the study. Such events might affect the individuals who are participating in the study. These events might provide a rival (to the experimental stimulus) explanation for the change in the dependent/outcome variable. When considering history as a threat to the internal validity of experiments, researchers must ask: **Did the experimental manipulation cause the observed change in the dependent variable? Or did some external, uncontrolled event cause the change?**
+
+**Example:** An uncontrolled event, such as the terrorist attacks of September 11 in the U.S. might influence people's perceptions of the President.
+
+
+## Maturation
+Maturation refers to changes that occur to experimental subjects as a direct consequence of the passage of time, both in the short- and long-term. These changes could influence the measured dependent variable and lead to erroneous inferences. To guard against this threat to internal validity, researchers mush ask: **Did the manipulation or a natural change to the participants cause the observed change in the outcome variable between $t_1$ and $t_2$?**
+
+**Example:** Participants in an experiment may become bored, tired, more educated, or more affluent throughout the course of an experiment. Of course, this is dependent on time scale--the first two examples refer to a relatively short time scale, while the latter two examples refer to longer time scales.
+
+
+## Testing
+It is possible that the process of testing itself influences the outcome of an experiment. Simply participating in a pretest might change posttest results. This threat is more problematic if there is relatively little time between pre- and posttests.
+
+**Example:** Respondents can learn from the pretest survey, which may influence how they respond to posttest survey questions. They may also experience experimental fatigue between pretest and posttest if the time between $t_1$ and $t_2$ is relatively short.
+
+
+## Instrumentation
+This threat refers to changes in the instrument used to measure the outcome/dependent variable between $t_1$ and $t_2$. Changes in how we measure the dependent variable can, of course, influence the outcome variable. Repeated measurements of the same concept using the same instrument should yield the same result under unchanged conditions. This is known as measurement stability. However, changes in measurement may be responsible for changes in attitudes (instead of actual changes in attitudes). In other words, if we change the measurement instrument, we are unable to determine whether changes in the dependent variable are due to actual shifts in attitude or changes in how we measured it.
+
+It is clear that, in order to guard against this particular threat to internal validity, researchers must keep the measurement instrument consistent.
+
+
+## Selection Bias
+Selection bias results from differential recruitment of research participants to the experimental and control groups. Of course, this threat can be mitigated through **random sampling** and **random assignment** of participants to the experimental and control groups.
+
+
+## Mortality
+Mortality refers to individuals dropping out selectively from the experimental or control groups. In this case, researchers need to ask: **Was there a systematic decline in numbers of respondents in either the experimental or control group?** Another way to guard against this threat to internal validity is to have a large sample size.
+
+**Example:** In an experiment about general fitness, the experimental group is asked to exercise while the control group watches a movie. In this experiment, there may be more attrition among participants in the experimental condition.
+
+
+## Regression Toward the Mean
+This potential threat to internal validity occurs when individuals are assigned to experimental and control groups based on their extreme scores on the dependent variable in the pretest. At time 2, scores on the dependent variable that were below average tend to improve while scores that were above the average tend to decline. In other words, extreme scores tend toward the mean. This threat can be overcome by random assignment of participants to the experimental and control groups.
+
+**Example:** A group of researchers are studying the effect of reading instruction on people's reading ability. During the pretest, respondents are rated on reading ability. Then, those with low reading ability are assigned to the experimental group, while those with high reading ability are assigned to the control group. The experimental stimulus is a lesson in reading that is designed to improve reading ability. At $t_2$, a posttest is administered and those in the experimental group score higher on reading ability (compared to their $t_1$ scores), while those in the control group score lower on reading ability (compared to their $t_1$ scores).
+
+
+# Threats to External Validity {.tabset .tabset-fade}
+
+## Sensitization
+Respondents can behave differently when they know they are part of an experiment. This limits researchers' ability to generalize the results of the experiment.
+
+
+## Artificiality
+We have already discussed that experiments impose relatively artificial environments on respondents. And this clearly limits researchers' ability to make inferences and generalizations.
+
+
+# The Solomon Four-Group Design
+The **Solomon four-group design** expands on the basic experimental design to account for threats to internal validity. To review, the basic experimental design includes a pretest-posttest control group design:
+
+```{r, solomon, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center', fig.cap = "Basic experimental design."}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/basic-experimental-design.png")
+
+```
+
+In the basic experimental design, it is possible for pretesting to have an effect on subjects. Since there is no group in which respondents do not get a pretest, researchers cannot tell if pretesting threatens internal validity of the experiment.
+
+In other words, because of the lack of a group without a pretest, researchers may be unable to determine whether the effect on the dependent variable is due to the stimulus, $X$, or is an artifact of pretesting in both experimental and control groups.
+
+> To overcome this, the Solomon four-group design **adds** a posttest-only control group design to the basic experimental design.
+
+```{r, solomon-basic, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center', fig.cap = "Solomon four-group design: **Groups A and C** are the experimental groups while **Groups B and D** are the control groups."}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/solomon-four-group-design_basic.png")
+
+```
+
+
+## An Example of Research Using the Solomon Four-Group Design
+Let's assume that we want to examine how a film about positive contributions of Muslims to U.S. history affects people's prejudice against Muslims. We design an experiment using the Solomon four-group design.
+
+In our experiment, the pre- and posttest measures are identical and designed to assess people's levels of prejudice against Muslims. Assuming that the film decreases people's prejudice against Muslims, we would expect the results shown in the figure below:
+
+```{r, solomon-ex, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/solomon-four-group-design.png")
+
+```
+
+
+# Some Comments about Generalizability and Validity
+Because of limits on external validity, experimental research tends to privilege theory testing and development. Researchers use experiments to allow them to test and examine causal processes.
+
+> Therefore, researchers conducting experiments are often more focused on mitigating threats to internal validity since they want to be able to say, "The experimental manipulation <mark>*caused*</mark> the change in the outcome variable."
+
+In the case of experimental research, the tension between external and internal validity is clearly apparent. When conducting experiments, since researchers are more concerned about testing causation, most are willing to sacrifice some external validity for greater internal validity.

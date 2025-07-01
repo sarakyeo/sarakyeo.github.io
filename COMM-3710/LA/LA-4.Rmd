@@ -1,0 +1,275 @@
+---
+title: 'LA-4: Data Wrangling (10 points)'
+pagetitle: "COMM 3710: LA-4"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+```{r setup, echo=FALSE, warnings=FALSE, message=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+library(tidyverse)
+library(magrittr)
+library(summarytools)
+library(rstatix)
+library(kableExtra)
+library(formatR)
+
+# Read HELP data into R
+hdata <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP.csv")
+
+```
+
+In this assignment, you will learn how to:
+
+- Read/Load data into R.
+- Use the pipe operator, `%>%`. 
+- Select variables from a data frame using the `select()` function.
+- Filter cases from a data frame using the `filter()` function.
+- Summarize variables using the `summarise()` function.
+
+> Remember to ...
+>
+> 1) Read all the instructions carefully.
+> 2) Set up your R script as you did in LA-3.
+> 3) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+
+---
+
+# Step 1 {.tabset .tabset-fade}
+## Instructions
+Set up your R script for this assignment. Load the packages below and set your working directory. Remember to write pseudocode as comments for each line of code.
+
+- `tidyverse`
+- `magrittr`
+- `summarytools`
+- `rstatix`
+
+```{r step-1, include=FALSE}
+
+library(tidyverse)
+library(magrittr)
+library(summarytools)
+library(rstatix)
+
+root <- here::here()
+setwd(root)
+
+```
+
+## Hint
+See [LA-3](https://sarakyeo.github.io/COMM-3710/LA/LA-3.html) for a reminder of how to set up your R script for assignments.
+
+
+# Step 2 {.tabset .tabset-fade}
+## Instructions
+Download the [HELP dataset](https://utah.instructure.com/files/131421311/download?download_frd=1) and save it into your working directory.
+
+Read the HELP data into an object (a data frame) in R. Give the data frame a name of your choice; feel free to be creative. View the HELP data set in the Console and answer the questions below.
+
+You should also take this opportunity to review the codebook.
+
+a) How many cases are there in the HELP dataset?
+b) How many variables are there in the HELP dataset?
+
+```{r step-2, include=FALSE}
+
+hdta <- read.csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP.csv")
+
+# 2a: 453 cases
+# 2b: 27 variables
+
+```
+
+## Hint
+Read [this section of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/setup.html#set-working-directory-and-readload-data-into-r).
+
+You can also open the documentation for the function, `read_csv()` in R. To do so, type `?read_csv()` into the Console.
+
+## Codebook
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/HELP-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in HELP dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
+
+
+# Step 3 {.tabset .tabset-fade}
+## Instructions
+In this step, we will learn to use the pipe operator.
+
+The pipe operator, `%>%`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package.
+
+You can also think of the pipe operator, `%>%`, as "then." If we were to use `%>%` to describe a daily routine, it might look something like this:
+```
+Woke up %>% 
+Took a shower %>% 
+Got dressed %>% 
+Made breakfast %>% 
+Ate breakfast %>% 
+Went to work
+```
+
+Now, we will work on an example using the HELP data. We want to figure out the average number of drinks consumed per day in the past 30 days by males and females (we will use the variable, `sex`). Answer the question below in a comment in your R script (be sure to label this clearly in the script); step-by-step instructions to help you answer this question are shown below.
+
+a) What is the name of the variable that measures the average number of drinks consumed per day in the past 30 days?
+
+In your R script, write pseudocode to determine the average number of drinks among females (remember that lines that begin with `#` are comments in R):
+```{r echo=TRUE}
+# Start with the HELP data frame, which I called hdata
+# Select female-only cases from the HELP data using the sex variable
+# Calculate the mean of the average number of drinks per day consumed 
+```
+
+Next, translate the pseudocode to R functions using the pipe operator:
+```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
+
+hdata %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE)) # find mean
+
+# Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation of the mean
+
+```
+
+Let's say we also want to know the minimum and maximum number of average drinks per day among females. To do so, add arguments to the `summarise()` function:
+```{r echo=TRUE, eval=FALSE, include=TRUE, tidy=TRUE}
+
+hdata %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE)) # find maximum
+```
+
+Using the calculations performed by the R commands above, answer the following questions:
+
+b) What is the minimum number of average drinks consumed per day in the past 30 days among females?
+c) What is the maximum number of average drinks consumed per day in the past 30 days among females?
+d) What is the mean number of average drinks consumed per day in the past 30 days among females?
+
+```{r step-3, include=FALSE}
+
+hdta %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE))
+
+# 3a: i1
+# 3b: 0 drinks
+# 3c: 71 drinks
+# 3d: 14.9 drinks
+
+```
+
+## Hint
+The answer to 3a can be found in the codebook. Answers to 3b, 3c, and 3d can be found in the Console panel in R once you have worked through the example.
+
+
+# Step 4 {.tabset .tabset-fade}
+Use the same logic and process from [Step 3] to answer the following questions:
+
+a) What is the minimum number of average drinks consumed per day in the past 30 days among males?
+b) What is the maximum number of average drinks consumed per day in the past 30 days among males?
+c) What is the mean number of average drinks consumed per day in the past 30 days among males?
+
+```{r step-4, include=FALSE}
+
+hdta %>% # Start with the HELP data frame
+        filter(sex == "male") %>% # Select male-only cases
+        summarise(M_avgdrinks = mean(i1, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(i1, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(i1, na.rm = TRUE))
+
+# 4a: 0 drinks
+# 4b: 142 drinks
+# 4c: 18.8 drinks
+
+```
+
+# Step 5 {.tabset .tabset-fade}
+## Instructions
+Using `%>%`and the functions you just learned, write R code to determine the answers to the questions below.
+
+a) Among **women** whose primary substance of abuse is **alcohol**, what is the minimum, maximum, and mean SF-36 mental component score?
+b) Among **men** whose primary substance of abuse is **alcohol**, what is the minimum, maximum, and mean SF-36 mental component score?
+
+```{r step-5, include=FALSE}
+
+hdta %>% # Start with the HELP data frame
+        filter(sex == "female") %>% # Select female-only cases
+        filter(substance == "alcohol") %>% # Select primary substance of abuse == alcohol
+        summarise(M_avgdrinks = mean(mcs, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(mcs, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(mcs, na.rm = TRUE))
+
+hdta %>% # Start with the HELP data frame
+        filter(sex == "male") %>% # Select male-only cases
+        filter(substance == "alcohol") %>% # Select primary substance of abuse == alcohol
+        summarise(M_avgdrinks = mean(mcs, na.rm = TRUE), # find mean
+                  min_avgdrinks = min(mcs, na.rm = TRUE), # find minimum
+                  max_avgdrinks = max(mcs, na.rm = TRUE))
+
+# 5a: min = 7.23, max = 55.48, M = 26.49
+# 5b: min = 9.16, max = 62.18, M = 33.23
+
+```
+
+## Hint
+Start by identifying the variables (which variable will you use to filter or select cases? Which variable will be used in the `mean()` function) that you will use in this code chunk. Then, write pseudocode detailing the steps you need to take to arrive at answers for a, b, and c. Finally, write your R commands using the pipe operator. Remember that each line of code must have a comment.
+
+If you need help with the `mean()` function, pull up the corresponding help documentation.
+
+
+# Bonus Question {.tabset .tabset-fade}
+## Instructions
+There are multiple ways to obtain the minimum, maximum, and mean values of variables in a dataset. See if you can figure out how to use the `descr()` function in the `summarytools` package to answer the two questions in [Step 5].
+
+If you would like to explore further, see if you can use the `group_by()` function in addition to `descr()` to get the answers to the two questions in [Step 5].
+
+```{r bonus, include=FALSE}
+
+hdta %>% 
+        filter(substance == "alcohol") %>% 
+        group_by(sex) %>% 
+        descr(mcs, na.rm = TRUE)
+
+```
+
+---
+
+## Hint
+Refer to [LA-3](https://sarakyeo.github.io/COMM-3710/LA/LA-3.html) (Step 6) for a reminder on how to read the documentation for any command in R.
+
+---
+
+# Submission
+Submit your R script (which should be named `LA-4_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every single line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-4_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all R script submissions in this course.

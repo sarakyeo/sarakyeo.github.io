@@ -1,0 +1,7 @@
+﻿Variable,Description
+country,Country name
+days_since_outbreak,Count of days passed since Covid-19 outbreak began
+household_contacts,Number of household contacts for the previous day (averaged by country)
+total_contacts,Total number of contacts for the previous day (averaged by country)
+handwashes,Number of times the respondent washed their hands on the previous day (averaged by country)
+masks_outside,Score (0-100) related to how often the respondent wears a mask outside (100 = all the time)

@@ -1,0 +1,204 @@
+---
+title: "LA-8: Examining Relationships (10 points)"
+pagetitle: "COMM 3710: LA-8"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(summarytools)
+library(rstatix)
+util <- read_csv("Utilities.csv")
+knitr::opts_chunk$set(echo = FALSE)
+
+util <- util %>% 
+  mutate(month2 = case_when(month == 1 ~ "Jan",
+                            month == 7 ~ "Jul"))
+
+util <- util %>% 
+  mutate(month4 = case_when(month == 1 ~ "Jan",
+                            month == 4 ~ "Apr",
+                            month == 7 ~ "Jul",
+                            month == 10 ~ "Oct"))
+
+```
+
+In this assignment, you will learn how to:
+
+-   Select a statistical test.
+-   Conduct a statistical test.
+
+Remember to ...
+
+1)  Set up your R script appropriately.
+2)  Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+
+------------------------------------------------------------------------
+
+# Step 1 {.tabset .tabset-fade}
+
+## Instructions
+
+Load the following packages in R:
+
+-   `tidyverse`
+-   `summarytools`
+-   `rstatix`
+
+Then, read the [Utilities.csv](https://utah.instructure.com/files/131421319/download?download_frd=1) data set into R and re-familiarize yourself with the variables using the codebook.
+
+## Codebook
+
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/Utilities-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in Utilities dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
+
+# Step 2
+
+Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.[^1]
+
+[^1]: This was part of Step 8 in LA-7.
+
+a)  Run a frequency distribution of `season`.
+
+# Step 3 {.tabset .tabset-fade}
+
+## Instructions
+
+Let's say we want to conduct a statistical test to determine whether respondents' total monthly bill differs by season. First, answer the questions below. Be sure to include your answers as comments in your R file.
+
+a)  Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
+b)  Run a frequency distribution of `totalbill`. Is this variable categorical or continuous?
+c)  Is the variable, `season`, continuous or categorical?
+d)  Check the chart in the Hint tab. Given your answers to the previous question, what statistical test should you use?
+
+## Hint
+
+**Selecting a statistical test**
+
+First, identify whether the independent and dependent variables are quantitative/continuous or categorical. Then, use the chart below to select a statistical test.
+
+<mark>*Note*: You will have to replace `dataframe`, `ind_var`, and `dep_var` in the R commands listed in the chart with your own data frame, independent variable, and dependent variable names.</mark>
+
+<center><img src="https://sarakyeo.github.io/images/LA.6_chart.png"/></center>
+
+# Step 4 {.tabset .tabset-fade}
+
+## Instructions
+
+Conduct the statistical test you selected in your answer to 3c and answer the following questions.
+
+a)  What is the test statistic and the probability value associated with that test statistic?
+b)  Based on the test statistic and the *p*-value, do respondents' total monthly bills differ by season?
+
+## Hint
+
+**Test statistics and *p*-values**
+
+| Hypothesis Test       | Test Statistic Name               | Test Statistic Symbol |
+|:----------------------|:----------------------------------|:----------------------|
+| Chi-squared test      | Chi-squared value                 | $\chi^2$              |
+| t-test                | *t*-value                         | $t$                   |
+| ANOVA                 | *F*-value                         | $F$                   |
+| Pearson's correlation | Pearson's correlation coefficient | $r$                   |
+
+The code (grey boxes) and output (white boxes) below identify the test statistics and *p*-values in R output. Be sure to report the correct values. If *p* \< 0.05, then the relationship is significant. For a review of scientific notation (e.g., 4.48e-09), see the [related Wikipedia page](https://en.wikipedia.org/wiki/Scientific_notation).\
+\
+`r emo::ji("star")` Note that for *p*-values less than 0.001, we report them in this way: $p < .001$
+
+------------------------------------------------------------------------
+
+**Chi-squared (**$\chi^2$) test
+
+```{r step4-hint-chisq, echo=TRUE, warning=FALSE}
+# Chi-squared test
+# donate = categorical dependent variable (DV), month2 = categorical independent variable (IV) with only 2 groups
+tbl <- table(util$donate, util$month2)
+tbl  %>% 
+  chisq_test(., donate ~ month2) # Chi-squared value (test statistic) = 2.13, p = .145
+```
+
+<i>t</i>-test
+
+```{r step4-hint-ttest, echo=TRUE, warning=FALSE}
+# t-test
+# temp = continuous DV, month2 = categorical IV with only 2 groups
+util %>% 
+  t_test(., temp ~ month2) # t (test statistic) = -22.44, p < .001
+```
+
+**ANOVA**
+
+```{r step4-hint-anova, echo=TRUE, warning=FALSE}
+# ANOVA
+# temp = continuous DV, month4 = categorical IV with 4 groups
+util %>% 
+  anova_test(., temp ~ month4) # F (test statistic) = 227.979, p < .001
+```
+
+**Pearson's correlation**
+
+```{r step4-hint-pearson, echo=TRUE, warning=FALSE}
+# Pearson's correlation
+# gasbill = continuous DV, temp = continuous IV
+util %>% 
+        cor_test(., gasbill, temp, method = "pearson") # Pearson's r = -.92, p < .001
+```
+
+# Step 5 {.tabset .tabset-fade}
+
+Next, you will form a hypothesis about the difference in people's winter vs. summer gas bills and conduct the appropriate statistical test to address your hypothesis.
+
+a)  State your hypothesis. Do you think monthly gas bills will be different in the summer relative to winter? If so, why?
+b)  Identify the dependent and independent variables that you will use to conduct this statistical test.
+c)  Determine whether your independent and dependent variables are categorical or continuous. State these clearly in your R file.
+d)  Select a statistical test; clearly state your answer in your R file.
+e)  Write pseudocode that describes, in your own words, the process by which you will conduct your statistical test.
+f)  Write R code to conduct the statistical test and report the test statistic and associated *p*-value.
+g)  Calculate the mean monthly gas bill in winter and summer.
+h)  Does the test support your hypothesis?
+
+# Bonus Question
+
+Form a hypothesis about the difference in people's winter vs. summer electric bills and conduct the appropriate statistical test to address your hypothesis.
+
+a)  State your hypothesis. Do you think monthly electric bills will be different in the summer relative to winter? If so, why?
+b)  Write pseudocode that describes, in your own words, the process by which you will conduct your statistical test.
+c)  Write R code to conduct the statistical test and report the test statistic and associated *p*-value.
+d)  Does the test support your hypothesis?
+
+# Submission
+
+Submit your R script (`LA-8_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1)  Include code to install and load the packages.
+2)  Include code to set your working directory.
+3)  Contain comments and/or pseudocode for every line of R code.
+4)  Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+-   Save your script.
+-   Completely shut down RStudio or restart your R session.
+-   Reopen RStudio, open your `LA-8_FirstName-LastName.R` script.
+-   Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.

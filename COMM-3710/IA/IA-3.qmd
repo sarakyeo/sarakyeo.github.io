@@ -1,0 +1,47 @@
+---
+title: "In-class Assignment 3: Survey Research (12 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+# Formulate a Research Question
+
+Choose a topic of interest within social sciences (e.g., social media usage, study habits, public opinion on a social issue). Develop a clear and concise research question (e.g., "How does social media usage during class affect academic performance among college students?") or hypothesis (e.g., "Social media use in class is negatively associated with academic performance among college students.") for your topic.
+
+# Explicate the Concepts 
+
+1) Identify the concepts that represent the independent and dependent variables in your research question or hypothesis.
+
+2) Next, we will explicate these concepts. Explicate the concepts that represent both independent and dependent variables, and answer the following questions:
+   a) What is the working definition of the concept that represents the **dependent variable**?
+   b) What is the working definition of the concept that represents the **independent variable**?
+ 
+# Design your Survey Questions
+
+1) For each concept, design **at least 3** survey questions that measure it (i.e., you should have at least 6 survey questions for this assignment). Try to use different types of scales (e.g., Likert, semantic differential) and multiple items in a matrix format to measure your concepts. Use the template on Canvas for your survey codebook.
+
+2) Set up your Qualtrics account. The College of Humanities maintains a license to Qualtrics, which is a survey software platform that allows users to easily create and manage surveys.
+   - Go to our access page (humutah.qualtrics.com). You can access it here.
+   - Click on "create new user".
+      - user: youremail@utah.edu (you must use your utah.edu email account)
+      - password: enter a password you will remember
+   - When creating the new user it will ask for a code for self-enrollment use. The code is: **bXLWa**.
+   
+#  Program your Survey Questions
+   
+Create a new survey project from scratch on Qualtrics (blue button on bottom left of screen). Program the questions into Qualtrics. If you need help with Qualtrics programming, see [https://www.qualtrics.com/support](https://www.qualtrics.com/support/). 
+
+# Submission 
+
+Once you are done programming your survey, publish it and copy and paste the link at the top of your codebook (your codebook contains your responses to the questions about explication and your survey questions that may be formatted using the template provided on Canvas). Submit your codebook as a PDF document on Canvas. Be sure to include your name and uNID in your submission.

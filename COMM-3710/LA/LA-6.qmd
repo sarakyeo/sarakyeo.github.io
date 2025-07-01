@@ -1,0 +1,243 @@
+---
+title: "LA-6: Data Visualization (15 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(summarytools)
+library(rstatix)
+library(kableExtra)
+library(formatR)
+
+# Read data into R
+util <- read_csv(here::here("COMM-3710", "LA","Utilities.csv"))
+
+```
+
+# Learning Outcomes
+
+In this assignment, you will:
+
+- Learn how to use `ggplot2`, which is a package included in the `tidyverse` suite of packages, to create visualizations using data.
+- Practice using functions from LA-5, including `mutate()`, `freq()`, and `descr()`.
+
+::: callout-tip
+Read all the instructions carefully before starting the assignment.
+:::
+
+------------------------------------------------------------------------
+
+# Instructions
+
+1) Load the packages below and download the `Utilities.csv` data file from Canvas. Read the dataset into R. Use the codebook on Canvas to familiarize yourself with the data in this file.
+   
+   * `tidyverse`
+   * `summarytools`
+
+2) Read and follow along with Chapter 5 of [this online book](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). Use the data provided in the chapter to follow the steps in Ch. 5.
+
+:::callout-tip
+Do not skip this step. It will help you understand `ggplot2`.
+:::
+
+3) Make a histogram to display the distribution of customers' total monthly bill.
+
+   a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed positively or negatively?
+   b) At what cost do most of the total monthly bills fall? Provide a range between which the total monthly bills fall.
+   
+```{r}
+#| label: ans3
+#| include: false
+#| eval: false
+
+util |> 
+        ggplot(aes(x = totalbill)) +
+        geom_histogram()
+
+#3a: Distribution is skewed positively.
+#3b: Most of the total monthly bills fall around $100 to $150.
+
+```
+
+4) Make a scatterplot to display gas bill by month. Use your graph to answer the following questions.
+
+   a) Which month do you think has the highest average gas bill?
+   b) Use R to calculate the average gas bill for the months of January and December. Which is higher?
+   
+```{r}
+#| label: ans4
+#| include: false
+#| eval: false
+
+util |> 
+        ggplot(aes(x = month, y = gasbill)) +
+        geom_point()
+
+#4a: December
+
+util |> 
+        filter(month == 1) |> 
+        descr(gasbill) # M = 180.38
+
+util |> 
+        filter(month == 12) |> 
+        descr(gasbill) # M = 179.28
+
+#4b: Average gas bills are higher in January than December.
+
+```
+
+5) Make a scatterplot to display electric bill by month. Use your graph to answer the following questions.
+
+   a) Which month do you think has the highest average electric bill?
+   b) Calculate the average electric bill for the months of September and December. Which is higher?
+   
+```{r}
+#| label: ans5
+#| include: false
+#| eval: false
+
+util |> 
+        ggplot(aes(x = month, y = elecbill)) +
+        geom_point()
+
+#5a: December
+
+util |> 
+        filter(month == 9) |> 
+        descr(elecbill) # M = 99.16
+
+util |> 
+        filter(month == 12) |> 
+        descr(elecbill) # M = 87.21
+
+#5b: Average electricity bills are higher in September than December.
+
+```
+
+6) Make a scatter plot to display the relationship between gas usage and gas bill. Place gas usage on the x-axis and  monthly gas bill on the y-axis. Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
+
+```{r}
+#| label: ans6
+#| include: false
+#| eval: false
+
+util |> 
+        ggplot(aes(x = ccf, y = gasbill)) +
+        geom_point()
+
+# Yes, there appears to be a relationship between gas bill and usage. There 
+# appears to be a positive linear relationship between these two variables.
+
+```
+
+7) Make a scatterplot to show the relationship between electricity usage and electric bill. Does there appear to be a relationship between electricity usage and electric bill? If so, describe the relationship.
+
+```{r}
+#| label: ans7
+#| include: false
+#| eval: false
+
+util |> 
+        ggplot(aes(x = kwh, y = elecbill)) +
+        geom_point()
+
+# Yes, there appears to be a relationship between electricity bill and usage.
+# There appears to be a positive linear relationship between these two variables.
+
+```
+
+8) Create a new categorical variable called `season`. Have the variable equal `winter` if the bill was from December, January, or February. Have the variable equal `spring` if the bill was from March, April, or May. Have the variable equal `summer` if the bill was from June, July, or August. Have the variable equal `fall` if the bill was from September, October, or November.\
+\
+Then, examine a frequency table of `season`.
+
+   a) How many bills in the data set are from fall?
+   b) How many bills in the data set are from summer?
+   
+```{r}
+#| label: ans8
+#| include: false
+#| eval: false
+
+util <- util |> 
+        mutate(season = case_when(
+                month == 12 | month == 1 | month == 2 ~ "winter",
+                month == 3 | month == 4 | month == 5 ~ "spring",
+                month == 6 | month == 7 | month == 8 ~ "summer",
+                month == 9 | month == 10 | month == 11 ~ "fall"
+        ))
+
+util |> freq(season)
+
+#8a: 29 of the bills are from fall.
+#8b: 30 of the bills are from summer.
+
+```
+
+9) **BONUS (2 points):** Make a bar chart using the `geom_col()` to display the count or proportion of donors by `season`.\
+\
+First, make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.\
+\
+Then, use `ggplot()` to create your graph. In your own words, describe the graph. Does donation vary by season?
+
+```{r}
+#| label: ans9
+#| include: false
+#| eval: false
+
+util <- util |> 
+        mutate(DonorStatus = case_when(
+                donate == "yes" ~ 1,
+                donate == "no" ~ 0
+        ))
+
+util |> freq(DonorStatus)
+
+util |> 
+        ggplot(aes(x = season, y = DonorStatus)) +
+        geom_col()
+
+#9: Most donations in the summer, least donations in the winter.
+
+```
+
+------------------------------------------------------------------------
+
+# Submission
+
+Submit your R script (named `LA-#_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1)  Include commands and functions that are necessary to address all the questions in the assignment.
+2)  Contain comments that answer the questions in the assignment.
+3)  Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+-   Save your script.
+-   Navigate back to Your Workspace on Posit Cloud.
+-   Reopen your project.
+-   Run the entire script line-by-line without editing it to ensure there are no errors.
+
+::: callout-important
+These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
+:::

@@ -1,0 +1,156 @@
+---
+title: "LA-7: Visualizing Data (10 pts + 2 bonus pts)"
+pagetitle: "COMM 3710: LA-7"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+In this assignment, you will learn how to create graphs in R using the package, `ggplot2`, which is part of the `tidyverse`.
+
+Remember to ...
+
+1) Set up your R script appropriately.
+
+- Include comments for your name, date, assignment number and title.
+- Load the packages necessary.
+- Set your working directory (even if you use the GUI to do this, the code should be included in your submission).
+        
+2) Include a comment for each line of code in your R script. This can be pseudocode or other comments.
+
+While there are hints for each step embedded in this assignment, you may also want to use the [R Graphics Cookbook](https://r-graphics.org), which is freely available online, as you work through this assignment.
+
+---
+
+# Step 1 {.tabset .tabset-fade}
+## Instructions
+Download and save the [Utilities](https://utah.instructure.com/files/131421319/download?download_frd=1) dataset into your working directory.
+
+Load the following packages in your current session of R:
+
+- `tidyverse`
+- `summarytools`
+
+Use the codebook to familiarize yourself with the variables in the data set.
+
+## Codebook
+```{r, codebook, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+codebook <- read_csv("https://raw.githubusercontent.com/sarakyeo/sarakyeo.github.io/master/COMM-3710/LA/Utilities-codebook.csv")
+codebook %>%
+        kbl(., "html",
+            caption = "Names and descriptions of variables in Utilities dataset.") %>% 
+        kable_styling(bootstrap_options = c("hover", "striped"),
+                      full_width = FALSE) %>% 
+        column_spec(2, width = "30em")
+
+```
+
+
+# Step 2 
+Using the [Utilities](https://utah.instructure.com/files/131421319/download?download_frd=1) data and the data provided in the chapter, **read and follow along** with [Chapter 5 of COMM 3710: Getting Started with R](https://sarakyeo.github.io/COMM-3710-bookdown/docs/ggplot2.html). `r emo::ji("graph")`
+
+Although there are no questions in this assignment related to this chapter, be sure to follow along with the text; learning by doing is best when starting to work with R and RStudio.
+
+> `r emo::ji("raised")` <span style="color: blue;">**Do not skip this step. It will help you understand `ggplot`.**</span>
+
+# Step 3 {.tabset .tabset-fade}
+## Instructions
+Make a histogram to display the distribution of customers' total monthly bill.
+
+a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed positively or negatively?
+b) At what cost do most of the total monthly bills fall? Provide a range between which the total monthly bills fall.
+
+## Hint
+To create a histogram, the `ggplot2` commands you will use are: `ggplot()` and `geom_histogram()`. Remember that you can also read the documentation for these commands by typing `?ggplot` and `?geom_histogram` in the Console.
+
+> If this hint makes no sense to you, go back to Step 2. `r emo::ji("help")`
+      
+Once you have created the graph, it will appear in the **Plots** panel (usually the bottom right pane of RStudio).
+
+If you need help answering Q3a, see "Wrench Ch. 14: Skewness and Kurtosis" for an explanation of skewness.
+
+
+# Step 4 {.tabset .tabset-fade}
+## Instructions
+Make a scatter plot to display gas bill by month.
+
+a) Based on your graph, which month do you think has the highest **average** gas bill?
+b) Use R to calculate the average gas bill for the months of January and December. Which is higher?
+
+## Hint
+The commands you will use to make a scatter plot are `ggplot()` and `geom_point()`.
+
+To calculate the average gas bill for January, first filter the data to contain only observations from January (i.e., `month == 1`).
+ 
+Then, use the `descr()` function to determine the average gas bill for that month. Type `?descr` into the Console and read the documentation for this function. If necessary, refer to your code in previous assignments.
+
+
+# Step 5
+Make a scatter plot to display electric bill by month.
+
+a) Based on your graph, which month do you think has the highest **average** electric bill?
+b) Calculate the average electric bill for the months of September and December. Which is higher?
+
+
+# Step 6
+Make a scatter plot to display the relationship between gas usage and gas bill. Place gas usage on the x-axis and  monthly gas bill on the y-axis.
+
+a) Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
+
+
+# Step 7
+Make a scatter plot to display the relationship between electricity usage and electric bill.
+
+a) Does there appear to be a relationship between electricity usage and electric bill? If so, describe the relationship.
+
+
+# Step 8 {.tabset .tabset-fade}
+## Instructions
+Create a new categorical variable called `season`. Have the variable equal winter if the bill was from December, January, or February. Have the variable equal spring if the bill was from March, April, or May. Have the variable equal summer if the bill was from June, July, or August. Have the variable equal fall if the bill was from September, October, or November.
+
+Then, create a frequency table of `season`.
+
+a) How many bills in the data set are from fall?
+b) How many bills in the data set are from summer?
+    
+## Hint
+Use the skills you learned in data wrangling and management ([LA-4](https://sarakyeo.github.io/COMM-3710/LA/LA-4.html), [LA-5](https://sarakyeo.github.io/COMM-3710/LA/LA-5.html), and [LA-6](https://sarakyeo.github.io/COMM-3710/LA/LA-6.html)) to create a new variable called `season` according to the instructions. Start by identifying the variable(s) that you will use to create `season`.
+
+Once you have created this new variable, you can use the `freq()` command (in `summarytools`) to obtain a frequency table.
+
+
+# Bonus Question
+Make a bar chart using the `geom_col()` to display the count or proportion of donors by season. 
+
+First, make a new variable, `DonorStatus`. Set DonorStatus equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.
+
+Then, use `ggplot()` to create your graph. 
+
+a) In your own words, describe the graph. Does donation vary by season?
+
+
+# Submission
+Submit your R script (`LA-7_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1) Include code to install and load the packages.
+2) Include code to set your working directory.
+3) Contain comments and/or pseudocode for every line of R code.
+4) Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+- Save your script.
+- Completely shut down RStudio or restart your R session.
+- Reopen RStudio, open your `LA-7_FirstName-LastName.R` script.
+- Run the entire script by clicking the "Run" button in the top right of the R script.
+
+> These standards apply to all submissions in this course that require R scripts.

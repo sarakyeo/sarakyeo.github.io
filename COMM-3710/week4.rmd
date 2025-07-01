@@ -1,0 +1,346 @@
+---
+title: |
+   | COMM 3710: Variables and Measurement
+pagetitle: "COMM 3710: Week 4"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+# What is a Variable? {#var .tabset .tabset-fade}
+A **variable** can be defined as any entity that can take on a variety of different values. Research deals with the measurement, manipulation, and control of variables to test hypotheses and answer research questions.
+
+A variable is a concept or construct that varies. Some variables are **concrete variables** and some are **abstract variables**.
+
+```{r, concrete-abstract-var, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+Term <- c("Concrete variables", "Abstract variables")
+Definition <- c("Variables that are stable or consistent over time or across situations or context", "Variables that change over time or across situations or contexts")
+Examples <- c("eye color (e.g., blue, brown, green)", "attitudes and opinions")
+
+comparison <- tibble(Term, Definition, Examples)
+comparison %>%
+        kbl(., "html",
+            caption = "Definitions and examples of concrete and abstract variables.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "20em")
+
+```
+<br>
+
+Before discussing relationships and differences between variables, we need to cover **aspects of variables** and some **types of variables** that we will encounter in this course.
+
+## Aspects of Variables
+```{r, variable-values, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+Attributes <- c("Not at all confident",
+                "Slightly confident",
+                "Somewhat confident",
+                "Moderately confident",
+                "Very confident")
+Values <- c(1,
+            2,
+            3,
+            4,
+            5)
+
+tbl <- tibble(Values, Attributes)
+tbl %>%
+        kbl(., "html",
+            caption = "Another example: The attributes and assigned values of the attributes in a variable that measures journalists' confidence in their own reporting abilities.") %>% 
+        kable_classic(full_width = FALSE,
+                      position = "float_right") %>% 
+        column_spec(2, width = "20em")
+
+```
+
+Each variable has its associated aspects, which include **variable attributes** and **variable values**.
+
+**Variable attributes** are specific categories of a variable. Consider the variable, *eye color*. The attributes of this variable might be *brown*, *blue*, *green*.
+
+**Variable values** are the numeric designation assigned to each variable attribute. This allows variables to be analyzed using statistics. For example, if our attributes of *eye color* are *brown*, *blue*, and *green*, we could use numbers to designate a color, i.e., `1 = brown`, `2 = blue`, `3 = green`. 
+
+```{r, var-aspect, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/aspects-variables.png")
+
+```
+
+## Types of Variables
+A **dependent variable** (DV) is one that is not manipulated or changed by the researcher. Instead, researchers are looking for change in the dependent variable as a result of the change in some other, independent variable. The dependent variable is also sometimes called the **outcome** or **criterion variable**.
+
+An **independent variable** (IV) is one that affects the outcome/dependent variable. In experiments, the independent variable is one that researchers manipulate or change. The independent variable is also often called the **predictor variable**.
+
+> One way to remember this: The dependent variable depends on the independent variable.
+
+See if you can identify the IV and DV in the following hypotheses and research questions, which originate from journal articles in Communication.
+
+```{css, echo=FALSE}
+.spoiler {
+  visibility: hidden;
+}
+
+.spoiler::before {
+  visibility: visible;
+  content: "Hover for answer."
+}
+
+.spoiler:hover {
+  visibility: visible;
+}
+
+.spoiler:hover::before {
+  display: none;
+}
+```
+<br> 
+
+> *Hypothesis*: Lectures using examples should result in high scores on subsequent tests of cognitive recall. [<mark>DV = scores on tests of cognitive recall; IV = lectures using examples.</mark>]{.spoiler}
+
+> *Hypothesis*: Strength of religious beliefs will be negatively related to support for nanotechnology. [<mark>DV = support for nanotechnology; IV = strength of religious beliefs.</mark>]{.spoiler}
+
+> *Research Question*: What is the relationship between watching violent TV shows and a child's level of aggressiveness? [<mark>DV = child's level of aggressiveness; IV = watching violent TV shows.</mark>]{.spoiler}
+
+> *Research Question*: Did members of the public, relying on media coverage, generalize their evaluations of Bush's handling of the Gulf War or the economy to his overall job performance during each issue regime? [<mark>DV = Bush's overall job performance; IV = evaluations of Bush's handling of the Gulf War or the economy.</mark>]{.spoiler}
+
+
+# Understanding Relationships and Differences
+All variables in research enable us to understand two basic phenomena: [**relationships**](#Relationships) and [**differences**](#Differences).
+
+## Relationships {#Relationships .tabset .tabset-fade}
+In research, **relationships** refer to connections between variables. Most communication studies are designed with the goal of identifying relationships between variables.
+
+For example, Yeo et al. (2014) studied the relationship between people's *perceptions of risk related to nuclear energy* and *attention to media*.
+
+```{r, yeo-et-al, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/Yeo-et-al-2014.png")
+
+```
+
+Relationships typically fall into one of three categories: **positive**, **negative**, or **neutral**. We typically use a number, known as Pearson's correlation coefficient (denoted by $r$) to describe the strength and direction of a relationship. This is an inferential statistic that we can compute.
+
+> **Pearson's correlation coefficient ($r$)** ranges between **-1 and 1**.
+
+- The **sign of $r$** tells us whether the relationship is positive or negative.
+- The **magnitude of $r$** tells us about the strength of the relationship.
+- For example, a $r$-value of 0.8 is considered a strong, positive relationship, while a $r$-value of -0.8 is considered to be a strong, negative relationship.
+
+```{r, pearson-corr, echo=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+library(tidyverse)
+library(knitr)
+
+col1 <- c("Positive", "Neutral", "Negative")
+col2 <- c("$r$ > 0", "$r$ = 0", "$r$ < 0")
+tbl <- tibble(col1, col2)
+
+tbl %>%
+        kbl(., "html",
+            col.names = NULL,
+            caption = "Relationships: Pearson's correlation. Click on the tabs below to learn more about each type of relationship.") %>% 
+        kable_classic("hover", full_width = FALSE) %>% 
+        column_spec(2, width = "8em")
+
+```
+<br>
+
+### Positive
+Positive relationships exist when an increase in one variable results in an increase in another variable. Note that, in a positive relationship, when one variable decreases, the other also decreases. In other words, the variables move **in the same direction**.
+
+Let's say $X$ is an independent variable and $Y$ is a dependent variable.
+
+In a positive relationship, when $X$ $\Uparrow$, $Y$ $\Uparrow$. Also, when $X$ $\Downarrow$, $Y$ $\Downarrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
+
+```{r, pos-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/pos-rel.png")
+
+```
+
+### Negative
+Negative relationships exist when an increase in one variable results in a decrease in another variable. In other words, the variables move **in the opposite direction**.
+
+Again, say $X$ is an independent variable and $Y$ is a dependent variable.
+
+In a negative relationship, when $X$ $\Uparrow$, $Y$ $\Downarrow$. Also, when $X$ $\Downarrow$, $Y$ $\Uparrow$. Graphically, the relationship between $X$ (independent variable) and $Y$ (dependent variable) would look like:
+
+```{r, neg-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/neg-rel.png")
+
+```
+
+### Neutral
+A **neutral relationship** is on in which the variables are not related. In other words, it is the lack of a relationship and changes in one variable do not result in changes in the other.
+
+Again, if $X$ is an independent variable and $Y$ is a dependent variable, a neutral relationship would look like this:
+
+```{r, neu-rel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "35%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/neu-rel.png")
+
+```
+
+## Differences {#Differences .tabset .tabset-fade}
+Statistics also enables researchers to examine differences. In research, differences can fall into one of two categories: **differences in kind** and **difference in degree**. As researchers, we are more interested in *differences in degree*.
+
+
+### Differences in Kind
+**Differences in kind** occur when different groups do different things. For example, teachers teach students and musicians play music. We wouldn't expect a musician to replace a teacher or a teacher to replace a musician. In research and statistics, differences in kind are not very interesting, except when they are used as grouping variables (e.g., one group of survey participants is female and another is male).
+
+---
+
+### Differences of Degree
+Researchers are often interested in **differences of degree**. This is when two groups have different degrees of a variable. For example, women tend to be more averse to risk than men. Or in general, women tend to perceive more risk than men.
+
+Using statistical tests of difference allows researchers to determine whether there is a statistically significant difference in risk perceptions between women and men.
+
+For a visual depiction of differences of degree, see <mark>Figures 6.4 and 6.5</mark> in your textbook.
+
+---
+
+# Measurement
+**Measurement** is the process of systematic observation in which we assign numbers to the things we measure. Measurement is a way for us to observe the "seen" (e.g., eye color, biological sex) and the "unseen" (e.g., attitudes, perceptions). To clarify your understanding about measurement as a *process*, read the section titled <mark>**"Defining the Term" in Chapter 6 of your textbook**</mark>.
+
+<br>
+
+But why do we assign numbers to things we measure?
+
+In general, we want to be able to quantify information so that...  
+
+1. we can increase our objectivity;  
+2. we can conduct statistical tests;  
+3. we can standardize (i.e., have rules about) how we assess obvious (e.g., demographic) and latent (e.g., attitudes) characteristics.
+
+## Levels of Measurement {.tabset .tabset-fade}
+`r emo::ji("ruler")` Levels of measurement allow us to have precision when we measure variables. The **level of measurement** refers to the relationship among values assigned to the attributes of a variable.
+
+If necesary, refer to the [section defining a variable](#var) to review the definitions of *variable attribute* and *variable value*.
+
+```{r, level-of-meas, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/level-of-meas.png")
+
+```
+
+Quantitative data can be measured as **categorical/discrete** or **continuous** variables. Each of these broad categories has two levels of measurement.
+
+```{r, meas01, echo=FALSE, message=FALSE, warning=FALSE, out.width = "75%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/meas01.png")
+
+```
+
+Click on the tabs below to learn about the four levels of measurement. 
+
+### Nominal
+**Nominal** measures or variables categorize data into **mutually exclusive** categories. There is no logical order to the variable attributes even though we assign values to them. In other words, the variable values have no logical rank-order. Examples include political partisanship (Democrat, Republican, Independent, other, etc.) and eye color (e.g., blue, brown, green, other).
+
+<u>Example</u>: Political partisanship
+
+Variable values and attributes:
+
+- 1 = `Democrat`
+- 2 = `Republican`
+- 3 = `Independent`
+- 4 = `Other`
+
+Even though we assign values to the attributes, there is no logical order to them, i.e., Democrats are not lower in rank than Republicans who are, in turn, not lower in rank than those who selected "Independent" or Other."
+
+<br>
+
+There is a special type of nominal measure called a **binary** measure. One example of this is biological sex (male or female). A binary measure only has two categories. As with all nominal variables, a binary measure cannot be rank-ordered--it makes no sense for males to be ranked higher/lower than females. They are simply different in kind, or different categories/groupings.
+
+Nominal data are typically reported as proportions or percentages.
+
+```{r, nominal, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/nominal.png")
+
+```
+
+### Ordinal
+**Ordinal variables** have a logical order to the categories used to represent variable attributes. Again, the categories must be mutually exclusive--a respondent should only "fit" into one category.
+
+Examples of ordinal variables include household income, level of education, military rank, etc.
+
+<u>Example</u>: Household income
+
+Variable values and attributes:
+
+- 1 = `Under $30,000`
+- 2 = `$30,000 to $49,999`
+- 3 = `$50,000 to $74,999`
+- 4 = `$75,000 to $99,999`
+- 5 = `$100,000 or more`
+
+Note that the variable attributes (and values) have a logical rank order. But an important characteristic of ordinal variables is that: The distance or space between each category is not always the same. In other words, the intervals between each category are not necessarily representative of equal distances or quantities.
+
+Lastly, there is no zero point in an ordinal variable. In other words, there is no absence of household income, level of education, or military rank (at least not they way we are measuring these variables). 
+
+<br>
+
+Here's another example of an ordinal variable:
+```{r, ordinal, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/ordinal.png")
+
+```
+
+### Interval
+**Interval variables** categorize variable attributes in a logical order that represents equal distances between each category. Attitudes, risk perceptions, opinions, and behavioral intentions are examples of interval measures, if we assume the distance between each variable attribute to be equal or constant.
+
+<u>Example</u>: Risk perceptions
+
+Variable values and attributes:
+
+- 1 = `Not at all risky`
+- 2 = `Slightly risky`
+- 3 = `Moderately risky`
+- 4 = `Very risky`
+
+Note that we are assuming the distances between attributes to be equal in this example. If we did not make this assumption, this measure of *risk perception* would be an ordinal variable. There is also no absolute zero point. In other words, there is no true *absence* of perception in this scale.
+
+<br>
+
+Another example is temperature:
+```{r, interval, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/interval.png")
+
+```
+
+Again, $0^\circ C$ is an arbitrarily defined zero-point, and so is $0^\circ F$.
+
+### Ratio
+**Ratio variables** share all the characteristics of interval variables except that ratio variables have an absolute zero point. In other words, there can be an absence of the variable that is being measured. For example, test scores, number of days one reads a newspaper, and speed are ratio variables.
+
+All these examples have mutually exclusive categories, the distances between variable attributes are equal, and they all have a "real" (or absolute) zero, i.e., true absence of a characteristic. 
+
+### Summary
+
+Here's an illustration to help you remember nominal, ordinal, and binary measures (remember that binary measures are a special case of nominal measures).^[Artwork by [Allison Horst](https://twitter.com/allison_horst)]
+
+```{r, summary, echo=FALSE, message=FALSE, warning=FALSE, out.width = "100%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/nominal_ordinal_binary.png")
+
+```
+
+The figure below helps visualize the four levels of measurement based on how precise (or how much information contained in each level) they are.
+
+```{r, meas02, echo=FALSE, message=FALSE, warning=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/meas02.png")
+
+```

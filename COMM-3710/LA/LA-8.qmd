@@ -1,0 +1,238 @@
+---
+title: "LA-8: Practice Data Analysis (15 points)"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(summarytools)
+library(rstatix)
+library(kableExtra)
+library(formatR)
+
+```
+
+# Learning Outcomes
+
+In this assignment, you will practice the data analysis skills that you have learned this semester.
+
+::: callout-tip
+Read all the instructions carefully before starting the assignment.
+:::
+
+------------------------------------------------------------------------
+
+# Instructions
+
+1) Download the full COVID dataset (`covid-full.csv`) and codebook (`covid-full-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester.
+
+```{r}
+#| label: ans1
+#| include: false
+#| eval: false
+
+# Read data into R
+covid <- read_csv(here::here("COMM-3710", "LA","covid-full.csv"))
+
+```
+
+2) Create a new variable called `asia_europe`. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain.\
+\
+Obtain descriptive statistics for the number of time respondents washed their hands on the previous day for Asia and Europe.
+
+   a) What is the mean and standard deviation of handwashes in Asia?
+   b) What is the mean and standard deviation of handwashes in Europe?
+   
+```{r}
+#| label: ans2
+#| include: false
+#| eval: false
+
+# Create new variable called asia_europe
+
+covid <- covid |> 
+        mutate(asia_europe = case_when(
+                country == "China" | country == "India" | country == "Japan" |
+                        country == "Singapore" | country == "South Korea" ~ "Asia",
+                country == "Denmark" | country == "France" | country == "Germany" |
+                        country == "Italy" | country == "Spain" ~ "Europe"
+        ))
+
+covid |> freq(asia_europe)
+
+# Descriptive statistics for Asia
+covid |> 
+        filter(asia_europe == "Asia") |> 
+        descr(handwashes)
+
+# Descriptive statistics for Europe
+covid |> 
+        filter(asia_europe == "Europe") |> 
+        descr(handwashes)
+
+# OR...
+
+covid |> 
+        group_by(asia_europe) |> 
+        descr(handwashes)
+
+#2a: Asia: M = 7.32, SD = 1.82
+#2b: Europe: M = 11.86, SD = 2.32
+
+```
+
+3) Conduct a statistical test to determine whether there is a significant difference in the number of times people living in Asia compared to Europe washed their hands.
+
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value.
+   d) Does the statistical test support or refute your hypothesis?
+   
+```{r}
+#| label: ans4
+#| include: false
+#| eval: false
+
+#3a: People living in Europe washed their hands more times, on average, than those living in Asia.
+
+#3b: t-test
+
+covid |> 
+        select(handwashes, asia_europe) |> 
+        t_test(handwashes ~ asia_europe)
+
+#3c: t = -12.2, p < .001
+#3d: The t-test supports the hypothesis posed in #3a.
+
+```
+
+4) Implement the appropriate statistical test to determine whether there is a significant linear relationship between how many times people left their home and the total number of contacts they had with other people.
+   
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value.
+   d) Does the statistical test support or refute your hypothesis? If there is a significant relationship, describe it. Does this finding make sense? Why or why not?
+
+```{r}
+#| label: ans5
+#| include: false
+#| eval: false
+
+covid |> freq(total_contacts)
+covid |> freq(times_left_home)
+
+# both variables are continuous, we should use Pearson's correlation.
+
+#4a: There will be a positive linear relationship between the number of times a respondent left their home and the total number of contacts they had with others.
+
+#4b: Pearson's correlation
+
+covid |> 
+        cor_test(vars = total_contacts, vars2 = times_left_home)
+
+#4c: Pearson's r = .34, p < .001
+#4d: There is a significant positive relationship between these variables, supporting the hypothesis posed in #4a. The greater the number of times respondents left home, the more total contacts they had with other people. This finding makes sense.
+
+```
+
+5) Is there a difference in whether the majority of respondents in Asia compared to those in Europe said their lives were impacted by COVID?
+
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value.
+   d) Does the statistical test support or refute your hypothesis? If there is a significant difference, describe it (e.g., which region, Asia or Europe, had more respondents who said their lives were impacted by COVID). You can use the `filter()` and `freq()` functions to help you describe the differences.
+   
+```{r}
+#| label: ans6
+#| include: false
+#| eval: false
+
+covid |> freq(majority_life_impacted)
+
+# both variables are categorical, we should use the chi-squared test.
+
+#5a: The majority of respondents who said their lives were impacted by COVID will be different in Europe compared to Asia.
+
+#5b: Chi-squared test
+
+chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
+
+#5c: X2 = 22.5, p < .001
+#5d: There is a significant difference between Asians and Europeans. The test supports the hypothesis posed in #5a. More respondents in Asia said their lives were impacted by COVID compared to those in Europe.
+
+```
+
+6) **BONUS:** Use the data and a statistical test to determine whether there is a relationship between the number of days since the COVID outbreak began and how often respondents wore masks outside. Conduct the statistical test, report the results of the test (i.e., test statistic and *p*-value) and explain your conclusion.
+
+```{r}
+#| label: ans7
+#| include: false
+#| eval: false
+
+covid |> freq(days_since_outbreak)
+covid |> freq(masks_outside)
+
+covid |> 
+        cor_test(vars = masks_outside, vars2 = days_since_outbreak)
+
+#6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense; as we learned more about the virus over time, we learned that it was a respiratory virus that spread via air droplets and that mask-wearing reduces its spread.
+
+```
+
+4) **BONUS:** Create a figure showing the number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average number of times people washed their hands on the previous day."
+
+```{r}
+#| label: ans3
+#| include: false
+#| eval: false
+
+covid |> 
+        select(asia_europe, handwashes) |> 
+        na.omit() |> 
+        ggplot(aes(x = asia_europe, y = handwashes)) +
+        geom_col() +
+        xlab("") +
+        ylab("Average number of times people washed their hands on the previous day") +
+        jtools::theme_apa()
+        
+```
+
+------------------------------------------------------------------------
+
+# Submission
+
+Submit your R script (named `LA-#_FirstName-LastName.R`) to Canvas.
+
+Your R script should:
+
+1)  Include commands and functions that are necessary to address all the questions in the assignment.
+2)  Contain comments that answer the questions in the assignment.
+3)  Run in its entirety without errors.
+
+To ensure that your R script runs without errors, you should:
+
+-   Save your script.
+-   Navigate back to Your Workspace on Posit Cloud.
+-   Reopen your project.
+-   Run the entire script line-by-line without editing it to ensure there are no errors.
+
+::: callout-important
+These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
+:::

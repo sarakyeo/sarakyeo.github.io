@@ -1,0 +1,295 @@
+---
+title: |
+  | <a name="top"></a>
+  | COMM 3710: Overview of the Research Process \& Research Ethics
+pagetitle: "COMM 3710: Week 2"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+urlcolor: blue
+---
+
+# The Scientific Method
+The basic process of conducting research is the same between the physical sciences and social science. This process is derived from the **scientific method** and was first used by a Muslim scholar who lived in modern-day Iraq, Ibn al-Haytham.
+
+Ibn al-Haytham wrote the Book of Optics in which he described the method that eventually became the basis of the modern scientific method. The scientific method was subsequently refined by other scientists, including René Descartes, Isaac Newton, David Hume, and Karl Popper.
+
+The scientific method consists of 7 basic steps:
+
+1. Observation (which often inspires scientists to study a specific topic)
+2. Stating of the scientific problem
+3. Formulating a hypothesis
+4. Testing the hypothesis through observation
+5. Analyzing the data
+6. Interpreting data and forming conclusions
+7. Publishing research
+
+
+# The Wheel of Science Revisited {.tabset .tabset-fade}
+```{r, wheel, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/wheel-of-science.png")
+
+```
+
+In [Week 1](https://sarakyeo.github.io/COMM-3710/week1.html#The_Wheel_of_Science), we discussed inductive and deductive reasoning. Let's now turn to other terms in the wheel of science. Click on the tabs below to learn about the terms, *theory*, *hypothesis*, *observation*, and *empirical generalization*.
+
+## Theory
+```{r, theory, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/theory.png")
+
+```
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O6hyn_N4oj0" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br>
+
+**Additional reading for this week**: [Cushing, P.E. (2004). Hypothesis or theory? *American Scientist*, 92(5), 1.](https://utah.instructure.com/courses/628882/modules/items/11900898)
+
+---
+
+## Hypothesis
+```{r, hypothesis, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/hypothesis.png")
+
+```
+
+<center>
+**Antecedent propositions** can be thought of as `IF` statements.
+
+**Consequent propositions** can be thought of as `THEN` statements.
+
+<br>
+<font size="4">IF antecedent is true, THEN consequent is true.</font>
+</center>
+<br>
+
+Once we have antecedent and consequent propositions, we can build an **argument**. The video below explains how propositions and arguments fit into the concept of a **hypothesis** and provides some examples:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjujv5Lb--Q" data-external="1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<br>
+
+---
+
+## Observation
+The most concrete concept in our wheel of science is observation. These observations are the actual measurements.
+
+It is important to note that measurement in social science, like in most other sciences, is not exact. It would be difficult to imagine exact measurement of people's attitudes, behaviors, beliefs, and values! In other words, there is always some degree of error in measurement.
+
+```{r, obs, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/observations.png")
+
+```
+
+When we consider "empirical" observations, we mean that these observations must be measurable--something that we can sense (or that instruments we use can be sensed).
+
+Our observations should also be as objective as possible, i.e., as unbiased by us (the researchers) or external influences as it is possible to be.
+
+And lastly, observations must be controlled. This guards against **spurious relationships**. A spurious relationship is a coincidental relationship caused by an unobserved variable.
+
+Consider the following example:
+
+Researchers in education are studying students aged 6-12 years old. The researchers measure and track students' shoe size and math skill in the children in the study. They find that there is a positive correlation between shoe size and math skill. In other words, larger shoe sizes are correlated with better math skills, and vice versa. This relationship can be shown as follows:
+
+```{r, spurious-1, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious1.PNG")
+
+```
+
+Of course, we know that this relationship is coincidental! As children get older, they tend to get more educated and, as a consequence, their math skills improve. The actual relationship, therefore, is more like:
+
+```{r, spurious-2, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious2.PNG")
+
+```
+
+The **spurious relationship** in this example is that between *shoe size* and *math skill*:
+
+```{r, spurious-3, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/spurious3.PNG")
+
+```
+
+Here are some other examples of spurious relationships--see if you can figure out what the unobserved variable is that affects both variables in the spurious relationship.
+
+- Amount of ice cream sold $\longleftrightarrow$ deaths by drowning
+- Height of daughters $\longleftrightarrow$ height of sons
+- Number of religious places $\longleftrightarrow$ number of homicides
+
+---
+
+## Empirical Generalization
+**Empirical generalization** is the process of describing phenomena based on our observations. When we make empirical generalizations, we ask ourselves: "How does what is going on in our sample describe what is happening in the real world?"
+
+The process of empirical generalization allows us to refine theory and extend the phenomena that we observe in a sample to the real world.
+
+<br>
+<center>
+<font size="4">sample $\longrightarrow$ real world</font>
+</center>
+<br>
+
+When we engage in empirical generalization, the limitations of our observations are important. As quantitative researchers, we cannot offer explanations for human behavior/attitudes/other phenomena that are beyond the scope of our observations.
+
+Before we discuss some common problems with empirical generalization, we first need to understand units of observation and analysis.
+
+
+### Units of Analysis
+The units of analysis and observation are the **what or whom being studied**.
+
+**Units of observation** refer to the units in data collection (e.g., individuals).
+
+**Units of analysis** refer to the units used in data analysis (e.g., individuals could be grouped by age or sex). We draw conclusions about a sample or make empirical generalizations from a sample based on our units of analysis.
+
+For example, if I was curious about classes in the Department of Communication at the U, I might collect data from individual students and group them into classes when I analyze the data. The figure below shows how conclusions (called "Sample Statements" in the figure) are related to the units of analysis.
+
+```{r, units, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/units-of-analysis.PNG")
+
+```
+
+
+### Common Problems in Empirical Generalizations{.tabset .tabset-fade .tabset-pills}
+
+#### Hasty Generalizations
+As researchers, we should avoid making hasty generalizations. Insufficient evidence is the most common cause of poor generalizations.
+
+---
+
+#### Ecological Fallacy
+An **ecological fallacy** occurs when researchers make generalizations about individuals based on the groups to which the individuals belong. At its core, this is a problem with the units of analysis and observation.
+
+<u>Example</u>: A researcher observes that cities with large minority populations have higher crime rates than cities with smaller minority populations. The researcher concludes that minorities commit crimes.
+
+This is an example of an ecological fallacy--the researcher has made a generalization about individuals ("Minorities commit crimes") based on group data ("Cities with large minority populations have high crime rates"). The conclusion refers to individuals (minorities) even though the premise is about a unit larger than the individual (cities).
+
+---
+
+#### Exception Fallacy
+An **exception fallacy** is a generalization about a group based on an individual or a small number of individuals. Exception fallacies are often the bases of a concept with which you might be familiar, stereotypes.
+
+<u>Example</u>: The Green Bay Packers will win the next Super Bowl because their quarterback is Aaron Rodgers.
+
+This statement is an exception fallacy because we are making a generalization about a team (group) based on a single individual. Of course, there are other factors that play roles in whether football teams win.
+
+---
+
+
+# Research Ethics
+
+Some examples of behavioral and social science research involving human subjects that resulted in the need to formalize research ethics:
+
+- <a href="https://www.cdc.gov/tuskegee/index.html" target="_blank">Tuskeegee Syphilis Study</a>
+- <a href="http://www.prisonexp.org/faq/#ethics" target="_blank">Stanford Prison Experiment</a> (TEDtalk by Philip Zimbardo can be found <a href="https://www.youtube.com/watch?v=OsFEV35tWsg" target="_blank">here</a>)
+- <a href="https://en.wikipedia.org/wiki/Milgram_experiment#Ethics" target="_blank">Milgram experiment on obedience to authority</a>
+- <a href="https://www.theguardian.com/science/head-quarters/2014/jul/01/facebook-cornell-study-emotional-contagion-ethics-breach" target="_blank">Facebook and emotion contagion</a>
+
+## What are Ethics?
+Research ethics can be defined in terms of **means** and **ends**.
+
+- **Means** refer to tools or behaviors that we use to achieve outcomes.
+- **Ends** refer to the outcomes themselves.
+
+```{r, calvin, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/calvin-ethics.jpg")
+
+```
+
+By defining ethics in terms of whether the means and ends are good (or moral / just), we can identify 4 types of ethics (Figure 3.1 of your textbook):
+
+1. Ethical behavior (good means-good end)
+2. Unethical behavior (bad means-bad end)
+3. Machiavellian ethic (bad means-good end)
+4. Subjective ethic (good means-bad end)
+
+Read Ch. 3 of your textbook for full definitions and examples of these ethical categories.
+
+
+## The Belmont Report {.tabset .tabset-fade .tabset-pills}
+The Belmont Report is a report that outlines the basic ethical principles for which all human subjects researchers are accountable. The report was completed in 1979 by the National Commission for the Protection of Human Subjects in Biomedical and Behavioral Research.
+
+```{r, belmont, echo=FALSE, message=FALSE, warning=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("https://sarakyeo.github.io/images/belmont.png")
+
+```
+
+The three basic principles outlined in the Belmont Report are:
+
+1. Respect for persons
+2. Principle of beneficence
+3. Justice
+
+Before we discuss each of these principles, we need to define **human subjects**. Human subjects are "living individual(s) about whom an investigator conducting research obtains...
+
+- data through intervention or interaction with the individual, or
+- identifiable private information."
+
+Importantly, intervention/interaction refers to any physical procedures, manipulations, communication, or interpersonal contact.
+
+### Respect for Persons
+Researchers often refer to this ethical standard as **informed consent**. This principle recognizes individuals as autonomous (in other words, people make an informed choice about whether we participate in research). However, there are some persons with diminished authority (e.g., children, cognitively impaired persons). Research can be conducted on such persons, but there are additional protections that depend on the risk of harm that the research poses to the individual, as well as the potential benefits of the research.
+
+---
+
+### Principle of Beneficence
+The second principle is the need for researchers to guarantee beneficence. This means that researchers should maximize the benefits and minimize potential risks/harms associated with participating in the research.
+
+---
+
+### Justice
+The third principle is that of justice. This means that the risks and benefits of the research should be fairly distributed without bias. An example in which the research was not fair is the Tuskegee Syphilis Study. In this case, the research participants did not benefit from participating in the research (there certainly were risks involved in participation!).
+
+This principle also ensures that researchers do not exploit people who may be unfairly coerced into participating (e.g., prisoners, children). One question that researchers can ask to assess whether they are abiding by this principle is: "Are some groups in my sample over-represented because of unfair bias or unfair circumstances?"
+
+---
+
+## Institutional Review Board (IRB)
+Any institution that received federal funding for research must establish an **Institutional Review Board (IRB)**. The IRB reviews all research proposals to ensure that they comply with principles laid out in the Belmont Report. Most universities that conduct research will have their own IRB.
+
+The basic job of an IRB is to ensure researchers protect and inform participants. IRBs also tackle the ethical dilemma of whether participants should be financially compensated for their participation. There are no standard rules for payment of research subjects. This is a sensitive issue in terms of justice as some potential subjects may be coerced by payment. Beyond payment, other incentives may also be considered forms of coercion and researchers need to take steps to ensure that compensations for research are fair and just.
+
+Another job of the IRB is to determine and review **anonymity**, **confidentiality**, and **privacy**.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/itYy0bDTEoA" data-external="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+### Types of IRB Review {.tabset .tabset-fade .tabset-pills}
+As mentioned in the video, there are 3 types of IRB review:
+
+#### Exempt from review
+- Exempt from review means that it is not necessary for a study to be reviewed by the board.
+- However, the researcher still has to submit an IRB protocol.
+- The exempt review can be granted to a research protocol if the project contains low-risk research and is exempted from federal regulations concerning IRB review and approval.
+- There are 6 categories for research exemptions and these can be found on p. 42 of your textbook (be sure to look these up).
+- A lot of communication research falls under Category 2 exemption since we rely on surveys, interviews, and/or observation of public behavior.
+
+---
+
+#### Expedited review
+- Expedited review is designed for projects that involve no more than minimal risk, do not include intentional deception, do not use vulnerable populations (e.g., children, prisoners), and include appropriate consent procedures.
+- Survey projects that ask people about highly sensitive behaviors (e.g., illegal behavior such as substance abuse) are often reviewed at this level.
+- If the research is highly controversial, beyond minimal risk, or involves challenges to confidentiality, then the IRB will often subject a protocol to full review.
+
+---
+
+#### Full review
+- This occurs when the chairperson of the IRB believes that a protocol is beyond a minimal risk and that the entire board should make a decision on whether or not to allow this research to be conducted.
+- Any research protocol that falls outside of the exemptions can be cause for full board review.
+- When a protocol must undergo full review, timing of protocol submission can be important as IRBs typically meet once per month at large institutions (e.g., universities) and quarterly for smaller ones.
+
+---
