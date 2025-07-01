@@ -172,5 +172,6 @@ Some notes before we jump in to Posit Cloud and R.
 - Helpful and fun things in R.
         - Changing the theme.
         - Rainbow parentheses.
+- Pulling up help documentation in R.
 
 -->
