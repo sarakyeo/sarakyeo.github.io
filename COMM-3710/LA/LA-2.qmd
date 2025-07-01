@@ -155,3 +155,22 @@ To ensure that your R script runs without errors, you should:
 :::callout-important
 These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
 :::
+
+
+<!-- Lab Lesson Plan
+
+Some notes before we jump in to Posit Cloud and R.
+- What I will be doing on the screen is called "live coding." This is when you show your peers how to do something. 
+- You will be doing this for the group presentation in the week you have signed up.
+
+# 1) Live coding: Posit Cloud and an introduction to R
+
+- Show students how to navigate R.
+- Identify the various panes in R and their names.
+- Help them determine what happens when they run a function in the Console.
+- Walk through LA-2 with different examples.
+- Helpful and fun things in R.
+        - Changing the theme.
+        - Rainbow parentheses.
+
+-->
