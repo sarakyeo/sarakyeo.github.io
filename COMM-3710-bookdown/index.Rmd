@@ -2,7 +2,6 @@
 title: "COMM 3710: Getting Started with R"
 author: |
         | Prof. Sara K. Yeo
-        | Prof. Ye Sun
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -16,7 +15,7 @@ description: "A guide to getting started with R in COMM 3710."
 
 # Introduction {#intro}
 
-This is a guide for getting started and using R and RStudio in COMM 3710: Introduction to Quantitative Communication Research in the [Department of Communication](https://communication.utah.edu) at the [University of Utah](https://utah.edu).
+This is a guide for getting started and using R on [Posit Cloud](https://posit.cloud/) in COMM 3710: Introduction to Quantitative Communication Research in the [Department of Communication](https://communication.utah.edu/) at the [University of Utah](https://www.utah.edu/).
 
 ----
 
@@ -28,7 +27,7 @@ R is a free software environment for computing and graphics from [CRAN](https://
 
 > What is R in the context of COMM 3710? 
 
-In this course, you will learn to use R for data analysis. In other words, R is the software that you will primarily use in COMM 3710 labs.
+In this course, you will learn to use R for data analysis. In other words, R is the software that you will primarily use in COMM 3710 lab.
 
 ---
 
