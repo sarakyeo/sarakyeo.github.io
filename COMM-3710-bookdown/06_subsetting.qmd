@@ -43,7 +43,7 @@ Generic: `newdata <- select(fulldata, var1, var2, var3, ...)`
 
 ``` {r eval = FALSE}
 library(tidyverse) # install the package first if you have not already done so
-week_temp <- select(week, day, temp)
+week_temp <- dplyr::select(week, day, temp)
 ```
 
 The above three methods should give you the same data frame:
@@ -52,7 +52,7 @@ week_temp
 ```
 
 ```{r echo = FALSE}
-week_temp <- select(week, day, temp)
+week_temp <- dplyr::select(week, day, temp)
 kbl(week_temp) %>%
   kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
 ```

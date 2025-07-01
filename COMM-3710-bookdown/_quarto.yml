@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "COMM 3710: Getting Started with R"
+  author: "Sara K. Yeo"
+  date: "July 1, 2025"
+  chapters:
+    - index.qmd
+    - 01_get-started.qmd
+    - 02_setup.qmd
+    - 03_tips.qmd
+    - 04_ggplot2.qmd
+    - 05_missing-data.qmd
+
+bibliography: [book.bib, packages.bib]
+
+format:
+  html:
+    theme: cosmo

@@ -1,26 +1,29 @@
-# Setting Up R for Assignments {#setup}
+# Assignment Setup {#sec-setup}
 
-In this course you will use R for individual lab assignments and group project components. This chapter walks you through setting up R in preparation for completing assignments. Although you may have to refer to this chapter the first few times you set up R, you will soon become accustomed to the process and it will be a natural part of your workflow.
+In this course you will use R for lab assignments. This chapter walks you through setting up R in preparation for completing assignments. Although you may have to refer to this chapter the first few times you set up R, you will soon become accustomed to the process and it will be a natural part of your workflow.
 
----
 
-## Open RStudio
+## Open RStudio or Posit Cloud
 
-Remember that R is the engine while RStudio is your dashboard. When you head out in a car, you don't start by tinkering with the engine. Instead, you use the car via its dashboard.
+Remember that R is the engine while RStudio is your dashboard. If you are using Posit Cloud, your engine is already integrated and you only need to navigate to the dashboard (i.e., Posit Cloud website). When you head out in a car, you don't start by tinkering with the engine. Instead, you use the car via its dashboard.
 
-Similarly, we will interact and use R through RStudio.
+Similarly, we will interact and use R through RStudio or Posit Cloud.
 
----
 
 ## Create a new R script
 
-To start a new R script, use the *File* menu or the shortcut keys Ctrl + Shift + N (Windows) or Cmd + Shift + N (Mac).^[Keyboard shortcuts are available under *Tools* $\rightarrow$ *Keyboard Shortcuts Help*.]
+To start a new R script, use the *File* menu or the shortcut keys Ctrl + Shift + N (Windows) or Cmd + Shift + N (Mac).^[Keyboard shortcuts are available under *Tools* $\rightarrow$ *Keyboard Shortcuts Help*.] You can also use your mouse to point-and-click to open a new file (@fig-newscript).
 
-```{r new-script, echo = FALSE, fig.cap = "Open a new R script in RStudio.", fig.align = "center"}
+```{r}
+#| label: fig-newscript
+#| echo: FALSE
+#| fig.cap: "Open a new R script in RStudio or Posit Cloud."
+#| fig-align: center
+
 knitr::include_graphics("images/new-R-script.gif")
+
 ```
 
----
 
 ## Prepare R script
 
@@ -88,7 +91,7 @@ You can replace `dataframe_name` with a name of your choice.
 
 ---
 
-## Saving your R script {#saveRscript}
+## Saving your R script {#sec-saveRscript}
 
 **Be sure to save your work often.**
 

@@ -1,0 +1,107 @@
+# Tips on Working with R {#tips}
+
+This chapter contains a collection of tips to help you progress on your R learning journey. Remember that there are many ways to achieve a goal using R code and there is a large community of R users who are often willing and able to help with troubleshooting code (e.g., [Stack Overflow](https://stackoverflow.com/questions/tagged/r), [RStudio Community](https://community.rstudio.com/)).
+
+---
+
+## On labeling and naming objects
+
+1. **R is case-sensitive**. We covered this in Section \@ref(learning-tips) but it is important enough to repeat. `CATS`, `cats`, `Cats`, `cAts`, and `caTs` are all different objects in R (Figure \@ref(fig:cats))!
+
+```{r cats, echo=FALSE, fig.align='center', fig.cap="All the cats. This image is from Aoshima Island, Japan. Read more about Aoshima Island [here](https://www.theatlantic.com/photo/2015/03/a-visit-to-aoshima-a-cat-island-in-japan/386647/)."}
+knitr::include_graphics("images/aoshima-cats.jpg")
+```
+
+2. **Object names cannot include spaces.** Therefore, `my result` is not a valid name, but `my.result` or `my_result` will work. You can also use numbers in object names.
+
+3. **Short, informative labels for objects are best.** Obviously, there is some trade-off between labels that are informative (tend to be long) vs. those that are short (tend not to be specific). Use your own judgment and common sense when naming objects. Read more about R coding style in [the tidyverse style guide's Chapters 1 and 2](https://style.tidyverse.org/).
+
+---
+
+## On script annotation
+
+When writing R code, you should include explanations to your future self or to other team members (e.g., when conducting data analysis for your group project). These explanations can be included as comments and annotations to your R code in the script.
+
+Comments in R begin with `#`. R recognizes text that follows `#` as comments and ignores that text when running the code. Include annotations wherever possible; your future self and team members will thank you later.
+
+Below is an example of some code that includes annotations and comments. Note that you can use as many `#` as you want.
+
+```{r, echo=TRUE, eval=FALSE}
+## Start by defining an object
+x <- 3+5
+
+y <- x+6 # adding 2 to x and assigning the result to y for later use
+
+z <- x*y # z is the product of x and y
+
+print(z) # this function displays the result of z in the Console
+
+## Next, I want to determine the mean across x, y, and z
+xyz <- c(x, y, z) # this combines x, y, and z
+print(xyz)
+
+mean(xyz) # this line calculates the mean of the object, xyz
+
+###############################################################################
+```
+
+When you run this script, R recognizes the commands and ignores the comments. However, the comments and annotations are saved in the R script--and your future self and the rest of your team will be grateful.
+
+
+```{r, echo=FALSE}
+## Start by defining an object
+x <- 3+5
+
+y <- x+6 # adding 2 to x and assigning the result to y for later use
+
+z <- x*y # z is the product of x and y
+
+print(z) # this function displays the result of z in the Console
+
+## Next, I want to determine the mean across x, y, and z
+xyz <- c(x, y, z) # this combines x, y, and z
+print(xyz)
+
+mean(xyz) # this line calculates the mean of the object, xyz
+```
+
+---
+
+## Be patient^[Source: @barrettDataScienceAtomic2021]
+
+> “Whenever you’re learning a new tool, for a long time, you’re going to suck… But the good news is that is typical; that’s something that happens to everyone, and it’s only temporary.” -*Hadley Wickham*
+
+The benefits of learning by doing slowly build and compound over time. This means that one *must invest time to learn R by doing*. You can expect the learning curve to look something like this:
+
+```{r mastering-R, echo=FALSE, fig.align='center'}
+library(ggplot2)
+inner_thoughts <- tibble::tribble(
+  ~x,  ~y,    ~label,
+  0,   800,   "Cool!",
+  0.9, 800,   "...?",
+  1.8, 1400,  "object... of\ntype... closure?",
+  3.9, 900,   "Ugghhhh",
+  5.3, 1200,  "Ugghhhhhh",
+  6.7, 2500,  "Oh wait",
+  7.7, 4000,  "...!!",
+  8.5, 8000,  "!!!!!",
+  7.9, 20000, "Oh sure, it's easy"
+)
+
+ggplot() + 
+  geom_function(fun = exp, size = 1.2, color = "firebrick") + 
+  geom_text(data = inner_thoughts, aes(x, y, label = label), hjust = 0) +
+  xlim(0, 10) + 
+  ggtitle("Mastering a programming language") + 
+  theme_void(24)
+```
+
+Expect to ride the R rollercoaster (Figure \@ref(fig:r-coaster)).
+
+```{r r-coaster, echo=FALSE, fig.align='center', fig.cap="The R rollercoaster. Artwork by [Allison Horst](https://twitter.com/allison_horst)."}
+knitr::include_graphics("images/r_rollercoaster.png")
+```
+
+The following paragraph is an excerpt from Barrett's [-@barrettDataScienceAtomic2021] blog post. The [original post](https://malco.io/2021/01/04/data-science-as-an-atomic-habit/) is worth reading and keeping in mind as you take this learning journey of R and, more broadly, data science.
+
+> This is the stubbornly quiet path of practice: our abilities lag behind our effort. At the 'Ugghhhh' stage, our internal motivation starts to dissolve. Sure, you can make a plot or whatever, but you're still fighting errors all day. What do you have to show for it at this point? Not that much more, you might feel, than when you started. But our growth is rarely linear: often, it’s explosive, at least at critical moments. We suddenly begin to make connections, which help us build other relationships, and so on. Growth is never infinite, but it’s also rarely as linked to our immediate efforts as we expect.
