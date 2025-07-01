@@ -1,0 +1,332 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COMM 3710: Getting Started with R",
+    "section": "",
+    "text": "1 Introduction\nThis is a guide for getting started and using R on Posit Cloud in COMM 3710: Introduction to Quantitative Communication Research in the Department of Communication at the University of Utah.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-is-r",
+    "href": "index.html#what-is-r",
+    "title": "COMM 3710: Getting Started with R",
+    "section": "1.1 What is R?",
+    "text": "1.1 What is R?\n\n“R is a language and environment for statistical computing and graphics.”1\n\nR is a free software environment for computing and graphics from CRAN, the Comprehensive R Archive Network. You can always read more about R by visiting the homepage of the R Project for Statistical Computing but you are probably more interested in the answer to the following question:\n\nWhat is R in the context of COMM 3710?\n\nIn this course, you will learn to use R for data analysis. In other words, R is the software that you will primarily use in COMM 3710 lab.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#why-r",
+    "href": "index.html#why-r",
+    "title": "COMM 3710: Getting Started with R",
+    "section": "1.2 Why R?2",
+    "text": "1.2 Why R?2\nIncreasingly, data are important components of decision-making. Whether you are looking at industry trends, generating financial statements and reports, analyzing market data, or creating visuals to communicate your work, you will need to know how to analyze data to efficiently, accurately, and professionally to develop reports and effectively communicate your findings.\nR is a tool that can help you do all this and more. This course will help you become familiar with this powerful data analysis tool. Often, students ask why we use R instead of Microsoft Excel in this course.\nHere are some reasons for using R over Excel.\n\n1.2.1 Ease of Use\nThere is little doubt that Excel is much easier to use than R. Most of us already know many Excel basics and the learning curve is minimal compared to R. This is partly due to the point-and-click nature of Excel, allowing us to make simple charts and tables.\nR, on the other hand, is a programming language. This means that the initial learning curve is, for most, likely to be steeper than that of Excel. However, with practice and time, R becomes easier quickly and you will soon realize that R is a powerful tool for analysis and generating visuals from data.\n\n\n1.2.2 Replicating Analysis\nHaving to use the point-and-click interface, or the graphical user interface (GUI), is a distinct disadvantage of Excel. Because you cannot import or use scripts, which are a collection of commands, in Excel, you must rely on memory to replicate your analysis.\n\n\n\n\n\n\nTip\n\n\n\nIn Excel, you must rely on memory to replicate data analysis. In R, you can simply re-run your saved script.\n\n\nR, on the other hand, is capable of reproducing analyses quickly and with different datasets. The commands for data analysis that you use in R can be saved as a script, which can then be run on multiple datasets. In other words, when we use R for data analysis, we do not have to “reinvent the (data analysis) wheel” as you would with Excel.\n\n\n1.2.3 Visualization\nFor simple graphics, Excel (with its minimal learning curve) can suffice. However, it is cumbersome to create attractive and professional-quality tables and figures in Excel.\nVisualization is where R excels (hah, see what I did there!). When datasets begin to get complicated or large, R is better equipped to handle them without making errors and can create impressive and easily customizable visual representations.\n\n\n1.2.4 Still wondering why we use R?\nIf you are still wondering why we are using R instead of Microsoft Excel for data analysis in this course, here are some examples that help illustrate the utility of R over Excel.\n\nHow the BBC Visual and Data Journalism team works with graphics in R\nThe Reinhart-Rogoff error - or How Not to Excel at Economics",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#r-vs.-rstudio-vs.-posit-cloud",
+    "href": "index.html#r-vs.-rstudio-vs.-posit-cloud",
+    "title": "COMM 3710: Getting Started with R",
+    "section": "1.3 R vs. RStudio vs. Posit Cloud",
+    "text": "1.3 R vs. RStudio vs. Posit Cloud\nFigure 1.1 is a good illustration of the distinction between R and RStudio (Ismay and Kim 2021).\n\n\n\n\n\n\n\n\nFigure 1.1: Analogy of the difference betweenR and RStudio. Source: ModernDive Chapter 1.\n\n\n\n\n\nThroughout this course, you will be using R via RStudio or Posit Cloud. This means that you will need to have both R and RStudio installed on your computer. If you are using Posit Cloud, you will not need to install anything on your computer.\n\n\n\n\n\n\nTip\n\n\n\nIf you are using RStudio, you will need to install R and RStudio on your computer. If you are using Posit Cloud, you will not need to install anything on your computer.\n\n\nNew users often confuse R and RStudio. The analogy makes it clear that one cannot be functional without the other. Just like the dashboard of a car would not be functional without the engine and vice versa, RStudio and R are not functional without each other.\nRemember that R is a programming language for statistical computing and graphics. RStudio, on the other hand, is an integrated development environment (IDE) that provides an interface and adds convenient features. Just like your dashboard has an odometer, navigation system, etc., that makes driving easier, using RStudio’s interface makes statistical computing using R much easier.\nPart of this video by Andy Field describes the difference between R and RStudio. This video will also show you how to install R and RStudio, which are covered in Section 2.1.\n\n\n\n\nIsmay, Chester, and Albert Y. Kim. 2021. Statistical Inference via Data Science. https://moderndive.com/.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "COMM 3710: Getting Started with R",
+    "section": "",
+    "text": "https://www.r-project.org/about.html↩︎\nAdapted from R vs. Excel: What’s the Difference?↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html",
+    "href": "01_get-started.html",
+    "title": "2  Getting Started",
+    "section": "",
+    "text": "2.1 Installing R\nRemember that you need either Posit Cloud or both R and RStudio. If you need R and RStudio, follow the instructions below to install both programs (also known as applications). If you are using Posit Cloud, skip to Section 2.3.\nOn a web browser, navigate to https://cloud.r-project.org/.\nDuring installation, select the default settings when prompted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html#sec-install",
+    "href": "01_get-started.html#sec-install",
+    "title": "2  Getting Started",
+    "section": "",
+    "text": "If you are a Windows user: Click on “Download R for Windows”, then click on “base”, then click on the Download link.\nIf you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R (as of this writing) is R-4.5.1.\nIf you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html#installing-rstudio",
+    "href": "01_get-started.html#installing-rstudio",
+    "title": "2  Getting Started",
+    "section": "2.2 Installing RStudio",
+    "text": "2.2 Installing RStudio\nOn a web browser, go to https://rstudio.com/products/rstudio/download/. Scroll down to All Installers. Download and install the version of RStudio that corresponds to your operating system. Update RStudio as necessary.\nWhen you are ready to use R, you will open RStudio. In this course, you will rarely, if ever, need to use “base R.” Figure 2.1 shows you which icon to click on to open RStudio. Remember that you need to have both programs installed on your computer–one does not work without the other.\n\n\n\n\n\n\nImportant\n\n\n\nFrom this point on, when “R” is referenced in the text, you know that you are accessing and using the language through RStudio.\n\n\n\n\n\n\n\n\n\n\nFigure 2.1: Typically, you will only need to use RStudio for this course. Click the icon on the right to open RStudio. The icon on the left is “base R.” Source: ModernDive.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html#sec-howto",
+    "href": "01_get-started.html#sec-howto",
+    "title": "2  Getting Started",
+    "section": "2.3 How do I use R?",
+    "text": "2.3 How do I use R?\nUnlike Excel, which has a point-and-click GUI, R is an interpreted language. This means that you, the user, must type in commands written in R code. In other words, this course will teach you to code or program using the R language.1\nIn COMM 3710, we will learn R by “doing.” You are responsible for your own learning–the best way to master R is to practice deliberately.\n\n“While regular practice might include mindless repetitions, deliberate practice requires focused attention and is conducted with the specific goal of improving performance.” (Clear 2017)\n\n\n2.3.1 A quick tour of RStudio\nWatch this video by Andy Field to take a quick tour of RStudio.\nAs you have learned from Andy Field’s video, the RStudio interface consists of four panels (Figure 2.2).\n\nWait! I only see 3 panels…\n\nIf you happen to see only three panels, please select File \\(\\rightarrow{}\\) New File \\(\\rightarrow{}\\) R Script. Your RStudio should look like Figure 2.2.\n\n\n\n\n\n\n\n\nFigure 2.2: Editor and Console windows in RStudio.\n\n\n\n\n\n\n\n2.3.2 Some basic terminology and concepts\nThroughout the book, R code will be distinguished from text by using a different font. Let’s start with some basic terms.\n\nConsole: This is the panel in RStudio where you can view the output or results of your commands. Note that you can also enter commands in the Console panel. Pressing Enter after each command runs it, i.e., it tells R to execute the command.\nEditor: This is the panel in RStudio where you type commands in language that R understands. Think of this as a script containing instructions for R. You can save this script, which makes the work you have done reproducible.\nR script: A script is simply a text file containing a set of commands and comments. The script can be saved and used later to (re-)execute the saved commands. The script can also be edited so you can execute a modified version of the commands.\nObjects: Values in R are saved in objects.\nDataframes: These are representations of datasets in R where the rows correspond to observations and the columns correspond to variables that describe the observations.\nLogical operators: These are operators in R that represent “and” (&) and “or” (|).\nFunctions: Functions are also known as commands. Functions and commands tell R what you want it to do. Functions take the form of command() with parentheses (or parents). The parentheses are for arguments, which give R specifics about the function you want it to perform.\n\n\n\n2.3.3 Errors, warnings, and messages\nR shows errors, warnings, and messages in the Console window. Typically, it does so in red font, which can be intimidating for new users.\nDo not worry, you are unlikely to “break” R. And as long as you save your work frequently, you will not lose it.\n\n\n\n\n\n\nTip\n\n\n\nAlways read errors, warnings, or messages carefully; they often provide information that will help you troubleshoot the issue.\n\n\n\n\n2.3.4 Tips for learning to code\nLearning to code can be frustrating at first. Frustrations are understandable and inevitable. But with deliberate practice, your coding and programming skills will improve.\nKeep the following tips from Ismay and Kim (2021) in mind as you learn to code in R:\n\nComputers are not that smart. You are the brains of the computer–it needs to be told what to do. Instructions must be clear and without ambuguity.\nCopy, paste, tweak. When you begin to learn coding, it is much easier to copy, paste, and modify code than start from scratch. When you first start to program, take existing code from the resources for this course, copy, paste, and tweak them to suit your goals. Once you become more comfortable with R, you will be able to recall functions and code from memory.\nLearning by doing. The best way to learn coding/programming is by doing. This is why COMM 3710 includes a lab component. Individual lab assignments and group project components afford you the opportunity to learn how to code and use R by completing tasks with a goal in mind.\nPractice, practice, practice. As with any skill, practice is necessary for improvement. Start on assignments early–anticipate that you will face challenges the first time you try an assignment. Use the resources provided in the course to help you troubleshoot. Most students do not start their assignments early enough to troubleshoot issues that arise. You can also use R for other courses–it is a versatile programming language that is powerful once you learn to use it. In fact, this book was made with R!\nR is case-sensitive. Most coding mistakes are typos. This is exacerbated when the programming language, such as R, is case-sensitive. Result, result, and RESULT are all different in R!\n\n\n\n2.3.5 R packages\nThere is a worldwide community of R users (e.g., search for #RCatLadies on X) who write code and bundle them into packages to extend the functionality of R.\nSome examples that we will use in this course include ggplot2 (Wickham, Navarro, and Pederson 2020), descr, and tidyverse.\nPackages in R are like apps on your phone–they extend the functionality of the base technology (Figure 2.3).\n\n\n\n\n\n\n\n\nFigure 2.3: R packages for R are analogous to apps for your mobile device.\n\n\n\n\n\nThere are two steps to using apps to extend the functionality of your phone:\n\nInstall app on your device from app store. This is typically done only once. An app that has been installed on your phone does not require additional installation.\nOpen app from device. You must open the app every time you wish to use it.\n\nSimilarly, R packages need to be installed on your computer and then opened and then loaded in R (Figure Figure 2.4). Note where quotation marks are used and omitted in the commands.\n\n\n\n\n\n\n\n\nFigure 2.4: Watch this gif to learn how to install and load packages in R. Note that the commands are typed into the Editor, not the Console–to run the commands written in the Editor, highlight and click Run in the top right corner.\n\n\n\n\n\n\nTo install a package, type install.packages() in the Console window. The argument that needs to be provided is the name of the package. For example, if you are installing the descr package, you would use the command install.packages(\"descr\"). Like an app, you only need to install a package once.\nTo use a package, you must load it. This is like opening an app–it must be done everytime you open a new R session. To load a package, use the command library(). The argument within the parentheses is the name of the package you want to load. For example, to load the descr package, use library(descr).\n\nSome common errors related to installing and loading packages, which R displays in red in the Console, are shown below:\nError in library(descr) : there is no package called ‘descr’\nIf you get this error, this means that you have not installed the package.\nError: could not find function\nThis error means that you likely did not load the package for this R session. Remember, you need to load R packages each time you open R.\n\n\n2.3.6 How do I know whether I need to install or load a package?\n\n\n\n\n\n\n\n\nFigure 2.5: Flowchart to help determine whether you should load or install packages.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html#learning-by-doing",
+    "href": "01_get-started.html#learning-by-doing",
+    "title": "2  Getting Started",
+    "section": "2.4 Learning by doing",
+    "text": "2.4 Learning by doing\nLet’s try out some commands. Open RStudio and start a new R script. If you need a reminder of how to start a new R script, review Section 2.3.1. To save your R script, see Section 3.7.\nTo start, let’s execute a simple command. In the Editor, type the following command.\n\n4 + 8\n\nTo run this command, which tells R to sum 4 and 8, highlight the command and click the  button in the upper right of the Editor window. You can also use the shortcut keys: Ctrl + Enter (Windows) or Cmd + Enter (Mac).\nYou will see the result of the command you just ran in the Console window.\n\n\n[1] 12\n\n\nNote that the [1] is produced by R. You can think of this as R telling you that this value, 12, is the answer to the first question you asked.2\nNext, try:\n\n3 * 3\n\nWhen you run this command, R will return the product of these two numbers.\n\n\n[1] 9\n\n\nAlthough it is good practice to write and execute commands line-by-line when you are first writing a R script, it can become tedious. To alleviate the tedium, you can run multiple commands at once by selecting all the lines that you want R to execute and using the keyboard shortcuts or the  button.\nType the following two lines in your Editor and try running them together:\n\n12 + 8\n16 / 4\n\nThe results in your Console panel should look like this:\n\n\n[1] 20\n\n\n[1] 4\n\n\nTable 2.1 shows some basic arithmetic operations in R. Play around with these functions in R to familiarize yourself with the R interface.\n\n\n\n\nTable 2.1: Operations, operators, and example inputs and outputs in R.\n\n\n\n\n\n\nOperation\nOperator\nInput\nOutput\n\n\n\n\naddition/sum\n+\n2 + 2\n4\n\n\nsubtraction\n-\n9 - 2\n7\n\n\nmultiplication/product\n*\n5 * 5\n25\n\n\ndivision\n/\n12 / 3\n4\n\n\npower/exponent\n^\n5 ^ 2\n25\n\n\n\n\n\n\n\n\n\n2.4.1 Creating objects\nR is an OOP or object-oriented programming language.\nYou can think of an object as a container that holds information that you, the user, assigns to it. You will need to assign a label to the container. R stores the information within the labeled container in the Environment ( Figure 2.6), which is the one of the tabs in the top right panel of RStudio.\n\n\n\n\n\n\n\n\nFigure 2.6: The Environment panel in RStudio/Posit Cloud.\n\n\n\n\n\nWe assign information to an object by using the assignment operator, &lt;-. The generic code for creating an object looks like:\nlabel &lt;- information\nLet’s say that we want to save the result of 2 * 10 to an object and call it kittens. In the Editor window, type and run the following R code:\n\nkittens &lt;- 2 * 10\n\nNotice that the result in the Console when you ran this command did not give you the result of 2 * 10.\nThis is because the result is stored as the object, kittens, and you have to ask R to display the result by calling the object. In the Editor, type kittens and run this command. You should see the result in the Console.\n\nkittens\n\n[1] 20\n\n\nNotice that the object, kittens, appeared in the Environment when you ran the command, kittens &lt;- 2 * 10 (Figure 2.7).\n\n\n\n\n\n\n\n\nFigure 2.7: The Environment panel after you run the R code to create the object, kittens.\n\n\n\n\n\n\n\n2.4.2 Data types\nR can store objects with different types of data. Let’s create three objects containing different data types.\n\na &lt;- 19.81\nb &lt;- \"Hello, Salt Lake City!\"\nc &lt;- TRUE\n\nTo check the type of data contained in objects a, b, and c, use the class() function.\n\nclass(a)\nclass(b)\nclass(c)\n\nYour Console should show:\n\n\n[1] \"numeric\"\n\n\n[1] \"character\"\n\n\n[1] \"logical\"\n\n\na is numeric; b is a character string; c is a so-called “logical” data type that is either TRUE or FALSE. These data types can be organized into various data structures. For example, a data frame, such as the data files you will use in your assignments, is one data structure.\n\n\n2.4.3 R Functions\nAs mentioned in Section Section 2.3.2, functions are commands that tell R what you want it to do. Functions take the (generic) form of command() with parentheses (or parents). The parentheses are for arguments, which give R specifics about the function you want it to perform.\nFor example, the print() function will print the result of the argument or input within the parentheses.\n\nprint(\"Hello, SLC!\")\n\n[1] \"Hello, SLC!\"\n\nprint(5 * 10)\n\n[1] 50\n\nprint(3 &gt; 5)\n\n[1] FALSE\n\n\n\n\n2.4.4 Working with data frames\nLet’s create a data frame to learn how to work with them. In the Editor panel, create a data frame by typing the following commands:\n\nid &lt;- 1:7\ncats &lt;- c(1, 3, 2, 3, 5, 2, 3)\ngender &lt;- c('male', 'female', 'male', 'female', 'male', 'female', 'female')\n\nWith the code above, you have created 3 objects, id, cats, and gender, using the concatenate() function, which can be shortened to c(). Assume these data represent 7 individuals who own a varying number of cats. And we have data on each individual’s gender.\nLet’s create a data frame from these individual objects.\n\nmydata &lt;- data.frame(id, gender, cats)\nView(mydata)\n\nAfter running the commands above, notice that your Environment panel now looks like Figure 2.8. Your data frame should look like Figure 2.9.\n\n\n\n\n\n\n\n\nFigure 2.8: Your Environment panel should look like this once you have run the above code.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2.9: The dataframe you just created.\n\n\n\n\n\nUsing the mydata data frame, we will calculate the mean number of cats an individual in our data set owns.\n\nmean(mydata$cats)\n\n[1] 2.714286\n\n\nThe $ allows us to extract a column of data, or a variable, from the mydata data frame. The use of $ will be important when working with R throughout this course.\nTo see how many females vs. males are included in the data frame, use the following command.\n\ntable(mydata$gender)\n\n\nfemale   male \n     4      3 \n\n\nLet’s now look at only the number of cats owned by males in our data. This means we need to subset the data. To do so, we use square brackets, [] combined with logical operators. In this case, we will use the logical operator, ==, which means “equal to.”\n\nmydata$cats[mydata$gender == \"male\"]\n\n[1] 1 2 5\n\n\nTo calculate the mean number of cats owned by males, we can either create a second data frame that is the subset of mydata…\n\nMonly &lt;- subset(mydata, gender == \"male\")\nmean(Monly$cats) # in this case, we must use the column, cats, in the data frame that has been subsetted, Monly.\n\n[1] 2.666667\n\n\nor we can include the last command as an argument in the mean() function.\n\nmean(mydata$cats[mydata$gender == \"male\"])\n\n[1] 2.666667\n\n\n\n\n2.4.5 Logical operators\nWe used one possible logical operator, ==, in the example above. Other logical operators include:\n\n&lt;: less than\n&lt;=: less than or equal to\n&gt;: greater than\n&gt;=: greater than or equal to\n!=: not equal to\n==: equal to\n&: and (e.g., a & b means “a AND b”)\n|: or (e.g., a | b means “a OR b”)\n\nWe can also use ! to specify a condition as not something. Returning to our example of the mean number of cats males in mydata own, we could instead calculate the mean of cats owned by all individuals who are != \"female\" or “not female.”\n\nmean(mydata$cats[mydata$gender != \"female\"])\n\n[1] 2.666667\n\n\nFigure 2.10 is a visual representation of the differences between some logical operators.\n\n\n\n\n\n\n\n\nFigure 2.10: Differences between Boolean operators AND, OR, and NOT.\n\n\n\n\n\n\n\n\n\nClear, James. 2017. “The Beginner’s Guide to Deliberate Practice.” James Clear. January 23, 2017. https://jamesclear.com/beginners-guide-deliberate-practice.\n\n\nIsmay, Chester, and Albert Y. Kim. 2021. Statistical Inference via Data Science. https://moderndive.com/.\n\n\nWickham, Hadley, Danielle Navarro, and Thomas Lin Pederson. 2020. Ggplot2: Elegant Graphics for Data Analysis. 3rd ed. Use R! New York, NY: Springer-Verlag. https://ggplot2-book.org/.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "01_get-started.html#footnotes",
+    "href": "01_get-started.html#footnotes",
+    "title": "2  Getting Started",
+    "section": "",
+    "text": "The terms coding and programming are used interchangeably in this book.↩︎\nThis is not exactly accurate, but it is close enough for now.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Getting Started</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html",
+    "href": "02_setup.html",
+    "title": "3  Assignment Setup",
+    "section": "",
+    "text": "3.1 Open RStudio or Posit Cloud\nIn this course you will use R for lab assignments. This chapter walks you through setting up R in preparation for completing assignments. Although you may have to refer to this chapter the first few times you set up R, you will soon become accustomed to the process and it will be a natural part of your workflow.\nRemember that R is the engine while RStudio is your dashboard. If you are using Posit Cloud, your engine is already integrated and you only need to navigate to the dashboard (i.e., Posit Cloud website). When you head out in a car, you don’t start by tinkering with the engine. Instead, you use the car via its dashboard.\nSimilarly, we will interact and use R through RStudio or Posit Cloud.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#create-a-new-r-script",
+    "href": "02_setup.html#create-a-new-r-script",
+    "title": "3  Assignment Setup",
+    "section": "3.2 Create a new R script",
+    "text": "3.2 Create a new R script\nTo start a new R script, use the File menu or the shortcut keys Ctrl + Shift + N (Windows) or Cmd + Shift + N (Mac).1 You can also use your mouse to point-and-click to open a new file (Figure 3.1).\n\n\n\n\n\n\n\n\nFigure 3.1: Open a new R script in RStudio or Posit Cloud.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#prepare-r-script",
+    "href": "02_setup.html#prepare-r-script",
+    "title": "3  Assignment Setup",
+    "section": "3.3 Prepare R script",
+    "text": "3.3 Prepare R script\nTo prepare your R script, use comments to type any relevant information about the script. Examples of relevant information include your name, your course, the semester during which you are enrolled in this course, the assignment name.\nComments in R are denoted by the hashtag symbol, #.\n\n## This is a comment.\n\nOnce you have included information about your script as comments, you should set your working directory (Figure @ref(fig:wd)). You can use the command setwd() to do this or the shortcut keys: Ctrl + Shift + H (Windows/Mac).\n\n\n\n\n\nSet your working directory in RStudio using the function, setwd().",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#creating-foldable-code-sections",
+    "href": "02_setup.html#creating-foldable-code-sections",
+    "title": "3  Assignment Setup",
+    "section": "3.4 Creating foldable code sections",
+    "text": "3.4 Creating foldable code sections\nYou can also create sections of foldable code in RStudio (Code &gt; Insert Section…). The figure below shows you how. Once you have created a section, you can collapse it by clicking the arrows next to the line numbers on the\n\n\n\n\n\nCreating sections of foldable code in RStudio.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#install-and-load-packages",
+    "href": "02_setup.html#install-and-load-packages",
+    "title": "3  Assignment Setup",
+    "section": "3.5 Install and load packages",
+    "text": "3.5 Install and load packages\nNext, you need to install and load the R packages (see @ref(packages)) you will be using for this R session. Refer to section @ref(packages) for more information about installing vs. loading packages.\nRemember that you only need to install packages once but you need to load packages each time you open R.\nThe functions to install and load packages are install.packages() and library(), respectively.\n\n## Install the tidyverse package\ninstall.packages(\"tidyverse\")\n\n## Load the tidyverse package (after installing)\nlibrary(tidyverse)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#set-working-directory-and-readload-data-into-r",
+    "href": "02_setup.html#set-working-directory-and-readload-data-into-r",
+    "title": "3  Assignment Setup",
+    "section": "3.6 Set working directory and read/load data into R",
+    "text": "3.6 Set working directory and read/load data into R\nOnce you have installed and loaded the packages that you will need to complete your assignment, you need to set your working directory (the path shown below is specific to your computer–replace c:/Users/SaraK/COMM-3710 with the path to the working directory that you created on your computer for this course).\nYou can use the keyboard shortcut in RStudio (Win/Mac: Ctrl + Shift + H) or use the setwd() function.\n\n## Set the working directory to my working directory\nsetwd(\"c:/Users/SaraK/COMM-3710\")\n\n## Read data from dataset.csv file into R (note the file name of your dataset\n## might be different)\ndataframe_name &lt;- read_csv(\"dataset.csv\")\n\nYou can replace dataframe_name with a name of your choice.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#sec-saveRscript",
+    "href": "02_setup.html#sec-saveRscript",
+    "title": "3  Assignment Setup",
+    "section": "3.7 Saving your R script",
+    "text": "3.7 Saving your R script\nBe sure to save your work often.\nYou are likely familiar with file types like .docx (Word documents), .pdf (PDF documents), and .txt (text files). If you have not worked with R prior to enrolling in this course, you may not have encountered files with the extension .R.\nFiles with a .R extension are known as R scripts. As noted in Section @ref(tour), a R script is simply a text file containing a set of commands and comments.\nTo save your script, click the  icon in RStudio or use the File menu (Figure @ref(fig:fig-save)). Give the file a sensible name and click Save. The file will be saved as .R in your working directory.\n\n\n\n\n\n\n\n\nFigure 3.2: Saving your R script in RStudio.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#assignment-r-script-checklist",
+    "href": "02_setup.html#assignment-r-script-checklist",
+    "title": "3  Assignment Setup",
+    "section": "3.8 Assignment R script checklist",
+    "text": "3.8 Assignment R script checklist\nBe sure you have at least the following components in your R script. This list is not comprehensive. It represents the minimal requirements for your R script.\n\nFull name and student ID #\nAssignment name/number (e.g., LA.1)\nAnnotations explaining your R code\nR command to set working directory\nR command to install (if necessary) and load packages\nR commands necessary for completion of your assignment",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02_setup.html#footnotes",
+    "href": "02_setup.html#footnotes",
+    "title": "3  Assignment Setup",
+    "section": "",
+    "text": "Keyboard shortcuts are available under Tools \\(\\rightarrow\\) Keyboard Shortcuts Help.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Assignment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "03_tips.html",
+    "href": "03_tips.html",
+    "title": "4  Tips on Working with R",
+    "section": "",
+    "text": "4.1 On labeling and naming objects\nThis chapter contains a collection of tips to help you progress on your R learning journey. Remember that there are many ways to achieve a goal using R code and there is a large community of R users who are often willing and able to help with troubleshooting code (e.g., Stack Overflow, RStudio Community).\nAll the cats. This image is from Aoshima Island, Japan. Read more about Aoshima Island here.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tips on Working with R</span>"
+    ]
+  },
+  {
+    "objectID": "03_tips.html#on-labeling-and-naming-objects",
+    "href": "03_tips.html#on-labeling-and-naming-objects",
+    "title": "4  Tips on Working with R",
+    "section": "",
+    "text": "R is case-sensitive. We covered this in Section @ref(learning-tips) but it is important enough to repeat. CATS, cats, Cats, cAts, and caTs are all different objects in R (Figure @ref(fig:cats))!\n\n\n\nObject names cannot include spaces. Therefore, my result is not a valid name, but my.result or my_result will work. You can also use numbers in object names.\nShort, informative labels for objects are best. Obviously, there is some trade-off between labels that are informative (tend to be long) vs. those that are short (tend not to be specific). Use your own judgment and common sense when naming objects. Read more about R coding style in the tidyverse style guide’s Chapters 1 and 2.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tips on Working with R</span>"
+    ]
+  },
+  {
+    "objectID": "03_tips.html#on-script-annotation",
+    "href": "03_tips.html#on-script-annotation",
+    "title": "4  Tips on Working with R",
+    "section": "4.2 On script annotation",
+    "text": "4.2 On script annotation\nWhen writing R code, you should include explanations to your future self or to other team members (e.g., when conducting data analysis for your group project). These explanations can be included as comments and annotations to your R code in the script.\nComments in R begin with #. R recognizes text that follows # as comments and ignores that text when running the code. Include annotations wherever possible; your future self and team members will thank you later.\nBelow is an example of some code that includes annotations and comments. Note that you can use as many # as you want.\n\n## Start by defining an object\nx &lt;- 3+5\n\ny &lt;- x+6 # adding 2 to x and assigning the result to y for later use\n\nz &lt;- x*y # z is the product of x and y\n\nprint(z) # this function displays the result of z in the Console\n\n## Next, I want to determine the mean across x, y, and z\nxyz &lt;- c(x, y, z) # this combines x, y, and z\nprint(xyz)\n\nmean(xyz) # this line calculates the mean of the object, xyz\n\n###############################################################################\n\nWhen you run this script, R recognizes the commands and ignores the comments. However, the comments and annotations are saved in the R script–and your future self and the rest of your team will be grateful.\n\n\n[1] 112\n\n\n[1]   8  14 112\n\n\n[1] 44.66667",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tips on Working with R</span>"
+    ]
+  },
+  {
+    "objectID": "03_tips.html#be-patient",
+    "href": "03_tips.html#be-patient",
+    "title": "4  Tips on Working with R",
+    "section": "4.3 Be patient1",
+    "text": "4.3 Be patient1\n\n“Whenever you’re learning a new tool, for a long time, you’re going to suck… But the good news is that is typical; that’s something that happens to everyone, and it’s only temporary.” -Hadley Wickham\n\nThe benefits of learning by doing slowly build and compound over time. This means that one must invest time to learn R by doing. You can expect the learning curve to look something like this:\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\nExpect to ride the R rollercoaster (Figure @ref(fig:r-coaster)).\n\n\n\n\n\nThe R rollercoaster. Artwork by Allison Horst.\n\n\n\n\nThe following paragraph is an excerpt from Barrett’s (2021) blog post. The original post is worth reading and keeping in mind as you take this learning journey of R and, more broadly, data science.\n\nThis is the stubbornly quiet path of practice: our abilities lag behind our effort. At the ‘Ugghhhh’ stage, our internal motivation starts to dissolve. Sure, you can make a plot or whatever, but you’re still fighting errors all day. What do you have to show for it at this point? Not that much more, you might feel, than when you started. But our growth is rarely linear: often, it’s explosive, at least at critical moments. We suddenly begin to make connections, which help us build other relationships, and so on. Growth is never infinite, but it’s also rarely as linked to our immediate efforts as we expect.\n\n\n\n\n\nBarrett, Malcolm. 2021. “Data Science as an Atomic Habit.” Malcolm Barrett. January 4, 2021. https://malco.io/2021/01/04/data-science-as-an-atomic-habit/.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tips on Working with R</span>"
+    ]
+  },
+  {
+    "objectID": "03_tips.html#footnotes",
+    "href": "03_tips.html#footnotes",
+    "title": "4  Tips on Working with R",
+    "section": "",
+    "text": "Source: Barrett (2021)↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tips on Working with R</span>"
+    ]
+  },
+  {
+    "objectID": "04_ggplot2.html",
+    "href": "04_ggplot2.html",
+    "title": "5  Graphing with ggplot2",
+    "section": "",
+    "text": "5.1 ggplot2 basics\nThis chapter covers the basics of plotting with the package, ggplot2. This package is contained within a collection of R packages designed for data science known as the tidyverse.\nThe core tidyverse includes packages that we use in everyday data analysis, including:\nTo learn more about the tidyverse, visit tidyverse.org.\nTo start working with graphs, first install and load the required package. Remember that you only have to install the package once (see Section @ref(packages) to review R packages).\nBuilding ggplot graphics is typically a layered process. The function that we use is ggplot(). We use the + to add layers to the function.\nIn the function arguments (i.e., the commands within the parentheses), we define the data set that we want to use with data =, the aesthetics (x- and y-axes) with aes(), and the type of graph with geom.\nAs a reminder, the x- and y-axes on a graph are shown below (Figure @ref(fig:x-y-axes)).\nThe x- and y-axes on a graph.\nIn the steps below, we will build the command sequentially. The ggplot() function will not run until the basic layers are in place.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Graphing with `ggplot2`</span>"
+    ]
+  },
+  {
+    "objectID": "04_ggplot2.html#ggplot2-basics",
+    "href": "04_ggplot2.html#ggplot2-basics",
+    "title": "5  Graphing with ggplot2",
+    "section": "",
+    "text": "5.1.1 Step 1. Specify data frame\nUse the dataframe name to specify the data frame you are using to build the plot. For example, if your data frame is named utilities, this line will be utilities %&gt;% ggplot(...).\n\ndataframe_name %&gt;% \n        ggplot() \n\n\n\n5.1.2 Step 2. Specify x- and y-axes\nNext, use aes() to tell R which variable to place on the x- (x_var) and y-axes (y_var). Note that you are adding this argument within the parentheses of the function, ggplot(). Be sure to close all parentheses–not doing so is a common error in R.\n\ndataframe_name %&gt;% \n        ggplot(aes(x = x_var, y = y_var))\n\nIf you are only working with only one variable (e.g., plotting a histogram of one variable), you need only specify the x = variable within aes().\n\n\n5.1.3 Step 3. Add geom\nThe third step is to tell R what type of graph to create–points, lines, bars, histograms, etc.–by adding the geom layer. This function is layered on to the ggplot() function using the + sign.\nFor example, if we would like the relationship between two variables to be represented by a scatter plot, we can simply add geom_point().\n\ndataframe_name %&gt;% \n        ggplot(aes(x = x_var, y = y_var)) + # note the + sign\n        geom_point()\n\nIf we are plotting the histogram of one variable, we use geom_histogram().\n\ndataframe_name %&gt;% \n        ggplot(aes(x = x_var)) + # note the + sign again\n        geom_histogram()\n\nFor a bar plot, we use geom_bar().\n\ndataframe_name %&gt;% \n        ggplot(aes(x = x_var)) + # note the + sign yet again\n        geom_bar()",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Graphing with `ggplot2`</span>"
+    ]
+  },
+  {
+    "objectID": "04_ggplot2.html#important-considerations",
+    "href": "04_ggplot2.html#important-considerations",
+    "title": "5  Graphing with ggplot2",
+    "section": "5.2 Important considerations",
+    "text": "5.2 Important considerations\nThe + sign used to add layers must be placed at the end of each line containing a layer. If the + sign is added in the line before the other layer, ggplot2 will return an error message.\n\n# This is the correct way of adding layers\ndataframe_name %&gt;% \n        ggplot( .... ) +\n        geom_point()\n\n# This will give you an error message (note where the + is)\ndataframe_name %&gt;% \n        ggplot( .... ) \n        + geom_point()",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Graphing with `ggplot2`</span>"
+    ]
+  },
+  {
+    "objectID": "04_ggplot2.html#learning-by-doing",
+    "href": "04_ggplot2.html#learning-by-doing",
+    "title": "5  Graphing with ggplot2",
+    "section": "5.3 Learning by doing",
+    "text": "5.3 Learning by doing\nLet’s create a graph with a toy data set called quiz.csv. It contains simulated data for Quiz 1 and 2 scores of 120 students. There data set contains three variables:\n\nid: Student ID\nquiz1: Quiz 1 scores\nquiz2: Quiz 2 scores\n\nFirst, make sure you set the working directory correctly on your computer and load the packages.\nDownload this data set (right click and select Save As…) and read it into R.\n\nquiz &lt;- read_csv(\"quiz.csv\")\n\n\n5.3.1 Histograms\nLet us examine the distribution of grades for Quiz 1 using a histogram.\nTo better understand what R is doing step-by-step, run these lines one at a time and see what happens in the Plots panel in RStudio.\n\n# 1: Try this command first\nquiz %&gt;% \n        ggplot()\n\n# 2: Then try this one\nquiz %&gt;% \n        ggplot(aes(x = quiz1))\n\n# 3: And, finally, try this\nquiz %&gt;% \n        ggplot(aes(x = quiz1)) +\n        geom_histogram()\n\nAs the exercise shows, the complete command is the third one.\n\nquiz %&gt;% \n        ggplot(aes(x = quiz1)) +\n        geom_histogram()\n\n\n\n\n\n\n\n\nTo do the same for Quiz 2 grades, simply change the x-axis specification in aes().\n\nquiz %&gt;% \n        ggplot(aes(x = quiz2)) +\n        geom_histogram()\n\n\n\n\n\n\n\n\n\n\n5.3.2 Scatter plots\nWhat if we want to examine whether there is a relationship between Quiz 1 and Quiz 2 scores? You might hypothesize that the scores on Quizzes 1 and 2 should be positively correlated.\nTo examine this graphically, we can use a scatter plot, which depicts the relationship between two quantitative variables. In this case, we use geom_point() to tell R that we want a graph with points.\n\nquiz %&gt;% \n        ggplot(aes(x = quiz1, y = quiz2)) +\n        geom_point() \n\n\n\n\n\n\n\n\n\n\n5.3.3 Adding axes labels and plot titles\nNo graph is complete without axis labels and a title. We can add axis labels and a plot title with the labs() layer. Again, it is important to add this layer by using the + sign.\n\nquiz %&gt;% \n        ggplot(aes(x = quiz1, y = quiz2)) +\n        geom_point() + \n        labs(x = \"Quiz 1 Grades\", \n             y = \"Quiz 2 Grades\",\n             title = \"Relationship between Quiz 1 and Quiz 2 grades in COMM 3710\")",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Graphing with `ggplot2`</span>"
+    ]
+  },
+  {
+    "objectID": "04_ggplot2.html#additional-resources-for-graphing",
+    "href": "04_ggplot2.html#additional-resources-for-graphing",
+    "title": "5  Graphing with ggplot2",
+    "section": "5.4 Additional resources for graphing",
+    "text": "5.4 Additional resources for graphing\nThis guide includes only the basics of graphing with ggplot2. If you have questions that are not covered in this guide, the R Graphics Cookbook is a practical guide that provides recipes for quickly generating high-quality graphs.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Graphing with `ggplot2`</span>"
+    ]
+  },
+  {
+    "objectID": "05_missing-data.html",
+    "href": "05_missing-data.html",
+    "title": "6  Missing Data",
+    "section": "",
+    "text": "6.1 Dealing with missing data\nIn R, missing data is represented by NA, which stands for “Not Available.” There can be many reasons for missing data. For example, a participant may have skipped a question on purpose or by accident, and therefore has no recorded value on a given variable.\nMissing data is a problem that we encounter frequently in data analysis.\nLet’s create a made-up data set (also called a toy dataset) to use as an example for this tutorial.\nThe data frame, week, consists of three variables:\nAssume the thermometer broke on Tuesday so temp data for that day is missing. On Thursday, I forgot to log the number of miles I ran so that data point is also missing.\nRun the following lines in R to create the data frame week:\nday &lt;- c(\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thur\", \"Fri\", \"Sat\") # creating a vector: days of the week\ntemp &lt;- c(32.3, 38.7, NA, 40.1, 37.6, 33.5, 31.7) # creating a vector: temperature readings\nmile &lt;- c(3.4, 4.5, 5.5, 5.5, NA, 4.2, 4.5) # creating a vector: miles run per day\nweek &lt;- data.frame(day, temp, mile) # creating a data frame with three variables: \"day\", \"temp\", \"mile\"\nTo view the data frame in R, type week in the Console.\nThe data frame should look like this:\nday\ntemp\nmile\n\n\n\n\nSun\n32.3\n3.4\n\n\nMon\n38.7\n4.5\n\n\nTue\nNA\n5.5\n\n\nWed\n40.1\n5.5\n\n\nThur\n37.6\nNA\n\n\nFri\n33.5\n4.2\n\n\nSat\n31.7\n4.5\nYou can also view the names and types of the variables in this data frame:\nnames(week)\n\n[1] \"day\"  \"temp\" \"mile\"\n\nstr(week)\n\n'data.frame':   7 obs. of  3 variables:\n $ day : chr  \"Sun\" \"Mon\" \"Tue\" \"Wed\" ...\n $ temp: num  32.3 38.7 NA 40.1 37.6 33.5 31.7\n $ mile: num  3.4 4.5 5.5 5.5 NA 4.2 4.5\nSuppose we are interested in the average temperature for the week. To compute the mean, we use the function mean().\nmean(week$temp)\nThe ouput from the function above is:\n[1] NA\nThat is because the variable temp contains one missing value NA, and in the command above, we did not tell R what to do with the missing value. Now, we will consider two ways of handling missing data.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Missing Data</span>"
+    ]
+  },
+  {
+    "objectID": "05_missing-data.html#dealing-with-missing-data",
+    "href": "05_missing-data.html#dealing-with-missing-data",
+    "title": "6  Missing Data",
+    "section": "",
+    "text": "day: day of the week\ntemp: temperature reading for each day in degrees Celsius\nmile: miles run per day\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6.1.1 Use the (, na.rm = TRUE) argument\nOne way to handle missing data in a function such as mean() is to simply tell R what to do with the missing data. In the code chunk below, we are asking R to remove the NA values from the calculation.\n\nmean(week$temp, na.rm = TRUE)\n\n[1] 35.65\n\n\nSo, the average temperature for the week excluding Tuesday is 35.65.\n\nna.rm is a logical value indicating whether NA values should be stripped before the computation proceeds.\n\nBy default na.rm = is set to FALSE. You will need to specify it as TRUE to let R know that you would like the NAs to be ignored by the command (i.e., NAs still exist in the data; they are just not included in the analysis).\n\n\n6.1.2 Use the na.omit() function\nAnother way of dealing with missing data is to create a new data set by excluding cases that contain NAs. The function to use is na.omit(), which tells R to remove cases that contain any NA value.\n\nweek_new &lt;- na.omit(week)\n\nNow, examine this new data frame:\n\nweek_new\n\n\n\n\n\n\n\nday\ntemp\nmile\n\n\n\n\n1\nSun\n32.3\n3.4\n\n\n2\nMon\n38.7\n4.5\n\n\n4\nWed\n40.1\n5.5\n\n\n6\nFri\n33.5\n4.2\n\n\n7\nSat\n31.7\n4.5\n\n\n\n\n\n\n\nAs you can see, there are only 5 rows of data in week_new. The rows for Tuesday and Thursday have been removed because Tuesday contained NA in the variable temp, and Thursday contained NA in the mile variable.\nSince week_new has no missing data, we can use mean() and other computation functions without the na.rm = TRUE argument.\n\nmean(week_new$temp)\nrange(week_new$temp)\nsum(week_new$temp) # sum of all the temperature readings\n\nYou should get:\n\n\n[1] 35.26\n\n\n[1] 31.7 40.1\n\n\n[1] 176.3\n\n\nIf you want to avoid creating new objects, you can nest the na.omit() function within the computation function (in this case, mean()). R will run the function na.omit() function first then calculate the mean of the result of the na.omit() function.\n\nmean(na.omit(week)$temp)\n\n[1] 35.26\n\n\n\n\n\n6.1.3 Wait! The results of the calculation are different\n\nYou may have noticed that running mean(week_new$temp) or mean(na.omit(week)$temp) returned a different result than what we did with the first approach–mean(week$temp, na.rm = TRUE).\n\n\n6.1.3.1 Why is this?\nna.omit() removes all the observations with a missing value – so observations for both Tuesdays and Thursdays are excluded. On the other hand, (, na.rm = TRUE) only ignores the NAs for the variable being analyzed.\nIn other words, mean(week$temp, na.rm = TRUE) computes the mean based on 6 observations–after excluding the NA for temp only.\nIn contrast, mean(week_new$temp) or equivalently mean(na.omit(week)$temp) computes the mean temperature based on 5 observations after removing NAs for both temp and mile, even though only temp is being analyzed here.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Missing Data</span>"
+    ]
+  },
+  {
+    "objectID": "05_missing-data.html#turning-values-into-na",
+    "href": "05_missing-data.html#turning-values-into-na",
+    "title": "6  Missing Data",
+    "section": "6.2 Turning values into NA",
+    "text": "6.2 Turning values into NA\nSometimes a response is recorded by researchers in a survey, but the response category is of little meaning to the goal of your analysis. In such cases you may choose to exclude such responses from the analysis.\nFor example, in a survey assessing the public’s attitude toward COVID vaccination, where “1 = strongly oppose” and “5 = strongly support”, the researchers also offered these categories that participants could choose:\n\n“77 = No opinion”\n\n“88 = Unsure/Undecided”\n\n“99 = I don’t know anything about the topic”\n\nLet’s quickly create another toy data set with 20 participants using the code chunk below.\n\nid &lt;- 1:20 # ID of participants \natt &lt;- c(1, 4, 1, 99, 2, 3, 5, 77, 2, 4, \n        5, 3, 88, 3, 2, 4, 1, 2, 3, 1) # attitude toward vaccination\ncovid &lt;- data.frame(id, att) # data frame with these two variables\n\nYou can see the data frame by calling the data frame, covid, in the Console (i.e., type covid in the Console).\n\n\n\n\n\nid\natt\n\n\n\n\n1\n1\n\n\n2\n4\n\n\n3\n1\n\n\n4\n99\n\n\n5\n2\n\n\n6\n3\n\n\n7\n5\n\n\n8\n77\n\n\n9\n2\n\n\n10\n4\n\n\n11\n5\n\n\n12\n3\n\n\n13\n88\n\n\n14\n3\n\n\n15\n2\n\n\n16\n4\n\n\n17\n1\n\n\n18\n2\n\n\n19\n3\n\n\n20\n1\n\n\n\n\n\n\n\nLet’s examine the values of the att variable.\n\nfreq(covid$att)\n\n\n\n\n\n\n\n\ncovid$att \n      Frequency Percent\n1             4      20\n2             4      20\n3             4      20\n4             3      15\n5             2      10\n77            1       5\n88            1       5\n99            1       5\nTotal        20     100\n\n\nIf we compute the mean without any data treatment, R would include the values 77, 88, and 99 in the computation. This, of course, incorrectly skews the distribution:\n\nmean(covid$att) # calculate mean without recoding the 77, 88, and 99 values\n\n[1] 15.5\n\n\nAn average of 15.5 on a 5-point attitude scale is not interpretable–that number is meaningless as it exceed the range of our response scale.\nThe calculated average is much higher because of the inclusion of the three values, 77, 88, and 99, which do not represent attitude strength.\nYou should remove these responses from your analysis by treating them as missing data. We can simply assign the value NA to replace the values 77, 88, and 99.\nUsing the recoding methods you have learned through subsetting, you could do the following:\n\ncovid$att[covid$att == 77] &lt;- NA \ncovid$att[covid$att == 88] &lt;- NA\ncovid$att[covid$att == 99] &lt;- NA\n\nYou could also use a logical operator to recode the values into NA.\n\ncovid$att[covid$att == 77 | covid$att == 88 | covid$att == 99] &lt;- NA\n\n## That is, if the value of \"att\" is 77 OR 88 OR 99, assign `NA` to the variable of \"att\". In other words, replace these three values with `NA`.\n\nYet another way to accomplish this recoding is to use the following line of code:\n\ncovid$att[covid$att &gt; 5] &lt;- NA\n\nSince 77, 88, 99 are the only three values outside the 1 - 5 range, you can also simply write:\nExamine the frequency distribution of att to determine whether you have successfully recoded 77, 88, and 99 as NA. If you are successful, you should observe three NAs in the frequency table. All other values should range from 1 - 5.\n\nfreq(covid$att)\n\n\n\n\n\n\n\n\ncovid$att \n      Frequency Percent Valid Percent\n1             4      20         23.53\n2             4      20         23.53\n3             4      20         23.53\n4             3      15         17.65\n5             2      10         11.76\nNA's          3      15              \nTotal        20     100        100.00\n\n\nNow, you can calculate an average for the att variable using mean(). Remember that you will have to deal with the NAs.\n\nmean(covid$att, na.rm = TRUE)\n\n[1] 2.705882",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Missing Data</span>"
+    ]
+  }
+]
