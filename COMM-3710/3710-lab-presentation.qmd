@@ -1,0 +1,78 @@
+---
+title: "COMM 3710: Lab Presentation"
+subtitle: |
+          | Sara K. Yeo
+          | [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+---
+
+# Objective
+
+The purpose of this assignment is to take the lead in teaching your peers
+about a chosen lab assignment and to demonstrate your comprehensive understanding of the lab material. In presenting your work and thought processes, your group is responsible for helping your peers understand the given lab assignment.
+
+::: {.callout-tip}
+Groups will sign up to present in the first week of lab.
+:::
+
+# Preparation
+
+With your group, you will:
+
+- develop a thorough understanding of the lab assignment;
+- follow the assignment closely without providing the answers to the assignment to your peers;
+- ensure that your peers can work through the assignment on their own after your group's explanation;
+- develop a clear and organized presentation that explains your thought processes and strategies for working through the lab assignment;
+- anticipate questions from your classmates and be prepared to answer them.
+
+# Submission
+
+Submit your example code on Canvas by 11:59 pm on the day before your presentation is scheduled.
+
+# Presentation Criteria
+
+Your presentation should include:
+
+- an overview of the content;
+- a walk-through of your example code (you will be explaining your thought processes and strategy in your presentation);
+- an opportunity for all group members to contribute equally to the presentation.
+
+# Group Peer Grading
+
+Each group member will fill out a confidential assessment (only your instructor will see this) of themselves and their team members' contributions to this presentation. This assessment will be completed in lab after the presentation. 
+
+::: {.callout-important}
+Peer-grading is confidential and only your instructor will see the grades you assign to yourself and your teammates.
+:::
+
+Your assessment should take the following format:
+
+Your Name = XX% (your contribution ranging from 0 - 100%)
+
+Group Member 1's Name = XX% (their contribution ranging from 0 - 100%)
+
+Group Member 2's Name = XX% (their contribution ranging from 0 - 100%)
+
+Group Member 3's Name = XX% (their contribution ranging from 0 - 100%)
+
+Group Member 4's Name = XX% (their contribution ranging from 0 - 100%)
+
+# Assessment Criteria
+
+Your group lab presentation grade will be based on the following:
+
+- **Code functionality.** Does the code/project run as intended without errors? Does it meet the criteria of the assignment?
+- **Clarity and organization.** Is the presentation logical, clear, easy-to-follow, and engaging?
+- **Depth of understanding.** Does the group demonstrate mastery of the material and the concepts in the assignment? Are the explanations accurate?
+- **Q&A proficiency.** Did the group accurately and confidently respond to questions?
+- **Group contribution and peer grading.** Did all team members contribute to this assignment? This will be determined through peer-grading.
