@@ -173,6 +173,6 @@ Some notes before we jump in to Posit Cloud and R.
         - Changing the theme.
         - Rainbow parentheses.
 - Pulling up help documentation in R.
-- Go through the 3710 R textbook.
+- Go through the 3710 R textbook section Getting Started.
 
 -->
