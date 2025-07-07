@@ -1,5 +1,5 @@
 ---
-title: "LA-5: Examining and Managing Data (15 points)"
+title: "LA-5: More Data Wrangling (15 points)"
 format:
    pdf:
       documentclass: article
