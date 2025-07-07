@@ -192,12 +192,12 @@ descr(wind$Turbine_Space)
 wind |> freq(Project.Number_Turbines)
 
 wind <- wind |> 
-        mutate(dNum_Turbines = case_when(
+        mutate(Project.Number = case_when(
                 Project.Number_Turbines <=100 ~ "low",
                 Project.Number_Turbines > 100 ~ "high"
         ))
 
-wind |> freq(dNum_Turbines)
+wind |> freq(Project.Number)
 
 #7a:  22,537 projects in low category
 #7b: 41,424 projects in the high category
