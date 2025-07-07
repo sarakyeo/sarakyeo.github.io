@@ -199,32 +199,8 @@ wind <- wind |>
 
 wind |> freq(dNum_Turbines)
 
-#7a:  22,537 projects
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-```
-
-
-```{r}
-#7b:  41,424 projects
+#7a:  22,537 projects in low category
+#7b: 41,424 projects in the high category
 
 ```
 
