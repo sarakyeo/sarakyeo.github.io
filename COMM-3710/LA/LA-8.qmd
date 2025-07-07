@@ -53,9 +53,9 @@ covid <- read_csv(here::here("COMM-3710", "LA","covid-full.csv"))
 
 ```
 
-2) Create a new variable called `asia_europe`. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain.\
-\
-Obtain descriptive statistics for the number of time respondents washed their hands on the previous day for Asia and Europe.
+2) Create a new variable called `asia_europe`. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain.
+
+        Obtain descriptive statistics for the number of time respondents washed their hands on the previous day for Asia and Europe.
 
    a) What is the mean and standard deviation of handwashes in Asia?
    b) What is the mean and standard deviation of handwashes in Europe?

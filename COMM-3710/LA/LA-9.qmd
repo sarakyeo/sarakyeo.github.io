@@ -43,9 +43,9 @@ Read all the instructions carefully before starting the assignment.
 
 # Instructions
 
-1)  Download the CPS dataset (`CPS.csv`) and codebook (`CPS-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester.
+1)  Download the CPS dataset (`CPS.csv`) and codebook (`CPS-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester. 
 
-Data for this assignment comes from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data consist of a random sample of persons from the survey, with information on wages and other characteristics of the workers, including sex, number of years of education, years of work experience, occupational status, region of residence and union membership. This data frame has 534 observations.
+    Data for this assignment comes from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data consist of a random sample of persons from the survey, with information on wages and other characteristics of the workers, including sex, number of years of education, years of work experience, occupational status, region of residence and union membership. This data frame has 534 observations.
 
 2) Find the mean wage earned per hour for males and females.
 
