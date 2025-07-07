@@ -28,7 +28,7 @@ library(kableExtra)
 library(formatR)
 
 # Read data into R
-wind <- read_csv("wind-turbines.csv")
+wind <- read_csv(here::here("COMM-3710", "LA", "wind-turbines.csv"))
 
 ```
 
@@ -78,6 +78,8 @@ wind |> freq(Year)
 wind |> 
         filter(Year >= 1983 & Year <= 1999) |> 
         freq(Year)
+wind |> freq(Year)
+2122/63961 # Percentage of turbines that became operational.
 
 # 2c: 3.32%
 
@@ -146,6 +148,31 @@ wind |>
     b)  What is the minimum value of `Turbine_Space`?
     c)  What is the maximum value of `Turbine_Space`?
 
+```{r}
+#| label: ans6
+#| include: false
+#| echo: false
+#| eval: false
+
+wind |> 
+        descr(Turbine.Hub_Height)
+
+wind |> 
+        descr(Turbine.Rotor_Diameter)
+
+wind <- wind |> 
+        rowwise() |> 
+        mutate(Turbine_Space = mean((Turbine.Hub_Height + Turbine.Rotor_Diameter)/2))
+
+wind |> freq(Turbine_Space)
+descr(wind$Turbine_Space)
+
+#6a:  87.5 m
+#6b:  19.1 m
+#6c:  134 m
+
+```
+
 7)  Sometimes, we may want to make continuous variables into categorical variables. For example, let's say we are interested in the number of turbines in a project, `Project.Number_Turbines`, but we want to categorize them into low vs. high numbers of turbines in projects.\
     \
     We refer to this process as **recoding variables**. For this exercise, let's recode projects with 100 turbines or less into the `low` category and those that have more than 100 turbines into the `high` category.\
@@ -154,6 +181,32 @@ wind |>
 
     a)  How many projects are in the **low** category?
     b)  How many projects are in the **high** category?
+
+
+```{r}
+#| label: ans7
+#| include: false
+#| echo: false
+#| eval: false
+
+wind |> 
+        descr(Turbine.Hub_Height)
+
+wind |> 
+        descr(Turbine.Rotor_Diameter)
+
+wind <- wind |> 
+        rowwise() |> 
+        mutate(Turbine_Space = mean((Turbine.Hub_Height + Turbine.Rotor_Diameter)/2))
+
+wind |> freq(Turbine_Space)
+descr(wind$Turbine_Space)
+
+#6a:  87.5 m
+#6b:  19.1 m
+#6c:  134 m
+
+```
 
 8)  **BONUS:** In the previous step, you created a new variable called `Project.Number`. What is the mean `Project.Capacity` among projects in the (a) low and (b) high `Project.Number` categories?
 
