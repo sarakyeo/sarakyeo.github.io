@@ -189,22 +189,42 @@ descr(wind$Turbine_Space)
 #| echo: false
 #| eval: false
 
-wind |> 
-        descr(Turbine.Hub_Height)
-
-wind |> 
-        descr(Turbine.Rotor_Diameter)
+wind |> freq(Project.Number_Turbines)
 
 wind <- wind |> 
-        rowwise() |> 
-        mutate(Turbine_Space = mean((Turbine.Hub_Height + Turbine.Rotor_Diameter)/2))
+        mutate(dNum_Turbines = case_when(
+                Project.Number_Turbines <=100 ~ "low",
+                Project.Number_Turbines > 100 ~ "high"
+        ))
 
-wind |> freq(Turbine_Space)
-descr(wind$Turbine_Space)
+wind |> freq(dNum_Turbines)
 
-#6a:  87.5 m
-#6b:  19.1 m
-#6c:  134 m
+#7a:  22,537 projects
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+#7b:  41,424 projects
 
 ```
 
