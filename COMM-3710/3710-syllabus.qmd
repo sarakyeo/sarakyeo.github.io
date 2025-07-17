@@ -2,8 +2,8 @@
 title: |
   | COMM 3710: Intro to Quantitative Research
 subtitle: |
-  | Lecture: Mondays (9:40 - 11:35 am), BEH S 111
-  | Lab: Wednesdays (9:40 - 11:35 am), BEH S 111
+  | Lecture: Mondays (9:40 - 11:35 am), GC 2760
+  | Lab: Wednesdays (9:40 - 11:35 am), GC 2760
   |
   | Professor: Dr. Sara K. Yeo
   | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
