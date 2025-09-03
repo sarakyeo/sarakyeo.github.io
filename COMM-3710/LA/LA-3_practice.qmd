@@ -15,7 +15,7 @@ urlcolor: blue
 
 # Before we start: Installing R on your personal laptop
 
-Before we start on today's practice assignment, we will install R and RStudio on your personal laptops.
+Before we start on today's practice assignment, we will install R and RStudio on your personal laptops. |> 
 
 # Setup
 
