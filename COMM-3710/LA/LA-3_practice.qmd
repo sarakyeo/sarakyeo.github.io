@@ -15,7 +15,7 @@ urlcolor: blue
 
 # Before we start: Installing R on your personal laptop
 
-Before we start on today's practice assignment, we will install R and RStudio on your personal laptops. |> 
+Before we start on today's practice assignment, we will install R and RStudio on your personal laptops.
 
 # Setup
 
@@ -30,7 +30,7 @@ Before we start on today's practice assignment, we will install R and RStudio on
 Comments (text preceded by `#` in your R script) are not run or executed. R will only run/execute commands or functions (text not preceded by `#`).
 :::
 
-2) Make a section of code titled "Installing and loading packages." Under this heading, install and load the following packages:
+2) Install and load the following packages:
 
 - `tidyverse`
 - `summarytools`
@@ -40,19 +40,9 @@ Comments (text preceded by `#` in your R script) are not run or executed. R will
 
 4) Load the packages using the `library()` function.
 
-# Entering Data Manually
+# Entering (More) Data Manually
 
-In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's learn about the function we will be using.
-
-1) Create a new section of code where you can explore and learn about the `c()` function.
-
-2) To read the documentation for any function, you can add `?` in front of the command and run it. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
-
-:::callout-tip
-The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource.
-:::
-
-3) Enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `PPG` (points per game), and `REB` (rebounds per game). There are two data types in the data table, numeric and character. Your TA will show you how to assign the data to the objects.
+1) Enter the data in the table below as three separate objects called `educ`, `polviews`, `gunlaw` (whether the respondent supports a law which requires a person to obtain a permit before they can buy a gun), `owngun` (whether the respondent owns a gun), and `numkids` (number of children in their household). There are two data types in the data table, numeric and character.
 
 ```{r}
 #| label: data
@@ -60,48 +50,50 @@ The documentation may not seem helpful at first glance, but once you become more
 #| warning: false
 
 library(tidyverse)
+library(summarytools)
+library(rstatix)
 library(kableExtra)
 
-Aname <- c("C. Clark", "J. Watkins", "L. Olsen", "C. Watson", "E. Kitley")
-Ateam <- c("Iowa", "USC", "Vill", "Buffalo", "VT")
-PPG <- c(31.6, 27.1, 23.2, 23.0, 22.8)
-REB <- c(7.4, 7.3, 4.8, 5.1, 11.4)
-df <- tibble(Aname, Ateam, PPG, REB)
+df <- read_csv(here::here("COMM-3710", "LA", "3710-GSS.csv"))
 
 df |> 
-  kable(caption = "2023-24 data of top 5 women's college basketball players by points per game (PPG).") |> 
+  kable(caption = "Data from the 2024 General Social Survey.") |> 
   kable_classic(full_width = FALSE)
 
 ```
 
-4) Check that you have created the objects correctly by calling each object. Calling an object in R allows you to see it in the Console. To call an object, type the name of the object in the Console and press Enter. Or type the name of the object in your R script, then highlight and run it. Copy and paste the results of calling the objects into your R script as comments. You can find the output in the Console pane.
+2) Combine the objects into a single data frame that has a name of your choosing. Use the `tibble()` function to do this. 
 
-5) Combine the objects into a single data frame that has a name of your choosing and look at the data frame. Use the `tibble()` function to do this. The data in the data frame should match that in Table 1. Call the data frame in the Console. Copy and paste the output as a comment in your R script.
+3) Check that the data in the data frame match that in Table 1 by calling the data frame in the Console. Copy and paste the output as a comment in your R script.
 
 # Examining Types of Data
 
-1) Now, we will examine the type of data stored in each column of our data frame. To do this, we will use the `class()` function. Let's start by reading the documentation for the `class()` function. Copy and paste the description of this function from the Help pane as a comment in your R script.
+4) Determine the class of each column in your data frame. Remember that your template function to do this is: `class(dataframe$variable)`. Copy and paste the class of each column in your R script.
 
-2) Determine the class of each column in your data frame. For example, if I wanted to check the class of `Aname`, I would use the function `class()` with the arguments: `df$Aname`. The whole command would look like this: `class(df$Aname)`. Copy and paste the class of each column in your R script.
+# Creating Data Visualizations
 
-# The `learnr` Tutorial
+5) Let's visualize some of these data in a bar graph. Copy and paste the code below (we will learn the details of how to do this later in the semester) into your R script and run it. Be sure to change `dataframe` to the name of your dataframe.
 
-In this last section, we will use a Tutorial that is built into an existing R package.
+```
+dataframe |> 
+        ggplot(aes(x = polviews, fill = gunlaw)) +
+        geom_bar()
 
-Install and load the `learnr` package in your current session of R. In the Tutorial tab (usually top right with the Environment pane), complete the **Data Basics** tutorial. If you are asked to install packages or dependencies, do so.
+```
 
-Include the answers to the questions below in your R script as comments. Clearly label your answers with the question number (e.g., a, b). You will answer these questions as part of the Data Basics Tutorial. List the answers from your tutorial as comments in your R script.
+# Calculating a Mean
 
-a) What does the `drv` variable of `mpg` describe? Read the help for `?mpg` to find out.
-b) How many rows are in the data frame named `cars`?
-c) How many columns are in the data frame named `cars`?
-d) Which types of variables does `flights` contain? List all the types that you checked in the tutorial.
+6) Lastly, let's calculate the average number of children that respondents in this sample have. Use the function `mean()` to calculate this. Your template for this function is: `mean(dataframe$variable)`.
+
+7) Now we want to save the value that we just calculated into an object so we can use it later. Use the skills you learned last week and practiced this week to save the mean number of children to an object (use any name that you would like). 
+
+8) Call the object (be sure to include the command to call the object in your R script) and copy and paste the answer in your script. Make sure that the answer is commented out in the script. 
 
 ---
 
 # Submission
 
-Submit your R script (named `LA-#_FirstName-LastName.R`) to Canvas.
+Submit your R script (named `Practice_FirstName-LastName.R`) to Canvas.
 
 Your R script should:
 
