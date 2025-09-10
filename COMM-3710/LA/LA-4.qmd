@@ -49,9 +49,9 @@ Read all the instructions carefully before starting the assignment. Set up your 
 
 1)  Set up your R script for this assignment (name, uNID, date, assignment number). Install (if necessary) and load the packages below.
 
-   - `tidyverse`
-   - `summarytools`
-   - `rstatix`
+-   `tidyverse`
+-   `summarytools`
+-   `rstatix`
 
 ```{r}
 #| label: ans1
@@ -71,16 +71,20 @@ library(rstatix)
 
 3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times. To read the data into R, use the following code (note there are differences in the code depending on whether you are working on Posit Cloud online or RStudio on your own laptop):
 
-        # On your own laptop:
-        # install.packages("here") # you will only need to install this package if you
-        # are working from your personal laptop
+```{r}
+#| eval: FALSE
         
-        bway <- read_csv(here::here("Desktop", "3710","bway.csv"))
+# On your own laptop:
+# install.packages("here") # you will only need to install this package if you
+# are working from your personal laptop
         
-        # On Posit Cloud
+bway <- read_csv(here::here("Desktop", "3710","bway.csv"))
+
+# On Posit Cloud:
         
-        bway <- read_csv("broadway.csv")
-        
+bway <- read_csv("broadway.csv")
+
+```
 
 ```{r}
 #| label: ans3
@@ -115,74 +119,77 @@ glimpse(bway)
 
 7)  In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
 
-    ```         
-     Woke up |>
-     Took a shower |>
-     Got dressed |>
-     Made breakfast |>
-     Ate breakfast |>
-     Went to class
-    ```
+```{r}
+#| eval: false
 
-    Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script and use `#` to include your answers as comments in your script).
+Woke up |>
+Took a shower |>
+Got dressed |>
+Made breakfast |>
+Ate breakfast |>
+Went to class
 
-    a)  What is the name of the variable that tells us the name of the show?
-    b)  What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
-    c)  What is the name of the variable that measures the attendance per show?
+```
 
-    Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
+Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script and use `#` to include your answers as comments in your script).
 
-    ```{r}
-    #| label: ex7
+a)  What is the name of the variable that tells us the name of the show?
+b)  What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
+c)  What is the name of the variable that measures the attendance per show?
 
-    # Start with the broadway data frame, which I called bway
-    # Filter for cases that only contain Mamma Mia! from the broadway data using
-    # the Show.Name variable
-    # Calculate the mean of the attendance among these cases
+Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
 
-    ```
+```{r}
+#| label: ex7
 
-    Translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
+# Start with the broadway data frame, which I called bway
+# Filter for cases that only contain Mamma Mia! from the broadway data using
+# the Show.Name variable
+# Calculate the mean of the attendance among these cases
 
-    ```{r}
-    #| label: ex7a
-    #| echo: TRUE
-    #| eval: false
-    #| include: TRUE
-    #| tidy: TRUE
+```
 
-    bway |> # Start with the broadway data frame
+Translate the pseudocode to R functions using the pipe operator and calculate the mean attendance for *Mamma Mia!*.
+
+```{r}
+#| label: ex7a
+#| echo: TRUE
+#| eval: false
+#| include: TRUE
+#| tidy: TRUE
+
+bway |> # Start with the broadway data frame
             filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
             summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
 
-    # Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
-    # of the mean, if there are any in your dataset. We don't have those in this
-    # dataset, though.
+# Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
+# of the mean, if there are any in your dataset. We don't have those in this
+# dataset, though.
 
-    ```
+```
 
 8)  Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
 
-    ```{r}
-    #| label: ex7b 
-    #| echo: true 
-    #| eval: false 
-    #| include: true 
-    #| tidy: true  
+```{r}
+#| label: ex7b 
+#| echo: true 
+#| eval: false 
+#| include: true 
+#| tidy: true  
 
-    bway |> # Start with the broadway data frame         
+bway |> # Start with the broadway data frame         
             filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases       
             summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean   
                       min_attd = min(Statistics.Attendance, na.rm = TRUE), # Find minimum 
                       max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum}
             
-    ```
+```
 
-    Using the calculations performed by the R commands above, answer the following questions:
+Using the calculations performed by the R commands above, answer the following questions:
 
-    a)  What is the minimum number of people who attended Mamma Mia!?
-    b)  What is the maximum number of people who attended Mamma Mia!?
-    c)  What is the mean number of people who attended Mamma Mia!?
+a)  What is the minimum number of people who attended Mamma Mia?
+b)  What is the maximum number of people who attended Mamma Mia?
+c)  What is the mean number of people who attended Mamma Mia?
 
 ::: callout-note
 There is a function that is part of the package, `summarytools`, that will enable you to obtain these statistics with a single function. For **2 bonus points**, try to figure out this function and use it in this exercise.
@@ -204,7 +211,7 @@ bway |> # Start with the broadway data frame
 
 ```
 
-9)  Use the same logic and process from the example above to answer the following questions.
+9)  Use the same logic and process from the example above to answer the following questions:
 
     a)  What is the minimum number of people who attended The Lion King?
     b)  What is the maximum number of people who attended The Lion King?
@@ -229,9 +236,9 @@ bway |> # Start with the braodway data frame
 
 10) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-    a) Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    b) Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    c) Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
+    a)  Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    b)  Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
 #| label: ans10
