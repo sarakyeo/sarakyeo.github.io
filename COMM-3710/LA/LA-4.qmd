@@ -49,9 +49,9 @@ Read all the instructions carefully before starting the assignment. Set up your 
 
 1)  Set up your R script for this assignment (name, uNID, date, assignment number). Install (if necessary) and load the packages below.
 
--   `tidyverse`
--   `summarytools`
--   `rstatix`
+   - `tidyverse`
+   - `summarytools`
+   - `rstatix`
 
 ```{r}
 #| label: ans1
@@ -67,9 +67,20 @@ library(rstatix)
 
 ```
 
-2)  Download the data file called `broadway.csv` from Canvas and upload it to your project for this assignment on Posit Cloud.
+2)  Download the data file called `broadway.csv` from Canvas and upload it to your project for this assignment on Posit Cloud. If you are using R on your own machine, be sure you know to location to which the data file is downloaded. Create a folder on your Desktop called `3710` and move your data file into this folder. You should also save your .R files into this folder for your assignments.
 
-3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times.
+3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times. To read the data into R, use the following code (note there are differences in the code depending on whether you are working on Posit Cloud online or RStudio on your own laptop):
+
+        # On your own laptop:
+        # install.packages("here") # you will only need to install this package if you
+        # are working from your personal laptop
+        
+        bway <- read_csv(here::here("Desktop", "3710","bway.csv"))
+        
+        # On Posit Cloud
+        
+        bway <- read_csv("broadway.csv")
+        
 
 ```{r}
 #| label: ans3
@@ -83,8 +94,8 @@ bway <- read_csv("broadway.csv")
 
 5)  Using the results of `glimpse()` in your Console, answer the following questions (as comments in your R script).
 
-    a)  How many cases are there in the broadway dataset?
-    b)  How many variables are there in the broadway dataset?
+    a)  How many cases (hint: rows) are there in the broadway dataset?
+    b)  How many variables (hint: columns) are there in the broadway dataset?
 
 ```{r}
 #| label: ans5ab
@@ -97,7 +108,7 @@ glimpse(bway)
 
 ```
 
-6)  Now that we know the dimensions of our data frame (i.e., rows/cases, columns/variables), let's get a little more familiar with these data. Download the codebook from Canvas (.csv file) and take a look at the names and descriptions of the variables. In your R script, answer the following questions:
+6)  Now that we know the dimensions of our data frame (i.e., rows/cases, columns/variables), let's get a little more familiar with these data. Download the **codebook** from Canvas (.csv file) and take a look at the names and descriptions of the variables. In your R script, answer the following questions:
 
     a)  What does the variable, `Statistics.Performances`, measure?
     b)  What is the name of the variable that describes the maximum amount that a show can earn?
@@ -113,7 +124,7 @@ glimpse(bway)
      Went to class
     ```
 
-    Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script).
+    Now, we will work on an example using the broadway data. We want to figure out the average number of people who attended the show for *Mamma Mia!* and *The Lion King*. Answer the question below as comments in your R script (be sure to label this clearly in the script and use `#` to include your answers as comments in your script).
 
     a)  What is the name of the variable that tells us the name of the show?
     b)  What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
@@ -125,7 +136,8 @@ glimpse(bway)
     #| label: ex7
 
     # Start with the broadway data frame, which I called bway
-    # Filter for cases that only contain Mamma Mia! from the broadway data using the Show.Name variable
+    # Filter for cases that only contain Mamma Mia! from the broadway data using
+    # the Show.Name variable
     # Calculate the mean of the attendance among these cases
 
     ```
@@ -141,7 +153,7 @@ glimpse(bway)
 
     bway |> # Start with the broadway data frame
             filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases
-            summarise(Mattd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
+            summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE)) # Find mean
 
     # Note that na.rm = TRUE removes NAs (i.e., missing values) from the calculation
     # of the mean, if there are any in your dataset. We don't have those in this
