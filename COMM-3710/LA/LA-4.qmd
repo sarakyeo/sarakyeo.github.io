@@ -57,9 +57,9 @@ Read all the instructions carefully before starting the assignment. Set up your 
 #| label: ans1
 #| include: false
 
-install.packages("tidyverse")
-install.packages("summarytools")
-install.packages("rstatix")
+# install.packages("tidyverse")
+# install.packages("summarytools")
+# install.packages("rstatix")
 
 library(tidyverse)
 library(summarytools)
