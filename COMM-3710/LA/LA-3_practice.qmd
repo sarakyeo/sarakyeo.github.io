@@ -42,7 +42,7 @@ Comments (text preceded by `#` in your R script) are not run or executed. R will
 
 # Entering (More) Data Manually
 
-1) Enter the data in the table below as three separate objects called `educ`, `polviews`, `gunlaw` (whether the respondent supports a law which requires a person to obtain a permit before they can buy a gun), `owngun` (whether the respondent owns a gun), and `numkids` (number of children in their household). There are two data types in the data table, numeric and character.
+1) Enter the data in the table below as five separate objects called `educ`, `polviews`, `gunlaw` (whether the respondent supports a law which requires a person to obtain a permit before they can buy a gun), `owngun` (whether the respondent owns a gun), and `numkids` (number of children in their household). There are two data types in the data table, numeric and character.
 
 ```{r}
 #| label: data
