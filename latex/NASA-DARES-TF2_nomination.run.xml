@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>main.bcf</file>
+      <file>NASA-DARES-TF2_nomination.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bbl</file>
+      <file>NASA-DARES-TF2_nomination.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>main</infile>
+      <infile>NASA-DARES-TF2_nomination</infile>
     </cmdline>
     <input>
-      <file>main.bcf</file>
+      <file>NASA-DARES-TF2_nomination.bcf</file>
     </input>
     <output>
-      <file>main.bbl</file>
+      <file>NASA-DARES-TF2_nomination.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>main.bbl</file>
+      <file>NASA-DARES-TF2_nomination.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bcf</file>
+      <file>NASA-DARES-TF2_nomination.bcf</file>
     </requires>
     <requires type="editable">
       <file>refs.bib</file>
