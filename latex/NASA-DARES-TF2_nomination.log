@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.15)  18 SEP 2025 09:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.15)  18 SEP 2025 09:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,13 +946,25 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'NASA-DARES-TF2_nomination.bbl' found.
- (./NASA-DARES-TF2_nomination.bbl)
+ (./NASA-DARES-TF2_nomination.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                bimmsCommunicatingDiscoveriesSearch
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 49.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+
+LaTeX Warning: Citation 'bi' on page 1 undefined on input line 53.
+
+
 
 [1
 
@@ -997,25 +1009,34 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `NASA-DARES-TF2_nomination.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                NASA-DARES-TF2_nomination
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'NASA-DARES-TF2_nomination.run.xml'.
 \openout1 = `NASA-DARES-TF2_nomination.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33263 strings out of 467800
- 624093 string characters out of 5436055
- 1576966 words of memory out of 5000000
- 61388 multiletter control sequences out of 15000+600000
- 656127 words of font info for 88 fonts, out of 8000000 for 9000
+ 33272 strings out of 467800
+ 624208 string characters out of 5436055
+ 1577038 words of memory out of 5000000
+ 61391 multiletter control sequences out of 15000+600000
+ 659410 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,91p,1359b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on NASA-DARES-TF2_nomination.pdf (2 pages, 76731 bytes).
+Output written on NASA-DARES-TF2_nomination.pdf (2 pages, 77124 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
- 16397 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 18445 words of extra memory for PDF output out of 20736 (max. 10000000)
 
