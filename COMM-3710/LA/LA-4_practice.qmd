@@ -1,5 +1,5 @@
 ---
-title: "Practice Data Wrangling"
+title: "Data Wranglin Practice"
 format:
    pdf:
       documentclass: article
@@ -41,7 +41,7 @@ library(rstatix)
 #| label: ans2
 #| include: false
 
-bway <- read_csv("broadway.csv")
+bway <- read_csv(here::here("COMM-3710", "LA", "broadway.csv"))
 
 ```
 
@@ -50,7 +50,58 @@ bway <- read_csv("broadway.csv")
     b)  What is the maximum number of people who attended *Miss Saigon*?
     b)  What is the mean number of people who attended *Miss Saigon*?
 
-4)  How many musicals and plays were there at the Stephen Sondheim theatre in 2011?
+```{r}
+#| label: ans3
+#| include: false
+
+bway |>
+   filter(Show.Name == "Miss Saigon") |>
+   descr(Statistics.Attendance)
+
+# Min = 1,737
+# Max = 14,088
+# Mean = 11,950
+
+```
+
+4) Let's run a frequency distribution to see how many of each type of show (i.e., musicals, plays, specials) are in our dataset. To do this, we use the `freq()` function, which is included in the `summarytools` package. Use the frequency table that is output in the Console to determine how many shows were plays.
+
+```{r}
+#| label: ans4
+#| include: false
+
+bway |> freq(Show.Type)
+
+# 8406 shows in the dataset are plays.
+
+```
+
+5) How many plays, musicals, and specials were performed at the Brooks Atkinson Theater in New York? You may need to examine a frequency distribution of the names of the theatres in the dataset to determine how to filter your data so that you only examine one specific theatre.
+
+```{r}
+#| label: ans5
+#| include: false
+
+bway |> 
+   filter(Show.Theater == "Brooks Atkinson") |>
+   freq(Show.Type)
+
+# 381 musicals, 302 plays, 7 specials were performed at the Brooks Atkinson Theater.
+
+```
+
+6) How many musicals and plays were there at the Stephen Sondheim theatre in 2011?
+
+```{r}
+#| label: ans6
+#| include: false
+
+bway |>
+   filter(Show.Theater == "Stephen Sondheim") |>
+   filter(Date.Year == 2011) |>
+   freq(Show.Type)
+
+```
 
 ------------------------------------------------------------------------
 

@@ -1,0 +1,19 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'NASA-DARES-TF2_nomination.blg'
+[368] biber-MSWIN64:342> INFO - === 
+[512] Biber.pm:421> INFO - Reading 'NASA-DARES-TF2_nomination.bcf'
+[631] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[650] Biber.pm:4487> INFO - Processing section 0
+[676] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
+[1319] bibtex.pm:1713> INFO - LaTeX decoding ...
+[25600] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[26663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[26663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[26663] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[26664] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[26682] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[26683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[26683] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[26683] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[26687] bbl.pm:676> INFO - Writing 'NASA-DARES-TF2_nomination.bbl' with encoding 'UTF-8'
+[26692] bbl.pm:779> INFO - Output to NASA-DARES-TF2_nomination.bbl
