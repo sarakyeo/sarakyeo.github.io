@@ -1,24 +1,57 @@
 % main.tex - simple LaTeX template
-\documentclass[12pt]{article}
+% \documentclass[12pt]{article}
 
-% Packages
-\usepackage[T1]{fontenc}
+% % Packages
+% \usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc}
+% \usepackage{lmodern}
+% \usepackage{microtype}
+% \usepackage{amsmath,amssymb}
+% \usepackage{graphicx}
+% \usepackage{booktabs}
+% \usepackage[letterpaper, margin=1in]{geometry}
+% \usepackage{hyperref}
+% \usepackage{enumitem}
+% \usepackage{csquotes}
+% \usepackage{caption}
+% \usepackage{float}
+% \usepackage{tikz}
+
+% \usepackage[style=apa, backend=biber]{biblatex}
+% \addbibresource{refs.bib}
+
+\PassOptionsToPackage{quiet}{fontspec}
+\documentclass[12pt]{letter}
+\usepackage{ctex}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
-\usepackage{microtype}
-\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage[letterpaper, margin=1in]{geometry}
-\usepackage{hyperref}
-\usepackage{enumitem}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+%\usepackage{times} %Times New Roman font
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{titlesec}
+    \titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
 \usepackage{csquotes}
-\usepackage{caption}
-\usepackage{float}
-\usepackage{tikz}
+\usepackage[nodayofweek]{datetime}
+       
+\usepackage{hyperref}
+    \hypersetup{
+        colorlinks=true,
+        linkcolor=blue,
+        urlcolor=blue,
+        filecolor=blue,
+        citecolor=black}
 
 \usepackage[style=apa, backend=biber]{biblatex}
 \addbibresource{refs.bib}
+    
+\setlength{\parindent}{0pt} %Paragraph indentation
+\setlength{\parskip}{1em} %Vertical space between paragraphs
 
 % Metadata
 % \title{Title of the Document}
@@ -27,33 +60,50 @@
 
 \begin{document}
 
-% \maketitle
-% 
-% \begin{abstract}
-% Write an abstract here.
-% \end{abstract}
+%-----------------------------Letterhead-----------------------------%
+% \hfill
+\begin{minipage}{4in}
+    \vspace{-4em}
+    \begin{centering}
+        \includegraphics[width=6.5in]{Communication-letterhead.png}
+    \end{centering}
+    \vspace{0.5em}
+\end{minipage}
+% \hfill %Horizontal fill 
+
+\vspace{-1.5em}% vertical space
+% \rule{\linewidth}{1pt} % Horizontal rule
+% \vspace{-2.5em}% make the date more close to the horizontal line
+%-----------------------------text-----------------------------%
+
+\today\\
+
+% \textbf{Subject here}\\
+% \rule{\linewidth}{0.5pt}
+
+Dear NASA-DARES Task Force 2 Selection Committee,
 
 I am writing to express my strong interest in serving as a NASA Decadal Astrobiology Research and Exploration Strategy (DARES) Task Force 2 member. My background, expertise, and leadership in science communication aligns well with Focus Area 9 (Astrobiology in Society) and are directly relevant to NASA-DARES Topic 8 (Prepare for the Discovery of Life Beyond Earth and Subsequent Post-Discovery Activities). I am interested in continuing and contributing to conversations and work that I began as part of the Scientific Organizing Committee (SOC) for the 2024 NASA workshop, Communicating Discoveries in the Search for Life in the Universe (CDSLU). The societal implications of any discovery of life beyond Earth are profound and far-reaching, unbounded by national borders, and will have significance for all aspects of humanity. It is thus imperative that we are prepared to responsibly and ethically communicate about astrobiology research that finds evidence of life beyond Earth. In this endeavor, it is equally critical that we rely on empirical evidence from science communication, not on intuition.
 
-\vspace{1em}
-
 I have a multifaceted background in science and communication. I hold a BS in Oceanography, a MS in Ocenography and another in Life Sciences Communication, and a PhD in Science Communication. My circuitous journey to the discipline of Communication is central to my scholarship. My research is centered on understanding the processes through which public audiences form attitudes, opinions, and make decisions in the context of media representations of and messages about scientific issues. Broadly, my work focuses on strategic tactics for communicating information in the context of diverse issues in science, including climate change, renewable energy, biomanufacturing, and astrobiology. Notably, I conducted a study on the Arsenic bacteria controversy \parencite{yeoCaseArseniclifeBlogs2017} in which I used both qualitative and quantitative methods to analyze how public audiences engaged with and interpreted the scientific claims made in the retracted \textit{Science} article \parencite{wolfe-simonBacteriumThatCan2011}. This case study exeplifies the crucial role of media in post-publication peer review and the need to understand the intersection of science, media, and society.
-
-\vspace{1em}
 
 Throughout my career, I have contributed to national and international science communication and public engagement efforts that bridge scientific research and societal impact. At the local level, I serve as an Advisory Board Member for the graduate student-led group, Utah Science Communicators (USCo). At the national level, in addition to my service on the CDSLU SOC, I co-led a section of the CDSLU workshop report \parencite{bimmWorkshopReportCommunicatingforthcoming}. I have also served on the Steering Committees of the Science and Public Engagement Partnership (SciPEP)\footnote{\href{https://www.scipep.org/}{https://www.scipep.org/}} between the Kavli Foundation and the Department of Energy's Office of Science and the Association of Science Communicators (ASC). I am also currently on the Standing Committee for Advancing Science Communication and the Board on Life Sciences in the National Academies of Sciences, Engineering, and Medicine (NASEM). Internationally, I have served on the Scientific Committee of the Global Network for Science Communication (PCST; formerly the International Network for Public Communication of Science and Technology)\footnote{\href{https://www.pcst.network/}{https://www.pcst.network/}} and as a member of the Scientific Advisory Committee for the International Symposium on Communicating Discovery Science\footnote{\href{https://www.discoveryscience.co.za/}{https://www.discoveryscience.co.za/}}, which was held in Stellenbosch, South Africa in 2024.
 
-\vspace{1em}
-
 My experience in leading research projects in science communication, participating in conference and workshop planning, and serving in advisory roles have provided me with a broad perspective on the challenges and opportunities in science communication across diverse contexts. I believe I have a nuanced and in-depth perspective on challenges and opportunities related to communicating complex scientific discoveries. In addition to my expertise and service experience, I am the Director of the STEM Ambassador Program (STEMAP)\footnote{\href{https://stemap.utah.edu/}{https://stemap.utah.edu/}}, a public engagement and communication training program for researchers that equip scientists with practical skills and knowledge to effectively connect with audiences that are typically underserved by more traditional modes of science communication. This role has given me a bird's eye view of the landscape of societal impacts of research and the challenges and opportunities that scientists face when engaging with public audiences.
-
-\vspace{1em}
 
 I am excited about the opportunity to collaborate with other experts to advance NASA Astrobiology's strategic goals and am open to serving as a Focus Area Lead. My goals are two-fold: First, I hope to advance our understanding and the role of communication in astrobiology by applying lessons learned from empirical scholarship in science communication. Second, I hope to encourage more research related to astrobiology in society and the discovery of life in science communication and related disciplines. My expertise, experiences, and leadership skills position me well to contribute meaningfully to TF2’s work. I am committed to fostering an collaborative environment that values multiple perspectives and expertise. I am confident that my background, expertise, skills, and dedication to science communication will enable me to make significant contributions to the NASA-DARES Task Force 2.
 
+Thank you for considering this nomination. I look forward to hearing from you and the opportunity to contribute to this important work.
+
 \vspace{1em}
 
-Thank you for considering this nomination. I look forward to hearing from you and the opportunity to contribute to this important work. Please do not hesitate to contact me if you require additional information.
+Sincerely,\\
+\includegraphics[height=5em]{signature.png}\\
+Sara K. Yeo\\
+Professor\\
+Department of Communication\\
+University of Utah\\
+\href{mailto:sara.yeo@utah.edu}{sara.yeo$@$utah.edu}
 
 \newpage
 
