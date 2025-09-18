@@ -1,0 +1,465 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{bimmWorkshopReportCommunicatingforthcoming}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=501fd5f282a49aa42224d52a15b51006}{%
+           family={Bimm},
+           familyi={B\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a8d1218f5b6e39012b8168ead799e7e}{%
+           family={Voytek},
+           familyi={V\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd635bd0e92acf310df9a44928004899}{%
+           family={Scharf},
+           familyi={S\bibinitperiod},
+           given={Caleb},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59d096462c1757886adffd56065382e6}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30ee1a87302aa32212b9304ef8c9178e}{%
+           family={Suldovsky},
+           familyi={S\bibinitperiod},
+           given={Brianne},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b819a6ebea9159b36e24bc3c5152758}{%
+           family={{Wolfe-Simon}},
+           familyi={W\bibinitperiod},
+           given={Felisa},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3016126672fffd74a5d1fae01ba6cf2e}{%
+           family={Cable},
+           familyi={C\bibinitperiod},
+           given={Morgan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf7a6f1c5c6147d1157823d080e08921}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Sara\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aab8b85c7cde93e3d85195e8751ed14d}{%
+           family={Xenos},
+           familyi={X\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11fbeff74047fa8c4661b4b0fdb69fe1}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Antigona},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c084d69c08d781eb2e8498d6b655662}{%
+           family={Berea},
+           familyi={B\bibinitperiod},
+           given={Anamaria},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38510247e8081aea4dbcccd113e88bd7}{%
+           family={Anbar},
+           familyi={A\bibinitperiod},
+           given={Arial},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99aca2685b21be5f81c17a0fa92791f}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2934339d6a9cd8e3a51f49f132f5f7e}{%
+           family={Meadows},
+           familyi={M\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=244878bdadbaf58bd8cb1eb0594b1c33}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=461d7de3e72f8b581e87662cfa0a2712}{%
+           family={Cartier},
+           familyi={C\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e63166f662ff0bde2f158e7c6ba47082}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a0c2da3fcb1d7522ed7b40e8122316d}{%
+           family={Nováková},
+           familyi={N\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=090678e5c51d2d100015864e05b85e4a}{%
+           family={Ockert},
+           familyi={O\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=201b1d743e655b8bed53ec0b4183664e}{%
+           family={Determann},
+           familyi={D\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7205580a31fd7f5cdaf213851ecdf315}
+      \strng{fullhash}{912d0a117875e2571c169039924f3d3c}
+      \strng{fullhashraw}{912d0a117875e2571c169039924f3d3c}
+      \strng{bibnamehash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authorbibnamehash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authornamehash}{7205580a31fd7f5cdaf213851ecdf315}
+      \strng{authorfullhash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authorfullhashraw}{912d0a117875e2571c169039924f3d3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrobiology}
+      \field{title}{Workshop {{Report}}: {{Communicating Discoveries}} in the {{Search}} for {{Life}} in the {{Universe}}}
+      \field{year}{forthcoming}
+      \verb{file}
+      \verb C:\Users\sarak\Zotero\storage\S2JIQQ36\Bimm et al. - Workshop Report Communicating Discoveries in the Search for Life in the Universe.pdf
+      \endverb
+    \endentry
+    \entry{yeoHumorCanIncrease2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf7a6f1c5c6147d1157823d080e08921}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Sara\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=364fe7785efe0444266916c74361bdb1}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c76c7a32e98cd209dd61b967cdc920e}{%
+           family={Cacciatore},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2893753f43dffcc6905e54b0e1dd3925}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Ashley\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81d90669fec018febd16e3f9774caeb5}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Kasha},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{253c479fce1219084cf20a1358995482}
+      \strng{fullhash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{fullhashraw}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{bibnamehash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authorbibnamehash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authornamehash}{253c479fce1219084cf20a1358995482}
+      \strng{authorfullhash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authorfullhashraw}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Across a wide range of issues and a variety of sources, scientific information often gets lost in translation, failing to properly inform, educate, and engage publics in a meaningful way. But science communication is like a wine?it is better when it is outside the box. One promising tactic for more effective scientific communication is the use of humor to both engage and educate less interested and knowledgeable citizens on important topics. Here, we investigate whether the identity of a speaker influences perceptions of their effectiveness at connecting with and engaging public audiences. We conducted a 2 (Gender: Female vs. Male) ? 2 (Race: Black Speaker vs. White Speaker) ? 2 (Credentials: Scientist vs. Comedian) between-subjects experiment and found that race and gender of the source, relative to their credentials, were not significant factors for predicting the perceptions of communicator effectiveness. We also found that experienced humor, or mirth, moderated the relationship between the speaker?s credentials and perceived effectiveness. We discuss the implications of our findings for science communication research and practice.}
+      \field{issn}{1075-5470}
+      \field{journaltitle}{Science Communication}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Humor Can Increase Perceived Communicator Effectiveness Regardless of Race, Gender, and Expertise---If You Are Funny Enough}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{44}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{593\bibrangedash 620}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1177/10755470221132278
+      \endverb
+      \verb{file}
+      \verb C:\Users\sarak\Zotero\storage\9RK623BN\Yeo et al_2022_Humor Can Increase Perceived Communicator Effectiveness Regardless of Race,.pdf
+      \endverb
+      \keyw{CLIMATE-CHANGE,communicator effectiveness,expertise,FEMALE,gender,MASCULINITY,PERCEPTIONS,POWER,race,SATIRICAL TELEVISION-NEWS,SCIENCE,science humor,SCIENTISTS,SEX,STEREOTYPES}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{bimmWorkshopReportCommunicatingforthcoming}{article}{}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=501fd5f282a49aa42224d52a15b51006}{%
+           family={Bimm},
+           familyi={B\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a8d1218f5b6e39012b8168ead799e7e}{%
+           family={Voytek},
+           familyi={V\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd635bd0e92acf310df9a44928004899}{%
+           family={Scharf},
+           familyi={S\bibinitperiod},
+           given={Caleb},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59d096462c1757886adffd56065382e6}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30ee1a87302aa32212b9304ef8c9178e}{%
+           family={Suldovsky},
+           familyi={S\bibinitperiod},
+           given={Brianne},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b819a6ebea9159b36e24bc3c5152758}{%
+           family={{Wolfe-Simon}},
+           familyi={W\bibinitperiod},
+           given={Felisa},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3016126672fffd74a5d1fae01ba6cf2e}{%
+           family={Cable},
+           familyi={C\bibinitperiod},
+           given={Morgan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf7a6f1c5c6147d1157823d080e08921}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Sara\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aab8b85c7cde93e3d85195e8751ed14d}{%
+           family={Xenos},
+           familyi={X\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11fbeff74047fa8c4661b4b0fdb69fe1}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={Antigona},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c084d69c08d781eb2e8498d6b655662}{%
+           family={Berea},
+           familyi={B\bibinitperiod},
+           given={Anamaria},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38510247e8081aea4dbcccd113e88bd7}{%
+           family={Anbar},
+           familyi={A\bibinitperiod},
+           given={Arial},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a99aca2685b21be5f81c17a0fa92791f}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2934339d6a9cd8e3a51f49f132f5f7e}{%
+           family={Meadows},
+           familyi={M\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=244878bdadbaf58bd8cb1eb0594b1c33}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=461d7de3e72f8b581e87662cfa0a2712}{%
+           family={Cartier},
+           familyi={C\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e63166f662ff0bde2f158e7c6ba47082}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a0c2da3fcb1d7522ed7b40e8122316d}{%
+           family={Nováková},
+           familyi={N\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=090678e5c51d2d100015864e05b85e4a}{%
+           family={Ockert},
+           familyi={O\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=201b1d743e655b8bed53ec0b4183664e}{%
+           family={Determann},
+           familyi={D\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7205580a31fd7f5cdaf213851ecdf315}
+      \strng{fullhash}{912d0a117875e2571c169039924f3d3c}
+      \strng{fullhashraw}{912d0a117875e2571c169039924f3d3c}
+      \strng{bibnamehash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authorbibnamehash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authornamehash}{7205580a31fd7f5cdaf213851ecdf315}
+      \strng{authorfullhash}{912d0a117875e2571c169039924f3d3c}
+      \strng{authorfullhashraw}{912d0a117875e2571c169039924f3d3c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrobiology}
+      \field{title}{Workshop {{Report}}: {{Communicating Discoveries}} in the {{Search}} for {{Life}} in the {{Universe}}}
+      \field{year}{forthcoming}
+      \verb{file}
+      \verb C:\Users\sarak\Zotero\storage\S2JIQQ36\Bimm et al. - Workshop Report Communicating Discoveries in the Search for Life in the Universe.pdf
+      \endverb
+    \endentry
+    \entry{yeoHumorCanIncrease2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=bf7a6f1c5c6147d1157823d080e08921}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Sara\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=364fe7785efe0444266916c74361bdb1}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c76c7a32e98cd209dd61b967cdc920e}{%
+           family={Cacciatore},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2893753f43dffcc6905e54b0e1dd3925}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Ashley\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81d90669fec018febd16e3f9774caeb5}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Kasha},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{253c479fce1219084cf20a1358995482}
+      \strng{fullhash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{fullhashraw}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{bibnamehash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authorbibnamehash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authornamehash}{253c479fce1219084cf20a1358995482}
+      \strng{authorfullhash}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \strng{authorfullhashraw}{a3e4564edb3c7809f1f4b2baf97374ad}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Across a wide range of issues and a variety of sources, scientific information often gets lost in translation, failing to properly inform, educate, and engage publics in a meaningful way. But science communication is like a wine?it is better when it is outside the box. One promising tactic for more effective scientific communication is the use of humor to both engage and educate less interested and knowledgeable citizens on important topics. Here, we investigate whether the identity of a speaker influences perceptions of their effectiveness at connecting with and engaging public audiences. We conducted a 2 (Gender: Female vs. Male) ? 2 (Race: Black Speaker vs. White Speaker) ? 2 (Credentials: Scientist vs. Comedian) between-subjects experiment and found that race and gender of the source, relative to their credentials, were not significant factors for predicting the perceptions of communicator effectiveness. We also found that experienced humor, or mirth, moderated the relationship between the speaker?s credentials and perceived effectiveness. We discuss the implications of our findings for science communication research and practice.}
+      \field{issn}{1075-5470}
+      \field{journaltitle}{Science Communication}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Humor Can Increase Perceived Communicator Effectiveness Regardless of Race, Gender, and Expertise---If You Are Funny Enough}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{44}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{593\bibrangedash 620}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1177/10755470221132278
+      \endverb
+      \verb{file}
+      \verb C:\Users\sarak\Zotero\storage\9RK623BN\Yeo et al_2022_Humor Can Increase Perceived Communicator Effectiveness Regardless of Race,.pdf
+      \endverb
+      \keyw{CLIMATE-CHANGE,communicator effectiveness,expertise,FEMALE,gender,MASCULINITY,PERCEPTIONS,POWER,race,SATIRICAL TELEVISION-NEWS,SCIENCE,science humor,SCIENTISTS,SEX,STEREOTYPES}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
