@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.15)  18 SEP 2025 09:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.15)  18 SEP 2025 10:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,7 +949,7 @@ Package biblatex Info: ... file 'NASA-DARES-TF2_nomination.bbl' found.
  (./NASA-DARES-TF2_nomination.bbl)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 51.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -957,42 +957,44 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 62.
+
+[2]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 62.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 62.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 62.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 62.
+(Font)              <12> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 62.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-[2] (./NASA-DARES-TF2_nomination.aux)
+[3] (./NASA-DARES-TF2_nomination.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -1004,18 +1006,18 @@ Package logreq Info: Writing requests to 'NASA-DARES-TF2_nomination.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33274 strings out of 467800
- 624523 string characters out of 5436055
- 1577094 words of memory out of 5000000
- 61394 multiletter control sequences out of 15000+600000
- 656309 words of font info for 90 fonts, out of 8000000 for 9000
+ 33302 strings out of 467800
+ 625382 string characters out of 5436055
+ 1580208 words of memory out of 5000000
+ 61400 multiletter control sequences out of 15000+600000
+ 657257 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,91p,1359b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on NASA-DARES-TF2_nomination.pdf (2 pages, 79896 bytes).
+Output written on NASA-DARES-TF2_nomination.pdf (3 pages, 82476 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 55 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  16397 words of extra memory for PDF output out of 17280 (max. 10000000)
 
