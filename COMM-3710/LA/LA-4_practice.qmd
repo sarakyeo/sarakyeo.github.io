@@ -1,5 +1,5 @@
 ---
-title: "Data Wranglin Practice"
+title: "Practice Data Wrangling"
 format:
    pdf:
       documentclass: article
