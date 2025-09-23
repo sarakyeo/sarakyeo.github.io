@@ -95,9 +95,53 @@ But sometimes we get responses that look like this. What's the problem here? ...
 
 1) Test-retest reliability
 2) Alternate forms reliability
-3) Split-half reliability
-4) Cronbach’s alpha
+3) Average inter-item reliability
+4) Split-half reliability
+5) Cronbach’s alpha ($\alpha$)
 
 ---
 
-## 
+## Test-Retest Reliability
+
+Assessing consistency over time
+
+- use the test-retest method with the same respondents
+- compare responses to the <mark>same measure</mark> at $t_1$ and $t_2$
+- good reliability coefficient is between ~0.7 and 0.9
+
+![](reliability-validity-04.jpg){fig-align="center"}
+
+:::{.notes}
+
+Test–retest reliability for attitude measures is estimated by administering the instrument to the same group of people on two occasions, separated by some given amount of time. Good attitude-measuring instruments normally produce test–retest reliability coefficients of 0.70 or above, and many coefficients are 0.90 or above. If a researcher finds a test–retest reliability below 0.70, then her or his participants are not responding to the scale consistently. Conversely, test–retest reliability coefficients of about 0.90 indicate that people are filling out the scale at Time 1 and Time 2 in almost identical fashion.
+
+:::
+
+---
+
+## Alternate Forms Reliability
+
+Also assessing consistency over time
+
+- use the test-retest method with the same respondents
+- compare responses to the <mark>different measure</mark> at $t_1$ and $t_2$
+- good reliability coefficient will be slightly lower than test-retest method
+
+![](reliability-validity-05.jpg){fig-align="center"}
+
+--- 
+
+## Assessing inter-item reliability
+
+:::{.columns}
+:::{.column width="50%"}
+![](reliability-validity-06.jpg){fig-align="center"}
+:::
+
+:::{.column width="50%" }
+- Average inter-item reliability
+- Split-half reliability
+- Cronbach's alpha ($\alpha$)
+:::
+:::
+
