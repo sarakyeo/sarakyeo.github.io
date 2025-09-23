@@ -1,15 +1,103 @@
 ---
 title: "Reliability and Validity"
 format:
-    reveal-js:
-        incremental: true
+    revealjs:
+        show-notes: false
 ---
 
 ## Week 7
 
+- Extra credit opportunity: Take the survey (link in Announcement on Canvas)
 - Reliability
     - Statistical ways to examine reliability
     - Improving reliability
 - Validity
     - Types/Approaches to validity
 - Measurement problems related to reliability and validity
+
+---
+
+## Criteria of Measurement Quality
+
+How do we judge success / failure for measuring concepts?
+
+:::{.incremental}
+:::{.columns}
+:::{.column width="40%"}
+
+- reliability
+- validity
+
+:::
+:::{.column width="60%"}
+
+- consistency of measurement
+- confidence in measures
+
+:::
+:::
+:::
+
+---
+
+## Reliability
+
+- refers to <mark>**whether a measure produces stable, consistent measurement**</mark>
+- analogous to precision
+- if you measure multiple times, values should not change
+
+Scalar reliability
+
+- reliability of research scales
+- most commonly assessed
+
+---
+
+## Scalar Reliability: An Example
+
+![](reliability-validity-01.png){fig-align="center"}
+
+:::{.notes}
+
+We have to examine how people are answering our measure of attitudes toward higher education. We will talk about how individual respondents can answer scales such as this, but when assessing reliability of a measure, we need to look collectively at the respondents’ scores to a scale, not just individual scores. Some people will respond inconsistently, but, hopefully, most will respond consistently. We need some way to evaluate whether these responses are consistent across the sample—we need statistical ways of doing this.
+
+:::
+
+---
+
+## 
+
+![](reliability-validity-02.png){fig-align="center"}
+
+:::{.notes}
+
+This is what responses should look like if participants have positive (top) or negative (botton) feelings about higher education.
+
+:::
+
+---
+
+##
+
+On the scale below, please indicate your feelings about **"Higher Education."**
+
+![](reliability-validity-03.png){fig-align="center"}
+
+:::{.notes}
+
+But sometimes we get responses that look like this. What's the problem here? ... However, we don't know whether these responses are "real" or whether they are due to lack of attention, misunderstanding of the questions, etc. We have to have statistical ways to collectively look at how reliably respondents' have answered this question using this scale to find out.
+
+:::
+
+---
+
+## Statistical Ways to Examine Reliability
+
+1) Test-retest reliability
+2) Alternate forms reliability
+3) Split-half reliability
+4) Cronbach’s alpha
+
+---
+
+## 
