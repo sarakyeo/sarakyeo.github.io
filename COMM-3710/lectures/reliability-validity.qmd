@@ -186,6 +186,7 @@ Problem that we must be aware of: More indicators = higher Cronbach’s alpha. W
 ```{r}
 #| label: rel-val-01
 #| output: true
+#| echo: false
 
 val <- c("≥ 0.90", "0.80 - 0.90", "0.70 - 0.80", "0.65 - 0.70", "0.60 - 0.65", "≤ 0.60")
 assess <- c("Excellent", "Good", "Respectable", "Minimally acceptable", "Undesirable", "Unacceptable")
