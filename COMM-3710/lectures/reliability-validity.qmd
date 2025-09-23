@@ -1,0 +1,15 @@
+---
+title: "Reliability and Validity"
+format:
+    reveal-js:
+        incremental: true
+---
+
+## Week 7
+
+- Reliability
+    - Statistical ways to examine reliability
+    - Improving reliability
+- Validity
+    - Types/Approaches to validity
+- Measurement problems related to reliability and validity
