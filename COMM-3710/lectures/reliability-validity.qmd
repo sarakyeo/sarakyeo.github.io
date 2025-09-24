@@ -5,6 +5,16 @@ format:
         show-notes: false
 ---
 
+## Sustainable Campus Initiative Fund (SCIF)
+
+Emerson Andrews (emerson.andrews\@utah.edu), Office for Sustainability Education
+
+- https://sustainability.utah.edu/
+
+![](scif.jpg){fig-align="center"}
+
+---
+
 ## Week 7
 
 - Extra credit opportunity: Take the survey (link in Announcement on Canvas)
