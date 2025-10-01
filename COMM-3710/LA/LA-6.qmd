@@ -52,7 +52,7 @@ Read all the instructions carefully before starting the assignment.
    * `tidyverse`
    * `summarytools`
 
-2) Read and follow along with Chapter 5 of [this online book](https://sarakyeo.github.io/COMM3710-textbook). Use the data provided in the chapter to follow the steps in Ch. 5.
+2) Read and follow along with Chapter 5 of [this online book](https://sarakyeo.github.io/COMM3710-textbook/). Use the data provided in the chapter to follow the steps in Ch. 5.
 
 :::callout-tip
 Do not skip this step. It will help you understand `ggplot2`.
