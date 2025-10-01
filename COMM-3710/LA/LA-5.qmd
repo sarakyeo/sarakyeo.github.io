@@ -206,6 +206,19 @@ wind |> freq(Project.Number)
 
 8)  **BONUS:** In the previous step, you created a new variable called `Project.Number`. What is the mean `Project.Capacity` among projects in the (a) low and (b) high `Project.Number` categories?
 
+```{r}
+#| label: ans8
+#| include: false
+#| echo: false
+#| eval: false
+
+wind |> 
+        group_by(Project.Number) |> 
+        descr(Project.Capacity)
+
+
+```
+
 ------------------------------------------------------------------------
 
 # Submission
