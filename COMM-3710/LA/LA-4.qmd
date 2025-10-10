@@ -26,7 +26,7 @@ library(kableExtra)
 library(formatR)
 
 # Read broadway data into R
-bway <- read_csv("broadway.csv")
+bway <- read_csv(here::here("COMM-3710", "LA", "broadway.csv"))
 
 ```
 
@@ -53,46 +53,9 @@ Read all the instructions carefully before starting the assignment. Set up your 
 -   `summarytools`
 -   `rstatix`
 
-```{r}
-#| label: ans1
-#| include: false
-
-# install.packages("tidyverse")
-# install.packages("summarytools")
-# install.packages("rstatix")
-
-library(tidyverse)
-library(summarytools)
-library(rstatix)
-
-```
-
 2)  Download the data file called `broadway.csv` from Canvas and upload it to your project for this assignment on Posit Cloud. If you are using R on your own machine, be sure you know to location to which the data file is downloaded. Create a folder on your Desktop called `3710` and move your data file into this folder. You should also save your .R files into this folder for your assignments.
 
 3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times. To read the data into R, use the following code (note there are differences in the code depending on whether you are working on Posit Cloud online or RStudio on your own laptop):
-
-```{r}
-#| eval: FALSE
-        
-# On your own laptop:
-# install.packages("here") # you will only need to install this package if you
-# are working from your personal laptop
-        
-bway <- read_csv(here::here("Desktop", "3710","bway.csv"))
-
-# On Posit Cloud:
-        
-bway <- read_csv("broadway.csv")
-
-```
-
-```{r}
-#| label: ans3
-#| include: false
-
-bway <- read_csv("broadway.csv")
-
-```
 
 4)  Let's get a sense of our data using the `glimpse()` function. This function, which is included in the `tidyverse` suite of packages for R, allows us to get a glimpse of our data. To use this function, the command is: `glimpse(df)` where `df` is the name of your data frame.
 
@@ -102,7 +65,7 @@ bway <- read_csv("broadway.csv")
     b)  How many variables (hint: columns) are there in the broadway dataset?
 
 ```{r}
-#| label: ans5ab
+#| label: ans5
 #| include: false
 
 glimpse(bway)
@@ -116,6 +79,16 @@ glimpse(bway)
 
     a)  What does the variable, `Statistics.Performances`, measure?
     b)  What is the name of the variable that describes the maximum amount that a show can earn?
+
+```{r}
+#| label: ans6
+#| include: false
+
+
+# 6a: Number of performances that occurred this week.
+# 6b: Statistics.Gross Potential
+
+```
 
 7)  In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is part of the package, `magrittr` and also included in the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
 
@@ -136,6 +109,17 @@ Now, we will work on an example using the broadway data. We want to figure out t
 a)  What is the name of the variable that tells us the name of the show?
 b)  What does the variable, `Date.Month`, measure and what is the format of the data in this variable?
 c)  What is the name of the variable that measures the attendance per show?
+
+```{r}
+#| label: ans7
+#| include: false
+
+
+# 7a: Show.Name
+# 7b: The numeric month that this performance's week ended in (1 = January, 2 = February, etc.).
+# 7c: Statistics.Attendance
+
+```
 
 Next, write the steps (in plain language as comments, i.e., pseudocode) to determine the average attendance per show for *Mamma Mia!* and *The Lion King*, respectively. An example of pseudocode is shown below.
 
@@ -205,18 +189,18 @@ bway |> # Start with the broadway data frame
                   min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum
                   max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum
 
-# 7d: 3307 people
-# 7e: 13742 people
-# 7f: 10436 people
+# 8a: Min = 3,307 people
+# 8b: Max = 13,742
+# 8c: Mean = 10,436
 
 ```
 
 9)  Use the same logic and process from the example above to answer the following questions:
 
     a)  What is the minimum number of people who attended The Lion King?
-    b)  What is the maximum number of people who attended The Lion King?
+    b)  What is the maximum number of people who attended The Lion King? 
     c)  What is the mean number of people who attended The Lion King?
-    d)  Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful?
+    d)  Compare the statistics you just calculate for *Mamma Mia!* and *The Lion King*. Overall, which show would you say is more successful? 
 
 ```{r}
 #| label: ans9
@@ -228,9 +212,10 @@ bway |> # Start with the braodway data frame
                   min_attd = min(Statistics.Attendance, na.rm = TRUE), # find minimum
                   max_attd = max(Statistics.Attendance, na.rm = TRUE)) # find maximum
 
-# 8a: 13477 people
-# 8b: 15737 people
-# 8c: 16319 people
+# 9a: Min = 5,737 people
+# 9b: Max = 16,319 people
+# 9c: Mean = 13,477 people
+# 9d: The Lion King is more successful.
 
 ```
 
@@ -245,21 +230,23 @@ bway |> # Start with the braodway data frame
 #| include: false
 
 bway |> # Start with the braodway data frame
-        filter(Show.Theater == "Studio 54") |> # Select only Studio 54 cases
+        filter(Show.Theater == "Majestic") |> # Select only Studio 54 cases
         filter(Show.Type == "Musical") |> # Select type == musical
         summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
                   min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
                   max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum
 
 bway |> # Start with the braodway data frame
-        filter(Show.Theater == "Vivian Beaumont") |> # Select only Vivian Beaumont cases
+        filter(Show.The
+        ater == "Vivian Beaumont") |> # Select only Vivian Beaumont cases
         filter(Show.Type == "Musical") |> # Select type == musical
         summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
                   min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
                   max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum
 
-#9a: min = 185490 USD, max = 1843296 USD, mean = 750724 USD
-#9b: min = 67578 USD, max = 1247155 USD, mean = 561461 USD
+# 10a: min = 185490 USD, max = 1843296 USD, mean = 750724 USD
+# 10b: min = 67578 USD, max = 1247155 USD, mean = 561461 USD
+# 10c: Majestic is more successful.
 
 ```
 

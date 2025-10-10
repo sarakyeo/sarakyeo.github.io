@@ -56,6 +56,7 @@ bway <- read_csv(here::here("COMM-3710", "LA", "broadway.csv"))
 
 bway |>
    filter(Show.Name == "Miss Saigon") |>
+   group_by() |> 
    descr(Statistics.Attendance)
 
 # Min = 1,737
@@ -96,10 +97,11 @@ bway |>
 #| label: ans6
 #| include: false
 
-bway |>
-   filter(Show.Theater == "Stephen Sondheim") |>
-   filter(Date.Year == 2011) |>
-   freq(Show.Type)
+temp <- bway |>
+   filter(Show.Theater == "Stephen Sondheim" & Date.Year == 2011)
+temp |> freq(Show.Type)
+
+# 42 musicals and 1 play
 
 ```
 
