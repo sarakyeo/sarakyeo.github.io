@@ -31,14 +31,7 @@ Choose a topic of interest within social sciences (e.g., social media usage, stu
 
 1) For each concept, design **at least 3** survey questions that measure it (i.e., you should have at least 6 survey questions for this assignment). Try to use different types of scales (e.g., Likert, semantic differential) and multiple items in a matrix format to measure your concepts. Use the template on Canvas for your survey codebook.
 
-2) Set up your Qualtrics account. The College of Humanities maintains a license to Qualtrics, which is a survey software platform that allows users to easily create and manage surveys. If you are working in a group, only one student needs to have a Qualtrics account.
-   - Go to our access page (humutah.qualtrics.com). You can access it here.
-   - Click on "create new user".
-      - user: youremail@utah.edu (**you must use your utah.edu email account**)
-      - password: enter a password you will remember
-   - When creating the new user it will ask for a code for self-enrollment use. The code is: **bXLWa**.
-
-Be sure to check your Spam folder in your email for a confirmation email. It can take several minutes to arrive in your Inbox.
+2) Set up your Qualtrics account. Follow the instructions at [software.utah.edu](https://software.utah.edu/faq/license/qualtrics/index.php). Be sure to check your Spam folder in your email for a confirmation email. It can take several minutes to arrive in your Inbox.
    
 #  Program your Survey Questions
    

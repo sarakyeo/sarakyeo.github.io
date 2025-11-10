@@ -14,7 +14,7 @@ urlcolor: blue
 editor_options: 
   chunk_output_type: console
 ---
-
+<!-- Appreciate how far you've come! Review flowchart and statistical tests -->
 ```{r}
 #| label: setup
 #| include: false
@@ -102,6 +102,19 @@ covid |> freq(total_contacts)
 
    a) What is the test statistic and the probability value (i.e., *p*-value) associated with that test statistic?
    b) Based on the test statistic and the *p*-value, do the number of total contacts differ by region?
+   
+```{r}
+#| label: ans4
+#| include: false
+#| eval: false
+
+covid |> 
+        anova_test(total_contacts ~ region)
+
+#4a: F(2, 157) = 7.51, p < .001
+#4b: Yes, the total number of contacts differ by region.
+
+```
 
 5) Next, let's compare how mask-wearing differs between the first and second year after the COVID outbreak. Follow the steps below to select and conduct the appropriate statistical test.
 
@@ -124,7 +137,7 @@ covid |> freq(total_contacts)
 
 covid <- covid |> 
         mutate(yr_after_outbreak = case_when(
-                days_since_outbreak <=365 ~ "first year",
+                days_since_outbreak <= 365 ~ "first year",
                 days_since_outbreak > 365 ~ "second year"
         ))
 
