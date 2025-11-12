@@ -266,3 +266,28 @@ To report the results in APA format:
 > $F$ (`DFn`, `DFd`) = `F-value`, $p =$ `p-value`
 
 Using the results above, I would report: $F(2, 157) = 7.51$, $p < .001$.
+
+## Correlation
+
+We use Pearson's correlation to examine a linear relationship between two continuous variables. To run a correlation in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: cor
+#| eval: false
+#| include: true
+
+df |> 
+        cor_test(dep_var, ind_var)
+
+# # A tibble: 1 × 8
+#   var1          var2                  cor statistic        p conf.low conf.high method 
+#   <chr>         <chr>               <dbl>     <dbl>    <dbl>    <dbl>     <dbl> <chr>  
+# 1 masks_outside days_since_outbreak   0.2      3.48 0.000584   0.0875     0.308 Pearson
+
+```
+
+To report the results in APA format:
+
+> Pearson's $r$ = `cor`, $p =$ `p-value` (or $p < .001$ if the *p*-value from your test is very small, i.e., less than .001)
+
+Using the results above, I would report: Pearson's $r = 0.2$, $p < .001$.

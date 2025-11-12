@@ -1,0 +1,51 @@
+---
+title: "In-class Assignment: Experimental Design"
+format:
+   pdf:
+      documentclass: article
+      geometry:
+         - top=20mm
+         - left=20mm
+         - right=20mm
+         - heightrounded
+      toc: false
+      colorlinks: true
+urlcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+\vspace{-1cm}
+
+**Objective:** To provide practical experience in designing an experiment within the field of communication studies.
+
+---
+
+# Part 1: Conceptualizing Your Experiment
+
+**Research Question** or **Hypothesis**
+   Using your research question or hypothesis from your last in-class assignment (survey design), develop an experiment to test it.
+
+---
+
+# Part 2: Designing the Experiment
+
+**Variables**  
+   *Independent Variable (IV):* Identify the variable you will manipulate (e.g., presence or absence of emojis). Consider how you will change the independent variable from your survey assignment to something that you can manipulate in an experiment.
+
+   *Dependent Variable (DV):* Identify the variable you will measure (e.g., perceived tone of the message). This may be the same as the dependent variable in your survey assignment.
+
+**Participants**  
+   Describe how you would select participants for your study. Include details about any inclusion/exclusion criteria. How might your choice of sampling bias the results of your experiment?
+
+**Experimental Groups**  
+   Explain how you will divide participants into groups (e.g., control group receiving messages without emojis and experimental group receiving messages with emojis).
+
+**Procedure**  
+   Outline the steps you would take to conduct the experiment. Include details about how you will present the messages to participants and how you will measure their responses. Think back to the last in-class assignment on survey research and use what you learned in that chapter to answer this question.
+
+**Control Measures**  
+   Describe how you will control for potential confounding variables to ensure the validity of your results (e.g., ensuring all messages are of similar length and content). In your own words and using your experiment as an example, explain why it is necessary to control for potential confounding variables.
+
+**Ethical Considerations**  
+   Discuss any ethical considerations you need to take into account when conducting this experiment. How will you ensure the participants' privacy and consent? Are there other ethical considerations of which you should be aware?
