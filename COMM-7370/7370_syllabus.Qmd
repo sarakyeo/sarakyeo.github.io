@@ -12,10 +12,6 @@ format:
       - left=.75in
       - right=.75in
     urlcolor: blue
-  html:
-    code-fold: true
-    toc: true
-    theme: sandstone
 ---
 
 \vspace{-6em}
@@ -31,31 +27,31 @@ Key topics include:
 -   Conceptual and operational definitions
 -   Measurement, sampling, and research design
 -   Data analysis in communication research
+-   Reporting research
 
 The main objectives of this course are:
 
 1.  To offer a theoretical perspective on quantitative social science research with a focus on surveys and experiments in communication.
-2.  To familiarize you with data analysis using two software packages, R and IBM SPSS Statistics.
+2.  To familiarize you with data analysis using *R*.
 3.  To stimulate ideas for original research and help you conduct data analysis for your own future research projects.
-4.  To generate a class study and paper using quantitative research for presentation at a conference and publication in a journal.
 
 It is challenging to grasp research methods without doing research. As a result, much of the course will be spent linking concepts to survey questions, collecting and analyzing data, trying to make sense of output, and linking data analysis to research questions and hypotheses. We will also have working labs at the end of the semester during which we will work on our class manuscript.
 
 # Required Readings
 
-For most weeks, I have compiled a non-exhaustive set of readings. I will post the weekly reading list on Canvas. If PDFs are not available through the Marriott Library resources, the files will be posted on Canvas.
+For most weeks, I have compiled a non-exhaustive set of readings. If PDFs are not available through the Marriott Library resources, the files will be posted on Canvas.
 
 You are expected to complete these readings before the start of each meeting. These readings are intended as a point-of-entry into the week's content. They may also be useful if you are trying to compile a reading list for your preliminary examinations.
 
 # Computer Software
 
-You will need Microsoft Office (Word, Excel, PowerPoint) and software for data analysis ([R](https://www.r-project.org/)). Please note that you do not have to have data analysis software ready for the first day of class. We will set these up during class when needed.
+You will need software for data analysis ([*R*](https://www.r-project.org/)). Please note that you do not have to have data analysis software ready for the first day of class. We will set these up during class when needed.
 
-Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++) and Adobe Acrobat (free for UofU students) is recommended.
+Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++), word processing and spreadsheet software, and Adobe Acrobat (free for UofU students) are recommended.
 
 You will need access to [Canvas](https://utah.instructure.com/). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
 
-You are also expected to check your University of Utah email regularly. I will send correspondences to your email accounts as needed during the semester.
+You are also expected to check your University of Utah email regularly. I will send correspondences to your email accounts as needed during the semester. More information can be found in the email policy.
 
 # Course Requirements
 
@@ -68,7 +64,7 @@ Your grade in this course will be based on the following:
 
 ## Assignments
 
-To gain the skills required to conduct studies using rigorous meethodology, you will complete assignments throughout the semester. More information will be given as the semester progresses, but you can expect assignments related to concept explication and data analysis in *R*.
+To gain the skills required to conduct studies using rigorous methodology, you will complete assignments throughout the semester. More information will be given as the semester progresses, but you can expect assignments related to concept explication and data analysis in *R*.
 
 ## Weekly Response Papers
 
@@ -106,7 +102,7 @@ Your proposal should include:
 
 If you are writing a research paper, it should include all of the above and the results and discussion sections.
 
-You will present a **project prospectus in Week 7**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
+You will present a **project prospectus in Week 5**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
 
 ## Participation
 
@@ -133,11 +129,11 @@ Communication allows us to engage with others and broaden our perspectives. How 
 -   Disagreement is encouraged. Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
 -   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
 
-## E-mail Policy
+## Email Policy
 
 If you need to contact me, please send a message from your University of Utah email account to [sara.yeo\@utah.edu](mailto:%20sara.yeo@utah.edu). I typically will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.). Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all.
 
-Emails should be written clearly and professionally, using appropriate salutations with correct spelling and grammar. **Emails that do not conform to these rules may not receive a timely response.**
+Emails should be written clearly and professionally, using appropriate salutations with correct spelling and grammar. **Emails that do not conform to these guidelines may not receive a timely response.**
 
 In the event of a University-wide emergency which prevents us from meeting, you should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
 
@@ -156,100 +152,92 @@ Updated mandatory syllabus policies regarding the Americans with Disabilities Ac
 
 # Course Schedule
 
-The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus. Note that this class will start in the second week of the semester on **14-Jan-26**.
 
-## Week 1 (11-Jan)
-
-### Introduction to (Quantitative) Communication Research
-
-Readings
-
--   COMM 7370 syllabus
-
-## Week 2 (18-Jan)
-
-### Communication as Social Science
-
-Readings
-
--   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496. <https://ijoc.org/index.php/ijoc/article/view/1331>
--   Kerlinger, F. N. (1986b). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
--   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
-
-## Week 3 (25-Jan)
-
-### From an Idea to a Research Project
-
-Readings
-
--   Kerlinger, F. N. (1986a). Research Design: Purpose and Principles. In *Foundations of Behavioral Research* (3rd edition, pp. 279--291). Holt, Rinehart and Winston.
--   Watt, J. H., & Berg, S. V. D. (2002). Elements of Scientific Theories: Concepts and Definitions. In *Research Methods for Communication Science* (pp. 11--22). Allyn & Bacon. <http://www.cios.org/readbook/rmcs/rmcs.htm>
-
-## Week 4 (1-Feb)
-
-### Concept Explication
-
-Readings
-
--   McLeod, J. M. (1998a). *Concept Explication and Theory Construction Part I: Meaning Analysis*.
--   McLeod, J. M. (1998b). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
-
-## Week 5 (8-Feb)
-
-### Measurement, Variables, Reliability & Validity
-
-Readings
-
--   Chapters 6 - 8 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
-
-## Week 6 (15-Feb)
-
-### Sampling
-
-Readings
-
--   Chapter 12 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
-
-## Week 7 (22-Feb)
-
-### Work Week
+## Week 1 (7-Jan)
 
 ::: callout-warning
 ## No class
 :::
 
-::: callout-note
-## Final Project Deadline
+<!-- ------------------- -->
 
-Project prospectus due.
+## Week 2 (14-Jan)
+
+### Communication as Social Science // Introduction to ***R***
+<!-- Introduce course, discuss project prospectus, discuss assigned readings, set up R -->
+Readings
+
+-   COMM 7370 syllabus
+-   Calhoun, C. (2011). Communication as social science (and more). *International Journal of Communication*, *5*, 1479-1496. <https://ijoc.org/index.php/ijoc/article/view/1331>
+-   Kerlinger, F. N. (1986). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
+-   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
+-   [Introduction to R](https://sarakyeo.github.io/COMM3710-textbook/)
+
+<!-- ------------------- -->
+
+## Week 3 (21-Jan)
+
+### Work Day
+
+::: callout-warning
+## No class
+Work on Project Prospectus.
 :::
+
+<!-- ------------------- -->
+
+## Week 4 (28-Jan)
+<!-- Check in on prospectus, discuss readings, start working with R -->
+### From an Idea to a Research Project // First Steps in ***R***
+
+Readings
+
+-   Kerlinger, F. N. (1986). Research Design: Purpose and Principles. In *Foundations of Behavioral Research* (3rd edition, pp. 279--291). Holt, Rinehart and Winston.
+-   Watt, J. H., & Berg, S. V. D. (2002). Elements of Scientific Theories: Concepts and Definitions. In *Research Methods for Communication Science* (pp. 11--22). Allyn & Bacon. <http://www.cios.org/readbook/rmcs/rmcs.htm>
+
+<!-- ------------------- -->
+
+## Week 5 (4-Feb)
+
+### Concept Explication // Data Wrangling
+
+::: callout-note
+## Project Prospectus Deadline
+Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
+:::
+
+Readings
+
+-   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part I: Meaning Analysis*.
+-   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
+
+## Week 6 (11-Feb)
+
+### Measurement, Variables, Reliability, \& Validity // Data Wrangling
+
+-   Zeller, R., & Carmines, E. (1980). Introduction to Measurement. In *Measurement in the Social Sciences: The Link Between Theory and Data* (pp. 1–18). Cambridge University Press.
+
+<!-- ------------------- -->
+
+## Week 7 (18-Feb)
+
+### Survey Research & Experiments // Descriptive Statistics
 
 ::: callout-tip
 # Assignment Deadline
-
 Concept explication assignment due.
 :::
-
-## Week 8 (1-Mar)
-
-### Survey Research & Experiments
 
 Readings
 
 -   Krosnick, J. A. (1999). Survey research. *Annual Review of Psychology*, *50*(1), 537--567. <https://doi.org/10.1146/annurev.psych.50.1.537>
--   Chapter 11 from Wrench, J. S., Thomas-Maddox, C., Richmond, V. P., & McCroskey, J. C. (2016). *Quantitative Research Methods for Communication: A Hands-On Approach* (3rd ed.). Oxford University Press.
 
-## Week 9 (8-Mar)
+<!-- ------------------- -->
 
-### SPRING BREAK
+## Week 8 (25-Feb)
 
-::: callout-warning
-# No class
-:::
-
-## Week 10 (15-Mar)
-
-### Data Wrangling, Reduction, & Scaling
+### Data Wrangling, Reduction, \& Scaling
 
 Readings
 
@@ -263,61 +251,86 @@ Readings
 -   R4DS: [Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html)
 -   R4DS: [Data import](https://r4ds.hadley.nz/data-import.html)
 
+<!-- ------------------- -->
+
+## Week 9 (4-Mar)
+
+### Work Day
+
 ::: callout-note
 # Final Project Deadline
-
 Penultimate version of proposal due.
 :::
 
-## Week 11 (22-Mar)
+We will work together in class on your data analysis assignments (if needed) and final proposals/papers.
 
-### Pre-registration (Prof. Ben Lyons)
+<!-- ------------------- -->
 
-Readings
+## Week 10 (11-Mar)
 
--   Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. *Nature Human Behaviour*, *1*(1), Article 1. <https://doi.org/10.1038/s41562-016-0021>
--   Center for Open Science. (n.d.). *Preregistration*. Retrieved December 13, 2022, from <https://www.cos.io/initiatives/prereg>
--   Chen, L., & Grady, C. (2020). *10 Things to Know About Pre-Analysis Plans*. EGAP. <https://egap.org/resource/10-things-to-know-about-pre-analysis-plans/>
-
-## Week 12 (29-Mar)
-
-### Using R for Data Analysis
-
-Readings
-
--   Kennedy-Shaffer, L. (2019). Before p \< 0.05 to beyond p \< 0.05: Using history to contextualize p-values and significance testing. *The American Statistician*, *73*(sup1), 82--90. <https://doi.org/10.1080/00031305.2018.1537891>
-
-## Week 13 (5-Apr)
-
-### Data Analysis / Writing Workshop
-
-Readings
-
--   Crettaz von Roten, F. (2016). Statistics in Public Understanding of Science review: How to achieve high statistical standards? *Public Understanding of Science*, *25*(2), 135--140. <https://doi.org/10.1177/0963662515595195>
--   Dienlin, T., Johannes, N., Bowman, N. D., Masur, P. K., Engesser, S., Kümpel, A. S., Lukito, J., Bier, L. M., Zhang, R., Johnson, B. K., Huskey, R., Schneider, F. M., Breuer, J., Parry, D. A., Vermeulen, I., Fisher, J. T., Banks, J., Weber, R., Ellis, D. A., ... de Vreese, C. (2021). An agenda for open science in communication. *Journal of Communication*, *71*(1), 1--26. <https://doi.org/10.1093/joc/jqz052>
--   Tal, A. (2016). Rigor Mortis: Statistical thoroughness in reporting and the making of truth. *Public Understanding of Science*, *25*(2), 141--145. <https://doi.org/10.1177/0963662515619836>
-
-## Week 14 (12-Apr)
-
-### Work Week
+### SPRING BREAK
 
 ::: callout-warning
 # No class
 :::
 
-::: callout-note
-# Final Project Deadline
+<!-- ------------------- -->
 
-Final proposal and pre-registration due.
-:::
+## Week 11 (18-Mar)
 
-## Week 15 (19-Apr)
+### Hypothesis Testing // Inferential Statistics
+
+Readings
+
+-   McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. *The American Statistician*, *73*(sup1), 235–245. https://doi.org/10.1080/00031305.2018.1527253
+-   Lakens, D. (2021). The practical alternative to the *p*-value is the correctly used *p*-value. *Perspectives on Psychological Science*, *16*(3), 639–648. https://doi.org/10.1177/1745691620958012
+-   Ioannidis, J. P. A. (2019). What have we (not) learnt from millions of scientific papers with *p*-values? *The American Statistician*, *73*(sup1), 20–25. https://doi.org/10.1080/00031305.2018.1447512
+-   Lakens, D., & Etz, A. J. (2017). Too true to be bad: When sets of studies with significant and nonsignificant findings are probably true. *Social Psychological and Personality Science*, *8*(8), 875–881. https://doi.org/10.1177/1948550617693058
+
+<!-- ------------------- -->
+
+## Week 12 (25-Mar)
+
+### Correlation \& Causation // Inferential Statistics
+
+Readings
+
+-   Kennedy-Shaffer, L. (2019). Before p \< 0.05 to beyond p \< 0.05: Using history to contextualize p-values and significance testing. *The American Statistician*, *73*(sup1), 82--90. <https://doi.org/10.1080/00031305.2018.1537891>
+-   Bullock, J. G., Green, D. P., & Ha, S. E. (2010). Yes, but what’s the mechanism? (Don’t expect an easy answer). *Journal of Personality and Social Psychology*, *98*(4), 550–558. https://doi.org/10.1037/a0018933.supp
+
+
+<!-- ------------------- -->
+
+## Week 13 (1-Apr; AEJMC 2026 deadline for submission)
+
+### Writing \& Reporting Your Research // Reporting Statistics
+
+Readings
+
+-   Crettaz von Roten, F. (2016). Statistics in Public Understanding of Science review: How to achieve high statistical standards? *Public Understanding of Science*, *25*(2), 135--140. <https://doi.org/10.1177/0963662515595195>
+-   Tal, A. (2016). Rigor Mortis: Statistical thoroughness in reporting and the making of truth. *Public Understanding of Science*, *25*(2), 141--145. <https://doi.org/10.1177/0963662515619836>
+
+<!-- ------------------- -->
+
+## Week 14 (8-Apr)
+
+### Work Day
+
+We will work together in class on your final proposals/papers.
+
+
+<!-- ------------------- -->
+
+## Week 15 (15-Apr)
 
 ### In-class Presentations
 
 ::: callout-tip
 ## Assignment Deadline
-
 Data analysis assignments due.
 :::
 
+::: callout-note
+## Project Deadline
+Final proposal or paper due.
+:::
