@@ -44,7 +44,7 @@ glimpse(humor)
     a) How many observations are there in this dataset? <!-- 6,652 obs -->
     b) How many variables are in the dataset? <!-- 128 variables -->
 
-4) How many respondents are at least 18 years old and consented to participate in the study (**Hint:** Look for the consent question in the codebook)? If necessary, create a new object in your R environment that contains only respondents who are at least 18 years old and consented to participate in the study.
+4) How many respondents are at least 18 years old and consented to participate in the study (**Hint:** Look for the consent question in the codebook)? If necessary, create a new object in your R environment that contains only respondents who are at least 18 years old and consented to participate in the study. <!-- 6,652 -->
 
 5) These data come from an experiment--read about the experimental design in Yeo *et al.* (2023). Then, examine a frequency distribution of the variable, `issue`. Based on the frequency distribution of `issue` and the information in the Yeo *et al.* (2023), what does the variable `issue` describe? <!-- The issue to which participants were randomly assigned -->
 
@@ -98,9 +98,9 @@ humor |>
 
 8) Next, we will test whether the experimental conditions had an effect on mirth for the three issues. 
 
-    a) Identify the dependent variable. Be sure to write this down as a comment in your R script.
-    b) Identify the independent variables (**Hint:** Refer to your answer to Question 6).
-    c) Identify and conduct the inferential statistical test(s) that you will use to determine whether there are differences in mean levels of `mirth` between the experimental conditions for each issue. **Note:** You should conduct three statistical tests, which will each result in a test statistic and a *p*-value. Be sure to note the test statistic and *p*-value for each test in your R script.
+    a) Identify the dependent variable. Be sure to write this down as a comment in your R script. <!-- mirth -->
+    b) Identify the independent variables (**Hint:** Refer to your answer to Question 6). <!-- humor type -->
+    c) Identify and conduct the inferential statistical test(s) that you will use to determine whether there are differences in mean levels of `mirth` between the experimental conditions for each issue. **Note:** You should conduct three statistical tests, which will each result in a test statistic and a *p*-value. Be sure to note the test statistic and *p*-value for each test in your R script. <!-- see below -->
     d) Are the mean levels of `mirth` statistically different for each of the three issues (**Hint:** Refer to your notes on inferential statistics to determine how to tell if your statistical test is significant)? Describe your results for each issue.
 
 ```{r}
@@ -126,7 +126,7 @@ humor |>
 
 9) Now, we will create another new variable, `engage`. This variable captures participants' intentions to engage with the Twitter conversation (see Yeo *et al.*, 2023). `engage` is created by averaging participants' scores to the following three question items: (i) "I would like the original tweet," (ii) "I would retweet the original tweet," and (iii) "I would share the original tweet."
 
-    a) What are the columns that correspond to these three question items called in the dataframe (**Hint:** Look in the codebook for these statements)?
+    a) What are the columns that correspond to these three question items called in the dataframe (**Hint:** Look in the codebook for these statements)? <!-- Q88_1: Q88_3 -->
     b) Create the variable `engage`.
     c) What is the mean value of `engage`? <!-- 3.29 -->
     d) What is the standard deviation of engage? <!-- 2.11 -->
@@ -155,7 +155,7 @@ humor |>
 
 10) Now, we want to know how mirth is related to participants' intentions to engage with the content they saw.
 
-    a) What statistical test might you use to examine this relationship? State this clearly in your R script.
+    a) What statistical test might you use to examine this relationship? State this clearly in your R script. <!-- Pearson's correlation -->
     b) Conduct the statistical test.
     c) Describe the results of your test. Remember to report a test statistic and *p*-value. Are they significant? If so, what is the value of the test statistic? What does this coefficient mean?
 
