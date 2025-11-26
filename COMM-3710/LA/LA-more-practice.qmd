@@ -156,8 +156,22 @@ humor |>
 10) Now, we want to know how mirth is related to participants' intentions to engage with the content they saw.
 
     a) What statistical test might you use to examine this relationship? State this clearly in your R script. <!-- Pearson's correlation -->
-    b) Conduct the statistical test.
-    c) Describe the results of your test. Remember to report a test statistic and *p*-value. Are they significant? If so, what is the value of the test statistic? What does this coefficient mean?
+    b) Conduct the statistical test. <!-- see below -->
+    c) Describe the results of your test. Remember to report a test statistic and *p*-value. Are they significant? If so, what is the value of the test statistic? What does this coefficient mean? <!-- Pearson's r = .53, p < .001 -->
+
+```{r}
+#| output: false
+#| echo: false
+
+humor |> 
+  cor_test(engage, mirth)
+
+# # A tibble: 1 × 8
+#   var1   var2    cor statistic     p conf.low conf.high method 
+#   <chr>  <chr> <dbl>     <dbl> <dbl>    <dbl>     <dbl> <chr>  
+# 1 engage mirth  0.53      51.1     0    0.513     0.548 Pearson
+
+```
 
 11) Next, we want to create a variable that captures participants' *need for humor (NFH)*. This concept is a human trait that "defines one’s tendency and inclination toward experiencing humor from others and being a source of humor or generating it" (Yeo *et al.*, 2023, p. 65).
 
