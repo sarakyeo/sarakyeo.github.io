@@ -1,6 +1,6 @@
 ---
 title: "Concept Explication Assignment"
-subtitle: "COMM 7370 | Spring 2023 | Due: see syllabus"
+subtitle: "COMM 7370 | Spring 2026"
 format:
   pdf:
     geometry: 
@@ -22,9 +22,9 @@ Read through the example below, then complete the assignment; instructions follo
 
 # Example
 
-You attend a colloquium and the speaker is an expert in quantitative communication research. Specifically, she studies public information campaigns and presents a case of an information campaign, designed by her and her colleagues, aimed at increasing people's knowledge about heart disease prevention. The campaign was accompanied by a full media blitz, carried out in an urban community. She states that the campaign was successful in increasing knowledge about the issue. Yet, she does not offer empirical evidence to support her claim.
+You attend a colloquium and the speaker is an expert in public information campaigns. Specifically, she presents a case of an information campaign, designed by her and her colleagues, aimed at increasing people's knowledge about heart disease prevention. The campaign was accompanied by a full media blitz, carried out in an urban community. She states that the campaign was successful in increasing knowledge about the issue. Yet, she does not offer empirical evidence to support her claim.
 
-After the presentation, you decide to collect evidence and test her claim that the campaign was successful. However, you find that your first task is to identify and clarify the concepts involved in the assessment of campaign effects. For example, what is the campaign variable designed to cause an increase in knowledge about heart disease prevention? What is the supposed result of the campaign effort? What measures capture this outcome? Finally, is there any relationship between the causal variable and the supposed result?
+After the presentation, you decide to collect evidence and test her claim that the campaign was successful. However, your first task is to identify and clarify the concepts involved in the assessment of campaign effects. For example, what is the campaign variable designed to cause an increase in knowledge about heart disease prevention? What is the intended result of the campaign effort? What measures capture this outcome? Finally, is there any relationship between the causal variable and the intended outcome?
 
 After reviewing related literature, you come up with a grand theory: *exposure to mediated campaign messages are an important source of information for people in modern society*. In other words, the more people expose themselves to mediated messages about heart disease prevention, the more they know about the topic. Now, you must conduct a meaning analysis to make this theory into an empirically testable hypothesis.
 
@@ -90,21 +90,21 @@ After reviewing related literature, you come up with a grand theory: *exposure t
 
         iv) Indicator 4: "How often do you speak with co-workers about heart diseases prevention?"
 
-[^1]: This is an example of the process of conceptualization for one concept in the theoretical statement, H1. In practice, you would conduct a similar process of meaning analysis for the other concept in H1, *increase in knowledge about heart disease prevention*.
+[^1]: This is an example of the process of conceptualization for one concept in the theoretical statement, H1. In practice, you would conduct a similar process of meaning analysis for the other concept in H1, *increase in knowledge about heart disease prevention*. You should also include citations where appropriate since you may return to them for conceptualization and/or operationalization later.
 
 ------------------------------------------------------------------------
 
 # Your Assignment
 
-Find an article in a social science journal (e.g., *Public Understanding of Science*, *Science Communication*, *Mass Communication & Society*, etc.) that involves [**clearly defined concepts**]{.underline}.[^2] If you need help searching for an article, ask Sara.
+Find an article in a social science journal (e.g., *Public Understanding of Science*, *Science Communication*, *Mass Communication & Society*, etc.) that involves [**clearly defined concepts**]{.underline}.[^2] If you need help searching for an article, please ask!
 
 [^2]: Look for clear hypotheses or research questions such as the one posed in the example above. Also look for a detailed Method section that outlines precisely how concepts were measured or manipulated. This section is often labeled *Measures*.
 
-Using your chosen article, answer the following questions.
+Using your chosen article (include a citation for the article in your submission), answer the following questions.
 
 1)  What are the concepts included in the theoretical statement or research questions/hypotheses? Include all the research questions/hypotheses in your answer and identify the concepts from each.
 
-2)  Select [**ONE**]{.underline} of the concepts you identified in the previous question (do [**NOT**]{.underline} choose a concept that was measured with a single item for this question) and explain how the concept was defined and operationalized (measured or manipulated) by the researcher. According to the paper, does the concept have multiple dimensions? If so, what are they? How many indicators were used to measure the concept? What were the indicators? Note that you can also choose a concept that was defined and manipulated (i.e., as part of an experiment). If you do so, explain how the concept was defined and manipulated, which is also a form of operationalization.
+2)  For each concept that you identified, explain how it was defined and operationalized (measured or manipulated) by the researcher. According to the paper, does the concept have multiple dimensions? If so, what are they? How many indicators were used to measure the concept? What were the indicators? Note that you can also choose a concept that was defined and manipulated (i.e., as part of an experiment). If you do so, explain how the concept was defined and manipulated, which is also a form of operationalization. Include citations where appropriate.
 
 3)  What measures of reliability (Cronbach's alpha \[$\alpha$\] is the most common metric of inter-item reliability, though you might also encounter Pearson's $r$), if any, were included in the study (i.e., not just for your chosen concept but all the concepts present in the paper)? What were the values of those reliability measures? Do they meet appropriate standards of reliability (we will discuss these in class)? Were different or unique measures of reliability used? If so, why? If no reliability measures were included, could some have been?
 

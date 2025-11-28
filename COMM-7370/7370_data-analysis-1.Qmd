@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis Assignment 1"
-subtitle: "COMM 7370 | Spring 2023 | Due: see syllabus"
+subtitle: "COMM 7370 | Spring 2026"
 format:
   pdf:
     geometry: 
@@ -34,7 +34,7 @@ In this assignment, you will learn how to:
 -   Open a help page in R.
 -   Manually enter data into R and read/load data into R from a .csv file.
 -   Identify variables and their types in a tibble.
--   Use the pipe operator,`|>` or `%>%`.
+-   Use the pipe operator,`|>`.
 -   Select variables from a data frame using the `select()` function.
 -   Filter cases using the `filter()` function.
 -   Obtain descriptive statistics for variables using the `descr()` function.

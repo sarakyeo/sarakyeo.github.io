@@ -1,0 +1,22 @@
+---
+title: "Data Analysis Assignment 4"
+subtitle: "COMM 7370 | Spring 2026"
+format:
+  pdf:
+    geometry: 
+      - top=.75in
+      - left=.8in
+      - right=.8in
+    urlcolor: blue
+  html:
+    code-fold: true
+    toc: true
+    theme: sandstone
+---
+
+In this assignment, we will replicate the data analysis from the publication below.
+
+
+> Yeo, S. K., Su, L. Y.-F., Cacciatore, M. A., Zhang, J. S., & McKasy, M. (2023). The differential effects of humor on three scientific issues: Global warming, artificial intelligence, and microbiomes. International Journal of Science Education, Part B, 13(1), 59–83. https://doi.org/10.1080/21548455.2022.2123259
+
+Download the data (`humor-data.csv`) and codebook (`humor-codebook.pdf`) from Canvas and find the journal article. Replicate the analysis following the article. Be sure to address all the research questions and hypotheses posed by the authors.

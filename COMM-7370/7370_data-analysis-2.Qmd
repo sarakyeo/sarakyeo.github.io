@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis Assignment 2"
-subtitle: "COMM 7370 | Spring 2023 | Due: see syllabus"
+subtitle: "COMM 7370 | Spring 2026"
 format:
   pdf:
     geometry: 
