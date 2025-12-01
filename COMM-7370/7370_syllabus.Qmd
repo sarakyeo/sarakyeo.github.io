@@ -201,8 +201,8 @@ Readings
 -   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
 
 ## Week 6 (11-Feb)
-### Measurement, Variables, Reliability, \& Validity // Descriptive Statistics
-<!-- `descr()`, `freq()`, data viz -->
+### Measurement, Variables, Reliability, \& Validity // Prospectus Presentation
+<!--  -->
 ::: callout-note
 ## Project Prospectus Deadline
 Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
@@ -215,8 +215,8 @@ Readings
 <!-- ------------------- -->
 
 ## Week 7 (18-Feb)
-### Survey Research & Experiments // Data Wrangling
-<!-- recoding, data manipulation -->
+### Survey Research & Experiments // Data Wrangling \& Visualization
+<!-- `descr()`, `freq()`, data viz, recoding, data manipulation -->
 ::: callout-tip
 # Assignment Deadline
 Concept explication assignment due.
