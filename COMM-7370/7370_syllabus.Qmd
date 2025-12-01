@@ -229,7 +229,7 @@ Readings
 <!-- ------------------- -->
 
 ## Week 8 (25-Feb)
-### Data Wrangling, Reduction, \& Scaling
+### Data Analysis Workflow // Data Wrangling, Reduction, \& Scaling
 <!-- Factor analysis, Cronbach's alpha, combining indices -->
 Readings
 
