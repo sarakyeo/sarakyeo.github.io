@@ -102,7 +102,7 @@ Your proposal should include:
 
 If you are writing a research paper, it should include all of the above and the results and discussion sections.
 
-You will present a **project prospectus in Week 5**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
+You will present a **project prospectus in Week 6**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
 
 ## Participation
 
@@ -155,7 +155,6 @@ Updated mandatory syllabus policies regarding the Americans with Disabilities Ac
 The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus. Note that this class will start in the second week of the semester on **14-Jan-26**.
 
 ## Week 1 (7-Jan)
-
 ::: callout-warning
 ## No class
 :::
@@ -163,7 +162,6 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 <!-- ------------------- -->
 
 ## Week 2 (14-Jan)
-
 ### Course Introduction
 <!-- Introduce course, discuss project prospectus, discuss assigned readings -->
 Readings
@@ -173,7 +171,6 @@ Readings
 <!-- ------------------- -->
 
 ## Week 3 (21-Jan) <!-- Try to reschedule with students to start at noon instead of 2 pm -->
-
 ### Communication as a Social Science // Introduction to ***R***
 <!-- Student discussions, check in on project prospectus, set up R -->
 Readings
@@ -186,7 +183,6 @@ Readings
 <!-- ------------------- -->
 
 ## Week 4 (28-Jan)
-
 ### From an Idea to a Research Project // First Steps in ***R***
 <!-- Check in on prospectus (reminder: due next week with presentation), discuss readings, start working with R -->
 Readings
@@ -197,9 +193,16 @@ Readings
 <!-- ------------------- -->
 
 ## Week 5 (4-Feb)
-
 ### Concept Explication // Data Management
 <!-- downloading and reading data into R, working directories, R setup (scripts, workflow, etc.) -->
+Readings
+
+-   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part I: Meaning Analysis*.
+-   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
+
+## Week 6 (11-Feb)
+### Measurement, Variables, Reliability, \& Validity // Descriptive Statistics
+<!-- `descr()`, `freq()`, data viz -->
 ::: callout-note
 ## Project Prospectus Deadline
 Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
@@ -207,21 +210,11 @@ Submit your prospectus as a PDF document via Canvas. You will also present your 
 
 Readings
 
--   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part I: Meaning Analysis*.
--   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
-
-## Week 6 (11-Feb)
-
-### Measurement, Variables, Reliability, \& Validity // Descriptive Statistics
-<!-- `descr()`, etc. -->
-Readings
-
 -   Zeller, R., & Carmines, E. (1980). Introduction to Measurement. In *Measurement in the Social Sciences: The Link Between Theory and Data* (pp. 1–18). Cambridge University Press.
 
 <!-- ------------------- -->
 
 ## Week 7 (18-Feb)
-
 ### Survey Research & Experiments // Data Wrangling
 <!-- recoding, data manipulation -->
 ::: callout-tip
@@ -236,9 +229,8 @@ Readings
 <!-- ------------------- -->
 
 ## Week 8 (25-Feb)
-
 ### Data Wrangling, Reduction, \& Scaling
-
+<!-- Factor analysis, Cronbach's alpha, combining indices -->
 Readings
 
 -   R4DS: [Introduction](https://r4ds.hadley.nz/intro.html)
@@ -254,7 +246,6 @@ Readings
 <!-- ------------------- -->
 
 ## Week 9 (4-Mar)
-
 ### Work Day
 
 ::: callout-note
@@ -267,7 +258,6 @@ We will work together in class on your data analysis assignments (if needed) and
 <!-- ------------------- -->
 
 ## Week 10 (11-Mar)
-
 ### SPRING BREAK
 
 ::: callout-warning
@@ -277,9 +267,8 @@ We will work together in class on your data analysis assignments (if needed) and
 <!-- ------------------- -->
 
 ## Week 11 (18-Mar)
-
 ### Hypothesis Testing // Inferential Statistics
-
+<!-- t-test, chi-squared test, Pearson's correlation -->
 Readings
 
 -   McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. *The American Statistician*, *73*(sup1), 235–245. https://doi.org/10.1080/00031305.2018.1527253
@@ -290,9 +279,8 @@ Readings
 <!-- ------------------- -->
 
 ## Week 12 (25-Mar)
-
 ### Correlation \& Causation // Inferential Statistics
-
+<!-- ANOVA, OLS regression models -->
 Readings
 
 -   Kennedy-Shaffer, L. (2019). Before p \< 0.05 to beyond p \< 0.05: Using history to contextualize p-values and significance testing. *The American Statistician*, *73*(sup1), 82--90. <https://doi.org/10.1080/00031305.2018.1537891>
@@ -302,9 +290,8 @@ Readings
 <!-- ------------------- -->
 
 ## Week 13 (1-Apr; AEJMC 2026 deadline for submission)
-
 ### Writing \& Reporting Your Research // Reporting Statistics
-
+<!-- Quarto, LaTeX/Overleaf -->
 Readings
 
 -   Crettaz von Roten, F. (2016). Statistics in Public Understanding of Science review: How to achieve high statistical standards? *Public Understanding of Science*, *25*(2), 135--140. <https://doi.org/10.1177/0963662515595195>
@@ -313,7 +300,6 @@ Readings
 <!-- ------------------- -->
 
 ## Week 14 (8-Apr)
-
 ### Work Day
 
 We will work together in class on your final proposals/papers.
@@ -322,7 +308,6 @@ We will work together in class on your final proposals/papers.
 <!-- ------------------- -->
 
 ## Week 15 (15-Apr)
-
 ### In-class Presentations
 
 ::: callout-tip
