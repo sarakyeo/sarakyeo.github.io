@@ -14,9 +14,10 @@ format:
     theme: sandstone
 ---
 
-In this assignment, we will replicate the data analysis from the publication below.
+In this assignment, you will use the Trust in Science and Science-Related Populism (TISP) dataset, available on OSF (see details in paper), to answer a research question of your design and choosing. 
 
+For reference, these data were used in the following paper:
 
-> Yeo, S. K., Su, L. Y.-F., Cacciatore, M. A., Zhang, J. S., & McKasy, M. (2023). The differential effects of humor on three scientific issues: Global warming, artificial intelligence, and microbiomes. International Journal of Science Education, Part B, 13(1), 59–83. https://doi.org/10.1080/21548455.2022.2123259
+> Mede, N. G., Cologna, V., Berger, S., C. Besley, J., Brick, C., Joubert, M., W. Maibach, E., Mihelj, S., Oreskes, N., S. Schäfer, M., van der Linden, S., Abdul Aziz, N. I., Abdulsalam, S., Abu Shamsi, N., Aczel, B., Adinugroho, I., Alabrese, E., Aldoh, A., Alfano, M., … Zwaan, R. A. (2025). Public communication about science in 68 countries: global evidence on how people encounter and engage with information about science. *Science Communication*, 10755470251376615. https://doi.org/10.1177/10755470251376615
 
-Download the data (`humor-data.csv`) and codebook (`humor-codebook.pdf`) from Canvas and find the journal article. Replicate the analysis following the article. Be sure to address all the research questions and hypotheses posed by the authors.
+Start by familiarizing yourself with the data (you might start by selecting a country or countries of interest). Then, come up with a research question of hypothesis that can be addressed by these data. Conduct your analysis to address your research question or hypothesis.^[You can have multiple research questions and/or hypotheses.] 
