@@ -58,7 +58,7 @@ You are also expected to check your University of Utah email regularly. I will s
 Your grade in this course will be based on the following:
 
 -   Assignments (30%)
--   Weekly response papers (15%)
+-   Weekly(ish) response papers (8; 15%)
 -   Final project (35%)
 -   Participation (20%)
 
@@ -201,10 +201,10 @@ Readings
 -   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
 
 ## Week 6 (11-Feb)
-### Measurement, Variables, Reliability, \& Validity // Prospectus Presentation
+### Measurement, Variables, Reliability, \& Validity // Final Project: Prospectus Presentation
 <!--  -->
 ::: callout-note
-## Project Prospectus Deadline
+## Final Project: Proposal Prospectus Deadline
 Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
 :::
 
@@ -316,6 +316,6 @@ Data analysis assignments due.
 :::
 
 ::: callout-note
-## Project Deadline
-Final proposal or paper due.
+## Final Project Proposal Deadline
+Final project proposal due.
 :::

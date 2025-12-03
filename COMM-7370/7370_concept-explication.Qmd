@@ -16,7 +16,6 @@ format:
 
 ::: callout-tip
 ## Instructions
-
 Read through the example below, then complete the assignment; instructions follow the example.
 :::
 

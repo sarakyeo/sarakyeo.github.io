@@ -1,6 +1,6 @@
 ---
-title: "Final Project"
-subtitle: "COMM 7370 | Spring 2023 | Due: see syllabus"
+title: "Final Project Proposal"
+subtitle: "COMM 7370 | Spring 2026"
 format:
   pdf:
     geometry: 
@@ -17,17 +17,17 @@ format:
 
 # Overview
 
-What you have learned throughout the course of the semester will culminate in final project that consists of a research proposal, a preregistered study on OSF, a free and open platform that supports open science, and an in-class presentation. You will explicate a research problem, conduct a literature review, formulate hypotheses, devise the methodology and analytic strategy, and preregister your study. More detailed instructions will be provided as the semester progresses.
+What you have learned throughout the course of the semester will culminate in final project that consists of a research proposal (or paper, if you have data) and an in-class presentation. You will explicate a research problem, conduct a literature review, formulate hypotheses, devise the methodology and analytic strategy, and outline your data analysis (or conduct your data analysis).
 
-Your project should include:
+Your project proposal or paper should include:
 
 -   An outline of the research problem and its relevance for a specific discipline and society.
 
 -   A literature review to support your theoretical framework and translates the problem into research questions and testable hypotheses.
 
--   A discussion of the measures used in your project and justification for measures and analytic procedures.
+-   A discussion of the measures used in your project and justification for measures and analytic procedures, or the analysis, results, and discussion sections of the paper.
 
-You will present a project prospectus in class. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers.
+You will present a project prospectus in class. Your prospectus should include all the components of your final project and a plan for accomplishing each component. In addition to presenting your proposal or paper, you will serve as a reviewer for your peers.
 
 ## Requirements {#sec-req}
 
@@ -37,39 +37,41 @@ Your final proposal should not exceed 8,000 words (not inclusive of cover page, 
 
 # Elements of the Final Project
 
-## Proposal Prospectus
+## Project Prospectus
 
 This is a 1,500 - 2,000 word document that outlines your project topic, the research problem, and its disciplinary and societal relevance and importance. The prospectus should also clearly identify (with citations and references) concepts of interest and their conceptual definitions. In addition to the 1,500 - 2,000 words, there should be an outline of your proposal included in the prospectus.
 
 Submit this as a PDF document on Canvas.
 
-## Penultimate Proposal
+You will also present this in class in Week 6. Each student will have 20 minutes to present their work followed by 10 minutes of Q\&A and discussion. The goal of the presentation is to learn to constructively offer critiques to your peers and receive feedback on your own project.
 
-This is the penultimate version of your project proposal. If you were submitting to proposal to a funding agency, you should be comfortable submitting this version of it. The requirements of the final proposal apply (see @sec-req).
+## Penultimate Paper
+
+This is the penultimate version of your project paper. If you were submitting to paper to a funding agency, you should be comfortable submitting this version of it. The requirements of the final paper apply (see @sec-req).
 
 Submit this as a PDF document on Canvas.
 
-## Final Proposal and Response
+## Final Project Proposal or Paper and Response
 
 I will offer feedback on the penultimate version of your proposal. You can choose whether to incorporate the feedback offered. However, you will prepare a response to my comments that accompany the final version of your proposal.
 
 This is similar to responding to reviewer comments during the publication process. We will review the format of a response to reviewers in class. In addition to a response, you will revise and resubmit your proposal, indicating where revisions have been made.
 
-Submit this as a single PDF document on Canvas.
+You will submit this as a single PDF document on Canvas in addition to the final proposal.
 
-## Proposal Presentation
+You will also review at least one other students' proposal or paper. More information will be given during the course.
+
+## Project Presentation
 
 You will present your proposal during class at the end of the semester (see syllabus for specific date). Each student will have 20 minutes to present their work followed by 10 minutes of Q\&A and discussion.
 
-Prior to the presentations, I will share the proposals with the class. Please come prepared to ask questions and discuss your peers' proposals.
+Prior to the presentations, I will share the projects with the class. Please come prepared to ask questions and discuss your peers' proposals.
 
-## Project Pre-registration
-
-In addition to a proposal and presentation, you will preregister your study on [OSF](https://osf.io/). Prof. Ben Lyons has graciously agreed to join us on March 22, 2023, to discuss pre-registration.
+You will serve as a respondent for the proposal/paper that you reviewed.
 
 # Miscellanea
 
-I am always open to helping you with your proposal or any other aspect of this course. Please email me early if you get stuck or need help. That said, I cannot review full drafts of proposals before the deadline. However, I am willing to discuss your outline (included in the prospectus).
+I am always open to helping you with your project or any other aspect of this course. Please email me early if you get stuck or need help. That said, I cannot review full drafts of paper before the deadline. However, I am willing to discuss your outline (included in the prospectus).
 
 Remember that the more work you put in, the better feedback you will receive. There are writing/data analysis workshops built into our schedule at the end of the semester. This is protected time for you to write. In order to make these productive, please come prepared. This will look different for each student but, in general, the more work you can accomplish early, the better. 
 
