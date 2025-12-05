@@ -68,7 +68,7 @@ To gain the skills required to conduct studies using rigorous methodology, you w
 
 ## Weekly Response Papers
 
-Each week, you will write a response paper on the assigned readings. Response papers are due **24 hours before the start of class** and should be posted to the weekly discussion on Canvas as a PDF file (1,500-2,000 words, single-spaced, 12-pt font, 1-in margins). 
+For weeks with substantive readings (Weeks 3-7, 11-13), you will write a response paper on the assigned readings. Response papers are due **24 hours before the start of class** and should be posted to the weekly discussion on Canvas as a PDF file (1,500-2,000 words, single-spaced, 12-pt font, 1-in margins). 
 
 Where necessary, response papers should contain APA citations. Your responses should accomplish three goals:
 
@@ -144,7 +144,6 @@ Academic misconduct will be punished to the fullest extent possible. You are res
 ## Curriculum Accommodations
 
 Curriculum accommodations take two forms---scheduling and content accommodations. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
-:::
 
 # University Policies
 
@@ -201,11 +200,11 @@ Readings
 -   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
 
 ## Week 6 (11-Feb)
-### Measurement, Variables, Reliability, \& Validity // Final Project: Prospectus Presentation
+### Measurement, Variables, Reliability, \& Validity // Prospectus Presentation
 <!--  -->
 ::: callout-note
-## Final Project: Proposal Prospectus Deadline
-Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
+## Final Project Deadline
+Project Prospectus due. Submit your prospectus as a PDF document via Canvas. You will also present your prospectus in class.
 :::
 
 Readings
@@ -316,6 +315,6 @@ Data analysis assignments due.
 :::
 
 ::: callout-note
-## Final Project Proposal Deadline
-Final project proposal due.
+## Final Project Deadline
+Final project proposal or paper due.
 :::
