@@ -128,13 +128,11 @@ cps |>
 #| include: false
 #| eval: false
 
-cps |> 
-        select(sector, satisfaction) |> 
-        anova_test(satisfaction ~ sector)
+chisq_test(x = cps$sector, y = cps$satisfaction)
 
 # a) Job satisfaction does not vary across job sectors.
-# b) ANOVA
-# c) F = .517, p = .822
+# b) Chi-squared test
+# c) X2 = 3.65, p = .819
 # d) Refute.
 
 ```

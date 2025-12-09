@@ -1,5 +1,5 @@
 ---
-title: "LA-8: Practice Data Analysis (15 points)"
+title: "LA-8: Practice Data Analysis (13 points)"
 format:
    pdf:
       documentclass: article
@@ -196,7 +196,7 @@ covid |>
 
 ```
 
-4) **BONUS:** Create a figure showing the number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average number of times people washed their hands on the previous day."
+7) **BONUS:** Create a figure showing the number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average number of times people washed their hands on the previous day."
 
 ```{r}
 #| label: ans3
