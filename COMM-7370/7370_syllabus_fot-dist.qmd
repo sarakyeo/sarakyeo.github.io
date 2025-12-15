@@ -1,0 +1,151 @@
+---
+title: "COMM 7370: Quantitative Communication Research"
+subtitle: |
+  | Spring 2026 | Wednesday 2:00 - 4:50 pm | BU C 107
+  | 
+  | Sara K. Yeo
+  | Email: [sara.yeo@utah.edu](mailto:sara.yeo@utah.edu)
+format: 
+  pdf:
+    geometry: 
+      - top=.75in
+      - left=.75in
+      - right=.75in
+    urlcolor: blue
+---
+
+\vspace{-6em}
+
+# Course Description & Objectives
+
+This graduate seminar is an introductory course in quantitative research for communication-related topics. We will examine how research questions are developed into a research project. Additionally, we will learn how to select appropriate research techniques, measure concepts, draw samples, interpret results, and communicate our research.
+
+Key topics include:
+
+-   Formalizing hypotheses and research questions grounded in theory
+-   Testing hypotheses and research questions
+-   Conceptual and operational definitions
+-   Measurement, sampling, and research design
+-   Data analysis in communication research
+-   Reporting research
+
+The main objectives of this course are:
+
+1.  To offer a theoretical perspective on quantitative social science research with a focus on surveys and experiments in communication.
+2.  To familiarize you with data analysis using *R*.
+3.  To stimulate ideas for original research and help you conduct data analysis for your own future research projects.
+
+It is challenging to grasp research methods without doing research. As a result, much of the course will be spent linking concepts to survey questions, collecting and analyzing data, trying to make sense of output, and linking data analysis to research questions and hypotheses. We will also have working labs at the end of the semester during which we will work on our class manuscript.
+
+# Required Readings
+
+For most weeks, I have compiled a non-exhaustive set of readings. If PDFs are not available through the Marriott Library resources, the files will be posted on Canvas.
+
+You are expected to complete these readings before the start of each meeting. These readings are intended as a point-of-entry into the week's content. They may also be useful if you are trying to compile a reading list for your preliminary examinations.
+
+# Computer Software
+
+You will need software for data analysis ([*R*](https://www.r-project.org/)). Please note that you do not have to have data analysis software ready for the first day of class. We will set these up during class when needed.
+
+Additionally, access to a text-editor (e.g., Wordpad, TextEdit, Notepad++), word processing and spreadsheet software, and Adobe Acrobat (free for UofU students) are recommended.
+
+You will need access to [Canvas](https://utah.instructure.com/). I expect you to check the course website on Canvas regularly. Announcements, assignments, readings, discussions, etc., will be posted there. You should be familiar with and comfortable using Canvas and Zoom. If you need help with Canvas, visit the [Canvas Getting Started Guide for Students](https://community.canvaslms.com/docs/DOC-10701).
+
+You are also expected to check your University of Utah email regularly. I will send correspondences to your email accounts as needed during the semester. More information can be found in the email policy.
+
+# Course Requirements
+
+Your grade in this course will be based on the following:
+
+-   Assignments (30%)
+-   Weekly(ish) response papers (8; 15%)
+-   Final project (35%)
+-   Participation and Discussion Leadership (20%)
+
+## Assignments
+
+To gain the skills required to conduct studies using rigorous methodology, you will complete assignments throughout the semester. More information will be given as the semester progresses, but you can expect assignments related to concept explication and data analysis in *R*.
+
+## Weekly Response Papers
+
+For weeks with substantive readings (Weeks 3-7, 11-13), you will write a response paper on the assigned readings. Response papers are due **24 hours before the start of class** and should be posted to the weekly discussion on Canvas as a PDF file (1,500-2,000 words, single-spaced, 12-pt font, 1-in margins). 
+
+Where necessary, response papers should contain APA citations. Your responses should accomplish three goals:
+
+1. Provide a summary that answers the questions below.
+
+      - What is the main argument of each of the readings?
+      - How is the main argument supported (method, empirical evidence, etc.)?
+      - From which theories and fields of scholarship do the readings draw? To which do they contribute? How are the readings positioned within larger scholarly discussion?
+      - How do these readings contribute to the week’s topic (synthesis)? What common thread exists between the week’s readings?
+
+2. Engage with and critically evaluate each reading by addressing questions such as the ones below. This is not an exhaustive list of questions you might address; I encourage you to think critically about the readings and address any questions that might come up.
+
+      - Are the arguments well supported? Why or why not?
+      - What are the broader implications of the readings?
+      - What are the limitations of the readings?
+      - What points of view are provided by the readings? How are they similar or different from each other?
+
+3. Think about how the readings can inform your own scholarship. What are the contributions to your own work from each week’s readings?
+
+## Final Project
+
+What you have learned throughout the course of the semester will culminate in final project that consists of a research proposal/paper and an in-class presentation.
+
+You will write a research proposal or paper in which you will explicate a research problem, conduct a literature review, formulate hypotheses, and devise the methodology and analytic strategy. For those of you who have data and are working on a research paper, you will complete the results and discussion sections of your paper. More detailed instructions will be provided as the semester progresses.
+
+Your proposal should include:
+
+-   A statement of the research problem and its relevance for a specific discipline and society.
+-   A literature review to support your theoretical framework that translates the problem into research questions and testable hypotheses.
+-   A discussion of the measures used in your project and justification for measures and analytic procedures.
+
+If you are writing a research paper, it should include all of the above and the results and discussion sections.
+
+You will present a **project prospectus in Week 6**. Your prospectus should include all the components of your final project or a plan for accomplishing each component. In addition to presenting your proposal, you will serve as a reviewer for your peers. More information will be provided throughout the course of the semester.
+
+## Participation and Discussion Leadership
+
+This is a graduate-level seminar and learning occurs through practice, discussion, and debate. To this end, your attendance at meetings and involvement are required. To make this a positive learning experience, you must be prepared to discuss course content. It is not enough to simply attend classes. You are expected to actively participate in discussion of the readings and critically analyze their contents.
+
+I expect you to participate in at least two roles throughout the semester:
+
+1)  As an active participant in all class sessions.
+2)  Presenting your project prospectus and final project, and serving as a reviewer and discussant for your peers.
+3)  As a discussion leader for **at least one class**. This means that you are responsible for offering an overview of the day's topic and for ensuring that lively discussion is on-going throughout the course. We will sign up for this at the beginning of the semester.
+
+You are required to complete assigned tasks, on time and with care. Because participation is integral to this course and attendance is a necessary condition of participation, you are allowed **one unexcused absence without penalty**. Each subsequent absence will affect your final grade.
+
+For an absence to be excused, there must be a valid reason and I expect to be notified in advance, where possible. Tardiness will count as unexcused absences. More information on the University attendance policy can be found [here](https://regulations.utah.edu/academics/6-100.php).
+
+# Course Policies
+
+## Course Civility
+
+By enrolling in this course, you agree to (i) respect all members of the course; (ii) pay attention and participate in all classes and activities; and (iii) avoid unnecessary disruption during class meetings (e.g., text messaging, checking social media, doing work for other classes). This list represents the minimal standards to make the classroom a productive learning space for all. Your final grade may be affected each time you engage in disruptive and/or disrespectful behaviors.
+
+Communication allows us to engage with others and broaden our perspectives. How we discuss concepts, in the physical or virtual classroom, is part of that process. Our diverse perspectives and experiences will inform and enhance those discussions. Each member of the class is expected to foster a respectful, generous, and supportive online environment that makes room for productive difference and reasoned debate. Spirited discussion is encouraged. However, incivility is a different story entirely. Here is the basic netiquette that will be expected in the course:
+
+-   Always address your classmates by name. There is a human being on the other side of the room who also has struggles, doubts, and bad days.
+-   Disagreement is encouraged. Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments that are supported with evidence.
+-   Anytime you have a strong emotional reaction to something, pause before responding. Always seek to provide an argument that is supported by **credible evidence** based on the theories we discuss in this course.
+
+## Email Policy
+
+If you need to contact me, please send a message from your University of Utah email account to [sara.yeo\@utah.edu](mailto:%20sara.yeo@utah.edu). I typically will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.). Using a non-University account runs the risk of your message being diverted to Spam and your message may not reach me in a timely fashion, if at all.
+
+Emails should be written clearly and professionally, using appropriate salutations with correct spelling and grammar. **Emails that do not conform to these guidelines may not receive a timely response.**
+
+In the event of a University-wide emergency which prevents us from meeting, you should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and by way of email. **It is critical that you check your University email account frequently**.
+
+## Academic Misconduct
+
+Academic misconduct will be punished to the fullest extent possible. You are responsible for understanding what constitutes academic misconduct (see [Policy 6-400](http://regulations.utah.edu/academics/6-400.php)). Anyone found guilty of academic misconduct should expect to fail this course. In addition, academic misconduct may result in other penalties deemed appropriate by the university. Your rights and responsibilities are outlined in Policy 6-400, the Code of Student Rights and Responsibilities. You are responsible for obeying [Policy 6-400](http://regulations.utah.edu/academics/6-400.php). Ignorance of the policy is not an excuse.
+
+## Curriculum Accommodations
+
+Curriculum accommodations take two forms---scheduling and content accommodations. **There will be no content accommodations in this course**. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in [Policy 6-100](https://regulations.utah.edu/academics/6-100.php).
+
+# University Policies
+
+Updated mandatory syllabus policies regarding the Americans with Disabilities Act (ADA), Safety at the U, Addressing Sexual Misconduct, and Academic Misconduct can be viewed [here](https://cte.utah.edu/instructor-education/syllabus/institutional-policies.php).
