@@ -152,16 +152,9 @@ Updated mandatory syllabus policies regarding the Americans with Disabilities Ac
 
 # Course Schedule
 
-The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus. Note that this class will start in the second week of the semester on **14-Jan-26**.
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
 
 ## Week 1 (7-Jan)
-::: callout-warning
-## No class
-:::
-
-<!-- ------------------- -->
-
-## Week 2 (14-Jan)
 ### Course Introduction
 <!-- Introduce course, discuss project prospectus, discuss assigned readings -->
 Readings
@@ -170,7 +163,7 @@ Readings
 
 <!-- ------------------- -->
 
-## Week 3 (21-Jan) <!-- Try to reschedule with students to start at noon instead of 2 pm -->
+## Week 2 (14-Jan)
 ### Communication as a Social Science // Introduction to ***R***
 <!-- Student discussions, check in on project prospectus, set up R -->
 Readings
@@ -179,6 +172,13 @@ Readings
 -   Kerlinger, F. N. (1986). Science and the Scientific Approach. In *Foundations of Behavioral Research* (3rd edition, pp. 3--13). Holt, Rinehart and Winston.
 -   Smith, J. K. (1983). Quantitative versus qualitative research: An attempt to clarify the issue. *Educational Researcher*, *12*(3), 6--13. <https://doi.org/10.3102/0013189X012003006>
 -   [Introduction to R](https://sarakyeo.github.io/COMM3710-textbook/)
+
+<!-- ------------------- -->
+
+## Week 3 (21-Jan)
+::: callout-warning
+## No class
+:::
 
 <!-- ------------------- -->
 
