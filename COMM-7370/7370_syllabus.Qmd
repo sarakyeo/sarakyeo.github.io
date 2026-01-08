@@ -183,7 +183,7 @@ Readings
 <!-- ------------------- -->
 
 ## Week 4 (28-Jan)
-### From an Idea to a Research Project // First Steps in ***R***
+### From an Idea to a Research Project (Aidan, Jasim) // First Steps in ***R***
 <!-- Check in on prospectus (reminder: due next week with presentation), discuss readings, start working with R -->
 Readings
 
@@ -201,7 +201,7 @@ Readings
 -   McLeod, J. M. (1998). *Concept Explication and Theory Construction Part II: Empirical Analysis*.
 
 ## Week 6 (11-Feb)
-### Measurement, Variables, Reliability, \& Validity // Prospectus Presentation
+### Measurement, Variables, Reliability, \& Validity (Baoying, Aidan) // Prospectus Presentation
 <!--  -->
 ::: callout-note
 ## Final Project Deadline
@@ -215,7 +215,7 @@ Readings
 <!-- ------------------- -->
 
 ## Week 7 (18-Feb)
-### Survey Research & Experiments // Data Wrangling \& Visualization
+### Survey Research & Experiments (Yixuan, Camilla) // Data Wrangling \& Visualization
 <!-- `descr()`, `freq()`, data viz, recoding, data manipulation -->
 ::: callout-tip
 # Assignment Deadline
@@ -267,24 +267,24 @@ We will work together in class on your data analysis assignments (if needed) and
 <!-- ------------------- -->
 
 ## Week 11 (18-Mar)
-### Hypothesis Testing // Inferential Statistics
+### Hypothesis Testing (Jasim, Camilla) // Inferential Statistics
 <!-- t-test, chi-squared test, Pearson's correlation -->
 Readings
 
--   McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. *The American Statistician*, *73*(sup1), 235–245. https://doi.org/10.1080/00031305.2018.1527253
--   Lakens, D. (2021). The practical alternative to the *p*-value is the correctly used *p*-value. *Perspectives on Psychological Science*, *16*(3), 639–648. https://doi.org/10.1177/1745691620958012
--   Ioannidis, J. P. A. (2019). What have we (not) learnt from millions of scientific papers with *p*-values? *The American Statistician*, *73*(sup1), 20–25. https://doi.org/10.1080/00031305.2018.1447512
--   Lakens, D., & Etz, A. J. (2017). Too true to be bad: When sets of studies with significant and nonsignificant findings are probably true. *Social Psychological and Personality Science*, *8*(8), 875–881. https://doi.org/10.1177/1948550617693058
+-   McShane, B. B., Gal, D., Gelman, A., Robert, C., & Tackett, J. L. (2019). Abandon statistical significance. *The American Statistician*, *73*(sup1), 235–245. <https://doi.org/10.1080/00031305.2018.1527253>
+-   Lakens, D. (2021). The practical alternative to the *p*-value is the correctly used *p*-value. *Perspectives on Psychological Science*, *16*(3), 639–648. <https://doi.org/10.1177/1745691620958012>
+-   Ioannidis, J. P. A. (2019). What have we (not) learnt from millions of scientific papers with *p*-values? *The American Statistician*, *73*(sup1), 20–25. <https://doi.org/10.1080/00031305.2018.1447512>
+-   Lakens, D., & Etz, A. J. (2017). Too true to be bad: When sets of studies with significant and nonsignificant findings are probably true. *Social Psychological and Personality Science*, *8*(8), 875–881. <https://doi.org/10.1177/1948550617693058>
 
 <!-- ------------------- -->
 
 ## Week 12 (25-Mar)
-### Correlation \& Causation // Inferential Statistics
+### Correlation \& Causation (Baoying, Yixuan) // Inferential Statistics
 <!-- ANOVA, OLS regression models -->
 Readings
 
 -   Kennedy-Shaffer, L. (2019). Before p \< 0.05 to beyond p \< 0.05: Using history to contextualize p-values and significance testing. *The American Statistician*, *73*(sup1), 82--90. <https://doi.org/10.1080/00031305.2018.1537891>
--   Bullock, J. G., Green, D. P., & Ha, S. E. (2010). Yes, but what’s the mechanism? (Don’t expect an easy answer). *Journal of Personality and Social Psychology*, *98*(4), 550–558. https://doi.org/10.1037/a0018933.supp
+-   Bullock, J. G., Green, D. P., & Ha, S. E. (2010). Yes, but what’s the mechanism? (Don’t expect an easy answer). *Journal of Personality and Social Psychology*, *98*(4), 550–558. <https://doi.org/10.1037/a0018933.supp>
 
 
 <!-- ------------------- -->
