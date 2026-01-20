@@ -1,0 +1,11 @@
+﻿Variable,Description
+year,GSS year for this respondent
+id_,Respondent id number
+childs,number of children
+educ,highest year of school completed
+degree,r's highest degree
+partyid,political party affiliation
+polviews,think of self as liberal or conservative
+gunlaw,favor or oppose gun permits
+owngun,have gun in home
+ballot,ballot used for interview
