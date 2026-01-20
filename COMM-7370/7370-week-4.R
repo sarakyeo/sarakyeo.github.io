@@ -1,0 +1,23 @@
+# Loading packages ---------
+library(tidyverse)
+library(weights)
+library(rstatix)
+library(summarytools)
+library(psych)
+library(jtools)
+library(interactions)
+library(stargazer)
+library(huxtable)
+library(gtsummary)
+library(kableExtra)
+library(gridExtra)
+library(gtsummary)
+library(labelled)
+library(srvyr)
+library(tidyLPA)
+library(factoextra)
+library(FactoClass)
+
+# Read data into R ---------------
+gss <- read_csv(here::here("COMM-3710", "LA", "GSS.csv"))
+glimpse(gss)
