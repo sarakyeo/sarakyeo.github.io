@@ -2,8 +2,6 @@
 library(tidyverse)
 library(rstatix)
 library(summarytools)
-library(psych)
-library(huxtable)
 
 # Read data into R ---------------
 gss <- read_csv(here::here("COMM-3710", "LA", "GSS.csv"))
