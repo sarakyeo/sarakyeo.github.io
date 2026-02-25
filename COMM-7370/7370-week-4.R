@@ -50,3 +50,22 @@ gss <- gss |>
   )
 
 gss |> freq(dchild)
+
+
+
+# Data Analysis Workflow ----
+# 1) Setup folder structure.
+# 2) Download data as csv file.
+# 3) Duplicate data--one working, one raw data.
+# 4) In RStudio, start a new project. In Positron, 
+###  open the project folder in Positron.
+# 5) Save R project (.Rproj) in project folder.
+# 6) Open a new R script - label this file `00_setup.R`.
+
+## In `00_setup.R` ----
+# 1) Install (if necessary) and load packages that you need.
+# 2) Read data into R using the `read_csv()` function.
+# 3) Look at data to make sure they are tidy. Use `glimpse()` function.
+# 4) Remove R who did not consent to participating in the survey.
+###  Use `filter()` function. If applicable, filter by age and region/country.
+
