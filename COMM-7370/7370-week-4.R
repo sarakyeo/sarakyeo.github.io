@@ -39,7 +39,7 @@ gss <- gss |>
 
 gss |> freq(nchild)
 
-gss |> descr(nchild) #descr is the functino for descrtiptive stats
+gss |> descr(nchild) #descr is the function for descrtiptive stats
 
 gss <- gss |> 
   mutate(
