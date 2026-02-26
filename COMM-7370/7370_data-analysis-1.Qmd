@@ -30,7 +30,7 @@ glimpse(humor)
 
 ```
 
-1) Find the journal article below and download the data and codebook from OSF (link available in paper). In this assignment, you will recreate three of the variables (`mirth`, `need for humor`, and `engagement intentions`) from the article. We will use these variables to examine some differences and relationships.
+1) Find the journal article below and download the codebook from OSF (link available in paper). The data can be downloaded from Canvas (`humor-data.csv`). In this assignment, you will recreate three of the variables (`mirth`, `need for humor`, and `engagement intentions`) from the article. We will use these variables to examine some differences and relationships.
 
 > Yeo, S. K., Su, L. Y.-F., Cacciatore, M. A., Zhang, J. S., & McKasy, M. (2023). The differential effects of humor on three scientific issues: Global warming, artificial intelligence, and microbiomes. *International Journal of Science Education, Part B, 13*(1), 59–83. https://doi.org/10.1080/21548455.2022.2123259
 
