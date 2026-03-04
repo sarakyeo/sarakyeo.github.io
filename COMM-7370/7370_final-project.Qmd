@@ -31,7 +31,7 @@ You will present a project prospectus in class. Your prospectus should include a
 
 ## Requirements {#sec-req}
 
-All proposals should follow APA style guidelines. Your proposal should contain:(1) a cover page, (2) a single-page project summary, (3) an introduction to the problem and its importance and contribution to the discipline and society, (4) a thorough review of literature relevant to your concepts of interest, (5) hypotheses and/or research questions, (6) methodology detailing measures and analytic approach, (7) a link to your preregistration, (8) appropriate tables and figures, and (9) references.
+All proposals should follow APA style guidelines. Your proposal should contain:(1) a cover page, (2) a single-page project summary, (3) an introduction to the problem and its importance and contribution to the discipline and society, (4) a thorough review of literature relevant to your concepts of interest, (5) hypotheses and/or research questions, (6) methodology detailing measures and analytic approach, (7) appropriate tables and figures, and (8) references.
 
 Your final proposal should not exceed 8,000 words (not inclusive of cover page, project summary, tables, figures, or references).
 
@@ -43,7 +43,7 @@ This is a 1,500 - 2,000 word document that outlines your project topic, the rese
 
 Submit this as a PDF document on Canvas.
 
-You will also present this in class in Week 6. Each student will have 20 minutes to present their work followed by 10 minutes of Q\&A and discussion. The goal of the presentation is to learn to constructively offer critiques to your peers and receive feedback on your own project.
+You will also present this in class in Week 6. Each student will have 10 minutes to present their work followed by 10 minutes of Q\&A and discussion. The goal of the presentation is to learn to constructively offer critiques to your peers and receive feedback on your own project.
 
 ## Penultimate Paper
 

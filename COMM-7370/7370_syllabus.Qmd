@@ -248,11 +248,6 @@ Readings
 ## Week 9 (4-Mar)
 ### Work Day
 
-::: callout-note
-# Final Project Deadline
-Penultimate version of proposal due.
-:::
-
 We will work together in class on your data analysis assignments (if needed) and final proposals/papers.
 
 <!-- ------------------- -->
@@ -262,6 +257,11 @@ We will work together in class on your data analysis assignments (if needed) and
 
 ::: callout-warning
 # No class
+:::
+
+::: callout-note
+# Final Project Deadline
+Penultimate version of proposal due.
 :::
 
 <!-- ------------------- -->
