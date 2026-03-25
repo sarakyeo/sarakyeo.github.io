@@ -16,6 +16,6 @@ format:
 
 In this assignment, we will replicate the data analysis from the publication below.
 
-> McKasy, M., Cacciatore, M. A., Su, L. Y.-F., Yeo, S. K., & O’Neill, L. (2020). Operationalizing science literacy: An experimental analysis of measurement. Journal of *Science Communication, 19*(4), A03. https://doi.org/10.22323/2.19040203
+> Yeo, S. K., Su, L. Y.-F., Cacciatore, M. A., Zhang, J. S., & McKasy, M. (2023). The differential effects of humor on three scientific issues: Global warming, artificial intelligence, and microbiomes. International Journal of Science Education, Part B, 13(1), 59–83. https://doi.org/10.1080/21548455.2022.2123259
 
-Find the journal article and download the data and codebook from Canvas. Replicate the analysis following the article. Be sure to address all the research questions and hypotheses posed by the authors.
+Find the journal article and download the data (`humor-data.csv`) from Canvas and codebook from OSF (link in manuscript). Replicate one of the regression models in the article. Interpret your results in your own words and check whether your interpretation aligns with that of the journal article.
