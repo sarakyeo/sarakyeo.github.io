@@ -19,3 +19,116 @@ In this assignment, we will replicate the data analysis from the publication bel
 > Droog, E., Burgers, C., van Huijstee, D., & Vermeulen, I. (2025). Laughing through the myths: Using satirical humor to counter misinformation about contraceptives on social media. *Health Communication, 0*(0), 1–12. https://doi.org/10.1080/10410236.2025.2560034
 
 Find the journal article and download the data and codebook from OSF. Replicate the analysis following the article. Be sure to address all the research questions and hypotheses posed by the authors.
+
+```{r}
+
+# load packages
+library(tidyverse)
+library(dplyr)
+library(psych)
+library(summarytools)
+library(car)
+library(rstatix)
+library(kableExtra)
+library(corrplot)
+library(tidyr)
+library(effectsize)
+library(ggplot2)
+library(emmeans)
+
+# load data
+data <- read_csv(here::here("COMM-7370", "Droog-et-al_studydata.csv"))
+glimpse(data) # N = 1,889
+
+# removing R who failed attention check (using Droog et al.'s code)
+data <- data |> 
+  mutate(
+    ID = row_number()
+    )
+data |> freq(ID)
+
+data |> freq(Sound_check)
+
+data <- data |> 
+  filter(
+    Sound_check == 7, Progress == 100
+  ) # N = 744
+
+data |> 
+  select(ID, Attentioncheck1, Attentioncheck4)
+d2 <- select(d, ID, Attentioncheck1, Attentioncheck4)
+
+data <- data |> 
+  filter( 
+            ID != 4,
+            ID != 6,
+            ID != 7,
+            ID != 9,
+            ID != 17,
+            ID != 23,
+            ID != 41,  
+            ID != 73,
+            ID != 83,
+            ID != 95,
+            ID != 232, 
+            ID != 273,
+            ID != 282,
+            ID != 284, 
+            ID != 290,
+            ID != 307, 
+            ID != 310,
+            ID != 327,
+            ID != 329, 
+            ID != 338, 
+            ID != 351,
+            ID != 356,
+            ID != 359,
+            ID != 360, 
+            ID != 385, 
+            ID != 411,
+            ID != 449,
+            ID != 451,
+            ID != 458,
+            ID != 467,
+            ID != 473,
+            ID != 475,
+            ID != 479,
+            ID != 486,
+            ID != 488,
+            ID != 490,
+            ID != 494,
+            ID != 495,
+            ID != 597, 
+            ID != 646,
+            ID != 660,
+            ID != 682, 
+            ID != 683,
+            ID != 743,
+            ID != 744,
+            ID != 761,
+            ID != 786,
+            ID != 805,
+            ID != 812,
+            ID != 825, 
+            ID != 952,
+            ID != 1022,
+            ID != 1046,
+            ID != 1121,
+            ID != 1159,
+            ID != 1195,
+            ID != 1207,
+            ID != 1240,
+            ID != 1243,
+            ID != 1284,
+            ID != 1319,
+            ID != 1388,
+            ID != 1398,
+            ID != 1409,
+            ID != 1443,
+            ID != 1819,
+            ) # N = 711
+
+# create experimental conditions
+data |> freq(Conditie) # already created (non-numeric)
+
+```
