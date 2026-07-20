@@ -21,6 +21,7 @@ format:
       papersize: letter
       toc: false
       colorlinks: true
+      fig-dpi: 300
 urlcolor: blue
 ---
 
@@ -73,10 +74,9 @@ You are expected to know how to take a screenshot with your computer. A photo of
 
 Course grades will be based on the following:
 
--   Quizzes (110 pts)
--   Attendance (28 pts)
+-   Quizzes (120 pts)
+-   Attendance (25 pts)
 -   Lab assignments (125 pts)
--   Lab presentations (50 pts)
 
 ## Quizzes
 
@@ -95,10 +95,6 @@ Attendance is required for lectures and labs. Out of respect for your instructor
 There are 9 lab assignments. Information on individual assignments will be provided in lab and on Canvas. Assignment due dates will be listed on Canvas. Please pay attention to any changes in the due dates on Canvas.
 
 **Late assignments will not be accepted**.
-
-## Lab Presentations
-
-Each student will give one (1) presentation in lab as part of a team. More information and detailed instructions will be provided during lab.
 
 # Course Grading
 
@@ -198,4 +194,4 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. In-class assignments will be completed during lecture and lab assignments will be assigned and discussed during lab. For more information, see the [Course Requirements](#sec-requirements).
 :::
 
-![](3710-schedule-F2025.png){fig-width="90%"}
+![](3710-schedule-F2026.png){fig-width="90%"}
