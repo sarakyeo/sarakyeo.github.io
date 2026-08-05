@@ -23,9 +23,9 @@ To complete CITI training, follow the instructions below:
 
 1.  Open your browser and navigate to [https://www.citiprogram.org](https://www.citiprogram.org/). Click `Register`.
 
-2.  Enter your university affiliation. Click `Continue to Step 2`.
+2.  Click on `Select Your Organization Affiliation`. Enter "University of Utah" in the space provided. Agree to the terms of service, etc. and affirm that you are affiliated with the University of Utah. Click `Create a CITI Program account`.
 
-3.  Fill in your **first and last name** and your **utah.edu email address**. Click `Continue to Step 3`.
+3.  Fill in your **first and last name** and your **utah.edu email address** in the appropriate fields. Click `Continue to Step 3`. You may add your personal email address as a secondary email address.
 
 4.  Create a username and password. Fill in the required fields. When asked to verify your email address, be sure to check your Spam folder for the verification email.
 
@@ -35,21 +35,21 @@ To complete CITI training, follow the instructions below:
 
 7.  Next, select `Group 2: Social/Behavioral Research Investigators and Key Personnel`.
 
-8.  On the next screen, select `I have not previously completed an approved Basic Course`.
+8.  On the next screen, **if you have not completed the basic Social/Behavioral Research course**, select `I have not previously completed an approved Basic Course`. If you have completed a basic course, then complete the Refresher course.
 
-9.  On the `Optional Courses` screen, select `Not at this time`.
+9.  On the `Optional Courses` screen, select `Not at this time`. You are, of course, welcome to take additional courses, but only the `Group 2: Social/Behavioral Research Investigators and Key Personnel` course is required for this assignment.
 
 10. Click `Finalize registration` to complete your registration. If you do not see the Group 2 course on the next screen, click `University of Utah Courses` to expand the tab. Click on the Group 2 link to start the training.
 
-11. **Complete all modules with a grade of at least 80%**.
+11. Complete all modules in the Group 2: Social/Behavioral Research Investigators and Key Personnel course **with a grade of at least 80%**.
 
-12. Once you have completed the modules, click `Print Report`. **Save the resulting report as a PDF file**.
+12. Once you have completed the modules, click `View / Print Report`. **Save the resulting report as a PDF file**. Note that you want the **report** and not the **certificate**.
 
 ------------------------------------------------------------------------
 
 # Submission
 
-Submit the report as a **PDF file** on Canvas. An example submission is shown below.
+Submit the report (not certificate) as a **PDF file** on Canvas. An example submission is shown below.
 
 ------------------------------------------------------------------------
 
@@ -69,26 +69,12 @@ Quizzes
 - Reminder: Quizzes open on Tuesdays and close on Sundays. You have 20 min to complete quizzes.
 - Do not wait until the weekend to complete the quiz. For example, if they have technical issues, neither we nor CTLE can help them on Friday evenings or Saturdays.
 
-
 ## Lab
 Assignments
 - There will be 9 lab assignments.
 - You will have two weeks to complete each assignment.
 
-Presentations
-- These are group presentations--you have been assigned to teams on Canvas.
-- Each team is responsible for walking your peers through the skills necessary for each lab assignment (starting from LA-3 through LA-9).
-- We will sign up for these today.
-
-# 3) Lab presentation sign-up
-Team activities for today:
-- Find your group.
-- Introduce yourselves.
-- Decide how you will communicate with your group.
-- Decide on a week to present (first come, first serve).
-- Open the floor to questions from students.
-
-# 4) Discuss research ethics
+# 3) Discuss research ethics
 - Discussion, no slides.
 - Most egregious breaches of research ethics have been turned in to movies.
 	- *The Stanford Prison Experiment* (2015)
@@ -106,7 +92,7 @@ Team activities for today:
 		- Cannot coerce into participating.
 		- e.g., prisoners, children
 
-# 5) Introduce LA-1
+# 4) Introduce LA-1
 - Introduce LA-1.
 - Materials are on Canvas.
 - Please ask questions.
