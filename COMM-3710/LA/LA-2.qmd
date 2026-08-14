@@ -169,9 +169,6 @@ Some notes before we jump in to Posit Cloud and R.
 - Identify the various panes in R and their names.
 - Help them determine what happens when they run a function in the Console.
 - Walk through LA-2 with different examples.
-- Helpful and fun things in R.
-        - Changing the theme.
-        - Rainbow parentheses.
 - Pulling up help documentation in R.
 - Go through the 3710 R textbook section Getting Started.
 
