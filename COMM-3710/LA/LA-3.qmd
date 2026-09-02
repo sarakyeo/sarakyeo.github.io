@@ -17,9 +17,8 @@ urlcolor: blue
 
 In this assignment, you will learn how to:
 
-- Create a new R script.
 - Prepare your R script for your assignment.
-- Create headers in your R script.
+- Create sections in your R script.
 - Install and load packages in R.
 - Open a help page in R.
 - Manually enter data into R.
@@ -41,27 +40,27 @@ In this assignment, you will learn how to:
 Comments (text preceded by `#` in your R script) are not run or executed. R will only run/execute commands or functions (text not preceded by `#`).
 :::
 
-2) Make a section of code titled "Installing and loading packages." Under this heading, write pseudocode in preparation to install and load the following packages:
+2) Make a section of code titled "Installing and loading packages." Under this heading, you could write some notes in preparation to install and load the following packages:
 
 - `tidyverse`
 - `summarytools`
 - `rstatix`
 
 :::callout-tip
-Pseudocode is the plain English version of your R code that described the steps you are taking in R. It should be written as comments in your R script and should make sense to you. Your pseudocode is a tool that helps you decide which R function or command you need to accomplish a given task.
+Sometimes, your notes can be **pseudocode**, which is the plain English version of your R code that described the steps you are taking in R. It should be written as comments in your R script and should make sense to you. Pseudocode is a tool that helps you decide which R function or command you need to accomplish a given task.
 :::
 
 3) Install the packages above using the function, `install.packages()`. For example, to install the `tidyverse` package, the command is `install.packages("tidyverse")`. Remember that typing the command in your R script does not run or execute the function. You must select the text of the function that you want to run and click "Run" in the top right corner of the script pane (or use the shortcut keys).
 
-4) Load the packages. The function to load the packages is `library()`. To load the `tidyverse` package, type `library(tidyverse)` in your script and run it. Note that for each new project you create in Your Workspace on Posit Cloud, you will have to install and load any necessary packages again.
+4) Load the packages. The function to load the packages is `library()`. To load the `tidyverse` package, type `library(tidyverse)` in your script and run it. Note that for each new Project you create in Your Workspace on Posit Cloud, you will have to install and load any necessary packages again. If you are using the same Project, you may not need to load the packages each time you open the project.
 
 # Entering Data Manually
 
-In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's learn about the function we will be using.
+In the next step, we will enter data into R manually using the `c()` function. Before we do so, let's learn about the function we will be using.
 
 1) Create a new section of code where you can explore and learn about the `c()` function.
 
-2) To read the documentation for any function, you can add `?` in front of the command and run it. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
+2) To read the documentation for any function, you can add `?` in front of the command and run it. Alternatively, you can type `?<function>` in the Console. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
 
 :::callout-tip
 The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource.
