@@ -66,7 +66,7 @@ In the next step, we will enter data into R manually using the `c()` function. B
 The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource.
 :::
 
-3) Enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `PPG` (points per game), and `REB` (rebounds per game). There are two data types in the data table, numeric and character. Your TA will show you how to assign the data to the objects.
+3) Enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `PPG` (points per game), and `REB` (rebounds per game). There are two data types in the data table, **numeric** and **character**. Recall we used `<-` or `=` to assign data to objects in LA-2.
 
 ```{r}
 #| label: data
@@ -102,7 +102,7 @@ df |>
 
 In this last section, we will use a Tutorial that is built into an existing R package.
 
-Install and load the `learnr` package in your current session of R. In the Tutorial tab (usually top right with the Environment pane), complete the **Data Basics** tutorial. If you are asked to install packages or dependencies, do so.
+Install and load the `learnr` package in your current session of R (review the instructions above if you need a reminder of how to install and load packages). If you are asked to install packages or dependencies, do so. In the Tutorial tab (in the top right with the Environment pane), complete the **Data Basics** tutorial.
 
 Include the answers to the questions below in your R script as comments. Clearly label your answers with the question number (e.g., a, b). You will answer these questions as part of the Data Basics Tutorial. List the answers from your tutorial as comments in your R script.
 
@@ -127,7 +127,7 @@ To ensure that your R script runs without errors, you should:
 
 - Save your script.
 - Navigate back to Your Workspace on Posit Cloud.
-- Reopen your project.
+- Reopen your project and ensure that the Environment is clean.
 - Run the entire script line-by-line without editing it to ensure there are no errors.
 
 :::callout-important
