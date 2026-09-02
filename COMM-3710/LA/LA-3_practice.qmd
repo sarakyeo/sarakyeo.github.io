@@ -105,7 +105,7 @@ To ensure that your R script runs without errors, you should:
 
 - Save your script.
 - Navigate back to Your Workspace on Posit Cloud.
-- Reopen your project.
+- Reopen your project and ensure the Environment is clean.
 - Run the entire script line-by-line without editing it to ensure there are no errors.
 
 :::callout-important
