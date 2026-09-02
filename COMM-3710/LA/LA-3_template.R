@@ -1,7 +1,7 @@
 # Name: Louise Belcher
 # Student ID: u0000001
 # Date: MM/DD/YYYY
-# COMM 3710 Assignment: LA.3
+# COMM 3710 Assignment: LA-3
 
 
 # Installing and Loading Packages -----------------------------------------
@@ -18,15 +18,11 @@ library(tidyverse)
 # Load rstatix package
 
 
-# Set working directory ---------------------------------------------------
-setwd("")
-
-
 # Check out c() function in R ---------------------------------------------
 # Pull up help page for c()
 ?c
 
-# The c() function... [add description here]
+# The c() function... <add description here>
 
 
 # Entering data -----------------------------------------------------------
@@ -43,10 +39,9 @@ ppg <- c()
 pts <- c()
 
 
-
 # Check and combine -------------------------------------------------------
 # Check Ateam, Aname, ppg, and pts
-
+Ateam
 
 # Combine objects into tibble
 mydata <- tibble()
@@ -62,9 +57,9 @@ mydata <- tibble()
 # Check class of each column in mydata tibble
 class(mydata$Aname)
 
-# Ateam is character.
+# Ateam is character/numeric/factor.
 # Aname is ...
-# ppg is numeric.
+# ppg is ...
 # pts is ...
 
 
@@ -73,11 +68,11 @@ class(mydata$Aname)
 # Load learnr package
 
 
-# Answers to Step 10 ------------------------------------------------------
-# 10a. 
-# 10b. 
-# 10c. 
-# 10d. 
+# Answers to learnr tutorial ---------------------------------------------
+# a. 
+# b. 
+# c. 
+# d. 
 
 
 
