@@ -17,9 +17,8 @@ urlcolor: blue
 
 In this assignment, you will learn how to:
 
-- Create a new R script.
 - Prepare your R script for your assignment.
-- Create headers in your R script.
+- Create sections in your R script.
 - Install and load packages in R.
 - Open a help page in R.
 - Manually enter data into R.
@@ -53,7 +52,7 @@ Pseudocode is the plain English version of what you want your R code to do. Pseu
 
 3) Install the packages above using the function, `install.packages()`. For example, to install the `tidyverse` package, the command is `install.packages("tidyverse")`. Remember that typing the command in your R script does not run or execute the function. You must select the text of the function that you want to run and click "Run" in the top right corner of the script pane (or use the shortcut keys).
 
-4) Load the packages. The function to load the packages is `library()`. To load the `tidyverse` package, type `library(tidyverse)` in your script and run it. Note that for each new project you create in Your Workspace on Posit Cloud, you will have to install and load any necessary packages again.
+4) Load the packages. The function to load the packages is `library()`. To load the `tidyverse` package, type `library(tidyverse)` in your script and run it. Note that for each new Project you create in Your Workspace on Posit Cloud, you will have to install and load any necessary packages again. If you are using the same Project, you may not need to load the packages each time you open the project.
 
 # Entering Data Manually
 
@@ -61,7 +60,7 @@ In the next step, we will enter data into R manually using the `c()` function, w
 
 1) Create a new section of code where you can explore and learn about the `c()` function.
 
-2) To read the documentation for any function, you can add `?` in front of the command and run it. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
+2) To read the documentation for any function, you can add `?` in front of the command and run it. Alternatively, you can type `?<function>` in the Console. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
 
 :::callout-tip
 The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource. Often, the most helpful part of the documentation is the section of examples--scroll down to the bottom of the documentation to check these out.
@@ -112,7 +111,7 @@ A template for using `tibble()` to create a data frame: `dataframename <- tibble
 
 In this last section, we will use a Tutorial that is built into an existing R package.
 
-Install and load the `learnr` package in your current session of R. In the Tutorial tab (usually top right with the Environment pane), complete the **Data Basics** tutorial. If you are asked to install packages or dependencies, do so.
+Install and load the `learnr` package in your current session of R (review the instructions above if you need a reminder of how to install and load packages). If you are asked to install packages or dependencies, do so. In the Tutorial tab (in the top right with the Environment pane), complete the **Data Basics** tutorial.
 
 Include the answers to the questions below in your R script as comments. Clearly label your answers with the question number (e.g., a, b). You will answer these questions as part of the Data Basics Tutorial. List the answers from your tutorial as comments in your R script.
 
@@ -137,7 +136,7 @@ To ensure that your R script runs without errors, you should:
 
 - Save your script.
 - Navigate back to Your Workspace on Posit Cloud.
-- Reopen your project.
+- Reopen your project and ensure that the Environment is clean.
 - Run the entire script line-by-line without editing it to ensure there are no errors.
 
 :::callout-important

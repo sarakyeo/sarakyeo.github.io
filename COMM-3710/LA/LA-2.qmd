@@ -54,7 +54,7 @@ Remember to save your work often.
 
 3) At the top of the screen, click on `Untitled Project` to name your project. I recommend having a project for each lab assignment.
 
-4) You're ready to work with R on Posit Cloud! Your TA will help you get familiar with the layout of R. Be sure you know where the **Console** and **Environment** panes are located.
+4) You're ready to work with R on Posit Cloud! Your instructor will help you get familiar with the layout of R. Be sure you know where the **Console** and **Environment** panes are located.
 
 5) Take a screenshot of your project and save it. This is one of your submissions for this assignment. <!-- 1 pt -->
 
@@ -63,7 +63,7 @@ Remember to save your work often.
 
 At its core, R is a calculator. It can also make fancy figures. Let's start by giving R some simple commands. 
 
-1) Create a new R script, name it `LA-2_Your Name.R`. Your TA will show you how. Think of a script as a list of commands that you (the user) are giving to the computer (R, which is the engine underlying RStudio and Posit Cloud).
+1) Create a new R script, name it `LA-2_Your Name.R`. Your instructor will show you how. Think of a script as a list of commands that you (the user) are giving to the computer (R, which is the engine underlying RStudio and Posit Cloud).
 
 2) In your script, type the following command:
 
