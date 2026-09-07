@@ -41,14 +41,14 @@ In this assignment, you will learn how to:
 Comments (text preceded by `#` in your R script) are not run or executed. R will only run/execute commands or functions (text not preceded by `#`).
 :::
 
-2) Make a section of code titled "Installing and loading packages." Under this heading, write pseudocode in preparation to install and load the following packages:
+2) Make a section of code titled "Installing and loading packages." Under this heading, write some pseudocode in preparation to install and load the following packages:
 
 - `tidyverse`
 - `summarytools`
 - `rstatix`
 
 :::callout-tip
-Pseudocode is the plain English version of your R code that described the steps you are taking in R. It should be written as comments in your R script and should make sense to you. Your pseudocode is a tool that helps you decide which R function or command you need to accomplish a given task.
+Pseudocode is the plain English version of what you want your R code to do. Pseudocode describes the steps you are taking in R. It should be written as comments in your R script and should make sense to you. Your pseudocode is a tool that helps you decide which R function or command you need to accomplish a given task.
 :::
 
 3) Install the packages above using the function, `install.packages()`. For example, to install the `tidyverse` package, the command is `install.packages("tidyverse")`. Remember that typing the command in your R script does not run or execute the function. You must select the text of the function that you want to run and click "Run" in the top right corner of the script pane (or use the shortcut keys).
@@ -57,17 +57,22 @@ Pseudocode is the plain English version of your R code that described the steps 
 
 # Entering Data Manually
 
-In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's learn about the function we will be using.
+In the next step, we will enter data into R manually using the `c()` function, which is short for `combine()`. Before we do so, let's remind ourselves about the function we will be using.
 
 1) Create a new section of code where you can explore and learn about the `c()` function.
 
 2) To read the documentation for any function, you can add `?` in front of the command and run it. This will pull up the documentation (including examples at the very end of the documentation) in the Help tab in the bottom right pane. For example, if I wanted to read the documentation for the `library()` function, I would run the command: `?library()`. Copy and paste the description from the Help pane for the `c()` function in your R script as a comment.
 
 :::callout-tip
-The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource.
+The documentation may not seem helpful at first glance, but once you become more familiar with R and its commands, the Help documentation becomes a useful resource. Often, the most helpful part of the documentation is the section of examples--scroll down to the bottom of the documentation to check these out.
 :::
 
-3) Enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `PPG` (points per game), and `REB` (rebounds per game). There are two data types in the data table, numeric and character. Your TA will show you how to assign the data to the objects.
+3) Enter the data in the table below as four (4) objects called `Aname`, `Ateam`, `PPG` (points per game), and `REB` (rebounds per game). There are two data types in the data table, numeric and character. Remember to used the `<-` and `c()` to assign data to objects.
+
+:::callout-tip
+Some helpful code to assign numeric data to objects: `objectname <- c(#, #, #)`
+Some helpful code to assign character/text data to objects: `objectname <- c("text", "text", "text")`
+:::
 
 ```{r}
 #| label: data
@@ -92,6 +97,10 @@ df |>
 4) Check that you have created the objects correctly by calling each object. Calling an object in R allows you to see it in the Console. To call an object, type the name of the object in the Console and press Enter. Or type the name of the object in your R script, then highlight and run it. Copy and paste the results of calling the objects into your R script as comments. You can find the output in the Console pane.
 
 5) Combine the objects into a single data frame that has a name of your choosing and look at the data frame. Use the `tibble()` function to do this. The data in the data frame should match that in Table 1. Call the data frame in the Console. Copy and paste the output as a comment in your R script.
+
+:::callout-tip
+A template for using `tibble()` to create a data frame: `dataframename <- tibble(objectname1, objectname2, objectname3)`
+:::
 
 # Examining Types of Data
 

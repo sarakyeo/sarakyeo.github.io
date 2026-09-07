@@ -13,9 +13,9 @@ format:
 urlcolor: blue
 ---
 
-# Before we start: Installing R on your personal laptop
+# Optional: Installing R on your personal laptop
 
-Before we start on today's practice assignment, we will install R and RStudio on your personal laptops.
+If you would like, you can install R on your personal laptop. your instructor will help you with this.
 
 # Setup
 
