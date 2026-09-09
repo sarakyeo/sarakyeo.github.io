@@ -7,7 +7,6 @@
 # Installing and Loading Packages -----------------------------------------
 # Install tidyverse package
 install.packages("tidyverse")
-# Install magrittr package
 # Install summarytools package
 # Install rstatix package
 

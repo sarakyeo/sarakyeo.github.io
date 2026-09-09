@@ -1,5 +1,5 @@
 ---
-title: "More Practice Working with Data"
+title: "Practice Working with Data"
 format:
    pdf:
       documentclass: article
@@ -12,10 +12,6 @@ format:
       colorlinks: true
 urlcolor: blue
 ---
-
-# Optional: Installing R on your personal laptop
-
-If you would like, you can install R on your personal laptop. your instructor will help you with this.
 
 # Setup
 
@@ -38,7 +34,7 @@ Comments (text preceded by `#` in your R script) are not run or executed. R will
 
 3) Install the packages above using the function, `install.packages()`. Remember that typing the command in your R script does not run or execute the function. You must select the text of the function that you want to run in your script and click "Run" in the top right corner of the script pane (or use the shortcut keys).
 
-4) Load the packages using the `library()` function.
+4) Load the packages using the `library()` function. If you need a reminder of how to do this, refer to a previous lab assignment.
 
 # Entering (More) Data Manually
 
@@ -66,6 +62,10 @@ df |>
 
 3) Check that the data in the data frame match that in Table 1 by calling the data frame in the Console. Copy and paste the output as a comment in your R script.
 
+::: callout-tip
+Each column in the dataframe is also known as a **variable**. In the dataframe you just created, there are five (5) variables: `educ`, `polviews`, `gunlaw`, `owngun`, and `numkids`.
+:::
+
 # Examining Types of Data
 
 4) Determine the class of each column in your data frame. Remember that your template function to do this is: `class(dataframe$variable)`. Copy and paste the class of each column in your R script.
@@ -76,7 +76,22 @@ df |>
 
 ```
 dataframe |> 
-        ggplot(aes(x = polviews, fill = gunlaw)) +
+        ggplot(aes(x = gunlaw, fill = owngun)) +
+        geom_bar()
+
+```
+
+The figure should look like the one below:
+```{r}
+#| label: hist
+#| output: TRUE
+#| echo: false
+#| fig-height: 2
+#| fig-width: 3
+#| fig-align: center
+
+df |> 
+        ggplot(aes(x = gunlaw, fill = owngun)) +
         geom_bar()
 
 ```
