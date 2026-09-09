@@ -81,7 +81,8 @@ dataframe |>
 
 ```
 
-The figure should look like the one below:
+The figure should look like the one below. As a comment in your R script, describe the figure. In other words, what do you notice about the relationship between the two variables, `owngun` and `gunlaw`?
+
 ```{r}
 #| label: hist
 #| output: TRUE
