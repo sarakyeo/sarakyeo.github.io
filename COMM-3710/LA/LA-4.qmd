@@ -152,8 +152,6 @@ bway |> # Start with the broadway data frame
 
 ```
 
-Report the mean attendance for *Mamma Mia!* and *The Lion King* as comments in your script.
-
 8)  Let's say we also want to know the minimum and maximum number of people who attended a Mamma Mia! show. To do so, add arguments to the `summarise()` function.
 
 ```{r}
