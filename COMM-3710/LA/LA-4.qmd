@@ -221,8 +221,8 @@ bway |> # Start with the braodway data frame
 
 10) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-    a)  Among shows in the `Majestic` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    b)  Among shows in the `Vivian Beaumont` theater that are `Musicals`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    a)  Among shows in the `Majestic` theater that are labeled as `Musical`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+    b)  Among shows in the `Vivian Beaumont` theater that are `Musical`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
     c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
