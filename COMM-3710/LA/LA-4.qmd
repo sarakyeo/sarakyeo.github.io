@@ -167,7 +167,7 @@ bway |> # Start with the broadway data frame
             filter(Show.Name == "Mamma Mia!") |> # Filter for only Mamma Mia! cases       
             summarise(M_attd = mean(Statistics.Attendance, na.rm = TRUE), # Find mean   
                       min_attd = min(Statistics.Attendance, na.rm = TRUE), # Find minimum 
-                      max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum}
+                      max_attd = max(Statistics.Attendance, na.rm = TRUE)) # Find maximum
             
 ```
 
