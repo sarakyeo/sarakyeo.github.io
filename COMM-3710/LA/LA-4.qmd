@@ -55,7 +55,7 @@ Read all the instructions carefully before starting the assignment. Set up your 
 
 2)  Download the data file called `broadway.csv` from Canvas and upload it to your project for this assignment on Posit Cloud. If you are using R on your own machine, be sure you know to location to which the data file is downloaded. For example, you might want to create a folder on your Desktop called `3710` and move your data file into this folder. If you do so, you could also save your `.R` files into this folder for your assignments.
 
-3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times. To read the data into R, use the following code: `read_csv("broadway.csv")`
+3)  Read the data into an object in R using the `read_csv()` function. For example, you might call your object, which will be a data frame, `bway` or `b`. Feel free to be creative with your object name; keep in mind that you will likely have to type the name of the data frame in your code many times. To read the data into R and save it as an object called `bway`, use the following code: `bway <- read_csv("broadway.csv")`
 
 4)  Let's get a sense of our data using the `glimpse()` function. This function, which is included in the `tidyverse` suite of packages for R, allows us to get a glimpse of our data. To use this function, the command is: `glimpse(df)` where `df` is the name of your data frame.
 
@@ -219,18 +219,38 @@ bway |> # Start with the braodway data frame
 
 ```
 
-10) Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
+10) So far, we've only filtered on one condition at a time (e.g., one show name). Sometimes we want to filter on *two* conditions at once — for example, cases that match a particular theater *and* a particular show type. To do this, we can add a second `filter()` step to our pipe, like this:
 
-    a)  Among shows in the `Majestic` theater that are labeled as `Musical`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
-    b)  Among shows in the `Vivian Beaumont` theater that are `Musical`, what is the minimum, maximum, and mean "Gross Gross" in dollars?
+```{r}
+#| label: ex10
+#| echo: true
+#| eval: false
+#| include: true
+#| tidy: true
+
+bway |> # Start with the broadway data frame
+        filter(Show.Theater == "Studio 54") |> # First, keep only Studio 54 cases
+        filter(Show.Type == "Play") |> # Then, keep only Play cases from what's left
+        summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
+                  min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
+                  max_gross = max(Statistics.Gross, na.rm = TRUE)) # find maximum
+
+```
+
+Each `filter()` step narrows down the data further, so by the time we get to `summarise()`, we're only looking at cases that meet *both* conditions.
+
+Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
+
+    a)  Among shows in the `Majestic` theater that are labeled as `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
+    b)  Among shows in the `Vivian Beaumont` theater that are `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
     c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
 #| label: ans10
 #| include: false
 
-bway |> # Start with the braodway data frame
-        filter(Show.Theater == "Majestic") |> # Select only Studio 54 cases
+bway |> # Start with the broadway data frame
+        filter(Show.Theater == "Majestic") |> # Select only Majestic cases
         filter(Show.Type == "Musical") |> # Select type == musical
         summarise(M_gross = mean(Statistics.Gross, na.rm = TRUE), # find mean
                   min_gross = min(Statistics.Gross, na.rm = TRUE), # find minimum
