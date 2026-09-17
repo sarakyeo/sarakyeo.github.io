@@ -92,6 +92,8 @@ glimpse(bway)
 
 7)  In the next step, we will learn to use the pipe operator. The pipe operator, `|>`, is used to perform sequential functions in R. It is a base R operator (built into R itself, no package required) and is also compatible with the `tidyverse` package. You can also think of the pipe operator, `|>`, as "then." If we were to use `|>` to describe a daily routine, it might look something like this:
 
+Note that this is not real, runnable R code — it's just an analogy to help you understand what the pipe operator does. Don't try to run it in your Console.
+
 ```{r}
 #| eval: false
 
