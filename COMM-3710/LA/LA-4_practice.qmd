@@ -13,6 +13,14 @@ format:
 urlcolor: blue
 ---
 
+# Overview
+
+This is a low-stakes practice assignment designed to help you build confidence with the data wrangling skills you learned in LA-4: reading data into R, using the pipe operator (`|>`), and using `filter()` and `summarise()` to answer questions about a dataset. You will use the same `broadway.csv` data as in LA-4.
+
+::: callout-tip
+If you get stuck, it can help to open your completed LA-4 script side-by-side with this assignment — the pattern of code you used there will work here, too. You can also reopen the `broadway-codebook.csv` file to remind yourself what each variable measures.
+:::
+
 # Instructions
 
 ::: callout-tip
@@ -48,7 +56,21 @@ bway <- read_csv(here::here("COMM-3710", "LA", "broadway.csv"))
 3)  Use the pipe operator (`|>`), and the `filter()` and `summarise()` functions to answer the following questions:
     a)  What is the minimum number of people who attended *Miss Saigon*?
     b)  What is the maximum number of people who attended *Miss Saigon*?
-    b)  What is the mean number of people who attended *Miss Saigon*?
+    c)  What is the mean number of people who attended *Miss Saigon*?
+
+::: callout-note
+This follows the same pattern you used in LA-4 to find the mean, minimum, and maximum attendance for *Mamma Mia!* and *The Lion King*. In general, that pattern looks like this:
+
+```
+df |>
+  filter(variable == "value") |>
+  summarise(name1 = mean(variable, na.rm = TRUE),
+            name2 = min(variable, na.rm = TRUE),
+            name3 = max(variable, na.rm = TRUE))
+```
+
+Replace `df` with the name of your data frame, `variable` with the relevant column name, and `"value"` with the show you want to filter for.
+:::
 
 ```{r}
 #| label: ans3
@@ -67,6 +89,10 @@ bway |>
 
 4) Let's run a frequency distribution to see how many of each type of show (i.e., musicals, plays, specials) are in our dataset. To do this, we use the `freq()` function, which is included in the `summarytools` package. Use the frequency table that is output in the Console to determine how many shows were plays.
 
+::: callout-note
+A **frequency distribution** (or frequency table) shows how many cases (rows) fall into each category of a variable. For example, running `freq(bway$Show.Type)` will produce a table listing each category (e.g., "Musical," "Play," "Special") along with the count and percentage of rows in the dataset that fall into that category. Find the row for "Play" and use the count (labeled `Freq`) in that row to answer the question. The template for this function is: `freq(dataframe$variable)`.
+:::
+
 ```{r}
 #| label: ans4
 #| include: false
@@ -78,6 +104,10 @@ bway |> freq(Show.Type)
 ```
 
 5) How many plays, musicals, and specials were performed at the Brooks Atkinson Theater in New York? You may need to examine a frequency distribution of the names of the theatres in the dataset to determine how to filter your data so that you only examine one specific theatre.
+
+::: callout-tip
+The variable that contains theatre names is called `Show.Theater`. Running `freq(bway$Show.Theater)` will show you every theatre name exactly as it is spelled and capitalized in the dataset — this matters, because R will not recognize "brooks atkinson" as a match for "Brooks Atkinson." Once you know the exact spelling, `filter()` for that theatre and then run `freq()` again on `Show.Type` to count the plays, musicals, and specials within that theatre.
+:::
 
 ```{r}
 #| label: ans5
@@ -92,6 +122,27 @@ bway |>
 ```
 
 6) How many musicals and plays were there at the Stephen Sondheim theatre in 2011?
+
+::: callout-note
+This question asks you to filter on *two* conditions at once: theatre name **and** year. In LA-4 (Q10), you did this by chaining two separate `filter()` steps in your pipe, like this:
+
+```
+df |>
+  filter(variable1 == "value1") |>
+  filter(variable2 == value2) |>
+  ...
+```
+
+You can also combine both conditions inside a *single* `filter()` step using the `&` symbol, which means "and":
+
+```
+df |>
+  filter(variable1 == "value1" & variable2 == value2) |>
+  ...
+```
+
+Both approaches keep only the rows where both conditions are true — use whichever one makes more sense to you. Note that `Date.Year` is a number, so you don't need quotation marks around `2011`.
+:::
 
 ```{r}
 #| label: ans6
