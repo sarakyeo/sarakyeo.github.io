@@ -243,9 +243,9 @@ Each `filter()` step narrows down the data further, so by the time we get to `su
 
 Using `|>` and the functions you just learned, write R code to determine the answers to the questions below. Round your answer to the nearest whole dollar.
 
-    a)  Among shows in the `Majestic` theater that are labeled as `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
-    b)  Among shows in the `Vivian Beaumont` theater that are `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
-    c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
+a)  Among shows in the `Majestic` theater that are labeled as `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
+b)  Among shows in the `Vivian Beaumont` theater that are `Musical`, what is the minimum, maximum, and mean "Gross" in dollars?
+c)  Comparing the statistics you just calculated, is the Vivian Beaumont or Majestic theatre more successful?
 
 ```{r}
 #| label: ans10
