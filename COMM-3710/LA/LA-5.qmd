@@ -271,7 +271,7 @@ wind |> freq(Project.Size)
 
 ```
 
-8)  **BONUS:** In the previous step, you created a new variable called `Project.Size`. What is the mean `Project.Capacity` (measured in MW) for turbines in (a) low and (b) high projects?
+8)  **BONUS (2 points):** In the previous step, you created a new variable called `Project.Size`. What is the mean `Project.Capacity` (measured in MW) for turbines in (a) low and (b) high projects?
 
 ::: callout-tip
 One way to do this is to `filter()` for `low` and run `descr(Project.Capacity)`, then repeat for `high`, the same approach you've used throughout this assignment.
