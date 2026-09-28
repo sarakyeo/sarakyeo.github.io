@@ -90,7 +90,7 @@ bway |>
 4) Let's run a frequency distribution to see how many of each type of show (i.e., musicals, plays, specials) are in our dataset. To do this, we use the `freq()` function, which is included in the `summarytools` package. Use the frequency table that is output in the Console to determine how many shows were plays.
 
 ::: callout-note
-A **frequency distribution** (or frequency table) shows how many cases (rows) fall into each category of a variable. For example, running `freq(bway$Show.Type)` will produce a table listing each category (e.g., "Musical," "Play," "Special") along with the count and percentage of rows in the dataset that fall into that category. Find the row for "Play" and use the count (labeled `Freq`) in that row to answer the question. The template for this function is: `freq(dataframe$variable)`.
+A **frequency distribution** (or frequency table) shows how many cases (rows) fall into each category of a variable. For example, running `bway |> freq(Show.Type)` will produce a table listing each category (e.g., "Musical," "Play," "Special") along with the count and percentage of rows in the dataset that fall into that category. Find the row for "Play" and use the count (labeled `Freq`) in that row to answer the question. The generic template for this function is: `dataframe |> freq(variable)`.
 :::
 
 ```{r}
@@ -106,7 +106,14 @@ bway |> freq(Show.Type)
 5) How many plays, musicals, and specials were performed at the Brooks Atkinson Theater in New York? You may need to examine a frequency distribution of the names of the theatres in the dataset to determine how to filter your data so that you only examine one specific theatre.
 
 ::: callout-tip
-The variable that contains theatre names is called `Show.Theater`. Running `freq(bway$Show.Theater)` will show you every theatre name exactly as it is spelled and capitalized in the dataset — this matters, because R will not recognize "brooks atkinson" as a match for "Brooks Atkinson." Once you know the exact spelling, `filter()` for that theatre and then run `freq()` again on `Show.Type` to count the plays, musicals, and specials within that theatre.
+The variable that contains theatre names is called `Show.Theater`. Running `bway |> freq(Show.Theater)` will show you every theatre name exactly as it is spelled and capitalized in the dataset — this matters, because R will not recognize "brooks atkinson" as a match for "Brooks Atkinson." Once you know the exact spelling, `filter()` for that theatre and then run `freq()` again on `Show.Type` to count the plays, musicals, and specials within that theatre. You can string the functions together using the pipe operator.
+
+```
+bway |> 
+   filter(Show.Theater == "Show Name") |> 
+   freq(variablename)
+
+```
 :::
 
 ```{r}
@@ -160,7 +167,7 @@ temp |> freq(Show.Type)
 
 # Submission
 
-Submit your R script (named `AssignmentName_FirstName-LastName.R`) to Canvas.
+Submit your R script (named `PracticeDataWrangling_FirstName-LastName.R`) to Canvas.
 
 Your R script should:
 
