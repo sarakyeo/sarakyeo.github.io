@@ -38,18 +38,23 @@ In this assignment, you will learn how to:
 
 -   Run and examine frequency distributions using the `freq()` function in the `summarytools` package.
 -   View descriptive statistics using the `descr()` function in the `summarytools` package.
--   Recoding variables using the `case_when()` function.
+-   Filter for a range of values using `>=`, `<=`, and `&`.
 -   Create new variables from existing variables in a data frame using the `mutate()` function.
+-   Recode variables using the `case_when()` function.
 
 ::: callout-tip
-Read all the instructions carefully before starting the assignment.
+Read all the instructions carefully before starting the assignment. Set up your R script as you did in LA-4 (name, uNID, date, assignment number).
+:::
+
+::: callout-important
+**How to report your answers.** Write each answer as a comment in your R script, labeled with its question number (e.g., `# 2a: ...`). Round percentages and statistics to two decimal places, and include units of measurement (e.g., kW, meters) wherever a variable has them.
 :::
 
 ------------------------------------------------------------------------
 
 # Instructions
 
-1)  Install (`install.packages()`) and load (`library()`) the packages below. Then download `wind-turbines.csv` dataset from Canvas and read it in to R. You will also want to download the codebook for the data from Canvas.
+1)  Install (`install.packages()`) and load (`library()`) the packages below. Then download the `wind-turbines.csv` dataset and its codebook from Canvas, upload the dataset to your Posit Cloud project (as you did in LA-4), and read it into R.
 
     -   `tidyverse`
     -   `summarytools`
@@ -59,22 +64,29 @@ Read all the instructions carefully before starting the assignment.
 Just like in previous assignments, read the data into an object using `read_csv()`. For example: `wind <- read_csv("wind-turbines.csv")`. Take a few minutes to look through the codebook so you know what each variable measures before you start answering questions below.
 :::
 
-2)  The dataset includes data about wind turbines in the US. Use the `freq()` function to examine the frequency distributions of the variables `Site.State` and `Year`. Use the frequency distributions to answer the following questions.
+2)  The dataset includes data about wind turbines in the US. **Each row (case) is one wind turbine.** Use the `freq()` function to examine the frequency distributions of the variables `Site.State` and `Year`. Read the note below the questions before you start, then use the frequency distributions to answer the following questions.
 
-    a)  How many wind turbines are located in Utah?
+    a)  How many wind turbines are located in Utah? (States are coded with two-letter abbreviations; Utah is `UT`.)
     b)  How many wind turbines became operational in 2021?
     c)  What percentage of turbines became operational between 1983 and 1999 (include these years in the calculation)?
 
 ::: callout-note
-The template for `freq()` is `freq(dataframe$variable)`. The output is a table listing each category (or, for a numeric variable like `Year`, each value), along with three useful columns: `Freq` (the count of cases with that value), `%` (the percentage of cases with that value), and a row at the bottom labeled `Total`, which gives the total number of cases in whatever data you ran `freq()` on.
+You can use `freq()` with the pipe, just like the functions you used in LA-4: `wind |> freq(variable)`. (You may also see it written as `freq(wind$variable)`; both do the same thing.)
+
+The output is a table listing each category (or, for a numeric variable like `Year`, each value). The parts you will use are:
+
+-   The `Freq` column: the count of cases (turbines) with that value.
+-   The `% Valid` column: the percentage of cases with that value. (This dataset has no missing values, so `% Valid` and `% Total` are the same.)
+-   The `Total` row at the bottom: the total number of cases in whatever data you ran `freq()` on.
 
 To answer (c), you'll need to combine two skills:
 
 -   **Filtering on a range of values.** So far, you've filtered using `==` to match one exact value (e.g., `Show.Name == "Mamma Mia!"`). You can also use `>=` ("greater than or equal to") and `<=` ("less than or equal to") to filter for a range, and combine two conditions in one `filter()` step with `&` ("and"). For example, to keep only cases where `Year` is 1983 or later **and** 1999 or earlier:
 
     ```
-    df |>
-      filter(variable >= value1 & variable <= value2)
+    wind |>
+      filter(variable >= value1 & variable <= value2) |>
+      freq(variable)
     ```
 
 -   **Calculating a percentage.** Once you filter for `Year` between 1983 and 1999 and run `freq(Year)` on that filtered data, look at the `Total` row to see how many turbines became operational in that range. Then run `freq(Year)` on the full (unfiltered) dataset and look at its `Total` row to see the total number of turbines overall. Divide the first number by the second, and multiply by 100, to get a percentage.
@@ -107,7 +119,9 @@ wind |> freq(Year)
 3)  Now, subset the data to answer the following question: How many turbines in Utah have been operational since 2010?
 
 ::: callout-tip
-This requires combining two conditions with `&`, the same technique described above: one condition for the state and one for the year. "Since 2010" means 2010 and every year after, so use `>=`.
+This requires combining two conditions with `&`, the same technique described above: one condition for the state (`"UT"`) and one for the year. "Since 2010" means 2010 and every year after, so use `>=`. (Using two separate `filter()` steps, as in LA-4, also works.)
+
+Save the filtered data as a new object so you can reuse it in #4, e.g., `ut <- wind |> filter(...)`. Then run `freq()` on any variable in `ut` (e.g., `ut |> freq(Site.State)`) and read the `Total` row to get the number of turbines.
 :::
 
 ```{r}
@@ -116,15 +130,16 @@ This requires combining two conditions with `&`, the same technique described ab
 #| echo: false
 #| eval: false
 
-wind |> 
-        filter(Year >= 2010 & Site.State == "UT") |> 
-        freq(Site.State)
+ut <- wind |> 
+        filter(Year >= 2010 & Site.State == "UT")
+
+ut |> freq(Site.State)
 
 #3: 96
 
 ```
 
-4)  Examine the frequency distribution of `Turbine.Capacity` based on the subset in #3.
+4)  Using the subset you saved in #3 (e.g., `ut`), examine the frequency distribution of `Turbine.Capacity` (measured in kW).
 
     a)  How many turbines in this subset have a capacity of 2,300 kW?
     b)  What percentage of turbines in this subset have a capacity of 1,500 kW?
@@ -135,16 +150,14 @@ wind |>
 #| echo: false
 #| eval: false
 
-wind |> 
-        filter(Year >= 2010 & Site.State == "UT") |> 
-        freq(Turbine.Capacity)
+ut |> freq(Turbine.Capacity)
 
 #4a: 27
-#4b: 70.8%
+#4b: 70.83%
 
 ```
 
-5)  Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the `descr()` function that is in the package `summarytools`. Examine the descriptive statistics for `Turbine.Total_Height` and answer the questions below. Include the units of measurement in your answers.
+5)  Often, we want to look at descriptive statistics of a quantitative variable. We can do this using the `descr()` function that is in the package `summarytools`. Examine the descriptive statistics for `Turbine.Total_Height` and answer the questions below. Read the note below the questions before you start. Include the units of measurement in your answers.
 
     a)  What is the mean?
     b)  What is the median?
@@ -169,7 +182,7 @@ wind |>
 
 ```
 
-6)  Next, we will learn how to use the function, `mutate()`. We use this function to create new variables (or "mutate" them) from existing ones. Let's create a new variable called `Turbine_Space` that is the mean of two existing variables, `Turbine.Hub_Height` and `Turbine.Rotor_Diameter`. Then, examine the descriptive statistics of the new variable, `Turbine_Space`, and answer the following questions:
+6)  Next, we will learn how to use the function, `mutate()`. We use this function to create new variables (or "mutate" them) from existing ones. Let's create a new variable called `Turbine_Space` that is the mean of two existing variables, `Turbine.Hub_Height` and `Turbine.Rotor_Diameter`. Then, examine the descriptive statistics of the new variable, `Turbine_Space`, and answer the following questions. Read the note below the questions before you start. Include units in your answers (both original variables are measured in meters).
 
     a)  What is the mean of `Turbine_Space`?
     b)  What is the minimum value of `Turbine_Space`?
@@ -202,26 +215,24 @@ wind |>
         descr(Turbine.Rotor_Diameter)
 
 wind <- wind |> 
-        rowwise() |> 
-        mutate(Turbine_Space = mean((Turbine.Hub_Height + Turbine.Rotor_Diameter)/2))
+        mutate(Turbine_Space = (Turbine.Hub_Height + Turbine.Rotor_Diameter) / 2)
 
-wind |> freq(Turbine_Space)
-descr(wind$Turbine_Space)
+wind |> descr(Turbine_Space)
 
-#6a:  87.5 m
-#6b:  19.1 m
-#6c:  134 m
+#6a:  87.47 m
+#6b:  19.05 m
+#6c:  134.00 m
 
 ```
 
-7)  Sometimes, we may want to make continuous variables into categorical variables. For example, let's say we are interested in the number of turbines in a project, `Project.Number_Turbines`, but we want to categorize them into low vs. high numbers of turbines in projects.\
+7)  Sometimes, we may want to make continuous variables into categorical variables. For example, let's say we are interested in the number of turbines in a project, `Project.Number_Turbines`, but we want to categorize projects as having a low or high number of turbines.\
     \
-    We refer to this process as **recoding variables**. For this exercise, let's recode projects with 100 turbines or less into the `low` category and those that have more than 100 turbines into the `high` category.\
+    We refer to this process as **recoding variables**. For this exercise, let's recode projects with 100 turbines or fewer into the `low` category and those that have more than 100 turbines into the `high` category.\
     \
-    Use the `mutate()` and `case_when()` functions to recode `Project.Number_Turbines` into a new variable, `Project.Number`, with only two categories, low ($\le$ 100) and high ($>$ 100). Then, answer the following questions.
+    Use the `mutate()` and `case_when()` functions to recode `Project.Number_Turbines` into a new variable, `Project.Size`, with only two categories, `low` ($\le$ 100) and `high` ($>$ 100). Read the note below the questions before you start, then answer the following questions. Remember that each row is one **turbine**, not one project.
 
-    a)  How many projects are in the **low** category?
-    b)  How many projects are in the **high** category?
+    a)  How many turbines are in **low** projects (100 or fewer turbines)?
+    b)  How many turbines are in **high** projects (more than 100 turbines)?
 
 ::: callout-note
 The general template for combining `mutate()` and `case_when()` is:
@@ -235,6 +246,8 @@ df <- df |>
 ```
 
 `case_when()` checks each row against your conditions, in order (using the same `==`, `>`, `<`, `>=`, and `<=` operators you've already used with `filter()`), and assigns the label after the `~` symbol to any row where that condition is `TRUE`. Just like with `mutate()` above, remember to reassign the result back to `wind` (i.e., start with `wind <- wind |> ...`) so that your new variable is saved and available for the questions below.
+
+When you run `freq()` on your new variable, the counts tell you how many turbines belong to low or high projects. Note that `freq()` lists categories in alphabetical order, so `high` appears before `low`.
 :::
 
 ```{r}
@@ -246,24 +259,24 @@ df <- df |>
 wind |> freq(Project.Number_Turbines)
 
 wind <- wind |> 
-        mutate(Project.Number = case_when(
+        mutate(Project.Size = case_when(
                 Project.Number_Turbines <=100 ~ "low",
                 Project.Number_Turbines > 100 ~ "high"
         ))
 
-wind |> freq(Project.Number)
+wind |> freq(Project.Size)
 
-#7a:  22,537 projects in low category
-#7b: 41,424 projects in the high category
+#7a: 41,424 turbines in low projects
+#7b: 22,537 turbines in high projects
 
 ```
 
-8)  **BONUS:** In the previous step, you created a new variable called `Project.Number`. What is the mean `Project.Capacity` among projects in the (a) low and (b) high `Project.Number` categories?
+8)  **BONUS (2 points):** In the previous step, you created a new variable called `Project.Size`. What is the mean `Project.Capacity` (measured in MW) for turbines in (a) low and (b) high projects?
 
 ::: callout-tip
-One way to do this is to `filter()` for `low` and run `descr(Project.Capacity)`, then repeat for `high` — the same approach you've used throughout this assignment.
+One way to do this is to `filter()` for `low` and run `descr(Project.Capacity)`, then repeat for `high`, the same approach you've used throughout this assignment.
 
-For a bonus challenge, look into the function `group_by()`. Adding `group_by(variable)` to your pipe *before* `descr()` will calculate the statistics separately for each category of `variable`, all in a single step: `df |> group_by(variable) |> descr(other_variable)`.
+Optional: look into the function `group_by()`. Adding `group_by(variable)` to your pipe *before* `descr()` will calculate the statistics separately for each category of `variable`, all in a single step: `df |> group_by(variable) |> descr(other_variable)`.
 :::
 
 ```{r}
@@ -273,8 +286,11 @@ For a bonus challenge, look into the function `group_by()`. Adding `group_by(var
 #| eval: false
 
 wind |> 
-        group_by(Project.Number) |> 
+        group_by(Project.Size) |> 
         descr(Project.Capacity)
+
+#8a: 127.27 MW (low)
+#8b: 251.49 MW (high)
 
 ```
 
