@@ -119,7 +119,7 @@ wind |> freq(Year)
 3)  Now, subset the data to answer the following question: How many turbines in Utah have been operational since 2010?
 
 ::: callout-tip
-This requires combining two conditions with `&`, the same technique described above: one condition for the state (`"UT"`) and one for the year. "Since 2010" means 2010 and every year after, so use `>=`. (Using two separate `filter()` steps, as in LA-4, also works.)
+This requires combining two conditions with `&`, the same technique described above: one condition for the state (`"UT"`) and one for the year. "Since 2010" means 2010 and every year after, so use `>=`. Using two separate `filter()` steps, as in LA-4, also works.
 
 Save the filtered data as a new object so you can reuse it in #4, e.g., `ut <- wind |> filter(...)`. Then run `freq()` on any variable in `ut` (e.g., `ut |> freq(Site.State)`) and read the `Total` row to get the number of turbines.
 :::
@@ -164,7 +164,7 @@ ut |> freq(Turbine.Capacity)
     c)  What is the maximum?
 
 ::: callout-note
-The template for `descr()` is `descr(dataframe$variable)` (or `dataframe |> descr(variable)`, using the pipe). Unlike `freq()`, which counts cases in categories, `descr()` is used for **quantitative** (numeric) variables and produces a table of descriptive statistics, including the mean, median, minimum, maximum, and standard deviation. Find the row labeled with each statistic to answer the questions below, and check the codebook for the units (e.g., meters) that variable is measured in.
+The template for `descr()` is `dataframe |> descr(variable)`. Unlike `freq()`, which counts cases in categories, `descr()` is used for **quantitative** (numeric) variables and produces a table of descriptive statistics, including the mean, median, minimum, maximum, and standard deviation. Find the row labeled with each statistic to answer the questions below, and check the codebook (on Canvas) for the units (e.g., meters) that variable is measured in.
 :::
 
 ```{r}
@@ -189,7 +189,7 @@ wind |>
     c)  What is the maximum value of `Turbine_Space`?
 
 ::: callout-note
-The general template for `mutate()` is:
+The template for `mutate()` is:
 
 ```
 df <- df |>
@@ -198,9 +198,9 @@ df <- df |>
 
 Two things to keep in mind:
 
--   **Save your changes.** Notice that the template starts with `df <-`. This reassigns the result back into your data frame. If you skip this and only run `df |> mutate(...)`, R will print the result to your Console but the new variable will not actually be saved — you won't be able to use it in later steps. This is the same idea as when you first read your data into an object with `bway <- read_csv(...)` or `wind <- read_csv(...)`.
--   **R calculates row by row automatically.** To find the mean of two variables *for each row* (i.e., for each wind turbine), you don't need a special function — you can just add the two variables together and divide by 2, e.g., `(variable1 + variable2) / 2`. R automatically performs this calculation separately for every row in the dataset.
--   **Another option: `rowMeans()` with `pick()`.** You can also calculate the mean for each row with `rowMeans()`. Inside `mutate()`, use `pick()` to choose the variables you want to average, e.g., `rowMeans(pick(variable1, variable2), na.rm = TRUE)`. This gives the same result as `(variable1 + variable2) / 2`, except when a row is missing a value: `(variable1 + variable2) / 2` returns `NA` for that row, while `rowMeans(..., na.rm = TRUE)` averages whichever values are present. Avoid using `mean(c(variable1, variable2))` inside `mutate()`; `mean()` combines the *entire* columns and returns one number that gets copied into every row, not a separate mean for each row.
+-   **Save your changes.** Notice that the template starts with `df <-`. This reassigns the result back into your data frame. If you skip this and only run `df |> mutate(...)`, R will print the result to your Console but the new variable will not actually be saved to your dataframe — you will not be able to use it in later steps. This is the same idea as when you first read your data into an object with `bway <- read_csv(...)` or `wind <- read_csv(...)`.
+-   **R calculates row by row automatically.** To find the mean of two variables *for each row* (i.e., for each wind turbine), you don't need a special function — you can just add the two variables together and divide by 2, e.g., `(variable1 + variable2) / 2`. R automatically performs this calculation separately for every row in the dataset. You would replace the text `calculation_using_existing_variables` with this formula.
+-   **Another option: `rowMeans()` with `pick()`.** If you would prefer to use a special function to calculate row means, you can use `rowMeans()`. Inside `mutate()`, use `pick()` to choose the variables you want to average, e.g., `rowMeans(pick(variable1, variable2), na.rm = TRUE)`. This gives the same result as `(variable1 + variable2) / 2`, except when a row is missing a value: `(variable1 + variable2) / 2` returns `NA` for that row, while `rowMeans(..., na.rm = TRUE)` averages whichever values are present. Avoid using `mean(c(variable1, variable2))` inside `mutate()`; `mean()` combines the *entire* columns and returns one number that gets copied into every row, not a separate mean for each row.
 :::
 
 ```{r}
@@ -265,7 +265,7 @@ wind |> freq(Project.Number_Turbines)
 
 wind <- wind |> 
         mutate(Project.Size = case_when(
-                Project.Number_Turbines <=100 ~ "low",
+                Project.Number_Turbines <= 100 ~ "low",
                 Project.Number_Turbines > 100 ~ "high"
         ))
 
