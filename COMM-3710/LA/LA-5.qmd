@@ -200,6 +200,7 @@ Two things to keep in mind:
 
 -   **Save your changes.** Notice that the template starts with `df <-`. This reassigns the result back into your data frame. If you skip this and only run `df |> mutate(...)`, R will print the result to your Console but the new variable will not actually be saved — you won't be able to use it in later steps. This is the same idea as when you first read your data into an object with `bway <- read_csv(...)` or `wind <- read_csv(...)`.
 -   **R calculates row by row automatically.** To find the mean of two variables *for each row* (i.e., for each wind turbine), you don't need a special function — you can just add the two variables together and divide by 2, e.g., `(variable1 + variable2) / 2`. R automatically performs this calculation separately for every row in the dataset.
+-   **Another option: `rowMeans()` with `pick()`.** You can also calculate the mean for each row with `rowMeans()`. Inside `mutate()`, use `pick()` to choose the variables you want to average, e.g., `rowMeans(pick(variable1, variable2), na.rm = TRUE)`. This gives the same result as `(variable1 + variable2) / 2`, except when a row is missing a value: `(variable1 + variable2) / 2` returns `NA` for that row, while `rowMeans(..., na.rm = TRUE)` averages whichever values are present. Avoid using `mean(c(variable1, variable2))` inside `mutate()`; `mean()` combines the *entire* columns and returns one number that gets copied into every row, not a separate mean for each row.
 :::
 
 ```{r}
@@ -216,6 +217,10 @@ wind |>
 
 wind <- wind |> 
         mutate(Turbine_Space = (Turbine.Hub_Height + Turbine.Rotor_Diameter) / 2)
+
+# OR (same answers; neither variable has missing values)
+wind <- wind |>
+        mutate(Turbine_Space = rowMeans(pick(Turbine.Hub_Height, Turbine.Rotor_Diameter), na.rm = TRUE))
 
 wind |> descr(Turbine_Space)
 
