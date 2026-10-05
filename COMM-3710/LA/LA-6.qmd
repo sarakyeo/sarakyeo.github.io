@@ -61,10 +61,10 @@ Read all the instructions carefully before starting the assignment. Set up your 
 **About this dataset.** Each row (case) is one monthly utility bill for **one household**, from 1999 to 2010. The bills include gas and electricity charges, how much gas and electricity the household used, and whether the household added a donation to *Operation Fuel* to that month's bill.
 :::
 
-2) Read and follow along with Chapter 5 of [this online book](https://sarakyeo.github.io/COMM3710-textbook/). Use the data provided in the chapter to follow the steps in Ch. 5.
+2) Read and follow along with [Chapter 5 of this online book](https://sarakyeo.github.io/COMM3710-textbook/04_ggplot2.html). Use the data provided in the chapter to follow the steps in Ch. 5.
 
 :::callout-tip
-Do not skip this step. It will help you understand `ggplot2`. You will use the same kinds of graphs from Ch. 5 below: a histogram (`geom_histogram()`), scatterplots (`geom_point()`), and a bar chart (`geom_col()`).
+Do not skip Step 2 (above). It will help you understand `ggplot2`. You will use the same kinds of graphs from Ch. 5 below: a histogram (`geom_histogram()`), scatterplots (`geom_point()`), and a bar chart (`geom_col()`).
 :::
 
 3) Make a histogram to display the distribution of the household's total monthly bill (`totalbill`).
