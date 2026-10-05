@@ -2,10 +2,10 @@
 month,month (coded as a number)
 day,day of the month on which bill was calculated
 year,year of bill
-temp,average temperature (degrees Celsius) for billing period
-kwh,electricity usage (kwh)
-ccf,gas usage (ccf)
-thermsPerDay,a numeric vector
+temp,average temperature (degrees Fahrenheit) for billing period
+kwh,electricity usage (kWh = kilowatt-hours)
+ccf,gas usage (ccf = hundreds of cubic feet)
+thermsPerDay,average gas usage per day in the billing period (therms per day)
 billingDays,number of billing days in billing period
 totalbill,total monthly bill (in dollars)
 gasbill,monthly gas bill (in dollars)
