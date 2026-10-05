@@ -37,31 +37,44 @@ util <- read_csv(here::here("COMM-3710", "LA","Utilities.csv"))
 In this assignment, you will:
 
 - Learn how to use `ggplot2`, which is a package included in the `tidyverse` suite of packages, to create visualizations using data.
-- Practice using functions from LA-5, including `mutate()`, `freq()`, and `descr()`.
+- Practice using functions from LA-5, including `mutate()`, `case_when()`, `freq()`, and `descr()`.
+- Combine conditions with `|` ("or").
 
 ::: callout-tip
-Read all the instructions carefully before starting the assignment.
+Read all the instructions carefully before starting the assignment. Set up your R script as you did in LA-4 and LA-5 (name, uNID, date, assignment number).
+:::
+
+::: callout-important
+**How to report your answers.** Write each answer as a comment in your R script, labeled with its question number (e.g., `# 3a: ...`). Round averages to two decimal places and include units (e.g., \$180.38).
 :::
 
 ------------------------------------------------------------------------
 
 # Instructions
 
-1) Load the packages below and download the `Utilities.csv` data file from Canvas. Read the dataset into R. Use the codebook on Canvas to familiarize yourself with the data in this file.
+1) Load the packages below. Then download the `Utilities.csv` dataset and its codebook from Canvas, upload the dataset to your Posit Cloud project (as you did in LA-4 and LA-5), and read it into R. Use the codebook to familiarize yourself with the data in this file.
    
    * `tidyverse`
    * `summarytools`
 
+::: callout-note
+**About this dataset.** Each row (case) is one monthly utility bill for **one household**, from 1999 to 2010. The bills include gas and electricity charges, how much gas and electricity the household used, and whether the household added a donation to *Operation Fuel* to that month's bill.
+:::
+
 2) Read and follow along with Chapter 5 of [this online book](https://sarakyeo.github.io/COMM3710-textbook/). Use the data provided in the chapter to follow the steps in Ch. 5.
 
 :::callout-tip
-Do not skip this step. It will help you understand `ggplot2`.
+Do not skip this step. It will help you understand `ggplot2`. You will use the same kinds of graphs from Ch. 5 below: a histogram (`geom_histogram()`), scatterplots (`geom_point()`), and a bar chart (`geom_col()`).
 :::
 
-3) Make a histogram to display the distribution of customers' total monthly bill.
+3) Make a histogram to display the distribution of the household's total monthly bill (`totalbill`).
 
    a) Use the histogram you created and describe the distribution. Is the distribution skewed or symmetric? If skewed, is the distribution skewed positively or negatively?
-   b) At what cost do most of the total monthly bills fall? Provide a range between which the total monthly bills fall.
+   b) Where do most of the total monthly bills fall? Give a range in dollars (e.g., "between \$X and \$Y").
+
+::: callout-tip
+When you run `geom_histogram()`, R prints a message saying `` `stat_bin()` using `bins = 30` ``. This is not an error. If you want to control the width of the bars, you can use, for example, `geom_histogram(binwidth = 25)` to make each bar cover \$25.
+:::
    
 ```{r}
 #| label: ans3
@@ -74,13 +87,28 @@ util |>
 
 #3a: Distribution is skewed positively.
 #3b: Most of the total monthly bills fall around $100 to $150.
+# (48 of 117 bills are $100-$150; median = $134.50; middle half = $107-$193.
+# Accept a reasonable range in this area.)
 
 ```
 
-4) Make a scatterplot to display gas bill by month. Use your graph to answer the following questions.
+4) Make a scatterplot to display gas bill (`gasbill`) by month (`month`), with month on the x-axis. Read the tip below before you start, then use your graph to answer the following questions.
 
-   a) Which month do you think has the highest average gas bill?
+   a) Looking at your graph, which month appears to have the highest gas bills?
    b) Use R to calculate the average gas bill for the months of January and December. Which is higher?
+
+::: callout-tip
+`month` is stored as a number (1 = January, 12 = December), so by default the x-axis is labeled 2.5, 5, 7.5, 10. To label every month, add `scale_x_continuous(breaks = 1:12)` to your plot:
+
+```
+df |>
+  ggplot(aes(x = month, y = variable)) +
+  geom_point() +
+  scale_x_continuous(breaks = 1:12)
+```
+
+For (b), use `filter()` and `descr()` as you did in LA-5, and read the `Mean` row.
+:::
    
 ```{r}
 #| label: ans4
@@ -89,9 +117,10 @@ util |>
 
 util |> 
         ggplot(aes(x = month, y = gasbill)) +
-        geom_point()
+        geom_point() +
+        scale_x_continuous(breaks = 1:12)
 
-#4a: December
+#4a: January (accept December; the averages are $180.38 and $179.28)
 
 util |> 
         filter(month == 1) |> 
@@ -101,14 +130,14 @@ util |>
         filter(month == 12) |> 
         descr(gasbill) # M = 179.28
 
-#4b: Average gas bills are higher in January than December.
+#4b: Average gas bills are higher in January ($180.38) than December ($179.28).
 
 ```
 
-5) Make a scatterplot to display electric bill by month. Use your graph to answer the following questions.
+5) Make a scatterplot to display electric bill (`elecbill`) by month (`month`), with month on the x-axis. Use your graph to answer the following questions.
 
-   a) Which month do you think has the highest average electric bill?
-   b) Calculate the average electric bill for the months of September and December. Which is higher?
+   a) Looking at your graph, which month appears to have the highest electric bills?
+   b) Use R to calculate the average electric bill for the months of September and December. Which is higher?
    
 ```{r}
 #| label: ans5
@@ -117,9 +146,11 @@ util |>
 
 util |> 
         ggplot(aes(x = month, y = elecbill)) +
-        geom_point()
+        geom_point() +
+        scale_x_continuous(breaks = 1:12)
 
-#5a: December
+#5a: September (highest average, $99.16; accept July, August, or September,
+# the late-summer months: $90.68, $94.59, $99.16)
 
 util |> 
         filter(month == 9) |> 
@@ -129,11 +160,11 @@ util |>
         filter(month == 12) |> 
         descr(elecbill) # M = 87.21
 
-#5b: Average electricity bills are higher in September than December.
+#5b: Average electricity bills are higher in September ($99.16) than December ($87.21).
 
 ```
 
-6) Make a scatter plot to display the relationship between gas usage and gas bill. Place gas usage on the x-axis and  monthly gas bill on the y-axis. Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
+6) Make a scatterplot to display the relationship between gas usage (`ccf`) and gas bill (`gasbill`). Place gas usage on the x-axis and monthly gas bill on the y-axis. Does there appear to be a relationship between gas usage and gas bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
 
 ```{r}
 #| label: ans6
@@ -149,7 +180,7 @@ util |>
 
 ```
 
-7) Make a scatterplot to show the relationship between electricity usage and electric bill. Does there appear to be a relationship between electricity usage and electric bill? If so, describe the relationship.
+7) Make a scatterplot to show the relationship between electricity usage (`kwh`) and electric bill (`elecbill`). Place electricity usage on the x-axis and monthly electric bill on the y-axis. Does there appear to be a relationship between electricity usage and electric bill? If so, describe the relationship (e.g., does a relationship exist? Is it linear? Is there a positive or negative relationship between the variables?).
 
 ```{r}
 #| label: ans7
@@ -167,10 +198,26 @@ util |>
 
 8) Create a new categorical variable called `season`. Have the variable equal `winter` if the bill was from December, January, or February. Have the variable equal `spring` if the bill was from March, April, or May. Have the variable equal `summer` if the bill was from June, July, or August. Have the variable equal `fall` if the bill was from September, October, or November.\
 \
-Then, examine a frequency table of `season`.
+Then, examine a frequency table of `season`. Read the note below before you start.
 
    a) How many bills in the data set are from fall?
    b) How many bills in the data set are from summer?
+
+::: callout-note
+Use `mutate()` and `case_when()` the same way you did in LA-5. This time, each season covers three months, so you need to combine conditions with `|`, which means **"or."** A row matches the condition if *any* part of it is `TRUE`. For example:
+
+```
+util <- util |>
+  mutate(season = case_when(
+    month == 12 | month == 1 | month == 2 ~ "winter",
+    ...
+  ))
+```
+
+Fill in the `...` with a line for each of the other three seasons. Remember to save the result back to `util` (start with `util <- util |> ...`), because you will use `season` again in #9.
+
+(In LA-5, you used `&`, which means **"and"**: a row matches only if *every* part is `TRUE`. A bill can't be from December *and* January, so `&` won't work here.)
+:::
    
 ```{r}
 #| label: ans8
@@ -192,11 +239,15 @@ util |> freq(season)
 
 ```
 
-9) **BONUS (2 points):** Make a bar chart using the `geom_col()` to display the count or proportion of donors by `season`.\
+9) **BONUS (2 points):** Make a bar chart using `geom_col()` to display the number of bills that included a donation in each `season` (the variable you created in #8).\
 \
-First, make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the billee donated money to *Operation Fuel* and 0 otherwise. Check that you have created the `DonorStatus` variable correctly.\
+First, make a new variable, `DonorStatus`. Set `DonorStatus` equal to 1 if the household donated money to *Operation Fuel* on that bill (`donate` is `"yes"`) and 0 otherwise. Check that you have created `DonorStatus` correctly by running `freq()` on both `donate` and `DonorStatus`: the number of `yes` bills should match the number of `1`s, and the number of `no` bills should match the number of `0`s.\
 \
-Then, use `ggplot()` to create your graph. In your own words, describe the graph. Does donation vary by season?
+Then, use `ggplot()` to create your graph, with `season` on the x-axis and `DonorStatus` on the y-axis. In your own words, describe the graph. Does donation vary by season?
+
+::: callout-tip
+`geom_col()` adds up the y values for each category on the x-axis. Because `DonorStatus` is 1 for every bill with a donation and 0 otherwise, adding up `DonorStatus` within a season gives the **number of bills with a donation** in that season.
+:::
 
 ```{r}
 #| label: ans9
@@ -216,6 +267,7 @@ util |>
         geom_col()
 
 #9: Most donations in the summer, least donations in the winter.
+# (summer 11, fall 10, spring 9, winter 3; 33 yes / 84 no overall)
 
 ```
 
