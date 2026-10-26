@@ -14,7 +14,7 @@ urlcolor: blue
 editor_options: 
   chunk_output_type: console
 ---
-<!-- Appreciate how far you've come! Review flowchart and statistical tests -->
+
 ```{r}
 #| label: setup
 #| include: false
@@ -53,7 +53,7 @@ Read all the instructions carefully before starting the assignment. Set up your 
 ::: callout-note
 **Key ideas for this assignment** (from lecture and Wrench Ch. 15 to 18):
 
-- The **independent variable (IV)** is the variable we think *explains* or *predicts* differences. The **dependent variable (DV)** is the outcome we are measuring.
+- The **independent variable (IV)** is the variable we think *explains* or *predicts* differences. The **dependent variable (DV)** is the outcome we are measuring (i.e., the dependent variable *depends* on the independent variable).
 - A **categorical** variable sorts cases into groups (e.g., region). A **continuous** variable is a number that can take many values (e.g., number of contacts).
 - Every statistical test gives a **test statistic** (e.g., *F*, *t*) and a **probability value** (*p*-value). In this course, if *p* < .05, we conclude that there **is** a statistically significant difference (or relationship). If *p* $\ge$ .05, we conclude that we **do not** have evidence of a difference (or relationship).
 :::
@@ -75,7 +75,7 @@ Read all the instructions carefully before starting the assignment. Set up your 
 2) Create a new variable called `region`. Have the variable equal `Americas` if the country is Brazil, Canada, Mexico, or the United States. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` if the country is Denmark, France, Germany, Italy, or Spain. Run a frequency distribution of `region`. Which region has the highest frequency?
 
 ::: callout-tip
-Use `mutate()`, `case_when()`, and `|` ("or") the same way you created `season` in LA-6. Country names must be spelled exactly as they appear in the data (e.g., `"United States"`, `"South Korea"`); run `freq(country)` to check. Remember to save the result back to `covid` (start with `covid <- covid |> ...`), because you will use `region` in #3 and #4.
+Use `mutate()`, `case_when()`, and `|` ("or") the same way you created `season` in LA-6. Country names must be spelled exactly as they appear in the data (e.g., `"United States"`, `"South Korea"`); run `freq(country)` to check. Remember to save the result back to `covid` (start with `covid <- covid |> ...`), because you will use `region` in Questions 3 and 4.
 :::
 
 ```{r}
