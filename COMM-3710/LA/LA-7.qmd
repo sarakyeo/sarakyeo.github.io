@@ -14,7 +14,7 @@ urlcolor: blue
 editor_options: 
   chunk_output_type: console
 ---
-<!-- Appreciate how far you've come! Review flowchart and statistical tests -->
+
 ```{r}
 #| label: setup
 #| include: false
@@ -36,25 +36,47 @@ covid <- read_csv(here::here("COMM-3710", "LA","covid.csv"))
 
 In this assignment, you will:
 
+- Identify the independent and dependent variables in a research question.
 - Select the appropriate statistical test.
 - Conduct a statistical test.
 - Interpret the results of a statistical test.
+- Practice recoding variables with `mutate()` and `case_when()` (LA-5 and LA-6).
 
 ::: callout-tip
-Read all the instructions carefully before starting the assignment.
+Read all the instructions carefully before starting the assignment. Set up your R script as you did in LA-4 to LA-6 (name, uNID, date, assignment number).
+:::
+
+::: callout-important
+**How to report your answers.** Write each answer as a comment in your R script, labeled with its question number (e.g., `# 3a: ...`). Report test results in APA format, as shown in the section "Conducting a Statistical Test in R" at the end of this document. Round means and standard deviations to two decimal places.
+:::
+
+::: callout-note
+**Key ideas for this assignment** (from lecture and Wrench Ch. 15 to 18):
+
+- The **independent variable (IV)** is the variable we think *explains* or *predicts* differences. The **dependent variable (DV)** is the outcome we are measuring (i.e., the dependent variable *depends* on the independent variable).
+- A **categorical** variable sorts cases into groups (e.g., region). A **continuous** variable is a number that can take many values (e.g., number of contacts).
+- Every statistical test gives a **test statistic** (e.g., *F*, *t*) and a **probability value** (*p*-value). In this course, if *p* < .05, we conclude that there **is** a statistically significant difference (or relationship). If *p* $\ge$ .05, we conclude that we **do not** have evidence of a difference (or relationship).
 :::
 
 ------------------------------------------------------------------------
 
 # Instructions
 
-1) Load the packages below and download the `covid.csv` data file from Canvas. Read the dataset into R. Use the codebook on Canvas to familiarize yourself with the data in this file.
+1) Load the packages below. Then download the `covid.csv` dataset and its codebook from Canvas, upload the dataset to your Posit Cloud project (as you did in LA-4 to LA-6), and read it into R. Use the codebook to familiarize yourself with the data in this file.
    
    * `tidyverse`
    * `summarytools`
-   * `rstatix`
+   * `rstatix` (you installed this in LA-3; if R says it can't find the package, run `install.packages("rstatix")` first)
+
+::: callout-note
+**About this dataset.** Each row (case) is **one country on one survey date** during the COVID-19 pandemic. The values are **averages** of the people surveyed in that country on that date. For example, `total_contacts` is the average number of contacts people in that country had on the previous day. There are 14 countries, each surveyed on several dates.
+:::
    
-2) Create a new variable called `region`. Have the variable equal `Americas` if the country is Brazil, Canada, Mexico, or the United States. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain. Run a frequency distribution of region. Which region has the highest frequency?
+2) Create a new variable called `region`. Have the variable equal `Americas` if the country is Brazil, Canada, Mexico, or the United States. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` if the country is Denmark, France, Germany, Italy, or Spain. Run a frequency distribution of `region`. Which region has the highest frequency?
+
+::: callout-tip
+Use `mutate()`, `case_when()`, and `|` ("or") the same way you created `season` in LA-6. Country names must be spelled exactly as they appear in the data (e.g., `"United States"`, `"South Korea"`); run `freq(country)` to check. Remember to save the result back to `covid` (start with `covid <- covid |> ...`), because you will use `region` in Questions 3 and 4.
+:::
 
 ```{r}
 #| label: ans2
@@ -76,12 +98,12 @@ covid |> freq(region)
 
 ```
 
-3) Let’s say we want to conduct a statistical test to determine whether the total number of contacts people had on the previous day differs by region. First, answer the questions below. Be sure to include your answers as comments in your R file.
+3) Let’s say we want to conduct a statistical test to determine whether the average total number of contacts people had on the previous day differs by region. First, answer the questions below. Be sure to include your answers as comments in your R file.
 
    a) Which variables are involved in this statistical test? Which is the independent variable? Which is the dependent variable?
-   b) Run a frequency distribution of `total_contacts`. Is this variable categorical or continuous?
+   b) Run a frequency distribution of `total_contacts`. Is this variable categorical or continuous? (The frequency table will be long. That's expected, and it is a clue to your answer.)
    c) Is the variable `region` continuous or categorical?
-   d) Given your answers to the previous questions, what statistical test should you use? Why? Refer to the flowchart and instructions on page 3 to help select a statistical test.
+   d) Given your answers to the previous questions, what statistical test should you use? Why? Use the flowchart in the section "Selecting a Statistical Test" at the end of this document. Start at the top with the DV.
    
 ```{r}
 #| label: ans3
@@ -100,8 +122,8 @@ covid |> freq(total_contacts)
 
 4) Conduct the statistical test from your answer to 3d. Answer the following questions.
 
-   a) What is the test statistic and the probability value (i.e., *p*-value) associated with that test statistic?
-   b) Based on the test statistic and the *p*-value, do the number of total contacts differ by region?
+   a) What is the test statistic and the probability value (i.e., *p*-value) associated with that test statistic? Report them in APA format.
+   b) Based on the test statistic and the *p*-value, does the average total number of contacts differ by region? (See the *p* < .05 rule in "Key ideas" above.)
    
 ```{r}
 #| label: ans4
@@ -112,19 +134,36 @@ covid |>
         anova_test(total_contacts ~ region)
 
 #4a: F(2, 157) = 7.51, p < .001
-#4b: Yes, the total number of contacts differ by region.
+#4b: Yes, the average total number of contacts differs by region (p < .05).
+# (Means: Americas 10.61, Asia 14.64, Europe 12.18; not required.)
 
 ```
 
 5) Next, let's compare how mask-wearing differs between the first and second year after the COVID outbreak. Follow the steps below to select and conduct the appropriate statistical test.
 
-   a) State your hypothesis. Do you think more people wore masks when they went outside in the first or second year after the outbreak? Why?
+   a) State your hypothesis. Do you think people wore masks outside more often in the first or second year after the outbreak? Why? There is no wrong answer here; you will test your hypothesis in the steps below.
    b) Identify the dependent variable. Is it continuous or categorical?
-   c) What variable can you use to create the independent variable? Describe how you might recode an existing variable to create the independent variable. Then, create this new variable using the `mutate()` and `case_when()` functions. Is this new variable continuous or categorical?
-   d) Select and conduct the appropriate statistical test.
-   e) Report the test statistic and probability value as a comment in your R script.
+   c) Which existing variable in the dataset can you use to create the independent variable? Create a new variable called `yr_after_outbreak` using the `mutate()` and `case_when()` functions. Have it equal `first year` if the survey was taken 365 days or fewer after the outbreak, and `second year` if it was taken more than 365 days after the outbreak. Run `freq()` on your new variable to check it. Is this new variable continuous or categorical?
+   d) Select and conduct the appropriate statistical test. Use the flowchart, as in #3d.
+   e) Report the test statistic and probability value in APA format as a comment in your R script.
    f) Calculate the means and standard deviations of the dependent variable for the first and second years after the COVID outbreak. Include these descriptive statistics in your R script. Did people wear masks more often when they went outside in the first or second year after the outbreak?
-   g) Does the statistical test support your hypothesis?
+   g) Based on the *p*-value and your answer to 5f, does the statistical test support your hypothesis from 5a? Explain.
+
+::: callout-tip
+**For 5c:** Use the same template as `Project.Size` in LA-5, with `<=` and `>`. Remember to save the result back to `covid`.
+
+**For 5f:** Add `group_by()` before `descr()` to get statistics for each group in one step:
+
+```
+covid |>
+  group_by(yr_after_outbreak) |>
+  descr(masks_outside)
+```
+
+(Alternatively, `filter()` for `first year` and run `descr(masks_outside)`, then repeat for `second year`.)
+
+**About the sign of *t*:** `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order). A **negative** *t* means the first group's mean is **lower**; it does not mean you made a mistake. Use the means from 5f to see which group is higher.
+:::
    
 ```{r}
 #| label: ans5
@@ -132,6 +171,7 @@ covid |>
 #| eval: false
 
 #5a: People wore masks more often in the first year after the outbreak compared to the second year after the outbreak.
+# (Any hypothesis is acceptable if it gives a reason; grade 5g on consistency with the student's 5a.)
 #5b: DV = `masks_outside`
 #5c: We can use `days_since_outbreak` to create the independent variable.
 
@@ -148,7 +188,7 @@ covid |> freq(yr_after_outbreak)
 covid |> 
         t_test(masks_outside ~ yr_after_outbreak)
 
-#5e: t(157) = -3.80, p < .001
+#5e: t(157) = -3.80, p < .001 (accept t(156.83); t_test() uses Welch's test, so df is not a whole number)
 #5f: The mean of mask wearing is higher in the second year after the outbreak compared to the first.
 
 covid |> 
@@ -158,7 +198,9 @@ covid |>
 # First year: M = 82.56, SD = 22.31
 # Second year: M = 91.27, SD = 6.63
 
-#5g: The test does not support the hypothesis posed in #5a.
+#5g: The difference is significant (p < .05), but masks were worn MORE in the second year,
+# so the test does not support the hypothesis posed in #5a.
+# (A student who predicted the second year would answer "supported.")
 
 ```
    
@@ -192,6 +234,8 @@ These standards apply to all submissions in this course that require R scripts. 
 ![](selecting-stats-test.png)
 
 # Conducting a Statistical Test in R
+
+The example output below comes from **other datasets**, so your numbers will be different. Use these examples to see what the output looks like and how to report it.
 
 ## Chi-squared test
 
@@ -236,11 +280,11 @@ df |>
           
 ```
 
-To report the results of your chi-squared test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+To report the results of your *t*-test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
 
 > $t$(**`df`**) = **`statistic`**, *p* = **`p`**
 
-Using the results above, I would report the results of a *t*-test like this: $t(df = 122) = -12.2$, $p < .001$.
+Using the results above, I would report the results of a *t*-test like this: $t(df = 122) = -12.2$, $p < .001$. Round `df` to a whole number if it has decimals.
 
 ## Analysis of variance (ANOVA)
 
@@ -257,7 +301,7 @@ df |>
 # ANOVA Table (type II tests)
 #
 #   Effect  DFn DFd     F        p p<.05   ges
-# 1 ind_var   2 157 7.505 0.000771     * 0.087
+# 1 ind_var   2 450 8.936 0.000156     * 0.038
 
 ```
 
@@ -265,7 +309,7 @@ To report the results in APA format:
 
 > $F$ (`DFn`, `DFd`) = `F-value`, $p =$ `p-value`
 
-Using the results above, I would report: $F(2, 157) = 7.51$, $p < .001$.
+Using the results above, I would report: $F(2, 450) = 8.94$, $p < .001$.
 
 ## Correlation
 
