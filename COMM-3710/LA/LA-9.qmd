@@ -27,136 +27,198 @@ library(rstatix)
 library(kableExtra)
 library(formatR)
 
-cps <- read.csv(here::here("COMM-3710", "LA", "CPS.csv"))
-
 ```
 
 # Learning Outcomes
 
-In this assignment, you will practice the data analysis skills that you have learned this semester.
+In this assignment, you will practice the data analysis skills that you have learned this semester:
+
+- Calculating descriptive statistics for groups with `descr()` (LA-4 to LA-8).
+- Selecting, conducting, and interpreting a statistical test, choosing among all four tests: chi-squared test, *t*-test, ANOVA, and Pearson's correlation (LA-7 and LA-8).
+- Reporting test results in APA format (LA-7 and LA-8).
 
 ::: callout-tip
-Read all the instructions carefully before starting the assignment.
+Read all the instructions carefully before starting the assignment. Set up your R script as you did in LA-4 to LA-8 (name, uNID, date, assignment number).
+:::
+
+::: callout-important
+**How to report your answers.** Write each answer as a comment in your R script, labeled with its question number (e.g., `# 3a: ...`). Report test results in APA format, as shown in the section "Conducting a Statistical Test in R" at the end of this document. Round means and standard deviations to two decimal places and include units (e.g., \$7.50).
+:::
+
+::: callout-note
+**Key ideas (from LA-7 and LA-8):**
+
+- The **independent variable (IV)** is the variable we think *explains* or *predicts* differences. The **dependent variable (DV)** is the outcome we are measuring.
+- A **categorical** variable sorts cases into groups. A variable coded with numbers like 0 and 1 can still be categorical if the numbers stand for groups (like `majority_life_impacted` in LA-8). A **continuous** variable is a number that can take many values.
+- Use the flowchart in the section "Selecting a Statistical Test" at the end of this document to choose a test. Start at the top with the DV.
+- In this course, if *p* < .05, we conclude that there **is** a statistically significant difference (or relationship). If *p* $\ge$ .05, we conclude that we **do not** have evidence of a difference (or relationship).
 :::
 
 ------------------------------------------------------------------------
 
 # Instructions
 
-1)  Download the CPS dataset (`CPS.csv`) and codebook (`CPS-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester. 
+1) Load the packages below. Then download the CPS dataset (`CPS.csv`) and its codebook (`CPS-codebook.csv`) from Canvas, upload the dataset to your Posit Cloud project (as you did in LA-4 to LA-8), and read it into R. Use the codebook to familiarize yourself with the variables in the data.
 
-    Data for this assignment comes from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data consist of a random sample of persons from the survey, with information on wages and other characteristics of the workers, including sex, number of years of education, years of work experience, occupational status, region of residence and union membership. This data frame has 534 observations.
+   * `tidyverse`
+   * `summarytools`
+   * `rstatix` (if R says it can't find the package, run `install.packages("rstatix")` first)
 
-2) Find the mean wage earned per hour for males and females.
+::: callout-note
+**About this dataset.** Data for this assignment come from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data are a random sample of 534 workers from the survey, with information on their wages and other characteristics, including sex, years of education, years of work experience, job sector, region of residence, and union membership.
 
-   a)  What is the mean wage earned per hour for females?
-   b)  What is the mean wage earned per hour for males?
-   
+Unlike the COVID data in LA-7 and LA-8, each row (case) in this dataset is **one person**.
+:::
+
+```{r}
+#| label: ans1
+#| include: false
+#| eval: false
+
+# Read data into R
+cps <- read_csv(here::here("COMM-3710", "LA", "CPS.csv"))
+
+head(cps)
+
+```
+
+2) Obtain descriptive statistics for wages earned per hour (`wage`) for females and males (`sex`).
+
+   a) What is the mean and standard deviation of hourly wages for females?
+   b) What is the mean and standard deviation of hourly wages for males?
+
+::: callout-tip
+To get descriptive statistics for each group, use `group_by()` before `descr()`, as in LA-7 and LA-8, or use `filter()` and `descr()` for each group.
+:::
+
 ```{r}
 #| label: ans2
 #| include: false
 #| eval: false
 
-head(cps)
-
 cps |> 
         group_by(sex) |> 
         descr(wage)
 
-# a) Mean wage per hour for F = $7.88 
-# b) Mean wage per hour for M = $9.99
+#2a: Females: M = $7.88, SD = $4.72 (n = 245)
+#2b: Males: M = $9.99, SD = $5.29 (n = 289)
 
 ```
 
-3) Implement the appropriate statistical test to determine whether males have significantly higher wages earned per hour than females.
+3) Conduct a statistical test to determine whether there is a significant difference in the average hourly wages of males and females.
 
-   a)  State your hypothesis about whether males earn higher wages per hour than females.
-   b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
-   c)  What is the test statistic and associated *p*-value?
-   d)  Does the test support or refute your hypothesis? Do males or females earn higher wages on average?
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? If there is a significant difference, describe it (e.g., do males or females earn higher wages, on average?).
+
+::: callout-tip
+As in LA-7 and LA-8, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order, so `F` comes before `M`). A **negative** *t* means the first group's mean is **lower**. Use your answers to Question 2 to see which group is higher.
+:::
    
 ```{r}
 #| label: ans3
 #| include: false
 #| eval: false
 
+#3a: Males earn a higher hourly wage, on average, than females.
+# (Any reasonable hypothesis is acceptable; grade 3d on consistency with the student's 3a.)
+#3b: t-test
 cps |> 
-        select(sex, wage) |> 
         t_test(wage ~ sex)
         
-# a) Males earn a higher hourly wage than females.
-# b) t-test
-# c) t = -4.89, p < .001
-# d) The t-test supports my hypothesis.
+#3c: t(531) = -4.89, p < .001 (Welch df = 530.55)
+#3d: Yes. The difference is significant (p < .05) and males' mean ($9.99) is higher
+# than females' ($7.88), which supports the hypothesis posed in #3a.
 
 ```
    
-4) Implement the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour and number of years of work experience.
+4) Select and conduct the appropriate statistical test to determine whether there is a significant linear relationship between wages earned per hour (`wage`) and number of years of work experience (`exper`).
 
-   a)  State your hypothesis about the relationship between wages earned per hour and number of years of experience.
-   b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
-   c)  What is the test statistic and associated *p*-value?
-   d)  Does the test support or refute your hypothesis? What is the relationship, if any, between wages earned per hour and number of years of experience?
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? If there is a significant relationship, describe it (e.g., is it positive or negative? Is it strong or weak?).
+
+::: callout-tip
+When you are looking for a relationship between two continuous variables, it does not matter which variable you list first in `cor_test()`.
+:::
 
 ```{r}
 #| label: ans4
 #| include: false
 #| eval: false
 
-head(cps)
-
+# both variables are continuous, we should use Pearson's correlation.
+#4a: There will be a positive linear relationship between years of work experience and hourly wages.
+#4b: Pearson's correlation
 cps |> 
-        select(wage, exper) |> 
         cor_test(exper, wage)
 
-# a) Wage and experience are positively associated.
-# b) Pearson's correlation.
-# c) r = .087, p = .044
-# d) Support.
+#4c: Pearson's r = .09, p = .044
+#4d: Yes. There is a significant positive relationship (p < .05), supporting the hypothesis
+# posed in #4a: workers with more years of experience tend to earn higher hourly wages.
+# The relationship is weak (r = .09). (Accept "weak" or "small"; do not accept "strong.")
 
 ```
 
-5) Implement the appropriate statistical test to determine whether job satisfaction varies significantly among the different job sectors.
+5) Is job sector (`sector`) related to whether workers are satisfied with their current job (`satisfaction`)?
 
-   a)  State your hypothesis about whether job satisfaction varies significantly among job sectors.
-   b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
-   c)  What is the test statistic and associated *p*-value?
-   d)  Does the test support or refute your hypothesis? Does job satisfaction vary among different job sectors?
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? Explain.
+
+::: callout-tip
+`satisfaction` is coded 0 and 1, but the numbers stand for groups (1 = satisfied with current job; 0 = not satisfied). `sector` has eight groups; run `cps |> freq(sector)` to see them.
+
+The chi-squared command uses `cps$sector`, which means "the `sector` column of the `cps` dataframe," as in LA-8.
+:::
    
 ```{r}
 #| label: ans5
 #| include: false
 #| eval: false
 
+cps |> freq(sector)
+cps |> freq(satisfaction)
+# both variables are categorical, we should use the chi-squared test.
+#5a: Job satisfaction will differ across job sectors.
+# (Any reasonable hypothesis is acceptable; grade 5d on consistency with the student's 5a.)
+#5b: Chi-squared test
 chisq_test(x = cps$sector, y = cps$satisfaction)
 
-# a) Job satisfaction does not vary across job sectors.
-# b) Chi-squared test
-# c) X2 = 3.65, p = .819
-# d) Refute.
+#5c: X2(7, N = 534) = 3.65, p = .819
+#5d: No. The result is not significant (p > .05), so we do not have evidence that job
+# satisfaction differs across job sectors. The test does not support the hypothesis in #5a.
+# (If a student ran ANOVA instead: F(7, 526) = 0.52, p = .82; same conclusion. Deduct for test choice in 5b.)
 
 ```
 
-6) Implement the appropriate statistical test to determine whether wages vary by job sector.
+6) Is there a significant difference in average hourly wages (`wage`) across job sectors (`sector`)?
 
-   a)  State your hypothesis about whether wages and job sector  are related.
-   b)  Which statistical test will you use to address your hypothesis? Conduct the statistical test you have chosen.
-   c)  What is the test statistic and associated *p*-value?
-   d)  Does the test support or refute your hypothesis? Do wages vary among different job sectors?
+   a) State your hypothesis.
+   b) Select and conduct a statistical test to address your hypothesis.
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? Explain. Then use `group_by()` and `descr()` to find which job sector has the highest average hourly wage and which has the lowest.
 
 ```{r}
 #| label: ans6
 #| include: false
 #| eval: false
 
+# wage is continuous and sector has more than two groups, we should use ANOVA.
+#6a: Average hourly wages will differ across job sectors.
+#6b: ANOVA
 cps |> 
-        select(wage, sector) |> 
         anova_test(wage ~ sector)
 
-# a) Wage differs across job sectors.
-# b) ANOVA
-# c) F = 16.8, p < .001
-# d) Support.
+#6c: F(7, 526) = 16.80, p < .001
+cps |> 
+        group_by(sector) |> 
+        descr(wage)
+#6d: Yes. Average wages differ significantly across job sectors (p < .05), supporting the
+# hypothesis in #6a. Highest: manag (M = $12.70); lowest: service (M = $6.54).
 
 ```
 
@@ -182,3 +244,112 @@ To ensure that your R script runs without errors, you should:
 ::: callout-important
 These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
 :::
+
+\newpage
+
+# Selecting a Statistical Test
+
+![](selecting-stats-test.png)
+
+# Conducting a Statistical Test in R
+
+The example output below is **made up** for illustration, so your numbers will be different. Use these examples to see what the output looks like and how to report it.
+
+## Chi-squared test
+
+A chi-squared test is used when we want to compare two categorical variables. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: chisq
+#| eval: false
+#| include: true
+
+chisq_test(x = df$ind_var, y = df$dep_var)
+
+# A tibble: 1 × 6
+#       n statistic         p    df method          p.signif
+# * <int>     <dbl>     <dbl> <int> <chr>           <chr>   
+# 1   200      6.84    0.0327     2 Chi-square test *   
+
+```
+
+To report the results of your chi-squared test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $\chi^2$(**`df`**, $N$ = **`n`**) = **`statistic`**, *p* = **`p`**
+
+From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 200) = 6.84$, $p = .033$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
+
+## *t*-test
+
+A *t*-test is used to compare the mean values of a continuous variable between two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: t-test
+#| eval: false
+#| include: true
+
+df |> 
+        t_test(dep_var ~ ind_var)
+
+# A tibble: 1 × 10
+#   .y.        group1 group2    n1    n2 statistic    df        p    p.adj p.adj.signif
+# * <chr>      <chr>  <chr>  <int> <int>     <dbl> <dbl>    <dbl>    <dbl> <chr>       
+# 1 dep_var ind_var1  ind_var2  48    52     -4.12  97.6 7.94e-05 7.94e-05 ****   
+          
+```
+
+To report the results of your *t*-test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $t$(**`df`**) = **`statistic`**, *p* = **`p`**
+
+Using the results above, I would report the results of a *t*-test like this: $t(df = 98) = -4.12$, $p < .001$. Round `df` to a whole number if it has decimals.
+
+## Analysis of variance (ANOVA)
+
+ANOVA is used when we want to compare the mean values of continuous variable between more than two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: aov
+#| eval: false
+#| include: true
+
+df |> 
+        anova_test(dep_var ~ ind_var)
+
+# ANOVA Table (type II tests)
+#
+#   Effect  DFn DFd     F        p p<.05   ges
+# 1 ind_var   2 450 8.936 0.000156     * 0.038
+
+```
+
+To report the results in APA format:
+
+> $F$ (`DFn`, `DFd`) = `F-value`, $p =$ `p-value`
+
+Using the results above, I would report: $F(2, 450) = 8.94$, $p < .001$.
+
+## Correlation
+
+We use Pearson's correlation to examine a linear relationship between two continuous variables. To run a correlation in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: cor
+#| eval: false
+#| include: true
+
+df |> 
+        cor_test(dep_var, ind_var)
+
+# # A tibble: 1 × 8
+#   var1          var2                  cor statistic        p conf.low conf.high method 
+#   <chr>         <chr>               <dbl>     <dbl>    <dbl>    <dbl>     <dbl> <chr>  
+# 1 dep_var       ind_var              0.31      4.59 0.00000793   0.178     0.431 Pearson
+
+```
+
+To report the results in APA format:
+
+> Pearson's $r$ = `cor`, $p =$ `p-value` (or $p < .001$ if the *p*-value from your test is very small, i.e., less than .001)
+
+Using the results above, I would report: Pearson's $r = 0.31$, $p < .001$.

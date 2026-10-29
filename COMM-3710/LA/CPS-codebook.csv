@@ -9,5 +9,5 @@ married,"Factor with levels: Married, Single"
 exper,Number of years of work experience
 union,"Factor with levels: Not (not part of union), Union"
 age,Age in years
-sector,"Factor with levels: clerical, const, manag, manuf, other prof, sales, service"
+sector,"Factor with levels: clerical, const, manag, manuf, other, prof, sales, service"
 satisfaction,"1 = satisfied with current employment, 0 = otherwise"
