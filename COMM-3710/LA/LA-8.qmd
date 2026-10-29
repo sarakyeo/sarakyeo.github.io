@@ -1,5 +1,5 @@
 ---
-title: "LA-8: Practice Data Analysis (13 points)"
+title: "LA-8: Practice Data Analysis (15 points)"
 format:
    pdf:
       documentclass: article
@@ -11,7 +11,7 @@ format:
       toc: false
       colorlinks: true
 urlcolor: blue
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -31,17 +31,43 @@ library(formatR)
 
 # Learning Outcomes
 
-In this assignment, you will practice the data analysis skills that you have learned this semester.
+In this assignment, you will practice the data analysis skills that you have learned this semester:
+
+- Recoding variables with `mutate()` and `case_when()` (LA-5 to LA-7).
+- Calculating descriptive statistics for groups with `descr()` (LA-4 to LA-7).
+- Selecting, conducting, and interpreting a statistical test (LA-7).
+- Making a graph with `ggplot2` (LA-6).
 
 ::: callout-tip
-Read all the instructions carefully before starting the assignment.
+Read all the instructions carefully before starting the assignment. Set up your R script as you did in LA-4 to LA-7 (name, uNID, date, assignment number).
+:::
+
+::: callout-important
+**How to report your answers.** Write each answer as a comment in your R script, labeled with its question number (e.g., `# 3a: ...`). Report test results in APA format, as shown in the section "Conducting a Statistical Test in R" at the end of this document. Round means and standard deviations to two decimal places.
+:::
+
+::: callout-note
+**Key ideas (from LA-7):**
+
+- The **independent variable (IV)** is the variable we think *explains* or *predicts* differences. The **dependent variable (DV)** is the outcome we are measuring.
+- A **categorical** variable sorts cases into groups. A variable coded with numbers like 0 and 1 can still be categorical if the numbers stand for groups (like `DonorStatus` in LA-6). A **continuous** variable is a number that can take many values.
+- Use the flowchart in the section "Selecting a Statistical Test" at the end of this document to choose a test. Start at the top with the DV.
+- In this course, if *p* < .05, we conclude that there **is** a statistically significant difference (or relationship). If *p* $\ge$ .05, we conclude that we **do not** have evidence of a difference (or relationship).
 :::
 
 ------------------------------------------------------------------------
 
 # Instructions
 
-1) Download the full COVID dataset (`covid-full.csv`) and codebook (`covid-full-codebook.csv`). Use the codebook to familiarize yourself with the variables in the data and read the data into R. Install the packages that we have been using this semester.
+1) Load the packages below. Then download the full COVID dataset (`covid-full.csv`) and its codebook (`covid-full-codebook.csv`) from Canvas, upload the dataset to your Posit Cloud project (as you did in LA-4 to LA-7), and read it into R. Use the codebook to familiarize yourself with the variables in the data.
+
+   * `tidyverse`
+   * `summarytools`
+   * `rstatix` (if R says it can't find the package, run `install.packages("rstatix")` first)
+
+::: callout-note
+**About this dataset.** This is a larger version of the dataset you used in LA-7 (291 rows and 29 countries), so your numbers will not match LA-7. As before, each row (case) is **one country on one survey date**, and the values are **averages** of the people surveyed in that country on that date. For example, `handwashes` is the average number of times people in that country washed their hands on the previous day.
+:::
 
 ```{r}
 #| label: ans1
@@ -53,13 +79,21 @@ covid <- read_csv(here::here("COMM-3710", "LA","covid-full.csv"))
 
 ```
 
-2) Create a new variable called `asia_europe`. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` is the country is Denmark, France, Germany, Italy, or Spain.
+2) Create a new variable called `asia_europe`. Have the variable equal `Asia` if the country is China, India, Japan, Singapore, or South Korea. Have the variable equal `Europe` if the country is Denmark, France, Germany, Italy, or Spain. Run a frequency distribution of `asia_europe` to check it.
 
-        Obtain descriptive statistics for the number of time respondents washed their hands on the previous day for Asia and Europe.
+   Then, obtain descriptive statistics for the number of times respondents washed their hands on the previous day (`handwashes`) for Asia and Europe.
 
    a) What is the mean and standard deviation of handwashes in Asia?
    b) What is the mean and standard deviation of handwashes in Europe?
-   
+
+::: callout-tip
+Use `mutate()`, `case_when()`, and `|` ("or") the same way you created `region` in LA-7. Remember to save the result back to `covid` (start with `covid <- covid |> ...`), because you will use `asia_europe` in Questions 3, 5, and 7.
+
+Only 10 of the 29 countries are in Asia or Europe as defined above. All other countries (e.g., United Kingdom, Taiwan) will be `NA` in `asia_europe`. That is expected, and R leaves them out of the statistical tests.
+
+To get descriptive statistics for each region, use `group_by()` before `descr()`, as in LA-7 (5f), or use `filter()` and `descr()` for each region.
+:::
+
 ```{r}
 #| label: ans2
 #| include: false
@@ -67,7 +101,7 @@ covid <- read_csv(here::here("COMM-3710", "LA","covid-full.csv"))
 
 # Create new variable called asia_europe
 
-covid <- covid |> 
+covid <- covid |>
         mutate(asia_europe = case_when(
                 country == "China" | country == "India" | country == "Japan" |
                         country == "Singapore" | country == "South Korea" ~ "Asia",
@@ -75,22 +109,22 @@ covid <- covid |>
                         country == "Italy" | country == "Spain" ~ "Europe"
         ))
 
-covid |> freq(asia_europe)
+covid |> freq(asia_europe) # Asia 54, Europe 70, NA 167
 
 # Descriptive statistics for Asia
-covid |> 
-        filter(asia_europe == "Asia") |> 
+covid |>
+        filter(asia_europe == "Asia") |>
         descr(handwashes)
 
 # Descriptive statistics for Europe
-covid |> 
-        filter(asia_europe == "Europe") |> 
+covid |>
+        filter(asia_europe == "Europe") |>
         descr(handwashes)
 
 # OR...
 
-covid |> 
-        group_by(asia_europe) |> 
+covid |>
+        group_by(asia_europe) |>
         descr(handwashes)
 
 #2a: Asia: M = 7.32, SD = 1.82
@@ -98,40 +132,49 @@ covid |>
 
 ```
 
-3) Conduct a statistical test to determine whether there is a significant difference in the number of times people living in Asia compared to Europe washed their hands.
+3) Conduct a statistical test to determine whether there is a significant difference in the average number of times people in Asia compared to Europe washed their hands.
 
    a) State your hypothesis.
    b) Select and conduct a statistical test to address your hypothesis.
-   c) Report the test statistic and *p*-value.
-   d) Does the statistical test support or refute your hypothesis?
-   
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? Explain.
+
+::: callout-tip
+As in LA-7, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order). A **negative** *t* means the first group's mean is **lower**. Use your answers to Question 2 to see which region is higher.
+:::
+
 ```{r}
-#| label: ans4
+#| label: ans3
 #| include: false
 #| eval: false
 
 #3a: People living in Europe washed their hands more times, on average, than those living in Asia.
+# (Any reasonable hypothesis is acceptable; grade 3d on consistency with the student's 3a.)
 
 #3b: t-test
 
-covid |> 
-        select(handwashes, asia_europe) |> 
+covid |>
         t_test(handwashes ~ asia_europe)
 
-#3c: t = -12.2, p < .001
-#3d: The t-test supports the hypothesis posed in #3a.
+#3c: t(122) = -12.22, p < .001 (Welch df = 121.97)
+#3d: Yes. The difference is significant (p < .05) and Europe's mean (11.86) is higher
+# than Asia's (7.32), which supports the hypothesis posed in #3a.
 
 ```
 
-4) Implement the appropriate statistical test to determine whether there is a significant linear relationship between how many times people left their home and the total number of contacts they had with other people.
-   
+4) Select and conduct the appropriate statistical test to determine whether there is a significant linear relationship between how many times people left their home (`times_left_home`) and the total number of contacts they had with other people (`total_contacts`).
+
    a) State your hypothesis.
    b) Select and conduct a statistical test to address your hypothesis.
-   c) Report the test statistic and *p*-value.
-   d) Does the statistical test support or refute your hypothesis? If there is a significant relationship, describe it. Does this finding make sense? Why or why not?
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? If there is a significant relationship, describe it (e.g., is it positive or negative?). Does this finding make sense? Why or why not?
+
+::: callout-tip
+`times_left_home` has fewer distinct values than `total_contacts`, but it is an average (e.g., 1.4 times), so it is continuous. When you are looking for a relationship between two continuous variables, it does not matter which variable you list first in `cor_test()`.
+:::
 
 ```{r}
-#| label: ans5
+#| label: ans4
 #| include: false
 #| eval: false
 
@@ -144,23 +187,43 @@ covid |> freq(times_left_home)
 
 #4b: Pearson's correlation
 
-covid |> 
-        cor_test(vars = total_contacts, vars2 = times_left_home)
+covid |>
+        cor_test(total_contacts, times_left_home)
 
 #4c: Pearson's r = .34, p < .001
 #4d: There is a significant positive relationship between these variables, supporting the hypothesis posed in #4a. The greater the number of times respondents left home, the more total contacts they had with other people. This finding makes sense.
 
 ```
 
-5) Is there a difference in whether the majority of respondents in Asia compared to those in Europe said their lives were impacted by COVID?
+5) Is a country being in Asia or Europe related to whether most of its respondents said their lives were greatly impacted by COVID (`majority_life_impacted`)?
 
    a) State your hypothesis.
    b) Select and conduct a statistical test to address your hypothesis.
-   c) Report the test statistic and *p*-value.
-   d) Does the statistical test support or refute your hypothesis? If there is a significant difference, describe it (e.g., which region, Asia or Europe, had more respondents who said their lives were impacted by COVID). You can use the `filter()` and `freq()` functions to help you describe the differences.
-   
+   c) Report the test statistic and *p*-value in APA format.
+   d) Does the statistical test support your hypothesis? If there is a significant difference, describe it (e.g., which region, Asia or Europe, had more survey dates on which most respondents said their lives were greatly impacted by COVID?).
+
+::: callout-tip
+`majority_life_impacted` is coded 0 and 1, but the numbers stand for groups (1 = most respondents said their lives were greatly impacted; 0 = they did not).
+
+The chi-squared command uses `covid$asia_europe`, which means "the `asia_europe` column of the `covid` dataframe":
+
+```
+chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
+```
+
+For 5d, use `filter()` and `freq()` to compare the regions, e.g.:
+
+```
+covid |>
+  filter(asia_europe == "Asia") |>
+  freq(majority_life_impacted)
+```
+
+Then repeat for `Europe`.
+:::
+
 ```{r}
-#| label: ans6
+#| label: ans5
 #| include: false
 #| eval: false
 
@@ -169,49 +232,67 @@ covid |> freq(majority_life_impacted)
 # both variables are categorical, we should use the chi-squared test.
 
 #5a: The majority of respondents who said their lives were impacted by COVID will be different in Europe compared to Asia.
+# (Any reasonable hypothesis is acceptable; grade 5d on consistency with the student's 5a.)
 
 #5b: Chi-squared test
 
 chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
 
-#5c: X2 = 22.5, p < .001
-#5d: There is a significant difference between Asians and Europeans. The test supports the hypothesis posed in #5a. More respondents in Asia said their lives were impacted by COVID compared to those in Europe.
+#5c: X2(1, N = 124) = 19.27, p < .001
+# (2 x 2 table: Asia 43 yes / 11 no; Europe 27 yes / 43 no. chisq_test() applies the
+# continuity correction for 2 x 2 tables; without it, X2 = 20.90.)
+
+covid |> filter(asia_europe == "Asia") |> freq(majority_life_impacted)   # 43 of 54 (79.6%) = 1
+covid |> filter(asia_europe == "Europe") |> freq(majority_life_impacted) # 27 of 70 (38.6%) = 1
+
+#5d: There is a significant difference between Asia and Europe. The test supports the hypothesis posed in #5a. Most respondents said their lives were greatly impacted on more Asian survey dates (80%) than European ones (39%).
 
 ```
 
-6) **BONUS:** Use the data and a statistical test to determine whether there is a relationship between the number of days since the COVID outbreak began and how often respondents wore masks outside. Conduct the statistical test, report the results of the test (i.e., test statistic and *p*-value) and explain your conclusion.
+6) **BONUS:** Use the data and a statistical test to determine whether there is a relationship between the number of days since the COVID outbreak began (`days_since_outbreak`) and how often respondents wore masks outside (`masks_outside`, a score from 0 to 100). Conduct the statistical test, report the results of the test (i.e., test statistic and *p*-value) and explain your conclusion.
 
 ```{r}
-#| label: ans7
+#| label: ans6
 #| include: false
 #| eval: false
 
 covid |> freq(days_since_outbreak)
 covid |> freq(masks_outside)
 
-covid |> 
-        cor_test(vars = masks_outside, vars2 = days_since_outbreak)
+covid |>
+        cor_test(masks_outside, days_since_outbreak)
 
 #6: r = 0.20, p < .001. There is a positive relationship between respondents' frequency of wearing masks outside and the number of days since the COVID-19 outbreak. This makes sense; as we learned more about the virus over time, we learned that it was a respiratory virus that spread via air droplets and that mask-wearing reduces its spread.
 
 ```
 
-7) **BONUS:** Create a figure showing the number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average number of times people washed their hands on the previous day."
+7) **BONUS:** Create a bar chart showing the average number of times people living in Asia and Europe washed their hands. Remove the x-axis label so that only the tick marks are labeled (i.e., with "Asia" and "Europe") and rename the y-axis label to "Average handwashes (previous day)".
+
+::: callout-tip
+`geom_col()` **adds up** all the values in each group, so it would show totals, not averages. To plot the average, use `stat_summary(fun = mean, geom = "col")` instead. Use `filter(!is.na(asia_europe))` to remove countries that are not in Asia or Europe, and `labs()` to change the axis labels:
+
+```
+covid |>
+  filter(!is.na(asia_europe)) |>
+  ggplot(aes(x = asia_europe, y = handwashes)) +
+  stat_summary(fun = mean, geom = "col") +
+  labs(x = ..., y = ...)
+```
+:::
 
 ```{r}
-#| label: ans3
+#| label: ans7
 #| include: false
 #| eval: false
 
-covid |> 
-        select(asia_europe, handwashes) |> 
-        na.omit() |> 
+covid |>
+        filter(!is.na(asia_europe)) |>
         ggplot(aes(x = asia_europe, y = handwashes)) +
-        geom_col() +
-        xlab("") +
-        ylab("Average number of times people washed their hands on the previous day") +
-        jtools::theme_apa()
-        
+        stat_summary(fun = mean, geom = "col") +
+        labs(x = "", y = "Average handwashes (previous day)")
+
+# Bars should be about 7.32 (Asia) and 11.86 (Europe).
+
 ```
 
 ------------------------------------------------------------------------
@@ -236,3 +317,112 @@ To ensure that your R script runs without errors, you should:
 ::: callout-important
 These standards apply to all submissions in this course that require R scripts. You should follow these instructions for preparation, naming, and saving of your R script for all of your individual lab assignments.
 :::
+
+\newpage
+
+# Selecting a Statistical Test
+
+![](selecting-stats-test.png)
+
+# Conducting a Statistical Test in R
+
+The example output below is **made up** for illustration, so your numbers will be different. Use these examples to see what the output looks like and how to report it.
+
+## Chi-squared test
+
+A chi-squared test is used when we want to compare two categorical variables. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: chisq
+#| eval: false
+#| include: true
+
+chisq_test(x = df$ind_var, y = df$dep_var)
+
+# A tibble: 1 × 6
+#       n statistic         p    df method          p.signif
+# * <int>     <dbl>     <dbl> <int> <chr>           <chr>   
+# 1   200      6.84    0.0327     2 Chi-square test *   
+
+```
+
+To report the results of your chi-squared test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $\chi^2$(**`df`**, $N$ = **`n`**) = **`statistic`**, *p* = **`p`**
+
+From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 200) = 6.84$, $p = .033$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
+
+## *t*-test
+
+A *t*-test is used to compare the mean values of a continuous variable between two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: t-test
+#| eval: false
+#| include: true
+
+df |> 
+        t_test(dep_var ~ ind_var)
+
+# A tibble: 1 × 10
+#   .y.        group1 group2    n1    n2 statistic    df        p    p.adj p.adj.signif
+# * <chr>      <chr>  <chr>  <int> <int>     <dbl> <dbl>    <dbl>    <dbl> <chr>       
+# 1 dep_var ind_var1  ind_var2  48    52     -4.12  97.6 7.94e-05 7.94e-05 ****   
+          
+```
+
+To report the results of your *t*-test in APA format, you would use the following format, replacing the text in bold font with the results from your Console:
+
+> $t$(**`df`**) = **`statistic`**, *p* = **`p`**
+
+Using the results above, I would report the results of a *t*-test like this: $t(df = 98) = -4.12$, $p < .001$. Round `df` to a whole number if it has decimals.
+
+## Analysis of variance (ANOVA)
+
+ANOVA is used when we want to compare the mean values of continuous variable between more than two groups. To do so in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: aov
+#| eval: false
+#| include: true
+
+df |> 
+        anova_test(dep_var ~ ind_var)
+
+# ANOVA Table (type II tests)
+#
+#   Effect  DFn DFd     F        p p<.05   ges
+# 1 ind_var   2 450 8.936 0.000156     * 0.038
+
+```
+
+To report the results in APA format:
+
+> $F$ (`DFn`, `DFd`) = `F-value`, $p =$ `p-value`
+
+Using the results above, I would report: $F(2, 450) = 8.94$, $p < .001$.
+
+## Correlation
+
+We use Pearson's correlation to examine a linear relationship between two continuous variables. To run a correlation in R, you can use the following command (`df`, `dep_var`, and `ind_var` have to be replaced with the names of your dataframe, dependent variable, and independent variable, respectively). The output that results from running this command in R is shown below as comments.
+
+```{r}
+#| label: cor
+#| eval: false
+#| include: true
+
+df |> 
+        cor_test(dep_var, ind_var)
+
+# # A tibble: 1 × 8
+#   var1          var2                  cor statistic        p conf.low conf.high method 
+#   <chr>         <chr>               <dbl>     <dbl>    <dbl>    <dbl>     <dbl> <chr>  
+# 1 dep_var       ind_var              0.31      4.59 0.00000793   0.178     0.431 Pearson
+
+```
+
+To report the results in APA format:
+
+> Pearson's $r$ = `cor`, $p =$ `p-value` (or $p < .001$ if the *p*-value from your test is very small, i.e., less than .001)
+
+Using the results above, I would report: Pearson's $r = 0.31$, $p < .001$.
