@@ -91,7 +91,7 @@ Use `mutate()`, `case_when()`, and `|` ("or") the same way you created `region` 
 
 Only 10 of the 29 countries are in Asia or Europe as defined above. All other countries (e.g., United Kingdom, Taiwan) will be `NA` in `asia_europe`. That is expected, and R leaves them out of the statistical tests.
 
-To get descriptive statistics for each region, use `group_by()` before `descr()`, as in LA-7 (5f), or use `filter()` and `descr()` for each region.
+To get descriptive statistics for each region, use `group_by()` before `descr()`, as in LA-7, or use `filter()` and `descr()` for each region.
 :::
 
 ```{r}
