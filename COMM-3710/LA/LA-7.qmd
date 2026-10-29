@@ -235,7 +235,7 @@ These standards apply to all submissions in this course that require R scripts. 
 
 # Conducting a Statistical Test in R
 
-The example output below comes from **other datasets**, so your numbers will be different. Use these examples to see what the output looks like and how to report it.
+The example output below is **made up** for illustration, so your numbers will be different. Use these examples to see what the output looks like and how to report it.
 
 ## Chi-squared test
 
@@ -251,7 +251,7 @@ chisq_test(x = df$ind_var, y = df$dep_var)
 # A tibble: 1 × 6
 #       n statistic         p    df method          p.signif
 # * <int>     <dbl>     <dbl> <int> <chr>           <chr>   
-# 1   291      22.5 0.0000133     2 Chi-square test **** 
+# 1   200      6.84    0.0327     2 Chi-square test *   
 
 ```
 
@@ -259,7 +259,7 @@ To report the results of your chi-squared test in APA format, you would use the 
 
 > $\chi^2$(**`df`**, $N$ = **`n`**) = **`statistic`**, *p* = **`p`**
 
-From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 291) = 22.5$, $p < .001$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
+From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 200) = 6.84$, $p = .033$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
 
 ## *t*-test
 
@@ -276,7 +276,7 @@ df |>
 # A tibble: 1 × 10
 #   .y.        group1 group2    n1    n2 statistic    df        p    p.adj p.adj.signif
 # * <chr>      <chr>  <chr>  <int> <int>     <dbl> <dbl>    <dbl>    <dbl> <chr>       
-# 1 dep_var ind_var1  ind_var2  54    70     -12.2  122. 6.49e-23 6.49e-23 ****   
+# 1 dep_var ind_var1  ind_var2  48    52     -4.12  97.6 7.94e-05 7.94e-05 ****   
           
 ```
 
@@ -284,7 +284,7 @@ To report the results of your *t*-test in APA format, you would use the followin
 
 > $t$(**`df`**) = **`statistic`**, *p* = **`p`**
 
-Using the results above, I would report the results of a *t*-test like this: $t(df = 122) = -12.2$, $p < .001$. Round `df` to a whole number if it has decimals.
+Using the results above, I would report the results of a *t*-test like this: $t(df = 98) = -4.12$, $p < .001$. Round `df` to a whole number if it has decimals.
 
 ## Analysis of variance (ANOVA)
 
@@ -326,7 +326,7 @@ df |>
 # # A tibble: 1 × 8
 #   var1          var2                  cor statistic        p conf.low conf.high method 
 #   <chr>         <chr>               <dbl>     <dbl>    <dbl>    <dbl>     <dbl> <chr>  
-# 1 masks_outside days_since_outbreak   0.2      3.48 0.000584   0.0875     0.308 Pearson
+# 1 dep_var       ind_var              0.31      4.59 0.00000793   0.178     0.431 Pearson
 
 ```
 
@@ -334,4 +334,4 @@ To report the results in APA format:
 
 > Pearson's $r$ = `cor`, $p =$ `p-value` (or $p < .001$ if the *p*-value from your test is very small, i.e., less than .001)
 
-Using the results above, I would report: Pearson's $r = 0.2$, $p < .001$.
+Using the results above, I would report: Pearson's $r = 0.31$, $p < .001$.
