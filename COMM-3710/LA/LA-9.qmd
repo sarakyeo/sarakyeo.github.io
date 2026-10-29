@@ -113,7 +113,7 @@ cps |>
    d) Does the statistical test support your hypothesis? If there is a significant difference, describe it (e.g., do males or females earn higher wages, on average?).
 
 ::: callout-tip
-As in LA-7 and LA-8, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order, so `F` comes before `M`). A **negative** *t* means the first group's mean is **lower**. Use your answers to Question 2 to see which group is higher.
+As in LA-7 and LA-8, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order, so `F` comes before `M`). A **negative** *t* means the first group's mean is **lower**. Use your answers to Question 2 to see which group is higher. You can (and probably should) confirm this by checking the mean values in each group.
 :::
    
 ```{r}
