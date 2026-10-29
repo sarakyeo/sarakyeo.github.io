@@ -238,7 +238,7 @@ covid |> freq(majority_life_impacted)
 
 chisq_test(x = covid$asia_europe, y = covid$majority_life_impacted)
 
-#5c: X2(1, N = 124) = 19.27, p < .001
+#5c: X2(1, N = 124) = 19.3, p < .001
 # (2 x 2 table: Asia 43 yes / 11 no; Europe 27 yes / 43 no. chisq_test() applies the
 # continuity correction for 2 x 2 tables; without it, X2 = 20.90.)
 
