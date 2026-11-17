@@ -65,7 +65,7 @@ Read all the instructions carefully before starting the assignment. Set up your 
    * `rstatix` (if R says it can't find the package, run `install.packages("rstatix")` first)
 
 ::: callout-note
-**About this dataset.** Data for this assignment come from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data are a random sample of 534 workers from the survey, with information on their wages and other characteristics, including sex, years of education, years of work experience, job sector, region of residence, and union membership.
+**About this dataset.** Data for this assignment come from the 1985 Current Population Survey (CPS). The CPS is used to supplement census information between census years. These data are a random sample of 534 workers from the survey, with information on their wages and other characteristics, including sex, years of education, years of work experience, job sector, whether they live in the South, and union membership. Wages are in 1985 dollars, so they look low by today's standards (prices have roughly tripled since then). The 1985 survey recorded sex as only female (`F`) or male (`M`).
 
 Unlike the COVID data in LA-7 and LA-8, each row (case) in this dataset is **one person**.
 :::
@@ -84,8 +84,8 @@ head(cps)
 
 2) Obtain descriptive statistics for wages earned per hour (`wage`) for females and males (`sex`).
 
-   a) What is the mean and standard deviation of hourly wages for females?
-   b) What is the mean and standard deviation of hourly wages for males?
+   a) What are the mean and standard deviation of hourly wages for females?
+   b) What are the mean and standard deviation of hourly wages for males?
 
 ::: callout-tip
 To get descriptive statistics for each group, use `group_by()` before `descr()`, as in LA-7 and LA-8, or use `filter()` and `descr()` for each group.
@@ -113,7 +113,7 @@ cps |>
    d) Does the statistical test support your hypothesis? If there is a significant difference, describe it (e.g., do males or females earn higher wages, on average?).
 
 ::: callout-tip
-As in LA-7 and LA-8, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order, so `F` comes before `M`). A **negative** *t* means the first group's mean is **lower**. Use your answers to Question 2 to see which group is higher. You can (and probably should) confirm this by checking the mean values in each group.
+As in LA-7 and LA-8, `t_test()` subtracts the mean of the second group from the mean of the first group (groups are in alphabetical order, so `F` comes before `M`). A **negative** *t* means the first group's mean is **lower**. Check your answers to Question 2 to confirm which group is higher.
 :::
    
 ```{r}
@@ -142,6 +142,8 @@ cps |>
 
 ::: callout-tip
 When you are looking for a relationship between two continuous variables, it does not matter which variable you list first in `cor_test()`.
+
+To describe the strength of a correlation, use the size of *r* (ignoring the sign) as a rough guide: about .10 is **weak**, about .30 is **moderate**, and .50 or above is **strong**. A relationship can be statistically significant and still be weak.
 :::
 
 ```{r}
@@ -170,7 +172,7 @@ cps |>
    d) Does the statistical test support your hypothesis? Explain.
 
 ::: callout-tip
-`satisfaction` is coded 0 and 1, but the numbers stand for groups (1 = satisfied with current job; 0 = not satisfied). `sector` has eight groups; run `cps |> freq(sector)` to see them.
+`satisfaction` is coded 0 and 1, but the numbers stand for groups (1 = satisfied with current job; 0 = not satisfied with current job). `sector` has eight groups; run `cps |> freq(sector)` to see them.
 
 The chi-squared command uses `cps$sector`, which means "the `sector` column of the `cps` dataframe," as in LA-8.
 :::
@@ -200,7 +202,7 @@ chisq_test(x = cps$sector, y = cps$satisfaction)
    a) State your hypothesis.
    b) Select and conduct a statistical test to address your hypothesis.
    c) Report the test statistic and *p*-value in APA format.
-   d) Does the statistical test support your hypothesis? Explain. Then use `group_by()` and `descr()` to find which job sector has the highest average hourly wage and which has the lowest.
+   d) Does the statistical test support your hypothesis? Explain. Then use `group_by()` and `descr()` to find which job sector has the highest average hourly wage and which has the lowest. (R prints one table per sector; look at the Mean row in each.)
 
 ```{r}
 #| label: ans6
@@ -249,7 +251,7 @@ These standards apply to all submissions in this course that require R scripts. 
 
 # Selecting a Statistical Test
 
-![](selecting-stats-test.png)
+![](selecting-stats-test.png){fig-alt="Flowchart for choosing a statistical test. Start with the dependent variable. If it is categorical and the independent variable is categorical, use a chi-squared test. If the dependent variable is continuous and the independent variable is categorical with two groups, use a t-test; with more than two groups, use ANOVA. If both variables are continuous, use Pearson's correlation."}
 
 # Conducting a Statistical Test in R
 
@@ -277,7 +279,7 @@ To report the results of your chi-squared test in APA format, you would use the 
 
 > $\chi^2$(**`df`**, $N$ = **`n`**) = **`statistic`**, *p* = **`p`**
 
-From the results of the above chi-squared test, I would report results like this: $\chi^2(df = 2, N = 200) = 6.84$, $p = .033$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
+From the results of the above chi-squared test, I would report results like this: $\chi^2(2, N = 200) = 6.84$, $p = .033$. If the *p*-value is less than .001, you do not need to report the exact value. If it is greater than .001, then report the exact value rounded to two or three decimal places.
 
 ## *t*-test
 
@@ -302,7 +304,7 @@ To report the results of your *t*-test in APA format, you would use the followin
 
 > $t$(**`df`**) = **`statistic`**, *p* = **`p`**
 
-Using the results above, I would report the results of a *t*-test like this: $t(df = 98) = -4.12$, $p < .001$. Round `df` to a whole number if it has decimals.
+Using the results above, I would report the results of a *t*-test like this: $t(98) = -4.12$, $p < .001$. Round `df` to a whole number if it has decimals.
 
 ## Analysis of variance (ANOVA)
 
@@ -352,4 +354,4 @@ To report the results in APA format:
 
 > Pearson's $r$ = `cor`, $p =$ `p-value` (or $p < .001$ if the *p*-value from your test is very small, i.e., less than .001)
 
-Using the results above, I would report: Pearson's $r = 0.31$, $p < .001$.
+Using the results above, I would report: Pearson's $r = .31$, $p < .001$. (In APA format, correlations and *p*-values are written without a leading zero, because they cannot be greater than 1.)
