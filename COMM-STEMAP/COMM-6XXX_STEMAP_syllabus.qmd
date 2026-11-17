@@ -1,0 +1,248 @@
+---
+title: "COMM 6XXX: Public Engagement with Science"
+subtitle: "The STEM Ambassador Approach"
+author: |
+  Seminar: Mondays, [time], [room]\
+  Studio: Wednesdays, [time], [room]\
+  Fall 2027, University of Utah, 3 credits\
+  Professor: [Instructor name]\
+  Email: [instructor]@utah.edu\
+  Virtual Office Hours: By appointment
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    geometry: margin=1in
+    fontsize: 11pt
+---
+
+## Course Outline
+
+This graduate seminar and practicum trains students to design, carry out, and evaluate relationship-based public engagement with science (PES). It is built on the STEM Ambassador Program (STEMAP), founded in 2016 at the University of Utah by Dr. Nalini Nadkarni with National Science Foundation funding. Students work as Ambassadors: they use their research, interests, and backgrounds to form an "impact identity," choose a community group with shared values, build a relationship with that group, and engage it in a venue where the group already gathers, such as a library, shelter, or senior center. No prior science communication coursework is required. The course is open to graduate students in any discipline, and the target enrollment is a cohort of 10 to 25, matching STEMAP's cohort size.
+
+The goal of this course is to give you a critical framework for evaluating science communication research and hands-on experience in the full cycle of a community engagement project, from first conversation to final reflection.
+
+Key topics include:
+
+  * Science's relationship to the public, and the move from deficit-model outreach to dialogue
+  * The Ambassador approach and its research base
+  * Building your impact identity and selecting a focal community group
+  * Relationship-building, trust, reciprocity, and ethics in community partnerships
+  * Setting relationship and learning goals for an engagement event
+  * Research-backed science communication methods and skill-building
+  * Evaluating engagement with self-evaluation and observer rubrics
+  * Reflecting on practice, and communicating your work to others
+
+::: {.callout-note}
+You are expected to log into the course Canvas website regularly (at least 3-5 times per week), complete and submit work on time, and ask questions if you need help. Your project depends on a community partner, so tell your instructor early if a partner's schedule creates a conflict.
+:::
+
+## Learning Outcomes
+
+By the end of this course, you will be able to:
+
+1. Explain the STEMAP framework and the research behind relationship-based science communication.
+2. Articulate your own impact identity and use it to select a community group to engage.
+3. Identify, research, and contact a community organization, and build a respectful, reciprocal relationship with it.
+4. Set relationship and learning objectives, and design an engagement event tailored to a group's goals and interests.
+5. Apply a repertoire of evidence-based science communication methods in a live engagement.
+6. Evaluate an engagement event with self-evaluation and independent observer rubrics, and use the results to improve future work.
+7. Communicate your experience to public and professional audiences.
+
+## Required Text and Readings
+
+There is no required textbook. All readings are provided as PDF documents on Canvas. The core readings are:
+
+  * Nadkarni, N. M., et al. (2019). Beyond the deficit model: The Ambassador approach to public engagement. *BioScience, 69*(4), 305-313.
+  * Weber, C., Allen, S., & Nadkarni, N. M. (2021). Scaling training to support scientists to engage with the public in non-traditional venues. *JCOM, 20*(04), N02.
+  * Staus, N. L., Risien, J., & Cho, H. (2025). Scientists' views about relationship-based science communication strategies. *JCOM, 24*(01), N03.
+  * STEMAP program materials, including the STEMAP website (<https://stemap.utah.edu/>), the STEMAP impact overview, and the Ambassador orientation information.
+
+Additional weekly readings on science communication, community partnership, and evaluation are marked "[Instructor to select]" in the schedule and will be posted on Canvas.
+
+## Technology Requirements
+
+To ensure that you have full access to the course, you will need:
+
+  * Reliable access to a laptop or desktop computer. A mobile device (tablet, phone) is not sufficient to complete this course. Please bring a laptop to studio.
+  * An Internet browser compatible with Canvas. Announcements, assignments, readings, and rubrics will be posted there. If you need help with Canvas, visit the Canvas Getting Started Guide for Students.
+  * Your University email account, and a way to contact community partners by phone or email.
+  * Word-processing and presentation software (Microsoft Office or Google Workspace), and a camera or phone for documenting your event, with the permissions described under Course Policies.
+  * Reliable transportation to your partner's venue, or an alternative approved by your instructor, such as a virtual event.
+
+::: {.callout-note}
+You are expected to know how to take a screenshot with your computer. A photo of your laptop or computer screen taken with your mobile device is not a screenshot.
+:::
+
+## Course Requirements
+
+Course grades will be based on the following (500 points total). The course follows the STEMAP Ambassador sequence, so most assignments build on one another and make up one engagement project.
+
+| Assignment | Points |
+|:--------------------------------------------------------|-----:|
+| Seminar and studio participation | 50 |
+| Weekly reading responses (12 × 5 pts) | 60 |
+| Impact identity statement and focal-group memo | 40 |
+| Immersion report | 60 |
+| Engagement proposal | 90 |
+| Engagement implementation | 80 |
+| Evaluation and reflection (paper and closing presentation) | 70 |
+| STEMAP newsletter article (~850 words) | 50 |
+| **Total** | **500** |
+
+### Participation
+
+Attendance is required for seminars and studio sessions, including the two three-hour Design and Engage workshops. Notify your instructor at least one week in advance if you must miss a session. Out of respect for your instructor, peers, and community partners, please arrive on time.
+
+### Reading Responses
+
+Short responses to the assigned readings are submitted on Canvas. They are graded on engagement with the reading, not length. No make-up or late responses will be accepted.
+
+::: {.callout-important}
+Reading responses open on Tuesday at 12:00 am and are due the following Monday at 8:00 am, before seminar.
+:::
+
+### Impact Identity Statement and Focal-Group Memo
+
+You reflect on your research, interests, and experiences to define your impact identity and desired societal impact. After a one-on-one meeting with your instructor or STEMAP staff, you name a community group whose interests and values overlap with yours and explain why.
+
+### Immersion Report
+
+You identify, research, and contact a specific organization, establish a point of contact, and spend time learning about the goals and interests of its members. The report documents what you learned and how it will shape your event.
+
+### Engagement Proposal
+
+You propose a public engagement event tailored to your focal group, with relationship and learning objectives, planned activities, and an evaluation plan. You review materials with your instructor or STEMAP staff and incorporate their feedback, and you give and receive peer feedback in studio.
+
+### Engagement Implementation
+
+You carry out at least one engagement project in the venue where your group naturally gathers. You are graded on preparation, materials, facilitation, and responsiveness to the group, using the program's self-evaluation and observer rubrics.
+
+### Evaluation and Reflection
+
+You complete the self-evaluation rubric, review the independent observer's evaluation, and write a reflection paper on your event, your relationship with the group, and what you would change. You present a summary at the closing symposium.
+
+### STEMAP Newsletter Article
+
+You write an article of about 850 words summarizing your experience with community relationship-building and your engagement project, suitable for the STEMAP newsletter.
+
+Due dates for all assignments are listed on Canvas. Late assignments will not be accepted without prior arrangement with your instructor, because your community partner is counting on you.
+
+## Course Grading
+
+::: {.callout-important}
+If you wish to dispute your grade on any assignment, you must put your concerns in writing (please adhere to the course email policy) to your professor, clearly outlining your rationale. These concerns must be presented to your professor within one week of receiving your grade.
+:::
+
+Grades in this course will be based on the following scale. Graduate students should check with their department about the minimum grade that counts toward degree requirements.
+
+| Grade | Score (%) |
+|:------|:----------|
+| A | 93 to 100 |
+| A- | 90 to < 93 |
+| B+ | 87 to < 90 |
+| B | 83 to < 87 |
+| B- | 80 to < 83 |
+| C+ | 77 to < 80 |
+| C | 73 to < 77 |
+| C- | 70 to < 73 |
+| D+ | 67 to < 70 |
+| D | 63 to < 67 |
+| D- | 60 to < 63 |
+| E | < 60 |
+
+You can and should check your grade regularly on Canvas.
+
+## Course Policies
+
+By enrolling in this course, you agree to:
+
+1. respect the instructor, your peers, and all community partners;
+2. engage with the course content and your project meaningfully;
+3. meet the requirements of this course; and
+4. abide by the course policies outlined in the syllabus.
+
+This list represents the minimal standards to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+
+### Email Policy
+
+::: {.callout-note}
+It is critical that you check your University email account frequently and that you use your University email account to contact your instructor.
+:::
+
+Course instructors will not respond to emails originating from a non-University account (e.g., Google, Yahoo, etc.). Emails should be written clearly and professionally with correct spelling and grammar. When you contact your instructors, you are expected to be professional in your communication. This includes:
+
+  * Providing a relevant description or statement in the email subject line.
+  * Providing your full name, uNID, and class section in the message.
+  * Using appropriate salutations (e.g., Dr. or Prof. [Last name]).
+  * Using paragraphs, not just long blocks of text, and proofreading your writing.
+  * Providing a clear description of your problem and all relevant information.
+  * Being polite, including ending your message with a signature such as "sincerely," "regards," or "thank you."
+
+### Course Civility
+
+Communication allows us to engage with others and broaden our perspectives. How concepts are discussed, in the physical or virtual classroom, is part of that process. Diverse perspectives and experiences will inform and enhance our discussions. Each member of the class is expected to foster a respectful, generous, and supportive environment that makes room for productive difference and reasoned debate. Here is the basic etiquette expected in the course:
+
+  * Please address your classmates by name. There is a human being on the other side of the screen or room who also has struggles, doubts, and bad days.
+  * Civil disagreement is encouraged! Approach differences in a manner that seeks clarity and better understanding by asking productive questions and by providing counterarguments supported with evidence.
+  * Anytime you have a strong emotional reaction to something, pause before responding.
+
+### Community Partner Conduct
+
+Your community partner is a collaborator, not a research site. You represent the University and STEMAP when you contact and visit a group. Respect the group's norms, schedule, and venue rules, listen before you present, and be open to changing your plans based on what you learn. Tell your instructor immediately if a partner raises a concern or if anything at an event makes you uncomfortable or unsafe. Obtain permission from the venue and participants before taking photos or recording. Use the STEMAP logo on engagement materials only with permission from STEMAP staff.
+
+### Use of Student Materials
+
+STEMAP may occasionally use Ambassador engagement materials (e.g., photos, presentations, flyers, sticky notes from brainstorming) as examples in future trainings or other program communications, such as conferences and peer-reviewed publications. Contact your instructor or STEMAP staff if you would prefer that your materials not be used.
+
+### Academic Misconduct
+
+::: {.callout-warning}
+Academic misconduct will be punished to the fullest extent possible. Anyone found guilty of academic misconduct should expect to fail this course.
+:::
+
+It is expected that students comply with University of Utah policies regarding academic honesty, including but not limited to refraining from cheating, plagiarizing, misrepresenting one's work, and/or inappropriately collaborating. This includes the use of generative artificial intelligence (AI) tools without citation, documentation, or authorization. Students are expected to adhere to the prescribed professional and ethical standards of the profession or discipline for which they are preparing. Any student who engages in academic dishonesty or who violates the professional and ethical standards for their profession or discipline may be subject to academic sanctions as per the University of Utah's Student Code: Policy 6-410: Student Academic Performance, Academic Conduct, and Professional and Ethical Conduct.
+
+Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. For details on plagiarism and other important course conduct issues, see the U's Code of Student Rights and Responsibilities.
+
+### Curriculum Accommodations
+
+Curriculum accommodations take two forms: scheduling and content accommodations. On a case-by-case basis, if you submit the appropriate documentation in advance of the conflict (when possible), scheduling accommodations for assignments may be considered. If you anticipate a scheduling conflict, please speak with your professor as soon as possible. Without exception, it is your responsibility to plan for any scheduling conflict. There will be no scheduling accommodations for reading responses.
+
+There will be no content accommodations in this course. The material has been selected for its pedagogical value in relation to the concepts we are engaging. It is your responsibility to review the course materials to be sure that this is a course you wish to take. More information on the University's accommodation policy can be found in Policy 6-100.
+
+### Emergency Plan
+
+In the event of a University-wide emergency which prevents face-to-face meetings, students should continue to stay current with our schedule as posted in this syllabus and to attend to the course website on Canvas. Information about the status of assignments and other course work due during this period will be addressed on Canvas and, if necessary, by way of email. Community events may be moved online or rescheduled in consultation with your partner and instructor.
+
+## University Policies
+
+Updated mandatory syllabus policies regarding the Americans with Disabilities Act (ADA), Safety at the U, Addressing Sexual Misconduct, and Academic Misconduct can be viewed [here](https://cte.utah.edu/instructor-education/syllabus/institutional-policies.php).
+
+## Course Schedule
+
+The schedule is tentative. Any changes will be announced on Canvas. Your continued enrollment in this course constitutes an agreement to abide by the policies and procedures in this syllabus.
+
+::: {.callout-note}
+The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. Weekly seminars (Monday) cover readings and concepts; studio sessions (Wednesday) are workshops, one-on-one meetings, and peer feedback. Dates assume classes begin Monday, August 23, 2027; confirm against the Registrar's calendar before distributing.
+:::
+
+| WK | Dates | Seminar (Mon) / Studio (Wed) | Readings | Reading Response | Assignment |
+|:--|:------|:----------------------|:--------------|:------|:---------------|
+| 1 | Aug 23 / Aug 25 | **Orientation and Background:** science's relationship to the public; the STEMAP model; course goals | Syllabus; STEMAP impact overview; Ambassador orientation info | | |
+| 2 | Aug 30 / Sep 1 | **Beyond the Deficit Model:** the Ambassador approach and other models of science communication training | Nadkarni et al. (2019) | Week 2 | |
+| 3 | Sep 6 / Sep 8 | **Labor Day (no seminar).** Studio: **Connect I**, impact identities | [Instructor to select] | Week 3 | Impact identity statement assigned |
+| 4 | Sep 13 / Sep 15 | **Connect II:** choosing a focal community group; one-on-one meetings | [Instructor to select] | Week 4 | Focal-group memo assigned |
+| 5 | Sep 20 / Sep 22 | **Immerse I:** relationship-building, trust, reciprocity, and ethics | [Instructor to select] | Week 5 | Immersion report assigned |
+| 6 | Sep 27 / Sep 29 | **Immerse II:** identifying, researching, and contacting a partner organization | Weber et al. (2021) | Week 6 | |
+| 7 | Oct 4 / Oct 6 | **Immerse III:** fieldwork and partner check-ins; sharing what we are learning | [Instructor to select] | Week 7 | |
+| 8 | Oct 11 / Oct 13 | **FALL BREAK** | | | |
+| 9 | Oct 18 / Oct 20 | **Design I (3-hr workshop):** relationship and learning objectives; brainstorming from group goals | [Instructor to select] | Week 9 | Engagement proposal assigned |
+| 10 | Oct 25 / Oct 27 | **Design II:** planning activities; peer feedback on proposal drafts | [Instructor to select] | Week 10 | Proposal draft due for review |
+| 11 | Nov 1 / Nov 3 | **Engage I (3-hr workshop):** research-backed science communication methods and skills | Staus et al. (2025) | Week 11 | Final proposal due |
+| 12 | Nov 8 / Nov 10 | **Engage II:** rehearsal; materials review with instructor or STEMAP staff | [Instructor to select] | Week 12 | Implementation window opens |
+| 13 | Nov 15 / Nov 17 | **Evaluate:** self-evaluation and observer rubrics; evaluation methods and contexts | [Instructor to select] | Week 13 | Evaluation and reflection assigned |
+| 14 | Nov 22 / Nov 24 | **Engagement debriefs.** Wednesday is an asynchronous work session before Thanksgiving break | | | Implementation complete |
+| 15 | Nov 29 / Dec 1 | **Reflect I:** analyzing evaluation results; what to change next time | [Instructor to select] | Week 15 | Reflection paper due |
+| 16 | Dec 6 / Dec 8 | **Reflect II:** closing symposium; feedback on the course and the program | | | Newsletter article due; closing presentation |
