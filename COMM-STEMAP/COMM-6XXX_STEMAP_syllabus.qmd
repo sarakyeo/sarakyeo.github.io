@@ -1,11 +1,16 @@
 ---
 title: "COMM 6XXX: Public Engagement with Science"
-subtitle: "The STEM Ambassador Approach"
-author: |
+subtitle:  |
+  The STEM Ambassador approach\
   [day], [time], [room]\
   [semester], University of Utah, 3 credits\
   Professor: Dr. Sara K. Yeo\
   Email: sara.yeo@utah.edu@utah.edu\
+# author: |
+#   [day], [time], [room]\
+#   [semester], University of Utah, 3 credits\
+#   Professor: Dr. Sara K. Yeo\
+#   Email: sara.yeo@utah.edu@utah.edu\
 format:
   pdf:
     toc: false
