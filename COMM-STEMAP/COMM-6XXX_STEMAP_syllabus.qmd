@@ -2,12 +2,10 @@
 title: "COMM 6XXX: Public Engagement with Science"
 subtitle: "The STEM Ambassador Approach"
 author: |
-  Seminar: Mondays, [time], [room]\
-  Studio: Wednesdays, [time], [room]\
-  Fall 2027, University of Utah, 3 credits\
-  Professor: [Instructor name]\
-  Email: [instructor]@utah.edu\
-  Virtual Office Hours: By appointment
+  [day], [time], [room]\
+  [semester], University of Utah, 3 credits\
+  Professor: Dr. Sara K. Yeo\
+  Email: sara.yeo@utah.edu@utah.edu\
 format:
   pdf:
     toc: false
@@ -19,18 +17,19 @@ format:
 
 ## Course Outline
 
-This graduate seminar and practicum trains students to design, carry out, and evaluate relationship-based public engagement with science (PES). It is built on the STEM Ambassador Program (STEMAP), founded in 2016 at the University of Utah by Dr. Nalini Nadkarni with National Science Foundation funding. Students work as Ambassadors: they use their research, interests, and backgrounds to form an "impact identity," choose a community group with shared values, build a relationship with that group, and engage it in a venue where the group already gathers, such as a library, shelter, or senior center. No prior science communication coursework is required. The course is open to graduate students in any discipline, and the target enrollment is a cohort of 10 to 25, matching STEMAP's cohort size.
+This graduate seminar and practicum trains graduate students to design, carry out, and evaluate relationship-based public engagement with science (PES). It is built on the STEM Ambassador Program (STEMAP), which was founded in 2016 at the University of Utah by Dr. Nalini Nadkarni with support from the National Science Foundation. Students serve as Ambassadors and use their research, interests, and backgrounds to form an "impact identity," choose a community group with shared values, build a relationship with that group, and engage with members in a venue where the group already gathers. No prior science communication coursework is required. The course is open to graduate students in any discipline. 
+<!-- target enrollment is a cohort of 10 to 25, matching STEMAP's cohort size -->
 
-The goal of this course is to give you a critical framework for evaluating science communication research and hands-on experience in the full cycle of a community engagement project, from first conversation to final reflection.
+The goal of this course is to give you a critical framework for evaluating science communication research and hands-on experience in the full cycle of a public engagement project, from first conversation to final reflection.
 
 Key topics include:
 
   * Science's relationship to the public, and the move from deficit-model outreach to dialogue
-  * The Ambassador approach and its research base
+  * The Ambassador approach and its basis in empirical research
   * Building your impact identity and selecting a focal community group
   * Relationship-building, trust, reciprocity, and ethics in community partnerships
   * Setting relationship and learning goals for an engagement event
-  * Research-backed science communication methods and skill-building
+  * Research-based science communication methods and skill-building
   * Evaluating engagement with self-evaluation and observer rubrics
   * Reflecting on practice, and communicating your work to others
 
@@ -56,10 +55,11 @@ There is no required textbook. All readings are provided as PDF documents on Can
 
   * Nadkarni, N. M., et al. (2019). Beyond the deficit model: The Ambassador approach to public engagement. *BioScience, 69*(4), 305-313.
   * Weber, C., Allen, S., & Nadkarni, N. M. (2021). Scaling training to support scientists to engage with the public in non-traditional venues. *JCOM, 20*(04), N02.
+  * Simis, M. J., Madden, H., Cacciatore, M. A., & Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? Public Understanding of Science, 25(4), 400–414.
   * Staus, N. L., Risien, J., & Cho, H. (2025). Scientists' views about relationship-based science communication strategies. *JCOM, 24*(01), N03.
   * STEMAP program materials, including the STEMAP website (<https://stemap.utah.edu/>), the STEMAP impact overview, and the Ambassador orientation information.
 
-Additional weekly readings on science communication, community partnership, and evaluation are marked "[Instructor to select]" in the schedule and will be posted on Canvas.
+Additional weekly readings on science communication, community partnership, and evaluation are listed in the schedule.
 
 ## Technology Requirements
 
@@ -69,63 +69,52 @@ To ensure that you have full access to the course, you will need:
   * An Internet browser compatible with Canvas. Announcements, assignments, readings, and rubrics will be posted there. If you need help with Canvas, visit the Canvas Getting Started Guide for Students.
   * Your University email account, and a way to contact community partners by phone or email.
   * Word-processing and presentation software (Microsoft Office or Google Workspace), and a camera or phone for documenting your event, with the permissions described under Course Policies.
-  * Reliable transportation to your partner's venue, or an alternative approved by your instructor, such as a virtual event.
-
-::: {.callout-note}
-You are expected to know how to take a screenshot with your computer. A photo of your laptop or computer screen taken with your mobile device is not a screenshot.
-:::
+  * Reliable transportation to your community partner's venue, or an alternative approved by your instructor, such as a virtual event.
 
 ## Course Requirements
 
-Course grades will be based on the following (500 points total). The course follows the STEMAP Ambassador sequence, so most assignments build on one another and make up one engagement project.
+Course grades will be based on the following (500 points total). The course follows the STEMAP Ambassador sequence, so assignments generally build on one another and make up one engagement project.
 
 | Assignment | Points |
 |:--------------------------------------------------------|-----:|
-| Seminar and studio participation | 50 |
-| Weekly reading responses (12 × 5 pts) | 60 |
-| Impact identity statement and focal-group memo | 40 |
+| Seminar participation | 50 |
+| Weekly reading responses (12 × 5 pts) | 80 |
+| Impact identity statement and focal-group memo | 50 |
 | Immersion report | 60 |
 | Engagement proposal | 90 |
 | Engagement implementation | 80 |
-| Evaluation and reflection (paper and closing presentation) | 70 |
-| STEMAP newsletter article (~850 words) | 50 |
+| Evaluation and reflection (paper and presentation) | 90 |
 | **Total** | **500** |
 
 ### Participation
 
-Attendance is required for seminars and studio sessions, including the two three-hour Design and Engage workshops. Notify your instructor at least one week in advance if you must miss a session. Out of respect for your instructor, peers, and community partners, please arrive on time.
+Attendance is required for seminars, including the two three-hour Design and Engage workshops. Notify your instructor at least one week in advance if you must miss a session. Out of respect for your instructor and peers, please arrive on time.
 
 ### Reading Responses
 
-Short responses to the assigned readings are submitted on Canvas. They are graded on engagement with the reading, not length. No make-up or late responses will be accepted.
-
-::: {.callout-important}
-Reading responses open on Tuesday at 12:00 am and are due the following Monday at 8:00 am, before seminar.
-:::
+Short responses to the assigned readings are submitted on Canvas. They are graded on engagement with the reading, not length. No make-up or late responses will be accepted. Responses are due 24 hours prior to each course meeting.
 
 ### Impact Identity Statement and Focal-Group Memo
 
-You reflect on your research, interests, and experiences to define your impact identity and desired societal impact. After a one-on-one meeting with your instructor or STEMAP staff, you name a community group whose interests and values overlap with yours and explain why.
+You will reflect on your research, interests, and experiences to define your impact identity and desired societal impact (impact identity statement). After a one-on-one meeting with your instructor or STEMAP staff, you will identify a community group whose interests and values overlap with yours and explain why (focal-group memo).
 
 ### Immersion Report
 
-You identify, research, and contact a specific organization, establish a point of contact, and spend time learning about the goals and interests of its members. The report documents what you learned and how it will shape your event.
+You will identify, research, and contact a specific organization, establish a point of contact, and spend time learning about the goals and interests of its members. The report documents what you learned and how it will shape your event.
 
 ### Engagement Proposal
 
-You propose a public engagement event tailored to your focal group, with relationship and learning objectives, planned activities, and an evaluation plan. You review materials with your instructor or STEMAP staff and incorporate their feedback, and you give and receive peer feedback in studio.
+You will propose a public engagement event tailored to your focal group, with relationship and learning objectives, planned activities, and an evaluation plan. You will then review materials with your instructor and incorporate their feedback. We will also engage in peer review and you will give and receive peer feedback during this process.
 
 ### Engagement Implementation
 
-You carry out at least one engagement project in the venue where your group naturally gathers. You are graded on preparation, materials, facilitation, and responsiveness to the group, using the program's self-evaluation and observer rubrics.
+You are expected to carry out at least one engagement project in the venue where your group naturally gathers. You will be graded on preparation, materials, facilitation, and responsiveness to the group, using the program's self-evaluation and observer rubrics.
 
 ### Evaluation and Reflection
 
-You complete the self-evaluation rubric, review the independent observer's evaluation, and write a reflection paper on your event, your relationship with the group, and what you would change. You present a summary at the closing symposium.
+You will complete the self-evaluation rubric, review the independent observer's evaluation, and write a reflection paper on your event (~850 words), your relationship with the group, and what you would change. This will be presented by each student at the end of the semester.
 
-### STEMAP Newsletter Article
-
-You write an article of about 850 words summarizing your experience with community relationship-building and your engagement project, suitable for the STEMAP newsletter.
+Your reflection paper should summarize your experience with community relationship-building and your engagement project.
 
 Due dates for all assignments are listed on Canvas. Late assignments will not be accepted without prior arrangement with your instructor, because your community partner is counting on you.
 
@@ -163,7 +152,7 @@ By enrolling in this course, you agree to:
 3. meet the requirements of this course; and
 4. abide by the course policies outlined in the syllabus.
 
-This list represents the minimal standards to make the course a productive learning space. Your final grade may be reduced by 1% each time you engage in disruptive and/or disrespectful behaviors.
+This list represents the minimal standards to make the course a productive learning space. 
 
 ### Email Policy
 
@@ -190,11 +179,7 @@ Communication allows us to engage with others and broaden our perspectives. How 
 
 ### Community Partner Conduct
 
-Your community partner is a collaborator, not a research site. You represent the University and STEMAP when you contact and visit a group. Respect the group's norms, schedule, and venue rules, listen before you present, and be open to changing your plans based on what you learn. Tell your instructor immediately if a partner raises a concern or if anything at an event makes you uncomfortable or unsafe. Obtain permission from the venue and participants before taking photos or recording. Use the STEMAP logo on engagement materials only with permission from STEMAP staff.
-
-### Use of Student Materials
-
-STEMAP may occasionally use Ambassador engagement materials (e.g., photos, presentations, flyers, sticky notes from brainstorming) as examples in future trainings or other program communications, such as conferences and peer-reviewed publications. Contact your instructor or STEMAP staff if you would prefer that your materials not be used.
+Your community partner is a collaborator, not a research site. You represent the University when you contact and visit a group. Respect the group's norms, schedule, and venue rules, listen before you present, and be open to changing your plans based on what you learn. Tell your instructor immediately if a partner raises a concern or if anything at an event makes you uncomfortable or unsafe. Obtain permission from the venue and participants before taking photos or recording.
 
 ### Academic Misconduct
 
@@ -228,21 +213,21 @@ The schedule is tentative. Any changes will be announced on Canvas. Your continu
 The schedule below lists the dates on which assignments will be assigned. Due dates for these can be found on Canvas. Weekly seminars (Monday) cover readings and concepts; studio sessions (Wednesday) are workshops, one-on-one meetings, and peer feedback. Dates assume classes begin Monday, August 23, 2027; confirm against the Registrar's calendar before distributing.
 :::
 
-| WK | Dates | Seminar (Mon) / Studio (Wed) | Readings | Reading Response | Assignment |
-|:--|:------|:----------------------|:--------------|:------|:---------------|
-| 1 | Aug 23 / Aug 25 | **Orientation and Background:** science's relationship to the public; the STEMAP model; course goals | Syllabus; STEMAP impact overview; Ambassador orientation info | | |
-| 2 | Aug 30 / Sep 1 | **Beyond the Deficit Model:** the Ambassador approach and other models of science communication training | Nadkarni et al. (2019) | Week 2 | |
-| 3 | Sep 6 / Sep 8 | **Labor Day (no seminar).** Studio: **Connect I**, impact identities | [Instructor to select] | Week 3 | Impact identity statement assigned |
-| 4 | Sep 13 / Sep 15 | **Connect II:** choosing a focal community group; one-on-one meetings | [Instructor to select] | Week 4 | Focal-group memo assigned |
-| 5 | Sep 20 / Sep 22 | **Immerse I:** relationship-building, trust, reciprocity, and ethics | [Instructor to select] | Week 5 | Immersion report assigned |
-| 6 | Sep 27 / Sep 29 | **Immerse II:** identifying, researching, and contacting a partner organization | Weber et al. (2021) | Week 6 | |
-| 7 | Oct 4 / Oct 6 | **Immerse III:** fieldwork and partner check-ins; sharing what we are learning | [Instructor to select] | Week 7 | |
-| 8 | Oct 11 / Oct 13 | **FALL BREAK** | | | |
-| 9 | Oct 18 / Oct 20 | **Design I (3-hr workshop):** relationship and learning objectives; brainstorming from group goals | [Instructor to select] | Week 9 | Engagement proposal assigned |
-| 10 | Oct 25 / Oct 27 | **Design II:** planning activities; peer feedback on proposal drafts | [Instructor to select] | Week 10 | Proposal draft due for review |
-| 11 | Nov 1 / Nov 3 | **Engage I (3-hr workshop):** research-backed science communication methods and skills | Staus et al. (2025) | Week 11 | Final proposal due |
-| 12 | Nov 8 / Nov 10 | **Engage II:** rehearsal; materials review with instructor or STEMAP staff | [Instructor to select] | Week 12 | Implementation window opens |
-| 13 | Nov 15 / Nov 17 | **Evaluate:** self-evaluation and observer rubrics; evaluation methods and contexts | [Instructor to select] | Week 13 | Evaluation and reflection assigned |
-| 14 | Nov 22 / Nov 24 | **Engagement debriefs.** Wednesday is an asynchronous work session before Thanksgiving break | | | Implementation complete |
-| 15 | Nov 29 / Dec 1 | **Reflect I:** analyzing evaluation results; what to change next time | [Instructor to select] | Week 15 | Reflection paper due |
-| 16 | Dec 6 / Dec 8 | **Reflect II:** closing symposium; feedback on the course and the program | | | Newsletter article due; closing presentation |
+| WK | Date (Mon) | Session (3 hours: seminar, then studio) | Readings | Reading Response | Assignment |
+|:--|:------|:----------------------------|:--------------|:------|:---------------|
+| 1 | Aug 23 | **Orientation and Background.** Seminar: science's relationship to the public; the STEMAP model. Studio: course goals and cohort introductions | Syllabus; STEMAP impact overview; Ambassador orientation info | | |
+| 2 | Aug 30 | **Beyond the Deficit Model.** Seminar: the Ambassador approach and other models of science communication training. Studio: discuss barriers to engagement for scientists | Nadkarni et al. (2019) | Week 2 | |
+| 3 | Sep 6 | **Labor Day (no class).** Complete the reading and begin your impact identity statement on your own; one-on-one meetings with the instructor or STEMAP staff open this week | [TBD] | Week 3 | Impact identity statement assigned |
+| 4 | Sep 13 | **Connect.** Seminar: impact identities. Studio: peer feedback on statements; choosing a focal community group | [TBD] | Week 4 | Focal-group memo assigned |
+| 5 | Sep 20 | **Immerse I.** Seminar: relationship-building, trust, reciprocity, and ethics. Studio: drafting your first outreach to a partner organization | [TBD] | Week 5 | Immersion report assigned |
+| 6 | Sep 27 | **Immerse II.** Seminar: identifying, researching, and contacting a partner organization. Studio: outreach plans and role-play | Weber et al. (2021) | Week 6 | |
+| 7 | Oct 4 | **Immerse III.** Seminar: fieldwork check-ins. Studio: sharing what we are learning about our groups | [TBD] | Week 7 | |
+| 8 | Oct 11 | **FALL BREAK** | | | |
+| 9 | Oct 18 | **Design (3-hr workshop).** Relationship and learning objectives; brainstorming events from group goals | [TBD] | Week 9 | Immersion report due; engagement proposal assigned |
+| 10 | Oct 25 | **Design II.** Seminar: planning activities. Studio: peer feedback on proposal drafts; staff meetings | [TBD] | Week 10 | Proposal draft due for review |
+| 11 | Nov 1 | **Engage (3-hr workshop).** Research-backed science communication methods and skill practice | Staus et al. (2025) | Week 11 | Final proposal due |
+| 12 | Nov 8 | **Engage II.** Seminar: general considerations for planning engagement. Studio: rehearsal and materials review | [TBD] | Week 12 | Implementation window opens |
+| 13 | Nov 15 | **Evaluate.** Seminar: evaluation methods and contexts. Studio: self-evaluation and observer rubrics | [TBD] | Week 13 | Evaluation and reflection assigned |
+| 14 | Nov 22 | **Engagement debriefs.** Class meets; Thanksgiving break begins Thursday | | | Implementation complete |
+| 15 | Nov 29 | **Reflect I.** Seminar: analyzing evaluation results. Studio: what to change next time | [TBD] | Week 15 | Reflection paper due |
+| 16 | Dec 6 | **Reflect II.** Closing symposium; feedback on the course and the program | | | Final presentation due |
